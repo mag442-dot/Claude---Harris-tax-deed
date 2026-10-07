@@ -1,0 +1,22 @@
+{
+  "property_id": "harris-2026-08-0-queensland",
+  "sale_id": "harris-2026-08-04",
+  "county": "Harris",
+  "address": "0 Queensland, Houston TX 77028",
+  "account_no": null,
+  "cause_no": null,
+  "intake": {
+    "opening_bid": {
+      "value": 9363.0,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-07"
+    },
+    "scout_notes": {
+      "value": "CALIBRACION venta 04/08/2026 (ya ocurrida); lote vacio 6750 sqft; cierre real $12000; valor tasador $32906; fuente: Harris_TaxDeed_Terrenos_Vendidos_2026 (PropertyOnion)",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-07"
+    }
+  }
+}

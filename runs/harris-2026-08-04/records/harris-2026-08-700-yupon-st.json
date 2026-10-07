@@ -1,0 +1,22 @@
+{
+  "property_id": "harris-2026-08-700-yupon-st",
+  "sale_id": "harris-2026-08-04",
+  "county": "Harris",
+  "address": "700 Yupon St, Baytown TX 77520",
+  "account_no": null,
+  "cause_no": null,
+  "intake": {
+    "opening_bid": {
+      "value": 4500.0,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-07"
+    },
+    "scout_notes": {
+      "value": "CALIBRACION venta 04/08/2026 (ya ocurrida); lote vacio 5000 sqft; cierre real $21000; valor tasador $30000; fuente: Harris_TaxDeed_Terrenos_Vendidos_2026 (PropertyOnion)",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-07"
+    }
+  }
+}

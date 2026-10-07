@@ -1,0 +1,22 @@
+{
+  "property_id": "harris-2026-08-0-forest-trail-dr",
+  "sale_id": "harris-2026-08-04",
+  "county": "Harris",
+  "address": "0 Forest Trail Dr, Channelview TX 77530",
+  "account_no": null,
+  "cause_no": null,
+  "intake": {
+    "opening_bid": {
+      "value": 17428.0,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-07"
+    },
+    "scout_notes": {
+      "value": "CALIBRACION venta 04/08/2026 (ya ocurrida); lote vacio 7088 sqft; cierre real $17427; valor tasador $42953; fuente: Harris_TaxDeed_Terrenos_Vendidos_2026 (PropertyOnion)",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-07"
+    }
+  }
+}

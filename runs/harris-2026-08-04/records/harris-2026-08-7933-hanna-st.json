@@ -1,0 +1,22 @@
+{
+  "property_id": "harris-2026-08-7933-hanna-st",
+  "sale_id": "harris-2026-08-04",
+  "county": "Harris",
+  "address": "7933 Hanna St, Houston TX 77028",
+  "account_no": null,
+  "cause_no": null,
+  "intake": {
+    "opening_bid": {
+      "value": 22425.0,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-07"
+    },
+    "scout_notes": {
+      "value": "CALIBRACION venta 04/08/2026 (ya ocurrida); lote vacio 4199 sqft; cierre real $42000; valor tasador $65592; fuente: Harris_TaxDeed_Terrenos_Vendidos_2026 (PropertyOnion)",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-07"
+    }
+  }
+}

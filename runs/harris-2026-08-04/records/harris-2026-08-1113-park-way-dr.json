@@ -1,0 +1,22 @@
+{
+  "property_id": "harris-2026-08-1113-park-way-dr",
+  "sale_id": "harris-2026-08-04",
+  "county": "Harris",
+  "address": "1113 Park Way Dr, Baytown TX 77520",
+  "account_no": null,
+  "cause_no": null,
+  "intake": {
+    "opening_bid": {
+      "value": 3856.0,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-07"
+    },
+    "scout_notes": {
+      "value": "CALIBRACION venta 04/08/2026 (ya ocurrida); lote vacio 7072 sqft; cierre real $15000; valor tasador $42856; fuente: Harris_TaxDeed_Terrenos_Vendidos_2026 (PropertyOnion)",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-07"
+    }
+  }
+}
