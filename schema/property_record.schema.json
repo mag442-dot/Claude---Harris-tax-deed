@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Tax deed property record",
+  "description": "One JSON file per property per sale. Every agent writes ONLY its own section. Every factual claim is a 'finding' with a status and a source.",
+  "type": "object",
+  "required": ["property_id", "sale_id", "county", "address", "intake"],
+  "properties": {
+    "property_id": {"type": "string", "description": "Stable slug, e.g. harris-2026-11-irby"},
+    "sale_id": {"type": "string", "description": "e.g. harris-2026-11-03"},
+    "county": {"type": "string", "enum": ["Harris", "Montgomery"]},
+    "address": {"type": "string"},
+    "account_no": {"type": ["string", "null"], "description": "HCAD / MCAD account number"},
+    "cause_no": {"type": ["string", "null"]},
+    "intake": {"$ref": "#/$defs/section"},
+    "tax": {"$ref": "#/$defs/section"},
+    "title": {"$ref": "#/$defs/section"},
+    "legal": {"$ref": "#/$defs/section"},
+    "physical": {"$ref": "#/$defs/section"},
+    "valuation": {"$ref": "#/$defs/section"},
+    "human_blockers": {
+      "type": "array",
+      "description": "Things only the human can unblock (captcha, login, site visit, certified check).",
+      "items": {
+        "type": "object",
+        "required": ["agent", "item", "why"],
+        "properties": {
+          "agent": {"type": "string"},
+          "item": {"type": "string"},
+          "why": {"type": "string"}
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": ["decision", "rationale"],
+      "properties": {
+        "decision": {
+          "type": "string",
+          "enum": ["COMPRA FUERTE", "CONDICIONAL", "VIGILAR", "BAJA", "DESCARTADA", "SOLO CERCA DE LA APERTURA", "NO PARA DUPLEX"]
+        },
+        "rationale": {"type": "string"},
+        "bid_ceiling": {"type": ["number", "null"], "description": "Max bid (USD) before costs; null if not computed"},
+        "all_in_cost_estimate": {"type": ["number", "null"]},
+        "contradictions": {"type": "array", "items": {"type": "string"}},
+        "conditions_to_buy": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  },
+  "$defs": {
+    "finding": {
+      "type": "object",
+      "required": ["value", "status"],
+      "properties": {
+        "value": {},
+        "status": {
+          "type": "string",
+          "enum": ["verified", "inferred", "unknown", "blocked"],
+          "description": "verified = read directly from a primary source; inferred = deduced (state how in note); unknown = looked, found nothing; blocked = could not access (captcha/login) -> add a human_blocker"
+        },
+        "source": {"type": ["string", "null"], "description": "URL, doc id, or instrument number"},
+        "retrieved_at": {"type": ["string", "null"], "description": "ISO date"},
+        "note": {"type": ["string", "null"]}
+      }
+    },
+    "section": {
+      "type": "object",
+      "additionalProperties": {"$ref": "#/$defs/finding"}
+    }
+  }
+}

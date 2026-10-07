@@ -1,0 +1,40 @@
+{
+  "property_id": "harris-2099-01-sample-lot",
+  "sale_id": "harris-2099-01-01",
+  "county": "Harris",
+  "address": "123 EJEMPLO ST (DATOS FICTICIOS DE PRUEBA)",
+  "account_no": "0000000000000",
+  "cause_no": "000000000",
+  "intake": {
+    "opening_bid": {"value": 10000, "status": "verified", "source": "https://example.invalid/sale-list", "retrieved_at": "2099-01-01"},
+    "status": {"value": "active", "status": "verified", "source": "https://example.invalid/sale-list", "retrieved_at": "2099-01-01"}
+  },
+  "tax": {
+    "buyer_tax_tail_estimate": {"value": 5000, "status": "inferred", "source": null, "note": "post-judgment 2 yrs + current-year estimate"},
+    "homestead": {"value": "no", "status": "blocked", "source": null, "note": "HCAD captcha"}
+  },
+  "title": {
+    "title_summary": {"value": "Sin gravámenes visibles en el índice", "status": "inferred", "source": null}
+  },
+  "legal": {
+    "legal_summary": {"value": "Demandado único servido por publicación", "status": "inferred", "source": null}
+  },
+  "physical": {
+    "fema_effective_zone": {"value": "X", "status": "verified", "source": "https://example.invalid/nfhl", "retrieved_at": "2099-01-01"},
+    "duplex_feasibility": {"value": "conditional", "status": "inferred", "source": null}
+  },
+  "valuation": {
+    "value_base": {"value": 60000, "status": "inferred", "source": null}
+  },
+  "human_blockers": [
+    {"agent": "tax", "item": "Resolver captcha en search.hcad.org para leer exenciones", "why": "Confirmar homestead"}
+  ],
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Registro de prueba.",
+    "bid_ceiling": null,
+    "all_in_cost_estimate": null,
+    "contradictions": [],
+    "conditions_to_buy": ["Confirmar homestead", "Leer demandados en District Clerk"]
+  }
+}
