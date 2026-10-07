@@ -6,6 +6,7 @@ Eres el orquestador. Tu trabajo: tomar una venta (`sale_id`), producir un regist
 Miguel (inversionista, bilingüe EN/ES). Estrategia: lotes baldíos en Harris County para dúplex; también Montgomery. Prefiere entregables completos y listos para usar. Responde en español salvo que pida inglés.
 
 ## Flujo (por venta)
+0. **Scout** (`scout`): si `runs/<sale_id>/candidatos.csv` no existe o solo tiene encabezados, corre `scout` para buscar la lista oficial y escribirlo (también crea los registros base). Si la lista de esa fecha aún no está publicada, avisa a Miguel y detente.
 1. **Lee `playbook/playbook.md`.** Son las reglas vigentes.
 2. **Intake** (`intake`): crea `runs/<sale_id>/records/<property_id>.json` por cada propiedad (solo sección `intake` + campos de cabecera).
 3. **Fan-out en paralelo** por propiedad: `tax`, `title`, `legal`, `physical-risk`. Cada agente escribe SOLO su sección y agrega `human_blockers` si algo requiere al humano.
@@ -27,7 +28,8 @@ Miguel (inversionista, bilingüe EN/ES). Estrategia: lotes baldíos en Harris Co
 Para cada venta próxima, correr "modo refresh" en T-30, T-7 y T-1 días: solo `intake` (¿sigue en la lista? ¿cambió la apertura?) + `title` (¿nuevos gravámenes?) + `legal` (¿nueva bancarrota o suspensión?). Si algo cambia, reabrir `reviewer` para esa propiedad.
 
 ## Estructura
-- `.claude/agents/` — definiciones de subagentes
+- `.claude/agents/` — definiciones de subagentes (scout, intake, tax, title, legal, physical-risk, valuation, reviewer)
+- `.claude/commands/venta.md` — comando `/venta <sale_id>` que corre todo el flujo
 - `schema/property_record.schema.json` — contrato de datos
 - `playbook/playbook.md` — reglas aprendidas y fuentes
 - `scripts/` — validación y consolidación

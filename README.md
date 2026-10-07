@@ -12,9 +12,10 @@ Orquestador + 6 agentes especialistas + revisor independiente. Cada propiedad pr
    {"target_margin_pct": 25, "exit_strategy": "duplex"}
    ```
    (`exit_strategy`: `duplex` o `resale`. Ajusta el margen objetivo: es tu decisión.)
-2. Llena `runs/harris-2026-11-03/candidatos.csv` (una fila por propiedad; ver encabezados).
-3. Abre Claude Code aquí y escribe:
-   > Corre el flujo completo para la venta `harris-2026-11-03` (condado Harris). Mi lista de candidatos está en `runs/harris-2026-11-03/candidatos.csv`.
+2. Abre Claude Code aquí (en tu computadora, con acceso a hctax.net) y escribe:
+   > /venta harris-2026-11-03
+   El agente `scout` busca la lista oficial, llena `candidatos.csv` y crea los registros; después corre todo el flujo. Si ya tienes tu propia lista, ponla en `runs/harris-2026-11-03/candidatos.csv` y el scout se salta.
+   Nota: la lista de la venta del 3-nov solo existirá cuando el condado la publique.
 4. Claude seguirá `CLAUDE.md`: intake → tax/title/legal/physical-risk en paralelo → valuation → reviewer → validar → CSV.
 5. Importa `runs/harris-2026-11-03/consolidado.csv` en una pestaña nueva del Sheet.
 6. Revisa la columna **Pendiente de Miguel** (captcha HCAD, login District Clerk, visitas, PACER).
@@ -30,7 +31,7 @@ Pide: "Modo refresh para `harris-2026-11-03`". Solo revisa estatus, gravámenes 
 ## Estructura
 ```
 CLAUDE.md                          Orquestador (flujo y reglas)
-.claude/agents/                    intake, tax, title, legal, physical-risk, valuation, reviewer
+.claude/agents/                    scout, intake, tax, title, legal, physical-risk, valuation, reviewer
 schema/property_record.schema.json Contrato de datos
 playbook/playbook.md               Reglas aprendidas y fuentes (actualízalo)
 scripts/validate_record.py         Valida esquema + reglas de evidencia
