@@ -25,15 +25,23 @@ Miguel (inversionista, bilingüe EN/ES). Estrategia: lotes baldíos en Harris Co
 - Usa scripts en `scripts/` para validar y consolidar; no armes el CSV a mano.
 
 ## Entrega a Drive (siempre al terminar una venta)
-Miguel quiere ver el resultado como **Google Sheet en su Drive**, no solo en el repo.
-1. Genera la tabla: `python3 scripts/build_analysis.py runs/<sale_id>` (agrega `--include-homestead` solo si Miguel lo pide) y luego `python3 scripts/sheet_export.py runs/<sale_id>` → `runs/<sale_id>/analisis_sheet.csv`.
-2. Carga las herramientas de Google Drive (`ToolSearch` con `select:mcp__Google_Drive__create_file,mcp__Google_Drive__search_files`). Si no hay conector de Drive en la sesión, dilo y entrega el CSV por `SendUserFile`; no lo des por subido.
-3. Carpeta destino: **"Real estate - Claude"** (id `1dSbre-G9rUS6yjgiYEfT_94nB9Sh9Dn7`). Si no la encuentras por id, búscala por nombre.
-4. Título: `Harris_TaxDeed_Analisis_<yyyy-mm-dd de la venta>_<sin_homestead|todas>`. Busca antes por título: si ya existe, crea el nuevo con sufijo `_v<N>` o la fecha de hoy, y avisa cuál reemplaza (no hay herramienta para sobrescribir contenido; solo mueve a la papelera el viejo si Miguel lo confirma).
-5. Sube con `create_file`: `contentMimeType: "text/csv"` y `textContent` = contenido EXACTO de `analisis_sheet.csv` (se convierte solo en Google Sheet). Copia el CSV tal cual, sin resumir ni reordenar.
-6. Verifica: `read_file_content` del Sheet creado; el rango debe ser filas = registros + 1 y 15 columnas. Google quita ceros iniciales de `account_no`; por eso la primera columna `property_id` es texto y es la que manda.
-7. Entrega el link (`viewUrl`) a Miguel.
-Para más de ~150 filas el texto es demasiado largo para pegarlo de una vez: sube por tandas de ~100 filas en Sheets separados (`_parte1`, `_parte2`) o pídele a Miguel que importe el CSV del repo.
+Miguel quiere ver el resultado como **Google Sheet en su Drive**, no solo en el repo. Hay dos vías; usa la primera si está disponible.
+
+**Vía A (preferida): webhook al Sheet de Miguel** — actualiza el MISMO Sheet, sin copiar texto a mano.
+1. Si existen las variables de entorno `SHEET_WEBHOOK_URL` y `SHEET_WEBHOOK_TOKEN` (configuración en `apps_script/README.md`), corre:
+   `python3 scripts/push_to_sheet.py runs/<sale_id>`
+   (reconstruye `analisis.csv` y `analisis_sheet.csv` y reemplaza la pestaña `Analisis`; agrega `--include-homestead` a `build_analysis.py` solo si Miguel lo pide).
+2. Debe imprimir `OK: N filas escritas`. Si falla, reporta el error exacto (token, red, `script.google.com` sin permitir) y pasa a la vía B.
+3. Dile a Miguel que el resultado está en su Sheet (pestaña `Analisis`) y entrega el resumen.
+
+**Vía B (respaldo): conector de Google Drive** — crea un Sheet nuevo cada vez.
+1. `python3 scripts/build_analysis.py runs/<sale_id>` y `python3 scripts/sheet_export.py runs/<sale_id>` → `runs/<sale_id>/analisis_sheet.csv`.
+2. Carga las herramientas (`ToolSearch` con `select:mcp__Google_Drive__create_file,mcp__Google_Drive__search_files`). Si no hay conector de Drive en la sesión, dilo y entrega el CSV por `SendUserFile`; no lo des por subido.
+3. Carpeta destino: **"Real estate - Claude"** (id `1dSbre-G9rUS6yjgiYEfT_94nB9Sh9Dn7`).
+4. Título: `Harris_TaxDeed_Analisis_<yyyy-mm-dd de la venta>_<sin_homestead|todas>`. Busca antes por título; si existe, crea el nuevo con sufijo `_v<N>` y avisa cuál reemplaza (solo mueve el viejo a la papelera si Miguel lo confirma).
+5. `create_file` con `contentMimeType: "text/csv"` y `textContent` = contenido EXACTO de `analisis_sheet.csv` (se convierte en Google Sheet). Copia tal cual, sin resumir ni reordenar.
+6. Verifica con `read_file_content`: filas = registros + 1, 15 columnas. Google quita ceros iniciales de `account_no`; manda la columna `property_id` (texto).
+7. Entrega el `viewUrl`. Más de ~150 filas: sube por tandas (`_parte1`, `_parte2`) o usa la vía A.
 
 ## Re-verificación programada
 Para cada venta próxima, correr "modo refresh" en T-30, T-7 y T-1 días: solo `intake` (¿sigue en la lista? ¿cambió la apertura?) + `title` (¿nuevos gravámenes?) + `legal` (¿nueva bancarrota o suspensión?). Si algo cambia, reabrir `reviewer` para esa propiedad.
@@ -43,6 +51,7 @@ Para cada venta próxima, correr "modo refresh" en T-30, T-7 y T-1 días: solo `
 - `.claude/commands/venta.md` — comando `/venta <sale_id>` que corre todo el flujo
 - `schema/property_record.schema.json` — contrato de datos
 - `playbook/playbook.md` — reglas aprendidas y fuentes
-- `scripts/` — validación y consolidación
+- `scripts/` — validación, consolidación, enriquecimiento (HCAD, FEMA, Clerk) y `push_to_sheet.py`
+- `apps_script/` — `Code.gs` + README para conectar el repo con el Google Sheet
 - `runs/<sale_id>/records/` — un JSON por propiedad
 - `runs/<sale_id>/consolidado.csv` — salida para el Sheet
