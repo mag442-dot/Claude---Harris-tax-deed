@@ -126,5 +126,62 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (9911 DEANWOOD ST, HOUSTON, TX, 77040), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (9911 DEANWOOD ST, HOUSTON, TX, 77040), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2025-395202 | 10/03/2025 | A/J | Grantor: WOODLAND TRAILS NORTH COMMUNITY IMPROVEMENT ASSOCIATION Grantee: BLANKENBURG JEFFREY L | Comment: SEE INSTRUMENT",
+        "RP-2018-526087 | 11/21/2018 | REL | Grantor: WELLS FARGO BANK Grantor: WELLS FARGO BANK TEXAS NA Grantee: BLANKENBURG JEFFREY L | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BLANKENBURG JEFFREY')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BLANKENBURG JEFFREY')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "A/J": 1,
+        "REL": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BLANKENBURG JEFFREY')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "2 instruments as grantee, 0 as grantor (index, name 'BLANKENBURG JEFFREY')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BLANKENBURG JEFFREY')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

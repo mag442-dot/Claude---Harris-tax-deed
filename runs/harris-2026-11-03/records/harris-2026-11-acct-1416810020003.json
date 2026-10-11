@@ -132,5 +132,68 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (24818 COLONY MEADOW TRL, HUFFMAN, TX, 77336), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (24818 COLONY MEADOW TRL, HUFFMAN, TX, 77336), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2024-321614 | 09/03/2024 | LIEN | Grantor: O'NEAL MICHAEL R Grantor: WOODLAND LAKES OWNERS ASSOCIATION INC Grantee: KBRG PROPERTY SOLUTIONS LLC | Desc: WOODLAND LAKES Sec: 4 Lot: 3 Block: 2 Related Docs",
+        "RP-2023-265796 | 07/17/2023 | NOTICE | Grantor: GUILLORY VELISHIA Grantor: KBRG PROPERTY SOLUTIONS LLC Grantee: GUILLORY VELISHIA Grantee: KBRG PROPERTY SOLUTIONS LLC | Desc: WOODLAND LAKES Sec: 4 Lot: 3 Block: 2 Related Docs",
+        "RP-2023-265794 | 07/17/2023 | W/D | Grantor: GUILLORY VELISHIA Grantee: KBRG PROPERTY SOLUTIONS LLC | Desc: WOODLAND LAKES Sec: 4 Lot: 3 Block: 2 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'KBRG PROPERTY')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2023-265796 | 07/17/2023 | NOTICE | Grantor: GUILLORY VELISHIA Grantor: KBRG PROPERTY SOLUTIONS LLC Grantee: GUILLORY VELISHIA Grantee: KBRG PROPERTY SOLUTIONS LLC | Desc: WOODLAND LAKES Sec: 4 Lot: 3 Block: 2 Related Docs",
+        "RP-2023-265795 | 07/17/2023 | D/T | Grantor: KBRG PROPERTY SOLUTIONS LLC Grantee: INSPIRE HOME LOANS INC Trustee: MITCHELL JAMES E III | Desc: WOODLAND LAKES Sec: 4 Lot: 3 Block: 2"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'KBRG PROPERTY')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "LIEN": 1,
+        "NOTICE": 2,
+        "W/D": 1,
+        "D/T": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'KBRG PROPERTY')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "3 instruments as grantee, 2 as grantor (index, name 'KBRG PROPERTY')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'KBRG PROPERTY')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

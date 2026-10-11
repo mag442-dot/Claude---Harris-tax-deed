@@ -132,5 +132,70 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (5826 AVE C, CROSBY, TX, 77532), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (5826 AVE C, CROSBY, TX, 77532), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-9742 | 01/09/2026 | A/J | Grantor: NEW AGE CONSTRUCTION LLC Grantee: SHANKLIN-ALLEN MIA | Comment: SEE INSTRUMENT",
+        "RP-2023-33854 | 01/31/2023 | LIEN | Grantor: AUTUMN GLEN HOUSTON HOMEOWNERS ASSOCIATION INC Grantor: TOLLETT LUKE P Grantee: SHANKLIN-ALLEN MIA JOHNEE Grantee: SHANKLINALLEN MIA JOHNEE | Desc: AUTUMN GLEN Sec: 1 Lot: 9 Block: 3 Related Docs",
+        "RP-2018-581887 | 12/31/2018 | L AFFT | Grantor: NEW AGE CONSTRUCTION LLC Grantee: SHANKLIN-ALLEN MIA J | Desc: AUTUMN GLEN Sec: 1 Lot: 9 Block: 3",
+        "RP-2018-103899 | 03/13/2018 | W/D | Grantor: ALLEN GORDON Grantor: ALLEN GORDON SCOTT Grantor: ALLEN MIA SHANKLIN Grantor: SHANKLIN-ALLEN MIA JOHNEE Grantee: SHANKLIN-ALLEN MIA JOHNEE | Desc: AUTUMN GLEN Sec: 1 Lot: 9 Block: 3"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SHANKLIN-ALLEN MIA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2018-103900 | 03/13/2018 | D/T | Grantor: SHANKLIN-ALLEN MIA JOHNEE Grantee: DITECH FINANCIAL LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK THOMAS E JR | Desc: AUTUMN GLEN Sec: 1 Lot: 9 Block: 3 Related Docs",
+        "RP-2018-103899 | 03/13/2018 | W/D | Grantor: ALLEN GORDON Grantor: ALLEN GORDON SCOTT Grantor: ALLEN MIA SHANKLIN Grantor: SHANKLIN-ALLEN MIA JOHNEE Grantee: SHANKLIN-ALLEN MIA JOHNEE | Desc: AUTUMN GLEN Sec: 1 Lot: 9 Block: 3"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SHANKLIN-ALLEN MIA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "A/J": 1,
+        "LIEN": 1,
+        "L AFFT": 1,
+        "W/D": 2,
+        "D/T": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SHANKLIN-ALLEN MIA')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "4 instruments as grantee, 2 as grantor (index, name 'SHANKLIN-ALLEN MIA')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SHANKLIN-ALLEN MIA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

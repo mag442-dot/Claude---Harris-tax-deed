@@ -126,5 +126,93 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (6100 CLARKSON LN, HOUSTON, TX, 77055), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (6100 CLARKSON LN, HOUSTON, TX, 77055), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2023-6081 | 01/06/2023 | REL | Grantor: ALLEGIANCE BANK Grantee: 6100 CLARKSON LP | Desc: WHARTON JAMES Abstract: 0871 Related Docs",
+        "RP-2017-182044 | 04/28/2017 | W/D | Grantor: RICHARDSON HERBERT B Grantee: 6100 CLARKSON LP | Desc: WHARTON J Abstract: 871 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search '6100 CLARKSON')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2022-362607 | 07/14/2022 | ASSGN | Grantor: 6100 CLARKSON LP Grantor: SPRING BRANCH ISD Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON J Abstract: 871",
+        "RP-2022-361592 | 07/13/2022 | ASSGN | Grantor: 6100 CLARKSON LP Grantor: SPRING BRANCH ISD Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON J Abstract: 871 Tract: 11A",
+        "RP-2022-308211 | 06/14/2022 | ASSGN | Grantor: 6100 CLARKSON GP LLC Grantor: 6100 CLARKSON LP Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: PORT OF HOUSTON AUTHORITY Grantor: RICHARDSON HERBERT B Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON J",
+        "RP-2022-270538 | 05/24/2022 | CONT | Grantor: 6100 CLARKSON GP LLC Grantor: 6100 CLARKSON LP Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON J Abstract: 871",
+        "RP-2022-270515 | 05/24/2022 | CONT | Grantor: 6100 CLARKSON GP LLC Grantor: 6100 CLARKSON LP Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON J Abstract: 871 Tract: 11A",
+        "RP-2021-605313 | 10/20/2021 | ASSGN | Grantor: 6100 CLARKSON GP LLC Grantor: 6100 CLARKSON LP Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: PORT OF HOUSTON AUTHORITY Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON J Abstract: 0871 Tract: 11B-11F",
+        "RP-2021-588123 | 10/12/2021 | ASSGN | Grantor: 6100 CLARKSON GP LLC Grantor: SPRING BRANCH ISD Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON J Abstract: 0871 Tract: 11A",
+        "RP-2021-588087 | 10/12/2021 | ASSGN | Grantor: 6100 CLARKSON GP LLC Grantor: SPRING BRANCH ISD Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON J Abstract: 0871 Tract: 11B-11F",
+        "RP-2021-560519 | 09/29/2021 | CONT | Grantor: 6100 CLARKSON GP LLC Grantor: 6100 CLARKSON L P Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON J Abstract: 871 Related Docs",
+        "RP-2021-560436 | 09/29/2021 | CONT | Grantor: 6100 CLARKSON GP LLC Grantor: 6100 CLARKSON LP Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON JAMES Abstract: 0871 Tract: 11A",
+        "RP-2020-421328 | 09/09/2020 | ASSGN | Grantor: 6100 CLARKSON GP LLC Grantor: 6100 CLARKSON LP Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: PORT OF HOUSTON AUTHORITY Grantor: RICHARDSON HERBERT B Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON J Abstract: 871",
+        "RP-2020-403382 | 08/31/2020 | ASSGN | Grantor: 6100 CLARKSON LP Grantor: SPRING BRANCH ISD Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON J Abstract: 871",
+        "RP-2020-374088 | 08/14/2020 | CONT | Grantor: 6100 CLARKSON GP LLC Grantor: 6100 CLARKSON LP Grantee: RESOLUTION FINANCE LLC | Desc: THE JAMES WHARTON SURVEY Abstract: 871",
+        "RP-2020-259037 | 06/17/2020 | ASSGN | Grantor: 6100 CLARKSON LP Grantor: SPRING BRANCH ISD Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON J Abstract: 871",
+        "RP-2020-25554 | 01/21/2020 | ASSGN | Grantor: 6100 CLARKSON LP Grantor: SPRING BRANCH ISD Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON J Abstract: 871",
+        "RP-2020-25345 | 01/17/2020 | ASSGN | Grantor: 6100 CLARKSON GP LLC Grantor: 6100 CLARKSON LP Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: PORT OF HOUSTON AUTHORITY Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON J Abstract: 871 Tract: 11A",
+        "RP-2020-141704 | 03/31/2020 | CONT | Grantor: 6100 CLARKSON GP LLC Grantor: 6100 CLARKSON LP Grantee: RESOLUTION FINANCE LLC | Desc: JAMES WHARTON Tract: 11A Related Docs",
+        "RP-2019-567993 | 12/26/2019 | CONT | Grantor: 6100 CLARKSON GP LLC Grantor: 6100 CLARKSON LP Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON JAMES Abstract: 0871 Tract: 11A Related Docs",
+        "RP-2019-517991 | 11/21/2019 | ASSGN | Grantor: 6100 CLARKSON GP LLC Grantor: 6100 CLARKSON LP Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: PORT OF HOUSTON AUTHORITY Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON J Abstract: 871",
+        "RP-2019-513652 | 11/20/2019 | ASSGN | Grantor: 6100 CLARKSON LP Grantor: SPRING BRANCH ISD Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON J Abstract: 871 Tract: 11B-11F",
+        "RP-2019-479596 | 10/29/2019 | CONT | Grantor: 6100 CLARKSON GP LLC Grantor: 6100 CLARKSON LP Grantee: RESOLUTION FINANCE LLC | Desc: WHARTON J Abstract: 871 Related Docs",
+        "RP-2017-178730 | 04/26/2017 | D/T | Grantor: 6100 CLARKSON GP LLC Grantor: 6100 CLARKSON LP Grantee: ALLEGIANCE BANK Trustee: VITULLI RAMON A III | Desc: WHARTON J Abstract: 871 Related Docs",
+        "RP-2016-510513 | 11/11/2016 | REL | Grantor: 6100 CLARKSON L P Grantor: DANIELS DOUGLAS A Grantor: RICHARDSON HERBERT B Grantor: STASSI MATT Grantee: GRANT MELVIN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-510512 | 11/11/2016 | REL | Grantor: 6100 CLARKSON L P Grantor: DANIELS DOUGLAS A Grantor: RICHARDSON HERBERT B Grantor: STASSI MATT Grantee: GRANT MELVIN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-510511 | 11/11/2016 | REL | Grantor: 6100 CLARKSON L P Grantor: DANIELS DOUGLAS A Grantor: RICHARDSON HERBERT B Grantor: STASSI MATT Grantee: GRANT MELVIN | Desc: WHARTON J Abstract: 871 Related Docs",
+        "RP-2016-39112 | 01/29/2016 | L/P | Grantor: 6100 CLARKSON LP Grantor: BEACON BUILDERS INVESTMENT GROUP LLC Grantor: BEACON BUILDERS LLC Grantor: RICHARDSON HERBERT B Grantor: STASSI MATT Grantee: BEACON BUILDERS INVESTMENT GROUP LLC Grantee: BEACON BUILDERS LLC Grantee: GRANT MELVIN Grantee: GUILFORD MELVINE D Grantee: PETERSON MELVINE G Grantee: REGINA GRANT PETERSON TRUST | Desc: WHARTON J Abstract: 871 Tract: 11E"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search '6100 CLARKSON')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "REL": 4,
+        "W/D": 1,
+        "ASSGN": 13,
+        "CONT": 8,
+        "D/T": 1,
+        "L/P": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search '6100 CLARKSON')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "2 instruments as grantee, 26 as grantor (index, name '6100 CLARKSON')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search '6100 CLARKSON')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

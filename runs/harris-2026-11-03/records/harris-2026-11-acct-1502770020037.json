@@ -132,5 +132,76 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (1438 GREEN HIGHLAND DR, SPRING, TX, 77373), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (1438 GREEN HIGHLAND DR, SPRING, TX, 77373), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-281044 | 07/13/2026 | A/J | Grantor: HIGHLAND HOMEOWNERS ASSOCIATION INC Grantee: WYNN DEVONDA | Comment: SEE INSTRUMENT",
+        "RP-2026-22452 | 01/21/2026 | L/P | Grantor: HIGHLAND GLEN HOMEOWNERS ASSOCIATION INC Grantee: WYNN DEVONDA | Desc: HIGHLAND GLEN Sec: 5 Lot: 37 Block: 2",
+        "RP-2020-636764 | 12/28/2020 | NOTICE | Grantor: ANGLIA HOMES L P Grantor: GG TWIN ASSETS GP LLC Grantor: WYNN DEVONDA Grantee: ANGLIA HOMES L P Grantee: GG TWIN ASSETS GP LLC Grantee: WYNN DEVONDA | Desc: HIGHLAND GLEN Sec: 5 Lot: 37 Block: 2",
+        "RP-2020-636762 | 12/28/2020 | W/D | Grantor: ANGLIA HOMES LP Grantor: G G TWIN ASSETS GP LLC Grantee: WYNN DEVONDA | Desc: HIGHLAND GLEN Sec: 5 Lot: 37 Block: 2"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'WYNN DEVONDA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-39213 | 02/03/2026 | FI STM | Grantor: WYNN DEVONDA Grantee: ISPC | Desc: HIGHLAND GLEN Sec: 5 Lot: 37 Block: 2 Related Docs",
+        "RP-2025-301864 | 08/01/2025 | D/T | Grantor: WYNN DEVONDA Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: RAMIREZ RICHARD A | Desc: HIGHLAND GLEN Sec: 5 Lot: 37 Block: 2",
+        "RP-2024-196498 | 05/31/2024 | D/T | Grantor: WYNN DEVONDA Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: RAMIREZ RICHARD A | Desc: HIGHLAND GLEN Sec: 5 Lot: 37 Block: 2",
+        "RP-2023-367313 | 09/25/2023 | D/T | Grantor: WYNN DEVONDA Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: RAMIREZ RICHARD A | Desc: HIGHLAND GLEN Sec: 5 Lot: 37 Block: 2",
+        "RP-2021-150425 | 03/23/2021 | FI STM | Grantor: WYNN DEVONDA Grantee: ISPC | Desc: HIGHLAND GLEN Sec: 5 Lot: 37 Block: 2 Related Docs",
+        "RP-2020-636764 | 12/28/2020 | NOTICE | Grantor: ANGLIA HOMES L P Grantor: GG TWIN ASSETS GP LLC Grantor: WYNN DEVONDA Grantee: ANGLIA HOMES L P Grantee: GG TWIN ASSETS GP LLC Grantee: WYNN DEVONDA | Desc: HIGHLAND GLEN Sec: 5 Lot: 37 Block: 2",
+        "RP-2020-636763 | 12/28/2020 | D/T | Grantor: WYNN DEVONDA Grantee: AMCAP MORTGAGE LTD Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: RAMIREZ RICHARD A | Desc: HIGHLAND GLEN Sec: 5 Lot: 37 Block: 2 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'WYNN DEVONDA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "A/J": 1,
+        "L/P": 1,
+        "NOTICE": 2,
+        "W/D": 1,
+        "FI STM": 2,
+        "D/T": 4
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'WYNN DEVONDA')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "4 instruments as grantee, 7 as grantor (index, name 'WYNN DEVONDA')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'WYNN DEVONDA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

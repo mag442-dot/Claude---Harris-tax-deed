@@ -132,5 +132,84 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (16834 GOODFIELD CT, SPRING, TX, 77379), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (16834 GOODFIELD CT, SPRING, TX, 77379), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2024-290237 | 08/09/2024 | A/J | Grantor: COLONY CREEK VILLAGE COMMUNITY ASSOCIATION INC Grantee: CARTER HERMAN | Comment: SEE INSTRUMENT",
+        "RP-2021-502138 | 09/01/2021 | W/D | Grantor: BYRD JAMES D Grantee: CARTER HERMAN | Desc: CHAMPION WOODS AT COLONY CREEK VILLAGE Lot: 36 Block: 1 Related Docs",
+        "RP-2021-502137 | 09/01/2021 | NOTICE | Grantor: BYRD JAMES D Grantor: CARTER HERMAN Grantee: BYRD JAMES D Grantee: CARTER HERMAN | Desc: CHAMPION WOODS AT COLONY CREEK VILLAGE Lot: 36 Block: 1",
+        "RP-2019-371766 | 08/23/2019 | AFFT | Grantor: CARTER DANIELLE Grantor: GOODLY DEBRA Grantor: WASHINGTON ARTISHA Grantee: CARTER HERMAN EST | Desc: SCOTT TERRACE Sec: 4 Lot: 3 Block: 15",
+        "RP-2018-301333 | 07/05/2018 | W/D | Grantor: SCHUBERT TRACY Grantee: CARTER HERMAN Grantee: CARTER RIKKI | Desc: OAKS OF DEVONSHIRE Sec: 1 Lot: 18 Block: 5",
+        "RP-2016-473601 | 10/19/2016 | L/P | Grantor: CITY OF HOUSTON Grantee: CAPITAL ONE BANK Grantee: CARTER HERMAN Grantee: CARTER KENNETH Grantee: CARTER LEE O JR Grantee: CARTER LEE OTIS Grantee: CARTER MARY M Grantee: CITY OF HOUSTON Grantee: HARRIS COUNTY Grantee: HOUSTON INDEPENDENT SCHOOL DISTRICT Grantee: SUBER EVELYN K | Desc: NORTH SHADYDALE SUBDIVISION Lot: 1-2 Block: 8"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CARTER HERMAN')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2025-264117 | 07/09/2025 | MODIF | Grantor: CARTER CHRISTINA DANIELLE Grantor: CARTER HERMAN Grantor: CARTER HERMAN GOLDBYS III Grantor: DOBBIN CHRISTINA Grantee: FREEDOM MORTGAGE CORPORATION Grantee: MORTGAGE CONNECT L P | Desc: CHAMPION WOODS AT COLONY CREEK VILLAGE Lot: 36 Block: 1 Related Docs",
+        "RP-2025-264116 | 07/09/2025 | D/T | Grantor: CARTER CHRISTINA DANIELLE Grantor: CARTER HERMAN Grantor: CARTER HERMAN GOLDBYS III Grantor: DOBBIN CHRISTINA Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: RAMIREZ RICHARD A | Desc: CHAMPION WOODS AT COLONY CREEK VILLAGE Lot: 36 Block: 1 Related Docs",
+        "RP-2024-144703 | 04/23/2024 | T/L | Grantor: CARTER HERMAN G III Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2023-433181 | 11/14/2023 | MTG | Grantor: CARTER HERMAN Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SEE INSTRUMENT | Desc: CHAMPION WOODS AT COLONY CREEK VILLAGE Lot: 36 Block: 1",
+        "RP-2022-449650 | 09/06/2022 | MTG | Grantor: CARTER HERMAN Grantor: DOBBIN CHRISTINA Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SEE INSTRUMENT | Desc: CHAMPION WOODS AT COLONY CREEK VILLAGE Lot: 36 Block: 1",
+        "RP-2021-502139 | 09/01/2021 | D/T | Grantor: CARTER HERMAN Grantee: AMCAP MORTGAGE LTD Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: RAMIREZ RICHARD A | Desc: CHAMPION WOODS AT COLONY CREEK VILLAGE Lot: 36 Block: 1 Related Docs",
+        "RP-2021-502137 | 09/01/2021 | NOTICE | Grantor: BYRD JAMES D Grantor: CARTER HERMAN Grantee: BYRD JAMES D Grantee: CARTER HERMAN | Desc: CHAMPION WOODS AT COLONY CREEK VILLAGE Lot: 36 Block: 1",
+        "RP-2020-116352 | 03/13/2020 | ORDER | Grantor: CAPITAL ONE BANK Grantor: CARTER HERMAN Grantor: CARTER KENNETH Grantor: CARTER LEO O JR Grantor: CARTER MARY M Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY TEXAS Grantor: SUBER EVELYN K CARTER Grantee: CITY OF HOUSTON | Desc: NORTH SHADYDALE Lot: 1-2 Block: 8",
+        "RP-2018-301334 | 07/05/2018 | D/T | Grantor: CARTER HERMAN Grantor: CARTER RIKKI Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: NEW PENN FINANCIAL LLC Trustee: KARLSENG ROBERT C | Desc: OAKS OF DEVONSHIRE Sec: 1 Lot: 18 Block: 5"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CARTER HERMAN')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "A/J": 1,
+        "W/D": 2,
+        "NOTICE": 2,
+        "AFFT": 1,
+        "L/P": 1,
+        "MODIF": 1,
+        "D/T": 3,
+        "T/L": 1,
+        "MTG": 2,
+        "ORDER": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CARTER HERMAN')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "6 instruments as grantee, 9 as grantor (index, name 'CARTER HERMAN')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CARTER HERMAN')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

@@ -126,5 +126,65 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (0.2 PCT ANNUAL CHANCE FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (7103 ADDICKS CLODINE RD, HOUSTON, TX, 77083), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (7103 ADDICKS CLODINE RD, HOUSTON, TX, 77083), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2024-13607 | 01/12/2024 | LIEN | Grantor: MISSION BEND NO 5 HOMEOWNERS ASSOCIATION INC Grantor: TOLLETT LUKE P Grantee: MCLEAN SHIRLEY | Desc: MISSION BEND Sec: 6 Lot: 20 Block: 24",
+        "RP-2023-260319 | 07/12/2023 | W/D | Grantor: ABDULLA AMINA Grantor: ABDULLA SULEMAN Grantee: MCLEAN ENRIQUE Grantee: MCLEAN SHIRLEY A | Desc: MISSION BEND Sec: 6 Lot: 20 Block: 24"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MCLEAN SHIRLEY')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2024-72237 | 03/01/2024 | ORDER | Grantor: MCLEAN SHIRLEY Grantee: COUNTRYWIDE HOME LOANS INC Grantee: LOANCARE LLC | Desc: MISSION BEND Sec: 6 Lot: 20 Block: 24"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MCLEAN SHIRLEY')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "LIEN": 1,
+        "W/D": 1,
+        "ORDER": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MCLEAN SHIRLEY')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "2 instruments as grantee, 1 as grantor (index, name 'MCLEAN SHIRLEY')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MCLEAN SHIRLEY')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

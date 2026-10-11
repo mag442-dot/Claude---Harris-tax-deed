@@ -126,5 +126,77 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (9803 MOCKING BIRD HILL LN, HOUSTON, TX, 77080), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (9803 MOCKING BIRD HILL LN, HOUSTON, TX, 77080), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-355014 | 08/31/2026 | A/J | Grantor: AVONDALE SQUARE RESIDENTIAL COMMUNITY INC Grantee: SIEVERT CHRISTINA O | Comment: SEE INSTRUMENT",
+        "RP-2025-25786 | 01/24/2025 | REL | Grantor: BBVA USA Grantor: COMPASS BANK Grantor: PNC BANK NATIONAL ASSOCIATION Grantee: SIEVERT CHARLES M JR Grantee: SIEVERT CHRISTINA | Desc: TANGLEWOOD Sec: 9 Lot: 13 Block: 39 Related Docs",
+        "RP-2025-199568 | 05/27/2025 | LIEN | Grantor: AVONDALE SQUARE RESIDENTIAL COMMUNITY INC Grantee: SIEVERT CHRISTINA O | Desc: AVONDALE SQUARE SUBDIVISION Lot: 53 Block: 2 Related Docs",
+        "RP-2024-475600 | 12/20/2024 | NOTICE | Grantor: CHARLES M SIEVERT JR EXEMPT BYPASS TRUST Grantor: MCDERMOTT HALLIE BAUER Grantor: MCDERMOTT JOHN JOSEPH Grantor: SIEVERT CHRISTINA O Grantee: CHARLES M SIEVERT JR EXEMPT BYPASS TRUST Grantee: MCDERMOTT HALLIE BAUER Grantee: MCDERMOTT JOHN JOSEPH Grantee: SIEVERT CHRISTINA O | Desc: TANGLEWOOD Sec: 9 Lot: 13 Block: 39 Related Docs",
+        "RP-2023-106638 | 03/28/2023 | NOTICE | Grantor: NAVARRO MARIA J Grantor: SIEVERT CHRISTINA O Grantor: VELASCO XORGE ALONSO Grantee: NAVARRO MARIA J Grantee: SIEVERT CHRISTINA O Grantee: VELASCO XORGE ALONSO | Desc: AVONDALE SQUARE SUBDIVISION Lot: 53 Block: 2 Related Docs",
+        "RP-2023-106636 | 03/28/2023 | W/D | Grantor: NAVARRO MARIA J Grantor: VELASCO XORGE ALONSO Grantee: SIEVERT CHRISTINA O | Desc: AVONDALE SQWUARE SUBDIVISION Lot: 53 Block: 2",
+        "RP-2022-427347 | 08/22/2022 | W/D | Grantor: SIEVERT CHARLES M JR EST Grantor: SIEVERT CHRISTINA O Grantee: CHARLES M SIEVERT JR EXEMPT BYPASS TRUST Grantee: SIEVERT CHRISTINA O TRE | Desc: TANGLEWOOD Sec: 9 Lot: 13 Block: 39"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SIEVERT CHRISTINA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2024-475600 | 12/20/2024 | NOTICE | Grantor: CHARLES M SIEVERT JR EXEMPT BYPASS TRUST Grantor: MCDERMOTT HALLIE BAUER Grantor: MCDERMOTT JOHN JOSEPH Grantor: SIEVERT CHRISTINA O Grantee: CHARLES M SIEVERT JR EXEMPT BYPASS TRUST Grantee: MCDERMOTT HALLIE BAUER Grantee: MCDERMOTT JOHN JOSEPH Grantee: SIEVERT CHRISTINA O | Desc: TANGLEWOOD Sec: 9 Lot: 13 Block: 39 Related Docs",
+        "RP-2024-475598 | 12/20/2024 | W/D | Grantor: CHARLES M SIEVERT JR EXEMPT BYPASS TRUST Grantor: SIEVERT CHRISTINA O Grantee: MCDERMOTT HALLIE BAUER Grantee: MCDERMOTT JOHN JOSEPH | Desc: TANGLEWOOD Sec: 9 Lot: 13 Block: 39",
+        "RP-2023-106638 | 03/28/2023 | NOTICE | Grantor: NAVARRO MARIA J Grantor: SIEVERT CHRISTINA O Grantor: VELASCO XORGE ALONSO Grantee: NAVARRO MARIA J Grantee: SIEVERT CHRISTINA O Grantee: VELASCO XORGE ALONSO | Desc: AVONDALE SQUARE SUBDIVISION Lot: 53 Block: 2 Related Docs",
+        "RP-2023-106637 | 03/28/2023 | D/T | Grantor: SIEVERT CHRISTINA O Grantee: PNC BANK N A Trustee: MARINOSCI LAW GROUP P C | Desc: AVONDALE SQUARE SUBDIVISION Lot: 53 Block: 2",
+        "RP-2022-427347 | 08/22/2022 | W/D | Grantor: SIEVERT CHARLES M JR EST Grantor: SIEVERT CHRISTINA O Grantee: CHARLES M SIEVERT JR EXEMPT BYPASS TRUST Grantee: SIEVERT CHRISTINA O TRE | Desc: TANGLEWOOD Sec: 9 Lot: 13 Block: 39"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SIEVERT CHRISTINA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "A/J": 1,
+        "REL": 1,
+        "LIEN": 1,
+        "NOTICE": 4,
+        "W/D": 4,
+        "D/T": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SIEVERT CHRISTINA')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "7 instruments as grantee, 5 as grantor (index, name 'SIEVERT CHRISTINA')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SIEVERT CHRISTINA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

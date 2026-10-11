@@ -126,5 +126,82 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (504 W FORK, WEBSTER, TX, 77598), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (504 W FORK, WEBSTER, TX, 77598), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2023-9079 | 01/10/2023 | LIEN | Grantor: EDGEWATER COMMUNITY ASSOCIATION INC Grantor: TOLLETT LUKE P Grantee: HOLMES MARJORIE ANN Grantee: HOLMES VICTOR LAMONT | Desc: EDGEWATER Sec: 3 Lot: 11 Block: 1 Related Docs",
+        "RP-2023-258172 | 07/11/2023 | A/J | Grantor: NEXTGEAR CAPITAL INC Grantee: HOLMES VICTOR LAMONT Grantee: VICTOR L HOLMES INVESTMENTS LLC Grantee: VIP ELITE | Comment: SEE INSTRUMENT",
+        "RP-2021-478882 | 08/23/2021 | REL | Grantor: HOMETOWN LENDERS INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: HOLMES VICTOR LAMONT | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-473991 | 08/19/2021 | W/D | Grantor: HOLMES VICTOR LAMONT Grantee: HOLMES MARJORIE ANN Grantee: HOLMES VICTOR LAMONT | Desc: EDGEWATER Sec: 3 Lot: 11 Block: 1",
+        "RP-2020-447080 | 09/22/2020 | W/D | Grantor: HADAD ALICIA L Grantor: HADAD ANIBAL R Grantee: HOLMES VICTOR LAMONT | Desc: EDGEWATER Sec: 3 Lot: 11 Block: 1",
+        "RP-2020-343982 | 07/31/2020 | REL | Grantor: CROOK LYDIA MARIE Grantee: HOLMES VICTOR | Comment: SEE INSTRUMENT",
+        "RP-2018-243670 | 06/01/2018 | NOTICE | Grantor: ASHTON HOUSTON RESIDENTIAL LLC Grantor: HOLMES VICTOR B Grantor: MCCANLESS-HOLMES DIANE Grantee: ASHTON HOUSTON RESIDENTIAL LLC Grantee: HOLMES VICTOR B Grantee: MCCANLESS-HOLMES DIANE | Desc: CYPRESS CREEK LAKES Sec: 24 Lot: 26 Block: 1",
+        "RP-2018-243668 | 06/01/2018 | W/D | Grantor: ASHTON HOUSTON RESIDENTIAL L L C Grantee: HOLMES VICTOR Grantee: MCCANLESS- HOLMES NANCY | Desc: CYPRESS CREEK LAKES Sec: 24 Lot: 26 Block: 1"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HOLMES VICTOR')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2024-115224 | 04/02/2024 | MTG | Grantor: HOLMES MARJORIE ANN Grantor: HOLMES VICTOR LAMONT Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SEE INSTRUMENT | Desc: EDGEWATER Sec: 3 Lot: 11 Block: 1",
+        "RP-2023-208902 | 06/07/2023 | MTG | Grantor: HOLMES MARJORIE ANN Grantor: HOLMES VICTOR LAMONT Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SEE INSTRUMENT | Desc: EDGEWATER Sec: 3 Lot: 11 Block: 1",
+        "RP-2021-473992 | 08/19/2021 | D/T | Grantor: HOLMES MARJORIE ANN Grantor: HOLMES VICTOR LAMONT Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: PLANET HOME LENDING LLC Trustee: POLUNSKY ALLAN B | Desc: EDGEWATER Sec: 3 Lot: 11 Block: 1 Related Docs",
+        "RP-2021-473991 | 08/19/2021 | W/D | Grantor: HOLMES VICTOR LAMONT Grantee: HOLMES MARJORIE ANN Grantee: HOLMES VICTOR LAMONT | Desc: EDGEWATER Sec: 3 Lot: 11 Block: 1",
+        "RP-2020-447081 | 09/22/2020 | D/T | Grantor: HOLMES VICTOR LAMONT Grantee: HOMETOWN LENDERS INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: PEIRSONPATTERSON LLP | Desc: EDGEWATER Sec: 3 Lot: 11 Block: 1 Related Docs",
+        "RP-2018-243670 | 06/01/2018 | NOTICE | Grantor: ASHTON HOUSTON RESIDENTIAL LLC Grantor: HOLMES VICTOR B Grantor: MCCANLESS-HOLMES DIANE Grantee: ASHTON HOUSTON RESIDENTIAL LLC Grantee: HOLMES VICTOR B Grantee: MCCANLESS-HOLMES DIANE | Desc: CYPRESS CREEK LAKES Sec: 24 Lot: 26 Block: 1",
+        "RP-2018-243669 | 06/01/2018 | D/T | Grantor: HOLMES VICTOR BERNARD Grantor: MCCANLESS-HOLMES NANCY DIANE Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: QUICKEN LOANS INC Trustee: SILVA JASON | Desc: CYPRESS CREEK LAKES Sec: 24 Lot: 26 Block: 1",
+        "RP-2018-120634 | 03/22/2018 | W/D | Grantor: HOLMES DIANE Grantor: HOLMES DLANE M Grantor: HOLMES VICTOR Grantor: HOLMES VICTOR B Grantor: MCCANLESS-HOLMES NANCY DIANE Grantee: KELLY BRIAN K | Desc: HEARTHSTONE GREEN Sec: 1 Lot: 20 Block: 2"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HOLMES VICTOR')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "LIEN": 1,
+        "A/J": 1,
+        "REL": 2,
+        "W/D": 5,
+        "NOTICE": 2,
+        "MTG": 2,
+        "D/T": 3
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HOLMES VICTOR')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "8 instruments as grantee, 8 as grantor (index, name 'HOLMES VICTOR')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HOLMES VICTOR')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

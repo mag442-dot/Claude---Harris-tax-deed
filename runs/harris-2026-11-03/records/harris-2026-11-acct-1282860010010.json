@@ -126,5 +126,96 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "AE",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (11963 KEYSTONE SPRING WAY, HOUSTON, TX, 77089), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (11963 KEYSTONE SPRING WAY, HOUSTON, TX, 77089), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": true,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-348315 | 08/26/2026 | W/D | Grantor: ZOOM CASA SP SPV LLC Grantee: TRUONG HONG T Grantee: TRUONG KHANH | Desc: PHEASANT RUN Sec: 2 Lot: 27 Block: 4",
+        "RP-2026-302125 | 07/27/2026 | REL | Grantor: 12898 BELLAIRE LLC Grantor: HSIAO CHUNG JI Grantee: TRUONG HONG THUY Grantee: TRUONG KHANH | Desc: LANDMARK SQUARE AT BELLAIRE CONDOMINIUM Unit: 3 Related Docs",
+        "RP-2026-300350 | 07/24/2026 | NOTICE | Grantor: NGUYEN KEVIN Grantor: TRUONG HONG T Grantor: TRUONG KHANH Grantee: NGUYEN KEVIN Grantee: TRUONG HONG T Grantee: TRUONG KHANH | Desc: LANDMARK SQUARE AST BELLAIRE CONDOMINIUMS Unit: 3",
+        "RP-2026-297278 | 07/23/2026 | A/J | Grantor: C PL PROPERTY OWNERS ASSOCIATION INC Grantor: COLLEGE PLACE PROPERTY OWNERS ASSOCIATION Grantee: TRUONG KHANH J Grantee: TRUONG QUYNH-MAI N | Comment: SEE INSTRUMENT",
+        "RP-2025-311856 | 08/08/2025 | L/P | Grantor: C PL PROPERTY OWNERS ASSOCIATION INC Grantor: COLLEGE PLACE PROPERTY OWNERS ASSOCIATION Grantee: TRUONG KHANH J Grantee: TRUONG QUYNH-MAI N | Desc: VILLAGE OF COLLEGE PLACE Sec: 2 Lot: 10 Block: 1 Related Docs",
+        "RP-2025-258156 | 07/03/2025 | DEED | Grantor: TRUONG VINH Grantor: TRUONG VINH T Grantee: TRUONG KHANHHY VINH Grantee: TRUONG MINHHY VINH Grantee: TRUONG VINH Grantee: TRUONG VINH T Grantee: VU HANH M | Desc: PERKINSON W G Abstract: 623 Comment: 0.999",
+        "RP-2023-119124 | 04/04/2023 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: UNITED WHOLESALE MORTGAGE Grantee: NGUYEN NORA K Grantee: TRUONG KHANH P | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-496916 | 10/06/2022 | NOTICE | Grantor: ATKINS-KEETON CHRISTY S Grantor: KEETON REHN P Grantor: RUSSKELLER NATHAN A Grantor: TRUONG KHANH-NHI T Grantee: ATKINS-KEETON CHRISTY S Grantee: KEETON REHN P Grantee: RUSSKELLER NATHAN A Grantee: TRUONG KHANH-NHI T | Desc: EAGLE SPRINGS Sec: 7 Lot: 47 Block: 3",
+        "RP-2022-496914 | 10/06/2022 | W/D | Grantor: ATKINS-KEETON CHRISTY S Grantor: KEETON REHN P Grantee: RUSSKELLER NATHAN A Grantee: TRUONG KHANH-NHI T | Desc: EAGLE SPRINGS Sec: 7 Lot: 47 Block: 3 Related Docs",
+        "RP-2022-113712 | 03/03/2022 | NOTICE | Grantor: 12898 BELLAIRE LLC Grantor: TRUONG HONG THUY Grantor: TRUONG KHANH Grantee: 12898 BELLAIRE LLC Grantee: TRUONG HONG THUY Grantee: TRUONG KHANH | Desc: LANDMARK SQUARE AT BELLAIRE COMDOMINIUM Unit: 3 Related Docs",
+        "RP-2022-113710 | 03/03/2022 | W/D | Grantor: 12898 BELLAIRE LLC Grantee: TRUONG HONG THUY Grantee: TRUONG KHANH | Desc: LANDMARK SQUARE AT BELLAIRE CONDOMINIUM Unit: 3",
+        "RP-2019-273939 | 06/27/2019 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: TRUONG HONG T Grantee: TRUONG KHANH T | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-213657 | 05/22/2019 | REL | Grantor: TONG DANIEL Grantee: DOAN LOC Grantee: TRUONG KHANH T | Desc: HOUSTON HEIGHTS Block: 212 Related Docs",
+        "RP-2018-4813 | 01/03/2018 | D/T | Grantor: RANGEL JOSE GUADALUPE RODRIGUEZ Grantee: TRUONG KHANH THUY Trustee: BRADLEY KATHLEEN | Desc: HAWTHORNE PLACE SUBDIVISION Sec: 1 Block: 10 Related Docs",
+        "RP-2018-278944 | 06/22/2018 | W/D | Grantor: DE BOISBLANC C W Grantor: GOEKEN FRANCES M Grantee: NGUYEN NORA K Grantee: TRUONG KHANH P | Desc: WESTHVEN ESTATES Sec: 2 Lot: 321 Block: 12",
+        "RP-2018-208116 | 05/14/2018 | NOTICE | Grantor: NORWOOD HOMES INC Grantor: PARTNERS IN BUILDING L P Grantor: TRUONG KHANH Grantee: NORWOOD HOMES INC Grantee: PARTNERS IN BUILDING L P Grantee: TRUONG KHANH | Desc: STRATTON WOODS Lot: 22 Block: 1",
+        "RP-2018-208114 | 05/14/2018 | W/D | Grantor: NORWOOD HOMES INC Grantor: PARTNERS IN BUILDING L P Grantee: DINH HANH Grantee: TRUONG KHANH | Desc: STRATTON WOODS Lot: 22 Block: 1"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'TRUONG KHANH')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-348316 | 08/26/2026 | D/T | Grantor: TRUONG HONG T Grantor: TRUONG KHANH Grantee: LOANDEPOT.COM LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: PHEASANT RUN Sec: 2 Lot: 27 Block: 4",
+        "RP-2026-300350 | 07/24/2026 | NOTICE | Grantor: NGUYEN KEVIN Grantor: TRUONG HONG T Grantor: TRUONG KHANH Grantee: NGUYEN KEVIN Grantee: TRUONG HONG T Grantee: TRUONG KHANH | Desc: LANDMARK SQUARE AST BELLAIRE CONDOMINIUMS Unit: 3",
+        "RP-2026-300348 | 07/24/2026 | W/D | Grantor: TRUONG HONG THUY Grantor: TRUONG KHANH Grantee: NGUYEN-THACH KEVIN | Desc: LANDMARK SQUARE AT BELLAIRE CONDOMINIUM Unit: 3",
+        "RP-2024-289573 | 08/09/2024 | W/D | Grantor: LAM BINH THANH Grantor: TRUONG KHANHVY VY Grantee: NGO KIM Grantee: THAI VAN THEN THEN | Desc: BRAYS VILLAGE Sec: 7 Lot: 26 Block: 2",
+        "RP-2022-496916 | 10/06/2022 | NOTICE | Grantor: ATKINS-KEETON CHRISTY S Grantor: KEETON REHN P Grantor: RUSSKELLER NATHAN A Grantor: TRUONG KHANH-NHI T Grantee: ATKINS-KEETON CHRISTY S Grantee: KEETON REHN P Grantee: RUSSKELLER NATHAN A Grantee: TRUONG KHANH-NHI T | Desc: EAGLE SPRINGS Sec: 7 Lot: 47 Block: 3",
+        "RP-2022-496915 | 10/06/2022 | D/T | Grantor: RUSSKELLER NATHAN A Grantor: TRUONG KHANH-NHI T Grantee: GUARANTEED RATE INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: EAGLE SPRINGS Sec: 7 Lot: 47 Block: 3",
+        "RP-2022-113712 | 03/03/2022 | NOTICE | Grantor: 12898 BELLAIRE LLC Grantor: TRUONG HONG THUY Grantor: TRUONG KHANH Grantee: 12898 BELLAIRE LLC Grantee: TRUONG HONG THUY Grantee: TRUONG KHANH | Desc: LANDMARK SQUARE AT BELLAIRE COMDOMINIUM Unit: 3 Related Docs",
+        "RP-2022-113711 | 03/03/2022 | D/T | Grantor: TRUONG HONG THUY Grantor: TRUONG KHANH Grantee: 12898 BELLAIRE LLC Trustee: LANE BRENT A | Desc: LANDMARK SQUARE AT BELLAIRE CONDOMINIUM Unit: 3 Related Docs",
+        "RP-2019-417596 | 09/20/2019 | REL | Grantor: TRUONG KHANH THUY Grantee: RANGEL JOSE GUADALUPE RODRIGUEZ | Desc: HAWTHORNE PLACE Sec: 1 Lot: 181-182 Block: 10 Related Docs",
+        "RP-2018-278945 | 06/22/2018 | D/T | Grantor: NGUYEN NORA K Grantor: TRUONG KHANH P Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: UNITED WHOLESALE MORTGAGE Trustee: BLACK MANN AND GRAHAM LLP | Desc: WESTHAVEN ESTATES Sec: 2 Lot: 321 Block: 12 Related Docs",
+        "RP-2018-208116 | 05/14/2018 | NOTICE | Grantor: NORWOOD HOMES INC Grantor: PARTNERS IN BUILDING L P Grantor: TRUONG KHANH Grantee: NORWOOD HOMES INC Grantee: PARTNERS IN BUILDING L P Grantee: TRUONG KHANH | Desc: STRATTON WOODS Lot: 22 Block: 1",
+        "RP-2018-208115 | 05/14/2018 | D/T | Grantor: DINH HANH Grantor: TRUONG KHANH Grantee: CMG FINANCIAL Grantee: CMG MORTGAGE INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK THOMAS E JR | Desc: STRATTON WOODS Lot: 22 Block: 1",
+        "RP-2016-434778 | 09/27/2016 | W/D | Grantor: NGUYEN THUC TRANG THI Grantor: TRUONG KHANH Grantee: NGUYEN THUC TRANG THI | Desc: WILCREST PARK TOWNHOMES Unit: 2400"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'TRUONG KHANH')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "W/D": 8,
+        "REL": 5,
+        "NOTICE": 8,
+        "A/J": 1,
+        "L/P": 1,
+        "DEED": 1,
+        "D/T": 6
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'TRUONG KHANH')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "17 instruments as grantee, 13 as grantor (index, name 'TRUONG KHANH')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'TRUONG KHANH')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

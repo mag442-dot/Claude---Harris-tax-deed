@@ -132,5 +132,84 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (3506 CANTON OAKS CT, HOUSTON, TX, 77068), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (3506 CANTON OAKS CT, HOUSTON, TX, 77068), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-345621 | 08/25/2026 | A/J | Grantor: OLDE OAKS COMMUNITY IMPROVEMENT ASSOCIATION INC Grantee: MCCOY ESTELLA S | Comment: SEE INSTRUMENT",
+        "RP-2026-163929 | 04/29/2026 | A/J | Grantor: SMART FINANCIAL CREDIT UNION Grantee: MCCOY ESTELLA SAUCEDA | Comment: SEE INSTRUMENT",
+        "RP-2025-416491 | 10/20/2025 | CERT | Grantor: ESTELLA SAUCEDA ESTATE Grantor: MC COY ESTELLA SAUCEDA Grantor: MCCOY ESTELLA Grantor: SAUCEDA RVOC TRUST Grantee: A-1 PUBLISHERS LLC Grantee: EMPOWER 1 RESOURCES Grantee: GLOBAL LEGAL INVESTORS INC Grantee: GONZALES JAVIER JR Grantee: GONZALES JENNA A Grantee: GONZALES MICHELLE V Grantee: HARRIS JESSICA S Grantee: KINGDOM OF GOD TRUST Grantee: MCCOY ESTELLA Grantee: SAUCEDA RVOC TRUST | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-363678 | 09/12/2025 | CERT | Grantor: ESTELLA SAUCEDA ESTATES Grantor: MCCOY ESTELLA Grantor: MCCOY ESTELLA SAUCEDA Grantor: SAUCEDA RVOC TRUST Grantee: A-1 PULISHERS LLC OF HOUSTON TEXAS Grantee: EMPOWER 1 RESOURCES Grantee: GLOBAL LEGAL INVESTORS INC OF HOUSTON TEXAS Grantee: GONZALES MICHELLE V Grantee: JAVIER GONZALES JR & HER HEIRS OF HOUSTON TEXAS Grantee: JENNA A GONZALES & HER HEIRS OF HOUSTON TEXAS Grantee: JESSICA S HARRIS & HER HEIRS OF HOUSTON TEXAS Grantee: KINGDOM OF GOD TRUST OF HOUSTON Grantee: MCCOY ESTELLA Grantee: SAUCEDA RVOC TRUST | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-185110 | 05/22/2024 | L/P | Grantor: OLDE OAKS COMMUNITY IMPROVEMENT ASSOCIATION INC Grantee: MCCOY ESTELLA S | Desc: OLDE OAKS Lot: 13 Block: 11",
+        "RP-2022-361093 | 07/13/2022 | REL | Grantor: KOIRTYOHANN ASHLEY Grantor: OLDE OAKS COMMUNITY IMPROVEMENT ASSOCIATION INC Grantee: MCCOY ESTELLA S | Desc: OLDE OAKS Lot: 13 Block: 11 Related Docs",
+        "RP-2021-733509 | 12/27/2021 | L/P | Grantor: OLDE OAKS COMMUNITY IMPROVEMENT ASSOCIATION INC Grantee: MCCOY ESTELLA S | Desc: OLDE OAKS Lot: 13 Block: 11 Related Docs",
+        "RP-2018-18870 | 01/16/2018 | W/D | Grantor: BUCHANAN DENNIS Grantor: BUCHANAN DENNIS M Grantee: MCCOY ESTELLA S | Desc: OLDE OAKS Lot: 13 Block: 11",
+        "RP-2017-324897 | 07/20/2017 | A/J | Grantor: WALKER JEFFREY S Grantee: MCCOY ESTELLA | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MCCOY ESTELLA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2025-416491 | 10/20/2025 | CERT | Grantor: ESTELLA SAUCEDA ESTATE Grantor: MC COY ESTELLA SAUCEDA Grantor: MCCOY ESTELLA Grantor: SAUCEDA RVOC TRUST Grantee: A-1 PUBLISHERS LLC Grantee: EMPOWER 1 RESOURCES Grantee: GLOBAL LEGAL INVESTORS INC Grantee: GONZALES JAVIER JR Grantee: GONZALES JENNA A Grantee: GONZALES MICHELLE V Grantee: HARRIS JESSICA S Grantee: KINGDOM OF GOD TRUST Grantee: MCCOY ESTELLA Grantee: SAUCEDA RVOC TRUST | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-363678 | 09/12/2025 | CERT | Grantor: ESTELLA SAUCEDA ESTATES Grantor: MCCOY ESTELLA Grantor: MCCOY ESTELLA SAUCEDA Grantor: SAUCEDA RVOC TRUST Grantee: A-1 PULISHERS LLC OF HOUSTON TEXAS Grantee: EMPOWER 1 RESOURCES Grantee: GLOBAL LEGAL INVESTORS INC OF HOUSTON TEXAS Grantee: GONZALES MICHELLE V Grantee: JAVIER GONZALES JR & HER HEIRS OF HOUSTON TEXAS Grantee: JENNA A GONZALES & HER HEIRS OF HOUSTON TEXAS Grantee: JESSICA S HARRIS & HER HEIRS OF HOUSTON TEXAS Grantee: KINGDOM OF GOD TRUST OF HOUSTON Grantee: MCCOY ESTELLA Grantee: SAUCEDA RVOC TRUST | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-252983 | 07/07/2023 | AFFT | Grantor: IDAHO HOUSING AND FINANCE ASSOCIATION Grantor: MCCOY ESTELLA S Grantee: IDAHO HOUSING & FINANCE ASSOCIATION | Desc: OLDE OAKS Lot: 13 Block: 11 Related Docs",
+        "RP-2022-399405 | 08/04/2022 | MODIF | Grantor: MCCOY ESTELLA S Grantee: IDAHO HOUSING AND FINANCE ASSOCIATION | Desc: OLDE OAKS Lot: 13 Block: 11 Related Docs",
+        "RP-2020-25286 | 01/17/2020 | D/T | Grantor: MCCOY ESTELLA S Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: STEWART TITLE COMPANY | Desc: OLDE OAKS Lot: 13 Block: 11",
+        "RP-2020-25285 | 01/17/2020 | MODIF | Grantor: MCCOY ESTELLA S Grantee: IDAHO HOUSING AND FINANCE ASSOCIATION | Desc: OLDE OAKS Lot: 13 Block: 11",
+        "RP-2018-18872 | 01/16/2018 | D/T | Grantor: MCCOY ESTELLA Grantee: BANK OF NEW YORK MELLON TRUST COMPANY N A Grantee: TEXAS DEPARTMENT OF HOUSING AND COMMUNITY AFFAIRS Trustee: IRVINE TIMOTHY K | Desc: OLDE OAKS Lot: 13 Block: 11",
+        "RP-2018-18871 | 01/16/2018 | D/T | Grantor: MCCOY ESTELLA S Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: TOWN SQUARE MORTGAGE Grantee: TOWN SQUARE MORTGAGE AND INVESTMENTS INC Trustee: TROY D PHILLIPS P C | Desc: OLDE OAKS Lot: 13 Block: 11 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MCCOY ESTELLA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "A/J": 3,
+        "CERT": 4,
+        "L/P": 2,
+        "REL": 1,
+        "W/D": 1,
+        "AFFT": 1,
+        "MODIF": 2,
+        "D/T": 3
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MCCOY ESTELLA')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "9 instruments as grantee, 8 as grantor (index, name 'MCCOY ESTELLA')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MCCOY ESTELLA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

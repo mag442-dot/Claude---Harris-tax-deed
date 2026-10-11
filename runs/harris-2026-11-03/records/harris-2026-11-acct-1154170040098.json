@@ -132,5 +132,89 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (2450 KENBRIDGE DR, HOUSTON, TX, 77067), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (2450 KENBRIDGE DR, HOUSTON, TX, 77067), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2025-800 | 01/02/2025 | REL | Grantor: ARCHAMBAULT CHRIS Grantor: CAMDEN PARK HOMEOWNERS ASSOCIATION Grantee: GALANT INVESTMENT COMPANY LTD Grantee: OJI REBECCA | Desc: CAMDEN PARK Sec: 3 Lot: 6 Block: 8 Related Docs",
+        "RP-2025-258958 | 07/03/2025 | LIEN | Grantor: ARCHAMBAULT CHRIS Grantor: CAMDEN PARK HOMEOWNERS ASSOCIATION Grantor: PORTER LAW FIRM Grantee: OJI REBECCA | Desc: CAMDEN PARK Sec: 3 Lot: 15 Block: 12 Related Docs",
+        "RP-2024-263550 | 07/23/2024 | NOTICE | Grantor: ARCHAMBAULT CHRIS Grantor: CAMDEN PARK HOMEOWNERS' ASSOCIATION Grantor: PORTER LAW FIRM Grantee: GALANT INVESTMENT COMPANY LTD Grantee: OJI REBECCA | Desc: CAMDEN PARK Sec: 3 Lot: 6 Block: 8 Related Docs",
+        "RP-2020-437804 | 09/17/2020 | DECREE | Grantor: OJI ANTHONY C Grantee: OJI REBECCA U | Comment: SEE INSTRUMENT",
+        "RP-2019-558846 | 12/18/2019 | DECREE | Grantor: OJI ANTHONY C Grantee: OJI REBECCA U | Comment: SEE INSTRUMENT",
+        "RP-2018-280270 | 06/25/2018 | REL | Grantor: WELLS FARGO BANK N A Grantor: WELLS FARGO HOME MORTGAGE INC Grantee: OJI ANTHONY Grantee: OJI REBECCA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-480367 | 11/01/2017 | REL | Grantor: INTERNAL REVENUE SERVICE Grantee: OJI ANTHONY Grantee: OJI REBECCA | Comment: SEE INSTRUMENT",
+        "RP-2017-460196 | 10/19/2017 | REL | Grantor: CHASE BANK USA N A Grantor: CHASE MANHATTAN BANK USA N A Grantee: OJI ANTHONY Grantee: OJI REBECCA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-390788 | 09/01/2017 | CERT | Grantor: INTERNAL REVENUE SERVICE Grantee: OJI ANTHONY Grantee: OJI REBECCA | Desc: KLEINBROOK Sec: 1 Lot: 24 Block: 14 Related Docs",
+        "RP-2017-305487 | 07/10/2017 | NOTICE | Grantor: BIANCA MANAGEMENT COMPANY LLC Grantor: GALANT INVESTMENTS COMPANY LTD Grantor: NGUYEN DUAT D Grantor: NGUYEN HUONG T Grantor: OJI ANTHONY Grantor: OJI REBECCA Grantor: WILSON STUART N Grantee: BIANCA MANAGEMENT COMPANY LLC Grantee: GALANT INVESTMENTS COMPANY LTD Grantee: NGUYEN DUAT D Grantee: NGUYEN HUONG T Grantee: OJI ANTHONY Grantee: OJI REBECCA Grantee: WILSON STUART N | Desc: KLEINBROOK Sec: 1 Lot: 24 Block: 14 Related Docs",
+        "RP-2017-248643 | 06/06/2017 | REL | Grantor: CHASE HOME FINANCE LLC Grantor: CHASE MANHATTAN MORTGAGE CORPORATION Grantor: JPMORGAN CHASE BANK Grantee: OJI ANTHONY Grantee: OJI REBECCA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-194743 | 05/09/2016 | REL | Grantor: BANK OF AMERICA N A Grantee: OJI ANTHONY C Grantee: OJI REBECCA U | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'OJI REBECCA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-103638 | 03/19/2026 | D/T | Grantor: OJI REBECCA U Grantor: OJI REBECCA UJO Grantee: TEXAS SPECIALTY HOMES L P Trustee: WIZIG SCOTT | Desc: WINDROSE EAGLEWOOD Sec: 5 Lot: 7 Block: 1",
+        "RP-2024-427003 | 11/15/2024 | AFFT | Grantor: OJI REBECCA U Grantor: RANDOLPH BROOKS FEDERAL CREDIT UNION Grantee: SEE INSTRUMENT | Desc: CAMDEN PARK Sec: 3 Lot: 6 Block: 8 Related Docs",
+        "RP-2024-375261 | 10/10/2024 | W/D | Grantor: OJI REBECCA U Grantee: OJI IKECHUKWU | Desc: CAMDEN PARK Sec: 4 Lot: 6 Block: 8 Related Docs",
+        "RP-2017-305487 | 07/10/2017 | NOTICE | Grantor: BIANCA MANAGEMENT COMPANY LLC Grantor: GALANT INVESTMENTS COMPANY LTD Grantor: NGUYEN DUAT D Grantor: NGUYEN HUONG T Grantor: OJI ANTHONY Grantor: OJI REBECCA Grantor: WILSON STUART N Grantee: BIANCA MANAGEMENT COMPANY LLC Grantee: GALANT INVESTMENTS COMPANY LTD Grantee: NGUYEN DUAT D Grantee: NGUYEN HUONG T Grantee: OJI ANTHONY Grantee: OJI REBECCA Grantee: WILSON STUART N | Desc: KLEINBROOK Sec: 1 Lot: 24 Block: 14 Related Docs",
+        "RP-2017-305486 | 07/10/2017 | W/D | Grantor: BIANCA MANAGEMENT COMPANY LLC Grantor: GALANT INVESTMENTS COMPANY LTD Grantor: OJI ANTHONY Grantor: OJI REBECCA Grantor: WILSON STUART N Grantee: NGUYEN DUAT D Grantee: NGUYEN HUONG T | Desc: KLEINBROOK Sec: 1 Lot: 24 Block: 14",
+        "RP-2017-192014 | 05/03/2017 | W/D | Grantor: ANNO NIGERIA LIMITED Grantor: ANTHONY C AND REBECCA OJI FAMILY TRUST Grantor: BIANCA MANAGEMENT COMPANY INC Grantor: CCI ADULT TRAINING CENTER INC Grantor: CCI ENTERPRISE INC Grantor: GALANT INVESTMENT COMPANY LTD Grantor: NIGERIAN BUSINESSES - AVEC NIGERIA LIMITED Grantor: OJI ANTHONY Grantor: OJI REBECCA Grantor: TIGRESS FARMS LIMITED Grantor: WILSON STUART N Grantee: GALANT INVESTMENTS COMPANY LTD | Comment: SEE INSTRUMENT",
+        "RP-2017-192013 | 05/03/2017 | W/D | Grantor: ANNO NIGERIA LMITED Grantor: ANTHONY C AND REBECCA OJI FAMILY TRUST Grantor: BIANCA MANAGEMENT COMPANY INC Grantor: CCI ADULT TRAINING CENTER INC Grantor: CCI ENTERPRISE INC Grantor: GALANT INVESTMENT COMPANY LTD Grantor: NIGERIAN BUSINESSES - AVEC NIGERIA LIMITED Grantor: OJI ANTHONY Grantor: OJI REBECCA Grantor: TIGRESS FARMS LIMITED Grantor: WILSON STUART N Grantee: GALANT INVESTMENTS COMPANY LTD | Comment: SEE INSTRUMENT",
+        "RP-2016-199393 | 05/11/2016 | ORDER | Grantor: CCI ENTERPRISES INC Grantor: OJI ANTHONY Grantor: OJI REBECCA Grantor: OJI REBECCA U Grantor: WILSON & ASSOCIATES P C Grantor: WILSON STUART N Grantee: SEE INSTRUMENT | Desc: WESTADOR Sec: 6 Lot: 46 Block: 3",
+        "RP-2016-180337 | 05/02/2016 | ORDER | Grantor: OJI ANTHONY Grantor: OJI REBECCA U Grantee: WILSON STUART N | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'OJI REBECCA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "REL": 6,
+        "LIEN": 1,
+        "NOTICE": 3,
+        "DECREE": 2,
+        "CERT": 1,
+        "D/T": 1,
+        "AFFT": 1,
+        "W/D": 4,
+        "ORDER": 2
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'OJI REBECCA')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "12 instruments as grantee, 9 as grantor (index, name 'OJI REBECCA')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'OJI REBECCA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

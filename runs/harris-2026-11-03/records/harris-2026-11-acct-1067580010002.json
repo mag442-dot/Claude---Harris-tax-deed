@@ -126,5 +126,71 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (10272 LONGMONT DR, HOUSTON, TX, 77042), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (10272 LONGMONT DR, HOUSTON, TX, 77042), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2025-192602 | 05/21/2025 | L/P | Grantor: LAKEVIEW LOAN SERVICING LLC Grantee: FOUNDATION FINANCE COMPANY LLC Grantee: GALVAN ALENA M Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Grantee: W B T C TOWNHOMES ASSOCIATION | Desc: TOWN AND COUNTRY TOWNHOUSES Sec: 2 Lot: 2 Related Docs",
+        "RP-2021-90907 | 02/23/2021 | NOTICE | Grantor: CEOTTO MAURO Grantor: GALVAN ALENA M Grantor: TUDELA SILVIA Grantor: TUDELA-CEOTTO SILVIA Grantee: CEOTTO MAURO Grantee: GALVAN ALENA M Grantee: TUDELA SILVIA Grantee: TUDELA-CEOTTO SILVIA | Desc: TOWN AND COUNTRY TOWNHOUSES Sec: 2 Lot: 2 Related Docs",
+        "RP-2021-90905 | 02/23/2021 | W/D | Grantor: CEOTTO MAURO Grantor: TUDELA SILVIA Grantee: GALVAN ALENA M | Desc: TOWN AND COUNTRY TOWNHOUSES Sec: 2 Lot: 2 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GALVAN ALENA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2023-320553 | 08/22/2023 | D/T | Grantor: GALVAN ALENA M Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: VALBY SCOTT R | Desc: TOWN AND COUNTRY TOWNHOUSES Sec: 2 Lot: 2 Related Docs",
+        "RP-2022-537314 | 11/03/2022 | FI STM | Grantor: GALVAN ALENA M Grantee: FOUNDATION FINANCE COMPANY LLC | Comment: SEE INSTRUMENT",
+        "RP-2021-90907 | 02/23/2021 | NOTICE | Grantor: CEOTTO MAURO Grantor: GALVAN ALENA M Grantor: TUDELA SILVIA Grantor: TUDELA-CEOTTO SILVIA Grantee: CEOTTO MAURO Grantee: GALVAN ALENA M Grantee: TUDELA SILVIA Grantee: TUDELA-CEOTTO SILVIA | Desc: TOWN AND COUNTRY TOWNHOUSES Sec: 2 Lot: 2 Related Docs",
+        "RP-2021-90906 | 02/23/2021 | D/T | Grantor: GALVAN ALENA M Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: MOVEMENT MORTGAGE LLC Trustee: VALBY SCOTT R | Desc: TOWN AND COUNTRY TOWNHOMES Sec: 2 Lot: 2 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GALVAN ALENA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "L/P": 1,
+        "NOTICE": 2,
+        "W/D": 1,
+        "D/T": 2,
+        "FI STM": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GALVAN ALENA')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "3 instruments as grantee, 4 as grantor (index, name 'GALVAN ALENA')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GALVAN ALENA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

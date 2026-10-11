@@ -126,5 +126,68 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (24119 STARGAZER PT, SPRING, TX, 77373), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (24119 STARGAZER PT, SPRING, TX, 77373), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-335874 | 08/18/2026 | A/J | Grantor: PARK SPRING HOMEOWNERS ASSOCIATION INC Grantee: JELKS JOHNNIE D | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JELKS JOHNNIE')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2018-144544 | 04/05/2018 | MODIF | Grantor: JELKS JOHNNIE D Grantee: PRYOR JAMES Grantee: U S SMALL BUSINESS ADMINISTRATION | Desc: PARK SPRING Sec: 1 Lot: 11 Block: 6 Related Docs",
+        "RP-2018-144543 | 04/05/2018 | CONT | Grantor: JELKS JOHNNIE D Grantee: WOODWARD CHASE | Desc: PARK SPRING Sec: 1 Lot: 11 Block: 6",
+        "RP-2017-516037 | 11/22/2017 | D/T | Grantor: JELKS JOHNNIE D Grantee: U S SMALL BUSINESS ADMINISTRATION Trustee: BAKA ANDREW F | Desc: PARK SPRING Sec: 1 Lot: 11 Block: 6 Related Docs",
+        "RP-2017-516036 | 11/22/2017 | CONT | Grantor: JELKS JOHNNIE D Grantee: RIKMAN SERVICES | Desc: PARK SPRING Sec: 1 Lot: 11 Block: 6"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JELKS JOHNNIE')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "A/J": 1,
+        "MODIF": 1,
+        "CONT": 2,
+        "D/T": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JELKS JOHNNIE')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "1 instruments as grantee, 4 as grantor (index, name 'JELKS JOHNNIE')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JELKS JOHNNIE')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

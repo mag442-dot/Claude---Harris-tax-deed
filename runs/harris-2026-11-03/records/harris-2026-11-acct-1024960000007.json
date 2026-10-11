@@ -132,5 +132,130 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (5327 LAWN ARBOR DR, HOUSTON, TX, 77066), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (5327 LAWN ARBOR DR, HOUSTON, TX, 77066), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-399342 | 10/01/2026 | CERT | Grantor: HERNANDEZ GERMAN ALEXANDER Grantee: BECK CATHRYN YVONNE Grantee: CYB TRUST Grantee: HERNANDEZ GERMAN ALEXANDER Grantee: IRREVOCABLE TRUST | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-339594 | 08/20/2026 | REMAP | Grantor: BECK CATHRYN YVONNE Grantee: BECK WAYNE Grantee: HERNANDEZ GERMAN ALEXANDER | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-14885 | 01/14/2026 | QCD | Grantor: HERNANDEZ BRITTANY Grantee: HERNANDEZ GERMAN A | Desc: KINGS COLONY Block: 1",
+        "RP-2025-50364 | 02/12/2025 | A/J | Grantor: GREENWOOD FOREST FUND INC Grantor: GREENWOOD FOREST HOMEOWNER'S ASSOCIATION Grantee: HERNANDEZ GERMAN MATOS Grantee: RAMOS IDELISSE LOPEZ | Comment: SEE INSTRUMENT",
+        "RP-2025-394695 | 10/03/2025 | P/A | Grantor: BECK CATHRYN Y Grantee: HERNANDEZ GERMAN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-394694 | 10/03/2025 | DEED | Grantor: BECK CATHRYN Y Grantee: HERNANDEZ GERMAN Grantee: THE CATHRYN Y BECK TRUST | Desc: STONE GATE Sec: 7 Lot: 23 Block: 1 Related Docs",
+        "RP-2025-394693 | 10/03/2025 | DEED | Grantor: BECK CATHRYN Y Grantee: CATHRYN Y BECK TRUST Grantee: HERNANDEZ GERMAN | Desc: WOOD GLEN Sec: 3 Lot: 2 Block: 9 Related Docs",
+        "RP-2025-394692 | 10/03/2025 | DEED | Grantor: BECK CATHRYN Y Grantee: HERNANDEZ GERMAN Grantee: THE CATHRYN Y BECK TRUST | Desc: WOOD GLEN Sec: 3 Lot: 38 Block: 8 Related Docs",
+        "RP-2025-394691 | 10/03/2025 | CERT | Grantor: BECK CATHRYN Y Grantor: HERNANDEZ GERMAN Grantee: BECK CATHRYN Y Grantee: HERNANDEZ GERMAN Grantee: THE CATHRYN Y BECK TRUST | Comment: SEE INSTRUMENT",
+        "RP-2024-229534 | 06/25/2024 | REL | Grantor: GLENCAIRN COMMUNITY IMPROVEMENT ASSOCLATION Grantee: HERNANDEZ GERMAN GONZALEZ Grantee: HERNANDEZ MARIA TERESA | Desc: GLENCAIRN SOUTH Sec: 1 Lot: 28 Block: 6 Related Docs",
+        "RP-2024-162100 | 05/03/2024 | L/P | Grantor: GREENWOOD FOREST FUND INC Grantor: GREENWOOD FOREST HOMEOWNERS' ASSOCIATION Grantee: HERNANDEZ GERMAN MATOS Grantee: RAMOS IDELISSE LOPEZ | Desc: GREENWOOD FOREST Sec: 2 Lot: 7 Block: 15",
+        "RP-2024-103291 | 03/25/2024 | TRUST | Grantor: BECK CATHRYN YVONNE Grantor: HERNANDEZ GERMAN ALEXANDER Grantee: HERNANDEZ GERMAN ALEXANDER Grantee: TEXAS REVOCABLE LIVING TRUST OF C Y B | Comment: SEE INSTRUMENT",
+        "RP-2024-103216 | 03/25/2024 | P/A | Grantor: BECK CATHRYN Grantor: BECK CATHRYN YVONNE Grantee: HERNANDEZ GERMAN ALEXANDER | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-103215 | 03/25/2024 | W/D | Grantor: BECK CATHRYN YVONNE Grantee: HERNANDEZ GERMAN ALEXANDER Grantee: TEXAS REVOCABLE LIVING TRUST OF C Y B | Desc: WOOD GLEN Sec: 3 Lot: 2 Block: 9",
+        "RP-2024-103214 | 03/25/2024 | W/D | Grantor: BECK CATHRYN YVONNE Grantee: HERNANDEZ GERMAN ALEXANDER Grantee: TEXAS REVOCABLE LIVING TRUST OF C Y B | Desc: WOOD GLEN Sec: 3 Lot: 38 Block: 8",
+        "RP-2024-103213 | 03/25/2024 | W/D | Grantor: BECK CATHRYN YVONNE Grantee: HERNANDEZ GERMAN ALEXANDER Grantee: TEXAS REVOCABLE LIVING TRUST OF C Y B | Desc: STONE GATE Sec: 7 Lot: 23 Block: 1",
+        "RP-2023-234229 | 06/26/2023 | NOTICE | Grantor: HERNANDEZ GERMAN GARCIA SR Grantor: VITO LEOVIGILDO Grantor: VITO MADELINE Grantee: HERNANDEZ GERMAN GARCIA SR Grantee: VITO LEOVIGILDO Grantee: VITO MADELINE | Desc: GREENWOOD FOREST Sec: 5 Lot: 3 Block: 39",
+        "RP-2023-234228 | 06/26/2023 | NOTICE | Grantor: HERNANDEZ GERMAN GARCIA SR Grantor: VITO LEOVIGILDO Grantor: VITO MADELINE Grantee: HERNANDEZ GERMAN GARCIA SR Grantee: VITO LEOVIGILDO Grantee: VITO MADELINE | Desc: GREENWOOD FOREST Sec: 5 Lot: 3 Block: 39 Related Docs",
+        "RP-2023-234226 | 06/26/2023 | W/D | Grantor: VITO LEOVIGILDO Grantor: VITO MADELINE Grantee: HERNANDEZ GERMAN GARCIA SR Grantee: MEZA ERIKA PEREZ | Desc: GREENWOOD FOREST Sec: 5 Lot: 3 Block: 39",
+        "RP-2022-525061 | 10/26/2022 | L/P | Grantor: GLENCAIRN COMMUNITY IMPROVEMENT ASSOCIATION Grantee: HERNANDEZ GERMAN GONZALEZ Grantee: HERNANDEZ MARIA TERESA | Desc: GLENCAIRN SOUTH Sec: 1 Lot: 28 Block: 6 Related Docs",
+        "RP-2021-339958 | 06/17/2021 | REL | Grantor: CUEVAS ANGELINA Grantee: DE VERA EVELIA CHAVEZ Grantee: HERNANDEZ GERMAN CHAVEZ Grantee: VERA JUAN CARLOS JR | Desc: SHARPSTOWN Sec: 2 Lot: 31 Block: 15",
+        "RP-2021-339953 | 06/17/2021 | W/D | Grantor: CUEVAS ANGELINA Grantee: HERNANDEZ GERMAN CHAVEZ | Desc: SHARPSTOWN Sec: 2 Lot: 31 Block: 15",
+        "RP-2020-58477 | 02/07/2020 | W/D | Grantor: JAIMES ELUTERIA Grantee: HERNANDEZ GERMAN | Desc: PATCHING T Abstract: 620",
+        "RP-2020-547576 | 11/10/2020 | D/T | Grantor: CUEVAS ANGELINA Grantee: HERNANDEZ GERMAN CHAVEZ Trustee: DE VERA EVELIA CHAVEZ | Desc: SHARPSTOWN Sec: 2 Lot: 31 Block: 15",
+        "RP-2018-408822 | 09/05/2018 | A/J | Grantor: STATE OF TEXAS Grantee: HERNANDEZ GERMAN | Comment: SEE INSTRUMENT",
+        "RP-2018-350031 | 08/01/2018 | NOTICE | Grantor: CANTU ROGELIO JR Grantor: CANTU VERONICA Grantor: HERNANDEZ GERMAN MATOS Grantor: RAMOS IDELISSE LOPEZ Grantee: CANTU ROGELIO JR Grantee: CANTU VERONICA Grantee: HERNANDEZ GERMAN MATOS Grantee: RAMOS IDELISSE LOPEZ | Desc: GREENWOOD FOREST Sec: 2 Lot: 7 Block: 15",
+        "RP-2018-350029 | 08/01/2018 | W/D | Grantor: CANTU ROGELIO JR Grantor: CANTU VERONICA Grantee: HERNANDEZ GERMAN MATOS Grantee: RAMOS IDELISSE LOPEZ | Desc: GREENWOOD FOREST Sec: 2 Lot: 7 Block: 15",
+        "RP-2018-262568 | 06/13/2018 | NOTICE | Grantor: HERNANDEZ GERMAN GONZALEZ Grantor: HERNANDEZ MARIA TERESA SOLIZ Grantor: WILLIAMS DANIEL L Grantor: WILLIAMS MARY SUE Grantee: HERNANDEZ GERMAN GONZALEZ Grantee: HERNANDEZ MARIA TERESA SOLIZ Grantee: WILLIAMS DANIEL L Grantee: WILLIAMS MARY SUE | Desc: GLENCAIR SOUTH Sec: 1 Lot: 28 Block: 6 Related Docs",
+        "RP-2018-262567 | 06/13/2018 | NOTICE | Grantor: HERNANDEZ GERMAN GONZALEZ Grantor: WILLIAMS DANIEL L Grantor: WILLIAMS MARY SUE Grantee: HERNANDEZ GERMAN GONZALEZ Grantee: WILLIAMS DANIEL L Grantee: WILLIAMS MARY SUE | Desc: GLENCAIRN SOUTH Sec: 1 Lot: 28 Block: 6",
+        "RP-2018-262565 | 06/13/2018 | W/D | Grantor: WILLIAMS DANIEL L Grantor: WILLIAMS MARY SUE Grantee: HERNANDEZ GERMAN GONZALEZ Grantee: HERNANDEZ MARIA TERESA | Desc: GLENCAIRN SOUTH Sec: 1 Lot: 28 Block: 6",
+        "RP-2018-232891 | 05/29/2018 | W/D | Grantor: PACIFIC GULF COAST PROPERTIES LP Grantee: ACUNA ADA C Grantee: HERNANDEZ GERMAN G | Desc: MEREDITH MANOR Block: 6",
+        "RP-2016-235721 | 06/02/2016 | W/D | Grantor: GONZALEZ JORGE A MARIN Grantee: HERNANDEZ GERMAN G FLORES | Desc: HIGHLAND ACRE HOMES Lot: 15 Block: 3"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HERNANDEZ GERMAN')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-399343 | 10/01/2026 | AFFT | Grantor: CYB TRUST Grantor: HERNANDEZ GERMAN ALEXANDER Grantee: SEE INSTRUMENT | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-399342 | 10/01/2026 | CERT | Grantor: HERNANDEZ GERMAN ALEXANDER Grantee: BECK CATHRYN YVONNE Grantee: CYB TRUST Grantee: HERNANDEZ GERMAN ALEXANDER Grantee: IRREVOCABLE TRUST | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-8623 | 01/09/2025 | MTG | Grantor: HERNANDEZ GERMAN MATOS Grantor: RAMOS IDELISSE LOPEZ Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SEE INSTRUMENT | Desc: GREENWOOD FOREST Sec: 2 Lot: 7 Block: 15",
+        "RP-2025-394691 | 10/03/2025 | CERT | Grantor: BECK CATHRYN Y Grantor: HERNANDEZ GERMAN Grantee: BECK CATHRYN Y Grantee: HERNANDEZ GERMAN Grantee: THE CATHRYN Y BECK TRUST | Comment: SEE INSTRUMENT",
+        "RP-2024-335486 | 09/12/2024 | QCD | Grantor: HERNANDEZ GERMAN A Grantee: HERNANDEZ BRITTANY | Desc: KINGS COLONY Block: 1",
+        "RP-2024-103291 | 03/25/2024 | TRUST | Grantor: BECK CATHRYN YVONNE Grantor: HERNANDEZ GERMAN ALEXANDER Grantee: HERNANDEZ GERMAN ALEXANDER Grantee: TEXAS REVOCABLE LIVING TRUST OF C Y B | Comment: SEE INSTRUMENT",
+        "RP-2023-234229 | 06/26/2023 | NOTICE | Grantor: HERNANDEZ GERMAN GARCIA SR Grantor: VITO LEOVIGILDO Grantor: VITO MADELINE Grantee: HERNANDEZ GERMAN GARCIA SR Grantee: VITO LEOVIGILDO Grantee: VITO MADELINE | Desc: GREENWOOD FOREST Sec: 5 Lot: 3 Block: 39",
+        "RP-2023-234228 | 06/26/2023 | NOTICE | Grantor: HERNANDEZ GERMAN GARCIA SR Grantor: VITO LEOVIGILDO Grantor: VITO MADELINE Grantee: HERNANDEZ GERMAN GARCIA SR Grantee: VITO LEOVIGILDO Grantee: VITO MADELINE | Desc: GREENWOOD FOREST Sec: 5 Lot: 3 Block: 39 Related Docs",
+        "RP-2023-234227 | 06/26/2023 | D/T | Grantor: HERNANDEZ GERMAN GARCIA SR Grantor: MEZA ERIKA PEREZ Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: PRIMELENDING Trustee: POLUNSKY ALLAN B | Desc: GREENWOOD FOREST Sec: 5 Lot: 3 Block: 39",
+        "RP-2022-603384 | 12/28/2022 | W/D | Grantor: HERNANDEZ FAUSTA Grantor: HERNANDEZ GERMAN EST Grantee: HERNANDEZ LUIS MIGUEL | Desc: ADDIX A Abstract: 1141 Comment: 3.91",
+        "RP-2021-568562 | 10/04/2021 | MTG | Grantor: ACUNA ADA C Grantor: HERNANDEZ GERMAN G Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SEE INSTRUMENT | Desc: MEREDITH MANOR Block: 6",
+        "RP-2021-336983 | 06/16/2021 | MTG | Grantor: HERNANDEZ GERMAN MATOS Grantor: RAMOS IDELISSE LOPEZ Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SEE INSTRUMENT | Desc: GREENWOOD FOREST Sec: 2 Lot: 7 Block: 15",
+        "RP-2019-95949 | 03/11/2019 | CONT | Grantor: HERNANDEZ CIRAIDA Grantor: HERNANDEZ GERMAN E Grantee: FNA DZ LLC | Desc: MONTERREY AT WILLOWBEND Sec: 3 Lot: 12 Block: 3",
+        "RP-2019-321150 | 07/25/2019 | AFFT | Grantor: HERNANDEZ GERMAN G Grantor: LATITUDE TITLE COMPANY Grantee: MERCHANT RAFIQ ROSHANALI | Desc: HIGHLAND ACRE HOMES Lot: 15 Block: 3 Tract: 6 Related Docs",
+        "RP-2018-75109 | 02/23/2018 | W/D | Grantor: HERNANDEZ GERMAN J Grantor: HERNANDEZ ILA Grantor: HERNANDEZ JOSE GERMAN Grantor: WELSH ILA Grantee: XIONG DONGHUI | Desc: HAMMERLY WOODS CONDOMINIUM NO I Unit: 215",
+        "RP-2018-459221 | 10/05/2018 | W/D | Grantor: HERNANDEZ GERMAN G Grantee: MERCHANT RAFIQ ROSHANALI | Desc: HIGHLAND ACRE HOMES Lot: 15 Block: 3 Tract: 6 Related Docs",
+        "RP-2018-350031 | 08/01/2018 | NOTICE | Grantor: CANTU ROGELIO JR Grantor: CANTU VERONICA Grantor: HERNANDEZ GERMAN MATOS Grantor: RAMOS IDELISSE LOPEZ Grantee: CANTU ROGELIO JR Grantee: CANTU VERONICA Grantee: HERNANDEZ GERMAN MATOS Grantee: RAMOS IDELISSE LOPEZ | Desc: GREENWOOD FOREST Sec: 2 Lot: 7 Block: 15",
+        "RP-2018-350030 | 08/01/2018 | D/T | Grantor: HERNANDEZ GERMAN MATOS Grantor: RAMOS IDELISSE LOPEZ Grantee: AMCAP MORTGAGE LTD Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: RAMIREZ RICHARD A | Desc: GREENWOOD FOREST Sec: 2 Lot: 7 Block: 15 Related Docs",
+        "RP-2018-262568 | 06/13/2018 | NOTICE | Grantor: HERNANDEZ GERMAN GONZALEZ Grantor: HERNANDEZ MARIA TERESA SOLIZ Grantor: WILLIAMS DANIEL L Grantor: WILLIAMS MARY SUE Grantee: HERNANDEZ GERMAN GONZALEZ Grantee: HERNANDEZ MARIA TERESA SOLIZ Grantee: WILLIAMS DANIEL L Grantee: WILLIAMS MARY SUE | Desc: GLENCAIR SOUTH Sec: 1 Lot: 28 Block: 6 Related Docs",
+        "RP-2018-262567 | 06/13/2018 | NOTICE | Grantor: HERNANDEZ GERMAN GONZALEZ Grantor: WILLIAMS DANIEL L Grantor: WILLIAMS MARY SUE Grantee: HERNANDEZ GERMAN GONZALEZ Grantee: WILLIAMS DANIEL L Grantee: WILLIAMS MARY SUE | Desc: GLENCAIRN SOUTH Sec: 1 Lot: 28 Block: 6",
+        "RP-2018-262566 | 06/13/2018 | D/T | Grantor: HERNANDEZ GERMAN GONZALEZ Grantor: HERNANDEZ MARIA TERESA Grantee: BANCORPSOUTH BANK Trustee: PIGNUOLO CHARLES J | Desc: GLENCAIRN SOUTH Sec: 1 Lot: 28 Block: 6",
+        "RP-2018-232893 | 05/29/2018 | D/T | Grantor: ACUNA ADA C Grantor: HERNANDEZ GERMAN G Grantee: BANK OF NEW YORK MELLON TRUST COMPANY NA Grantee: TEXAS DEPARTMENT OF HOUSING AND COMMUNITY AFFAIRS Trustee: IRVINE TIMOTHY K | Desc: MEREDITH MANOR Block: 6",
+        "RP-2018-232892 | 05/29/2018 | D/T | Grantor: ACUNA ADA C Grantor: HERNANDEZ GERMAN G Grantee: ACADEMY MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: MEREDITH MANOR Block: 6",
+        "RP-2017-203648 | 05/10/2017 | P/A | Grantor: HERNANDEZ GERMAN RUTILIO FLORES Grantee: HERNANDEZ MANUEL DE JESUS CHACON | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HERNANDEZ GERMAN')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "CERT": 4,
+        "REMAP": 1,
+        "QCD": 2,
+        "A/J": 2,
+        "P/A": 3,
+        "DEED": 3,
+        "REL": 2,
+        "L/P": 2,
+        "TRUST": 2,
+        "W/D": 13,
+        "NOTICE": 10,
+        "D/T": 6,
+        "AFFT": 2,
+        "MTG": 3,
+        "CONT": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HERNANDEZ GERMAN')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "32 instruments as grantee, 24 as grantor (index, name 'HERNANDEZ GERMAN')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HERNANDEZ GERMAN')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

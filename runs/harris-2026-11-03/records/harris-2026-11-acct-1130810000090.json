@@ -126,5 +126,71 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (1533 BEACONSHIRE RD, HOUSTON, TX, 77077), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (1533 BEACONSHIRE RD, HOUSTON, TX, 77077), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2024-113255 | 04/01/2024 | LIEN | Grantor: STONEHENGE III ASSOCIATION INC Grantor: TOLLETT LUKE P Grantee: NAREJO ABDUL | Desc: STONEHENGE Sec: 3 Lot: 90",
+        "RP-2023-54147 | 02/16/2023 | W/D | Grantor: NAREJO ABDUL H Grantee: KHAN RUBY Grantee: NAREJO ABDUL H | Desc: SAGE SQUARE Lot: 39 Block: 2",
+        "RP-2022-499565 | 10/07/2022 | NOTICE | Grantor: JWGREEN PLLC Grantor: NAREJO ABDUL Grantee: JWGREEN PLLC Grantee: NAREJO ABDUL | Desc: STONEHENGE Sec: 3 Lot: 90 Related Docs",
+        "RP-2022-499564 | 10/07/2022 | W/D | Grantor: JWGREEN PLLC Grantee: NAREJO ABDUL | Desc: STONEHENGE Sec: 3 Lot: 90 Related Docs",
+        "RP-2022-368184 | 07/18/2022 | W/D | Grantor: KALIN GENNADY N Grantor: KALIN YULIA Grantee: NAREJO ABDUL H | Desc: SAGE SQUARE Lot: 39 Block: 2",
+        "RP-2020-506103 | 10/21/2020 | W/D | Grantor: EROGBOGBO OLAYINKA Grantor: EROGBOGBO RAMOTA B Grantee: NAREJO ABDUL H | Desc: THE 3525 SAGE STREET CONDOMINIUM Unit: 504"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'NAREJO ABDUL')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2023-54147 | 02/16/2023 | W/D | Grantor: NAREJO ABDUL H Grantee: KHAN RUBY Grantee: NAREJO ABDUL H | Desc: SAGE SQUARE Lot: 39 Block: 2",
+        "RP-2022-66619 | 02/07/2022 | W/D | Grantor: NAREJO ABDUL H Grantee: OLUSESI HALIMAT Grantee: YUSUFF QUADRI | Desc: 3525 SAGE STREET CONDOMINIUM Unit: 504",
+        "RP-2022-499565 | 10/07/2022 | NOTICE | Grantor: JWGREEN PLLC Grantor: NAREJO ABDUL Grantee: JWGREEN PLLC Grantee: NAREJO ABDUL | Desc: STONEHENGE Sec: 3 Lot: 90 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'NAREJO ABDUL')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "LIEN": 1,
+        "W/D": 6,
+        "NOTICE": 2
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'NAREJO ABDUL')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "6 instruments as grantee, 3 as grantor (index, name 'NAREJO ABDUL')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'NAREJO ABDUL')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

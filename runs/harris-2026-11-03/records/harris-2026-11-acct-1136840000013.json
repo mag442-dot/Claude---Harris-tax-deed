@@ -126,5 +126,67 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "AE",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (6419 LADERA DR, HOUSTON, TX, 77083), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (6419 LADERA DR, HOUSTON, TX, 77083), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": true,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2024-172637 | 05/13/2024 | A/J | Grantor: MISSION BEND CIVIC ASSOCIATION INC Grantee: DINH ESTHER Grantee: DINH NHAT | Comment: SEE INSTRUMENT",
+        "RP-2022-493745 | 10/04/2022 | L/P | Grantor: MISSION BEND CIVIC ASSOCIATION INC Grantee: DINH ESTHER Grantee: DINH NHAT | Desc: ALTAMIRA Sec: 1 Lot: 13 Block: 6",
+        "RP-2022-102745 | 02/25/2022 | REL | Grantor: HOLTZ EDWARD TEDDY Grantor: MISSION BEND CIVIC ASSOCIATION IN Grantee: DINH ESTHER Grantee: DINH NHAT | Desc: ALTAMIRA Sec: 1 Lot: 13 Block: 6 Related Docs",
+        "RP-2018-545742 | 12/05/2018 | L/P | Grantor: MISSION BEND CIVIC ASSOCIATION INC Grantee: DINH ESTHER Grantee: DINH NHAT | Desc: ALTAMIRA Sec: 1 Lot: 13 Block: 6 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DINH ESTHER')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2017-217361 | 05/18/2017 | REL | Grantor: DINH ESTHER Grantor: DINH NHAT Grantee: COLONIAL SAVINGS F A Grantee: CU MEMBERS MORTGAGE | Desc: ALTAMIRA Sec: 1 Lot: 13 Block: 6 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DINH ESTHER')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "A/J": 1,
+        "L/P": 2,
+        "REL": 2
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DINH ESTHER')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "4 instruments as grantee, 1 as grantor (index, name 'DINH ESTHER')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DINH ESTHER')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

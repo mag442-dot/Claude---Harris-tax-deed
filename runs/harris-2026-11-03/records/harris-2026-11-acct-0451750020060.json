@@ -126,5 +126,77 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (6102 CLARKSON LN, HOUSTON, TX, 77055), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (6102 CLARKSON LN, HOUSTON, TX, 77055), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2025-152038 | 04/24/2025 | L/P | Grantor: GRANT BERTRAM GEROME Grantor: GRANT BRYAN KEITH Grantor: GRANT CALVIN WAYNE Grantor: GRANT CAROL YVETTE Grantor: GRANT JAMES ASTER JR Grantor: GRANT LUCRETIA E Grantor: GRANT MELVIN Grantor: GRANT MELVIN EDGAR Grantor: GRANT MICHAEL RAY Grantor: GRANT REGINALD CLYDE Grantor: GRANT TIMOTHY EARL Grantor: GUILFORD MELVINE D Grantor: HAWTHORNE BOBBIE DELORSE DICKSON Grantor: HAYES JOYCE MARIE GRANT Grantor: LINDSEY VIVIAN JUANITA Grantor: PETERSON REGINA G Grantee: RICHARDSON HERBERT B | Desc: WHARTON J Abstract: 871",
+        "RP-2021-731132 | 12/22/2021 | REL | Grantor: RESOLUTION FINANCE LLC Grantee: RICHARDSON HERBERT B | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-663934 | 11/18/2021 | REL | Grantor: LAKELAND WEST CAPITAL 41 LLC Grantee: RICHARDSON HERBERT B Grantee: RICHARDSON MARTHA | Desc: TANGLEWOOD Sec: 12 Lot: 11 Block: 58 Related Docs",
+        "RP-2021-662543 | 11/17/2021 | NOTICE | Grantor: HOUSE CLAIRE C Grantor: HOUSE DANIEL J Grantor: RICHARDSON BRITTANY Grantor: RICHARDSON HERBERT B Grantee: HOUSE CLAIRE C Grantee: HOUSE DANIEL J Grantee: RICHARDSON BRITTANY Grantee: RICHARDSON HERBERT B | Desc: TANGLEWOOD Sec: 12 Lot: 11 Block: 58",
+        "RP-2021-562562 | 09/30/2021 | A/J | Grantor: AMERICAN EXPRESS NATIONAL BANK Grantee: RICHARDSON H Grantee: RICHARDSON H BERRMAN Grantee: RICHARDSON HERBERT | Comment: SEE INSTRUMENT",
+        "RP-2020-283250 | 06/30/2020 | A/J | Grantor: LEE WALLIS INC Grantee: RICHARDSON HERBERT B | Comment: SEE INSTRUMENT",
+        "RP-2019-560831 | 12/19/2019 | AFFT | Grantor: GRANT MELVIN L JR Grantor: GRANT RENA Grantor: GUILFORD MELVINA GRANT Grantor: SMITH DAMIAN Grantee: RICHARDSON HERBERT B | Desc: WHARTON J Abstract: 871 Related Docs",
+        "RP-2017-345997 | 08/02/2017 | REL | Grantor: GREEN BANK N A Grantor: PATRIOT BANK Grantee: RICHARDSON HERBERT B | Desc: TANGLEWOOD Sec: 12 Lot: 11 Block: 58 Related Docs",
+        "RP-2017-158401 | 04/13/2017 | REL | Grantor: GRANT MICHAEL Grantee: RICHARDSON HERBERT B | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-510522 | 11/11/2016 | W/D | Grantor: PETERSON REGINA GRANT TRE Grantor: THE REGINA GRANT PETERSON TRUST Grantee: RICHARDSON HERBERT B | Desc: WHARTON J Abstract: 871 Comment: 10",
+        "RP-2016-510521 | 11/11/2016 | W/D | Grantor: GRANT BERTRAM GEROME Grantor: GRANT BRYAN KEITH Grantor: GRANT CALVIN WAYNE Grantor: GRANT DOYCE Grantor: GRANT ERVIN KARL Grantor: GRANT EVA Grantor: GRANT JAMES ASTER JR Grantor: GRANT JAMES ASTER SR EST Grantor: GRANT LUCRETIA E Grantor: GRANT MELVIN EDGAR Grantor: GRANT MICHAEL RAY Grantor: GRANT REGINALD CLYDE Grantor: GRANT RELINDA Grantor: GRANT TIMOTHY EARL Grantor: GRANT YVETTE Grantor: HAWTHORNE BOBBIE DELORSE DICKSON Grantor: HAYES EDWARD Grantor: HAYES JOYCE GRANT Grantor: HAYES JOYCE MARIE GRANT Grantor: LINDSEY VIVIAN GRANT Grantor: LINDSEY VIVIAN JUANITA Grantor: WHITTIE SHERYL LAVERNE GRANT Grantor: WHITTIE WILLIAM Grantee: RICHARDSON HERBERT B | Desc: WHARTON J Abstract: 871",
+        "RP-2016-510520 | 11/11/2016 | W/D | Grantor: GRANT MELVIN L JR Grantor: GRANT RENA Grantor: GUILFORD MELVINA GRANT Grantee: RICHARDSON HERBERT B | Desc: WHARTON J Abstract: 871",
+        "RP-2016-102859 | 03/14/2016 | REL | Grantor: KAL-CAR ENERGY SERVICES LLC Grantor: KALCAR ENERGY SERVIOEP LLC Grantee: RICHARDSON HERBERT | Desc: MONTCLAIR ADDITION Lot: 1-4 Block: 11"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RICHARDSON HERBERT')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RICHARDSON HERBERT')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "L/P": 1,
+        "REL": 5,
+        "NOTICE": 1,
+        "A/J": 2,
+        "AFFT": 1,
+        "W/D": 3
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RICHARDSON HERBERT')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "13 instruments as grantee, 0 as grantor (index, name 'RICHARDSON HERBERT')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RICHARDSON HERBERT')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

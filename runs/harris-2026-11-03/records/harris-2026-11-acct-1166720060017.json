@@ -126,5 +126,109 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (7506 WISTERIA RIDGE CT, HOUSTON, TX, 77095), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (7506 WISTERIA RIDGE CT, HOUSTON, TX, 77095), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-271632 | 07/07/2026 | A/J | Grantor: SOUTHCREEK VILLAGE COMMUNITY ASSOCIATION INC Grantee: VILLATORO DIGNA E | Comment: SEE INSTRUMENT",
+        "RP-2026-239625 | 06/16/2026 | W/D | Grantor: VILLATORO PETRONILA HERNANDEZ Grantee: CARLOS AND DIGNA VILLATORO LIVING TRUST Grantee: VILLATORO CARLOS OCTAVIO Grantee: VILLATORO DIGNA KARINA Grantee: VILLATORO PETRONILA HERNANDEZ | Desc: WEBDALE Lot: 19 Block: 1",
+        "RP-2026-239620 | 06/16/2026 | W/D | Grantor: VILLATORO JOSE Grantee: CARLOS AND DIGNA VILLATORO LIVING TRUST Grantee: VILLATORO CARLOS OCTAVIO Grantee: VILLATORO DIGNA KARINA Grantee: VILLATORO JOSE | Desc: WEBDALE Lot: 25 Block: 2",
+        "RP-2026-153011 | 04/21/2026 | W/D | Grantor: VILLATORO CARLOS Grantor: VILLATORO CARLOS OCTAVIO Grantor: VILLATORO DIGNA KARINA Grantee: CARLOS AND DIGNA VILLATORO LIVING TRUST Grantee: VILLATORO CARLOS OCTAVIO Grantee: VILLATORO DIGNA KARINA | Desc: HERITAGE PARK Sec: 8 Lot: 3 Block: 2",
+        "RP-2026-152980 | 04/21/2026 | W/D | Grantor: VILLATORO CARLOS Grantor: VILLATORO CARLOS OCTAVIO Grantor: VILLATORO DIGNA KARINA Grantee: CARLOS AND DIGNA VILLATORO LIVING TRUST Grantee: VILLATORO CARLOS OCTAVIO Grantee: VILLATORO DIGNA KARINA | Desc: WEBDALE Lot: 20 Block: 1",
+        "RP-2026-152955 | 04/21/2026 | W/D | Grantor: VILLATORO CARLOS OCTAVIO Grantor: VILLATORO DIGNA KARINA Grantee: CARLOS AND DIGNA VILLATORO LIVING TRUST Grantee: VILLATORO CARLOS OCTAVIO Grantee: VILLATORO DIGNA KARINA | Desc: LINDA LANE EXTENSION Lot: 12",
+        "RP-2026-152954 | 04/21/2026 | W/D | Grantor: VILLATORO CARLOS Grantor: VILLATORO CARLOS OCTAVIO Grantor: VILLATORO DIGNA KARINA Grantee: CARLOS AND DIGNA VILLATORO LIVING TRUST Grantee: VILLATORO CARLOS Grantee: VILLATORO CARLOS OCTAVIO Grantee: VILLATORO DIGNA KARINA | Desc: LINDA LANE EXTENSION Lot: 14",
+        "RP-2026-152945 | 04/21/2026 | W/D | Grantor: VILLATORO CARLOS O Grantor: VILLATORO CARLOS OCTAVIO Grantor: VILLATORO DIGNA K Grantor: VILLATORO DIGNA KARINA Grantee: CARLOS AND DIGNA VILLATORO LIVING TRUST Grantee: VILLATORO CARLOS OCTAVIO Grantee: VILLATORO DIGNA KARINA | Desc: WEBSTER TOWNSITE Lot: 14-16 Block: 26",
+        "RP-2026-152942 | 04/21/2026 | W/D | Grantor: VILLATORO CARLOS Grantor: VILLATORO CARLOS OCTAVIO Grantor: VILLATORO DIGNA KARINA Grantee: CARLOS AND DIGNA VILLATORO LIVING TRUST Grantee: VILLATORO CARLOS OCTAVIO Grantee: VILLATORO DIGNA KARINA | Desc: WEBSTER TOWNSITE Lot: 14-R",
+        "RP-2026-152939 | 04/21/2026 | W/D | Grantor: VILLATORO CARLOS OCTAVIO Grantor: VILLATORO DIGNA Grantor: VILLATORO DIGNA KARINA Grantee: CARLOS AND DIGNA VILLATORO LIVING TRUST Grantee: VILLATORO CARLOS OCTAVIO Grantee: VILLATORO DIGNA KARINA | Desc: PIPER'S MEADOW Sec: 3 Lot: 9 Block: 18",
+        "RP-2025-382759 | 09/26/2025 | W/D | Grantor: BALETKA JOY ELIZABETH Grantor: SHAW CLAYTON WILLIS Grantor: SHAW JOY ELIZABETH Grantee: RODRIGUEZ VICTOR MANUEL Grantee: VILLATORO DIGNA | Desc: KINGS LAKE FOREST Sec: 1 Lot: 14 Block: 8",
+        "RP-2025-352936 | 09/05/2025 | L/P | Grantor: SOUTHCREEK VILLAGE COMMUNITY ASSOCIATION INC Grantee: VILLATORO DIGNA E | Desc: COPPERFIELD SOUTHCREEK VILLAGE Sec: 6 Lot: 17 Block: 6",
+        "RP-2024-194146 | 05/29/2024 | NOTICE | Grantor: HARKOR HOMES LLC Grantor: RODRIGUEZ VICTOR MANUEL Grantor: VILLATORO DIGNA DEL CARMEN Grantee: HARKOR HOMES LLC Grantee: RODRIGUEZ VICTOR MANUEL Grantee: VILLATORO DIGNA DEL CARMEN | Desc: KENSWICK FOREST Sec: 6 Lot: 5 Block: 2",
+        "RP-2024-194145 | 05/29/2024 | NOTICE | Grantor: HARKOR HOMES LLC Grantor: RODRIGUEZ VICTOR MANUEL Grantor: VILLATORO DIGNA DEL CARMEN Grantee: HARKOR HOMES LLC Grantee: RODRIGUEZ VICTOR MANUEL Grantee: VILLATORO DIGNA DEL CARMEN | Desc: KENSWICK FOREST Sec: 6 Lot: 5 Block: 2 Related Docs",
+        "RP-2024-194144 | 05/29/2024 | W/D | Grantor: HARKOR HOMES LLC Grantee: RODRIGUEZ VICTOR MANUEL Grantee: VILLATORO DIGNA DEL CARMEN | Desc: KENSWICK FOREST Sec: 6 Lot: 5 Block: 2",
+        "RP-2022-310818 | 06/15/2022 | W/D | Grantor: BOYLE CELIA ROVIRA Grantor: BOYLE JOHN EDWIN Grantee: VILLATORO CARLOS O Grantee: VILLATORO DIGNA K | Desc: WEBSTER TOWNSITE Block: 26",
+        "RP-2021-72941 | 02/09/2021 | REL | Grantor: WILDFLOWER GREEN TEMPO OWNERS' ASSOCIATION INC Grantor: ZARATE CATHERINE A Grantee: NAVARRO DIGNA E Grantee: VILLATORO DIGNA E | Desc: H T & B RAILROAD CO Abstract: 1360 Related Docs",
+        "RP-2021-579302 | 10/07/2021 | REL | Grantor: FIRST SERVICE CREDIT UNION Grantee: RODRIGUEZ VICTORIA M Grantee: VILLATORO DIGNA | Desc: HIGHLAND ANNEX NO. 2 Lot: 34 Block: 11 Related Docs",
+        "RP-2021-314159 | 06/07/2021 | NOTICE | Grantor: FASH KATHY M Grantor: WILDFLOWER GREEN TEMPO OWNERS' ASSOCIATION INC Grantee: NAVARRO DIGNA E Grantee: VILLATORO DIGNA E | Desc: WILDFLOWER GREEN Sec: 2",
+        "RP-2018-559047 | 12/14/2018 | W/D | Grantor: HO KAM FAI Grantor: HO SIN YI Grantee: VILLATORO DIGNA E | Desc: COPPERFIELD SOUTHCREEK VILLAGE Sec: 6 Lot: 17 Block: 6",
+        "RP-2016-494126 | 11/01/2016 | W/D | Grantor: SCHGAL DIANA Grantor: SEHGAL DIANA Grantor: SEHGAL NARINDER Grantee: RODRIGUEZ VICTOR M Grantee: VILLATORO DIGNA | Desc: HIGHLAND HEIGHTS ANNEX NO 2 Lot: 35 Block: 11",
+        "RP-2016-494123 | 11/01/2016 | W/D | Grantor: SCHGAL DIANA Grantor: SEHGAL DIANA Grantor: SEHGAL NARINDER Grantee: RODRIGUEZ VICTOR M Grantee: VILLATORO DIGNA | Desc: HIGHLAND HEIGHTS ANNEX NO 2 Lot: 34 Block: 11"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VILLATORO DIGNA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-153011 | 04/21/2026 | W/D | Grantor: VILLATORO CARLOS Grantor: VILLATORO CARLOS OCTAVIO Grantor: VILLATORO DIGNA KARINA Grantee: CARLOS AND DIGNA VILLATORO LIVING TRUST Grantee: VILLATORO CARLOS OCTAVIO Grantee: VILLATORO DIGNA KARINA | Desc: HERITAGE PARK Sec: 8 Lot: 3 Block: 2",
+        "RP-2026-152980 | 04/21/2026 | W/D | Grantor: VILLATORO CARLOS Grantor: VILLATORO CARLOS OCTAVIO Grantor: VILLATORO DIGNA KARINA Grantee: CARLOS AND DIGNA VILLATORO LIVING TRUST Grantee: VILLATORO CARLOS OCTAVIO Grantee: VILLATORO DIGNA KARINA | Desc: WEBDALE Lot: 20 Block: 1",
+        "RP-2026-152955 | 04/21/2026 | W/D | Grantor: VILLATORO CARLOS OCTAVIO Grantor: VILLATORO DIGNA KARINA Grantee: CARLOS AND DIGNA VILLATORO LIVING TRUST Grantee: VILLATORO CARLOS OCTAVIO Grantee: VILLATORO DIGNA KARINA | Desc: LINDA LANE EXTENSION Lot: 12",
+        "RP-2026-152954 | 04/21/2026 | W/D | Grantor: VILLATORO CARLOS Grantor: VILLATORO CARLOS OCTAVIO Grantor: VILLATORO DIGNA KARINA Grantee: CARLOS AND DIGNA VILLATORO LIVING TRUST Grantee: VILLATORO CARLOS Grantee: VILLATORO CARLOS OCTAVIO Grantee: VILLATORO DIGNA KARINA | Desc: LINDA LANE EXTENSION Lot: 14",
+        "RP-2026-152945 | 04/21/2026 | W/D | Grantor: VILLATORO CARLOS O Grantor: VILLATORO CARLOS OCTAVIO Grantor: VILLATORO DIGNA K Grantor: VILLATORO DIGNA KARINA Grantee: CARLOS AND DIGNA VILLATORO LIVING TRUST Grantee: VILLATORO CARLOS OCTAVIO Grantee: VILLATORO DIGNA KARINA | Desc: WEBSTER TOWNSITE Lot: 14-16 Block: 26",
+        "RP-2026-152942 | 04/21/2026 | W/D | Grantor: VILLATORO CARLOS Grantor: VILLATORO CARLOS OCTAVIO Grantor: VILLATORO DIGNA KARINA Grantee: CARLOS AND DIGNA VILLATORO LIVING TRUST Grantee: VILLATORO CARLOS OCTAVIO Grantee: VILLATORO DIGNA KARINA | Desc: WEBSTER TOWNSITE Lot: 14-R",
+        "RP-2026-152939 | 04/21/2026 | W/D | Grantor: VILLATORO CARLOS OCTAVIO Grantor: VILLATORO DIGNA Grantor: VILLATORO DIGNA KARINA Grantee: CARLOS AND DIGNA VILLATORO LIVING TRUST Grantee: VILLATORO CARLOS OCTAVIO Grantee: VILLATORO DIGNA KARINA | Desc: PIPER'S MEADOW Sec: 3 Lot: 9 Block: 18",
+        "RP-2025-203150 | 05/29/2025 | W/D | Grantor: VILLATORO DIGNA ESTHELA DEL CID DE Grantee: VILLATORO JUAN RAUL | Desc: HERITAGE PARK Sec: 10 Lot: 51 Block: 25",
+        "RP-2024-194146 | 05/29/2024 | NOTICE | Grantor: HARKOR HOMES LLC Grantor: RODRIGUEZ VICTOR MANUEL Grantor: VILLATORO DIGNA DEL CARMEN Grantee: HARKOR HOMES LLC Grantee: RODRIGUEZ VICTOR MANUEL Grantee: VILLATORO DIGNA DEL CARMEN | Desc: KENSWICK FOREST Sec: 6 Lot: 5 Block: 2",
+        "RP-2024-194145 | 05/29/2024 | NOTICE | Grantor: HARKOR HOMES LLC Grantor: RODRIGUEZ VICTOR MANUEL Grantor: VILLATORO DIGNA DEL CARMEN Grantee: HARKOR HOMES LLC Grantee: RODRIGUEZ VICTOR MANUEL Grantee: VILLATORO DIGNA DEL CARMEN | Desc: KENSWICK FOREST Sec: 6 Lot: 5 Block: 2 Related Docs",
+        "RP-2024-15913 | 01/17/2024 | D/T | Grantor: VILLATORO CARLOS O Grantor: VILLATORO DIGNA K Grantee: LOAN STORE TX INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK MANN & GRAHAM LLP | Desc: WEBSTER TOWNSITE Lot: 14-16 Block: 26",
+        "RP-2023-164157 | 05/05/2023 | MODIF | Grantor: RODRIGUEZ VICTOR M Grantor: VILLATORO DIGNA Grantee: TRUSTMARK NATIONAL BANK | Desc: HIGHLAND HEIGHTS ANNEX NO 2 Lot: 34 Block: 11",
+        "RP-2021-651907 | 11/11/2021 | D/T | Grantor: VILLATORO CARLOS OCTAVIO Grantor: VILLATORO DIGNA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: QUICKEN LOANS LLC Grantee: ROCKET MORTGAGE LLC Trustee: KENDALL GERRI L | Desc: LINDA LANE EXTENSION Lot: 12",
+        "RP-2021-630811 | 11/02/2021 | D/T | Grantor: RODRIGUEZ VICTOR M Grantor: VILLATORO DIGNA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: TRUSTMARK NATIONAL BANK Trustee: TATE GRANVILLE JR | Desc: HIGHLAND HEIGHTS ANNEX NO. 2 Lot: 34 Block: 11",
+        "RP-2021-630809 | 11/02/2021 | CONT | Grantor: RODRIGUEZ VICTOR M Grantor: VILLATORO DIGNA Grantee: STEADFAST CUSTOM HOMES | Desc: HIGHLAND HEIGHTS ANNEX NO 2 Lot: 34 Block: 11",
+        "RP-2020-227091 | 05/29/2020 | D/T | Grantor: VILLATORO DIGNA ESTHELA DEL CID DE Grantor: VILLATORO JUAN RAUL Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: NATIONS RELIABLE LENDING LLC Trustee: GHEBREMICHAEL MEWAEL | Desc: HERITAGE PARK Sec: 10 Lot: 51 Block: 25 Related Docs",
+        "RP-2020-128309 | 03/20/2020 | W/D | Grantor: VILLATORO CARLOS Grantor: VILLATORO DIGNA Grantee: FLUSCHE ADRIENNE | Desc: CAMINO SOUTH Sec: 4 Lot: 2 Block: 38",
+        "RP-2019-338441 | 08/02/2019 | D/T | Grantor: RODRIGUEZ VICTOR M Grantor: RODRIGUEZ VICTOR M JR Grantor: VALADEZ CASANDRA Grantor: VILLATORO DIGNA D Grantee: AMERICA'S CHOICE HOME LOANS LP Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: MUSGRAVE F ANTHONY | Desc: SUNSET RIDGE WEST Sec: 4 Lot: 5 Block: 1",
+        "RP-2018-559048 | 12/14/2018 | D/T | Grantor: VILLATORO DIGNA E Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: REPUBLIC STATE MORTGAGE CO. Trustee: WAGNON ROBERT H | Desc: COPPERFIELD SOUTH CREEK VILLAGE Sec: 6 Lot: 17 Block: 6 Related Docs",
+        "RP-2016-494124 | 11/01/2016 | D/T | Grantor: RODRIGUEZ VICTOR M Grantor: VILLATORO DIGNA Grantee: FIRST SERVICE CREDIT UNION Trustee: LITTLE DEBRA E | Desc: HIGHLAND HEIGHTS ANNEX NO 1 Lot: 34 Block: 11 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VILLATORO DIGNA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "A/J": 1,
+        "W/D": 24,
+        "L/P": 1,
+        "NOTICE": 5,
+        "REL": 2,
+        "D/T": 7,
+        "MODIF": 1,
+        "CONT": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VILLATORO DIGNA')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "22 instruments as grantee, 20 as grantor (index, name 'VILLATORO DIGNA')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VILLATORO DIGNA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

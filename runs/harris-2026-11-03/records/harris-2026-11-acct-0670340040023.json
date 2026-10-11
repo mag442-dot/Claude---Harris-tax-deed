@@ -132,5 +132,67 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (337 KILGORE AVE, BAYTOWN, TX, 77520), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (337 KILGORE AVE, BAYTOWN, TX, 77520), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2025-104452 | 03/24/2025 | L/P | Grantor: HAZEL WILLIAM J Grantee: RYAN TONIA OLA | Desc: LAKEVIEW HEIGHTS Lot: 23-24 Block: 4",
+        "RP-2024-232631 | 06/26/2024 | W/D | Grantor: HAZEL WILLIAM J Grantee: RYAN TONIA | Desc: LAKEVIEW HEIGHTS Lot: 23-24 Block: 4"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RYAN TONIA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2024-446332 | 12/02/2024 | FI STM | Grantor: HAZEL WILLIAM Grantor: RYAN TONIA Grantee: SUNNOVA TE MANAGEMENT LLC | Desc: LAKEVIEW HEIGHTS Lot: 23-24 Block: 4",
+        "RP-2024-232630 | 06/26/2024 | D/T | Grantor: RYAN TONIA Grantee: HAZEL WILLIAM J Trustee: YOUNGBLOOD SCOTT | Desc: LAKEVIEW HEIGHTS Lot: 23-24 Block: 4"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RYAN TONIA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "L/P": 1,
+        "W/D": 1,
+        "FI STM": 1,
+        "D/T": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RYAN TONIA')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "2 instruments as grantee, 2 as grantor (index, name 'RYAN TONIA')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RYAN TONIA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

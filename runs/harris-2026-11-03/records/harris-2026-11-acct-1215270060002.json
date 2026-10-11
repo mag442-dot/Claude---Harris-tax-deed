@@ -126,5 +126,88 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "AE",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (3114 FALK CT, LA PORTE, TX, 77571), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (3114 FALK CT, LA PORTE, TX, 77571), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": true,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2025-124750 | 04/04/2025 | MEMO | Grantor: UNMATCHED OFFERS LLC Grantee: REYES LORENZO | Desc: BLUERIDGE Sec: 2 Lot: 8 Block: 19",
+        "RP-2024-394427 | 10/24/2024 | W/D | Grantor: 3 4 INVESTMENTS LLC Grantee: ORTIZ JAMILET Grantee: REYES LORENZO ANTONIO JIMENEZ | Desc: WEST MEADOWS SUBDIVISION Sec: 1 Lot: 60",
+        "RP-2023-472537 | 12/15/2023 | REL | Grantor: BANK OF AMERICA N A Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: REYES LORENZO Grantee: REYES OCTAVIA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-470564 | 12/14/2023 | LIEN | Grantor: MEYERS CASEY Grantor: TOWNSHIP TOWNHOMES CONDOMINIUMS ASSOCIATION INC Grantee: REYES LORENZO JR | Desc: TOWNSHIP TOWNHOME CONDOMINIUMS Unit: 3114",
+        "RP-2022-407072 | 08/09/2022 | NOTICE | Grantor: REYES LORENZO JR Grantor: SPEEDY HOMES LLC Grantee: REYES LORENZO JR Grantee: SPEEDY HOMES LLC | Desc: TOWNSHIP TOWNHOME CONDOMINIUMS Unit: 3114 Related Docs",
+        "RP-2022-407070 | 08/09/2022 | W/D | Grantor: SPEEDY HOMES LLC Grantee: REYES LORENZO JR | Desc: TOWNSHIP TOWNHOME CONSOMINIUMS Unit: 3114 Related Docs",
+        "RP-2021-536664 | 09/20/2021 | FI STM | Grantor: LOANPAL LLC Grantee: REYES LORENZO | Desc: WYENNEWOOD Sec: 1-2 Lot: 12 Block: 2 Related Docs",
+        "RP-2021-478189 | 08/23/2021 | FI STM | Grantor: LOANPAL LLC Grantee: REYES LORENZO | Desc: WYNNEWOOD Sec: 1-2 Lot: 12 Block: 2 Related Docs",
+        "RP-2018-391541 | 08/27/2018 | REL | Grantor: SELENE FINANCE LP Grantee: PEDRAZA DENYS Grantee: REYES LORENZO | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-401202 | 09/12/2017 | REL | Grantor: AMEGY BANK Grantor: ZB N A Grantee: REYES LORENZO Grantee: REYES SAN JUANITA | Comment: SEE INSTRUMENT",
+        "RP-2017-337238 | 07/28/2017 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: REYES LORENZO Grantee: REYES OCTAVIA | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'REYES LORENZO')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2024-394428 | 10/24/2024 | D/T | Grantor: ORTIZ JAMILET Grantor: REYES LORENZO ANTONIO JIMENEZ Grantee: FLAGSTAR BANK N A Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK THOMAS E JR | Desc: WEST MEADOWS SUBDIVISION Sec: 1 Lot: 60 Related Docs",
+        "RP-2022-407072 | 08/09/2022 | NOTICE | Grantor: REYES LORENZO JR Grantor: SPEEDY HOMES LLC Grantee: REYES LORENZO JR Grantee: SPEEDY HOMES LLC | Desc: TOWNSHIP TOWNHOME CONDOMINIUMS Unit: 3114 Related Docs",
+        "RP-2022-407071 | 08/09/2022 | D/T | Grantor: REYES LORENZO JR Grantee: SPEEDY HOMES LLC Trustee: WIZIG SCOTT | Desc: TOWNSHIP TOWNHOME CONDOMINIUMS Unit: 3114 Related Docs",
+        "RP-2021-336353 | 06/16/2021 | W/D | Grantor: REYES LORENZO Grantee: BONILLA JUANA E | Desc: ROLLING GREEN Sec: 2 Lot: 434 Block: 14 Related Docs",
+        "RP-2020-139898 | 03/31/2020 | FI STM | Grantor: REYES LORENZO Grantee: LOANPAL LLC | Desc: WYNNEWOOD Sec: 1-2 Lot: 12 Block: 2 Related Docs",
+        "RP-2018-482084 | 10/23/2018 | W/D | Grantor: ESPRONCEDA DENYS I PEDRAZA Grantor: REYES LORENZO Grantee: ALVARADO OSCAR | Desc: PINE VALLEY SUBDIVISION Lot: 22 Block: 5",
+        "RP-2017-330331 | 07/25/2017 | AFFT | Grantor: REYES LORENZO CORTEZ Grantee: SEE INSTRUMENT | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-330330 | 07/25/2017 | W/D | Grantor: REYES LORENZO CORTEZ Grantee: OAKLAND LAND & DEVELOPMENT LLC | Desc: TOWN OF LA PORTE Lot: 17-32 Block: 649 Related Docs",
+        "RP-2017-326234 | 07/21/2017 | AFFT | Grantor: REYES LORENZO Grantor: REYES OCTAVIA Grantee: SEE INSTRUMENT | Desc: WYNNEWOOD ADDITION Sec: 2 Lot: 12 Block: 2",
+        "RP-2017-326233 | 07/21/2017 | D/T | Grantor: REYES LORENZO Grantor: REYES OCTAVIA Grantee: BANK OF AMERICA N A Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEM INC Trustee: RECONTRUST COMPANY N A | Desc: WYNNEWOOD ADDITION Sec: 2 Lot: 12 Block: 2 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'REYES LORENZO')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "MEMO": 1,
+        "W/D": 5,
+        "REL": 4,
+        "LIEN": 1,
+        "NOTICE": 2,
+        "FI STM": 3,
+        "D/T": 3,
+        "AFFT": 2
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'REYES LORENZO')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "11 instruments as grantee, 10 as grantor (index, name 'REYES LORENZO')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'REYES LORENZO')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

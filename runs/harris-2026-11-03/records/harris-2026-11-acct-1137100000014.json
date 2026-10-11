@@ -132,5 +132,71 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (10127 PEACHRIDGE DR, HOUSTON, TX, 77070), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (10127 PEACHRIDGE DR, HOUSTON, TX, 77070), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-172589 | 05/04/2026 | A/J | Grantor: TALLOW WOOD HOMEOWNERS ASSOCIATION INC Grantee: LINDERMAN ERIC | Comment: SEE INSTRUMENT",
+        "RP-2020-439251 | 09/18/2020 | A/J | Grantor: TALLOW WOOD HOMEOWNERS ASSOCIATION INC Grantee: LINDERMAN ERIC | Comment: SEE INSTRUMENT",
+        "RP-2017-151290 | 04/10/2017 | NOTICE | Grantor: GARZA EDWARD Grantor: GARZA JESSICA G Grantor: LINDERMAN ERIC Grantee: GARZA EDWARD Grantee: GARZA JESSICA G Grantee: LINDERMAN ERIC | Desc: TALLOW WOOD Sec: 1 Lot: 14 Block: 6 Related Docs",
+        "RP-2017-151289 | 04/10/2017 | NOTICE | Grantor: GARZA EDWARD Grantor: GARZA JESSICA G Grantor: LINDERMAN ERIC Grantee: GARZA EDWARD Grantee: GARZA JESSICA G Grantee: LINDERMAN ERIC | Desc: TALLOW WOOD Sec: 1 Lot: 14 Block: 6",
+        "RP-2017-151287 | 04/10/2017 | W/D | Grantor: GARZA EDWARD Grantor: GARZA JESSICA G Grantee: LINDERMAN ERIC | Desc: TALLOW WOOD Sec: 1 Lot: 14 Block: 6"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'LINDERMAN ERIC')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2017-151290 | 04/10/2017 | NOTICE | Grantor: GARZA EDWARD Grantor: GARZA JESSICA G Grantor: LINDERMAN ERIC Grantee: GARZA EDWARD Grantee: GARZA JESSICA G Grantee: LINDERMAN ERIC | Desc: TALLOW WOOD Sec: 1 Lot: 14 Block: 6 Related Docs",
+        "RP-2017-151289 | 04/10/2017 | NOTICE | Grantor: GARZA EDWARD Grantor: GARZA JESSICA G Grantor: LINDERMAN ERIC Grantee: GARZA EDWARD Grantee: GARZA JESSICA G Grantee: LINDERMAN ERIC | Desc: TALLOW WOOD Sec: 1 Lot: 14 Block: 6",
+        "RP-2017-151288 | 04/10/2017 | D/T | Grantor: LINDERMAN CHRISTI Grantor: LINDERMAN ERIC Grantee: AMEGY BANK Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: ZB N A Trustee: MARSHALL GEORGE M | Desc: TALLOW WOOD Sec: 1 Lot: 14 Block: 6 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'LINDERMAN ERIC')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "A/J": 2,
+        "NOTICE": 4,
+        "W/D": 1,
+        "D/T": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'LINDERMAN ERIC')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "5 instruments as grantee, 3 as grantor (index, name 'LINDERMAN ERIC')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'LINDERMAN ERIC')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

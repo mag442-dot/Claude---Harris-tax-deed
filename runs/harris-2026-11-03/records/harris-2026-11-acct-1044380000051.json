@@ -132,5 +132,87 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (5118 FORESTHAVEN DR, HOUSTON, TX, 77066), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (5118 FORESTHAVEN DR, HOUSTON, TX, 77066), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-89223 | 03/10/2026 | NOTICE | Grantor: ALVARADO JOSE MIGUEL JR Grantor: ALVARADO MARIANN MONTY Grantor: ALVARADO SOPHIA ANNE Grantor: HENNING JAMES Grantor: HENNING SARAH Grantee: ALVARADO JOSE MIGUEL JR Grantee: ALVARADO MARIANN MONTY Grantee: ALVARADO SOPHIA ANNE Grantee: HENNING JAMES Grantee: HENNING SARAH | Desc: BEAR CREEK VILLAGE Sec: 7 Lot: 10 Block: 21",
+        "RP-2026-89221 | 03/10/2026 | W/D | Grantor: HENNING JAMES Grantor: HENNING SARAH Grantee: ALVARADO JOSE MIGUEL JR Grantee: ALVARADO MARIANN MONTY Grantee: ALVARADO SOPHIA ANNE | Desc: BEAR CREEK VILLAGE Sec: 7 Lot: 10 Block: 21",
+        "RP-2026-52553 | 02/12/2026 | W/D | Grantor: NEI GLOBAL RELOCATION COMPANY Grantee: ALVARADO JOSEFINA | Desc: BRECKENRIDGE EAST Sec: 10 Lot: 51 Block: 6",
+        "RP-2026-409215 | 10/08/2026 | DEED | Grantor: ALVARADO JOSE M Grantor: ALVARADO JOSE MIGUEL Grantor: PRATT JOHANNA Grantor: PRATT JOHANNA L Grantee: ALVARADO JOSE MIGUEL | Desc: WINDWARD Sec: 11 Lot: 7 Block: 5",
+        "RP-2026-392943 | 09/28/2026 | A/J | Grantor: JPMORGAN CHASE BANK NA Grantee: ALVARADO JOSETTE | Comment: SEE INSTRUMENT",
+        "RP-2026-390911 | 09/25/2026 | REL | Grantor: TEXAS CAPITAL LOANS LLC Grantee: ALVARADO JOSE Grantee: MONGE JUDITH | Desc: CAMINO SOUTH Sec: 3 Lot: 11 Block: 21 Related Docs",
+        "RP-2026-371439 | 09/11/2026 | W/D | Grantor: MENENDEZ JOSE Grantor: MENENDEZ JOSE ISAIAS Grantee: ALVARADO JOSE ARQUIMIDEO VELASQUEZ Grantee: VELASQUEZ GILMAR ROSIBEL CRUZ DE | Desc: INDUSTRIAL ADDITION Lot: 14",
+        "RP-2026-366578 | 09/09/2026 | A/J | Grantor: GREENWOOD FOREST FUND INC Grantor: GREENWOOD FOREST HOMEOWNERS' ASSOCIATION Grantee: ALVARADO JOSE ALEX CHACON | Comment: SEE INSTRUMENT",
+        "RP-2026-345817 | 08/25/2026 | REL | Grantor: EV HOMEOWNERS ASSOCIATION INC Grantor: O'NEAL MICHAEL R Grantee: ALVARADO JOSE A RAMOS | Desc: EDGEWOOD VILLAGE Sec: 7 Lot: 5 Block: 1 Related Docs",
+        "RP-2026-345266 | 08/25/2026 | REL | Grantor: ARCHAMBAULT CHRIS Grantor: FOXWOOD HOMEOWNERS ASSOCIATION Grantee: ALVARADO JOSE F JR Grantee: GRIMALDO NATALIE | Desc: FOXWOOD Sec: 1 Lot: 19 Block: 3 Related Docs",
+        "RP-2026-331334 | 08/14/2026 | FI STM | Grantor: SERVICE FINANCE COMPANY LLC Grantee: ALVARADO JOSE | Desc: RED BLUFF TERRACE Sec: 6 Lot: 5 Block: 5 Related Docs",
+        "RP-2026-307520 | 07/29/2026 | LIEN | Grantor: EV HOMEOWNERS ASSOCIATION INC Grantor: O'NEAL MICHAEL R Grantee: ALVARADO JOSE A RAMOS | Desc: EDGEWOOD VILLAGE Sec: 7 Lot: 5 Block: 1",
+        "RP-2026-199159 | 05/21/2026 | REL | Grantor: GARDNER FINANCIAL SERVICES LTD Grantor: LEGACY MUTUAL MORTGAGE Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: ALVARADO JOSEFINA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-189131 | 05/14/2026 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: TEXAS LOAN STAR INC Grantee: ALVARADO JOSE Grantee: ALVARADO MALISSA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-177712 | 05/07/2026 | REL | Grantor: AMERICAN FINANCIAL RESOURCES INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: ALVARADO JOSE Grantee: RAMIREZ JANICE ANN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-168798 | 05/01/2026 | W/D | Grantor: DOERRE HERBY R Grantor: DOERRE PATRICIA ANN Grantor: HARMEIER GERALDINE D Grantor: HOLZWORTH SUSAN D Grantee: ALVARADO JOSE Grantee: ALVARADO MALISSA | Desc: SMITH J S Abstract: 730 Comment: 2.786",
+        "RP-2026-168465 | 05/01/2026 | W/D | Grantor: ALVARADO JOSE RAMIRO Grantor: ALVARADO MALISSAKRYSTAL Grantor: JOSE RAMIRO ALVARADO AND MALISSAKRYSTAL ALVARADO LIVING TRUST Grantee: ALVARADO JOSE RAMIRO Grantee: ALVARADO MALISSAKRYSTAL | Desc: TIMBERHILLS Sec: 1 Lot: 18 Block: 7",
+        "RP-2026-160825 | 04/28/2026 | L/P | Grantor: GREENWOOD FOREST FUND INC Grantor: GREENWOOD FOREST HOMEOWNERS' ASSOCIATION Grantee: ALVARADO JOSE ALEX CHACON | Desc: GREENWOOD FOREST Sec: 5 Lot: 51 Block: 22",
+        "RP-2025-9920 | 01/10/2025 | REL | Grantor: LOANCARE LLC Grantor: TEXAS STATE AFFORDABLE HOUSING CORPORATION Grantee: ALVARADO JOSE FRANCISCO VAZQUEZ Grantee: MARIN ALICIA ASCENCIO | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-74680 | 03/03/2025 | RESCND | Grantor: BRAMMER DONNA Grantor: PAULINE INVESTMENTS INC Grantor: TEXAS SPECIALTY HOMES LP Grantor: WIZIG SCOTT Grantee: ALVARADO JOSE ALBERTO SORTO | Desc: FALL CREEK Sec: 5 Lot: 33 Block: 3 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ALVARADO JOSE')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ALVARADO JOSE')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "NOTICE": 1,
+        "W/D": 5,
+        "DEED": 1,
+        "A/J": 2,
+        "REL": 7,
+        "FI STM": 1,
+        "LIEN": 1,
+        "L/P": 1,
+        "RESCND": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ALVARADO JOSE')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "20 instruments as grantee, 0 as grantor (index, name 'ALVARADO JOSE')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ALVARADO JOSE')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

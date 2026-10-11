@@ -126,5 +126,80 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (2910 DESTIN SHORE DR, HOUSTON, TX, 77084), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (2910 DESTIN SHORE DR, HOUSTON, TX, 77084), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2024-384057 | 10/17/2024 | LIEN | Grantor: OAK RIDGE PLACE COMMUNITY ASSOCIATION INC Grantor: TOLLETT LUKE P Grantee: ABBAS SAIMA Grantee: NAQVI MIR ABUZAR Grantee: NAQVI MIR JUZAR Grantee: NAQVI MUHAMMAD ABBAS | Desc: OAK RIDGE PLACE Sec: 5 Lot: 2 Block: 3",
+        "RP-2023-380195 | 10/03/2023 | REL | Grantor: OAK RIDGE PLACE COMMUNITY ASSOCIATION INC Grantor: TOLLETT LUKE P Grantee: ABBAS SAIMA Grantee: NAQVI MIR ABUZAR Grantee: NAQVI MIR JUZAR Grantee: NAQVI MUHAMMAD ABBAS | Desc: OAK RIDGE PLACE Sec: 5 Lot: 02 Block: 03 Related Docs",
+        "RP-2021-412414 | 07/21/2021 | NOTICE | Grantor: ABBAS ASAD Grantor: ABBAS SAIMA Grantor: AYRES CHRISTOPHER G Grantor: HUGHES KAREN L Grantor: MICHHIYA FEROZ Grantee: ABBAS ASAD Grantee: ABBAS SAIMA Grantee: AYRES CHRISTOPHER G Grantee: HUGHES KAREN L Grantee: MICHHIYA FEROZ | Desc: CALUMET JACKSON TERRACE Lot: 4 Block: 1 Related Docs",
+        "RP-2021-412412 | 07/21/2021 | W/D | Grantor: AYRES CHRISTOPHER G Grantor: HUGHES KAREN L Grantee: ABBAS ASAD S Grantee: ABBAS SAIMA Grantee: KHAN SAIRA Grantee: MERCHHIYA FEROZ | Desc: CALUMET JACKSON TERRACE Lot: 4 Block: 1",
+        "RP-2020-418965 | 09/08/2020 | LIEN | Grantor: OAK RIDGE PLACE COMMUNITY ASSOCIATION INC Grantor: TOLLETT LUKE P Grantee: ABBAS SAIMA Grantee: NAQVI MIR ABUZAR Grantee: NAQVI MIR JUZAR Grantee: NAQVI MUHAMMAD ABBAS | Desc: OAK RIDGE PLACE Sec: 5 Lot: 2 Block: 3 Related Docs",
+        "RP-2018-5859 | 01/04/2018 | A/J | Grantor: OAK RIDGE PLACE COMMUNITY ASSOCIATION INC Grantee: ABBAS SAIMA Grantee: NAQVI MIR ABUZAR Grantee: NAQVI MIR JUZAR Grantee: NAQVI MUHAMMAD ABBAS | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-254829 | 06/08/2018 | REL | Grantor: BARTLEY RICHARD E Grantor: OAK RIDGE PLACE COMMUNITY ASSOCIATION INC Grantee: ABBAS SAIMA Grantee: NAQVI MIR ABUZAR Grantee: NAQVI MIR JUZAR Grantee: NAQVI MUHAMMAD ABBAS | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ABBAS SAIMA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2022-519280 | 10/21/2022 | MODIF | Grantor: ABBAS SAIMA Grantor: NAQVI MIR ABUZAR Grantor: NAQVI MIR JUZAR Grantor: NAQVI MIRABUZAR Grantor: NAQVI MUHAMMAD Grantor: NAQVI MUHAMMAD ABBAS Grantor: NAQVI SYEDA Grantor: RIZVI SYEDA Grantee: MIDFIRST BANK | Desc: OAK RIDGE PLACE Sec: 5 Lot: 2 Block: 3 Related Docs",
+        "RP-2022-507025 | 10/13/2022 | MTG | Grantor: ABBAS SAIMA Grantor: NAQVI MIR ABUZAR Grantor: NAQVI MIR JUZAR Grantor: NAQVI MIRABUZAR Grantor: NAQVI MUHAMMAD Grantor: NAQVI MUHAMMAD ABBAS Grantor: NAQVI SYEDA Grantor: RIZVI SYEDA Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SEE INSTRUMENT | Desc: OAK RIDGE PLACE Sec: 5 Lot: 2 Block: 3",
+        "RP-2021-412414 | 07/21/2021 | NOTICE | Grantor: ABBAS ASAD Grantor: ABBAS SAIMA Grantor: AYRES CHRISTOPHER G Grantor: HUGHES KAREN L Grantor: MICHHIYA FEROZ Grantee: ABBAS ASAD Grantee: ABBAS SAIMA Grantee: AYRES CHRISTOPHER G Grantee: HUGHES KAREN L Grantee: MICHHIYA FEROZ | Desc: CALUMET JACKSON TERRACE Lot: 4 Block: 1 Related Docs",
+        "RP-2021-412413 | 07/21/2021 | D/T | Grantor: ABBAS ASAD S Grantor: ABBAS SAIMA Grantor: KHAN SAIRA Grantor: MERCHHIYA FEROZ Grantee: BANK OF ENGLAND Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BURNS MICHAEL | Desc: CALUMET JACKSON TERRACE Lot: 4 Block: 1",
+        "RP-2021-412411 | 07/21/2021 | P/A | Grantor: ABBAS SAIMA Grantee: ABBAS ASAD S | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ABBAS SAIMA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "LIEN": 2,
+        "REL": 2,
+        "NOTICE": 2,
+        "W/D": 1,
+        "A/J": 1,
+        "MODIF": 1,
+        "MTG": 1,
+        "D/T": 1,
+        "P/A": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ABBAS SAIMA')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "7 instruments as grantee, 5 as grantor (index, name 'ABBAS SAIMA')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ABBAS SAIMA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

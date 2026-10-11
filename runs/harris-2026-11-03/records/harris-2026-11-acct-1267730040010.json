@@ -132,5 +132,89 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (15618 BRISTOL LAKE DR, HOUSTON, TX, 77070), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (15618 BRISTOL LAKE DR, HOUSTON, TX, 77070), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-254716 | 06/26/2026 | A/J | Grantor: ALLIANCE FUNDING GROUP Grantee: BURNS BURNS & BURNS LLC Grantee: BURNS ORIGINAL BBQ Grantee: CRAWFORD GERCORY | Comment: SEE INSTRUMENT",
+        "RP-2026-162389 | 04/28/2026 | A/J | Grantor: OVERTON FUNDING LLC Grantee: BURNS BURNS & BURNS LLC Grantee: BURNS ORIGINAL BBQ BISTRO LLC Grantee: CRAWFORD GERCORY DANUIEL | Comment: SEE INSTRUMENT",
+        "RP-2025-467710 | 11/25/2025 | A/J | Grantor: OVERTON FUNDING LLC Grantee: CRAWFORD GERCORY DANUIEL Grantee: DEPRIEST LAND VENTURES LLC | Comment: SEE INSTRUMENT",
+        "RP-2025-438891 | 11/05/2025 | A/J | Grantor: VINTAGE LAKES COMMUNITY ASSOCIATION INC Grantee: CRAWFORD GERCORY | Comment: SEE INSTRUMENT",
+        "RP-2024-450286 | 12/03/2024 | REL | Grantor: STATE OF TEXAS Grantee: CRAWFORD GERCORY D | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-293143 | 08/03/2023 | W/D | Grantor: 15618 BRISTOL LAKE LLC Grantee: CRAWFORD GERCORY | Desc: VINTAGE LAKES Sec: 1 Lot: 10 Block: 4 Related Docs",
+        "RP-2023-249861 | 07/05/2023 | AGMT | Grantor: ALLEGIANCE BANK Grantor: CRAWFORD GERCORY Grantor: CRAWFORD GERCORY D Grantor: CRAWFORD GERCORY DANUIEL Grantor: DEPRIEST LAND VENTURES LLC Grantor: STELLAR BANK Grantee: ALLEGIANCE BANK Grantee: CRAWFORD GERCORY Grantee: CRAWFORD GERCORY D Grantee: CRAWFORD GERCORY DANUIEL Grantee: DEPRIEST LAND VENTURES LLC Grantee: STELLAR BANK | Desc: FORTUNE PLAZA AT DEPRIEST Lot: 1 Block: 1 Related Docs",
+        "RP-2020-150049 | 04/07/2020 | NOTICE | Grantor: CRAWFORD GERCORY Grantor: DE PRIEST LAND MANAGEMENT LLC Grantor: GARZA ARLEY Grantee: CRAWFORD GERCORY Grantee: DE PRIEST LAND MANAGEMENT LLC Grantee: GARZA ARLEY | Desc: BURNS VILLAGE AT LINCOLN CITY Lot: 1 Block: 1",
+        "RP-2016-46229 | 02/03/2016 | W/D | Grantor: ALANIS RICARDO M Grantee: CRAWFORD GERCORY Grantee: DE PRIEST LAND MANAGEMENT | Desc: LINCOLN CITY Sec: 3 Lot: 303 Block: 16"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CRAWFORD GERCORY')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2025-82627 | 03/07/2025 | T/L | Grantor: CRAWFORD GERCORY D Grantor: DEASON ASHLEY Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2025-480220 | 12/05/2025 | T/L | Grantor: CRAWFORD GERCORY D Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2025-257059 | 07/03/2025 | T/L | Grantor: CRAWFORD GERCORY D Grantor: DEASON ASHLEY Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2024-411838 | 11/05/2024 | LIEN | Grantor: CRAWFORD GERCORY D Grantee: STATE OF TEXAS | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-282269 | 08/02/2024 | AFFT | Grantor: BOOKMAN OPHELIA Grantor: CRAWFORD GERCORY Grantee: DEPRIEST LAND MANAGEMENT LLC | Desc: LINCOLN CITY Sec: 3 Lot: 41 Block: 3 Related Docs",
+        "RP-2024-282261 | 08/02/2024 | AFFT | Grantor: BECERRA CARMEN OCHOA Grantor: CRAWFORD GERCORY Grantor: RIVERA ARTURO YANEZ Grantor: YANEZ JONATHAN Grantee: DEPRIEST LAND MANAGEMENT Grantee: DEPRIEST LAND MANAGEMENT LLC | Desc: LINCOLN CITY Sec: 2 Lot: 194 Block: 11 Related Docs",
+        "RP-2023-348359 | 09/11/2023 | AFFT | Grantor: CRAWFORD GERCORY Grantee: SEE INSTRUMENT | Desc: VINTAGE LAKES Sec: 1 Lot: 10 Block: 4",
+        "RP-2023-348358 | 09/11/2023 | D/T | Grantor: CRAWFORD GERCORY Grantee: LOANDEPOT.COM LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK THOMAS E JR | Desc: VINTAGE LAKES Sec: 1 Lot: 10 Block: 4 Related Docs",
+        "RP-2023-249861 | 07/05/2023 | AGMT | Grantor: ALLEGIANCE BANK Grantor: CRAWFORD GERCORY Grantor: CRAWFORD GERCORY D Grantor: CRAWFORD GERCORY DANUIEL Grantor: DEPRIEST LAND VENTURES LLC Grantor: STELLAR BANK Grantee: ALLEGIANCE BANK Grantee: CRAWFORD GERCORY Grantee: CRAWFORD GERCORY D Grantee: CRAWFORD GERCORY DANUIEL Grantee: DEPRIEST LAND VENTURES LLC Grantee: STELLAR BANK | Desc: FORTUNE PLAZA AT DEPRIEST Lot: 1 Block: 1 Related Docs",
+        "RP-2020-256875 | 06/16/2020 | W/D | Grantor: CRAWFORD GERCORY Grantor: DEPRIEST LAND MANAGEMENT LLC Grantee: SHOEMAKER EVAN MEIER Grantee: WHITE DARRYL JOEL | Desc: BURNS VILLAGE AT LINCOLN CITY Lot: 2 Block: 1",
+        "RP-2020-150049 | 04/07/2020 | NOTICE | Grantor: CRAWFORD GERCORY Grantor: DE PRIEST LAND MANAGEMENT LLC Grantor: GARZA ARLEY Grantee: CRAWFORD GERCORY Grantee: DE PRIEST LAND MANAGEMENT LLC Grantee: GARZA ARLEY | Desc: BURNS VILLAGE AT LINCOLN CITY Lot: 1 Block: 1",
+        "RP-2019-500389 | 11/11/2019 | W/D | Grantor: CRAWFORD GERCORY Grantor: CRAWFORD GERCORY D Grantor: DEPRIEST LAND MANAGEMENT LLC Grantee: NAVARRO JOSE ARTURO Grantee: TAPIA SUSANA | Desc: HIGHLAND HEIGHTS ANNEX NO 7 Lot: 40 Block: 55"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CRAWFORD GERCORY')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "A/J": 4,
+        "REL": 1,
+        "W/D": 4,
+        "AGMT": 2,
+        "NOTICE": 2,
+        "T/L": 3,
+        "LIEN": 1,
+        "AFFT": 3,
+        "D/T": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CRAWFORD GERCORY')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "9 instruments as grantee, 12 as grantor (index, name 'CRAWFORD GERCORY')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CRAWFORD GERCORY')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

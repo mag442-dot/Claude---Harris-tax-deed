@@ -132,5 +132,74 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (8902 CLOVERMIST DR, HOUSTON, TX, 77064), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (8902 CLOVERMIST DR, HOUSTON, TX, 77064), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-8138 | 01/08/2026 | L/P | Grantor: STEEPLE CHASE TERRACE TOWNHOUSE ASSOCIATION INC Grantee: CALLWOOD TRAVIS A | Desc: STEEPLE CHASE TERRACE Lot: 7 Block: 2",
+        "RP-2026-295479 | 07/22/2026 | A/J | Grantor: STEEPLE CHASE TERRACE TOWNHOUSE ASSOCIATION INC Grantee: CALLWOOD TRAVIS A | Comment: SEE INSTRUMENT",
+        "RP-2018-223760 | 05/22/2018 | TRSALE | Grantor: MR. COOPER Grantor: NATIONSTAR MORTGAGE LLC Grantor: POSTON PATRICIA Grantee: CALLWOOD TRAVIS A | Desc: STEEPLE CHASE TERRACE Lot: 7 Block: 2",
+        "RP-2018-221965 | 05/21/2018 | LIEN | Grantor: STEEPLE CHASE TERRACE TOWNHOUSE ASSOCIATION INC Grantee: CALLWOOD TRAVIS A | Desc: STEEPLE CHASE TERRACE Lot: 7 Block: 2",
+        "RP-2017-259236 | 06/12/2017 | TRSALE | Grantor: NATIONSTAR MORTGAGE LLC Grantor: SEWART ANNA Grantee: CALLWOOD TRAVIS A | Desc: STEEPLE CHASE TERRACE Lot: 7 Block: 2 Related Docs",
+        "RP-2016-161889 | 04/20/2016 | LIEN | Grantor: BARSALOU W AUSTIN Grantor: STEEPLE CHASE TERRACE TOWNHOUSE ASSOCIATION INC Grantee: CALLWOOD TRAVIS | Desc: STEEPLE CHASE TERRACE Lot: 7 Block: 2"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CALLWOOD TRAVIS')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2025-65584 | 02/25/2025 | D/T | Grantor: CALLWOOD TRAVIS A Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: FRAPPIER ROBERT | Desc: STEEPLE CHASE TERRACE Lot: 7 Block: 2",
+        "RP-2020-223007 | 05/27/2020 | D/T | Grantor: CALLWOOD TRAVIS A Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: FRAPPIER ROBERT | Desc: STEEPLE CHASE TERRACE Lot: 7 Block: 2",
+        "RP-2020-223004 | 05/27/2020 | MODIF | Grantor: CALLWOOD TRAVIS A Grantee: MR COOPER Grantee: NATIONSTAR MORTGAGE LLC | Desc: STEEPLE CHASE TERRACE Lot: 7 Block: 2 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CALLWOOD TRAVIS')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "L/P": 1,
+        "A/J": 1,
+        "TRSALE": 2,
+        "LIEN": 2,
+        "D/T": 2,
+        "MODIF": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CALLWOOD TRAVIS')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "6 instruments as grantee, 3 as grantor (index, name 'CALLWOOD TRAVIS')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CALLWOOD TRAVIS')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

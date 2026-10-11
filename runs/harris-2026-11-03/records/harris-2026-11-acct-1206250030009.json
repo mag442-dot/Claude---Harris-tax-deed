@@ -132,5 +132,72 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (12922 YORKMONT DR, CYPRESS, TX, 77429), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (12922 YORKMONT DR, CYPRESS, TX, 77429), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-305290 | 07/28/2026 | A/J | Grantor: ROSS ADRIAN Grantee: POND VIRGINIA KAE | Comment: SEE INSTRUMENT",
+        "RP-2023-257282 | 07/11/2023 | REL | Grantor: AMERICAN PACIFIC MORTGAGE CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: POND VIRGINIA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-94901 | 02/22/2022 | REL | Grantor: AMEGY BANK Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: ZIONS BANCORPORATION N A Grantee: POND VIRGINIA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-187362 | 05/05/2020 | NOTICE | Grantor: POND VIRGINIA Grantor: SPH PROPERTY TWO LLC Grantee: POND VIRGINIA Grantee: SPH PROPERTY TWO LLC | Desc: COLES CROSSING Sec: 2 Lot: 9 Block: 3",
+        "RP-2020-187360 | 05/05/2020 | W/D | Grantor: SPH PROPERTY TWO LLC Grantee: POND VIRGINIA | Desc: COLES CROSSING Sec: 10 Lot: 9 Block: 3"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'POND VIRGINIA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2022-88301 | 02/17/2022 | D/T | Grantor: POND VIRGINIA Grantee: AMERICAN PACIFIC MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: GARNER RUTH W | Desc: COLES CROSSING Sec: 10 Lot: 9 Block: 3 Related Docs",
+        "RP-2020-187362 | 05/05/2020 | NOTICE | Grantor: POND VIRGINIA Grantor: SPH PROPERTY TWO LLC Grantee: POND VIRGINIA Grantee: SPH PROPERTY TWO LLC | Desc: COLES CROSSING Sec: 2 Lot: 9 Block: 3",
+        "RP-2020-187361 | 05/05/2020 | D/T | Grantor: POND VIRGINIA Grantee: AMEGY BANK Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: ZIONS BANCORPORATION N.A. Trustee: MARSHALL GEORGE M | Desc: COLES CROSSING Sec: 10 Lot: 9 Block: 3 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'POND VIRGINIA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "A/J": 1,
+        "REL": 2,
+        "NOTICE": 2,
+        "W/D": 1,
+        "D/T": 2
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'POND VIRGINIA')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "5 instruments as grantee, 3 as grantor (index, name 'POND VIRGINIA')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'POND VIRGINIA')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

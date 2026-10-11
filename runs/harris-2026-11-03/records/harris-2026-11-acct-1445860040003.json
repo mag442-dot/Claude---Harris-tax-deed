@@ -132,5 +132,69 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (15822 GLASCORRI DR, HUMBLE, TX, 77346), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (15822 GLASCORRI DR, HUMBLE, TX, 77346), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2024-136832 | 04/17/2024 | L/P | Grantor: PROPERTY OWNERS ASSOCIATION OF BALMORAL INC Grantee: DIAZ AJIAN DOMINIQUE | Desc: BALMORAL Sec: 26 Lot: 3 Block: 4",
+        "RP-2022-434704 | 08/26/2022 | NOTICE | Grantor: CHESMAR HOMES LLC Grantor: DIAZ AJIAN Grantor: PORTER JEANNIE Grantee: CHESMAR HOMES LLC Grantee: DIAZ AJIAN Grantee: PORTER JEANNIE | Desc: BALMORAL Sec: 26 Lot: 3 Block: 4",
+        "RP-2022-434702 | 08/26/2022 | W/D | Grantor: CHESMAR HOMES LLC Grantor: PORTER JEANNIE Grantee: DIAZ AJIAN DOMINIQUE | Desc: BALMORAL Sec: 26 Lot: 3 Block: 4"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DIAZ AJIAN')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2024-444093 | 11/27/2024 | D/T | Grantor: DIAZ AJIAN D Grantor: DIAZ AJIAN DOMINIQUE Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: FRAPPIER ROBERT F | Desc: BALMORAL Sec: 26 Lot: 3 Block: 4",
+        "RP-2022-434704 | 08/26/2022 | NOTICE | Grantor: CHESMAR HOMES LLC Grantor: DIAZ AJIAN Grantor: PORTER JEANNIE Grantee: CHESMAR HOMES LLC Grantee: DIAZ AJIAN Grantee: PORTER JEANNIE | Desc: BALMORAL Sec: 26 Lot: 3 Block: 4",
+        "RP-2022-434703 | 08/26/2022 | D/T | Grantor: DIAZ AJIAN DOMINIQUE Grantee: CLM MORTGAGE INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: DON W LEDBETTER PLLC | Desc: BALMORAL Sec: 26 Lot: 3 Block: 4 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DIAZ AJIAN')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "L/P": 1,
+        "NOTICE": 2,
+        "W/D": 1,
+        "D/T": 2
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DIAZ AJIAN')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "3 instruments as grantee, 3 as grantor (index, name 'DIAZ AJIAN')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DIAZ AJIAN')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }

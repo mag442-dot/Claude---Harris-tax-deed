@@ -132,5 +132,64 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-11"
     }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (12042 HADLEY FALLS CT, HOUSTON, TX, 77067), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11",
+      "note": "Point = geocoded address (12042 HADLEY FALLS CT, HOUSTON, TX, 77067), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-11"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-358896 | 09/02/2026 | A/J | Grantor: HERITAGE VILLAGE HOMEOWNERS ASSOCIATION INC Grantee: VENCES KITTY Grantee: VENCES SALVADOR | Comment: SEE INSTRUMENT",
+        "RP-2025-222373 | 06/10/2025 | L/P | Grantor: HERITAGE VILLAGE HOMEOWNERS ASSOCIATION INC Grantee: VENCES KITTY Grantee: VENCES SALVADOR | Desc: HERITAGE VILLAGE Sec: 1 Lot: 119 Block: 4",
+        "RP-2025-126950 | 04/07/2025 | REL | Grantor: MIDFIRST BANK Grantee: VENCES KITTY Grantee: VENCES SALVADOR | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VENCES SALVADOR')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VENCES SALVADOR')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "A/J": 1,
+        "L/P": 1,
+        "REL": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VENCES SALVADOR')",
+      "retrieved_at": "2026-10-11"
+    },
+    "rp_summary": {
+      "value": "3 instruments as grantee, 0 as grantor (index, name 'VENCES SALVADOR')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VENCES SALVADOR')",
+      "retrieved_at": "2026-10-11",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
   }
 }
