@@ -14,7 +14,7 @@ Miguel (inversionista, bilingüe EN/ES). Estrategia: lotes baldíos en Harris Co
 5. **`reviewer`** corre al final, en contexto limpio: lee el registro completo, busca contradicciones, completa `review`.
 6. Valida: `python3 scripts/validate_record.py runs/<sale_id>/records`
 7. Consolida: `python3 scripts/merge_to_csv.py runs/<sale_id>/records runs/<sale_id>/consolidado.csv`
-8. Entrega a Miguel: resumen corto (top compras, condicionales, descartadas) + lista de `human_blockers` agrupada.
+8. **Entrega a Drive como Google Sheet** (ver "Entrega a Drive" abajo) y a Miguel: resumen corto (top compras, condicionales, descartadas) + lista de `human_blockers` agrupada + el link del Sheet.
 
 ## Reglas inquebrantables
 - **Nunca** hagas pujas, pagos, registros de postor ni entres credenciales. Esos pasos son de Miguel.
@@ -23,6 +23,17 @@ Miguel (inversionista, bilingüe EN/ES). Estrategia: lotes baldíos en Harris Co
 - Cada agente toca solo su sección. Solo el revisor escribe `review`.
 - No inventes números de instrumento, saldos ni cause numbers. Si no lo encontraste: `unknown`.
 - Usa scripts en `scripts/` para validar y consolidar; no armes el CSV a mano.
+
+## Entrega a Drive (siempre al terminar una venta)
+Miguel quiere ver el resultado como **Google Sheet en su Drive**, no solo en el repo.
+1. Genera la tabla: `python3 scripts/build_analysis.py runs/<sale_id>` (agrega `--include-homestead` solo si Miguel lo pide) y luego `python3 scripts/sheet_export.py runs/<sale_id>` → `runs/<sale_id>/analisis_sheet.csv`.
+2. Carga las herramientas de Google Drive (`ToolSearch` con `select:mcp__Google_Drive__create_file,mcp__Google_Drive__search_files`). Si no hay conector de Drive en la sesión, dilo y entrega el CSV por `SendUserFile`; no lo des por subido.
+3. Carpeta destino: **"Real estate - Claude"** (id `1dSbre-G9rUS6yjgiYEfT_94nB9Sh9Dn7`). Si no la encuentras por id, búscala por nombre.
+4. Título: `Harris_TaxDeed_Analisis_<yyyy-mm-dd de la venta>_<sin_homestead|todas>`. Busca antes por título: si ya existe, crea el nuevo con sufijo `_v<N>` o la fecha de hoy, y avisa cuál reemplaza (no hay herramienta para sobrescribir contenido; solo mueve a la papelera el viejo si Miguel lo confirma).
+5. Sube con `create_file`: `contentMimeType: "text/csv"` y `textContent` = contenido EXACTO de `analisis_sheet.csv` (se convierte solo en Google Sheet). Copia el CSV tal cual, sin resumir ni reordenar.
+6. Verifica: `read_file_content` del Sheet creado; el rango debe ser filas = registros + 1 y 15 columnas. Google quita ceros iniciales de `account_no`; por eso la primera columna `property_id` es texto y es la que manda.
+7. Entrega el link (`viewUrl`) a Miguel.
+Para más de ~150 filas el texto es demasiado largo para pegarlo de una vez: sube por tandas de ~100 filas en Sheets separados (`_parte1`, `_parte2`) o pídele a Miguel que importe el CSV del repo.
 
 ## Re-verificación programada
 Para cada venta próxima, correr "modo refresh" en T-30, T-7 y T-1 días: solo `intake` (¿sigue en la lista? ¿cambió la apertura?) + `title` (¿nuevos gravámenes?) + `legal` (¿nueva bancarrota o suspensión?). Si algo cambia, reabrir `reviewer` para esa propiedad.

@@ -10,6 +10,7 @@ Corre el flujo completo de `CLAUDE.md` para la venta `$ARGUMENTS`, de principio 
 3. `valuation`, después `reviewer` en contexto limpio.
 4. `python3 scripts/validate_record.py runs/$ARGUMENTS/records` y corrige lo que falle.
 5. `python3 scripts/merge_to_csv.py runs/$ARGUMENTS/records runs/$ARGUMENTS/consolidado.csv`.
-6. Entrégame el resumen y la lista de pendientes humanos (captcha, login, visitas).
+6. Entrega a Drive: sigue "Entrega a Drive" de `CLAUDE.md` (build_analysis.py + sheet_export.py, y sube `analisis_sheet.csv` como Google Sheet a la carpeta "Real estate - Claude").
+7. Entrégame el link del Sheet, el resumen y la lista de pendientes humanos (captcha, login, visitas).
 
 Si algo está bloqueado, regístralo y sigue con el resto. Nunca pujes ni uses credenciales.

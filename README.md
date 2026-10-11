@@ -17,7 +17,7 @@ Orquestador + 6 agentes especialistas + revisor independiente. Cada propiedad pr
    El agente `scout` busca la lista oficial, llena `candidatos.csv` y crea los registros; después corre todo el flujo. Si ya tienes tu propia lista, ponla en `runs/harris-2026-11-03/candidatos.csv` y el scout se salta.
    Nota: la lista de la venta del 3-nov solo existirá cuando el condado la publique.
 4. Claude seguirá `CLAUDE.md`: intake → tax/title/legal/physical-risk en paralelo → valuation → reviewer → validar → CSV.
-5. Importa `runs/harris-2026-11-03/consolidado.csv` en una pestaña nueva del Sheet.
+5. Claude sube el resultado a tu Drive como Google Sheet (carpeta "Real estate - Claude") y te da el link. Si no hay conector de Drive, importa `runs/harris-2026-11-03/analisis_sheet.csv` o `consolidado.csv` a mano.
 6. Revisa la columna **Pendiente de Miguel** (captcha HCAD, login District Clerk, visitas, PACER).
 
 ## Re-verificación
