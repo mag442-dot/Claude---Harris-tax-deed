@@ -1,0 +1,136 @@
+{
+  "property_id": "harris-2026-11-acct-1143400040028",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "8651 VINKINS RD, HOUSTON, 77071",
+  "account_no": "1143400040028",
+  "cause_no": "202611329",
+  "intake": {
+    "opening_bid": {
+      "value": 4940.22,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-11"
+    },
+    "scout_notes": {
+      "value": "Precinct 7; tipo EOS; sale# 3; sentencia 07/07/2026; sin direccion publicada aun; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_site_address": {
+      "value": "8651 VINKINS RD, HOUSTON, 77071",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_owner": {
+      "value": "HAY VICTOR A (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_mailing_address": {
+      "value": "723 HOLLANDBRIDGE LN, HOUSTON, TX, 77073-3518",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_land_sqft": {
+      "value": "3680",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_acres": {
+      "value": "0.0844",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_building_sqft": {
+      "value": "1684",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_year_improved": {
+      "value": "1982",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_land_value": {
+      "value": "61030",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_building_value": {
+      "value": "118970",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_market_value": {
+      "value": "180000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_prior_market_value": {
+      "value": "203200",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_exemptions": {
+      "value": "RES (Residential Homestead)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "yes",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 3500.0000xSF $59500 | Res Improved Table Value 180.0000xSF $1530",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_buildings": {
+      "value": "Residential 2136sf built 1982",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_deeds_recorded": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_legal": {
+      "value": "LT 28 BLK 4 GESSPORT PATIO HOMES R/P",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_owner_since": {
+      "value": "02/03/1994",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    }
+  }
+}

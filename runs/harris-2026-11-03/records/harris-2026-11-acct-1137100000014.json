@@ -1,0 +1,136 @@
+{
+  "property_id": "harris-2026-11-acct-1137100000014",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "10127 PEACHRIDGE DR, HOUSTON, 77070",
+  "account_no": "1137100000014",
+  "cause_no": "1257179,701",
+  "intake": {
+    "opening_bid": {
+      "value": 15744.27,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-11"
+    },
+    "scout_notes": {
+      "value": "Precinct 4; tipo EOS; sale# 2; sentencia 02/24/2026; sin direccion publicada aun; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_site_address": {
+      "value": "10127 PEACHRIDGE DR, HOUSTON, 77070",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_owner": {
+      "value": "LINDERMAN ERIC (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_mailing_address": {
+      "value": "13210 PRESTONWOOD FOREST DR, HOUSTON, TX, 77070-4264",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_land_sqft": {
+      "value": "8050",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_acres": {
+      "value": "0.1848",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_building_sqft": {
+      "value": "1848",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_year_improved": {
+      "value": "1979",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_land_value": {
+      "value": "66083",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_building_value": {
+      "value": "150480",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_market_value": {
+      "value": "218175",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_prior_market_value": {
+      "value": "224788",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 6000.0000xSF $63900 | Res Improved Table Value 2050.0000xSF $2183",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_buildings": {
+      "value": "Residential 2285sf built 1979",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_deeds_recorded": {
+      "value": "04/07/2017 2017-RP-2017-151287 | 08/19/2013 2013-0428095",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_legal": {
+      "value": "LT 14 BLK 6 TALLOW WOOD SEC 1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_owner_since": {
+      "value": "04/07/2017",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    }
+  }
+}

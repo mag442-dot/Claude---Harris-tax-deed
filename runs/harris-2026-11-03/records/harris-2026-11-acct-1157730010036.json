@@ -1,0 +1,136 @@
+{
+  "property_id": "harris-2026-11-acct-1157730010036",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "16834 GOODFIELD CT, SPRING, 77379",
+  "account_no": "1157730010036",
+  "cause_no": "202402475",
+  "intake": {
+    "opening_bid": {
+      "value": 9439.13,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-11"
+    },
+    "scout_notes": {
+      "value": "Precinct 4; tipo EOS; sale# 5; sentencia 02/19/2024; sin direccion publicada aun; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_site_address": {
+      "value": "16834 GOODFIELD CT, SPRING, 77379",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_owner": {
+      "value": "CARTER HERMAN (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_mailing_address": {
+      "value": "16834 GOODFIELD CT, SPRING, TX, 77379-9421",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_land_sqft": {
+      "value": "5922",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_acres": {
+      "value": "0.1360",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_building_sqft": {
+      "value": "2152",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_year_improved": {
+      "value": "1991",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_land_value": {
+      "value": "55371",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_building_value": {
+      "value": "238130",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_market_value": {
+      "value": "293501",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_prior_market_value": {
+      "value": "295477",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 5922.0000xSF $55371",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_buildings": {
+      "value": "Residential 2642sf built 1991",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_deeds_recorded": {
+      "value": "08/31/2021 2021-RP-2021-502138 | 10/12/2016 2016-RP-2016-464035",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_legal": {
+      "value": "LT 36 BLK 1 VILLAGE R/P CHAMPION WOODS AT COLONY CREEK",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_owner_since": {
+      "value": "08/31/2021",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    }
+  }
+}

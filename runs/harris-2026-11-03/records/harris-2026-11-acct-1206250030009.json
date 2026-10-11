@@ -1,0 +1,136 @@
+{
+  "property_id": "harris-2026-11-acct-1206250030009",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "12922 YORKMONT DR, CYPRESS, 77429",
+  "account_no": "1206250030009",
+  "cause_no": "202136032",
+  "intake": {
+    "opening_bid": {
+      "value": 10000.0,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-11"
+    },
+    "scout_notes": {
+      "value": "Precinct 4; tipo EXE; sale# 1; sentencia 07/12/2021; sin direccion publicada aun; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_site_address": {
+      "value": "12922 YORKMONT DR, CYPRESS, 77429",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_owner": {
+      "value": "POND VIRGINIA (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_mailing_address": {
+      "value": "12922 YORKMONT DR, CYPRESS, TX, 77429-6878",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_land_sqft": {
+      "value": "6250",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_acres": {
+      "value": "0.1434",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_building_sqft": {
+      "value": "2130",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_year_improved": {
+      "value": "2001",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_land_value": {
+      "value": "65070",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_building_value": {
+      "value": "283054",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_market_value": {
+      "value": "348124",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_prior_market_value": {
+      "value": "336075",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 6000.0000xSF $64800 | Res Improved Table Value 250.0000xSF $270",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_buildings": {
+      "value": "Residential 2602sf built 2001",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_deeds_recorded": {
+      "value": "03/28/2001 2005-Y557974 | 04/02/2020 2020-RP-2020-187360 | 11/18/2019 2019-RP-2019-511105",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_legal": {
+      "value": "LT 9 BLK 3 COLES CROSSING SEC 10 PH 2",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_owner_since": {
+      "value": "04/02/2020",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    }
+  }
+}

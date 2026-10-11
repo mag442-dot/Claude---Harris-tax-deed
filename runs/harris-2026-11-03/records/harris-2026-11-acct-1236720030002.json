@@ -1,0 +1,130 @@
+{
+  "property_id": "harris-2026-11-acct-1236720030002",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "2910 DESTIN SHORE DR, HOUSTON, 77084",
+  "account_no": "1236720030002",
+  "cause_no": "202585520",
+  "intake": {
+    "scout_notes": {
+      "value": "Precinct 5; tipo ALIAS EOS; sale# 18; sentencia 01/12/2026; sin direccion publicada aun; sin apertura publicada aun; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_site_address": {
+      "value": "2910 DESTIN SHORE DR, HOUSTON, 77084",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_owner": {
+      "value": "ABBAS SAIMA ET AL (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_mailing_address": {
+      "value": "2910 DESTIN SHORE DR, HOUSTON, TX, 77084-4272",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_land_sqft": {
+      "value": "5775",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_acres": {
+      "value": "0.1326",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_building_sqft": {
+      "value": "3600",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_year_improved": {
+      "value": "2003",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_land_value": {
+      "value": "59485",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_building_value": {
+      "value": "309388",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_market_value": {
+      "value": "368873",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_prior_market_value": {
+      "value": "391333",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 5775.0000xSF $59485",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_buildings": {
+      "value": "Residential 4228sf built 2003",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_deeds_recorded": {
+      "value": "02/18/2014 2014-0093674 | 07/31/2014 2014-0344168",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_legal": {
+      "value": "LT 2 BLK 3 OAK RIDGE PLACE SEC 5 AMEND",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    "hcad_owner_since": {
+      "value": "07/31/2014",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-11"
+    }
+  }
+}

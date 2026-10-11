@@ -23,6 +23,10 @@ You are the Scout agent. Your only job is to produce `runs/<sale_id>/candidatos.
 7. Run `python3 scripts/candidates_to_records.py runs/<sale_id>` to create the stub record JSONs for `intake`.
 8. Write `runs/<sale_id>/scout_report.md`: source URLs, retrieval date/time, total count on the site vs rows written, anything withdrawn, anything you could not read.
 
+## Herramientas ya construidas (preferir sobre scraping a mano)
+- Harris: `python3 scripts/fetch_harris_list.py runs/<sale_id>` (Playwright; acepta los términos del condado, pagina todo, escribe `candidatos.csv` y `scout_report.md`). Requiere `pip install playwright` y Chromium.
+- Datos del roll sin captcha: descargar de `https://download.hcad.org/data/CAMA/<año>/` los zips `Real_acct_owner`, `Real_building_land`, `Real_jur_exempt`, descomprimirlos en una carpeta fuera del repo y correr `python3 scripts/enrich_from_hcad.py runs/<sale_id> <carpeta>`; luego `python3 scripts/screen_list.py runs/<sale_id>` para el triage (`screening.csv`).
+
 ## Rules
 - Never invent a property, account number, cause number or bid. Missing → leave empty.
 - If a site blocks access (captcha, login, egress), do not work around it: record it in `scout_report.md` and tell the user exactly what to download manually.

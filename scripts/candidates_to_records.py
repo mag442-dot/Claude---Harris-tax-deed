@@ -15,7 +15,7 @@ import sys
 from datetime import date
 from pathlib import Path
 
-REQUIRED = ["property_id", "address"]
+REQUIRED = ["property_id"]  # address may be empty until the county or HCAD fills it
 
 
 def finding(value, note=None):
