@@ -582,6 +582,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'UNKNOWN')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block) 'HUFFSMITH' (52 rows, none Lot 15) and 'J MILLER' (5 rows)",
+      "retrieved_at": "2026-10-13",
+      "note": "HCAD owner is literally 'UNKNOWN' (owner since 01/02/1988, no deed instrument listed by HCAD). Legal-description search for HUFFSMITH returned 52 rows, none for Lot 15 / Abst 50 tract; index legal text is free-form and often omits lot, so absence is not proof. The 77+50 name-search rows for 'UNKNOWN' (e.g. 'UNKNOWN HEIRS OF ...') are unrelated persons and are NOT attributed to this lot."
+    },
+    "mortgages": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "No D/T tied to Huffsmith Lot 15 found. Cannot rule out; owner unknown so no name search is possible."
+    },
+    "liens_federal": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No federal lien (IRS/DOJ) can be tied to this parcel: owner name is 'UNKNOWN', so name searches are meaningless."
+    },
+    "liens_city_county": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "No City/County LIEN or A/J rows tied to Huffsmith Lot 15. The 6 LIEN / 3 A/J / 2 JUDGE rows from the 'UNKNOWN' name search are unrelated (different legal descriptions) and not attributed."
+    },
+    "liens_hoa_lispendens": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "No HOA lien or L/P tied to the lot. 40 L/P rows from the 'UNKNOWN' name search are other properties (e.g. UNKNOWN HEIRS notices) and unrelated."
+    },
+    "child_support_liens": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Owner unidentified; cannot search."
+    },
+    "restrictions": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Recorded restrictions/plat for Huffsmith U/R (unrestricted per legal 'U/R') not located via index (no image access); not searched by restriction instrument type."
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "HCAD real_acct.txt (building sqft 0, no improvements)",
+      "retrieved_at": "2026-10-13",
+      "note": "No improvements on HCAD roll; no manufactured home expected. TDHCA mhweb not searched."
+    },
+    "owner_deceased_heirs": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "HCAD shows owner 'UNKNOWN' since 1988 (likely unlocated/heirs of an unknown owner). Heirship affidavits (AFFT) exist in Huffsmith generally (e.g. RP-2026-354299/354298 for Tract 13-14, RP-2026-201738) but none tied to Lot 15. Owner identity needs the tax-suit petition (hcdistrictclerk, login)."
+    },
+    "title_summary": {
+      "value": "Record title could not be established: HCAD owner is 'UNKNOWN' and no index instrument matches Huffsmith Lot 15 (Abst 50 J Miller). No mortgages or liens attributable. Absence of hits is weak evidence (name search impossible, legal text free-form). Survival risk: unlocated owner and unknown heirs raise citation-by-publication/redemption/quiet-title risk; any unreleased deed of trust or City lien held by a lender/city not named in the tax suit may survive - attorney review.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "Not legal advice. Needs commercial title search / title company run on Lt 15 Huffsmith, 24922 Wilson St, Tomball."
     }
   },
   "legal": {
@@ -655,6 +725,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de UNKNOWN (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Establecer propietario de registro de Lt 15 Huffsmith U/R (HCAD dice 'UNKNOWN') con title plant / imagenes del Clerk",
+      "why": "el indice no muestra escritura para el lote; requiere imagenes o busqueda de pago"
     }
   ],
   "valuation": {

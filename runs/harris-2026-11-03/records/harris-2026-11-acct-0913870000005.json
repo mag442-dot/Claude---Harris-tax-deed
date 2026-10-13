@@ -375,6 +375,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de BOBBITT BYRON (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Confirmar tipo y saldo de los 3 gravamenes City of Houston (RP-2016-304862, RP-2024-257373, RP-2026-277034) leyendo imagenes / City of Houston lien payoff",
+      "why": "imagenes del Clerk no disponibles; tipo y monto no se leen en el indice"
     }
   ],
   "valuation": {
@@ -513,6 +518,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BOBBITT BYRON')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2017-216312 | 05/17/2017 | DEED | Grantors: BENAVIDES CONCEPTION, BENAVIDES ROSS ROBERT, HARRIS COUNTY, WALKER MAY CONST (constable) -> Grantee: BOBBITT BYRON | Crestmont Park Sec 1 Lot 5 Blk 14",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx instrument RP-2017-216312",
+      "retrieved_at": "2026-10-13",
+      "note": "Index row only, no image; Pattern (taxing unit + constable as grantors, prior owners Benavides) indicates a constable's tax-sale deed to Bobbitt following officer's return RP-2016-102505 (03/11/2016, OFCRTN, Benavides/Bobbitt) - nature of deed inferred. HCAD cites 2016-0102505 and 2017-216312 (owner-since 08/04/2015 on HCAD). Taxed owner Bobbitt Byron matches record grantee; no later conveyance found."
+    },
+    "mortgages": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "6 legal-description rows for Crestmont Park Sec 1 Lot 5 Blk 14; no D/T. No mortgage released/unreleased found."
+    },
+    "liens_federal": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx name search 'BOBBITT BYRON'",
+      "retrieved_at": "2026-10-13",
+      "note": "No IRS/DOJ rows (6 rows total, all this parcel)."
+    },
+    "liens_city_county": {
+      "value": "City of Houston LIENS vs BOBBITT BYRON: RP-2016-304862 (07/13/2016), RP-2024-257373 (07/17/2024), RP-2026-277034 (07/10/2026), all Crestmont Park Sec 1 Lot 5 Blk 14; no releases seen",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx instruments RP-2016-304862, RP-2024-257373, RP-2026-277034",
+      "retrieved_at": "2026-10-13",
+      "note": "Rows read from index with matching legal and debtor name 'BOBBITT BYRON' (middle name not shown; identity inferred by legal description). Age: 2016 lien ~10 yrs; 2024 ~2.3 yrs; 2026 ~3 months. Lien type not readable (likely nuisance abatement/mowing/demolition). No REL located; not concluded expired. Whether City liens survive a tax-judgment sale depends on City being a party and priority - attorney review; cumulative amounts unknown."
+    },
+    "liens_hoa_lispendens": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "No HOA lien or L/P."
+    },
+    "child_support_liens": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No child-support lien rows."
+    },
+    "restrictions": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Recorded restrictions/plat for Crestmont Park Sec 1 not located via index (no image access); not searched by restriction instrument type."
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "HCAD real_acct.txt (building sqft 0, no improvements)",
+      "retrieved_at": "2026-10-13",
+      "note": "No improvements on HCAD roll; no manufactured home expected. TDHCA mhweb not searched."
+    },
+    "owner_deceased_heirs": {
+      "value": "No heirship/EST rows found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "No AFFT or 'EST' rows for Bobbitt Byron; deceased status unknown."
+    },
+    "title_summary": {
+      "value": "Vesting: RP-2017-216312 (05/17/2017, tax/constable-type deed to Bobbitt Byron), matches taxed owner. Three City of Houston liens vs Bobbitt on the lot (RP-2016-304862, RP-2024-257373, RP-2026-277034), no releases seen. No mortgage, federal, HOA or L/P. Likely-survival flag: City nuisance-type liens if the City is not a party to cause 202354713 (confirm in petition); otherwise no recorded encumbrance found. Prior-owner (Benavides) claims tied to the 2017 tax-deed chain could matter if the 2016 sale was defective.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "Not legal advice. Instruments verified as index rows only; survival conclusions are inferred."
     }
   }
 }

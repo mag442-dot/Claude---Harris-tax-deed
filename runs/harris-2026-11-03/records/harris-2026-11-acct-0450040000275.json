@@ -343,6 +343,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CAREFREE MANAGEMENT')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "HCAD deeds listed: 2004-Y205262 (03/02/2004) and 2009-0268927 (06/17/2009); not located in Clerk index",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block) 'STANLEY' / 'J L STANLEY' (8 rows) + name search 'CAREFREE MANAGEMENT'",
+      "retrieved_at": "2026-10-13",
+      "note": "Legal 'TR 40 ABST 700 J L STANLEY': J L STANLEY index rows are other tracts (e.g. RP-2022-349479 Comment 0.0766, RP-2022-218884 11.0564 ac); none tie to Tract 40 / 28,112 sf. Not attributed. HCAD owner Carefree Management LLC since 06/17/2009."
+    },
+    "mortgages": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "No D/T tied to Tract 40 Abst 700. Unrelated: D/Ts RP-2022-301225, RP-2022-218884 are other J L Stanley tracts."
+    },
+    "liens_federal": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx name search 'CAREFREE MANAGEMENT'",
+      "retrieved_at": "2026-10-13",
+      "note": "No IRS/DOJ rows among 17 name-search rows."
+    },
+    "liens_city_county": {
+      "value": "None attributable. Name-search LIEN rows against CAREFREE MANAGEMENT LLC are other parcels: City of Houston RP-2017-78667 (Sunnyside Ext South Lot 8 Blk L), RP-2017-399096 (Pelham Place Sec 2 Lot 390 Blk 13), NOTICE RP-2017-75427 / ORDER RP-2017-114717 (Foster Place Lot 12 Blk 30); City of La Porte RP-2017-501501, -501499, RP-2016-161432 (multi-party, no legal shown)",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx name search rows",
+      "retrieved_at": "2026-10-13",
+      "note": "Pattern of City liens against this entity on other lots (many converted to tax deeds 2017-2018, e.g. RP-2018-504133, -462622). Because Desc does not match Tr 40 Abst 700, none is attributed; La Porte multi-party LIEN rows lack a legal description and cannot be excluded."
+    },
+    "liens_hoa_lispendens": {
+      "value": "none attributable (HOA LIEN RP-2016-162089 Countryside Village HOA is Intercontinental Village Townhouses Unit 2 - other parcel)",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No L/P or HOA lien tied to Tract 40."
+    },
+    "child_support_liens": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Entity owner."
+    },
+    "restrictions": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Recorded restrictions/plat for J L Stanley Abst 700 Tr 40 (acreage tract) not located via index (no image access); not searched by restriction instrument type."
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "HCAD real_acct.txt (building sqft 0, no improvements)",
+      "retrieved_at": "2026-10-13",
+      "note": "No improvements on HCAD roll; no manufactured home expected. TDHCA mhweb not searched."
+    },
+    "owner_deceased_heirs": {
+      "value": "Owner is an LLC (Carefree Management LLC); not applicable",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Entity owner. Principal 'Sohl Glenn' appears in related rows; no heirship rows seen."
+    },
+    "title_summary": {
+      "value": "No index instrument tied to Tract 40 Abst 700 J L Stanley (legal-description search returned only other tracts; HCAD vesting 2009-0268927 not found). Carefree Management LLC has many City liens on other lots, none attributable to this tract. No mortgage, federal, HOA or L/P found. Large 0.645-acre tract (28,112 sf) with no title picture - weak evidence of cleanliness; tract-level search by metes-and-bounds / abstract needed. Survival: unreleased lender or City liens held by non-parties may survive; attorney review.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "Not legal advice. Acreage tract legal is poorly indexed; use title company."
     }
   },
   "legal": {
@@ -416,6 +486,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de CAREFREE MANAGEMENT LLC (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Confirmar escritura de vesting 2009-0268927 / 2004-Y205262 y gravamenes de Tr 40 Abst 700 J L Stanley con imagenes o title plant",
+      "why": "indice del Clerk no indexa el lote; sin imagenes"
     }
   ],
   "valuation": {

@@ -312,6 +312,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'KAUFHAUZ INVESTMENT')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2025-138287 | 04/15/2025 | QCD | Grantor: MUGISHA YANNICK, MWANGA CLAUDE -> Grantee: KAUFHAUZ INVESTMENT LLC | Smith Furniture Co Addition No 2 Lot 19-20 Blk 6",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx instrument RP-2025-138287",
+      "retrieved_at": "2026-10-13",
+      "note": "Index row only, no image; Index-derived chain (legal-description search): RP-2020-614882 12/15/2020 W/D Chen Zhi J -> Kaufhauz; RP-2021-694279 12/03/2021 W/D Kaufhauz -> Dumass Ura; RP-2021-726225 12/21/2021 W/D Dumass Ura -> Ortega Agustin (index desc 'Lot 19-60', likely typo); RP-2022-148876 03/21/2022 W/D Ortega -> Mugisha/Mwanga; RP-2025-138287 04/15/2025 QCD Mugisha/Mwanga -> Kaufhauz. Taxed owner (Kaufhauz) matches latest grantee, but a QUITCLAIM back into Kaufhauz after it had sold in 2021, plus the 2023 L/P, indicates a title dispute/unwind; HCAD still lists Kaufhauz owner-since 12/11/2020. Status inferred because validity of the chain needs the images."
+    },
+    "mortgages": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "No D/T on Lots 19-20 Blk 6 in 8 legal-description rows."
+    },
+    "liens_federal": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block) + name search 'KAUFHAUZ INVESTMENT'",
+      "retrieved_at": "2026-10-13",
+      "note": "No IRS/DOJ lien rows for Kaufhauz Investment LLC (name search 4 rows total, all this parcel)."
+    },
+    "liens_city_county": {
+      "value": "RP-2020-223305 | 05/27/2020 | LIEN | City of Houston vs CHEN ZHI J (prior owner) | released by RP-2021-14318 | 01/11/2021 | REL | City of Houston (pairing by date/legal, unmatched by instrument cross-ref)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block) RP-2020-223305 / RP-2021-14318",
+      "retrieved_at": "2026-10-13",
+      "note": "Index row only, no image; Release is index-only (no image) and pairing is inferred from same legal description; REL names 'SEE INSTRUMENT'. No other City/County liens seen against Kaufhauz or later grantees."
+    },
+    "liens_hoa_lispendens": {
+      "value": "RP-2023-157876 | 05/02/2023 | L/P | Grantor: KAUFHAUZ INVESTMENT LLC, Grantee: DUMASS URA | Lot 19-20 Blk 6",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx instrument RP-2023-157876",
+      "retrieved_at": "2026-10-13",
+      "note": "Lis pendens filed by Kaufhauz against Dumass Ura over the same lots (suit presumably over the 2021 conveyance). No dismissal/release or judgment seen in index; outcome unknown (case no. not in index). Appears to have been followed by the 04/15/2025 QCD into Kaufhauz. Could affect who is the proper owner/defendant in tax cause 202505627. No HOA liens seen."
+    },
+    "child_support_liens": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No child-support lien rows in the index results for these names (entity owner)."
+    },
+    "restrictions": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Recorded restrictions/plat for Smith Furniture Co Addition No 2 not located via index (no image access); not searched by restriction instrument type."
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "HCAD real_acct.txt (building sqft 0, no improvements)",
+      "retrieved_at": "2026-10-13",
+      "note": "No improvements on HCAD roll; no manufactured home expected. TDHCA mhweb not searched."
+    },
+    "owner_deceased_heirs": {
+      "value": "Owner is an LLC; no heirship/AFFT rows found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "Entity owner; deceased-owner check not applicable. Prior grantee Dumass Ura / Ortega Agustin status unknown."
+    },
+    "title_summary": {
+      "value": "Taxed owner Kaufhauz Investment LLC appears as latest grantee (QCD RP-2025-138287, 04/15/2025) after a circular chain (Kaufhauz -> Dumass 2021 -> Ortega 2021 -> Mugisha/Mwanga 2022 -> QCD back to Kaufhauz 2025). Open item: Kaufhauz lis pendens RP-2023-157876 vs Dumass Ura (no release seen). Only lien found, City of Houston RP-2020-223305 (Chen), shows a REL RP-2021-14318 (index only). No mortgage or federal lien found. May survive/complicate: parties in the chain (Dumass, Ortega, Mugisha/Mwanga) who held title 2021-2025 may not have been named in cause 202505627 (filed 2025) and any claim from the L/P litigation - attorney review.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "Not legal advice. Circular chain makes record-title identity risk real; confirm tax-suit defendants vs. chain."
     }
   },
   "legal": {
@@ -385,6 +455,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de KAUFHAUZ INVESTMENT LLC (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagenes RP-2023-157876 (L/P), RP-2025-138287 (QCD) y RP-2021-726225 y confirmar resultado del pleito Kaufhauz v. Dumass; comparar contra demandados del cause 202505627",
+      "why": "imagenes del Clerk no disponibles en el indice / caso en hcdistrictclerk requiere login"
     }
   ],
   "valuation": {

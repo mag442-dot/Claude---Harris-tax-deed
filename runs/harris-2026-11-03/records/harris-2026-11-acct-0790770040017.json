@@ -348,6 +348,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de SORRELL SANDERS (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagenes RP-2026-378497 (City lien), RP-2025-501839 (AFFT heredero?) y escrituras 2009-0298169 / 2007-0731436",
+      "why": "el indice no muestra imagenes; escrituras HCAD no aparecen en la busqueda"
     }
   ],
   "valuation": {
@@ -485,6 +490,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SORRELL SANDERS')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "HCAD deeds listed: 2009-0298169 (07/01/2009) and 2007-0731436 (11/30/2007); not located in Clerk index",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal search 'SETTEGAST' Block 4 and 'SETTEGAST GARDENS')",
+      "retrieved_at": "2026-10-13",
+      "note": "Neither instrument number appears in the index search results, so grantor/grantee cannot be confirmed. HCAD owner 'SORRELL SANDERS' since 07/01/2009. Most Settegast Gardens Blk 4 rows are other lots (3, 1, 6B) and are unrelated."
+    },
+    "mortgages": {
+      "value": "none found tied to parcel; unmatched: RP-2019-374446 | 08/26/2019 | REL | TEXASONE COMMUNITY CREDIT UNION -> SORRELL SANDERS (no legal desc)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx instrument RP-2019-374446",
+      "retrieved_at": "2026-10-13",
+      "note": "Release of an unknown TexasOne CU deed of trust naming Sorrell Sanders; no legal description, so cannot confirm it relates to this tract (could be another property, e.g. River Woods Estates Sec 1 Lot 2 Blk 8). Matching D/T not found - unmatched. Also RP-2022-373928 (07/20/2022, FI STM, Sorrell Sanders -> GoodLeap LLC, solar-type financing statement) is on River Woods Estates, a different parcel - unrelated."
+    },
+    "liens_federal": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx name search 'SORRELL SANDERS'",
+      "retrieved_at": "2026-10-13",
+      "note": "No IRS/DOJ rows in 4 name-search rows."
+    },
+    "liens_city_county": {
+      "value": "RP-2026-378497 | 09/17/2026 | LIEN | Grantor: CITY OF HOUSTON, Grantee (debtor as written): SANDERS SORRELL | Desc: SETTEGAST GARDENS Block: 4",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx instrument RP-2026-378497",
+      "retrieved_at": "2026-10-13",
+      "note": "Debtor name reversed (Sanders Sorrell) and no lot/tract given; matches subdivision and block of this tract, so probably this parcel (identity not confirmed; same-name risk low-moderate). Filed 26 days ago, no release. Lien type (likely nuisance/mowing/demolition) not readable from index. May survive a tax sale if City was not a party - attorney review."
+    },
+    "liens_hoa_lispendens": {
+      "value": "RP-2026-278113 | 07/10/2026 | L/P | Grantor: SORRELL SANDERS EST, Grantee: RIVER WOODS ESTATES SECTION ONE | River Woods Estates Sec 1 Lot 2 Blk 8 (different parcel)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx instrument RP-2026-278113",
+      "retrieved_at": "2026-10-13",
+      "note": "Not this parcel (different legal description); noted only as evidence the estate has other property/litigation. No L/P or HOA lien on Settegast Gardens Blk 4 tract found."
+    },
+    "child_support_liens": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No child-support lien rows."
+    },
+    "restrictions": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Recorded restrictions/plat for Settegast Gardens not located via index (no image access); not searched by restriction instrument type."
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "HCAD real_acct.txt (building sqft 0, no improvements)",
+      "retrieved_at": "2026-10-13",
+      "note": "No improvements on HCAD roll; no manufactured home expected. TDHCA mhweb not searched."
+    },
+    "owner_deceased_heirs": {
+      "value": "Likely deceased: RP-2025-501839 | 12/22/2025 | AFFT | Grantor: CLARKE ERIN, Grantees: MATHEWS ELZING EST, SORRELL PETER EST, SORRELL SANDERS EST, SORRELL SHIRLEY EST; also RP-2026-278113 names 'SORRELL SANDERS EST'",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx instruments RP-2025-501839, RP-2026-278113",
+      "retrieved_at": "2026-10-13",
+      "note": "'EST' suffix on the index names indicates Sorrell Sanders is deceased; the AFFT (no legal desc, probably affidavit of heirship) does not confirm it relates to this tract. Heirs unknown. If owner died before suit, heirs/estate must have been served - ties to legal agent (citation) and redemption risk; no probate case checked."
+    },
+    "title_summary": {
+      "value": "No vesting deed instrument found in the index (HCAD cites 2009-0298169 / 2007-0731436). One probable unreleased City of Houston lien RP-2026-378497 (09/17/2026, 'Sanders Sorrell', Settegast Gardens Blk 4). Owner appears deceased (AFFT RP-2025-501839; 'EST' in RP-2026-278113). No mortgage or federal lien tied to the tract; unmatched TexasOne CU release RP-2019-374446. May survive/complicate: City lien if City not a party; unknown heirs could redeem or contest if not properly cited - attorney review.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Not legal advice. Settegast Gardens legal is a multi-tract description; ask title company to run tract-level search."
     }
   }
 }

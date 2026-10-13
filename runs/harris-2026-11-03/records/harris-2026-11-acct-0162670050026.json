@@ -424,6 +424,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'WRIGHT LIZ')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "HCAD owner WRIGHT LIZ since 01/02/1988; no deed instrument listed by HCAD and none found in index for Highland Acre Home Annex Lot 26 Blk 5 other than RP-2026-359408 (below)",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block) 'HIGHLAND ACRE HOME ANNEX' Lot 26 Blk 5",
+      "retrieved_at": "2026-10-13",
+      "note": "Legal-description search returned a single row. W/D RP-2016-364334 and D/T RP-2016-364335/-364336 from the name search are for Westgreen Park Sec 3 Lot 23 Blk 5 (Wright Leo / Lizzetter B) - DIFFERENT parcel, not attributed."
+    },
+    "mortgages": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "No D/T tied to Highland Acre Home Annex Lot 26 Blk 5. Unrelated: RP-2016-364335 (MERS/Willow Bend), RP-2016-364336 (HUD), REL RP-2016-404768 (Wells Fargo) - all Westgreen Park Lot 23 Blk 5."
+    },
+    "liens_federal": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx name search 'WRIGHT LIZ'",
+      "retrieved_at": "2026-10-13",
+      "note": "No federal liens in the name-search rows (common-name risk; 6 rows only)."
+    },
+    "liens_city_county": {
+      "value": "RP-2026-359408 | 09/02/2026 | DEED | Grantors (as written): DELAFOSE KAREN, DELAFOSE KAREN HURD, DELAFOSE RODNEY, DELAFOSE TIFFANI BREANNA, ROSEN ALAN CONST, WRIGHT LILLIAN, WRIGHT LIZ, WRIGHT ROOSEVELT, WRIGHT ROOSEVELT JAMES | Grantees: CITY OF HOUSTON, HARRIS COUNTY, HC DEPT OF EDUCATION, HC FLOOD CONTROL DIST, HC HOSPITAL DIST, HOUSTON CITY COLLEGE, HCC, HISD, PORT OF HOUSTON AUTH | Highland Acre Home Annex Lot 26 Blk 5",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx instrument RP-2026-359408",
+      "retrieved_at": "2026-10-13",
+      "note": "Pattern (defendants as grantors incl. 'ROSEN ALAN CONST' = constable; taxing units as grantees) is consistent with a constable's tax-sale deed to the taxing units (struck-off) recorded 09/02/2026, ie. a prior tax-sale/ struck-off conveyance on cause 202380293-type judgment. Interpretive; image not read. If correct, the 11/03/2026 offering may be a resale of struck-off property: tax/legal/reviewer should confirm sale type and ownership status. No other City/County liens found."
+    },
+    "liens_hoa_lispendens": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "No HOA lien or L/P on Highland Acre Home Annex Lot 26 Blk 5."
+    },
+    "child_support_liens": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No child-support lien rows."
+    },
+    "restrictions": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Recorded restrictions/plat for Highland Acre Home Annex not located via index (no image access); not searched by restriction instrument type."
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "HCAD real_acct.txt (building sqft 0, no improvements)",
+      "retrieved_at": "2026-10-13",
+      "note": "No improvements on HCAD roll; no manufactured home expected. TDHCA mhweb not searched."
+    },
+    "owner_deceased_heirs": {
+      "value": "Possible co-owners/heirs named in RP-2026-359408: WRIGHT LILLIAN, WRIGHT ROOSEVELT (JAMES), DELAFOSE KAREN (HURD), DELAFOSE RODNEY, DELAFOSE TIFFANI BREANNA",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx instrument RP-2026-359408",
+      "retrieved_at": "2026-10-13",
+      "note": "No heirship affidavit or 'EST' marker found; HCAD owner since 1988 suggests possible long-term/ancestral ownership but death is not confirmed. Co-defendants may be heirs - legal agent to confirm."
+    },
+    "title_summary": {
+      "value": "Only matching index row for Highland Acre Home Annex Lot 26 Blk 5 is RP-2026-359408 (09/02/2026), apparently a constable/tax deed with the taxing units as grantees - this may mean the lot was already struck off to the taxing units, so the 11/03/2026 sale could be a resale (confirm). No vesting deed, mortgage, federal or HOA lien located; Westgreen Park Lot 23 rows (Wright Leo/Lizzetter) are a different parcel. Survival: if struck-off, redemption rights/prior tax-deed titles and post-judgment taxes should be checked; any unreleased lender lien from an owner not served may survive - attorney review.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "Not legal advice. Reviewer should reconcile RP-2026-359408 with sale status."
     }
   },
   "legal": {
@@ -497,6 +567,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de WRIGHT LIZ (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen de RP-2026-359408 (DEED 09/02/2026, Highland Acre Home Annex Lot 26 Blk 5) para confirmar si es constable deed a las entidades fiscales (struck-off) y entonces si la venta del 11/03 es reventa",
+      "why": "imagen del Clerk no accesible desde el indice"
     }
   ],
   "valuation": {

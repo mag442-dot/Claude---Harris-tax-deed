@@ -368,6 +368,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de INDOMINUS CONSULTING LLC (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Verificar si DPX2 LLC (comprador RP-2024-346821) fue demandado en cause 202425337 y leer imagenes de los 6 liens City of Pasadena",
+      "why": "hcdistrictclerk requiere login; imagenes del Clerk no accesibles"
     }
   ],
   "valuation": {
@@ -504,6 +509,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'INDOMINUS CONSULTING')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2024-346821 | 09/20/2024 | W/D | Grantor: INDOMINUS CONSULTING LLC -> Grantee: DPX2 LLC | Vince Heights Sec 3 Lot 225",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx instrument RP-2024-346821",
+      "retrieved_at": "2026-10-13",
+      "note": "Index row only, no image; RECORD OWNER DIFFERS FROM TAXED OWNER: HCAD still lists Indominus Consulting LLC (owner-since 07/25/2023 = RP-2023-278208 W/D Pham Dang -> Indominus), but Indominus conveyed to DPX2 LLC on 09/20/2024, before/while cause 202425337 (2024) ran. DPX2 LLC may not have been named in the suit. HCAD-cited deeds 2011-0452548, 2012-0055837, 2016-556983 are older chain links (2016-556983 = W/D Escamilla -> TX RE Holdings, 12/13/2016)."
+    },
+    "mortgages": {
+      "value": "RP-2017-108480 | 03/15/2017 | D/T | Grantor: CARDENAS RAUL JR, ROSA ALISIA -> LVH HOLDINGS LLC (trustee Lane Brent A); assigned RP-2018-49400 (02/06/2018, ASSGN LVH/Huynh-Le -> PHAM DANG); TRSALE RP-2020-295378 (07/06/2020, Grantor Hua Thaison/Pham Dang, Grantee Cardenas) then W/D Cardenas -> Pham Dang RP-2020-484901 (10/09/2020). Earlier RP-2017-90580 (03/02/2017) REL Allegiance Bank -> ISB Capital LLC",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block) instruments RP-2017-108480, RP-2018-49400, RP-2020-295378, RP-2017-90580",
+      "retrieved_at": "2026-10-13",
+      "note": "Seller-financed D/T appears to have been foreclosed by trustee sale 2020 (inferred from TRSALE + later W/D; index party labelling is ambiguous; no explicit REL). No D/T found against Pham Dang, Indominus or DPX2. Unmatched: no release of RP-2017-108480 in index."
+    },
+    "liens_federal": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block) + name search 'INDOMINUS CONSULTING'",
+      "retrieved_at": "2026-10-13",
+      "note": "No IRS/DOJ rows."
+    },
+    "liens_city_county": {
+      "value": "City of Pasadena LIENS (debtor as written): RP-2023-44668 02/09/2023 DANG PHAM; RP-2023-220746 06/15/2023 PHAM DANG; RP-2023-429194 11/09/2023 DANG PHAM; RP-2024-179723 05/20/2024 INDOMINUS CONSULTING; RP-2024-403172 10/30/2024 INDOMINUS CONSULTING LLC; RP-2024-452668 12/04/2024 INDOMINUS CONSULTING LLC. Also ORDER RP-2021-671176 11/22/2021 City of Pasadena vs Cardenas Raul Jr/Rosa A",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block) instruments listed",
+      "retrieved_at": "2026-10-13",
+      "note": "All rows read from index with legal Vince Heights Sec 3 Lot 225; no releases seen. Last two Indominus liens were filed AFTER Indominus sold to DPX2 (09/20/2024). Lien type (likely nuisance/mowing/demolition) not readable. Oldest ~3.7 yrs; not concluded expired. City liens in Pasadena may survive if City not a party / were not extinguished - attorney review."
+    },
+    "liens_hoa_lispendens": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "No HOA lien or L/P on Lot 225."
+    },
+    "child_support_liens": {
+      "value": "none found",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Entity owner; none seen."
+    },
+    "restrictions": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Recorded restrictions/plat for Vince Heights Sec 3 not located via index (no image access); not searched by restriction instrument type."
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "HCAD real_acct.txt (building sqft 0, no improvements)",
+      "retrieved_at": "2026-10-13",
+      "note": "No improvements on HCAD roll; no manufactured home expected. TDHCA mhweb not searched."
+    },
+    "owner_deceased_heirs": {
+      "value": "Owner is an LLC; not applicable",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "Entity owner. No AFFT/EST rows."
+    },
+    "title_summary": {
+      "value": "Record title mismatch: lot was deeded to DPX2 LLC (RP-2024-346821, 09/20/2024) by the taxed owner Indominus Consulting LLC; HCAD/tax suit (cause 202425337) name Indominus. If DPX2 LLC was not joined, the judgment may not bind it (survival of DPX2's title/redemption claim) - attorney review. Six unreleased City of Pasadena liens (RP-2023-44668 ... RP-2024-452668). Prior D/T RP-2017-108480 apparently foreclosed (TRSALE RP-2020-295378). No federal, HOA or L/P found.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Description + Lot/Block)",
+      "retrieved_at": "2026-10-13",
+      "note": "Not legal advice. Check tax suit defendants (hcdistrictclerk) for DPX2 LLC."
     }
   }
 }
