@@ -423,6 +423,16 @@
       "agent": "title",
       "item": "Leer imagen de lien City of Houston RP-2017-56221 (tipo y monto) y confirmar Yatsing Jeu = Jeu Thanh",
       "why": "imagenes de cclerk no accesibles desde el indice"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Con el docket (login) confirmar que BMFX Capital LLC fue demandado/citado (deed 2023 posterior a la demanda 2019)",
+      "why": "hcdistrictclerk.com requiere login"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Pedir a hctax/abogado fiscal que anios estan en la sentencia y el payoff (taxes_in_judgment ambiguo o desconocido)",
+      "why": "la lista del condado es ambigua; cota superior en el modelo de costos"
     }
   ],
   "valuation": {
@@ -510,16 +520,25 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $56,830 >= cierre esperado $53,235. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote bueno para duplex (5,000-5,158 sqft, ~51 x 102 ft, Zona X, Houston sin zonificacion), pero hay dos senales de riesgo de titulo: la demanda (cause 201939501, ano 2019) es anterior a la compra de BMFX Capital LLC (deed RP-2023-205067, 06/2023), asi que el dueno gravable actual pudo no haber sido demandado/citado, y existe un lien de la Ciudad RP-2017-56221 sin liberacion en el indice que el modelo de costos asume en $0. El techo de $56,830 es teorico (reventa al 100% de HCAD $105,000 = $21/sqft sin comps, 25% retorno, quiet title y cierre supuestos), unas 3.8x la apertura de $15,000; no lo respaldo, y con haircut de 15% baja a ~$44.6k. Solo avanzar si el docket muestra que BMFX fue parte y el lien se cotiza; attorney review recommended.",
     "bid_ceiling": 56830.46,
     "all_in_cost_estimate": 80296.68,
-    "contradictions": [],
+    "contradictions": [
+      "Dueno gravable vs demanda: cause 201939501 (2019) con sentencia 10/17/2025; el dueno gravable es BMFX Capital LLC por deed 06/05/2023 (despues de iniciada la demanda). Si solo se demando/cito a Jeu Thanh (dueno anterior) el comprador del tax deed enfrenta un defecto de citacion/redencion (TRCP 329, hasta 10/17/2027 si hubo publicacion). Demandados y citacion estan BLOQUEADOS. HCAD fecha 06/03/2023 vs recording 06/05/2023 (benigno).",
+      "Cola de impuestos: taxes_in_judgment=[2012,2024] (2012 ni siquiera esta en el estado de cuenta) se uso como dos anios sueltos; post_judgment $19,233.14 trata 2013-2023 y 2025 como no incluidos aunque la demanda es de 2019. El tail $21,464.63 es COTA SUPERIOR; si fuera un rango el tail seria ~2025+2026 (~$5.3k) y el techo subiria ~$15k. Conservativo pero sin confirmar, y todo el costo all-in ($80,297) depende de esto.",
+      "Lien Ciudad RP-2017-56221 (02/2017) esta marcado 'verified' solo como fila de indice; tipo, monto y supervivencia son desconocidos, y el deudor es 'Yatsing Jeu' vs vendedor 'Jeu Thanh' (identidad no confirmada). valuation.all_in_costs lo deja 'NO CUANTIFICADO' y el techo asume $0: inconsistencia entre title y modelo de costos.",
+      "Dueno es un LLC inversionista que compro en 2023 con 10+ anios de deuda y un lien: puede redimir dentro del plazo (no homestead, plazo corto a confirmar con abogado), inmovilizando capital; el modelo no lo considera. Lote 7 Blk 91 comprado el mismo dia (RP-2023-205066) sugiere ensamblaje/estrategia propia.",
+      "Valor HCAD $105,000 ('Res Vacant Table Value', $21/sqft) sin comps; cierre esperado por ratio $53,235 vs por prima $16,320: rango 3x que muestra que el techo no esta anclado en datos."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Con login: leer demandados/citacion del cause 201939501 y confirmar que BMFX Capital LLC (o sucesor en interes) fue parte; si no, no pujar",
+      "Leer imagen de RP-2017-56221 (tipo, monto, deudor) y obtener payoff o confirmar que la Ciudad fue parte; restar el monto del techo",
+      "Pedir a hctax.net / abogado fiscal el desglose de anios incluidos en la sentencia (taxes_in_judgment es ambiguo) y un estado de cuenta/payoff actualizado; confirmar que impuestos hereda el comprador",
+      "PACER para BMFX Capital LLC y Jeu Thanh",
+      "Comps de lotes baldios en 77021; fijar techo con haircut sobre HCAD en vez de $56,830",
+      "Leer restricciones de South Union Sec 2 y visita al sitio (acceso, ocupantes)",
+      "Confirmar apertura final ($15,000.00) el dia de la venta",
+      "Attorney review recommended antes de pujar (tax deed, redencion, quiet title)"
     ]
   },
   "title": {

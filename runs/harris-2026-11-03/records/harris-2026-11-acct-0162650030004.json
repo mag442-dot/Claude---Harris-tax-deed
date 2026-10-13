@@ -604,6 +604,16 @@
       "agent": "title",
       "item": "Leer imagenes de liens City RP-2017-327209, RP-2020-223292, RP-2023-160890 (tipo/monto/estatus de pago) y confirmar Lois E = Lois Marie Gillum",
       "why": "imagenes de cclerk no accesibles desde el indice"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Confirmar area real del tramo (HCAD 18,150 sqft vs GIS 13,732) con plat/survey",
+      "why": "requiere plat/survey; afecta valor y techo"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Pedir a hctax/abogado fiscal que anios estan en la sentencia y el payoff (taxes_in_judgment ambiguo o desconocido)",
+      "why": "la lista del condado es ambigua; cota superior en el modelo de costos"
     }
   ],
   "valuation": {
@@ -690,17 +700,25 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $85,837 >= cierre esperado $74,912. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "El lote esta sobrevaluado en la hoja: HCAD cobra 18,150 sqft ($147,756) pero el poligono GIS mide 13,732 sqft (-24%); con esa area el valor seria ~$112k y mi recalculo del techo (cola de impuestos como cota superior) cae a ~$58k, por debajo de la apertura de $64,435. Ademas hay tres liens de la Ciudad sin liberar (RP-2017-327209, RP-2020-223292, RP-2023-160890) de monto desconocido y 22 anios de impuestos atrasados (desde 2004) que sugieren dueno ausente o fallecido. El techo de $85,837 es teorico (reventa a 100% de HCAD sin comps, 25% retorno, supuestos de quiet title y cierre) y tiene demasiada incertidumbre para respaldarlo; el ratio apertura/valor (44%) deja poco margen. Vigilar hasta resolver area, liens y legal; attorney review recommended.",
     "bid_ceiling": 85837.26,
     "all_in_cost_estimate": 106952.08,
-    "contradictions": [],
+    "contradictions": [
+      "Area: HCAD land 18,150 sqft (7,000 + 11,150, valor $147,756) vs poligono GIS 13,732 sqft (~95 x 144 ft): 24% menos. El valor y el techo de valuation usan HCAD; a area GIS el valor es ~$111.8k y el techo recalculado ~$57.9k < apertura $64,434.91 (calculo del revisor, no se cambia el campo).",
+      "taxes_in_judgment es 'unknown' (el condado no lista anios): impuestos_que_hereda $25,792.42 es el total de 22 anios (2004-2025), cota superior que ignora que la parte en la sentencia se paga con la puja. La apertura $64,435 es 2.5x la deuda total ($25,792), asi que la apertura incluye algo mas que impuestos (valor ajustado/costos): costo real del comprador sin confirmar.",
+      "Tres liens de la Ciudad (2017, 2020, 2023) 'verified' solo como filas de indice; tipo/monto/pago desconocidos; predatan la demanda de 2024, asi que la Ciudad pudo ser parte, pero no se sabe. all_in_costs los deja 'NO CUANTIFICADO' y el techo supone $0. ORDER RP-2016-464141 (Gillum Lois Marie con Aldine ISD/Ciudad/Condado) sin legal: no atribuido.",
+      "Identidad del dueno: HCAD 'GILLUM LOIS E' desde 1988; los instrumentos activos en 2026 son de 'Lois Marie Gillum' con Joseph W. Sr. (otros lotes de Fidelity Addition). title lo marca unknown; si son la misma persona esta viva y puede redimir; si no, 22 anios sin pagar con un dueno posiblemente fallecido apuntan a herederos sin citar (g).",
+      "HCAD subio de $137,068 (appraised_value_county/anterior) a $147,756 (+7.8%) mientras el area podria estar mal; el cierre esperado por ratio ($74,912) vs por prima ($70,105) estan cerca, pero el all-in $106,952 deja ~38% de margen solo si el area HCAD es cierta."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Confirmar area real del tramo (plat/survey/HCAD map): 18,150 vs 13,732 sqft; recalcular el valor antes de fijar techo",
+      "Leer imagenes de los 3 liens de la Ciudad (tipo/monto/pago) y pedir payoff; restar del techo",
+      "Con login: demandados y citacion del cause 202471846; confirmar si Lois E Gillum = Lois Marie Gillum; sucesion/heirs; PACER",
+      "Pedir a hctax.net / abogado fiscal el desglose de anios incluidos en la sentencia (taxes_in_judgment es ambiguo) y un estado de cuenta/payoff actualizado; confirmar que impuestos hereda el comprador; la apertura $64,435 es mayor que la deuda total de $25,792: entender que incluye",
+      "Comps de lotes baldios en 77088 (no usar solo HCAD)",
+      "Visita al sitio: acceso, relleno, ocupantes; restricciones de Highland Acre Homes",
+      "Attorney review recommended antes de pujar (tax deed, redencion, quiet title)"
     ]
   }
 }

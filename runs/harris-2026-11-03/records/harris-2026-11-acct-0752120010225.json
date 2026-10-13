@@ -373,6 +373,11 @@
       "agent": "title",
       "item": "Verificar si DPX2 LLC (comprador RP-2024-346821) fue demandado en cause 202425337 y leer imagenes de los 6 liens City of Pasadena",
       "why": "hcdistrictclerk requiere login; imagenes del Clerk no accesibles"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Verificar si DPX2 LLC fue parte del cause 202425337 y cuantificar los 6 liens de City of Pasadena",
+      "why": "login de hcdistrictclerk, imagenes del Clerk y contacto con la Ciudad"
     }
   ],
   "valuation": {
@@ -459,17 +464,24 @@
     }
   },
   "review": {
-    "decision": "SOLO CERCA DE LA APERTURA",
-    "rationale": "Techo $27,871 < cierre esperado $29,173: solo conviene cerca de la apertura. Jurisdiccion: CITY OF PASADENA. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "BAJA",
+    "rationale": "El propietario de registro es DPX2 LLC (RP-2024-346821, 09/20/2024) y no el dueno gravado en el rol (Indominus Consulting), y hay seis liens de la Ciudad de Pasadena sin liberar (tres contra el dueno anterior Pham y tres contra Indominus, dos de ellos posteriores a su venta), todo sin cuantificar. La ciudad es Pasadena (con zonificacion): no se sabe si un dúplex es permitido en un lote de 7,150 sqft, y valuation ni lo evalua. El techo de $27,871 es teorico (HCAD sin comps) y esta basado en un tail de impuestos inflado; el margen del propio modelo en el cierre esperado es 21.5%, bajo el objetivo de 25%, antes de contar los liens. Demandados, citacion y bancarrota bloqueados. Se baja de prioridad hasta saber si DPX2 fue parte del juicio y cuanto suman los liens. Attorney review recommended.",
     "bid_ceiling": 27871.47,
     "all_in_cost_estimate": 47372.35,
-    "contradictions": [],
+    "contradictions": [
+      "tax.taxes_in_judgment: el script scripts/tax_statement.py leyo el rango del condado 'anios_en_sentencia A - B' (candidatos.csv) como DOS anios sueltos [A,B]; por eso post_judgment_taxes y buyer_tax_tail_estimate incluyen anios que en realidad estan dentro de la sentencia. Rango 2021-2025: todo esta en la sentencia; tail correcto ~ $719 (proxy 2026) vs $13,324 usado (post_judgment_taxes $12,605.65 erroneo). Techo corregido ~ $40,110 y costo total ~ $34,767 (no modificado aqui); los liens dominan el riesgo real.",
+      "Propietario: rol HCAD/impuestos = Indominus Consulting LLC (owner-since 07/25/2023) vs escritura de registro a DPX2 LLC el 09/20/2024. El cause 202425337 (serie 2024, fecha de radicacion no leida) pudo iniciarse antes de esa venta (inferido), lo que ataria a DPX2 como comprador pendente lite; si no, DPX2 pudo no ser citado. Sin demandados (bloqueado) no se resuelve.",
+      "physical: fema_sfha = true, pero la zona es X (0.2%) con fema_sfha_pct 0.0 y 100% del area en zona sombreada X: bandera SFHA inconsistente con los porcentajes.",
+      "title.liens_city_county 'verified' (6 liens de Pasadena, sin liberar) pero supervivencia inferida; el modelo de costos no los cuantifica. HCAD year_improved 1952 con 0 sqft sugiere estructura demolida: los liens podrian ser de demolicion/limpieza y de monto alto.",
+      "Jurisdiccion Pasadena con zonificacion propia vs valuation.exit_strategy 'resale (duplex NO evaluado)': no se verifica que el lote permita dúplex. Ademas D/T RP-2017-108480 sin REL explicito (ejecucion TRSALE 2020 inferida)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "hcdistrictclerk.com (login): confirmar si DPX2 LLC fue demandada o citada en el cause 202425337 y la fecha de radicacion vs 09/20/2024.",
+      "Leer imagenes y pedir payoff/estatus a City of Pasadena de los seis liens (RP-2023-44668, RP-2023-220746, RP-2023-429194, RP-2024-179723, RP-2024-403172, RP-2024-452668) y del ORDER RP-2021-671176.",
+      "Confirmar con Pasadena Planning la zonificacion y si permite dúplex en Lt 225 Vince Heights Sec 3; revisar restricciones del plat.",
+      "PACER: Indominus Consulting LLC y DPX2 LLC; confirmar la TRSALE RP-2020-295378 / RP-2017-108480 con imagen.",
+      "Corregir la bandera SFHA con FEMA/MAAPnext; estado de cuenta actualizado y apertura final.",
+      "Attorney review recommended; solo reconsiderar si los liens se cuantifican y el techo con comps queda por encima de la apertura de $21,399."
     ]
   },
   "title": {

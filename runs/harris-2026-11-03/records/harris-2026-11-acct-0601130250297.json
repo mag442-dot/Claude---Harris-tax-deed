@@ -481,6 +481,16 @@
       "agent": "legal",
       "item": "Buscar bancarrota de WILLARD STREET PARTNERS (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Verificar existencia/vigencia de Willard Street Partners en SOS Texas y su agente registrado",
+      "why": "SOSDirect requiere cuenta/pago"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Pedir a hctax/abogado fiscal que anios estan en la sentencia y el payoff (taxes_in_judgment ambiguo o desconocido)",
+      "why": "la lista del condado es ambigua; cota superior en el modelo de costos"
     }
   ],
   "valuation": {
@@ -568,16 +578,25 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $45,801 >= cierre esperado $38,025. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Es la mejor del grupo: dueno es una entidad (sin herederos), vesting deed RP-2017-301570 coincide con la legal de HCAD, indice limpio de gravamenes, Zona X 100%, lote de ~10,000-12,500 sqft (~100 x 127 ft) en Houston sin zonificacion, ideal para duplex. Los dos hechos que la sostienen son el indice limpio y el lote grande, pero ese 'limpio' es solo un negativo del indice (sin imagenes) y el valor $75,000 es un 'Res Vacant Override' de HCAD sin comps. El techo de $45,801 es teorico (reventa al 100% de HCAD, 25% retorno, quiet title y cierre supuestos): con haircut de 20% bajaria a ~$34k. Legal esta bloqueado (demandados, citacion, bancarrota) asi que no puede ser COMPRA FUERTE; attorney review recommended.",
     "bid_ceiling": 45801.23,
     "all_in_cost_estimate": 51990.48,
-    "contradictions": [],
+    "contradictions": [
+      "Area: HCAD 10,000 sqft ($75,000, 'Res Vacant Override') vs poligono GIS 12,508 sqft (+25%). El valor HCAD es un override manual cuyo origen se desconoce; el techo usa el valor HCAD, no el area GIS.",
+      "taxes_in_judgment=[2020,2024] se uso como dos anios sueltos: post_judgment $7,230.80 incluye 2021-2023 y 2025. Con sentencia de 03/16/2026 (cause 2025) lo mas probable es que 2020-2024 sea un rango, y el tail real seria ~2025+2026 (~$3.9k, no $8,824.73). El tail es COTA SUPERIOR, por lo que el techo $45,801 es conservativo en este punto (no confirmado).",
+      "Vesting deed marcado 'verified' solo por una fila del indice (sin imagen): verifica existencia del RP-2017-301570, no validez/ejecucion. HCAD fecha 07/05/2017 vs recording 07/06/2017 (benigno); deed previo 2014-0438808 no se encontro: cadena anterior a 2017 sin revisar.",
+      "Entidad 'WILLARD STREET PARTNERS': existencia/vigencia y agente registrado no revisados (title.owner_deceased_heirs lo dice 'not applicable' por ser entidad, inferred). Los hits 'Willard Street Estates/Landing/Grove' son otras entidades (Mazz). Direccion postal es un condo (Unit 1039): riesgo de citacion por publicacion/defectuosa, aun no verificable.",
+      "valuation.all_in_costs 'liens NO CUANTIFICADO' vs title 'None found' (status unknown): el modelo asume $0 de gravamenes que sobreviven con un negativo de indice de baja confianza (busqueda 'EAST' generica)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Con login: leer en hcdistrictclerk.com demandados y metodo de citacion del cause (si hubo citacion por publicacion, la ventana TRCP 329 sigue abierta); PACER por bancarrota del dueno y co-duenos",
+      "Verificar SOS Texas: existencia/vigencia de Willard Street Partners y socios/agente (para evaluar si la citacion fue valida)",
+      "Pedir title commitment o imagen de RP-2017-301570 y busqueda por legal (Lts 297-298 Blk 20 East) con variantes de nombre de subdivision",
+      "Pedir a hctax.net / abogado fiscal el desglose de anios incluidos en la sentencia (taxes_in_judgment es ambiguo) y un estado de cuenta/payoff actualizado; confirmar que impuestos hereda el comprador",
+      "Confirmar area real (HCAD 10,000 vs GIS 12,508) con plat/survey y por que HCAD pone override a $75,000; obtener comps de lotes baldios en 77048",
+      "Leer restricciones de la subdivision 'East' y visita al sitio (acceso, ocupantes, relleno)",
+      "Confirmar apertura final ($8,549.94) el dia de la venta; fijar techo propio con haircut sobre HCAD (no el teorico $45,801)",
+      "Attorney review recommended antes de pujar (tax deed, redencion, quiet title)"
     ]
   }
 }

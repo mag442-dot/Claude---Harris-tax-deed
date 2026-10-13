@@ -380,6 +380,11 @@
       "agent": "title",
       "item": "Confirmar tipo y saldo de los 3 gravamenes City of Houston (RP-2016-304862, RP-2024-257373, RP-2026-277034) leyendo imagenes / City of Houston lien payoff",
       "why": "imagenes del Clerk no disponibles; tipo y monto no se leen en el indice"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Solicitar payoff/estatus de 3 liens de City of Houston sobre Crestmont Park Sec 1 Lt 5 Blk 14",
+      "why": "requiere contacto con la Ciudad / imagenes del Clerk"
     }
   ],
   "valuation": {
@@ -467,16 +472,24 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $40,129 >= cierre esperado $34,907. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Es el candidato mas limpio del grupo: lote de 8,100 sqft en City of Houston, zona X (0.2%) sin SFHA ni floodway, apertura de $9,333 sobre HCAD $68,850, y la ventana TRCP 329 de 2 anios ya cerro el 06/03/2026. El obstaculo es que hay tres liens de la Ciudad de Houston sin liberar (RP-2016-304862, RP-2024-257373, RP-2026-277034) de tipo y monto desconocido, dos de ellos posteriores a la sentencia, que el modelo no cuantifica ni suma al costo; la HCAD tambien indica 1960 de mejora con 0 sqft (posible demolicion). El techo de $40,129 es teorico (reventa al valor HCAD sin comps), aunque la correccion del tail apenas lo mueve (~$41,224). Legal bloqueado; no es COMPRA FUERTE. Attorney review recommended.",
     "bid_ceiling": 40128.69,
     "all_in_cost_estimate": 49701.61,
-    "contradictions": [],
+    "contradictions": [
+      "tax.taxes_in_judgment: el script scripts/tax_statement.py leyo el rango del condado 'anios_en_sentencia A - B' (candidatos.csv) como DOS anios sueltos [A,B]; por eso post_judgment_taxes y buyer_tax_tail_estimate incluyen anios que en realidad estan dentro de la sentencia. Rango 2019-2022: 2020 ($1,128.09) se cuenta como post-sentencia. Tail correcto ~ $8,619 vs $9,747; techo corregido ~ $41,224 (no modificado aqui).",
+      "title.liens_city_county esta 'verified' pero la identidad del deudor (sin segundo nombre) y la supervivencia son inferidas; tres liens de la Ciudad no liberados vs liens_que_sobreviven = NO CUANTIFICADO en all_in_costs ($49,702 los excluye).",
+      "Fechas: HCAD owner-since 08/04/2015 y el OFCRTN 03/2016 preceden a la escritura vesting RP-2017-216312 (05/17/2017); el lien RP-2016-304862 (07/2016) figura contra Bobbitt antes de esa escritura. Cadena de titulo (venta constable 2016/2017) sin imagen.",
+      "title.vesting_deed esta 'verified' pero es solo una fila de indice sin imagen y la naturaleza de la escritura (constable tax deed) se infiere: debe ser 'inferred' segun el playbook.",
+      "valuation: cierre por razon $34,907 vs por prima $10,154 (3.4x); techo depende solo del valor HCAD. physical solo reporta FEMA efectivo; falta el borrador MAAPnext que exige el playbook."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Pedir a City of Houston payoff/estatus de los tres liens (RP-2016-304862, RP-2024-257373, RP-2026-277034) y leer imagenes para ver tipo (mowing/nuisance/demolicion) y si sobreviven; sumar el monto al costo.",
+      "hcdistrictclerk.com (login): demandados del cause 202354713 y si la Ciudad fue parte; metodo de citacion.",
+      "PACER: bancarrota de Byron Bobbitt.",
+      "Leer la escritura RP-2017-216312 / RP-2016-102505 (imagen) para confirmar la cadena de la venta fiscal 2016-2017 y reclamos de Benavides.",
+      "Estado de cuenta actualizado (tail ~ $8.6k esperado) y apertura final el dia de la venta.",
+      "Restricciones de Crestmont Park Sec 1 y revision de MAAPnext; comps reales para fijar un tope propio (no usar el techo de $40,129).",
+      "Attorney review recommended."
     ]
   },
   "title": {

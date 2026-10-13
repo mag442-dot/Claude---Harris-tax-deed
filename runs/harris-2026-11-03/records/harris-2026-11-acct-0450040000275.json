@@ -491,6 +491,11 @@
       "agent": "title",
       "item": "Confirmar escritura de vesting 2009-0268927 / 2004-Y205262 y gravamenes de Tr 40 Abst 700 J L Stanley con imagenes o title plant",
       "why": "indice del Clerk no indexa el lote; sin imagenes"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Pedir title search a nivel de tracto de Tr 40 Abst 700 J L Stanley antes de considerar pujar",
+      "why": "el indice del Clerk no ubica el tracto; requiere title plant/imagenes pagadas"
     }
   ],
   "valuation": {
@@ -577,17 +582,23 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $178,988 >= cierre esperado $142,528. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Es la apuesta mas cara del grupo (apertura $49,385) sobre una franja de ~45 x 617 ft (GIS 25,059 sqft vs HCAD 28,112) en Wayside Dr, con titulo sin rastro: ninguna de las escrituras HCAD (2009-0268927, 2004-Y205262) aparece en el indice. El dueno es una LLC con historial de muchos liens de la Ciudad en otros lotes; no se pueden descartar liens ni probar que el tracto de acreage tenga acceso/frente para un dúplex. El techo de $178,988 (64% del valor HCAD de $281,120, plano $10/sqft y sin comps) es teorico y no debe endorsarse con evidencia tan delgada; el tail de impuestos tambien esta mal calculado. Vigilar y solo reconsiderar tras un title search a nivel de tracto, verificacion de acceso/ancho utilizable y lectura del expediente. Attorney review recommended.",
     "bid_ceiling": 178987.96,
     "all_in_cost_estimate": 187342.08,
-    "contradictions": [],
+    "contradictions": [
+      "tax.taxes_in_judgment: el script scripts/tax_statement.py leyo el rango del condado 'anios_en_sentencia A - B' (candidatos.csv) como DOS anios sueltos [A,B]; por eso post_judgment_taxes y buyer_tax_tail_estimate incluyen anios que en realidad estan dentro de la sentencia. Rango 2021-2025: toda la deuda por anio esta dentro de la sentencia; tail correcto ~ $5,974 (proxy 2026) vs $36,538 usado (post_judgment_taxes $30,563.98 erroneo). Techo corregido ~ $208,662 y costo total ~ $156,778 (no modificado aqui); esto hace el techo aun mas irreal frente a la apertura de $49,385.",
+      "Tamano: HCAD 28,112 sqft vs GIS 25,059 sqft (~11% menos); forma ~45 x 617 ft (inferred) debil para dúplex y acceso/frente desconocidos, aunque valuation aplica $10/sqft plano.",
+      "valuation: cierre por razon $142,528 vs por prima $53,731 (2.7x); apertura = 17.6% del valor HCAD; el techo depende solo del valor HCAD sin comps.",
+      "title: vesting 'unknown', liens_city_county 'unknown/no atribuibles' pero la entidad tiene LIENs City of Houston/La Porte en otros lotes (algunos multi-parte sin legal, no descartables), mientras el modelo de costos supone cero liens sobrevivientes."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Title search a nivel de tracto (Tr 40 Abst 700 J L Stanley; escrituras 2009-0268927 y 2004-Y205262) con title company/imagenes.",
+      "Confirmar acceso legal, frente real y ancho utilizable (levantamiento/visita) y reglas de lote/restricciones para dúplex en City of Houston.",
+      "hcdistrictclerk.com (login): demandados y citacion del cause 202320291; PACER para Carefree Management LLC; revisar estatus de la LLC en SOS.",
+      "Leer liens de La Porte multi-parte sin legal y confirmar que no afectan el tracto; payoff si aplica.",
+      "Estado de cuenta actualizado y apertura final; reemplazar el techo teorico por comps reales de tractos similares en Wayside Dr.",
+      "Attorney review recommended."
     ]
   }
 }

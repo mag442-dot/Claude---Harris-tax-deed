@@ -460,6 +460,11 @@
       "agent": "title",
       "item": "Leer imagenes RP-2023-157876 (L/P), RP-2025-138287 (QCD) y RP-2021-726225 y confirmar resultado del pleito Kaufhauz v. Dumass; comparar contra demandados del cause 202505627",
       "why": "imagenes del Clerk no disponibles en el indice / caso en hcdistrictclerk requiere login"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Abogado/title company: revisar imagenes de la cadena circular Kaufhauz-Dumass-Ortega-Mugisha y el expediente del cause 202505627 antes de pujar",
+      "why": "requiere imagenes del Clerk, login de hcdistrictclerk y criterio legal"
     }
   ],
   "valuation": {
@@ -547,16 +552,24 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $116,366 >= cierre esperado $83,655. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote baldio de 5,000 sqft en City of Houston, zona X sin SFHA, apertura de solo $7,554 sobre un valor HCAD de $165,000, lo que lo hace atractivo en papel. Pero el titulo es circular (Kaufhauz vendio en 2021 y recupero por QCD el 15/04/2025), hay un lis pendens de Kaufhauz contra Dumass sin desenlace visible y el demandado del cause 202505627 (probablemente presentado a inicios de 2025) pudo ser el dueno equivocado; ademas demandados, citacion y bancarrota estan bloqueados. El techo de $116,366 es teorico (reventa al valor HCAD, sin comps, 25% de retorno, quiet title supuesto de $4,000) y no debe usarse para pujar; para uso real conviene anclar la puja al cierre por prima (~$8,219) y a comps reales. Se sube de categoria solo si las imagenes y el expediente muestran que los duenos de registro 2021-2025 fueron citados o que el QCD es posterior al juicio y vincula a Kaufhauz. Attorney review recommended.",
     "bid_ceiling": 116365.64,
     "all_in_cost_estimate": 98308.04,
-    "contradictions": [],
+    "contradictions": [
+      "Propietario: HCAD y rol del condado dicen Kaufhauz Investment LLC (owner-since 12/11/2020), pero el indice muestra que Kaufhauz vendio a Dumass en 12/2021 (RP-2021-694279) y solo volvio a ser dueno de registro por QCD el 15/04/2025 (RP-2025-138287). El numero de cause 202505627 sugiere radicacion a inicios de 2025 (inferido, fecha no leida), cuando el dueno de registro era Mugisha/Mwanga: posible defecto de partes/citacion.",
+      "title.rp_hits_* y vesting_deed estan 'inferred' (indice, sin imagenes) y aun asi el resumen de HCAD/tax trata a Kaufhauz como dueno cierto; hcad_deeds_recorded lista solo las escrituras de salida 2021 y no el QCD de 2025.",
+      "Lis pendens RP-2023-157876 (Kaufhauz v. Dumass) sin liberacion ni sentencia visible vs el modelo de costos de valuation, que asume cero reclamos sobrevivientes ('liens_que_sobreviven' = NO CUANTIFICADO) y solo $4,000 de quiet title.",
+      "valuation: cierre esperado por razon (0.507 x HCAD) = $83,655 vs por prima sobre apertura = $8,219 (10x de diferencia); el techo de $116,366 (~70% del valor HCAD) depende solo del valor HCAD, sin comps. all_in_cost $98,308 usa el cierre por razon, no el real esperado.",
+      "tax.current_year_estimate esta rotulado como proxy de la cuenta 2025, pero 2025 no aparece en el estado de cuenta (parece pagado); en la practica es proxy de 2026. Impacto menor: el tail de $8,143 (2024 post-sentencia + 2026) es razonable."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Leer imagenes RP-2025-138287 (QCD), RP-2023-157876 (L/P), RP-2021-694279 y RP-2021-726225 y confirmar el desenlace de Kaufhauz v. Dumass (attorney review recommended).",
+      "En hcdistrictclerk.com (login) leer fecha de radicacion, demandados y metodo de citacion del cause 202505627; confirmar si Mugisha/Mwanga, Dumass y Ortega fueron demandados o citados.",
+      "PACER: bancarrota de Kaufhauz Investment LLC.",
+      "Leer imagen de REL RP-2021-14318 o pedir payoff letter a City of Houston del lien RP-2020-223305.",
+      "Estado de cuenta actualizado del Tax Office (confirmar 2025 pagado) y apertura final el dia de la venta.",
+      "Corrida de title company sobre Lts 19-20 Blk 6 Smith Furniture Co Sec 2 (restricciones, reglas de lote Houston para dúplex) y presupuesto de quiet title de abogado en lugar del supuesto de $4,000.",
+      "Fijar un tope de puja propio con comps reales de lotes en 77004; no usar el techo teorico de $116,366."
     ]
   }
 }

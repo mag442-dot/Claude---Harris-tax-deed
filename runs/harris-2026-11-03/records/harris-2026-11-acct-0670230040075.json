@@ -491,6 +491,11 @@
       "agent": "title",
       "item": "Leer imagen de PROB RP-2024-198205 (Spata estate) y deeds HCAD 2010-20100033734/35 y 2008-20080555663; confirmar si Rogers David es co-dueno de Lts 75-76 Blk 4",
       "why": "imagenes no accesibles; la busqueda por legal no devolvio instrumentos de los lotes 75-76"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Pedir a hctax/abogado fiscal que anios estan en la sentencia y el payoff (taxes_in_judgment ambiguo o desconocido)",
+      "why": "la lista del condado es ambigua; cota superior en el modelo de costos"
     }
   ],
   "valuation": {
@@ -577,17 +582,25 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $182,878 >= cierre esperado $147,337. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Es la apuesta mas grande (apertura $49,117; todo-incluido ~$196k) y la cadena de titulo no esta establecida: no hay vesting deed para Lts 75-76 Blk 4 y una sucesion (PROB RP-2024-198205, Spata EST a Perkins y David Rogers) sugiere un co-dueno no nombrado en HCAD ni, quiza, en la demanda. El techo de $182,878 es teorico y no lo respaldo: supone revender a $290,605 (HCAD, clase C2 en 'Industrial Center of Porter Baker', ~$23/sqft) sin comps, con 25% de retorno, y es 3.7x la apertura. El uso objetivo (duplex) tampoco esta probado: subdivision industrial/comercial con restricciones no buscadas. Sin co-dueno resuelto, comps y restricciones, solo vigilar; attorney review recommended.",
     "bid_ceiling": 182878.39,
     "all_in_cost_estimate": 195876.1,
-    "contradictions": [],
+    "contradictions": [
+      "Dueno gravable vs record: HCAD 'PERKINS CARLTON E' desde 10/15/2020 pero los deeds HCAD (2008, 2010) no aparecen en el indice y el unico instrumento de titulo cercano es PROB RP-2024-198205 (05/31/2024) que nombra a Perkins Y David Rogers. Si Rogers es co-dueno, no esta en HCAD/hctax y pudo no ser demandado: su interes sobreviviria al tax deed. Cause 202554065, sentencia 03/19/2026.",
+      "Perkins vendio el lote vecino 78 Blk 4 con dos W/D (05/28 y 05/31/2024), mismo dia/semana de la sucesion: dueno activo, posible redimidor y con cadena de titulo mal documentada. Herederos de Spata EST sin revisar.",
+      "taxes_in_judgment=[2019,2025]: una demanda numero 2025 no puede incluir impuestos 2025 (vencen 02/2026), asi que la lista no es confiable. post_judgment $33,943.28 y tail $40,119.26 son COTA SUPERIOR; si 2019-2025 es un rango el tail seria ~$6.2k (proxy 2026) y el techo subiria ~$33k. El numero esta muy mal anclado.",
+      "valuation usa cierre/valor 0.507 de 14 lotes baldios residenciales (ago-2026) para un lote C2 industrial de $290k: no es comparable. Cierre por prima ($53,439) vs por ratio ($147,337): rango 2.8x. El techo respalda un riesgo de capital de ~$196k sin comps.",
+      "title 'None found' en liens/mortgages son status unknown (busqueda por legal sin resultados para Lts 75-76, solo Lot 78 y 64-68), pero valuation lo trata como $0 ('NO CUANTIFICADO'). La cadena de titulo en si no esta establecida (vesting 'unknown')."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Leer imagen de PROB RP-2024-198205 y deeds 2008-20080555663, 2010-20100033734/35: confirmar quien es dueno de Lts 75-76 Blk 4 y si David Rogers es co-dueno",
+      "Con login: confirmar que todos los co-duenos/herederos (Rogers, herederos de Spata) fueron demandados y citados (cause 202554065); PACER para Perkins y Rogers",
+      "Pedir a hctax.net / abogado fiscal el desglose de anios incluidos en la sentencia (taxes_in_judgment es ambiguo) y un estado de cuenta/payoff actualizado; confirmar que impuestos hereda el comprador",
+      "Comps de terrenos comerciales/industriales en 77026 (no residenciales); fijar techo propio con haircut, no $182,878",
+      "Buscar restricciones de Industrial Center of Porter Baker y confirmar que un duplex es permitido (en Houston no hay zonificacion pero si deed restrictions)",
+      "Visita al sitio: acceso, uso actual, ocupantes",
+      "Attorney review recommended antes de pujar (tax deed, redencion, quiet title)"
     ]
   }
 }

@@ -353,6 +353,11 @@
       "agent": "title",
       "item": "Leer imagenes RP-2026-378497 (City lien), RP-2025-501839 (AFFT heredero?) y escrituras 2009-0298169 / 2007-0731436",
       "why": "el indice no muestra imagenes; escrituras HCAD no aparecen en la busqueda"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisar probate de Sorrell Sanders y citacion a herederos en cause 202510498",
+      "why": "login de hcdistrictclerk / probate court y criterio legal"
     }
   ],
   "valuation": {
@@ -439,17 +444,25 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $110,565 >= cierre esperado $80,141. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Lote de 15,807 sqft en City of Houston (sin zonificacion), zona X sin SFHA, con apertura de $19,738, pero el dueno (Sorrell Sanders) aparenta estar fallecido ('EST' en el indice) y no se encontro escritura de vesting ni se sabe si herederos fueron citados. Hay ademas un probable lien nuevo de la Ciudad (RP-2026-378497, 17/09/2026) sin leer, y demandados, citacion y bancarrota estan bloqueados. El techo de $110,565 es teorico: asume reventa al valor HCAD ($10/sqft plano, $158,070) sin comps y usa un tail de impuestos mal calculado; no se debe endorsar con esta evidencia. Vigilar hasta confirmar herederos/citacion y el lien; riesgo de redencion o nuevo juicio por herederos (TRCP 329 abierto hasta 2028-07-22 si hubo publicacion). Attorney review recommended.",
     "bid_ceiling": 110565.1,
     "all_in_cost_estimate": 95119.68,
-    "contradictions": [],
+    "contradictions": [
+      "tax.taxes_in_judgment: el script scripts/tax_statement.py leyo el rango del condado 'anios_en_sentencia A - B' (candidatos.csv) como DOS anios sueltos [A,B]; por eso post_judgment_taxes y buyer_tax_tail_estimate incluyen anios que en realidad estan dentro de la sentencia. Aqui el rango es 2023-2025: 2024 esta DENTRO de la sentencia pero el modelo lo cuenta como post-sentencia ($5,214.61). Tail correcto ~ $3,359 (solo proxy 2026) vs $8,574 usado; el techo corregido seria ~ $115,628 y el costo total ~ $89,905 (valores no cambiados aqui).",
+      "Propietario: HCAD/rol del condado nombra a SORRELL SANDERS (persona natural), pero el indice lo marca 'EST' (RP-2025-501839 AFFT, RP-2026-278113): probable fallecido. legal.redemption_note trata el caso como no-homestead normal con redencion corta y no considera herederos; defendantes/citacion bloqueados.",
+      "title: lien City of Houston RP-2026-378497 (09/17/2026, deudor 'Sanders Sorrell' invertido, sin lote) marcado 'inferred' y posterior a la sentencia (07/22/2026), vs modelo de costos que no cuantifica gravamenes sobrevivientes.",
+      "Escrituras HCAD 2009-0298169 y 2007-0731436 no aparecen en el indice: vesting 'unknown' mientras hcad_owner_since (07/01/2009) figura 'verified'; no hay cadena de titulo comprobada.",
+      "valuation: cierre por razon $80,141 vs por prima $21,475 (3.7x); apertura = 12% del valor HCAD. El valor HCAD ($10/sqft sobre un tracto de 15.8k sqft, GIS 15,759) no tiene comps, y el techo depende solo de el."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Confirmar en hcdistrictclerk.com (login) los demandados del cause 202510498, si se cito a herederos/sucesion de Sorrell Sanders y el metodo de citacion (publicacion = riesgo TRCP 329).",
+      "Buscar caso de sucesion/probate de Sorrell Sanders en Harris County Probate y leer RP-2025-501839 (AFFT) para saber si aplica a este tracto.",
+      "Leer imagen de RP-2026-378497 (tipo, monto) y pedir payoff/estatus a City of Houston; confirmar si el lien sobrevive.",
+      "Localizar las escrituras 2009-0298169 / 2007-0731436 y correr busqueda a nivel de tracto (Settegast Gardens Blk 4, tracts 2A-1...4C-1) con title company.",
+      "PACER: bancarrota de Sorrell Sanders / sucesion.",
+      "Estado de cuenta actualizado (aclarar por que 2024 no esta en la sentencia) y apertura final; reemplazar el techo teorico por una estimacion con comps reales de Settegast/Wayside.",
+      "Attorney review recommended sobre redencion por herederos y quiet title (presupuestar mas que el supuesto de $4,000)."
     ]
   },
   "title": {

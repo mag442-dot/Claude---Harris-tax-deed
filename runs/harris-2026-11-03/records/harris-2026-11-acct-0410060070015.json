@@ -730,6 +730,11 @@
       "agent": "title",
       "item": "Establecer propietario de registro de Lt 15 Huffsmith U/R (HCAD dice 'UNKNOWN') con title plant / imagenes del Clerk",
       "why": "el indice no muestra escritura para el lote; requiere imagenes o busqueda de pago"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Contratar title search de Lt 15 Huffsmith U/R para identificar dueno de registro",
+      "why": "HCAD muestra 'UNKNOWN'; el indice no ubica el lote"
     }
   ],
   "valuation": {
@@ -816,17 +821,23 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $17,922 >= cierre esperado $15,901. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Lote de 5,227 sqft en condado no incorporado de Harris (sin zonificacion municipal, zona X sin SFHA) con apertura de $11,340, pero el dueno en HCAD es literalmente 'UNKNOWN' desde 1988 y no se pudo rastrear ninguna escritura, hipoteca ni lien. Con dueno desconocido es casi seguro que hubo citacion por publicacion (no verificado, bloqueado), de modo que la ventana TRCP 329 sigue abierta hasta 2027-10-27 y el riesgo de nuevo juicio o reclamo de herederos no esta cubierto por el supuesto de $4,000 de quiet title. El techo de $17,922 es teorico (valor HCAD $31,362 como precio de reventa, sin comps), aunque corregido el tail apenas sube a ~ $19,886; no se endorsa. Como el capital en riesgo es bajo se mantiene en vigilancia, pero necesita un title search real. Attorney review recommended.",
     "bid_ceiling": 17921.63,
     "all_in_cost_estimate": 23007.87,
-    "contradictions": [],
+    "contradictions": [
+      "tax.taxes_in_judgment: el script scripts/tax_statement.py leyo el rango del condado 'anios_en_sentencia A - B' (candidatos.csv) como DOS anios sueltos [A,B]; por eso post_judgment_taxes y buyer_tax_tail_estimate incluyen anios que en realidad estan dentro de la sentencia. Rango 2001-2024: casi todo esta en la sentencia; solo 2025 ($340.83) es post-sentencia. Tail correcto ~ $607 vs $2,630 usado (post_judgment_taxes $2,364.02); techo corregido ~ $19,886 (no modificado aqui). El estado de cuenta empieza en 2005 aunque la sentencia dice desde 2001.",
+      "Propietario 'UNKNOWN': hcad_owner 'verified' pero sin identidad real; legal busca bancarrota de 'UNKNOWN' en PACER (sin sentido) y legal.redemption_note asume redencion corta normal sin considerar herederos/propietario desconocido.",
+      "title: 'none found' para liens/hipotecas esta 'unknown' (no se pudo buscar por nombre); el modelo de costos lo toma como cero sobrevivientes y $4,000 de quiet title, que es bajo para dueno desconocido con citacion por publicacion.",
+      "Valor: tax.appraised_value_county $30,106 vs HCAD market $31,362 (el techo usa $31,362); sin comps, el techo es teorico."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Title search comercial de Lt 15 Huffsmith U/R Abst 50 J Miller (24922 Wilson St, Tomball) para identificar dueno de registro, hipotecas y liens.",
+      "hcdistrictclerk.com (login): leer peticion del cause 202136906 para saber a quien se demando y si hubo citacion por publicacion; PACER segun el dueno real.",
+      "Confirmar acceso legal, linderos y restricciones (U/R = sin restricciones segun legal) y ausencia de ocupantes por visita al sitio.",
+      "Estado de cuenta actualizado (tail ~ $607 esperado si la sentencia cubre 2001-2024) y apertura final.",
+      "Presupuesto de abogado para quiet title con citacion por publicacion; comps reales de lotes en Tomball.",
+      "Attorney review recommended."
     ]
   }
 }

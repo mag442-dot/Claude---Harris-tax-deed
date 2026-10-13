@@ -460,17 +460,24 @@
     }
   },
   "review": {
-    "decision": "SOLO CERCA DE LA APERTURA",
-    "rationale": "Techo $13,274 < cierre esperado $13,887: solo conviene cerca de la apertura. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "NO PARA DUPLEX",
+    "rationale": "El predio es una franja de calle privada (HCAD legal 'ROW-PRIVATE STREET TRICON POTOMAC STREET ENCLAVE', ~28 x 162 ft, 4,565 sqft): no es un lote edificable para duplex y su unico comprador logico seria el propio enclave/vecinos. El techo de $13,274 sale de revender al valor HCAD de $27,390 sin comps, y ese valor es dudoso para una franja de calle con servidumbres y posibles obligaciones de asociacion; no lo respaldo. Ademas el vesting deed no coincide con la legal de HCAD y legal sigue bloqueado (demandados, citacion, bancarrota). No es un descarte automatico por zonificacion (Houston no tiene), pero para la estrategia de duplex no sirve; solo tendria sentido como compra oportunista cerca de la apertura si un abogado confirma que es negociable con el enclave. Attorney review recommended.",
     "bid_ceiling": 13274.12,
     "all_in_cost_estimate": 22542.99,
-    "contradictions": [],
+    "contradictions": [
+      "Legal del deed RP-2018-497852 (index: WESTHAVEN ESTATES Sec 2 Lot 182-183 Blk 7) no coincide con la legal de HCAD (ROW-PRIVATE STREET TRICON POTOMAC STREET ENCLAVE); ademas HCAD cita '2018-RP-2021-497852' con fecha 10/22/2018 vs recording 11/01/2018. El vesting es 'inferred' (solo por nombre), no verificado: no se sabe si el dueno gravable es el titular de record.",
+      "valuation.value_base $27,390 (~$6/sqft) se trata como valor de reventa, pero el predio es ROW privado de 28 ft de ancho: sin comps y sin comprador identificado; el bid_ceiling $13,274 y el margen 21.5% son teoricos (reventa al 100% de HCAD, 25% de retorno, quiet title $4,000 y cierre 3% supuestos).",
+      "taxes_in_judgment=[2020,2025] y post_judgment_taxes=$3,657.56 tratan 2021-2024 como 'post-judgment' aunque la sentencia es de 06/10/2026 (cause 2025): el buyer_tax_tail $4,239.66 es una COTA SUPERIOR (puede ser solo ~$582 del 2026 si la lista es un rango). El costo all-in $22,543 hereda esa ambiguedad.",
+      "valuation.all_in_costs dice liens 'NO CUANTIFICADO (indice sin leer)' mientras title reporta 'None found' con status unknown: ausencia de gravamenes es un negativo de baja confianza (solo busqueda por nombre; restricciones/plat/POA no localizados). Obligaciones de la asociacion (mantenimiento de calle privada) no estan en el modelo de costos.",
+      "title.owner_deceased_heirs/entidad: 'TRICON POTOMAC STREET ENCLAVE SUBDIVISION' parece un nombre de subdivision, no una entidad operativa; existencia/vigencia en SOS no revisada (riesgo de citacion defectuosa)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Leer imagen de RP-2018-497852 y el plat/restricciones de Tricon Potomac Street Enclave: confirmar que el deed cubre esta franja y si es area comun/servidumbre de acceso de otros lotes",
+      "Confirmar con abogado/titulo si un tax deed sobre esta franja transfiere algo vendible o utilizable (acceso, utilidades, obligaciones de asociacion)",
+      "Identificar un comprador/salida real (el POA o vecinos) antes de pujar; sin eso no hay salida",
+      "Con login: leer en hcdistrictclerk.com demandados y metodo de citacion del cause (si hubo citacion por publicacion, la ventana TRCP 329 sigue abierta); PACER por bancarrota del dueno y co-duenos",
+      "Pedir a hctax.net / abogado fiscal el desglose de anios incluidos en la sentencia (taxes_in_judgment es ambiguo) y un estado de cuenta/payoff actualizado; confirmar que impuestos hereda el comprador",
+      "Confirmar apertura final ($9,277.14) el dia de la venta; no pujar por encima de la apertura + prima mediana (~$10.1k) sin las verificaciones anteriores"
     ]
   },
   "title": {

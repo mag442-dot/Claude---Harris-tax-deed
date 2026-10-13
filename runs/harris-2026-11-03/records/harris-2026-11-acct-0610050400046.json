@@ -473,6 +473,16 @@
       "agent": "title",
       "item": "Pedir title report / revisar imagenes: cadena de titulo de Tr 30B Blk 40 Highland Heights Annex Sec 6 (vesting 2007, co-owners 'ET AL', posible heirship Mathis/Breaux)",
       "why": "el indice no devuelve instrumentos con esta legal (tract); imagenes no accesibles"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Buscar sucesion (probate) de Leo Mann Mathis y Deborah Gay Mathis en el Clerk e identificar co-duenos 'ET AL' del Tr 30B",
+      "why": "requiere busqueda de imagenes/probate fuera del indice"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Pedir a hctax/abogado fiscal que anios estan en la sentencia y el payoff (taxes_in_judgment ambiguo o desconocido)",
+      "why": "la lista del condado es ambigua; cota superior en el modelo de costos"
     }
   ],
   "valuation": {
@@ -559,17 +569,26 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $83,320 >= cierre esperado $62,164. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "La cadena de titulo no se pudo reconstruir: no hay vesting deed para Tr 30B Blk 40 (HCAD dueno 'MATHIS DEBORAH B ET AL' desde 2007, co-duenos sin nombre) y hay actividad sucesoria (Leo Mann Mathis EST 2026, Deborah Gay Mathis EST 2022) mas una orden/aviso de la Ciudad sobre Highland Heights Annex Sec 6 Blk 40 con herederos Breaux. El techo de $83,320 supone revender al 100% del valor HCAD ($122,611) sin comps, 25% de retorno y quiet title/cierre supuestos; es teorico y es ~9x la apertura ($9,057), asi que no lo respaldo. El lote (10,870 sqft, ~65 x 167 ft, Zona X, Houston sin zonificacion) es muy bueno para duplex, por eso vigilo en vez de descartar, pero con co-duenos no identificados el riesgo de no haber sido demandados/citados es real y legal esta bloqueado. Attorney review recommended.",
     "bid_ceiling": 83320.37,
     "all_in_cost_estimate": 76297.51,
-    "contradictions": [],
+    "contradictions": [
+      "Dueno gravable vs record: HCAD/hctax muestran 'MATHIS DEBORAH B ET AL' desde 11/04/2007 sin referencia de deed; ningun instrumento del Clerk coincide con la legal. Los W/D 2026 de Mathis son de otros predios (Montgomery Terrace). No se puede comparar dueno de la demanda contra dueno de record, y 'ET AL' oculta co-duenos (posibles no demandados).",
+      "Posible dueno fallecido/herederos: Leo Mann Mathis EST (AMEND 05/2026, AFFT 06/2026) y Deborah Gay Mathis EST (PROB 2022) sin legal que los ligue a este tramo; la sentencia es de 01/24/2025, anterior a esos instrumentos. Riesgo de redencion/quiet title mayor al supuesto con un solo 'quiet_title_supuesto' de $4,000.",
+      "ORDER RP-2023-470740 / NOTICE RP-2023-436239 de la Ciudad (Lot 23 Blk 40 Highland Heights Annex Sec 6, grantee incluye 'Mathis Deborah Manette Breaux') quedaron como 'None attributable' (inferred) en title pero la misma subdivision/seccion/bloque; si afectan Tr 30B serian gravamenes que sobreviven. valuation los modela como $0 ('NO CUANTIFICADO').",
+      "taxes_in_judgment=[2001,2023] incluye 2001 aunque el estado de cuenta solo tiene 2023-2025: la lista del condado no es confiable. El tail $8,268.82 (2024+2025+proxy 2026) es plausible dado que la sentencia es de 01/2025, pero sigue siendo 'inferred' y es cota superior (penalidades posteriores no incluidas).",
+      "appraised_value_county $112,698 (hctax) vs HCAD market $122,611: diferencia de 8.8%; el techo usa el mayor y reventa sin haircut. Con haircut de 15% el techo teorico baja a ~$69k; sin comps no hay valor verificado."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Title report / revision de imagenes: cadena de Tr 30B Blk 40 Highland Heights Annex Sec 6, identificar todos los co-duenos ('ET AL') y si alguno esta fallecido",
+      "Leer imagenes de RP-2023-470740 y RP-2023-436239 (Ciudad) para ver si la legal/direccion es esta tract y si hay monto que sobreviva",
+      "Buscar sucesion (Harris County Clerk probate) de Leo Mann Mathis y Deborah Gay Mathis y confirmar que herederos/co-duenos fueron demandados",
+      "Con login: leer en hcdistrictclerk.com demandados y metodo de citacion del cause (si hubo citacion por publicacion, la ventana TRCP 329 sigue abierta); PACER por bancarrota del dueno y co-duenos",
+      "Pedir a hctax.net / abogado fiscal el desglose de anios incluidos en la sentencia (taxes_in_judgment es ambiguo) y un estado de cuenta/payoff actualizado; confirmar que impuestos hereda el comprador",
+      "Obtener comps de lotes baldios en 77091 antes de fijar techo; hasta entonces no pasar de la apertura + prima mediana (~$9.9k)",
+      "Verificar acceso fisico y restricciones de Highland Heights Annex Sec 6 (visita al sitio)",
+      "Attorney review recommended antes de pujar (tax deed, redencion, quiet title)"
     ]
   }
 }
