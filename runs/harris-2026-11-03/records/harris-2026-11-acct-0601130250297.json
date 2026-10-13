@@ -338,6 +338,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'WILLARD STREET')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2017-301570, recorded 07/06/2017, W/D, grantor BESSAOUD SALIM to WILLARD STREET PARTNERS, EAST SUBDIVISION Lot 297-298 Block 20.",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx ; instrument RP-2017-301570",
+      "retrieved_at": "2026-10-13",
+      "note": "Index row read; legal matches HCAD (LTS 297 & 298 BLK 20 EAST). HCAD deed refs: 2017-RP-2017-301570 (07/05/2017) and prior 2014-0438808 (09/02/2014), latter not found in the index search. No image read, so deed form/execution not verified."
+    },
+    "mortgages": {
+      "value": "None found against Lots 297-298 Blk 20 East.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images) ; https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "Legal-desc search (Desc 'EAST', Lot 297, Block 20) returned only RP-2017-301570. Name hits 'Willard Street Estates/Landing/Grove' (NOTICE/MAP rows) are different developments (Mazz entities) and unrelated. Index only, no images; legal-desc search paginated up to 8 pages and may not be exhaustive; instruments recorded under variant subdivision spellings/tract descriptions could be missed."
+    },
+    "liens_federal": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "No federal lien rows."
+    },
+    "liens_city_county": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": "No LIEN/A/J/JUDGE rows for this legal or the owner name."
+    },
+    "liens_hoa_lispendens": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": "No L/P or HOA lien rows."
+    },
+    "child_support_liens": {
+      "value": "None found (owner is an entity).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
+    },
+    "restrictions": {
+      "value": "Not located. 'East' (generic name) subdivision restrictions not searched.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "HCAD building sqft 0 (intake)",
+      "retrieved_at": "2026-10-13",
+      "note": "No improvements per HCAD."
+    },
+    "owner_deceased_heirs": {
+      "value": "Not applicable: owner is an entity (Willard Street Partners; entity type/status not checked).",
+      "status": "inferred",
+      "source": "HCAD owner name (intake)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
+    },
+    "title_summary": {
+      "value": "Clean index: one vesting W/D (RP-2017-301570, 07/06/2017, Bessaoud Salim to Willard Street Partners) and no mortgage, lien, A/J, L/P or release rows of any kind for Lots 297-298 Blk 20 East or the owner name. Nothing found that would survive a sale; negative result is index-only. Flag for attorney review only; not legal advice.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
     }
   },
   "legal": {

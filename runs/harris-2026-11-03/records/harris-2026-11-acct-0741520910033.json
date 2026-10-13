@@ -418,6 +418,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de BMFX CAPITAL LLC (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen de lien City of Houston RP-2017-56221 (tipo y monto) y confirmar Yatsing Jeu = Jeu Thanh",
+      "why": "imagenes de cclerk no accesibles desde el indice"
     }
   ],
   "valuation": {
@@ -549,6 +554,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BMFX CAPITAL')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2023-205067, recorded 06/05/2023, W/D, grantor JEU THANH to BMFX CAPITAL LLC, SOUTH UNION Sec 2 Lot 8 Block 91. (Companion deed RP-2023-205066, same date/parties, covers Lot 7 Blk 91 - not this account.)",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx ; instrument RP-2023-205067",
+      "retrieved_at": "2026-10-13",
+      "note": "Index row read; legal matches HCAD (LT 8 BLK 91 SOUTH UNION SEC 2). No image read."
+    },
+    "mortgages": {
+      "value": "None found on Lot 8 Blk 91. (D/T RP-2024-406745, 11/01/2024, Leffall Crystal Denise to MERS/Mutual of Omaha, is on Lot 18 Blk 91 - different lot.)",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images) ; https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "Desc search (South Union, Lot 8, Block 91) returned 5 rows total. Index only, no images; legal-desc search paginated up to 8 pages and may not be exhaustive; instruments recorded under variant subdivision spellings/tract descriptions could be missed."
+    },
+    "liens_federal": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
+    },
+    "liens_city_county": {
+      "value": "City of Houston LIEN RP-2017-56221, filed 02/08/2017, grantor CITY OF HOUSTON, debtor as written 'YATSING JEU', South Union Sec 2 Lot 8 Block 91. No release found in index (about 9.7 years old). Vesting grantor is 'JEU THANH' (prior owner; relationship to 'Yatsing Jeu' unconfirmed).",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx ; instrument RP-2017-56221",
+      "retrieved_at": "2026-10-13",
+      "note": "Row read from index, legal matches this lot. Type of lien (nuisance/weed/demolition/paving) unknown without image. Whether it was paid, released unrecorded, or is superseded by the tax judgment is unknown. Flag: municipal lien that may or may not survive depending on whether City of Houston was a party to the tax suit; attorney review."
+    },
+    "liens_hoa_lispendens": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
+    },
+    "child_support_liens": {
+      "value": "None found (owner is an entity).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
+    },
+    "restrictions": {
+      "value": "Not located; South Union Sec 2 is an old subdivision, restrictions not searched.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "HCAD building sqft 0 (intake)",
+      "retrieved_at": "2026-10-13",
+      "note": "No improvements per HCAD."
+    },
+    "owner_deceased_heirs": {
+      "value": "Not applicable: owner is an entity (BMFX Capital LLC). Prior owner Jeu Thanh / Yatsing Jeu status not checked.",
+      "status": "inferred",
+      "source": "HCAD owner name (intake)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
+    },
+    "title_summary": {
+      "value": "Vesting deed RP-2023-205067 (06/05/2023, Jeu Thanh to BMFX Capital LLC) matches the legal. One open-looking City of Houston lien RP-2017-56221 (02/08/2017, debtor 'Yatsing Jeu', no release in index) is recorded on this lot and is the main item that may survive if the City was not joined; no mortgage, federal lien, HOA or L/P found. Flag for attorney review only; not legal advice.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
     }
   }
 }

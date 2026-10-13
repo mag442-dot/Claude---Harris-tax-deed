@@ -369,6 +369,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de TRICON POTOMAC STREET ENCLAVE (1.0000%); en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen de RP-2018-497852 y plat/restricciones de Tricon Potomac Street Enclave (confirmar que el vesting deed cubre la reserva/ROW y si es area comun)",
+      "why": "imagenes de cclerk no accesibles desde el indice; revision humana/abogado"
     }
   ],
   "valuation": {
@@ -499,6 +504,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'TRICON POTOMAC')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2018-497852, recorded 11/01/2018, W/D, grantors BERCON LTD and BERSAN INVESTMENTS LLC to 'TRICON POTOMAC STREET ENCLAVE SUBDIVISION'. Index Desc is WESTHAVEN ESTATES Sec 2 Lot 182-183 Block 7, which does NOT match the HCAD legal (ROW-PRIVATE STREET TRICON POTOMAC STREET ENCLAVE).",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*); instrument RP-2018-497852",
+      "retrieved_at": "2026-10-13",
+      "note": "Matched by grantee name only. HCAD deed ref '2018-RP-2021-497852' / owner-since 10/22/2018 is a different date and garbled number; instrument shown is probably the vesting deed (Tricon street/ROW parcel) but the legal description differs, so confirm on the image. Entity name looks like a subdivision-name entity (private street reserve), not an operating owner."
+    },
+    "mortgages": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*); https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx 'POTOMAC' desc search",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search returned only 1 instrument (the W/D); desc search 'POTOMAC' returned 100 rows (cap reached) all other Potomac-named subdivisions (Potomac Estates/Park/Landing, etc.), none for this ROW parcel. Not conclusive."
+    },
+    "liens_federal": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "No federal lien rows under TRICON POTOMAC name."
+    },
+    "liens_city_county": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "No LIEN/A/J rows under the entity name."
+    },
+    "liens_hoa_lispendens": {
+      "value": "None found in index. Parcel is a private street (ROW) in a 'Tricon Potomac Street Enclave' development; HOA/property-owners-association assessment or maintenance obligations and any plat/restriction may attach and are not visible in this search.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "Restrictions/dedicatory instruments for the Enclave not located by name search; legal-desc search did not return them."
+    },
+    "child_support_liens": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "Owner is an entity; child-support liens not applicable."
+    },
+    "restrictions": {
+      "value": "Not located. Likely a private street reserve with plat restrictions/easements; plat and restrictive covenants for Tricon Potomac Street Enclave not found in index search.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "Pull the plat and any RESTR/dedication instrument by plat name in the Clerk or HCAD map."
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "HCAD building sqft 0 / state class C2 (intake)",
+      "retrieved_at": "2026-10-13",
+      "note": "No improvements per HCAD."
+    },
+    "owner_deceased_heirs": {
+      "value": "Not applicable: owner is an entity (no heirship indicators).",
+      "status": "inferred",
+      "source": "HCAD owner name (intake)",
+      "retrieved_at": "2026-10-13",
+      "note": "Entity existence/good standing (SOS) not checked."
+    },
+    "title_summary": {
+      "value": "Strip/ROW parcel held by 'Tricon Potomac Street Enclave (Subdivision)'. Only one name-matched deed (RP-2018-497852) and its legal description does not match HCAD. No mortgages, liens, lis pendens found by name; legal-desc search not productive. Main risk is not liens but the nature of the parcel (private street/ROW reserve, likely encumbered by easements, plat dedication and association obligations; may have little or no standalone buildable value). Verify plat and whether the strip is common area before bidding. Flag for attorney review only; not legal advice.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "Nothing in the index here is conclusive; see note on legal mismatch."
     }
   }
 }

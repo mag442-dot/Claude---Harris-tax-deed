@@ -456,6 +456,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GILLUM LOIS')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "Not found in index. HCAD owner 'GILLUM LOIS E' since 01/02/1988 (no deed reference).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": "Desc search (Highland Acre Homes, Lot 3, Block 3) returned 182 rows (cap not reached); only the three City liens match Tract 4. Index only, no images; legal-desc search paginated up to 8 pages and may not be exhaustive; instruments recorded under variant subdivision spellings/tract descriptions could be missed."
+    },
+    "mortgages": {
+      "value": "None found on Lot 3 Blk 3 Tract 4. Unmatched Gillum instruments belong to other properties: D/T RP-2026-4447 (01/06/2026, Gillum Joseph Warren Sr and Lois Marie to MERS/Rocket Mortgage, Fidelity Addition Lot 15-18 Blk 65); REL RP-2026-30966 (01/28/2026, Fay Servicing/Greenwich Revolving Trust, no legal, unmatched); REL RP-2023-328446 (Fidelity Lot 32-34 Blk 65).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images) ; https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "Names 'Lois Marie Gillum' vs 'Lois E Gillum' differ; not attributable to this parcel."
+    },
+    "liens_federal": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
+    },
+    "liens_city_county": {
+      "value": "Three City of Houston LIEN rows against 'GILLUM LOIS E', HIGHLAND ACRE HOMES Lot 3 Block 3 Tract 4: RP-2017-327209 filed 07/21/2017, RP-2020-223292 filed 05/27/2020, RP-2023-160890 filed 05/04/2023. No matching release found (City releases RP-2025-35116 to 35121, 01/31/2025, are for Lot 37 Blk 3 and unrelated). Types/amounts unknown without images.",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx ; instruments RP-2017-327209, RP-2020-223292, RP-2023-160890",
+      "retrieved_at": "2026-10-13",
+      "note": "Debtor name and legal match HCAD. Repeated City liens suggest recurring nuisance/weed charges. City liens may survive if the City was not a party to the tax suit; attorney review. ORDER RP-2016-464141 (10/13/2016) naming Gillum Lois Marie with Aldine ISD/City/Harris County has no legal in index; not attributed."
+    },
+    "liens_hoa_lispendens": {
+      "value": "None found for this tract.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
+    },
+    "child_support_liens": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "Searched Gillum Lois E name rows only."
+    },
+    "restrictions": {
+      "value": "Not located; Highland Acre Homes restrictions not searched.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "HCAD building sqft 0 (intake)",
+      "retrieved_at": "2026-10-13",
+      "note": "No improvements per HCAD."
+    },
+    "owner_deceased_heirs": {
+      "value": "Unknown. Not shown deceased; owner since 1988 (HCAD). Lois E Gillum vs Lois Marie Gillum (with husband Joseph Warren Sr, active in 2026 filings) not confirmed to be the same person.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "Joseph W Gillum Sr / Lois Marie appear alive in 2026 (D/T 01/06/2026), if the same person."
+    },
+    "title_summary": {
+      "value": "Three unreleased City of Houston liens (RP-2017-327209, RP-2020-223292, RP-2023-160890) are recorded on Tr 4 of Lot 3 Blk 3; these may survive if the City was not joined in the tax suit. No vesting deed, mortgage, federal, HOA, L/P or child-support item found for the parcel; the 2026 Gillum D/T and releases relate to Fidelity Addition lots. Flag for attorney review only; not legal advice.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
     }
   },
   "legal": {
@@ -529,6 +599,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de GILLUM LOIS E (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagenes de liens City RP-2017-327209, RP-2020-223292, RP-2023-160890 (tipo/monto/estatus de pago) y confirmar Lois E = Lois Marie Gillum",
+      "why": "imagenes de cclerk no accesibles desde el indice"
     }
   ],
   "valuation": {

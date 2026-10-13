@@ -325,6 +325,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MATHIS DEBORAH')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "Not identified. HCAD owner 'MATHIS DEBORAH B ET AL' since 11/04/2007 (HCAD, no deed reference). No instrument in the Clerk index matches the parcel legal (Tract 30B Blk 40 Highland Heights Annex Sec 6).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images) and name search",
+      "retrieved_at": "2026-10-13",
+      "note": "Name hits for Deborah Mathis are all other properties (Montgomery Terrace Lot 308-309 Blk 12 W/D RP-2026-232940 dated 06/12/2026; Sidonie Ulrich/Cottage Grove RP-2018-351569/351570) and cannot be tied to this tract. Pre-2007 conveyance and co-owners ('ET AL') unknown. Index only, no images; legal-desc search paginated up to 8 pages and may not be exhaustive; instruments recorded under variant subdivision spellings/tract descriptions could be missed."
+    },
+    "mortgages": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": "No D/T for Highland Heights Annex Blk 40 tract 30B in 96 desc-search rows (one unrelated D/T RP-2016-132272 is Sec 3C Blk 40-42 Tract 40J, Thomas Carolyn S). Index only, no images; legal-desc search paginated up to 8 pages and may not be exhaustive; instruments recorded under variant subdivision spellings/tract descriptions could be missed."
+    },
+    "liens_federal": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "No federal lien rows under MATHIS DEBORAH name; common surname, identity not confirmed."
+    },
+    "liens_city_county": {
+      "value": "None attributable to this parcel. Unattributed: City of Houston ORDER RP-2023-470740 (12/14/2023) and NOTICE RP-2023-436239 (11/15/2023) list Mathis Deborah among many Breaux estate/heir grantees; no legal description in the index row.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*); RP-2023-470740, RP-2023-436239",
+      "retrieved_at": "2026-10-13",
+      "note": "These look like City of Houston nuisance/dangerous-building proceedings against a Breaux heirship property; unknown whether it is this parcel. Check the image for the property address/legal."
+    },
+    "liens_hoa_lispendens": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": "No L/P or HOA lien rows under the legal description."
+    },
+    "child_support_liens": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "No AG/child-support LIEN rows under Mathis Deborah in the name search."
+    },
+    "restrictions": {
+      "value": "Not located; Highland Heights Annex Sec 6 older subdivision, restrictions not searched.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "HCAD building sqft 0 (intake)",
+      "retrieved_at": "2026-10-13",
+      "note": "No improvements per HCAD."
+    },
+    "owner_deceased_heirs": {
+      "value": "Possible. Owner is 'MATHIS DEBORAH B ET AL' (unnamed co-owners). Related-name filings suggest estate activity: RP-2026-190267 (05/15/2026) AMEND from MATHIS LEO MANN EST to Mathis Deborah and Mathis Jason; RP-2026-232939 (06/12/2026) AFFT by Bristo Tasha/Guice Sidney/Mathis Deborah re MATHIS LEO MANN EST. No description ties these to this tract. Deborah B Mathis also appears as grantor in Breaux-estate affidavits (RP-2023-64810, RP-2023-177803 as 'Mathis Deborah Manette').",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*); RP-2026-190267, RP-2026-232939, RP-2023-64810",
+      "retrieved_at": "2026-10-13",
+      "note": "Identity of Deborah B. vs. Deborah Manette / Deborah Gay (an estate, RP-2022-519261) not confirmed. Co-owner(s) and any decedent heirs are unknown; risk of unserved heirs/co-owners in the tax suit is for the legal agent/attorney."
+    },
+    "title_summary": {
+      "value": "Record title for Tract 30B Blk 40 could not be reconstructed from the index: no vesting deed, mortgage or lien row matches the legal description; name hits relate to other parcels. Co-owners ('ET AL') unknown and heirship/estate filings under the Mathis/Breaux names suggest possible decedent owners. Nothing found that would survive a sale, but absence is unconfirmed (index only, no images, tract-style legal poorly indexed). Flag for attorney review only; not legal advice.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": "Low-confidence negative."
     }
   },
   "legal": {
@@ -398,6 +468,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de MATHIS DEBORAH B ET AL (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Pedir title report / revisar imagenes: cadena de titulo de Tr 30B Blk 40 Highland Heights Annex Sec 6 (vesting 2007, co-owners 'ET AL', posible heirship Mathis/Breaux)",
+      "why": "el indice no devuelve instrumentos con esta legal (tract); imagenes no accesibles"
     }
   ],
   "valuation": {

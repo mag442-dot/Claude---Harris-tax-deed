@@ -343,6 +343,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'PERKINS CARLTON')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "Not found in index. HCAD owner 'PERKINS CARLTON E' since 10/15/2020, with HCAD deed refs 2010-20100033734, 2010-20100033735 (01/27/2010) and 2008-20080555663 (11/05/2008) which were not located in the index search. Possible acquisition via probate: PROB RP-2024-198205 (05/31/2024), grantor SPATA MICHAEL EST, grantees PERKINS CARLTON E and ROGERS DAVID (Comment: SEE INSTRUMENT, no legal in index).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*); RP-2024-198205 ; https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Desc searches 'INDUSTRIAL CENTER' + Block 4 returned 7 rows, none for Lots 75-76 (only Lot 78 and Lots 64-68). Chain for 75-76 not established. Index only, no images; legal-desc search paginated up to 8 pages and may not be exhaustive; instruments recorded under variant subdivision spellings/tract descriptions could be missed."
+    },
+    "mortgages": {
+      "value": "None found for Lots 75-76 Blk 4.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": "Only unrelated D/T RP-2023-317150 (Lot 64-68 Blk 4, Armstrong) in this block."
+    },
+    "liens_federal": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "Name 'Perkins Carlton E' is common-ish; identity not confirmed for any hit."
+    },
+    "liens_city_county": {
+      "value": "None attributable. Two 2016 tax-sale DEED rows (RP-2016-74410 02/23/2016; RP-2016-240805 06/06/2016, City of Houston/HC/HISD et al., Perkins Carlton) concern MELBOURNE PLACE Sec 3 Lot 387 Blk 28, a different property.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*); RP-2016-74410, RP-2016-240805",
+      "retrieved_at": "2026-10-13",
+      "note": "Shown only to document that they were reviewed and rejected by legal description."
+    },
+    "liens_hoa_lispendens": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
+    },
+    "child_support_liens": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "No AG/child-support rows under Perkins Carlton."
+    },
+    "restrictions": {
+      "value": "Not located; Industrial Center of Porter and Baker (industrial/commercial subdivision) restrictions not searched.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "HCAD building sqft 0 (intake)",
+      "retrieved_at": "2026-10-13",
+      "note": "No improvements per HCAD."
+    },
+    "owner_deceased_heirs": {
+      "value": "Possible estate link: PROB RP-2024-198205 names SPATA MICHAEL EST as grantor and Perkins Carlton E / Rogers David as grantees; if this relates to Lots 75-76, record title may have passed from a decedent to Perkins and Rogers (a co-owner 'David Rogers' would not appear in HCAD owner). Not confirmed.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*); RP-2024-198205",
+      "retrieved_at": "2026-10-13",
+      "note": "Perkins Carlton E also conveyed adjacent Lot 78 Blk 4 in May 2024 (W/D RP-2024-190575 05/28/2024 and RP-2024-198206 05/31/2024 to Garcia-Alvarez Luis A), consistent with the same probate/ownership group, but still unconfirmed for 75-76."
+    },
+    "title_summary": {
+      "value": "Record title for Lots 75-76 Blk 4 not established: HCAD-cited deeds (2008, 2010) were not found, and a 2024 probate instrument (Spata estate to Perkins/Rogers) plus two 2024 sales of neighbouring Lot 78 suggest an estate-derived ownership group with a possible unnamed co-owner (David Rogers). No mortgage or lien rows found for the legal. Possible co-owner/heir not named in the tax suit is the principal title risk for attorney review. Flag for attorney review only; not legal advice.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
     }
   },
   "legal": {
@@ -416,6 +486,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de PERKINS CARLTON E (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen de PROB RP-2024-198205 (Spata estate) y deeds HCAD 2010-20100033734/35 y 2008-20080555663; confirmar si Rogers David es co-dueno de Lts 75-76 Blk 4",
+      "why": "imagenes no accesibles; la busqueda por legal no devolvio instrumentos de los lotes 75-76"
     }
   ],
   "valuation": {

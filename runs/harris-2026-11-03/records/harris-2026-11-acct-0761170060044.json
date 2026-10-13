@@ -395,6 +395,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de FORD MARY ROSE (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Confirmar identidad (Mary Rose Ford) en imagenes de AG LIEN RP-2021-311067 y A/J RP-2022-13939, RP-2018-341973; y leer tipo/monto de liens City RP-2023-17362, RP-2024-257306",
+      "why": "imagenes no accesibles desde el indice; nombre comun sin segundo nombre"
     }
   ],
   "valuation": {
@@ -592,6 +597,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FORD MARY')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "Not found in index. HCAD owner 'FORD MARY ROSE' since 01/02/1988 (no deed reference); pre-1990s conveyance is not expected to be indexed in this search.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": "Desc search (Parkhurst Estates, Block 6) returned 112 rows; only the two City of Houston lien rows match Tract 44. Index only, no images; legal-desc search paginated up to 8 pages and may not be exhaustive; instruments recorded under variant subdivision spellings/tract descriptions could be missed."
+    },
+    "mortgages": {
+      "value": "None found on Tract 44 Blk 6. (Many D/T rows under 'Ford Mary ...' belong to other people/properties, e.g. Cypress Creek Lakes, Miramar Lake, Memorial Northwest.)",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images) ; https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "Common name; no mortgage matched the legal."
+    },
+    "liens_federal": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "No IRS/federal rows; common name."
+    },
+    "liens_city_county": {
+      "value": "Two City of Houston LIEN rows against 'FORD MARY ROSE', PARKHURST ESTATES Block 6 Tract 44: RP-2023-17362 filed 01/18/2023 and RP-2024-257306 filed 07/17/2024. No release found in index. Lien type/amount unknown without image.",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx ; instruments RP-2023-17362, RP-2024-257306",
+      "retrieved_at": "2026-10-13",
+      "note": "Debtor name and legal match HCAD. City of Houston liens (likely nuisance/weed/demolition) may or may not survive depending on whether the City was a party to the tax suit; attorney review. Unattributed 'FORD MARY' abstracts of judgment, not tied to this parcel: RP-2022-13939 (01/07/2022, Old Union Financial LLC), RP-2018-341973 (07/30/2018, First Sun Inc, 'Ford Mary Terrell'), RP-2016-525141 (11/22/2016, SCIL Texas LLC/Speedy Cash; REL RP-2024-421129 11/12/2024 appears to release it, parties match by name only)."
+    },
+    "liens_hoa_lispendens": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
+    },
+    "child_support_liens": {
+      "value": "Candidate only: LIEN RP-2021-311067 (06/04/2021), grantor ATTORNEY GENERAL OF TEXAS and FORD MARY, grantee CHAPPELL ORLANDO MAURICE (Texas AG child-support lien pattern). Debtor 'Ford Mary' has no middle name or legal description; identity with Ford Mary Rose NOT confirmed. No release found.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*); RP-2021-311067",
+      "retrieved_at": "2026-10-13",
+      "note": "Same-name risk. Child-support liens attach to real property of the obligor; verify via image (obligor full name/DOB/address) before attributing."
+    },
+    "restrictions": {
+      "value": "Not located; Parkhurst Estates restrictions not searched.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "HCAD building sqft 0, class C2 (intake); site address 7845 Linda Vista Rd per HCAD",
+      "retrieved_at": "2026-10-13",
+      "note": "No improvements per HCAD; verify no manufactured home on site if site visit/imagery shows one."
+    },
+    "owner_deceased_heirs": {
+      "value": "Unknown. Owner of record since 1988 (HCAD) with no probate/heirship row tied to this tract; 'Ford Mary Ann/Natalie/Katherine Est' rows relate to other people.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search, see rp_hits_*)",
+      "retrieved_at": "2026-10-13",
+      "note": "Age/death not determinable from index. Check obituary/probate (Harris County Clerk probate index) for Mary Rose Ford."
+    },
+    "title_summary": {
+      "value": "Two unreleased City of Houston liens on Tr 44 Blk 6 (RP-2023-17362 01/18/2023; RP-2024-257306 07/17/2024) are the only confirmed instruments; these are the main items that may survive. A possible Texas AG child-support lien (RP-2021-311067) and several abstracts of judgment against 'Ford Mary' are name-only candidates that could not be attributed to Mary Rose Ford. No vesting deed or mortgage located (owner since 1988). Flag for attorney review only; not legal advice.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search: Subdivision/Lot/Block, 2026-10-13; index only, no images)",
+      "retrieved_at": "2026-10-13",
+      "note": ""
     }
   }
 }
