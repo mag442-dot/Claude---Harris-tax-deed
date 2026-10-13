@@ -335,6 +335,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de MANUEL JACQULINE MORRIS (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Read images RP-2017-149014 (NOTICE) and RP-2022-453120 / RP-2023-400711 (FGMS contracts) and confirm FGMS was a party to the tax suit",
+      "why": "Index shows only type/parties; images require Clerk image purchase/login"
     }
   ],
   "valuation": {
@@ -465,6 +470,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MANUEL JACQULINE')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2017-149013 | 04/07/2017 | W/D | Grantor: NORTHGATE FOREST MANAGEMENT LLC / NORTHGATE FOREST PHASE I LTD -> Grantee: MANUEL JACQUELINE MORRIS | Lot 32-33 Blk 6",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx ; RP-2017-149013",
+      "retrieved_at": "2026-10-13",
+      "note": "Read from index row (legal-description search). Matches HCAD deed 2017-RP-2017-149013 (04/05/2017). Grantee spelling 'MANUEL JACQUELINE MORRIS' vs HCAD 'MANUEL JACQULINE MORRIS' (same person, spelling variant). Taxed owner matches record title. Index only, no image."
+    },
+    "mortgages": {
+      "value": "No deed of trust found on the parcel (legal + name search)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No D/T or REL row among 9 legal-description hits. Index only; older/other-spelling instruments possible. (Clerk RP search by legal description, 2026-10-13)"
+    },
+    "liens_federal": {
+      "value": "None found in index",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No IRS/DOJ row under the parcel legal description or owner name. Name-only for federal liens (they carry no legal description) - identity risk."
+    },
+    "liens_city_county": {
+      "value": "TAX LIEN TRANSFERS to FGMS HOLDINGS LLC (property-tax lender): RP-2022-453120 CONT 09/07/2022; RP-2022-467930 ASSGN 09/19/2022 (taxing units + Manuel Jacqueline Morris -> FGMS); RP-2022-474948 ASSGN 09/22/2022; RP-2022-516493 ASSGN 10/20/2022 (Spring ISD); RP-2023-400711 CONT 10/18/2023; RP-2023-465741 ASSGN 12/11/2023 (Spring ISD); RP-2023-465743 ASSGN 12/11/2023 (county units)",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx ; RP-2022-453120, RP-2023-465743",
+      "retrieved_at": "2026-10-13",
+      "note": "Rows read from index with Desc NORTHGATE FOREST Lot 32-33 Blk 6 (legal match). Meaning (transfer of tax liens + loan contract) is interpretive: a third-party tax lender (FGMS) likely holds a lien for paid-off taxes. No release of those liens seen. May be extinguished/paid through the sale or may need payoff; verify whether FGMS was a party to the tax suit. Index row only, no image; not a legal opinion; attorney review."
+    },
+    "liens_hoa_lispendens": {
+      "value": "RP-2017-149014 | 04/07/2017 | NOTICE | Northgate Forest Management LLC / Northgate Forest Phase I Ltd / Manuel Jacqueline Morris",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Recorded same day as the vesting deed; content unknown (could be notice of restrictions/covenants, HOA assessments or sale conditions). Image needed. No L/P or HOA lien row seen."
+    },
+    "child_support_liens": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No child-support lien row found; not searchable by legal description"
+    },
+    "restrictions": {
+      "value": "Possible: RP-2017-149014 NOTICE (04/07/2017) with developer entities; plat/restrictions for NORTHGATE FOREST not pulled",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Not read; image needed."
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Site '0 CEDAR WOODS PL' with no structure per intake; no manufactured home check performed."
+    },
+    "owner_deceased_heirs": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No heirship affidavit or death indicator in index rows; HCAD owner is an individual (1%)"
+    },
+    "title_summary": {
+      "value": "Vesting deed 2017 to Manuel Jacqueline Morris matches HCAD. Main item: 2022-2023 tax-lien transfers to FGMS HOLDINGS LLC (ASSGN/CONT x7), no release seen. No mortgage found. Possible surviving item: FGMS lender lien if not joined in tax suit; 2017-149014 NOTICE unread.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Interpretive summary for attorney review; not legal advice. Index row only, no image; not a legal opinion; attorney review."
     }
   }
 }

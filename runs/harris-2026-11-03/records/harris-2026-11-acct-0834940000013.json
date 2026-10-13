@@ -268,6 +268,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de STRICKLAND LLC (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Confirm Luxehauss LLC was a defendant/served in the tax suit; pull image RP-2026-337349 and Chretien/Alolabi L/P releases",
+      "why": "Needs district clerk login and Clerk images"
     }
   ],
   "valuation": {
@@ -473,6 +478,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'STRICKLAND LLC')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2026-337349 | 08/19/2026 | W/D | Grantor: STRICKLAND LLC -> Grantee: LUXEHAUSS LLC | Lot 13 Blk 5 Larchmont. Prior: RP-2021-46893 | 01/28/2021 | W/D | CHRETIEN THOMAS J -> STRICKLAND LLC",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx ; RP-2026-337349, RP-2021-46893",
+      "retrieved_at": "2026-10-13",
+      "note": "RECORD TITLE DIFFERS FROM TAXED OWNER: HCAD owner Strickland LLC (since 01/27/2021) but index shows Strickland conveyed to LUXEHAUSS LLC on 08/19/2026 (after the tax suit may have been filed). Confirm whether Luxehauss was joined/served and whether it will redeem or has a claim. Rows read from index (legal match). Image not read. Related: RP-2022-241199 W/D Giorgetti->Strickland is a different property (condo) by name only."
+    },
+    "mortgages": {
+      "value": "No deed of trust by Strickland LLC or Luxehauss LLC found for the lot. Prior-owner release: RP-2021-46892 REL 01/28/2021 (Chretien -> Meyer Michel), RP-2020-40827 REL 01/29/2020 (Meyer/Schneider -> Chretien), RP-2019-497991 REL 11/08/2019 (Schneider -> Chretien)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Releases of earlier private notes/liens, paired by date/parties only; original D/Ts not shown in results (unmatched). A new 2026 D/T by Luxehauss would index under that name - not searched. (Clerk RP search by legal description, 2026-10-13)"
+    },
+    "liens_federal": {
+      "value": "None found",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No IRS/DOJ row under legal description. Entity-name federal search not run."
+    },
+    "liens_city_county": {
+      "value": "None found under legal description",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No CITY/COUNTY LIEN row for Lot 13 Blk 5. (Clerk RP search by legal description, 2026-10-13)"
+    },
+    "liens_hoa_lispendens": {
+      "value": "L/P RP-2019-396799 (09/06/2019) and RP-2019-497992 (11/08/2019): Chretien Thomas J -> Alolabi Zachery R; L/P RP-2020-604118 (12/09/2020): Alolabi Zachery R -> Chretien Thomas J; REL RP-2020-609681 (12/11/2020): Chretien / Dow Sanford L -> Alolabi Zackery R",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Series of lis pendens between Chretien and Alolabi (apparent litigation over the lot) all before the 2021 sale to Strickland. A REL on 12/11/2020 (name spelled Zackery) probably releases/settles them but cannot be matched to specific L/P without images (unmatched). Possible adverse claim to attorney. Index row only, no image; not a legal opinion; attorney review."
+    },
+    "child_support_liens": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Not searchable by legal description; nothing seen"
+    },
+    "restrictions": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Plat restrictions for Larchmont Sec 1 not searched"
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No manufactured home indicated."
+    },
+    "owner_deceased_heirs": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Owner is an LLC; no heirship rows"
+    },
+    "title_summary": {
+      "value": "Record owner is now LUXEHAUSS LLC (W/D RP-2026-337349, 08/19/2026), not the taxed owner Strickland LLC. No mortgage or lien found against the lot; 2019-2020 Chretien/Alolabi lis pendens chain appears settled by REL RP-2020-609681 (unmatched, inferred). Check service on Luxehauss and redemption exposure.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Interpretive summary for attorney review; not legal advice."
     }
   }
 }

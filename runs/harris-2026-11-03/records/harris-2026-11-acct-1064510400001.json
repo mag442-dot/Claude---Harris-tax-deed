@@ -451,6 +451,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de ALERITAS CAPITAL CORP (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Pull 2008-0409757 and run film-code/pre-2009 search for Pine Village North Sec 4A Blk 40 Units B-D",
+      "why": "Pre-2009 instruments/images not available in index search"
     }
   ],
   "valuation": {
@@ -577,6 +582,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ALERITAS CAPITAL')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "HCAD: 2008-0409757 | 08/05/2008 | grantee ALERITAS CAPITAL CORP (grantor not shown)",
+      "status": "inferred",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13",
+      "note": "Not found in Clerk RP index: legal search (Pine Village North, Blk 40) returned only RP-2020-145665 (Reserve D, different unit, to Rodriguez Augustine); name search 'ALERITAS CAPITAL' returned nothing. 2008 instrument likely predates online index. HCAD deed ref only."
+    },
+    "mortgages": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No D/T found; pre-2009 instruments not indexed online by name/legal"
+    },
+    "liens_federal": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "None found by name search"
+    },
+    "liens_city_county": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "None found"
+    },
+    "liens_hoa_lispendens": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "None found. Pine Village North townhome sec 4A may have an HOA/assessment lien; not detectable"
+    },
+    "child_support_liens": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Not applicable to entity; nothing seen"
+    },
+    "restrictions": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Not searched; subdivision is townhome (T/H) so recorded restrictions/party-wall covenants likely"
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Legal is Units B C & D (townhome parcels) at 0 Twisted Pine Ct; confirm whether it is truly vacant."
+    },
+    "owner_deceased_heirs": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Owner is a corporation; entity may be dissolved - check SOS"
+    },
+    "title_summary": {
+      "value": "Clerk index returned essentially nothing for owner or legal (1 unrelated row for Reserve D). Title status effectively UNKNOWN; vesting deed from 2008 only known via HCAD. Needs a full title/film-code search (humans).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Search insufficient; do not infer clean title."
     }
   }
 }

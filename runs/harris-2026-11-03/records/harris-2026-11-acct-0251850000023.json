@@ -415,6 +415,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JIMENEZ VICTOR')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "HCAD: 2008-0149556 | 03/14/2008 | owner Jimenez Victor M & Ana (not found in index)",
+      "status": "inferred",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13",
+      "note": "Legal searches (Magnolia Park Lot 23, 24, 23-24, Blk 104) returned 0 rows and name-search rows do not show Lot 23-24 Blk 104. 2008 deed not retrievable online by these terms. Adjacent lots 19-20 (RP-2022-359374/359375) and 21-22 (RP-2025-296135 CONT, RP-2025-346935/370177 ASSGN to FNA DZ LLC) show Victor Manuel Jimenez as party - those are DIFFERENT parcels but suggest the owner has tax-lender activity (FNA DZ LLC) on neighbouring lots."
+    },
+    "mortgages": {
+      "value": "None attributable to Lots 23-24 Blk 104; 13 D/T rows in name search all carry other legal descriptions",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Same-name risk: 'Jimenez Victor M' is extremely common. D/T RP-2017-11635 (Central Park, Jimenez Ana L & Victor M) shows the couple's names but is another lot. Name search was ~36+44 rows so not at the 200 cap, but identity not confirmed."
+    },
+    "liens_federal": {
+      "value": "None found",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No IRS/DOJ row in name results."
+    },
+    "liens_city_county": {
+      "value": "Name-only, unconfirmed: RP-2020-13879 | 01/10/2020 | A/J | East End District / Harris County v. JIMENEZ VICTOR M; RP-2020-495212 | 10/15/2020 | A/J | Target National Bank / TD Bank USA v. JIMENEZ VICTOR M; RP-2025-346935 ASSGN 09/02/2025 (taxing units, Jimenez Victor M -> FNA DZ LLC) is for Lot 21-22 not this lot",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Abstracts of judgment attach to all of a debtor's county real property if the debtor is the owner; identity (middle name, address, legal) NOT confirmed - rows have no legal description. Possible survivors if same person. No release seen. 2020 judgments are about 6 years old; do not conclude expired. Image needed."
+    },
+    "liens_hoa_lispendens": {
+      "value": "None attributable to this lot",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "L/P RP-2021-189660 is Eagle Ranch West (Jimenez Martin/Victoria) - unrelated."
+    },
+    "child_support_liens": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "None seen; not searched by legal"
+    },
+    "restrictions": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Not searched"
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "0 Avenue L; no home indicated."
+    },
+    "owner_deceased_heirs": {
+      "value": "Possible heirship context: AFFT RP-2021-415183/415184/439396 (Jimenez Ana Luis & Victor Manuel, Magnolia Park Lot 27-28 Blk 120) name estates of Jimenez family members - another parcel",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No evidence the current owners are deceased. Same-name risk."
+    },
+    "title_summary": {
+      "value": "Record title for Lots 23-24 Blk 104 could not be located in the index; two abstracts of judgment against 'Jimenez Victor M' (2020) are unconfirmed-identity possible liens that could survive; owner has tax-lien-transfer activity with FNA DZ LLC on adjacent lots 21-22 (check whether a similar transfer exists on this parcel).",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Interpretive; not legal advice."
     }
   },
   "legal": {
@@ -488,6 +558,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de JIMENEZ VICTOR M & ANA (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Confirm vesting deed 2008-0149556 and identity of A/J debtor (RP-2020-13879, RP-2020-495212) vs. this owner",
+      "why": "Needs images and a full-name/address match; common-name search"
     }
   ],
   "valuation": {

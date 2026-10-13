@@ -549,6 +549,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BMFX CAPITAL')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2023-205066 | 06/05/2023 | W/D | Grantor: JEU THANH -> Grantee: BMFX CAPITAL LLC | South Union Sec 2 Lot 7 Blk 91",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Read from index row (legal match); matches HCAD deed 2023-RP-2023-205066. Sibling RP-2023-205067 conveys Lot 8 (not this parcel). Image not read."
+    },
+    "mortgages": {
+      "value": "No D/T on Lot 7 found (legal + BMFX name search)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Index only; D/Ts under a different spelling or pre-2016 not shown. (Clerk RP search by legal description, 2026-10-13)"
+    },
+    "liens_federal": {
+      "value": "None found",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No federal lien row by legal; name search 'BMFX CAPITAL' returned only the two deeds."
+    },
+    "liens_city_county": {
+      "value": "RP-2016-501537 | 11/04/2016 | LIEN | Grantor: CITY OF HOUSTON -> Debtor as written: JEU YATSING | South Union Sec 2 Lot 7 Blk 91 - no release seen",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Row read from index with legal match. Debtor is 'JEU YATSING', grantor in the vesting deed is 'JEU THANH' - possibly a prior owner or same family; unmatched. City liens (e.g., nuisance/weeds/demolition) are typically statutory liens; may or may not be cut off by the tax sale depending on whether the City was a party - attorney review. Age ~10 years, no release seen; do not conclude expired."
+    },
+    "liens_hoa_lispendens": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "None found"
+    },
+    "child_support_liens": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Not searched/none seen"
+    },
+    "restrictions": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Not searched"
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "0 Good Hope St; no home indicated."
+    },
+    "owner_deceased_heirs": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Entity owner; no heirship rows"
+    },
+    "title_summary": {
+      "value": "Vesting deed 2023 to BMFX Capital LLC matches HCAD. One open-looking City of Houston lien (RP-2016-501537, debtor Jeu Yatsing, no release seen) may survive depending on notice to the City in the tax suit. No mortgage found.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Interpretive; not legal advice."
     }
   }
 }

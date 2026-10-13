@@ -423,6 +423,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'TORMAN HAROLD')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "HCAD owner since 09/08/2002 (no deed reference in HCAD); no vesting deed found in index",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Searches by legal (East Houston Lts 10-11 Blk 16) and by TORMAN as grantee/grantor returned no deed for this lot. Pre-2009 instruments not found online. (Clerk RP search by legal description, 2026-10-13)"
+    },
+    "mortgages": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "None found"
+    },
+    "liens_federal": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "None found by name (Torman/Cockream) search"
+    },
+    "liens_city_county": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "None found"
+    },
+    "liens_hoa_lispendens": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No L/P or HOA lien found"
+    },
+    "child_support_liens": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "None found; owner deceased"
+    },
+    "restrictions": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Not searched"
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "0 Queensland St; no home indicated."
+    },
+    "owner_deceased_heirs": {
+      "value": "HCAD lists 'TORMAN HAROLD G ESTATE OF' (1%) and SANDRA COCKREAM (0% - likely heir/mailing party). Owner deceased - INFERRED from 'Estate of'. No heirship affidavit or probate found.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Possible match by legal only: RP-2023-25490 | 01/25/2023 | AFFT | Grantor: PERSERVA REAL ESTATE / SALTZMAN DANIEL, Grantee: STEVENS PATRICIA A | Desc: EAST HOUSTON Lot 10-11 Blk 16 - unread affidavit that cites this lot/block; could be an ownership/heirship/adverse-possession affidavit or a different East Houston section. Harris probate court search not done. Tax-sale service on unknown heirs is a legal-agent issue."
+    },
+    "title_summary": {
+      "value": "Owner is an estate; record title not located in the index. One unexplained 2023 AFFT (RP-2023-25490) cites Lots 10-11 Blk 16 East Houston with third parties (Perserva Real Estate, Saltzman, Stevens) - possible competing claim. No mortgage/lien seen. Heirs unknown, so redemption/quiet-title risk is elevated.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Interpretive; not legal advice. Index only."
     }
   },
   "legal": {
@@ -496,6 +566,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de TORMAN HAROLD G ESTATE OF (1.0000%); SAN en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Read image RP-2023-25490 (AFFT) and check Harris County probate for Harold G. Torman",
+      "why": "Image behind Clerk purchase; probate search not available via index"
     }
   ],
   "valuation": {

@@ -383,6 +383,16 @@
       "agent": "legal",
       "item": "Buscar bancarrota de KAY ANTHONY C (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Confirm IRS T/L RP-2021-150996 and RP-2021-549653 debtor identity (address/SSN-last4 via image) and check for refiling/release",
+      "why": "Lien images require Clerk image access; same-name risk"
+    },
+    {
+      "agent": "title",
+      "item": "Pull City of Houston lien images RP-2016-190686, RP-2018-130379, RP-2020-223326 for amounts",
+      "why": "Images not available in index"
     }
   ],
   "valuation": {
@@ -537,6 +547,76 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'KAY ANTHONY')",
       "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "HCAD: 2008-0449134 | 03/04/2008 (also 2007-0659775 | 09/04/2007) -> KAY ANTHONY C; deed itself not in index results",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Pre-2009 deed not returned by legal search (Pelham Place Sec 3 Lots 232-233 Blk 8); first indexed rows on the lot are City liens from 2016. Record title matches taxed owner by grantee on all later rows (Kay Anthony C)."
+    },
+    "mortgages": {
+      "value": "RP-2025-322978 | 08/15/2025 | MEMO | CURATIVE ASSETS LLC -> KAY ANTHONY C and RP-2026-289643 | 07/17/2026 | REL | CURATIVE ASSETS LLC -> KAY ANTHONY C",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Rows read from index with legal match. A MEMO (memorandum of agreement/lien, likely a contract or lender) followed by a REL ~11 months later; pairing by date/parties is inferred (REL seen only in index, no image) so release status is inferred. No D/T row found for the 2007/2008 purchase (unmatched)."
+    },
+    "liens_federal": {
+      "value": "Possible IRS notices of federal tax lien: RP-2021-150996 | 03/23/2021 | T/L | KAY ANTHONY C -> INTERNAL REVENUE SERVICE; RP-2021-549653 | 09/24/2021 | T/L | KAY ANTHONY C -> INTERNAL REVENUE SERVICE. Earlier IRS releases: RP-2017-212583 (05/16/2017, Kay Anthony C + Anglin Raechelle), RP-2018-184253 (04/30/2018), RP-2018-201114 (05/08/2018)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "T/L rows by NAME only - no legal description, no middle-name/address confirmation; no release seen for the 2021 filings. If the debtor is this owner, a recorded federal lien may survive a local tax sale (IRS statutory redemption right and notice requirements, 26 USC 7425) - attorney review. Civil federal liens may lapse ~10 years from assessment unless refiled; at ~5 years old do not conclude expired. 2017-2018 releases appear to be for earlier liens (unmatched). Playbook rule: confirm debtor identity first. Image needed."
+    },
+    "liens_city_county": {
+      "value": "CITY OF HOUSTON liens on Pelham Place Sec 3 Lot 232-233 Blk 8: RP-2016-190686 (05/05/2016); RP-2018-130379 (03/28/2018); RP-2020-223326 (05/27/2020); debtor as written KAY ANTHONY C; no release seen for any",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Rows read with legal match. Three separate City liens (nuisance/code type likely), 6 to 10 years old, no releases seen in index; may or may not be cut off by the tax judgment depending on joinder of the City - attorney review. Also in name search: judgment abstracts RP-2017-309761 (07/11/2017, Myers Plumbing Services Inc v Kay Anthony C, Leoland McGuire & Associates, Pruitt's Mortuary) with no release; RP-2019-519213 (11/22/2019, Heritage Memorial Funding LLC v same) with apparent release RP-2022-122336 (03/08/2022) - both name-only, identity unconfirmed (co-defendants are a funeral business), so possible judgment liens."
+    },
+    "liens_hoa_lispendens": {
+      "value": "None on this lot. L/P RP-2019-270214 (Independence Heights Blk 33, Sadberry Lonnie v Kay) is a different property",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Desc mismatch so not attributed to this lot."
+    },
+    "child_support_liens": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "None seen; not searchable by legal description"
+    },
+    "restrictions": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Not searched"
+    },
+    "tdhca_status": {
+      "value": "n/a vacant",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Vacant lot per sale listing; no home indicated."
+    },
+    "owner_deceased_heirs": {
+      "value": "unknown",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "No heirship/death rows; owner an individual"
+    },
+    "title_summary": {
+      "value": "Most encumbered of batch: 3 unreleased City of Houston liens (2016, 2018, 2020) on the lot; two 2021 IRS T/L rows against 'Kay Anthony C' with no release (identity unconfirmed); possible unreleased judgment A/J 2017 (Myers Plumbing). Curative Assets MEMO/REL 2025-26 apparently released. Flag IRS and City liens as possible survivors.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-10-13",
+      "note": "Interpretive; not legal advice. Index only."
     }
   }
 }
