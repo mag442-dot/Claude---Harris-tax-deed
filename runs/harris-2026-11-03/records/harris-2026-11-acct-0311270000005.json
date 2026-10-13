@@ -1,0 +1,501 @@
+{
+  "property_id": "harris-2026-11-acct-0311270000005",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "4706 CHAPMAN ST HOUSTON 77009-3412",
+  "account_no": "0311270000005",
+  "cause_no": "202596751",
+  "intake": {
+    "opening_bid": {
+      "value": 16020.11,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 1; tipo SALE; sale# 22; sentencia 03/06/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "4706 CHAPMAN ST, HOUSTON, 77009",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "FLORES BETTY JEAN (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "11919 AGGIE LN, HOUSTON, TX, 77076-1107",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "5000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1148",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "1088",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1955",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "138000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "67412",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "205740",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "219372",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 5000.0000xSF $138000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 1208sf built 1955",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "07/01/2023 2023-RP-2023-248061",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 5 BLK 127 RYON",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "07/01/2023",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.354107,
+        "lat": 29.802721
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0311270000005)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 4985,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0311270000005)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~50 x 100 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0311270000005)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2024,
+          "tax": 4800.68,
+          "penalties_interest": 1584.22,
+          "collection_penalty": 1184.12,
+          "total": 7569.02
+        },
+        {
+          "year": 2025,
+          "tax": 4348.33,
+          "penalties_interest": 913.14,
+          "collection_penalty": 974.44,
+          "total": 6235.91
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0311270000005",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 13804.93,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0311270000005",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2024,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0311270000005",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0311270000005",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 4348.33,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0311270000005",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 4348.33,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0311270000005",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "FLORES BETTY JEAN 11919 AGGIE LN HOUSTON TX 77076 4706 CHAPMAN ST LT 5 BLK 127 RYON",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0311270000005",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 219372.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0311270000005",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-369769 | 09/11/2026 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: QUICKEN LOANS LLC Grantor: ROCKET MORTGAGE LLC Grantee: FLORES BETTY A Grantee: FLORES CLARENCE B | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-248061 | 07/03/2023 | W/D | Grantor: DIAZ IRENE Grantee: FLORES BETTY JEAN | Desc: RYON ADDITION Lot: 5 Block: 127",
+        "RP-2022-163319 | 03/29/2022 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: QUICKEN LOANS INC Grantee: FLORES BETTY A Grantee: FLORES CLARENCE B | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-128849 | 03/28/2017 | REL | Grantor: COUNTRYWIDE HOME LOANS INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: FLORES BETTY A Grantee: FLORES CLARENCE B | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FLORES BETTY')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-363722 | 09/04/2026 | W/D | Grantor: FLORES BETTY A Grantor: FLORES CLARENCE B Grantee: BURNS ALAN MICHAEL Grantee: MERAZ TAYLOR | Desc: CLAYTON'S CORNER Sec: 2 Lot: 20 Block: 4",
+        "RP-2022-565019 | 11/28/2022 | AFFT | Grantor: FLORES BETTY Grantor: VILLAGRANA ARTURO JR Grantor: VILLAGRANA MABEL VUONG Grantee: EMPORIUM TPO LLC | Desc: FAIRFAX Sec: 2 Lot: 24 Block: 6 Related Docs",
+        "RP-2022-148202 | 03/21/2022 | AFFT | Grantor: FLORES BETTY A Grantor: FLORES CLARENCE B Grantee: SEE INSTRUMENT | Desc: CLAYTONS CORNER Sec: 2 Lot: 20 Block: 4",
+        "RP-2022-148201 | 03/21/2022 | AFFT | Grantor: FLORES BETTY A Grantor: FLORES CLARENCE B Grantee: SEE INSTRUMENT | Desc: CLAYTON CORNER Sec: 2 Lot: 20 Block: 4",
+        "RP-2022-148200 | 03/21/2022 | D/T | Grantor: FLORES BETTY A Grantor: FLORES CLARENCE B Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: QUICKEN LOANS LLC Grantee: ROCKET MORTGAGE LLC Trustee: GUTIERREZ ESTELLA | Desc: CLAYTONS CORNER Sec: 2 Lot: 20 Block: 4 Related Docs",
+        "RP-2017-106925 | 03/14/2017 | D/T | Grantor: FLORES BETTY A Grantor: FLORES CLARENCE B Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: QUICKEN LOANS INC Trustee: TITLE SOURCE INC | Desc: CLAYTONS CORNER Sec: 2 Lot: 20 Block: 4 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FLORES BETTY')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "REL": 3,
+        "W/D": 2,
+        "AFFT": 3,
+        "D/T": 2
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FLORES BETTY')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "4 instruments as grantee, 6 as grantor (index, name 'FLORES BETTY')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FLORES BETTY')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202596751",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "03/06/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-03-06: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202596751 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de FLORES BETTY JEAN (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 205740.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 104310.18,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 17429.88,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 104310.18,
+        "impuestos_que_hereda": 4348.33,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 3129.31,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 115787.82,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 151692.88,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.777,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $151,693 >= cierre esperado $104,310. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 151692.88,
+    "all_in_cost_estimate": 115787.82,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
+  }
+}

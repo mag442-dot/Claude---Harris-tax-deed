@@ -1,0 +1,136 @@
+{
+  "property_id": "harris-2026-11-acct-0162720010009",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "6901 CARVER RD HOUSTON 77091",
+  "account_no": "0162720010009",
+  "cause_no": "202548197",
+  "intake": {
+    "opening_bid": {
+      "value": 33896.23,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 1; tipo SALE; sale# 2; sentencia 02/24/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "6901 CARVER RD, HOUSTON, 77091",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "RICHARD TOMEI (0.5000%); RICHARD TRAVIS (0.5000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "2458 CLIFFDALE ST, HOUSTON, TX, 77091-3016",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "15060",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.3457",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "2860",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1998",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "392968",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "RES (Residential Homestead)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "yes",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 7200.0000xSF $ | Res Improved Table Value 7860.0000xSF $",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 1040sf built 1998 | Residential 2092sf built 2012",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "01/25/1989 1989-M024751 | 08/15/1991 1991-N433911 | 10/19/2012 2012-0488848",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 9 BLK 1 HIGHLAND ACRE HOME ANX SEC 5",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "10/19/2012",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  }
+}

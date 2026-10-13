@@ -16,137 +16,186 @@
       "value": "6104 CLARKSON LN, HOUSTON, 77055",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_owner": {
       "value": "RICHARDSON HERBERT B (1.0000%)",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_mailing_address": {
       "value": "5957 SHADY RIVER DR, HOUSTON, TX, 77057-1312",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_state_class": {
       "value": "A1",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_land_sqft": {
       "value": "6000",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_acres": {
       "value": "0.1377",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_building_sqft": {
       "value": "864",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_year_improved": {
       "value": "1960",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_land_value": {
       "value": "150000",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_building_value": {
       "value": "30622",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_market_value": {
       "value": "180929",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_prior_market_value": {
       "value": "180929",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_exemptions": {
       "value": "none on roll",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_homestead_on_roll": {
       "value": "no",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_land_detail": {
       "value": "Res Improved Override 6000.0000xSF $150000",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_buildings": {
       "value": "Residential 960sf built 1960",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_deeds_recorded": {
       "value": "06/02/2011 2011-00239385 | 06/02/2011 2011-0238903 | 10/21/2016 2016-RP-2016-510522",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_legal": {
       "value": "TRS 11C & 11D ABST 871 J WHARTON",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_owner_since": {
       "value": "10/21/2016",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     }
   },
   "physical": {
     "fema_effective_zone": {
       "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
       "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
-      "retrieved_at": "2026-10-11",
-      "note": "Point = geocoded address (6104 CLARKSON LN, HOUSTON, TX, 77055), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
     },
     "floodway": {
       "value": "no",
       "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
-      "retrieved_at": "2026-10-11",
-      "note": "Point = geocoded address (6104 CLARKSON LN, HOUSTON, TX, 77055), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
     },
     "fema_sfha": {
       "value": false,
       "status": "verified",
       "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.459586,
+        "lat": 29.792578
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0451750020066)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 6099,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0451750020066)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~62 x 100 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0451750020066)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
     }
   },
   "title": {
@@ -168,14 +217,14 @@
       ],
       "status": "inferred",
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RICHARDSON HERBERT')",
-      "retrieved_at": "2026-10-11",
+      "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
     },
     "rp_hits_grantor": {
       "value": [],
       "status": "inferred",
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RICHARDSON HERBERT')",
-      "retrieved_at": "2026-10-11",
+      "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
     },
     "rp_type_counts": {
@@ -189,14 +238,178 @@
       },
       "status": "inferred",
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RICHARDSON HERBERT')",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "rp_summary": {
       "value": "13 instruments as grantee, 0 as grantor (index, name 'RICHARDSON HERBERT')",
       "status": "inferred",
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RICHARDSON HERBERT')",
-      "retrieved_at": "2026-10-11",
+      "retrieved_at": "2026-10-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
     }
+  },
+  "tax": {
+    "tax_statement": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0451750020066",
+      "retrieved_at": "2026-10-13",
+      "note": "El condado no produjo estado de cuenta (cuenta no certificada, inexistente o error)."
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "tax",
+      "item": "Pedir estado de cuenta de 0451750020066 al Tax Office (713-274-8120)",
+      "why": "statement no disponible en hctax.net"
+    },
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202517342 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de RICHARDSON HERBERT B (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "legal": {
+    "sale_type": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202517342",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "04/10/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-04-10: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "valuation": {
+    "value_base": {
+      "value": 180929.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 91731.0,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "bid_ceiling": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin estado de cuenta de impuestos no se calcula techo"
+    },
+    "all_in_costs": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "exit_strategy_used": {
+      "value": "ninguna",
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "VIGILAR",
+    "rationale": "El condado aun no publica la apertura. No hay estado de cuenta de impuestos (cota de costo desconocida). Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": null,
+    "all_in_cost_estimate": null,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
   }
 }

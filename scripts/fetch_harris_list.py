@@ -89,6 +89,7 @@ def main(argv):
             note = "; ".join(x for x in (
                 r["precinct"], f"tipo {c.get('Type','')}".strip(), f"sale# {c.get('Sale#','')}".strip(),
                 f"sentencia {c.get('Judgment','')}".strip(),
+                f"anios_en_sentencia {c.get('Tax Years in Judgement','').strip()}".strip(),
                 "" if addr else "sin direccion publicada aun",
                 "" if bid else "sin apertura publicada aun",
                 f"fuente {URL}") if x and not x.endswith(" "))

@@ -1,0 +1,525 @@
+{
+  "property_id": "harris-2026-11-acct-0740480140278",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "7543 LAURA KOPPE RD HOUSTON 77028-1805",
+  "account_no": "0740480140278",
+  "cause_no": "202139811",
+  "intake": {
+    "opening_bid": {
+      "value": 18720.04,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 3; tipo SALE; sale# 2; sentencia 05/06/2025; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "7543 LAURA KOPPE RD, HOUSTON, 77028",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "LACKEY VIRGIL (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "20218 RAINFLOWER BAY LN, RICHMOND, TX, 77407-6009",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "7366",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1691",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "1235",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1947",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "50516",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "83609",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "134125",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "140819",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 7200.0000xSF $50400 | Res Improved Table Value 166.0000xSF $116",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 1307sf built 1947",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "06/30/2011 2011-0283115 | 10/25/2004 2004-Y014063 | 11/30/2022 2022-RP-2022-570145",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 278 BLK 14 GLEN MANOR SEC 2",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "11/30/2022",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.291754,
+        "lat": 29.840594
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0740480140278)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 7160,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0740480140278)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~58 x 125 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0740480140278)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2020,
+          "tax": 1345.39,
+          "penalties_interest": 1089.76,
+          "collection_penalty": 457.12,
+          "total": 2892.27
+        },
+        {
+          "year": 2021,
+          "tax": 1820.58,
+          "penalties_interest": 1256.2,
+          "collection_penalty": 576.65,
+          "total": 3653.43
+        },
+        {
+          "year": 2022,
+          "tax": 2360.91,
+          "penalties_interest": 1345.7,
+          "collection_penalty": 696.25,
+          "total": 4402.86
+        },
+        {
+          "year": 2023,
+          "tax": 2683.24,
+          "penalties_interest": 1207.46,
+          "collection_penalty": 726.47,
+          "total": 4617.17
+        },
+        {
+          "year": 2024,
+          "tax": 712.91,
+          "penalties_interest": 235.26,
+          "collection_penalty": 175.86,
+          "total": 1124.03
+        },
+        {
+          "year": 2025,
+          "tax": 2038.99,
+          "penalties_interest": 428.21,
+          "collection_penalty": 347.41,
+          "total": 2814.61
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0740480140278",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 19504.37,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0740480140278",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2019,
+        2024
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0740480140278",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 18380.34,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0740480140278",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 2038.99,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0740480140278",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 20419.33,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0740480140278",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "LACKEY VIRGIL 20218 RAINFLOWER BAY LN RICHMOND TX 77407 7543 LAURA KOPPE RD LT 278 BLK 14 GLEN MANOR SEC 2",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0740480140278",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 140819.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0740480140278",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202139811",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "05/06/2025",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2027-05-06: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202139811 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de LACKEY VIRGIL (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 134125.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 68001.38,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 20367.4,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 68001.38,
+        "impuestos_que_hereda": 20419.33,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 2040.04,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 94460.75,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 80466.67,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.42,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $80,467 >= cierre esperado $68,001. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 80466.67,
+    "all_in_cost_estimate": 94460.75,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2022-570146 | 12/01/2022 | W/D | Grantor: LACKEY VICTORIA Grantee: LACKEY VIRGIL | Desc: GLEN MANOR Sec: 2 Lot: 268 Block: 13",
+        "RP-2022-570145 | 12/01/2022 | W/D | Grantor: LACKEY VICTORIA Grantee: LACKEY VIRGIL | Desc: GLEN MANOR Sec: 2 Lot: 278 Block: 14",
+        "RP-2022-388249 | 07/29/2022 | W/D | Grantor: PORTER VAUGHN ANTHONY SR Grantee: LACKEY VIRGIL J | Desc: FOREST ACRES Lot: 3 Related Docs",
+        "RP-2022-377418 | 07/22/2022 | W/D | Grantor: LACKEY VICTORIA Grantee: LACKEY VIRGIL | Desc: BARCLAY PLACE Lot: 24-25 Block: 3",
+        "RP-2018-96626 | 03/07/2018 | NOTICE | Grantor: HARRIS COUNTY ENGINEERING DEPARTMENT Grantee: LACKEY VIRGIL J | Desc: FOREST ACRES Lot: 3 Related Docs",
+        "RP-2018-294340 | 06/29/2018 | NOTICE | Grantor: HARRIS COUNTY ENGINEERING DEPARTMENT Grantee: LACKEY VIRGIL J | Desc: FORST ACRES SUBDIVISION Lot: 3 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'LACKEY VIRGIL')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2024-139194 | 04/18/2024 | DEED | Grantor: ALDINE INDEPENDENT SCHOOL DISTRICT Grantor: ALLEN CARROLLETTE Grantor: ALLEN CHRISTOPHER Grantor: ALLEN TANUNEKA Grantor: BOONE KATRINA YVETTE Grantor: CALHOUN CHLOE ALLEN Grantor: CITY OF HOUSTON Grantor: CURRY KENDRICK Grantor: CURRY KRYSTAL Grantor: FERGUSON JOY Grantor: FERGUSON JOY DENISE Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY EDUCATION DEPARTMENT Grantor: HARRIS COUNTY FLOOD CONTROL Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: LACKERY VICTOR Grantor: LACKEY FRANK CORNELL Grantor: LACKEY JERLINE Grantor: LACKEY VALLERY ANNETE Grantor: LACKEY VEDRICK Grantor: LACKEY VERNON JOSEPH Grantor: LACKEY VERONICA Grantor: LACKEY VICTORIA Grantor: LACKEY VINCENT Grantor: LACKEY VIRGIL Grantor: LACKEY VIVIAN Grantor: LACKEY VONDA Grantor: LONE STAR COLLEGE SYSTEM DISTRICT Grantor: LVNV FUNDING LLC Grantor: NELSON KATRINA Grantor: PORT OF HOUSTON OF HARRIS COUNTY PORT AUTHORITY Grantor: PORTER VAUGHN A SR Grantor: ROSEN ALAN CONST Grantor: SCIL TEXAS INC Grantor: SCIL TEXAS LLC Grantor: SPEEDY CASH Grantor: UNITED STATES OF AMERICA Grantor: WILLIAMS E S Grantee: MEKAT | Desc: HIGHLAND HEIGHTS ANNEX NO 2 Lot: 23 Block: 16",
+        "RP-2020-34585 | 01/24/2020 | W/D | Grantor: LACKEY VIRGIL J Grantee: PORTER VAUGHN ANTHONY SR | Desc: FOREST ACRES Lot: 3 Related Docs",
+        "RP-2019-332933 | 07/31/2019 | DISCLM | Grantor: LACKEY VEDRICK Grantor: LACKEY VERONICA Grantor: LACKEY VICTORIA Grantor: LACKEY VINCENT Grantor: LACKEY VIRGIL Grantor: LACKEY VIVIAN Grantor: LACKEY VONDA Grantor: PORTER VAUGHN SR Grantee: GLEN MARNOR SEC 2 | Comment: SEE INSTRUMENT",
+        "RP-2019-307276 | 07/17/2019 | W/D | Grantor: LACKEY VIRGIL J Grantee: LACKEY VICTORIA | Desc: GLEN MANOR Sec: 2 Lot: 278 Block: 14",
+        "RP-2019-307275 | 07/17/2019 | W/D | Grantor: LACKEY VIRGIL J Grantee: LACKEY VICTORIA | Desc: GLEN MANOR Sec: 2 Lot: 268 Block: 13",
+        "RP-2019-307273 | 07/17/2019 | W/D | Grantor: LACKEY VIRGIL J Grantee: LACKEY VICTORIA | Desc: BAYCLAY PLACE Lot: 24-25 Block: 3"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'LACKEY VIRGIL')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "W/D": 8,
+        "NOTICE": 2,
+        "DEED": 1,
+        "DISCLM": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'LACKEY VIRGIL')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "6 instruments as grantee, 6 as grantor (index, name 'LACKEY VIRGIL')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'LACKEY VIRGIL')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  }
+}

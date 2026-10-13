@@ -1,0 +1,136 @@
+{
+  "property_id": "harris-2026-11-acct-0771940170008",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "802 BRIARWOOD DR. BAYTOWN 77520",
+  "account_no": "0771940170008",
+  "cause_no": "202379257",
+  "intake": {
+    "opening_bid": {
+      "value": 9340.34,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 8; tipo SALE; sale# 5; sentencia 07/11/2025; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "802 BRIARWOOD DR, BAYTOWN, 77520",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "OPATRNY TERESA (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "802 BRIARWOOD ST, BAYTOWN, TX, 77520-7266",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "6725",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1544",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "1501",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1953",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "42771",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "112161",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "154932",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "168363",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "RES (Residential Homestead)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "yes",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 6725.0000xSF $42771",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 1748sf built 1953",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "12/20/2021 2022-RP-2022-204685",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 8 BLK 11 LAWNDELL SEC 3",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "12/20/2021",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  }
+}

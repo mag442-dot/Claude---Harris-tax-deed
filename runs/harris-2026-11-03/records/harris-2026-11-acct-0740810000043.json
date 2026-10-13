@@ -1,0 +1,565 @@
+{
+  "property_id": "harris-2026-11-acct-0740810000043",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "923 FRANCIS DR PASADENA 77506-4813",
+  "account_no": "0740810000043",
+  "cause_no": "202152104",
+  "intake": {
+    "opening_bid": {
+      "value": 6277.15,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 2; tipo SALE; sale# 1; sentencia 09/21/2023; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "923 FRANCIS DR, PASADENA, 77506",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "ROCHA LUIS E (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "920 DAVIS ST, PASADENA, TX, 77506-4804",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "6400",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1469",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "997",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1947",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "51354",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "62365",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "113819",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "113819",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 5810.0000xSF $50838 | Res Improved Table Value 590.0000xSF $516",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 1033sf built 1947",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "10/11/2017 2018-RP-2018-158395",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 43 OLEANDER",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "10/11/2017",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.196166,
+        "lat": 29.696585
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0740810000043)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 6311,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0740810000043)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~49 x 129 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0740810000043)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF PASADENA",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2020,
+          "tax": 31.58,
+          "penalties_interest": 25.57,
+          "collection_penalty": 10.15,
+          "total": 67.3
+        },
+        {
+          "year": 2021,
+          "tax": 926.29,
+          "penalties_interest": 639.14,
+          "collection_penalty": 276.95,
+          "total": 1842.38
+        },
+        {
+          "year": 2022,
+          "tax": 1118.53,
+          "penalties_interest": 637.58,
+          "collection_penalty": 311.67,
+          "total": 2067.78
+        },
+        {
+          "year": 2023,
+          "tax": 1293.89,
+          "penalties_interest": 582.25,
+          "collection_penalty": 0.0,
+          "total": 1876.14
+        },
+        {
+          "year": 2024,
+          "tax": 1409.52,
+          "penalties_interest": 465.13,
+          "collection_penalty": 190.65,
+          "total": 2065.3
+        },
+        {
+          "year": 2025,
+          "tax": 1421.75,
+          "penalties_interest": 298.58,
+          "collection_penalty": 170.83,
+          "total": 1891.16
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0740810000043",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 9810.06,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0740810000043",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2018,
+        2022
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0740810000043",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 7742.28,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0740810000043",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 1421.75,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0740810000043",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 9164.03,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0740810000043",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "ROCHA LUIS E 920 DAVIS ST PASADENA TX 77506 923 FRANCIS DR LT 43 OLEANDER",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0740810000043",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 113819.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0740810000043",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202152104",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "09/21/2023",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 cerro el 2025-09-21 (si hubo citacion por publicacion)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202152104 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de ROCHA LUIS E (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 113819.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 57706.23,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 6829.54,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 57706.23,
+        "impuestos_que_hereda": 9164.03,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 1731.19,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 72601.45,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 75622.5,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.568,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $75,622 >= cierre esperado $57,706. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF PASADENA. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 75622.5,
+    "all_in_cost_estimate": 72601.45,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-186057 | 05/13/2026 | LIEN | Grantor: AGUILAR ELETICIA Grantor: ATTORNEY GENERAL OFFICE Grantee: ROCHA LUIS RICARDO | Comment: SEE INSTRUMENT",
+        "RP-2026-133118 | 04/08/2026 | LIEN | Grantor: CITY OF PASADENA Grantee: ROCHA LUIS E | Desc: OLEANDER Lot: 43",
+        "RP-2026-127871 | 04/06/2026 | W/D | Grantor: CRANE JOHN D Grantor: POUNDS TRACY LAINE Grantee: ROCHA LUIS ENRIQUE JR Grantee: SALAZAR ALEYDA | Desc: CROSBY VILLAGE Sec: 2 Lot: 18 Block: 4",
+        "RP-2025-151344 | 04/24/2025 | ORDER | Grantor: CITY OF PASADENA Grantee: ROCHA LUIS E Grantee: ROCHA LUIS ENRIQUE | Desc: OLEANDER Lot: 43",
+        "RP-2024-466489 | 12/16/2024 | REL | Grantor: BARKER INVESTORS Grantor: SU YANG Grantee: ROCHA LUIS ANGEL HERNANDEZ Grantee: SALAZAR SANJUANA HERNANDEZ | Desc: LIBERTY ADDITION Related Docs",
+        "RP-2024-361960 | 10/01/2024 | A/J | Grantor: PASADENA INDEPENDENT SCHOOL DISTRICT Grantee: ROCHA LUIS E | Comment: SEE INSTRUMENT",
+        "RP-2024-23391 | 01/23/2024 | MEMO | Grantor: REAL EQUITY TX LLC Grantee: ROCHA LUIS | Desc: OLEANDER ADDITION Lot: 43",
+        "RP-2023-204315 | 06/05/2023 | RESCND | Grantor: HCFCD Grantee: ORTEGA CARLOS SERVIN Grantee: ORTEGA MARILU SERVIN Grantee: RIVAS LAURA Grantee: ROCHA LUIS | Desc: HIGHLAND SHORES Sec: 1 Lot: 50 Related Docs",
+        "RP-2022-521914 | 10/24/2022 | L/P | Grantor: HCFCD Grantee: ORTEGA CARLOS SERVIN Grantee: ORTEGA MARILU SERVIN Grantee: RIVAS LAURA Grantee: ROCHA LUIS | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-442515 | 08/31/2022 | L/P | Grantor: HCFCD Grantee: ROCHA LUIS E | Desc: HIGHLAND SHORES Sec: 2 Lot: 15 Block: 3",
+        "RP-2022-442514 | 08/31/2022 | L/P | Grantor: HCFCD Grantee: ROCHA LUIS E | Desc: HIGHLAND SHORES Sec: 1 Lot: 52 Block: 1",
+        "RP-2022-442512 | 08/31/2022 | L/P | Grantor: HCFCD Grantee: ROCHA LUIS E | Desc: HIGHLAND SHORES Sec: 2 Lot: 10 Block: 4",
+        "RP-2022-435748 | 08/26/2022 | W/D | Grantor: ROCHA LUIS Grantee: ROCHA LUIS JR | Desc: HIGHLAND SHORES Sec: 2 Lot: 14-15 Block: 3",
+        "RP-2022-435747 | 08/26/2022 | W/D | Grantor: ROCHA LUIS Grantee: ROCHA LUIS JR | Desc: HIGHLAND SHORES Sec: 1-2",
+        "RP-2020-608185 | 12/11/2020 | NOTICE | Grantor: 15723 BLACKHAWK SERIES Grantor: RCL HOMES LLC Grantor: ROCHA LUIS Grantee: 15723 BLACKHAWK SERIES Grantee: RCL HOMES LLC Grantee: ROCHA LUIS | Desc: WEDGEWOOD VILLAGE Sec: 3 Lot: 6 Block: 15 Related Docs",
+        "RP-2020-608183 | 12/11/2020 | W/D | Grantor: 15723 BLACKHAWK SERIES Grantor: RCL HOMES LLC Grantee: ROCHA LUIS | Desc: WEDGEWOOD VILLAGE Sec: 3 Lot: 6 Block: 15",
+        "RP-2019-398898 | 09/09/2019 | NOTICE | Grantor: BARKER INVESTORS Grantor: ROCHA LUIS ANGEL HERNANDEZ Grantor: SALAZAR SANJUANA HERNANDEZ Grantor: SU YANG Grantee: BARKER INVESTORS Grantee: ROCHA LUIS ANGEL HERNANDEZ Grantee: SALAZAR SANJUANA HERNANDEZ Grantee: SU YANG | Desc: LIBERTY ADDITION",
+        "RP-2019-398896 | 09/09/2019 | W/D | Grantor: BARKER INVESTORS Grantor: SU YANG Grantee: ROCHA LUIS ANGEL HERNANDEZ Grantee: SALAZAR SANJUANA HERNANDEZ | Desc: LIBERTY ADDITION",
+        "RP-2019-398890 | 09/09/2019 | W/D | Grantor: KIM GIL YEONG Grantor: KIM OAK HUEE Grantee: MIRINA LURIA RAMIREZ Grantee: RAFAELA LURIA RAMIREZ Grantee: ROCHA LUIS FERNANDO | Desc: SOUTH ACRES ESTATE Sec: 5 Lot: 22 Block: 9",
+        "RP-2018-540621 | 12/03/2018 | W/D | Grantor: WHITE RAWLE Grantor: WHITE RAWLE E Grantee: ROCHA LUIS ANGEL HERNANDEZ Grantee: TORRES SANJUANA FRANCISCA SALAZAR | Desc: LIBERTY Lot: 40",
+        "RP-2018-158395 | 04/13/2018 | W/D | Grantor: ROMERO MANUEL ROCHA Grantee: ROCHA LUIS ENRIQUE | Desc: OLEANDER Lot: 43",
+        "RP-2018-158394 | 04/13/2018 | W/D | Grantor: ROCHA LUIS ENRIQUE Grantor: ROCHA SANTA CECILIA Grantee: ROCHA LUIS ENRIQUE Grantee: ROCHA SANTA CECILIA | Desc: OLEANDER ADDITION Block: 19",
+        "RP-2017-445189 | 10/10/2017 | W/D | Grantor: NARANJO HECTOR Grantee: ROCHA LUIS ANGEL HERNANDEZ Grantee: TORRES SAN JUANA FRANCISCA SALAZAR | Desc: LIBERTY ADDITION Lot: 40",
+        "RP-2017-346687 | 08/02/2017 | REL | Grantor: BANCBOSTON MORTGAGE CORPORATION Grantor: FDIC Grantor: HOMESIDE LENDING INC Grantor: JPMORGAN CHASE BANK NATIONAL ASSOCIATION Grantor: WASHINGTON MUTUAL BANK Grantor: WASHINGTON MUTUAL BANK FA Grantee: ROCHA LUIS E Grantee: ROCHA MARIA DE LOS ANGELES | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ROCHA LUIS')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-127872 | 04/06/2026 | D/T | Grantor: ROCHA LUIS ENRIQUE JR Grantor: SALAZAR ALEYDA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: UNITED WHOLESALE MORTGAGE LLC Trustee: BLACK MANN & GRAHAM L L P | Desc: CROSBY VILLAGE Sec: 2 Lot: 18 Block: 4",
+        "RP-2023-83504 | 03/09/2023 | W/D | Grantor: ROCHA LUIS JR Grantee: HARRIS COUNTY FLOOD CONTROL DISTRICT | Desc: HIGHLAND SHORES Sec: 1 Lot: 53 Block: 1",
+        "RP-2023-83443 | 03/09/2023 | W/D | Grantor: ROCHA LUIS JR Grantee: HARRIS COUNTY FLOOD CONTROL DISTRICT | Desc: HIGHLAND SHORES Sec: 1 Lot: 52 Block: 1",
+        "RP-2023-83404 | 03/09/2023 | W/D | Grantor: ROCHA LUIS JR Grantee: HARRIS COUNTY FLOOD CONTROL DISTRICT | Desc: HIGHLAND SHORES Sec: 2 Lot: 10 Block: 4",
+        "RP-2023-83316 | 03/09/2023 | W/D | Grantor: ROCHA LUIS JR Grantee: HARRIS COUNTY FLOOD CONTROL DISTRICT | Desc: HIGHLAND SHORES Sec: 2 Lot: 15 Block: 3",
+        "RP-2023-83259 | 03/09/2023 | W/D | Grantor: ROCHA LUIS JR Grantee: HARRIS COUNTY FLOOD CONTROL DISTRICT | Desc: HIGHLAND SHORES Sec: 2 Lot: 14 Block: 3",
+        "RP-2023-247754 | 07/03/2023 | ORDER | Grantor: ORTEGA CARLOS SERVIN Grantor: ORTEGA MARILU SERVIN Grantor: RIVAS LAURA Grantor: ROCHA LUIS Grantee: HARRIS COUNTY FLOOD CONTROL DISTRICT | Desc: HIGHLAND SHORES Sec: 1 Lot: 50",
+        "RP-2022-435748 | 08/26/2022 | W/D | Grantor: ROCHA LUIS Grantee: ROCHA LUIS JR | Desc: HIGHLAND SHORES Sec: 2 Lot: 14-15 Block: 3",
+        "RP-2022-435747 | 08/26/2022 | W/D | Grantor: ROCHA LUIS Grantee: ROCHA LUIS JR | Desc: HIGHLAND SHORES Sec: 1-2",
+        "RP-2020-608185 | 12/11/2020 | NOTICE | Grantor: 15723 BLACKHAWK SERIES Grantor: RCL HOMES LLC Grantor: ROCHA LUIS Grantee: 15723 BLACKHAWK SERIES Grantee: RCL HOMES LLC Grantee: ROCHA LUIS | Desc: WEDGEWOOD VILLAGE Sec: 3 Lot: 6 Block: 15 Related Docs",
+        "RP-2020-608184 | 12/11/2020 | D/T | Grantor: ROCHA LUIS Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SWBC MORTGAGE CORP Trustee: KERSHNER EDWARD | Desc: WEDGEWOOD VILLAGE Sec: 3 Lot: 6 Block: 15",
+        "RP-2019-398898 | 09/09/2019 | NOTICE | Grantor: BARKER INVESTORS Grantor: ROCHA LUIS ANGEL HERNANDEZ Grantor: SALAZAR SANJUANA HERNANDEZ Grantor: SU YANG Grantee: BARKER INVESTORS Grantee: ROCHA LUIS ANGEL HERNANDEZ Grantee: SALAZAR SANJUANA HERNANDEZ Grantee: SU YANG | Desc: LIBERTY ADDITION",
+        "RP-2019-398897 | 09/09/2019 | D/T | Grantor: ROCHA LUIS ANGEL HERNANDEZ Grantor: SALAZAR SANJUANA HERNANDEZ Grantee: BARKER INVESTORS Grantee: SU YANG Trustee: MORRIS MALCOLM S | Desc: LIBERTY ADDITION Related Docs",
+        "RP-2019-398891 | 09/09/2019 | D/T | Grantor: MIRINA LURIA RAMIREZ Grantor: RAFAELA LURIA RAMIREZ Grantor: ROCHA LUIS FERNANDO Grantee: KIM GIL YEONG Grantee: KIM OAK HUEE Trustee: CHANG AHRI MARLISA KIM | Desc: SOUTH ACRES ESTATES Sec: 5 Block: 9",
+        "RP-2019-15013 | 01/14/2019 | W/D | Grantor: DELEON PAULA Grantor: GUZMAN ENEDELIA Grantor: LONGORIA JUANITA Grantor: OROZCO HERMELINDA Grantor: ROCHA ANDRES Grantor: ROCHA CLAUDIA ESTELA Grantor: ROCHA HECTOR ALFREDO Grantor: ROCHA JESUS Grantor: ROCHA JOSE ANGEL Grantor: ROCHA LUIS G Grantor: ROCHA MANUEL A JR Grantor: ROCHA MARIO HUMBERTO Grantee: ROCHA JEFF Grantee: ROCHA MAYRA | Desc: EASTHAVEN ADDITION Lot: 17-18 Block: 45",
+        "RP-2018-158394 | 04/13/2018 | W/D | Grantor: ROCHA LUIS ENRIQUE Grantor: ROCHA SANTA CECILIA Grantee: ROCHA LUIS ENRIQUE Grantee: ROCHA SANTA CECILIA | Desc: OLEANDER ADDITION Block: 19"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ROCHA LUIS')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "LIEN": 2,
+        "W/D": 19,
+        "ORDER": 2,
+        "REL": 2,
+        "A/J": 1,
+        "MEMO": 1,
+        "RESCND": 1,
+        "L/P": 4,
+        "NOTICE": 4,
+        "D/T": 4
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ROCHA LUIS')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "24 instruments as grantee, 16 as grantor (index, name 'ROCHA LUIS')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ROCHA LUIS')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  }
+}

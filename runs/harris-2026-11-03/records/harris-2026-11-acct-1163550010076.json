@@ -1,0 +1,22 @@
+{
+  "property_id": "harris-2026-11-acct-1163550010076",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "19143 PROVIDENCE SQ HOCKLEY 77447",
+  "account_no": "1163550010076",
+  "cause_no": "202529091",
+  "intake": {
+    "opening_bid": {
+      "value": 13490.71,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 4; tipo SALE; sale# 2; sentencia 11/06/2025; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    }
+  }
+}

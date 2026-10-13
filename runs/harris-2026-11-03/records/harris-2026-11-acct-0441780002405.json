@@ -1,0 +1,660 @@
+{
+  "property_id": "harris-2026-11-acct-0441780002405",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "0 MOONSHINE HILL RD HUMBLE 77338",
+  "account_no": "0441780002405",
+  "cause_no": "202546640",
+  "intake": {
+    "opening_bid": {
+      "value": 8237.0,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 4; tipo SALE; sale# 3; sentencia 06/12/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "0 MOONSHINE HILL RD, HUMBLE, 77338",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "HELM B L TR (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "12 GREENWAY PLZ STE 924, HOUSTON, TX, 77046-1203",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "C2",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "16474",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.3782",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "8237",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "8237",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "8237",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Land Neighborhood Section 1 16474.0000xSF $8237",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "TRS 16 17 24 25 & 32 OF LT 42 L W LONG ABST 695 J STRANGE",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "01/02/1993",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "AE + otras",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.23747,
+        "lat": 29.996691
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0441780002405)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 14769,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0441780002405)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~78 x 225 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0441780002405)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (0.2 PCT ANNUAL CHANCE FLOOD HAZARD)": 25.2,
+        "AE": 74.8
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 74.8,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2005,
+          "tax": 47.06,
+          "penalties_interest": 122.84,
+          "collection_penalty": 33.98,
+          "total": 203.88
+        },
+        {
+          "year": 2006,
+          "tax": 46.87,
+          "penalties_interest": 116.72,
+          "collection_penalty": 32.71,
+          "total": 196.3
+        },
+        {
+          "year": 2007,
+          "tax": 46.11,
+          "penalties_interest": 109.28,
+          "collection_penalty": 31.08,
+          "total": 186.47
+        },
+        {
+          "year": 2008,
+          "tax": 45.89,
+          "penalties_interest": 103.27,
+          "collection_penalty": 29.83,
+          "total": 178.99
+        },
+        {
+          "year": 2009,
+          "tax": 47.63,
+          "penalties_interest": 101.46,
+          "collection_penalty": 29.83,
+          "total": 178.92
+        },
+        {
+          "year": 2010,
+          "tax": 48.09,
+          "penalties_interest": 96.66,
+          "collection_penalty": 28.96,
+          "total": 173.71
+        },
+        {
+          "year": 2011,
+          "tax": 48.29,
+          "penalties_interest": 91.26,
+          "collection_penalty": 27.9,
+          "total": 167.45
+        },
+        {
+          "year": 2012,
+          "tax": 48.23,
+          "penalties_interest": 85.37,
+          "collection_penalty": 26.73,
+          "total": 160.33
+        },
+        {
+          "year": 2013,
+          "tax": 47.97,
+          "penalties_interest": 79.15,
+          "collection_penalty": 25.42,
+          "total": 152.54
+        },
+        {
+          "year": 2014,
+          "tax": 47.51,
+          "penalties_interest": 72.69,
+          "collection_penalty": 24.04,
+          "total": 144.24
+        },
+        {
+          "year": 2015,
+          "tax": 47.46,
+          "penalties_interest": 66.93,
+          "collection_penalty": 22.87,
+          "total": 137.26
+        },
+        {
+          "year": 2016,
+          "tax": 47.46,
+          "penalties_interest": 61.22,
+          "collection_penalty": 21.74,
+          "total": 130.42
+        },
+        {
+          "year": 2017,
+          "tax": 48.61,
+          "penalties_interest": 56.88,
+          "collection_penalty": 21.09,
+          "total": 126.58
+        },
+        {
+          "year": 2018,
+          "tax": 48.62,
+          "penalties_interest": 51.05,
+          "collection_penalty": 19.93,
+          "total": 119.6
+        },
+        {
+          "year": 2019,
+          "tax": 47.56,
+          "penalties_interest": 44.24,
+          "collection_penalty": 15.02,
+          "total": 106.82
+        },
+        {
+          "year": 2020,
+          "tax": 46.82,
+          "penalties_interest": 37.92,
+          "collection_penalty": 13.87,
+          "total": 98.61
+        },
+        {
+          "year": 2021,
+          "tax": 45.79,
+          "penalties_interest": 31.59,
+          "collection_penalty": 12.62,
+          "total": 90.0
+        },
+        {
+          "year": 2022,
+          "tax": 42.86,
+          "penalties_interest": 24.43,
+          "collection_penalty": 11.03,
+          "total": 78.32
+        },
+        {
+          "year": 2023,
+          "tax": 42.83,
+          "penalties_interest": 19.29,
+          "collection_penalty": 9.32,
+          "total": 71.44
+        },
+        {
+          "year": 2024,
+          "tax": 47.07,
+          "penalties_interest": 15.53,
+          "collection_penalty": 10.18,
+          "total": 72.78
+        },
+        {
+          "year": 2025,
+          "tax": 57.77,
+          "penalties_interest": 12.14,
+          "collection_penalty": 11.35,
+          "total": 81.26
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0441780002405",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 2855.92,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0441780002405",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2005,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0441780002405",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 2570.78,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0441780002405",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 57.77,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0441780002405",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 2628.55,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0441780002405",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "HELM B L TR 12 GREENWAY PLZ STE 924 HOUSTON TX 77046 MOONSHINE HILL RD TRS 16 17 24 25 & 32 OF LT 42 L W LONG ABST 695 J STRANGE",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0441780002405",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 6919.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0441780002405",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-195154 | 05/19/2026 | NOTICE | Grantor: BARDEN DAVID LYNCH Grantor: DAICHMAN SEAN Grantor: HELM BRECAH WALSH Grantee: BARDEN DAVID LYNCH Grantee: DAICHMAN SEAN Grantee: HELM BRECAH WALSH | Desc: MONTROSE ADDITION Block: 4 Related Docs",
+        "RP-2026-195152 | 05/19/2026 | W/D | Grantor: WALSH COLIN DAVID Grantee: HELM BRECAH WALSH | Desc: MONTROSE ADDITION Block: 4 Related Docs",
+        "RP-2023-5884 | 01/06/2023 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: UNITED WHOLESALE MORTGAGE Grantee: HELM BRITTNAY ROCHELLE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-635319 | 11/03/2021 | NOTICE | Grantor: AZIZ MUHAMMAD S Grantor: HELM BOWIE DUNCAN Grantor: HELM MATTHEW REAGAN Grantor: HELM REAGAN CARTWRIGHT EST Grantor: WHILDEN WADE H SR Grantee: AZIZ MUHAMMAD S Grantee: HELM BOWIE DUNCAN Grantee: HELM MATTHEW REAGAN Grantee: HELM REAGAN CARTWRIGHT EST Grantee: WHILDEN WADE H SR | Desc: RIVER OAKS Lot: 7 Block: 43 Related Docs",
+        "RP-2021-524537 | 09/14/2021 | REL | Grantor: OPTION ONE MORTGAGE CORPORATION Grantor: SAND CANYON CORPORATION Grantee: HELM BOBBY C | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-48498 | 01/28/2021 | W/D | Grantor: HELM SUSAN H EST Grantor: ROGERS MARY BELLE Grantee: HELM BOWIE DUNCAN Grantee: HELM MATTHEW REAGAN | Desc: RIVER OAKS ADDITION Lot: 7 Block: 43",
+        "RP-2021-424926 | 07/28/2021 | REL | Grantor: MORGAN STANLEY PRIVATE BANK NATIONAL ASSOCIATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: HELM BOWIE D | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-169167 | 03/31/2021 | NOTICE | Grantor: CURTIN CLAIRE S Grantor: CURTIN JOHN D III Grantor: HELM BOWIE DUNCAN Grantor: HELM CASANDRA QUINONES Grantee: CURTIN CLAIRE S Grantee: CURTIN JOHN D III Grantee: HELM BOWIE DUNCAN Grantee: HELM CASANDRA QUINONES | Desc: AVALON PLACE Lot: 6-7 Block: B Related Docs",
+        "RP-2021-169165 | 03/31/2021 | W/D | Grantor: CURTIN CLAIRE S Grantor: CURTIN JOHN D III Grantee: HELM BOWIE DUNCAN Grantee: HELM CASANDRA QUINONES | Desc: FIRST ADDITION TO AVALON PLACE Lot: 6-7 Block: B",
+        "RP-2019-448148 | 10/08/2019 | PROB | Grantor: HELM PAUL DICKASON EST Grantee: HELM AMELIA TIEDEMAN Grantee: HELM BONNIE BLAKE Grantee: HELM MELISSA LAUREL | Comment: SEE INSTRUMENT",
+        "RP-2019-443143 | 10/04/2019 | NOTICE | Grantor: HELM BRITTNAY Grantor: PATTERSON CHARMAINE MATTHEWS Grantor: PATTERSON LAMAR SR Grantee: HELM BRITTNAY Grantee: PATTERSON CHARMAINE MATTHEWS Grantee: PATTERSON LAMAR SR | Desc: SADDLE RDG Sec: 2 Lot: 2 Block: 1",
+        "RP-2019-443141 | 10/04/2019 | W/D | Grantor: MATTHEWS CHARMAINE Grantor: PATTERSON CHARMAINE MATTHEWS Grantor: PATTERSON LAMAR SR Grantee: HELM BRITTNAY ROCHELLE | Desc: SADDLE RIDGE Sec: 2 Lot: 2 Block: 1",
+        "RP-2017-70436 | 02/17/2017 | NOTICE | Grantor: HELM BARBARA Grantor: LICEFI FELIX A Grantor: LICEFI SHERRILL L Grantee: HELM BARBARA Grantee: LICEFI FELIX A Grantee: LICEFI SHERRILL L | Desc: HEARTHSTONE Sec: 3 Block: 13",
+        "RP-2017-70434 | 02/17/2017 | W/D | Grantor: LICEFI FELIX A Grantor: LICEFI SHERRILL L Grantee: HELM BARBARA | Desc: HEARTHSTONE Sec: 3 Block: 13",
+        "RP-2017-223067 | 05/22/2017 | NOTICE | Grantor: CORCHADO CARMEN R Grantor: GONZALEZ EVARISTO Grantor: HELM BREANNE M Grantor: HELM JUSTIN W Grantee: CORCHADO CARMEN R Grantee: GONZALEZ EVARISTO Grantee: HELM BREANNE M Grantee: HELM JUSTIN W | Desc: STONEPINE Sec: 2 Lot: 24 Block: 2",
+        "RP-2017-223065 | 05/22/2017 | W/D | Grantor: CORCHADO CARMEN R Grantor: GONZALEZ EVARISTO Grantee: HELM BREANNE M Grantee: HELM JUSTIN W | Desc: STONEPINE Sec: 2 Lot: 24 Block: 2",
+        "RP-2016-303849 | 07/13/2016 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: HELM BESS Grantee: HELM JOHN D | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-274500 | 06/27/2016 | NOTICE | Grantor: HELM BESS Grantor: HELM JOHN D Grantor: HELM OK SOON Grantor: MITCHELL LORETTA Grantee: HELM BESS Grantee: HELM JOHN D Grantee: HELM OK SOON Grantee: MITCHELL LORETTA | Desc: SPRING TERRACE Sec: 3 Lot: 39 Block: 2",
+        "RP-2016-274497 | 06/27/2016 | P/A | Grantor: HELM OK SOON Grantee: HELM BESS | Desc: SPRING TERRACE Sec: 3 Lot: 39 Block: 2",
+        "RP-2016-274496 | 06/27/2016 | P/A | Grantor: HELM JOHN D Grantee: HELM BESS | Desc: SPRING TERRACE Sec: 3 Lot: 39 Block: 2",
+        "RP-2016-166106 | 04/22/2016 | REL | Grantor: CORNERSTONE HOME LENDING INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: HELM BRANDON C | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HELM B')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-195154 | 05/19/2026 | NOTICE | Grantor: BARDEN DAVID LYNCH Grantor: DAICHMAN SEAN Grantor: HELM BRECAH WALSH Grantee: BARDEN DAVID LYNCH Grantee: DAICHMAN SEAN Grantee: HELM BRECAH WALSH | Desc: MONTROSE ADDITION Block: 4 Related Docs",
+        "RP-2026-195153 | 05/19/2026 | W/D | Grantor: BARDEN DAVID LYNCH Grantor: HELM BRECAH WALSH Grantee: DAICHMAN SEAN | Desc: MONTROSE ADDITION Block: 4 Related Docs",
+        "RP-2025-228781 | 06/16/2025 | D/T | Grantor: HELM BARBARA Grantee: FROST BANK Trustee: WOODS TERESA | Desc: HEARTHSTONE Sec: 3 Block: 13 Related Docs",
+        "RP-2025-228766 | 06/16/2025 | AFFT | Grantor: HELM BARBARA Grantee: SEE INSTRUMENT | Desc: HEARTHSTONE Sec: 3 Block: 13",
+        "RP-2024-401707 | 10/29/2024 | W/D | Grantor: HELM BOWIE D Grantor: HELM CASANDRA Grantee: DEDEAUX-SWINTON MARY Grantee: SWINTON JEFFREY L | Comment: SEE INSTRUMENT",
+        "RP-2024-187226 | 05/23/2024 | MODIF | Grantor: HELM BREANNE M Grantor: HELM JUSTIN W Grantee: WELLS FARGO BANK N A | Desc: STONEPINE Sec: 2 Lot: 24 Block: 2 Related Docs",
+        "RP-2022-598915 | 12/27/2022 | W/D | Grantor: HELM BRITTNAY ROCHELLE Grantee: BLAKE TIRAJA | Desc: SADDLE RIDGE Sec: 2 Lot: 2 Block: 1",
+        "RP-2022-131084 | 03/11/2022 | MODIF | Grantor: HELM BREANNE M Grantor: HELM JUSTIN W Grantee: WELLS FARGO BANK N A | Desc: STONEPINE Sec: 2 Lot: 24 Block: 2 Related Docs",
+        "RP-2021-635319 | 11/03/2021 | NOTICE | Grantor: AZIZ MUHAMMAD S Grantor: HELM BOWIE DUNCAN Grantor: HELM MATTHEW REAGAN Grantor: HELM REAGAN CARTWRIGHT EST Grantor: WHILDEN WADE H SR Grantee: AZIZ MUHAMMAD S Grantee: HELM BOWIE DUNCAN Grantee: HELM MATTHEW REAGAN Grantee: HELM REAGAN CARTWRIGHT EST Grantee: WHILDEN WADE H SR | Desc: RIVER OAKS Lot: 7 Block: 43 Related Docs",
+        "RP-2021-635318 | 11/03/2021 | W/D | Grantor: HELM BOWIE DUNCAN Grantor: HELM MATTHEW REAGAN Grantor: HELM REAGAN CARTWRIGHT EST Grantor: WHILDEN WADE H SR Grantee: AZIZ MUHAMMAD S | Desc: RIVER OAKS Lot: 7 Block: 43",
+        "RP-2021-169167 | 03/31/2021 | NOTICE | Grantor: CURTIN CLAIRE S Grantor: CURTIN JOHN D III Grantor: HELM BOWIE DUNCAN Grantor: HELM CASANDRA QUINONES Grantee: CURTIN CLAIRE S Grantee: CURTIN JOHN D III Grantee: HELM BOWIE DUNCAN Grantee: HELM CASANDRA QUINONES | Desc: AVALON PLACE Lot: 6-7 Block: B Related Docs",
+        "RP-2019-443143 | 10/04/2019 | NOTICE | Grantor: HELM BRITTNAY Grantor: PATTERSON CHARMAINE MATTHEWS Grantor: PATTERSON LAMAR SR Grantee: HELM BRITTNAY Grantee: PATTERSON CHARMAINE MATTHEWS Grantee: PATTERSON LAMAR SR | Desc: SADDLE RDG Sec: 2 Lot: 2 Block: 1",
+        "RP-2019-443142 | 10/04/2019 | D/T | Grantor: HELM BRITTNAY ROCHELLE Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: UNITED WHOLESALE MORTGAGE Trustee: BLACK MANN AND GRAHAM LLP | Desc: SADDLE RIDGE Sec: 2 Lot: 2 Block: 1 Related Docs",
+        "RP-2019-211482 | 05/21/2019 | REL | Grantor: HELM BOWIE Grantee: ALOC PARTNERS LLC | Desc: BROOKE SMITH ADDITION Lot: 7 Block: 11 Related Docs",
+        "RP-2017-70436 | 02/17/2017 | NOTICE | Grantor: HELM BARBARA Grantor: LICEFI FELIX A Grantor: LICEFI SHERRILL L Grantee: HELM BARBARA Grantee: LICEFI FELIX A Grantee: LICEFI SHERRILL L | Desc: HEARTHSTONE Sec: 3 Block: 13",
+        "RP-2017-70435 | 02/17/2017 | D/T | Grantor: HELM BARBARA Grantee: JPMORGAN CHASE BANK N A Trustee: POLUNSKY ALLAN B | Desc: HEARTHSTONE Sec: 3 Block: 13 Related Docs",
+        "RP-2017-223067 | 05/22/2017 | NOTICE | Grantor: CORCHADO CARMEN R Grantor: GONZALEZ EVARISTO Grantor: HELM BREANNE M Grantor: HELM JUSTIN W Grantee: CORCHADO CARMEN R Grantee: GONZALEZ EVARISTO Grantee: HELM BREANNE M Grantee: HELM JUSTIN W | Desc: STONEPINE Sec: 2 Lot: 24 Block: 2",
+        "RP-2017-223066 | 05/22/2017 | D/T | Grantor: HELM BREANNE M Grantor: HELM JUSTIN W Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: MORTGAGE RESEARCH CENTER LLC Grantee: VETERANS UNITED HOME LOANS Trustee: VALBY SCOTT R | Desc: STONEPINE Sec: 2 Lot: 24 Block: 2 Related Docs",
+        "RP-2016-468533 | 10/17/2016 | W/D | Grantor: HATTER WILLIAM JAMES Grantor: HELM BOBBY H Grantee: GARZA LUIS E | Desc: GREENWAY ADDITION Sec: 3 Lot: 6 Block: 9",
+        "RP-2016-274500 | 06/27/2016 | NOTICE | Grantor: HELM BESS Grantor: HELM JOHN D Grantor: HELM OK SOON Grantor: MITCHELL LORETTA Grantee: HELM BESS Grantee: HELM JOHN D Grantee: HELM OK SOON Grantee: MITCHELL LORETTA | Desc: SPRING TERRACE Sec: 3 Lot: 39 Block: 2",
+        "RP-2016-274498 | 06/27/2016 | W/D | Grantor: HELM BESS Grantor: HELM JOHN D Grantee: MITCHELL LORETTA A | Desc: SPRING TERRACE Sec: 3 Lot: 39 Block: 2",
+        "RP-2016-146934 | 04/08/2016 | D/T | Grantor: HELM BRANDON C Grantee: FREEDOM MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: MANN CALVIN C JR | Desc: PONDEROSA FOREST Sec: 9 Lot: 24 Block: 1"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HELM B')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "NOTICE": 14,
+        "W/D": 12,
+        "REL": 6,
+        "PROB": 1,
+        "P/A": 2,
+        "D/T": 5,
+        "AFFT": 1,
+        "MODIF": 2
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HELM B')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "21 instruments as grantee, 22 as grantor (index, name 'HELM B')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HELM B')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202546640",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "06/12/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-06-12: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202546640 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de HELM B L TR (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 8237.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 4176.16,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 8961.86,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 8961.86,
+        "impuestos_que_hereda": 2628.55,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 268.86,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 15859.27,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 0,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": -0.481,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "BAJA",
+    "rationale": "Techo teorico $0 < apertura $8,237. 75% del predio en SFHA (FEMA efectivo). Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 0,
+    "all_in_cost_estimate": 15859.27,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
+  }
+}

@@ -1,0 +1,646 @@
+{
+  "property_id": "harris-2026-11-acct-0842790000010",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "12438 PALMWAY ST HOUSTON 77034",
+  "account_no": "0842790000010",
+  "cause_no": "202528784",
+  "intake": {
+    "opening_bid": {
+      "value": 45180.0,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 8; tipo SALE; sale# 2; sentencia 05/03/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "12438 PALMWAY ST, HOUSTON, 77034",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "VALDEZ PATRICIA (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "12442 PALMFREE ST, HOUSTON, TX, 77034-3842",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "C1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "7800",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1791",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1958",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "45180",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "45180",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "45180",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Vacant Table Value 7500.0000xSF $45000 | Res Vacant Table Value 300.0000xSF $180",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "01/12/2005 2006-Z446711 | 09/06/2006 2006-0043090",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 10 BLK 21 GULF PALMS SEC 3",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "09/06/2006",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.202623,
+        "lat": 29.626154
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0842790000010)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 7508,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0842790000010)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~59 x 126 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0842790000010)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2011,
+          "tax": 385.01,
+          "penalties_interest": 727.67,
+          "collection_penalty": 222.55,
+          "total": 1335.23
+        },
+        {
+          "year": 2012,
+          "tax": 385.03,
+          "penalties_interest": 681.51,
+          "collection_penalty": 213.31,
+          "total": 1279.85
+        },
+        {
+          "year": 2013,
+          "tax": 384.96,
+          "penalties_interest": 635.18,
+          "collection_penalty": 204.03,
+          "total": 1224.17
+        },
+        {
+          "year": 2014,
+          "tax": 382.84,
+          "penalties_interest": 585.75,
+          "collection_penalty": 193.72,
+          "total": 1162.31
+        },
+        {
+          "year": 2015,
+          "tax": 372.22,
+          "penalties_interest": 524.84,
+          "collection_penalty": 179.41,
+          "total": 1076.47
+        },
+        {
+          "year": 2016,
+          "tax": 370.03,
+          "penalties_interest": 477.34,
+          "collection_penalty": 169.48,
+          "total": 1016.85
+        },
+        {
+          "year": 2017,
+          "tax": 369.69,
+          "penalties_interest": 432.53,
+          "collection_penalty": 160.44,
+          "total": 962.66
+        },
+        {
+          "year": 2018,
+          "tax": 369.71,
+          "penalties_interest": 388.19,
+          "collection_penalty": 151.59,
+          "total": 909.49
+        },
+        {
+          "year": 2019,
+          "tax": 410.47,
+          "penalties_interest": 381.73,
+          "collection_penalty": 140.97,
+          "total": 933.17
+        },
+        {
+          "year": 2020,
+          "tax": 502.77,
+          "penalties_interest": 407.24,
+          "collection_penalty": 161.91,
+          "total": 1071.92
+        },
+        {
+          "year": 2021,
+          "tax": 589.66,
+          "penalties_interest": 406.86,
+          "collection_penalty": 176.92,
+          "total": 1173.44
+        },
+        {
+          "year": 2022,
+          "tax": 553.33,
+          "penalties_interest": 315.41,
+          "collection_penalty": 154.75,
+          "total": 1023.49
+        },
+        {
+          "year": 2023,
+          "tax": 542.37,
+          "penalties_interest": 244.07,
+          "collection_penalty": 139.75,
+          "total": 926.19
+        },
+        {
+          "year": 2024,
+          "tax": 579.54,
+          "penalties_interest": 191.25,
+          "collection_penalty": 135.87,
+          "total": 906.66
+        },
+        {
+          "year": 2025,
+          "tax": 588.59,
+          "penalties_interest": 123.61,
+          "collection_penalty": 125.24,
+          "total": 837.44
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0842790000010",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 15839.34,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0842790000010",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2004,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0842790000010",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 15001.9,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0842790000010",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 588.59,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0842790000010",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 15590.49,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0842790000010",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "VALDEZ PATRICIA 12442 PALMFREE ST HOUSTON TX 77034 12438 PALMWAY ST LT 10 BLK 21 GULF PALMS SEC 3",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0842790000010",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 45180.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0842790000010",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202528784",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "05/03/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-05-03: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202528784 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de VALDEZ PATRICIA (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 45180.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 22906.26,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 49155.84,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 49155.84,
+        "impuestos_que_hereda": 15590.49,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 1474.68,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 70221.01,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 16071.37,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": -0.357,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "BAJA",
+    "rationale": "Techo teorico $16,071 < apertura $45,180. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 16071.37,
+    "all_in_cost_estimate": 70221.01,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-238547 | 06/16/2026 | W/D | Grantor: GARCINI ANTHONY WAYNE Grantee: VALDEZ PATRICIA Y | Desc: EDEL PLAZA Lot: 33 Block: 2",
+        "RP-2026-188369 | 05/14/2026 | REL | Grantor: SMALL BUSINESS ADMINISTRATION Grantee: VALDEZ MARGARITO Grantee: VALDEZ MARGARITO RITO Grantee: VALDEZ PATRICIA Grantee: VALDEZ PATRICIA D | Desc: HAWTHORNE PLACE Sec: 1 Lot: 186 Block: 10",
+        "RP-2026-188365 | 05/14/2026 | REL | Grantor: SMALL BUSINESS ADMINISTRATION Grantee: VALDEZ MARGARITO Grantee: VALDEZ MARGARITO RITO Grantee: VALDEZ PATRICIA Grantee: VALDEZ PATRICIA D | Desc: HAWTHORNE PLACE Sec: 1 Lot: 186 Block: 10",
+        "RP-2026-185133 | 05/12/2026 | W/D | Grantor: GRADO AURORA Grantor: GRADO MARIO Grantee: VALDEZ PATRICIA Y | Desc: GREEN RIDGE NORTH Sec: 8 Lot: 9 Block: 26",
+        "RP-2025-66994 | 02/25/2025 | W/D | Grantor: VALDEZ GERMAN Grantor: VALDEZ JOEL REYES Grantor: VALDEZ PATRICIA Grantee: VALDEZ JOEL REYES Grantee: VALDEZ PATRICIA | Desc: BONAIRE Sec: 1 Lot: 41 Block: 8",
+        "RP-2025-66993 | 02/25/2025 | FI STM | Grantor: GOODLEAP LLC Grantee: VALDEZ JOEL Grantee: VALDEZ JOEL R Grantee: VALDEZ PATRICIA | Desc: BONAIRE Sec: 1 Lot: 41 Block: 8 Related Docs",
+        "RP-2025-502048 | 12/22/2025 | REL | Grantor: BANK OF TEXAS Grantor: BOKF NA Grantee: VALDEZ MIGUEL Grantee: VALDEZ PATRICIA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-253751 | 07/01/2025 | REL | Grantor: BANK OF AMERICA N A Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: VALDEZ PATRICIA N | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-234033 | 06/18/2025 | DEED | Grantor: VAGLIENTY IMELDA R Grantor: VAGLIENTY RUBEN Grantee: VAGLIENTY IMELDA R Grantee: VAGLIENTY RICARDO Grantee: VAGLIENTY RUBEN Grantee: VAGLIENTY RUBEN JR Grantee: VALDEZ PATRICIA | Desc: OAKLAND PLACE Lot: 6-7 Block: 11",
+        "RP-2025-22405 | 01/23/2025 | A/J | Grantor: SYNCHRONY BANK Grantee: VALDEZ PATRICIA | Comment: SEE INSTRUMENT",
+        "RP-2025-124243 | 04/04/2025 | REL | Grantor: FLORES PARTNERS INVESTMENTS LLC Grantee: MATA JOSE NICANOR VALDEZ Grantee: VALDEZ PATRICIA YAMILETH | Desc: CRESTON PLACE Lot: 9 Block: 5 Related Docs",
+        "RP-2025-120067 | 04/02/2025 | NOTICE | Grantor: ALVARADO HECTOR Grantor: MCCULLEY VIRGINIA ELOISE Grantor: VALDEZ PATRICIA Grantee: ALVARADO HECTOR Grantee: MCCULLEY VIRGINIA ELOISE Grantee: VALDEZ PATRICIA | Desc: OLD RIVER ACRES Lot: 43",
+        "RP-2025-120066 | 04/02/2025 | W/D | Grantor: MCCULLEY VIRGINIA ELOISE Grantee: ALVARADO HECTOR Grantee: VALDEZ PATRICIA | Desc: OLD RIVER ACRES Lot: 43",
+        "RP-2024-29350 | 01/29/2024 | W/D | Grantor: ESTATE OF GAMALIEL PEREZ Grantor: GUEL ANGELICA Grantor: GUEL ANGIE ANGELICA Grantee: MATA JOSE NICANOR VALDEZ Grantee: VALDEZ PATRICIA YAMILETH | Desc: TIDWELL ESTATES Lot: 37",
+        "RP-2024-234608 | 06/27/2024 | W/D | Grantor: REYES IOSHA HUNTER Grantee: MATA JOSE NICANOR VALDEZ Grantee: VALDEZ PATRICIA YAMILETH | Desc: CRESTON PLACE Lot: 9 Block: 5",
+        "RP-2023-67185 | 02/28/2023 | W/D | Grantor: AVILES JUAN Grantor: AVILES MARIA Grantee: ALVARADO HECTOR Grantee: VALDEZ PATRICIA | Desc: HUNTERWOOD VILLAGE Sec: 1 Lot: 48 Block: 3",
+        "RP-2023-381193 | 10/04/2023 | W/D | Grantor: VALDEZ JOEL REYES Grantor: VALDEZ PATRICIA Grantee: VALDEZ GERMAN Grantee: VALDEZ JOEL REYES Grantee: VALDEZ PATRICIA | Desc: BONAIRE Sec: 1 Lot: 41 Block: 8",
+        "RP-2023-370057 | 09/27/2023 | FI STM | Grantor: GOODLEAP LLC Grantee: VALDEZ JOEL R Grantee: VALDEZ PATRICIA | Desc: BONAIRE Sec: 1 Lot: 41 Block: 8 Related Docs",
+        "RP-2022-583457 | 12/12/2022 | W/D | Grantor: DIAZ ELSA JUDITH Grantor: GUILLEN DULCE SOBEYDA Grantor: GUILLEN REYNALDO MARTINEZ Grantor: LAROTTA CLARISA Grantee: VALDEZ PATRICIA YAMILETH Grantee: VALDEZ-MATA JOE NICANOR | Desc: NITSCH ADDITION Lot: 4 Block: 3",
+        "RP-2022-468371 | 09/19/2022 | REL | Grantor: WELLS FARGO BANK N.A. Grantee: VALDEZ JOSE Grantee: VALDEZ PATRICIA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-3866 | 01/04/2022 | REL | Grantor: BANK OF AMERICAN N A Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: VALDEZ ERNEST M Grantee: VALDEZ PATRICIA K Grantee: VALDEZ PATRICIA KAYE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-363342 | 07/14/2022 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: QUICKEN LOANS INC Grantee: VALDEZ PATRICIA K | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-92143 | 02/23/2021 | LIEN | Grantor: CITY OF HOUSTON Grantee: VALDEZ PATRICIA | Desc: GULF PALMS Sec: 3 Lot: 10 Block: 21",
+        "RP-2021-530141 | 09/15/2021 | REL | Grantor: WACHOVIA MORTGAGE FSB Grantor: WELLS FARGO BANK N A Grantor: WORLD SAVINGS BANK FSB Grantee: VALDEZ PATRICIA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-484293 | 08/25/2021 | LIEN | Grantor: CITY OF HOUSTON Grantee: VALDEZ PATRICIA | Desc: GULF PALMS Sec: 3 Lot: 10 Block: 21",
+        "RP-2019-47608 | 02/05/2019 | NOTICE | Grantor: ABATECOLA FAMILY LIMITED PARTNERSHIP Grantor: ABATECOLA LLC Grantor: VALDEZ JOSE Grantor: VALDEZ PATRICIA Grantee: ABATECOLA FAMILY LIMITED PARTNERSHIP Grantee: ABATECOLA LLC Grantee: VALDEZ JOSE Grantee: VALDEZ PATRICIA | Desc: LAS COLONIAS Sec: 1 Lot: 4 Block: 2",
+        "RP-2019-46816 | 02/05/2019 | W/D | Grantor: ABATECOLA FAMILY LIMITED PARTNERSHIP Grantor: ROBERT ABATECOLA LLC Grantee: VALDEZ JOSE Grantee: VALDEZ PATRICIA | Desc: LAS COLONIAS Sec: 1 Lot: 4 Block: 2",
+        "RP-2019-457514 | 10/15/2019 | LIEN | Grantor: CITY OF HOUSTON Grantee: VALDEZ PATRICIA | Desc: GULF PALMS Sec: 3 Lot: 10 Block: 21",
+        "RP-2019-428106 | 09/26/2019 | W/D | Grantor: ABATECOLA FAMILY LIMITED PARTNERSHIP Grantor: ROBERT ABATECOLA LLC Grantee: VALDEZ JOSE Grantee: VALDEZ PATRICIA | Desc: LAS COLONIAS Sec: 1 Lot: 3 Block: 2",
+        "RP-2019-312873 | 07/19/2019 | LIEN | Grantor: CITY OF HOUSTON Grantee: VALDEZ PATRICIA | Desc: GULF PALMS Sec: 3 Lot: 10 Block: 21",
+        "RP-2016-509195 | 11/10/2016 | LIEN | Grantor: CITY OF HOUSTON Grantee: VALDEZ PATRICIA | Desc: GULF PALMS Sec: 3 Lot: 10 Block: 21",
+        "RP-2016-391412 | 08/31/2016 | REL | Grantor: BANK OF AMERICA N A Grantee: PRANGE PATRICIA I Grantee: VALDEZ JESSE J Grantee: VALDEZ PATRICIA I | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-386048 | 08/29/2016 | REL | Grantor: BANK OF AMERICA N A Grantor: COUNTRYWIDE BANK FSB Grantor: COUNTRYWIDE BANK N A Grantee: VALDEZ ERNEST M Grantee: VALDEZ PATRICIA KAYE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-386039 | 08/29/2016 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: VALDEZ ERNEST M Grantee: VALDEZ PATRICIA KAYE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-346986 | 08/05/2016 | AFFT | Grantor: RUBIN LEONARD Grantor: RUBIN TRISH Grantor: VALDEZ JESSE J Grantee: PRANGE WILLIAM EST Grantee: VALDEZ PATRICIA I EST | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VALDEZ PATRICIA')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2025-66996 | 02/25/2025 | AFFT | Grantor: VALDEZ JOEL Grantor: VALDEZ JOEL REYES Grantor: VALDEZ PATRICIA Grantee: SEE INSTRUMENT | Desc: BONAIRE Sec: 1 Lot: 41 Block: 8",
+        "RP-2025-66995 | 02/25/2025 | D/T | Grantor: VALDEZ JOEL Grantor: VALDEZ JOEL REYES Grantor: VALDEZ PATRICIA Grantee: HOUSTON FEDERAL CREDIT UNION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: CHOAT CHRISTOPHER | Desc: BONAIRE Sec: 1 Lot: 41 Block: 8",
+        "RP-2025-66994 | 02/25/2025 | W/D | Grantor: VALDEZ GERMAN Grantor: VALDEZ JOEL REYES Grantor: VALDEZ PATRICIA Grantee: VALDEZ JOEL REYES Grantee: VALDEZ PATRICIA | Desc: BONAIRE Sec: 1 Lot: 41 Block: 8",
+        "RP-2025-458456 | 11/19/2025 | MTG | Grantor: ALVARADO HECTOR Grantor: VALDEZ PATRICIA Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SEE INSTRUMENT | Desc: HUNTERWOOD VILLAGE Sec: 1 Lot: 48 Block: 3",
+        "RP-2025-288698 | 07/24/2025 | FI STM | Grantor: VALDEZ JOEL R Grantor: VALDEZ PATRICIA Grantee: GOODLEAP LLC | Desc: BONAIRE Sec: 1 Lot: 41 Block: 8",
+        "RP-2025-1899 | 01/03/2025 | MEMO | Grantor: ALVARADO HECTOR Grantor: VALDEZ PATRICIA Grantee: MCCULLEY VIRGINIA | Desc: OLD RIVER ACRES Lot: 43 Related Docs",
+        "RP-2025-151819 | 04/24/2025 | W/D | Grantor: ALVARADO HECTOR Grantor: VALDEZ PATRICIA Grantee: ALVARADO HECTOR Grantee: GUERRA GUILLERMO JAVIER Grantee: GUTIERREZ JOSE MANUEL MIRANDA | Desc: OLD RIVER ACRES Lot: 43",
+        "RP-2025-120068 | 04/02/2025 | REL | Grantor: ALVARADO HECTOR Grantor: VALDEZ PATRICIA Grantee: MCCULLEY VIRGINIA | Desc: OLD RIVER ACRES Lot: 43 Related Docs",
+        "RP-2025-120067 | 04/02/2025 | NOTICE | Grantor: ALVARADO HECTOR Grantor: MCCULLEY VIRGINIA ELOISE Grantor: VALDEZ PATRICIA Grantee: ALVARADO HECTOR Grantee: MCCULLEY VIRGINIA ELOISE Grantee: VALDEZ PATRICIA | Desc: OLD RIVER ACRES Lot: 43",
+        "RP-2024-234609 | 06/27/2024 | D/T | Grantor: MATA JOSE NICANOR VALDEZ Grantor: VALDEZ PATRICIA YAMILETH Grantee: FLORES PARTNER INVESTMENTS LLC Trustee: FOSTER JEREMY A | Desc: CRESTON PLACE Lot: 9 Block: 5 Related Docs",
+        "RP-2023-7443 | 01/09/2023 | MTG | Grantor: VALDEZ CHRISTOPHER ANGEL Grantor: VALDEZ PATRICIA Grantor: VALDEZ RICHARD D Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SEE INSTRUMENT | Desc: WINCHESTER COUNTRY TRAILS Sec: 2 Lot: 18 Block: 2",
+        "RP-2023-67186 | 02/28/2023 | D/T | Grantor: ALVARADO HECTOR Grantor: VALDEZ PATRICIA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: ROCKET MORTGAGE LLC Trustee: GUTIERREZ ESTELLA | Desc: HUNTERWOOD VILLAGE Sec: 1 Lot: 48 Block: 3",
+        "RP-2023-473744 | 12/18/2023 | FI STM | Grantor: VALDEZ JOEL R Grantor: VALDEZ PATRICIA Grantee: GOODLEAP LLC | Desc: BONAIRE Sec: 1 Lot: 41 Block: 8 Related Docs",
+        "RP-2023-381810 | 10/04/2023 | D/T | Grantor: VALDEZ GERMAN Grantor: VALDEZ JOEL REYES Grantor: VALDEZ PATRICIA Grantee: HOUSTON FEDERAL CREDIT UNION Trustee: CHOAT CRISTOPHER | Desc: BONAIRE Sec: 1 Lot: 41 Block: 8",
+        "RP-2023-381193 | 10/04/2023 | W/D | Grantor: VALDEZ JOEL REYES Grantor: VALDEZ PATRICIA Grantee: VALDEZ GERMAN Grantee: VALDEZ JOEL REYES Grantee: VALDEZ PATRICIA | Desc: BONAIRE Sec: 1 Lot: 41 Block: 8",
+        "RP-2022-349001 | 07/06/2022 | D/T | Grantor: TORRES JASON ANTHONY Grantor: VALDEZ PATRICIA K Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: QUICKEN LOANS LLC Grantee: ROCKET MORTGAGE LLC Trustee: GUTIERREZ ESTELLA | Desc: GLEN OAKS ADDITION Lot: 216 Block: 9",
+        "RP-2021-741950 | 12/29/2021 | AFFT | Grantor: VALDEZ ERNEST Grantor: VALDEZ PATRICIA KAYE Grantee: SEE INSTRUMENT | Desc: FAIRWOOD Sec: 1 Lot: 14 Block: 2",
+        "RP-2021-741949 | 12/29/2021 | D/T | Grantor: VALDEZ ERNEST Grantor: VALDEZ PATRICIA KAYE Grantee: LOANDEPOT.COM LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEM INC Trustee: BLACK THOMAS E JR | Desc: FAIRWOOD Sec: 1 Lot: 14 Block: 2",
+        "RP-2021-714573 | 12/15/2021 | FI STM | Grantor: VALDEZ JOEL R Grantor: VALDEZ PATRICIA Grantee: GOODLEAP LLC | Desc: BONAIRE Sec: 1 Lot: 41 Block: 8 Related Docs",
+        "RP-2021-140326 | 03/18/2021 | W/D | Grantor: VALDEZ DAVID FLORES Grantor: VALDEZ EVERARDO Grantor: VALDEZ FELICIANA Grantor: VALDEZ PATRICIA Grantee: CARDENAS SALVADOR | Desc: SHADY PARK ADDITION Sec: 2 Lot: 3 Block: 8",
+        "RP-2020-610184 | 12/11/2020 | W/D | Grantor: VALDEZ PATRICIA Grantor: VALDEZ RICARDO Grantee: ALVARADO JORDAN PAUL | Desc: ATASCOCITA FOREST Sec: 1 Lot: 12 Block: 9",
+        "RP-2020-136803 | 03/26/2020 | D/T | Grantor: VALDEZ CHRISTOPHER ANGEL Grantor: VALDEZ PATRICIA Grantee: BANK OF NEW YORK MELLON TRUST COMPANY NA Grantee: TEXAS DEPARTMENT OF HOUSING AND COMMUNITY AFFAIRS Trustee: WILKINSON ROBERT | Desc: WINCHESTER COUNTRY TRAILS Sec: 2 Lot: 18 Block: 2",
+        "RP-2020-136802 | 03/26/2020 | D/T | Grantor: VALDEZ CHRISTOPHER ANGEL Grantor: VALDEZ PATRICIA Grantee: HIGHLANDS RESIDENTIAL MORTGAGE LTD Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: WINCHESTER COUNTRY TRAILS Sec: 2 Lot: 18 Block: 2",
+        "RP-2019-47608 | 02/05/2019 | NOTICE | Grantor: ABATECOLA FAMILY LIMITED PARTNERSHIP Grantor: ABATECOLA LLC Grantor: VALDEZ JOSE Grantor: VALDEZ PATRICIA Grantee: ABATECOLA FAMILY LIMITED PARTNERSHIP Grantee: ABATECOLA LLC Grantee: VALDEZ JOSE Grantee: VALDEZ PATRICIA | Desc: LAS COLONIAS Sec: 1 Lot: 4 Block: 2",
+        "RP-2017-303296 | 07/07/2017 | D/T | Grantor: VALDEZ JOSE Grantor: VALDEZ PATRICIA Grantee: WELLS FARGO BANK N A Trustee: FOWLER ROBERT K | Desc: LAS COLONIAS Sec: 1 Lot: 5 Block: 2 Related Docs",
+        "RP-2016-372755 | 08/22/2016 | AFFT | Grantor: VALDEZ ERNEST M Grantor: VALDEZ PATRICIA K Grantor: VALDEZ PATRICIA KAYE Grantee: SEE INSTRUMENT | Desc: FAIRWOOD Sec: 1 Lot: 14 Block: 2",
+        "RP-2016-372754 | 08/22/2016 | D/T | Grantor: VALDEZ ERNEST M Grantor: VALDEZ PATRICIA K Grantor: VALDEZ PATRICIA KAYE Grantee: BANK OF AMERICA NA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: RECONTRUST COMPANY NA | Desc: FAIRWOOD Sec: 1 Lot: 14 Block: 2 Related Docs",
+        "RP-2016-346992 | 08/05/2016 | AFFT | Grantor: VALDEZ JESSE J Grantor: VALDEZ PATRICIA I Grantee: SEE INSTRUMENT | Desc: SUNDOWN GLEN SUBDIVISION Sec: 1 Lot: 1 Block: 5"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VALDEZ PATRICIA')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "W/D": 16,
+        "REL": 13,
+        "FI STM": 5,
+        "DEED": 1,
+        "A/J": 1,
+        "NOTICE": 4,
+        "LIEN": 5,
+        "AFFT": 5,
+        "D/T": 10,
+        "MTG": 2,
+        "MEMO": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VALDEZ PATRICIA')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "35 instruments as grantee, 28 as grantor (index, name 'VALDEZ PATRICIA')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VALDEZ PATRICIA')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  }
+}

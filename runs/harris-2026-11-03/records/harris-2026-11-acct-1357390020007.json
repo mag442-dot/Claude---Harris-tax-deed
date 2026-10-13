@@ -22,115 +22,115 @@
       "value": "2906 PARK SPRING DR, SPRING, 77373",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_owner": {
       "value": "JONES MAUD (0.5000%); MENIFEE MONECIA (0.5000%)",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_mailing_address": {
       "value": "2906 PARK SPRING LN, SPRING, TX, 77373-4910",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_state_class": {
       "value": "A1",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_land_sqft": {
       "value": "6545",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_acres": {
       "value": "0.1502",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_building_sqft": {
       "value": "1715",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_year_improved": {
       "value": "2017",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_land_value": {
       "value": "41473",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_building_value": {
       "value": "200315",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_market_value": {
       "value": "241788",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_prior_market_value": {
       "value": "254348",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_exemptions": {
       "value": "RES (Residential Homestead)",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_homestead_on_roll": {
       "value": "yes",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_land_detail": {
       "value": "Res Improved Table Value 6000.0000xSF $41100 | Res Improved Table Value 545.0000xSF $373",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_buildings": {
       "value": "Residential 2175sf built 2017",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_deeds_recorded": {
       "value": "05/02/2017 2017-RP-2017-198466 | 07/09/2018 2018-RP-2018-311982 | 12/07/2015 2015-0551577",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_legal": {
       "value": "LT 7 BLK 2 NORTH SPRING SEC 15",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_owner_since": {
       "value": "07/09/2018",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     }
   }
 }

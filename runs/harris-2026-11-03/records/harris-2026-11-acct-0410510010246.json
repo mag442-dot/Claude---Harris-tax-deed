@@ -1,0 +1,581 @@
+{
+  "property_id": "harris-2026-11-acct-0410510010246",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "420 CHARLES ST HUMBLE 77338 -",
+  "account_no": "0410510010246",
+  "cause_no": "202202877",
+  "intake": {
+    "opening_bid": {
+      "value": 15588.58,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 4; tipo SALE; sale# 3; sentencia 01/05/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "420 CHARLES ST, HUMBLE, 77338",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "MOLINA MARIO G (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "420 CHARLES ST, HUMBLE, TX, 77338-3846",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "23522",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.5400",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "1700",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1940",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "128222",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "105493",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "233715",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "250394",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 10000.0000xSF $76500 | Res Improved Table Value 13522.0000xSF $51722",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 2745sf built 1940",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "07/05/2018 2018-RP-2018-320416",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "TR 3R ABST 95 W B ADAMS",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "07/05/2018",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.262086,
+        "lat": 30.00203
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0410510010246)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 26502,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0410510010246)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~158 x 218 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0410510010246)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HUMBLE",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2024,
+          "tax": 734.79,
+          "penalties_interest": 242.47,
+          "collection_penalty": 165.04,
+          "total": 1142.3
+        },
+        {
+          "year": 2025,
+          "tax": 2486.65,
+          "penalties_interest": 522.19,
+          "collection_penalty": 220.67,
+          "total": 3229.51
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0410510010246",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 4371.81,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0410510010246",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2020,
+        2024
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0410510010246",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 3229.51,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0410510010246",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 2486.65,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0410510010246",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 5716.16,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0410510010246",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "MOLINA MARIO G 420 CHARLES ST HUMBLE TX 77338 420 CHARLES ST TR 3R ABST 95 W B ADAMS",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0410510010246",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 250394.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0410510010246",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-86099 | 03/06/2026 | DEED | Grantor: FULTS SPRING Grantor: HARRIS COUNTY Grantor: HERMAN MARK CONST Grantor: MCCARTY LYRA ELAINE Grantor: MCCARTY SPRING ADELL Grantee: MOLINA MARIO | Desc: REAVES A Abstract: 656 Comment: 0.2940 Related Docs",
+        "RP-2026-86093 | 03/06/2026 | DEED | Grantor: ENTRUST RETIREMENT SERVICES INC Grantor: FBO IRA #10993-21 Grantor: HARRIS COUNTY Grantor: IRAR TRUST Grantor: PHILLIPS JAMES CONST Grantor: QUEST IRA INC Grantor: QUEST TRUST COMPANY Grantee: MOLINA MARIO | Desc: PIPER'S CROSSING Unit: 139",
+        "RP-2026-62707 | 02/19/2026 | DEED | Grantor: ALDINE INDEPENDENT SCHOOL DISTRICT Grantor: CASTRO MYRECIO Grantor: EAGLETON SHERMAN CONST Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY EMERGENCY SERVICE DISTRICT #1 Grantor: HARRIS COUNTY EMERGENCY SERVICE DISTRICT #19 Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HARRIS COUNTY TEXAS Grantor: LONE STAR COLLEGE SYSTEM Grantor: NORTH EAST PINE VILLAGE HOME OWNERS ASSOCIATION Grantor: PINE VILLAGE MUNICIPAL UTILITY DISTRICT Grantor: PORT OF HOUSTON AUTHORITY Grantee: MOLINA MARIO | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-384123 | 09/22/2026 | DEED | Grantor: EAGLETON SHERMAN CONST Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY EMERGENCY SERVICES DISTRICT # 04 Grantor: HUMBLE INDEPENDENT SCHOOL DISTRICT Grantor: LONE STAR COLLEGE SYSTEM DISTRICT Grantor: PARKER A T Grantee: MOLINA MARIO | Desc: IDLE WILD Lot: 9 Block: 1",
+        "RP-2026-373775 | 09/15/2026 | REL | Grantor: CLAYTON KIRK F Grantor: CLAYTON SONIA Grantee: MOLINA MARIO | Desc: SPRINGRIDGE Sec: 1 Lot: 43 Block: 3 Related Docs",
+        "RP-2026-227893 | 06/09/2026 | DEED | Grantor: ALIEF INDEPENDENT SCHOOL DISTRICT Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: PHILLIPS JAMES CONST Grantor: PORT OF HOUSTON AUTHORITY Grantor: TORRES FATIMA YESENIA Grantor: TORRES PATY ROXANA Grantor: TORRES WALTER ALT Grantee: MOLINA MARIO | Desc: WINFIELD II CONDOMINIUM Unit: 31",
+        "RP-2026-20714 | 01/20/2026 | FI STM | Grantor: GOODLEAP LLC Grantee: MOLINA MARIO | Desc: SAGEMONT Sec: 8 Lot: 10 Block: 39 Related Docs",
+        "RP-2025-476989 | 12/03/2025 | W/D | Grantor: MOLINA MARIO Grantee: MOLINA MARIO ALBERTO | Desc: PONDEROSA VILLAGE REPLAT Block: 4 Tract: 10-B Reserve: D",
+        "RP-2025-476988 | 12/03/2025 | W/D | Grantor: MOLINA MARIO RIOS Grantee: MOLINA MARIO ALBERTO | Desc: BARBER A Abstract: 125 Related Docs",
+        "RP-2025-407234 | 10/14/2025 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: MOLINA MARIO Grantee: MOLINA SILVIA Grantee: RODRIGUEZ SILVIA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-404527 | 10/10/2025 | DEED | Grantor: ALDINE INDEPENDENT SCHOOL DISTRICT Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY EMERGENCY SERVICES DISTRICT #10 Grantor: HARRIS COUNTY EMERGENCY SERVICES DISTRICT #11 Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HERMAN MARK CONST Grantor: HERNANDEZ JOSE AMADEO Grantor: LONE STAR COLLEGE SYSTEM DISTRICT Grantor: PORT OF HOUSTON AUTHORITY OF HARRIS COUNTY Grantor: SALINAS IRMA Grantee: MOLINA MARIO | Desc: BARBER A Abstract: 125 Comment: 3.381 Related Docs",
+        "RP-2023-206780 | 06/06/2023 | A/J | Grantor: BARTHOLOMEW JARVIS Grantee: MOLINA MARIO ROGELIO | Comment: SEE INSTRUMENT",
+        "RP-2022-487006 | 09/30/2022 | W/D | Grantor: MOLINA MARIO R Grantee: MOLINA MARIO ALBERTO Grantee: MOLINA MARIO R | Desc: KENSINGTON PARK Unit: 14",
+        "RP-2022-467734 | 09/19/2022 | A/J | Grantor: CAVALRY SPV I LLC Grantee: MOLINA MARIO | Comment: SEE INSTRUMENT",
+        "RP-2022-421874 | 08/18/2022 | A/J | Grantor: MIDLAND FUNDING LLC Grantee: MOLINA MARIO | Comment: SEE INSTRUMENT",
+        "RP-2022-404896 | 08/08/2022 | W/D | Grantor: VEGA ANGELICA E Grantor: VEGA FERNANDO Grantee: MOLINA MARIO | Desc: HIGHLANDS TOWNSITE Lot: 2A-2B Block: 30",
+        "RP-2022-332035 | 06/27/2022 | A/J | Grantor: GOODMAN DISTRIBUTION INC Grantee: MASTER MECHANICAL A/C & HEATING Grantee: MASTER MECHANICAL A/C AND HEATING Grantee: MOLINA CHARLENE Grantee: MOLINA MARIO | Comment: SEE INSTRUMENT",
+        "RP-2022-185799 | 04/07/2022 | A/J | Grantor: GOODMAN DISTRIBUTION INC Grantee: MASTER MECHANICAL A/C & HEATING Grantee: MASTER MECHANICAL A/C AND HEATING Grantee: MOLINA MARIO | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-711509 | 12/14/2021 | A/J | Grantor: ALLY BANK Grantee: MOLINA MARIO ROGELIO Grantee: MOLINA NORMA KATHERINE | Comment: SEE INSTRUMENT",
+        "RP-2021-681961 | 11/29/2021 | REL | Grantor: CAPITAL CONCEPTS INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: KISH-MOLINA MARILYNN Grantee: MOLINA MARIO A | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-469613 | 08/18/2021 | REL | Grantor: EAGLE HOME MORTGAGE LLC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: MOLINA AMANDA NICOLE Grantee: MOLINA MARIO JOSE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-417861 | 07/23/2021 | REL | Grantor: AMERICAN EXPRESS NATIONAL BANK Grantor: GLASPER LEONIDIA Grantee: MOLINA MARIO A | Comment: SEE INSTRUMENT",
+        "RP-2021-145306 | 03/19/2021 | REL | Grantor: EVERETT FINANCIAL INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: SUPREME LENDING Grantee: MOLINA MARIO A Grantee: QUINTANA-MOLINA BERTHA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-608225 | 12/11/2020 | NOTICE | Grantor: MOLINA CRISTINA Grantor: MOLINA MARIO Grantor: PEREZ JOSE MANUEL FUENTES Grantor: PEREZ NATALIA CAROLINA SOLORZANO Grantee: MOLINA CRISTINA Grantee: MOLINA MARIO Grantee: PEREZ JOSE MANUEL FUENTES Grantee: PEREZ NATALIA CAROLINA SOLORZANO | Desc: GENERAL COMMON ELEMENTS Unit: 135",
+        "RP-2020-608224 | 12/11/2020 | W/D | Grantor: PEREZ JOSE MANUEL FUENTES Grantor: PEREZ NATALIA CAROLINA SOLORZANO Grantee: MOLINA CRISTINA Grantee: MOLINA MARIO | Desc: WESTCHASE GARDENS Unit: 135",
+        "RP-2020-593080 | 12/03/2020 | NOTICE | Grantor: DAVIS ARTIMEASE Grantor: LENNAR HOMES OF TEXAS SALES AND MARKETING LTD Grantor: MOLINA AMANDA NICOLE Grantor: MOLINA MARIO JOSE Grantor: U S HOME CORPORATION Grantee: DAVIS ARTIMEASE Grantee: LENNAR HOMES OF TEXAS SALES AND MARKETING LTD Grantee: MOLINA AMANDA NICOLE Grantee: MOLINA MARIO JOSE Grantee: U S HOME CORPORATION | Desc: DELLROSE Sec: 6 Lot: 10 Block: 2",
+        "RP-2020-593078 | 12/03/2020 | W/D | Grantor: BAKER DEBRA Grantor: LENNAR HOMES OF TEXAS SALES AND MARKETING LTD Grantor: U S HOME CORPORATION Grantee: MOLINA AMANDA NICOLE Grantee: MOLINA MARIO JOSE | Desc: DELLROSE Sec: 6 Lot: 10 Block: 2",
+        "RP-2020-373350 | 08/14/2020 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: PRIORITY HOME MORTGAGE L P Grantee: COOK BRIAN Grantee: MOLINA MARIOLA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-36538 | 01/27/2020 | REL | Grantor: MALANDRUCOLO ALLISON Grantor: SPRINGRIDGE HOMEOWNERS ASSOCIATION INC Grantee: MOLINA MARIO | Desc: SPRINGRIDGE Sec: 1 Lot: 43 Block: 3 Related Docs",
+        "RP-2019-456382 | 10/15/2019 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: ROYAL UNITED MORTGAGE LLC Grantee: MOLINA MARIO Grantee: MOLINA MUCHA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-250683 | 06/13/2019 | A/J | Grantor: AMERICAN EXPRESS NATIONAL BANK Grantee: MOLINA MARIO A | Comment: SEE INSTRUMENT",
+        "RP-2019-242504 | 06/10/2019 | W/D | Grantor: ESTRADA ENRIQUE Grantor: ESTRADA SILVA Grantee: MOLINA MARIO | Desc: MICKINNEY-MASSEY SUBDIVISION Lot: 7",
+        "RP-2019-239159 | 06/06/2019 | LIEN | Grantor: SPRINGRIDGE HOMEOWNERS ASSOCIATION INC Grantee: MOLINA MARIO | Desc: SPRINGRIDGE Sec: 1 Lot: 43 Block: 3 Related Docs",
+        "RP-2019-134823 | 04/03/2019 | W/D | Grantor: HREAL COMPANY LLC Grantee: MOLINA MARIO A Grantee: QUINTANA-MOLINA BERTHA | Desc: UNIVERSITY PARK PATIO HOMES Sec: 3 Lot: 6 Block: 2",
+        "RP-2018-320416 | 07/17/2018 | W/D | Grantor: MORGAN PATRICIA Grantee: MOLINA MARIO G | Desc: ADAMS W B Abstract: 95 Related Docs",
+        "RP-2018-18608 | 01/16/2018 | REL | Grantor: SWF HOMES LLC Grantee: GARCIA-OCANA GRACIA Y Grantee: MOLINA MARIO D | Desc: WILSHIRE PLACE Lot: 266-267 Block: 10 Related Docs",
+        "RP-2018-153676 | 04/11/2018 | NOTICE | Grantor: GARCIA OCANA GRACIA YANERI Grantor: MOLINA MARIO D Grantor: ODOMS J ARTHUR JR Grantor: ODOMS MICHELLE Grantee: GARCIA OCANA GRACIA YANERI Grantee: MOLINA MARIO D Grantee: ODOMS J ARTHUR JR Grantee: ODOMS MICHELLE | Desc: FOXWOOD Sec: 9 Lot: 16 Block: 4",
+        "RP-2017-349861 | 08/03/2017 | DEED | Grantor: MOLINA MARIO Grantee: MOLINA MARIO Grantee: MOLINA-ALBRECHT MATHELDA Grantee: MOLINA-COOK MARIOLA Grantee: MOLINA-SMITH MARIELA Grantee: MOLINA-TAPIA MOREUA | Desc: PINE VILLAGE Sec: 2 Lot: 67 Block: 7",
+        "RP-2017-21992 | 01/18/2017 | A/J | Grantor: INVESTMENT RETRIEVERS INC Grantee: MOLINA MARIO J | Comment: SEE INSTRUMENT",
+        "RP-2017-109011 | 03/15/2017 | REL | Grantor: WELLS FARGO BANK N A Grantee: KISH-MOLINA MARILYNN M Grantee: MOLINA MARIO A | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-100237 | 03/09/2017 | A/J | Grantor: INVESTMENT RETRIEVERS INC Grantee: MOLINA MARIO J | Comment: SEE INSTRUMENT",
+        "RP-2016-82165 | 02/29/2016 | NOTICE | Grantor: MOLINA MARIO E Grantor: VU HUONG KIM Grantor: ZEMENCSIK CHERRIE Grantee: MOLINA MARIO E Grantee: VU HUONG KIM Grantee: ZEMENCSIK CHERRIE | Desc: PRESERVE AT HIGHLAND GLEN Sec: 1 Lot: 49 Block: 2",
+        "RP-2016-179553 | 04/29/2016 | CONT | Grantor: STURMAN CLAUDIA Grantor: STURMAN JEFFREY I Grantee: MASTERS MECHANICAL Grantee: MOLINA MARIO | Desc: HOUSTON CITY STREET RAILWAY COMPANY'S ADDITION NUMBER ONE Lot: 9 Block: 22",
+        "RP-2016-126438 | 03/29/2016 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: MOLINA MARIO Grantee: MOLINA MARIO A Grantee: MOLINA MU CHA Grantee: MOLINA MUCHA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-100358 | 03/10/2016 | REL | Grantor: WELLS FARGO BANK Grantee: MOLINA MARIO E Grantee: VU HUONG KIM | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MOLINA MARIO')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-41314 | 02/04/2026 | DEED | Grantor: BREIMON JENNIFER Grantor: GALLOWAY CHRISTOPHER Grantor: GALLOWAY DELORES K Grantor: GALLOWAY JOSEPH A JR Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY EMERGENCY SERVICE DISTRICT #11 Grantor: HARRIS COUNTY EMERGENCY SERVICE DISTRICT #7 Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HARRIS COUNTY WATER CONTROL AND IMPROVEMENT DISTRICT #99 Grantor: HERMAN MARK CONST Grantor: LONE STAR COLLEGE SYSTEM Grantor: MOLINA MARIO G SR Grantor: PORT OF HOUSTON AUTHORITY Grantor: SPRING INDEPENDENT SCHOOL DISTRICT Grantee: HT INVESTMENTS | Desc: NORTH HILL ESTATES Sec: 2 Lot: 136 Block: 8",
+        "RP-2026-26420 | 01/23/2026 | DEED | Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HERMAN MARK CONST Grantor: HUMBLE INDEPENDENT SCHOOL DISTRICT Grantor: LONE STAR COLLEGE SYSTEM Grantor: MOLINA MARIO G SR Grantor: PORT OF HOUSTON AUTHORITY Grantee: VEGA ASAEL | Desc: RIVERSIDE CREST Lot: 13 Block: 4 Related Docs",
+        "RP-2026-168758 | 05/01/2026 | QCD | Grantor: MOLINA MARIO A Grantor: MOLINA MARIO R Grantee: HERNANDEZ JOSE A | Desc: BARBER A Abstract: 125 Comment: 3.381 Related Docs",
+        "RP-2026-141106 | 04/14/2026 | QCD | Grantor: MOLINA MARIO A Grantor: MOLINA MARIO R Grantee: CARTWRIGHT CINDY | Desc: PONDEROSA VILLAGE Block: 4 Reserve: D",
+        "RP-2025-476989 | 12/03/2025 | W/D | Grantor: MOLINA MARIO Grantee: MOLINA MARIO ALBERTO | Desc: PONDEROSA VILLAGE REPLAT Block: 4 Tract: 10-B Reserve: D",
+        "RP-2025-476988 | 12/03/2025 | W/D | Grantor: MOLINA MARIO RIOS Grantee: MOLINA MARIO ALBERTO | Desc: BARBER A Abstract: 125 Related Docs",
+        "RP-2025-43690 | 02/06/2025 | W/D | Grantor: ARREGUIN MARIO MOLINA Grantor: MOLINA LEOPOLDO Grantor: MOLINA MARIO Grantor: MOLINA MARTHA Grantee: ARREGUIN LEOPOLDO MOLINA | Desc: WESTBURY SOUTH Lot: 29 Block: 133",
+        "RP-2025-192558 | 05/21/2025 | FI STM | Grantor: MOLINA MARIO Grantee: GOODLEAP LLC | Desc: SAGEMONT Sec: 8 Lot: 10 Block: 39 Related Docs",
+        "RP-2023-128938 | 04/12/2023 | FI STM | Grantor: MOLINA MARIO Grantee: AQUA FINANCE INC | Desc: DELLROSE Sec: 6 Lot: 10 Block: 2",
+        "RP-2022-487006 | 09/30/2022 | W/D | Grantor: MOLINA MARIO R Grantee: MOLINA MARIO ALBERTO Grantee: MOLINA MARIO R | Desc: KENSINGTON PARK Unit: 14",
+        "RP-2022-404897 | 08/08/2022 | D/T | Grantor: MOLINA MARIO Grantee: VEGA ANGELICA E Grantee: VEGA FERNANDO Trustee: GRAVES DENISE F | Desc: HIGHLANDS TOWNSITE Lot: 2A-2B Block: 30",
+        "RP-2022-289570 | 06/02/2022 | W/D | Grantor: MOLINA MARIO Grantee: HERNANDEZ AARON | Desc: MCKINNEY-MASSEY SUBDIVISION Lot: 7",
+        "RP-2022-289569 | 06/02/2022 | AFFT | Grantor: MOLINA MARIO Grantee: SEE INSTRUMENT | Desc: MCKINNEY-MASSEY SUBDIVISION Lot: 7 Related Docs",
+        "RP-2021-658481 | 11/16/2021 | W/D | Grantor: KISH-MOLINA MARILYNN Grantor: MOLINA MARIO A Grantee: CRAIG BRIAN FREDERICK Grantee: CRAIG KRISTI | Desc: LAKEPOINTE FOREST Lot: 21 Block: 3",
+        "RP-2021-577587 | 10/07/2021 | D/T | Grantor: MOLINA MARIO D Grantor: OCANA GRACIA YANERI GARCIA Grantee: FREEDOM MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK MANN & GRAHAM L L P | Desc: FOXWOOD Sec: 9 Lot: 16 Block: 4",
+        "RP-2021-485041 | 08/25/2021 | D/T | Grantor: MOLINA AMANDA NICOLE Grantor: MOLINA MARIO JOSE Grantee: FREEDOM MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK MANN & GRAHAM L L P | Desc: DELLROSE Sec: 6 Lot: 10 Block: 2",
+        "RP-2021-100585 | 02/26/2021 | D/T | Grantor: MOLINA MARIO A Grantor: QUINTANA-MOLINA BERTHA C Grantee: EVERETT FINANCIAL INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SUPREME LENDING Trustee: EVERETT SCOTT | Desc: UNIVERSITY PARK PATIO HOMES Sec: 3 Lot: 6 Block: 2 Related Docs",
+        "RP-2020-608225 | 12/11/2020 | NOTICE | Grantor: MOLINA CRISTINA Grantor: MOLINA MARIO Grantor: PEREZ JOSE MANUEL FUENTES Grantor: PEREZ NATALIA CAROLINA SOLORZANO Grantee: MOLINA CRISTINA Grantee: MOLINA MARIO Grantee: PEREZ JOSE MANUEL FUENTES Grantee: PEREZ NATALIA CAROLINA SOLORZANO | Desc: GENERAL COMMON ELEMENTS Unit: 135",
+        "RP-2020-593080 | 12/03/2020 | NOTICE | Grantor: DAVIS ARTIMEASE Grantor: LENNAR HOMES OF TEXAS SALES AND MARKETING LTD Grantor: MOLINA AMANDA NICOLE Grantor: MOLINA MARIO JOSE Grantor: U S HOME CORPORATION Grantee: DAVIS ARTIMEASE Grantee: LENNAR HOMES OF TEXAS SALES AND MARKETING LTD Grantee: MOLINA AMANDA NICOLE Grantee: MOLINA MARIO JOSE Grantee: U S HOME CORPORATION | Desc: DELLROSE Sec: 6 Lot: 10 Block: 2",
+        "RP-2020-593079 | 12/03/2020 | D/T | Grantor: MOLINA AMANDA NICOLE Grantor: MOLINA MARIO JOSE Grantee: EAGLE HOME MORTGAGE LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: VALBY SCOTT R | Desc: DELLROSE Sec: 6 Lot: 10 Block: 2 Related Docs",
+        "RP-2020-336823 | 07/28/2020 | D/T | Grantor: COOK BRIAN Grantor: MOLINA MARIOLA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: WYNDHAM CAPITAL MORTGAGE INC Trustee: BLACK THOMAS E JR | Desc: BRACHER ESTATES Lot: 6 Block: 2",
+        "RP-2019-358683 | 08/15/2019 | AFFT | Grantor: MOLINA MARIO Grantor: MOLINA MUCHA Grantee: SEE INSTRUMENT | Desc: SAGEMONT Sec: 8 Lot: 10 Block: 39",
+        "RP-2019-358682 | 08/15/2019 | D/T | Grantor: MOLINA MARIO Grantor: MOLINA MUCHA Grantee: JPMORGAN CHASE BANK N A Trustee: POLUNSKY ALLAN B | Desc: SAGEMONT Sec: 8 Lot: 10 Block: 39",
+        "RP-2019-134824 | 04/03/2019 | D/T | Grantor: MOLINA MARIO A Grantor: QUINTANA-MOLINA BERTHA Grantee: EVERETT FINANCIAL INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SUPREME LENDING Trustee: EVERETT SCOTT | Desc: UNIVERSITY PARK PATIO HOMES Sec: 3 Lot: 6 Block: 2 Related Docs",
+        "RP-2018-153676 | 04/11/2018 | NOTICE | Grantor: GARCIA OCANA GRACIA YANERI Grantor: MOLINA MARIO D Grantor: ODOMS J ARTHUR JR Grantor: ODOMS MICHELLE Grantee: GARCIA OCANA GRACIA YANERI Grantee: MOLINA MARIO D Grantee: ODOMS J ARTHUR JR Grantee: ODOMS MICHELLE | Desc: FOXWOOD Sec: 9 Lot: 16 Block: 4",
+        "RP-2018-153675 | 04/11/2018 | D/T | Grantor: MOLINA MARIO D Grantor: OCANA GRACIA YANERI GARCIA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: REPUBLIC STATE MORTGAGE CO Trustee: WAGNON ROBERT H | Desc: FOXWOOD Sec: 9 Lot: 16 Block: 4 Related Docs",
+        "RP-2017-91288 | 03/03/2017 | AFFT | Grantor: MASTERS MECHANICAL Grantor: MOLINA MARIO Grantee: SEE INSTRUMENT | Desc: HOUSTON CITY STREET RAILWAY COMPANY'S ADDITION Lot: 9 Block: 22",
+        "RP-2017-91287 | 03/03/2017 | REL | Grantor: MASTERS MECHANICAL Grantor: MOLINA MARIO Grantee: STURMAN CLAUDIA Grantee: STURMAN JEFFREY I | Desc: HOUSTON CITY STREET RAILWAY COMPANY Sec: 1 Lot: 9 Block: 22",
+        "RP-2017-79052 | 02/24/2017 | AFFT | Grantor: KISH-MOLINA MARILYNN Grantor: MOLINA MARIO A Grantee: SEE INSTRUMENT | Desc: LAKEPOINTE FOREST Lot: 21 Block: 3",
+        "RP-2017-79051 | 02/24/2017 | D/T | Grantor: KISH-MOLINA MARILYNN Grantor: MOLINA MARIO A Grantee: CAPITAL CONCEPTS INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK MANN & GRAHAM L L P | Desc: LAKEPOINTE FOREST Lot: 21 Block: 3 Related Docs",
+        "RP-2017-349861 | 08/03/2017 | DEED | Grantor: MOLINA MARIO Grantee: MOLINA MARIO Grantee: MOLINA-ALBRECHT MATHELDA Grantee: MOLINA-COOK MARIOLA Grantee: MOLINA-SMITH MARIELA Grantee: MOLINA-TAPIA MOREUA | Desc: PINE VILLAGE Sec: 2 Lot: 67 Block: 7",
+        "RP-2017-261787 | 06/13/2017 | AFFT | Grantor: MOLINA MARIO Grantor: MOLINA MATHELDA Grantor: SEQUEIRA MARIA REGINA Grantee: SEQUEIRA JAIME R EST | Comment: SEE INSTRUMENT",
+        "RP-2017-251689 | 06/07/2017 | AFFT | Grantor: KISH-MOLINA MARILYNN Grantor: MOLINA MARIO A Grantee: SEE INSTRUMENT | Desc: LAKEPOINTE FOREST Lot: 21 Block: 3",
+        "RP-2017-251688 | 06/07/2017 | D/T | Grantor: KISH-MOLINA MARILYNN Grantor: MOLINA MARIO A Grantee: CAPITAL CONCEPTS INC Grantee: MORIGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK MANN & GRAHAM LLP | Desc: LAKEPOINTE FOREST Lot: 21 Block: 3",
+        "RP-2016-82165 | 02/29/2016 | NOTICE | Grantor: MOLINA MARIO E Grantor: VU HUONG KIM Grantor: ZEMENCSIK CHERRIE Grantee: MOLINA MARIO E Grantee: VU HUONG KIM Grantee: ZEMENCSIK CHERRIE | Desc: PRESERVE AT HIGHLAND GLEN Sec: 1 Lot: 49 Block: 2",
+        "RP-2016-82163 | 02/29/2016 | W/D | Grantor: MOLINA MARIO E Grantor: VU HUONG KIM Grantee: ZEMENCSIK CHERRIE | Desc: PRESERVE AT HIGHLAND GLEN Sec: 1 Lot: 49 Block: 2",
+        "RP-2016-110129 | 03/17/2016 | AFFT | Grantor: MOLINA MARIO Grantor: MOLINA MUCHA Grantee: SEE INSTRUMENT | Desc: SAGEMONT Sec: 8 Lot: 10 Block: 39",
+        "RP-2016-110128 | 03/17/2016 | D/T | Grantor: MOLINA MARIO Grantor: MOLINA MUCHA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: ROYAL UNITED MORTGAGE LLC Trustee: POLUNSKY ALLAN B | Desc: SAGEMONT Sec: 8 Lot: 10 Block: 39 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MOLINA MARIO')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "DEED": 10,
+        "REL": 14,
+        "FI STM": 3,
+        "W/D": 16,
+        "A/J": 9,
+        "NOTICE": 8,
+        "LIEN": 1,
+        "CONT": 1,
+        "QCD": 2,
+        "D/T": 12,
+        "AFFT": 7
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MOLINA MARIO')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "45 instruments as grantee, 38 as grantor (index, name 'MOLINA MARIO')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MOLINA MARIO')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202202877",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "01/05/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-01-05: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202202877 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de MOLINA MARIO G (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 233715.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 118493.51,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 16960.38,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 118493.51,
+        "impuestos_que_hereda": 5716.16,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 3554.81,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 131764.48,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 172093.05,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.774,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $172,093 >= cierre esperado $118,494. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HUMBLE. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 172093.05,
+    "all_in_cost_estimate": 131764.48,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
+  }
+}

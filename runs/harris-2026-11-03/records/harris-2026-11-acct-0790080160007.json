@@ -1,0 +1,569 @@
+{
+  "property_id": "harris-2026-11-acct-0790080160007",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "5926 BELARBOR ST HOUSTON 77033-1326",
+  "account_no": "0790080160007",
+  "cause_no": "201442511",
+  "intake": {
+    "opening_bid": {
+      "value": 11207.6,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 7; tipo SALE; sale# 1; sentencia 04/27/2016; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "5926 BELARBOR ST, HOUSTON, 77033",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "BYRD VICTOR C ET AL (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "5926 BELARBOR ST, HOUSTON, TX, 77033-1326",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "6600",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1515",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "942",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1950",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "61275",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "52435",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "113710",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "129272",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 6300.0000xSF $59850 | Res Improved Table Value 300.0000xSF $1425",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 1206sf built 1950",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "02/06/2016 2016-RP-2016-363258",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 7 BLK 16 BELFORT PARK SEC 2",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "02/06/2016",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "AE",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "fema_sfha": {
+      "value": true,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.327295,
+        "lat": 29.665356
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0790080160007)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 6597,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0790080160007)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~60 x 111 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0790080160007)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "AE": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 100.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2014,
+          "tax": 698.77,
+          "penalties_interest": 1069.11,
+          "collection_penalty": 353.57,
+          "total": 2121.45
+        },
+        {
+          "year": 2015,
+          "tax": 1143.1,
+          "penalties_interest": 1611.77,
+          "collection_penalty": 550.99,
+          "total": 3305.86
+        },
+        {
+          "year": 2016,
+          "tax": 1218.72,
+          "penalties_interest": 1572.15,
+          "collection_penalty": 558.17,
+          "total": 3349.04
+        },
+        {
+          "year": 2017,
+          "tax": 1316.87,
+          "penalties_interest": 1540.73,
+          "collection_penalty": 571.52,
+          "total": 3429.12
+        },
+        {
+          "year": 2018,
+          "tax": 1319.0,
+          "penalties_interest": 1384.95,
+          "collection_penalty": 540.79,
+          "total": 3244.74
+        },
+        {
+          "year": 2019,
+          "tax": 1320.64,
+          "penalties_interest": 1228.2,
+          "collection_penalty": 478.14,
+          "total": 3026.98
+        },
+        {
+          "year": 2020,
+          "tax": 887.58,
+          "penalties_interest": 718.93,
+          "collection_penalty": 301.57,
+          "total": 1908.08
+        },
+        {
+          "year": 2021,
+          "tax": 1768.74,
+          "penalties_interest": 1220.43,
+          "collection_penalty": 560.23,
+          "total": 3549.4
+        },
+        {
+          "year": 2022,
+          "tax": 2371.85,
+          "penalties_interest": 1351.95,
+          "collection_penalty": 563.65,
+          "total": 4287.45
+        },
+        {
+          "year": 2023,
+          "tax": 2646.33,
+          "penalties_interest": 1190.85,
+          "collection_penalty": 563.62,
+          "total": 4400.8
+        },
+        {
+          "year": 2024,
+          "tax": 2748.19,
+          "penalties_interest": 906.91,
+          "collection_penalty": 518.35,
+          "total": 4173.45
+        },
+        {
+          "year": 2025,
+          "tax": 2747.32,
+          "penalties_interest": 576.93,
+          "collection_penalty": 468.1,
+          "total": 3792.35
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0790080160007",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 40588.72,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0790080160007",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2010,
+        2015
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0790080160007",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 37282.86,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0790080160007",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 2747.32,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0790080160007",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 40030.18,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0790080160007",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "BYRD VICTOR C ET AL 5926 BELARBOR ST HOUSTON TX 77033 5926 BELARBOR ST LT 7 BLK 16 BELFORT PARK SEC 2",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0790080160007",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 129272.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0790080160007",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "201442511",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "04/27/2016",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 cerro el 2018-04-27 (si hubo citacion por publicacion)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 201442511 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de BYRD VICTOR C ET AL (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 113710.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 57650.97,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 12193.87,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 57650.97,
+        "impuestos_que_hereda": 40030.18,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 1729.53,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 103410.68,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 45570.7,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.1,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "NO PARA DUPLEX",
+    "rationale": "Lote 6,597 sqft / 100% del predio en zona de inundacion especial (SFHA): heuristica contra la salida dúplex (no es un limite legal). Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 45570.7,
+    "all_in_cost_estimate": 103410.68,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2024-367650 | 10/03/2024 | AFFT | Grantor: BYRD JERRY N Grantor: BYRD JOEL Grantor: HANSEL BARBARA Grantee: BYRD VICKI A EST Grantee: BYRD VICKI ANN EST Grantee: BYRD VICTORIA ANN EST | Desc: ATASCOCITA WEST Sec: 2 Lot: 20 Block: 8",
+        "RP-2021-359567 | 06/28/2021 | LIEN | Grantor: ATTORNEY GENERAL OF TEXAS Grantor: BYRD SABRINA DAISE Grantee: BYRD VICTOR CRYIEL | Comment: SEE INSTRUMENT",
+        "RP-2018-168313 | 04/20/2018 | W/D | Grantor: GASTON LEE A Grantor: JACKSON LEE A SR EST Grantor: JACKSON LEE H JR Grantor: JACKSON LEE H SR EST Grantee: BYRD VICTOR C | Desc: BELFORT PARK NO 2 Lot: 7 Block: 16",
+        "RP-2016-363258 | 08/16/2016 | QCD | Grantor: JACKSON LEE H Grantor: JACKSON LEE H JR Grantee: BYRD VICTOR C Grantee: HOUSE OF GOD FMC | Desc: BELFORT PARK Sec: 2 Lot: 7 Block: 16"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BYRD VICTOR')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2024-102581 | 03/25/2024 | AFFT | Grantor: BYRD VICTORIA Grantor: GAMBOA KIERAN RHYS Grantor: LEGG ELIZABETH ANNA MARIE Grantee: BRADDY DEBRA RENEE EST Grantee: LEGG JESSE A JR EST | Comment: SEE INSTRUMENT",
+        "RP-2016-374475 | 08/23/2016 | DEED | Grantor: BYRD VICTOR Grantor: BYRD VICTOR CRYIEL Grantor: CITY OF HOUSTON Grantor: CITY OF HOUSTON TRE Grantor: HARRIS COUNTY Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON INDEPENDENT SCHOOL DISTRICT Grantor: WALKER MAY CONST Grantee: BELL EARLY GUIDRY | Desc: BROOKHAVEN ADDITION Lot: 2 Block: L",
+        "RP-2016-211251 | 05/18/2016 | DEED | Grantor: BYRD VICTOR Grantor: BYRD VICTOR CRYIEL Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY TRE Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON INDEPENDENT SCHOOL DISTRICT Grantor: WALKER MAY CONST Grantee: CITY OF HOUSTON Grantee: HARRIS COUNTY Grantee: HARRIS COUNTY TRE Grantee: HOUSTON COMMUNITY COLLEGE SYSTEM Grantee: HOUSTON INDEPENDENT SCHOOL DISTRICT | Desc: BROOKHAVEN ADDITION Block: L"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BYRD VICTOR')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "AFFT": 2,
+        "LIEN": 1,
+        "W/D": 1,
+        "QCD": 1,
+        "DEED": 2
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BYRD VICTOR')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "4 instruments as grantee, 3 as grantor (index, name 'BYRD VICTOR')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BYRD VICTOR')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  }
+}

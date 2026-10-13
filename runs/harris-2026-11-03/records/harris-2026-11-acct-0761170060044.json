@@ -1,0 +1,597 @@
+{
+  "property_id": "harris-2026-11-acct-0761170060044",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "7845 LINDA VISTA RD HOUSTON 77028",
+  "account_no": "0761170060044",
+  "cause_no": "202281671",
+  "intake": {
+    "opening_bid": {
+      "value": 17287.3,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 3; tipo SALE; sale# 5; sentencia 07/16/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "7845 LINDA VISTA RD, HOUSTON, 77028",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "FORD MARY ROSE (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "12355 TIDWELL RD APT 1407, HOUSTON, TX, 77044-1135",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "C2",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "5739",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1317",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "71738",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "71738",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "71738",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Land Neighborhood Section 1 5739.0000xSF $71738",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "TR 44 BLK 6 PARKHURST ESTATES",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "01/02/1988",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.284726,
+        "lat": 29.838995
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0761170060044)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 5689,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0761170060044)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~45 x 130 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0761170060044)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2017,
+          "tax": 66.64,
+          "penalties_interest": 77.98,
+          "collection_penalty": 28.94,
+          "total": 173.56
+        },
+        {
+          "year": 2018,
+          "tax": 290.46,
+          "penalties_interest": 305.0,
+          "collection_penalty": 119.1,
+          "total": 714.56
+        },
+        {
+          "year": 2019,
+          "tax": 277.94,
+          "penalties_interest": 258.49,
+          "collection_penalty": 100.62,
+          "total": 637.05
+        },
+        {
+          "year": 2020,
+          "tax": 275.41,
+          "penalties_interest": 223.08,
+          "collection_penalty": 93.58,
+          "total": 592.07
+        },
+        {
+          "year": 2021,
+          "tax": 267.5,
+          "penalties_interest": 184.58,
+          "collection_penalty": 84.72,
+          "total": 536.8
+        },
+        {
+          "year": 2022,
+          "tax": 758.2,
+          "penalties_interest": 432.19,
+          "collection_penalty": 223.61,
+          "total": 1414.0
+        },
+        {
+          "year": 2023,
+          "tax": 1156.29,
+          "penalties_interest": 520.33,
+          "collection_penalty": 313.07,
+          "total": 1989.69
+        },
+        {
+          "year": 2024,
+          "tax": 1440.97,
+          "penalties_interest": 475.51,
+          "collection_penalty": 355.43,
+          "total": 2271.91
+        },
+        {
+          "year": 2025,
+          "tax": 1524.59,
+          "penalties_interest": 320.15,
+          "collection_penalty": 341.66,
+          "total": 2186.4
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0761170060044",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 10516.04,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0761170060044",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0761170060044",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 8329.64,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0761170060044",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 1524.59,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0761170060044",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 9854.23,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0761170060044",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "FORD MARY ROSE 12355 TIDWELL RD APT 1407 HOUSTON TX 77044 7845 LINDA VISTA RD TR 44 BLK 6 PARKHURST ESTATES",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0761170060044",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 71738.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0761170060044",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202281671",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "07/16/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-07-16: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202281671 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de FORD MARY ROSE (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 71738.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 36371.17,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 18808.58,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 36371.17,
+        "impuestos_que_hereda": 9854.23,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 1091.14,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 51316.54,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 42268.13,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.398,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $42,268 >= cierre esperado $36,371. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 42268.13,
+    "all_in_cost_estimate": 51316.54,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-345639 | 08/25/2026 | REL | Grantor: NAVY FEDERAL CREDIT UNION Grantee: FORD KEITH Grantee: FORD MARY E | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-296828 | 07/30/2025 | W/D | Grantor: FORD JOHN DUNCAN III Grantee: FORD MARY NATALIE | Desc: THE WOODLANDS CARLTON WOODS CREEKSIDE Sec: 5 Lot: 23 Block: 3",
+        "RP-2025-296827 | 07/30/2025 | REL | Grantor: JEFF PAUL CUSTOM HOMES LTD Grantee: FORD JOHN D III Grantee: FORD MARY N | Desc: THE WOODLANDS CARLTON WOODS CREEKSIDE Sec: 5 Lot: 23 Block: 3 Related Docs",
+        "RP-2024-421129 | 11/12/2024 | REL | Grantor: SCIL TEXAS LLC Grantor: SPEEDY CASH Grantor: WEST JAMES A Grantee: FORD MARY | Comment: SEE INSTRUMENT",
+        "RP-2024-257306 | 07/17/2024 | LIEN | Grantor: CITY OF HOUSTON Grantee: FORD MARY ROSE | Desc: PARKHURST ESTATES Block: 6 Tract: 44",
+        "RP-2023-17362 | 01/18/2023 | LIEN | Grantor: CITY OF HOUSTON Grantee: FORD MARY ROSE | Desc: PARKHURST ESTATES Block: 6 Tract: 44",
+        "RP-2022-540901 | 11/07/2022 | NOTICE | Grantor: BALOUCH MODERN HOMES LLC Grantor: FORD MARY KATHERINE Grantee: BALOUCH MODERN HOMES LLC Grantee: FORD MARY KATHERINE | Desc: WALKER'S MARK Sec: 1 Lot: 45 Reserve: B Related Docs",
+        "RP-2022-13939 | 01/07/2022 | A/J | Grantor: OLD UNION FINANCIAL LLC Grantee: FORD MARY | Comment: SEE INSTRUMENT",
+        "RP-2021-710767 | 12/13/2021 | W/D | Grantor: CDF MANAGEMENT TRUST Grantor: FORD CHARLES D Grantor: FORD CHARLES D TRE Grantor: FORD JOHN KENNEDY TRE Grantor: LONGACRE JANE CAROL TRE Grantee: FORD JOHN KENNEDY Grantee: FORD MARY KATHLEEN EST | Desc: RIDGELY PLACE Lot: 30 Block: 6",
+        "RP-2020-424288 | 09/10/2020 | AFFT | Grantor: FORD JOHN EARL JR Grantor: ROBINSON RAYMOND EARL Grantor: WILLIAMS VAN A III Grantee: DICKSON AARON V EST Grantee: FORD HOMER EST Grantee: FORD JANIE SAPP EST Grantee: FORD JERRY DONELL EST Grantee: FORD JOHN EARL SR EST Grantee: FORD MARY LEE WARE EST | Desc: HIGHLAND HEIGHTS ANNEX 6 Lot: 21 Block: 46 Tract: 45",
+        "RP-2019-170486 | 04/26/2019 | LIEN | Grantor: CITY OF BAYTOWN Grantee: FEGER ADAM EST Grantee: FORD MARY W EST Grantee: GOLDEN INVESTMENT GROUP Grantee: GOOSE CREEK CISD Grantee: HOOPER LONNIE | Comment: SEE INSTRUMENT",
+        "RP-2018-466175 | 10/11/2018 | W/D | Grantor: FORD ELLIS WILLIAM EST Grantor: FORD MARY ANN Grantee: FORD MARY ANN | Desc: VANSICLE S Abstract: 0825 Comment: 21.68700 Related Docs",
+        "RP-2018-466174 | 10/11/2018 | W/D | Grantor: FORD ELLIS WILLIAM EST Grantor: FORD MARY ANN Grantee: FORD MARY ANN | Desc: VANSICLE S Abstract: 825 Tract: 2B Comment: .5",
+        "RP-2018-466173 | 10/11/2018 | W/D | Grantor: FORD ELLIS WILLIAM EST Grantor: FORD MARY ANN Grantee: FORD MARY ANN | Comment: SEE INSTRUMENT",
+        "RP-2018-341973 | 07/30/2018 | A/J | Grantor: FIRST SUN INC Grantee: FORD MARY TERRELL | Comment: SEE INSTRUMENT",
+        "RP-2018-110815 | 03/16/2018 | LIEN | Grantor: CITY OF BAYTOWN Grantee: CASTILLEJA LAURA Grantee: EAGLETON CHARLOTTE Grantee: FORD MARY W Grantee: ISTRE DON Grantee: VAUGHN LOIS J | Comment: SEE INSTRUMENT",
+        "RP-2017-4215 | 01/04/2017 | LIEN | Grantor: CITY OF BAYTOWN TEXAS Grantee: FORD MARY W Grantee: GOOSE CREEK CISD Grantee: PEREZ MARIO Grantee: RIGHT DIRECTION COMMUNITY ACTION CENTER | Comment: SEE INSTRUMENT",
+        "RP-2017-405892 | 09/14/2017 | LIEN | Grantor: CITY OF BAYTOWN Grantee: FORD MARY W Grantee: JONES W L EST Grantee: SWEARENGEN CLIFF Grantee: TOMAN MIKE Grantee: VEDHAMANICKAM JOSEPH R | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-3736 | 01/04/2017 | DEED | Grantor: HENRION ANITRA KAY Grantee: COLEMAN TING DENISE Grantee: FORD MARY ALLISON Grantee: HENRION ANITRA KAY Grantee: RAMIREZ LORI LYNNE | Desc: WILDWOOD AT NORTHPIOINTE Sec: 15 Lot: 12 Block: 2",
+        "RP-2016-576231 | 12/27/2016 | REL | Grantor: FEDERAL DEPOSIT INSURANCE CORPORATION Grantor: JPMORGAN CHASE BANK Grantor: WASHINGTON MUTUAL BANK Grantor: WASHINGTON MUTUAL BANK FA Grantee: FORD MARY T | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-547644 | 12/07/2016 | NOTICE | Grantor: FIRST SUN INC Grantor: FORD MARY Grantee: FIRST SUN INC Grantee: FORD MARY | Desc: LA CASA CONDOMINIUMS Lot: 7 Block: B",
+        "RP-2016-525141 | 11/22/2016 | A/J | Grantor: SCIL TEXAS LLC Grantor: SPEEDY CASH Grantee: FORD MARY | Comment: SEE INSTRUMENT",
+        "RP-2016-250341 | 06/13/2016 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: USAA FEDERAL SAVINGS BANK Grantee: CHILDS MARIO K Grantee: FORD MARY A | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-11737 | 01/11/2016 | LIEN | Grantor: CITY OF BAYTOWN Grantee: FORD MARY W Grantee: GREENWOOD ELINORA Grantee: ROBSON JONEZELL Grantee: SAULSBERRY BESSIE Grantee: SAULSBERRY FRANKLIN D JR Grantee: SMITH JOHN M Grantee: SMITH KIMBERLI | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FORD MARY')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-326746 | 08/12/2026 | AFFT | Grantor: FORD KEITH Grantor: FORD MARY E Grantee: SEE INSTRUMENT | Desc: CYPRESS CREEK LAKES Sec: 9 Lot: 42 Block: 1 Related Docs",
+        "RP-2026-326745 | 08/12/2026 | D/T | Grantor: FORD KEITH Grantor: FORD MARY E Grantee: AMERISAVE MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: VALBY SCOTT R | Desc: CYPRESS CREEK LAKES Sec: 9 Lot: 42 Block: 1 Related Docs",
+        "RP-2025-296829 | 07/30/2025 | W/D | Grantor: FORD MARY NATALIE Grantee: HANKAMER BRITTANY | Desc: THE WOODLANDS CARLTON WOODS CREEKSIDE Sec: 5 Lot: 23 Block: 3 Related Docs",
+        "RP-2024-87530 | 03/13/2024 | P/A | Grantor: FORD MARY ANN Grantee: FORD CHRISTOPHER M Grantee: FORD JEFFREY A Grantee: FORD WAYNE E | Desc: TOWN OF TOMBALL Lot: 17-20 Block: 73",
+        "RP-2024-466488 | 12/16/2024 | AFFT | Grantor: FORD MARY Grantor: FRONTIER TITLE COMPANY-WH L L C Grantor: NEWLL SAMUEL CHRISTOPHER Grantor: VELA JASON Grantee: NEWELL BECKY MURRAY EST | Desc: FONDREN PARK Sec: 6 Lot: 98 Block: 19 Related Docs",
+        "RP-2024-461201 | 12/11/2024 | AFFT | Grantor: FORD MARY Grantor: NEWELL SAMUEL CHRISTOPHER Grantor: VELA JASON Grantee: NEWELL BECKY MURRAY EST Grantee: NEWELL SAMUEL CLARENCE JR EST | Desc: FONDREN PARK Sec: 6 Lot: 98 Block: 19 Related Docs",
+        "RP-2024-183305 | 05/21/2024 | AFFT | Grantor: FORD KEITH Grantor: FORD MARY E Grantee: SEE INSTRUMENT | Desc: CYPRESS CREEK LAKES Sec: 9 Lot: 42 Block: 1 Related Docs",
+        "RP-2024-183304 | 05/21/2024 | D/T | Grantor: FORD KEITH Grantor: FORD MARY E Grantee: NAVY FEDERAL CREDIT UNION Trustee: POLUNSKY ALLAN B | Desc: CYPRESS CREEK LAKES Sec: 9 Lot: 42 Block: 1 Related Docs",
+        "RP-2024-155751 | 05/01/2024 | W/D | Grantor: FORD CHARLES DOUGLAS Grantor: FORD MARY KATHLEEN EST Grantee: SHERMAN MYLES G Grantee: SHERMAN TERRELL T | Comment: SEE INSTRUMENT",
+        "RP-2022-540901 | 11/07/2022 | NOTICE | Grantor: BALOUCH MODERN HOMES LLC Grantor: FORD MARY KATHERINE Grantee: BALOUCH MODERN HOMES LLC Grantee: FORD MARY KATHERINE | Desc: WALKER'S MARK Sec: 1 Lot: 45 Reserve: B Related Docs",
+        "RP-2022-540900 | 11/07/2022 | W/D | Grantor: FORD MARY KATHERINE Grantee: BALOUCH MODERN HOMES LLC | Desc: WALKER'S MARK Sec: 1 Lot: 45 Reserve: B",
+        "RP-2022-536296 | 11/02/2022 | AFFT | Grantor: FORD MARY ANN Grantee: SEE INSTRUMENT | Desc: VANSICLE S Abstract: 825 Related Docs",
+        "RP-2022-536295 | 11/02/2022 | W/D | Grantor: FORD ELLIS WILLIAM EST Grantor: FORD MARY ANN Grantee: WILLOW INVESTMENT PARTNERS LP | Desc: VANSICLE S Abstract: 825 Comment: 22.19 Related Docs",
+        "RP-2022-521041 | 10/24/2022 | AFFT | Grantor: FORD MARY BURNICELL Grantor: LOUGREER Grantor: MARFORD Grantor: PREGTAGE LAVERA Grantee: HECTOR JR EDWARD JUNIUS EST | Desc: FONTAINE PLACE Sec: 3 Lot: 366 Block: 13",
+        "RP-2022-243305 | 05/09/2022 | AFFT | Grantor: FORD MARY BURNICELL Grantor: GREER LOU Grantor: PRESTAGE LA VERA Grantee: GANIOUS FANNIE MAE EST Grantee: HECTOR EDWARD J SR EST Grantee: JOHNSON GRACIE MAE EST | Desc: FONTAINE PLACE Sec: 3 Lot: 366 Block: 13",
+        "RP-2021-311067 | 06/04/2021 | LIEN | Grantor: ATTORNEY GENERAL OF TEXAS Grantor: FORD MARY Grantee: CHAPPELL ORLANDO MAURICE | Comment: SEE INSTRUMENT",
+        "RP-2020-632579 | 12/23/2020 | D/T | Grantor: FORD MARY ANN GONZALES Grantor: FORD MICHAEL K Grantee: NAVY FEDERAL CREDIT UNION Trustee: POLUNSKY ALLAN B | Desc: MIRAMAR LAKE Sec: 3 Lot: 56 Block: 1",
+        "RP-2020-594990 | 12/04/2020 | MODIF | Grantor: FORD KEITH Grantor: FORD MARY E Grantee: LAKEVIEW LOAN SERVICING LLC Grantee: LOANCARE LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC | Desc: CYPRESS CREEK LAKES Sec: 9 Lot: 42 Block: 1 Related Docs",
+        "RP-2020-442599 | 09/21/2020 | AFFT | Grantor: FORD MARY LEE WARE EST Grantee: FORD JOHN EARL JR | Desc: HIGHLAND HEIGHTS ANNEX 6 Lot: 21 Block: 46",
+        "RP-2020-18698 | 01/14/2020 | W/D | Grantor: FORD MARY JANE Grantee: TRANQUILINO OSCAR REYNALDO JUAREZ | Desc: PINE TRAILS Sec: 2 Lot: 32 Block: 6",
+        "RP-2020-165982 | 04/20/2020 | W/D | Grantor: FORD JOHN KENNEDY Grantor: FORD MARY KATHLEEN EST Grantee: CDF MANAGEMENT TRUST Grantee: FORD CHARLES D TRE Grantee: FORD JOHN KENNEDY TRE Grantee: LONGACRE JANE CAROL TRE | Desc: RIDGELY PLACE Lot: 30 Block: 6",
+        "RP-2019-522263 | 11/25/2019 | CONT | Grantor: FORD MARY NATALIE Grantee: JEFF PAUL CUSTOM HOMES LTD | Desc: CARLTON WOODS-CREEKSIDE ADDITION Sec: 5 Lot: 23 Block: 3 Related Docs",
+        "RP-2019-350629 | 08/12/2019 | W/D | Grantor: CLAY JOSEPH HAROLD EST Grantor: FORD MARY Grantee: CLAY WARNELL | Desc: ARCADIAN GARDENS Sec: 2 Lot: 1",
+        "RP-2018-518378 | 11/15/2018 | P/A | Grantor: FORD MARY ANN Grantee: FORD CHRISTOPHER M Grantee: FORD JEFFREY A Grantee: FORD WAYNE E | Desc: TOMBALL Lot: 17-20 Block: 73",
+        "RP-2018-466175 | 10/11/2018 | W/D | Grantor: FORD ELLIS WILLIAM EST Grantor: FORD MARY ANN Grantee: FORD MARY ANN | Desc: VANSICLE S Abstract: 0825 Comment: 21.68700 Related Docs",
+        "RP-2018-466174 | 10/11/2018 | W/D | Grantor: FORD ELLIS WILLIAM EST Grantor: FORD MARY ANN Grantee: FORD MARY ANN | Desc: VANSICLE S Abstract: 825 Tract: 2B Comment: .5",
+        "RP-2018-466173 | 10/11/2018 | W/D | Grantor: FORD ELLIS WILLIAM EST Grantor: FORD MARY ANN Grantee: FORD MARY ANN | Comment: SEE INSTRUMENT",
+        "RP-2016-547645 | 12/07/2016 | AFFT | Grantor: FORD MARY Grantee: SEE INSTRUMENT | Desc: LA CASA CONDOMINIUMS Lot: 7 Block: B",
+        "RP-2016-547644 | 12/07/2016 | NOTICE | Grantor: FIRST SUN INC Grantor: FORD MARY Grantee: FIRST SUN INC Grantee: FORD MARY | Desc: LA CASA CONDOMINIUMS Lot: 7 Block: B",
+        "RP-2016-547643 | 12/07/2016 | W/D | Grantor: FORD MARY T Grantee: FIRST SUN INC | Desc: LA CASA CONDOMINIUMS Lot: 7 Block: B",
+        "RP-2016-381304 | 08/26/2016 | FI STM | Grantor: FORD MARY C Grantee: OLD UNION FINANCIAL | Desc: GLEN IRIS Sec: 3 Lot: 1 Block: 25",
+        "RP-2016-218954 | 05/24/2016 | D/T | Grantor: CHILDS MARIO K Grantor: FORD MARY A Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: USAA FEDERAL SAVINGS BANK Trustee: WOOD TOM | Desc: MEMORIAL NORTHWEST Sec: 1 Lot: 21 Block: 6"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FORD MARY')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "REL": 5,
+        "W/D": 16,
+        "LIEN": 8,
+        "NOTICE": 4,
+        "A/J": 3,
+        "AFFT": 10,
+        "DEED": 1,
+        "D/T": 4,
+        "P/A": 2,
+        "MODIF": 1,
+        "CONT": 1,
+        "FI STM": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FORD MARY')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "24 instruments as grantee, 32 as grantor (index, name 'FORD MARY')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FORD MARY')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  }
+}

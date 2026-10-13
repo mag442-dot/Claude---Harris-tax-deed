@@ -1,0 +1,662 @@
+{
+  "property_id": "harris-2026-11-acct-0752370030023",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "3903 TOLNAY ST HOUSTON 77021-2641",
+  "account_no": "0752370030023",
+  "cause_no": "202410103",
+  "intake": {
+    "opening_bid": {
+      "value": 28699.35,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 7; tipo SALE; sale# 8; sentencia 11/11/2025; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "3903 TOLNAY ST, HOUSTON, 77021",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "CITY WIDE BEAUTICIANS (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "3903 TOLNAY ST, HOUSTON, TX, 77021-2641",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "6480",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1488",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "1086",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1940",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "103320",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "36367",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "139687",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "149053",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 5000.0000xSF $90000 | Res Improved Table Value 1480.0000xSF $13320",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 1110sf built 1940",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 23 BLK 3 SCOTT TERRACE SEC 1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "01/02/1988",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.358681,
+        "lat": 29.700385
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0752370030023)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 6427,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0752370030023)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~60 x 107 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0752370030023)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2020,
+          "tax": 1497.66,
+          "penalties_interest": 1213.11,
+          "collection_penalty": 508.87,
+          "total": 3219.64
+        },
+        {
+          "year": 2021,
+          "tax": 2411.25,
+          "penalties_interest": 1663.77,
+          "collection_penalty": 763.74,
+          "total": 4838.76
+        },
+        {
+          "year": 2022,
+          "tax": 2906.39,
+          "penalties_interest": 1656.64,
+          "collection_penalty": 857.12,
+          "total": 5420.15
+        },
+        {
+          "year": 2023,
+          "tax": 3118.37,
+          "penalties_interest": 1403.27,
+          "collection_penalty": 844.28,
+          "total": 5365.92
+        },
+        {
+          "year": 2024,
+          "tax": 3318.14,
+          "penalties_interest": 1094.98,
+          "collection_penalty": 818.44,
+          "total": 5231.56
+        },
+        {
+          "year": 2025,
+          "tax": 3167.7,
+          "penalties_interest": 665.21,
+          "collection_penalty": 539.73,
+          "total": 4372.64
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0752370030023",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 28448.67,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0752370030023",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2019,
+        2024
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0752370030023",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 23217.11,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0752370030023",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 3167.7,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0752370030023",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 26384.81,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0752370030023",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "CITY WIDE BEAUTICIANS 3903 TOLNAY ST HOUSTON TX 77021 3903 TOLNAY ST LT 23 BLK 3 SCOTT TERRACE SEC 1",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0752370030023",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 149053.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0752370030023",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202410103",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "11/11/2025",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2027-11-11: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202410103 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de CITY WIDE BEAUTICIANS (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 139687.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 70821.31,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 31224.89,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 70821.31,
+        "impuestos_que_hereda": 26384.81,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 2124.64,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 103330.76,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 78994.94,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.352,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $78,995 >= cierre esperado $70,821. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 78994.94,
+    "all_in_cost_estimate": 103330.76,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2025-490887 | 12/12/2025 | DEED | Grantor: LEVA JEFF Grantor: SIMMONS RAMONA S Grantee: CITY WIDE ATM INC | Desc: ELM GROVE VILLAGE Sec: 1 Lot: 21 Block: 6 Related Docs",
+        "RP-2025-143757 | 04/21/2025 | L/P | Grantor: JUAREZ AGUSTINA Grantor: JUAREZ MARTIN Grantee: AJ100K INVESTMENTS LLC Grantee: CITY WIDE INVESTMENTS GROUP LLP Grantee: FIDELITY & GUARANTY LIFE MORTGAGE TRUST 2018-1 Grantee: FLORES LILIANA Grantee: RUIZ ANGELA Grantee: RUIZ JOSE Grantee: U S BANK TRUST NATIONAL ASSOCIATION Grantee: ZACHARY MICHAEL | Desc: HUMBLE ESTATES Lot: 108",
+        "RP-2024-297731 | 08/15/2024 | REL | Grantor: INTERNAL REVENUE SERVICE Grantee: CITY WIDE LAWN SERVICES LLC | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-518012 | 10/20/2022 | ORDER | Grantor: VANGUARD MODULAR BUILDING SYSTEMS LLC Grantee: CHRISTIAN RESCUE MISSION Grantee: CHRISTIAN RESCUE MISSION CHURCH Grantee: CITY WIDE CLUB OF CLUBS CDC Grantee: CITY WIDE FELLOWSHIP CHURCH Grantee: WOODARD LEROY J JR Grantee: YOUNG AMERICANS HERE ON OPERATION INC Grantee: ZOE LEARNING ACADEMY INC | Comment: SEE INSTRUMENT",
+        "RP-2022-470879 | 09/20/2022 | REL | Grantor: VANGUARD MODULAR BUILDING SYSTEMS LLC Grantor: WEST JAMES A Grantee: CHRISTIAN RESCUE MISSION Grantee: CHRISTIAN RESCUE MISSION CHURCH Grantee: CITY WIDE CLUBS OF CLUBS CDC Grantee: CITY WIDE OF CLUBS Grantee: CRM CITY FELLOWSHIP CHURCH Grantee: WOODARD LEROY J JR Grantee: YOUTH YOUNG AMERICANS HERE ON OPERATION INC Grantee: ZOE LEARNING ACADEMY INC | Comment: SEE INSTRUMENT",
+        "RP-2022-443905 | 08/31/2022 | L/P | Grantor: DOMINGO AGUSTINA JUAREZ Grantor: JUAREZ MARTIN Grantee: AJ100K INVESTMENTS LLC Grantee: CITY WIDE INVESTMENTS GROUP LLP Grantee: CITYWIDE INVESTMENTS GROUP LP Grantee: FLORES LILIANA Grantee: RUIZ ANGELA Grantee: RUIZ JOSE Grantee: ZACHARY MICHAEL | Desc: HUMBLE ESTATES Lot: 108",
+        "RP-2022-428229 | 08/23/2022 | DEED | Grantor: DASIGENIS SANDY TRE Grantor: RUIZ ANGELA Grantee: CITY WIDE INVESTMENTS GROUP LLP | Desc: HUMBLE ESTATES Lot: 108 Related Docs",
+        "RP-2020-403668 | 08/31/2020 | A/J | Grantor: MINOR CARL Grantee: CITY WIDE DEVELOPMENT Grantee: ZUNIGA ALEJANDRO | Comment: SEE INSTRUMENT",
+        "RP-2020-403667 | 08/31/2020 | A/J | Grantor: MINOR CARL Grantee: CITY WIDE DEVELOPMENT Grantee: ZUNIGA ALEJANDRO | Comment: SEE INSTRUMENT",
+        "RP-2020-26959 | 01/21/2020 | L/P | Grantor: GARCIA GERARDO Grantee: CITY WIDE DEVELOPMENTS Grantee: ZUNIGA ALEJANDRO | Desc: WOODLAND ACRES Lot: 2 Block: 7",
+        "RP-2019-71507 | 02/22/2019 | A/J | Grantor: ALDINE INDEPENDENT SCHOOL DISTRICT Grantee: CITY WIDE AUTO PARTS Grantee: MOUNTS CURTIS AVERY SR | Comment: SEE INSTRUMENT",
+        "RP-2019-558886 | 12/18/2019 | LIEN | Grantor: CITY OF HOUSTON Grantee: CITY WIDE DEVELOPMENTS | Desc: WOODLAND ACRES Lot: 2 Block: 7",
+        "RP-2019-286340 | 07/03/2019 | D/T | Grantor: CASE NANCY A Grantor: RICHEY NANCY Grantee: CITY WIDE HOME LOANS LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: PARKHOLLOW PLACE Sec: 2-3 Lot: 22 Block: 9 Related Docs",
+        "RP-2019-185980 | 05/06/2019 | NOTICE | Grantor: CHRISTIAN RESCUE MISSION Grantor: CHRISTIAN RESCUE MISSION CHURCH Grantor: CITY WIDE CLUB OF CLUBS Grantor: CITY WIDE CLUB OF CLUBS CDC Grantor: CRM CITY FELLOWSHIP CHURCH Grantor: MALONE JON Grantor: WOODARD LEROY J JR Grantor: YOUTH YOUNG AMERICANS HERE ON OPERATIONS INC Grantor: ZOE LEARNING ACADEMY INC Grantee: CHRISTIAN RESCUE MISSION Grantee: CHRISTIAN RESCUE MISSION CHURCH Grantee: CITY WIDE CLUB OF CLUBS Grantee: CITY WIDE CLUB OF CLUBS CDC Grantee: CRM CITY FELLOWSHIP CHURCH Grantee: MALONE JON Grantee: WOODARD LEROY J JR Grantee: YOUTH YOUNG AMERICANS HERE ON OPERATIONS INC Grantee: ZOE LEARNING ACADEMY INC | Comment: SEE INSTRUMENT",
+        "RP-2018-73674 | 02/22/2018 | W/D | Grantor: ROBLES DELIA Grantor: ROBLES JOEY Grantee: CITY WIDE DEVELOPMENTS | Desc: WOODLAND ACRES Lot: 2 Block: 7",
+        "RP-2018-507837 | 11/07/2018 | D/T | Grantor: GARZA MOISES O Grantor: RAMOS CLAUDIA M Grantee: CITY WIDE FUNDING CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: COLONY CREEK VILLAGE Sec: 6 Lot: 11 Block: 2 Related Docs",
+        "RP-2018-437284 | 09/24/2018 | D/T | Grantor: WILLIAMS JESSICA Grantor: WILLIAMS LUKE ASHLEY Grantee: CITY WIDE FUNDING CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: VILLAGES OF NORTHPOINTE Sec: 2 Lot: 3 Block: 1 Related Docs",
+        "RP-2018-429983 | 09/19/2018 | REL | Grantor: STATE OF TEXAS Grantor: TEXAS WORKFORCE COMMISSION Grantee: CITY WIDE LANDSCAPE SERVICES LLC | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-426404 | 09/18/2018 | D/T | Grantor: IVANOVA GALINA Grantor: LOUNEV IAROSLAV Grantee: CITY WIDE FUNDING CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: MAPLE RIDGE PLACE Sec: 1 Lot: 39 Block: 2 Related Docs",
+        "RP-2018-4032 | 01/03/2018 | D/T | Grantor: BRABHAM ADRIAN MIKEL Grantor: POOLE DANIELLE Grantee: CITY WIDE FUNDING CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: MAPLEWOOD Sec: 3 Lot: 6 Block: 5 Related Docs",
+        "RP-2018-330371 | 07/23/2018 | D/T | Grantor: AMIN SHETAL M Grantor: DWARAKANATH KISHAN Grantee: CITY WIDE FUNDING CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POIUNSKY ALLAN B | Desc: POST OAK TERRACE Lot: 17-19 Block: 4",
+        "RP-2018-25301 | 01/19/2018 | W/D | Grantor: CRM CITY FELLOWSHIP CHURCH Grantee: CITY WIDE CLUB OF CLUBS CDC | Desc: COLUMBIA ADDITION Block: 4",
+        "RP-2018-209607 | 05/14/2018 | D/T | Grantor: SMITH CHASE PATRICK Grantee: CITY WIDE FUNDING CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: HERITAGE PARK Sec: 12 Lot: 27 Block: 1 Related Docs",
+        "RP-2018-161631 | 04/17/2018 | REL | Grantor: CITY OF BAYTOWN Grantee: CITY WIDE CLUBS Grantee: PARSINO REALTY INVESTMENTS LLC | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-130061 | 03/28/2018 | REL | Grantor: STATE OF TEXAS Grantee: CITY WIDE LANDSCAPE SERVICES LLC | Comment: SEE INSTRUMENT",
+        "RP-2018-124694 | 03/26/2018 | REL | Grantor: AMANI INVESTMENTS L P Grantee: CITY WIDE CLUB OF CLUBS Grantee: CITY WIDE CLUB OF CLUBS CDC | Desc: COLUMBIA Lot: 2 Block: 1 Tract: 1",
+        "RP-2017-76093 | 02/23/2017 | D/T | Grantor: HASAN SYED Grantor: HASAN SYED NAVED Grantor: KHAN HENA Grantor: KHAN HENA ZAFAR Grantee: CITY WIDE FUNDING CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: LAFONE ESTATES Lot: 9 Block: 1 Related Docs",
+        "RP-2017-64497 | 02/14/2017 | REL | Grantor: SCF JAKE LP Grantee: CITY WIDE DEVELOPMENTS | Desc: WESTBURY Sec: 5 Lot: 11 Block: 160 Related Docs",
+        "RP-2017-557339 | 12/20/2017 | NOTICE | Grantor: CITY WIDE DEVELOPMENTS Grantor: GARCIA GERARDO Grantor: ZUNIGA ALEJANDRO Grantee: CITY WIDE DEVELOPMENTS Grantee: GARCIA GERARDO Grantee: ZUNIGA ALEJANDRO | Desc: WESTBURY Sec: 5 Lot: 6 Block: 152",
+        "RP-2017-543895 | 12/12/2017 | NOTICE | Grantor: CITY WIDE DEVELOPMENTS Grantor: JACKSON BETTY Grantor: ZOTZKY BETTY JEAN EST Grantor: ZUNIGA ALEJANDRO Grantee: CITY WIDE DEVELOPMENTS Grantee: JACKSON BETTY Grantee: ZOTZKY BETTY JEAN EST Grantee: ZUNIGA ALEJANDRO | Desc: WESTBURY Sec: 5 Lot: 6 Block: 152 Related Docs",
+        "RP-2017-543894 | 12/12/2017 | W/D | Grantor: JACKSON BETTY Grantor: ZOTEKY BETTY JEAN EST Grantee: CITY WIDE DEVELOPMENTS | Desc: WESTBURY Sec: 5 Lot: 6 Block: 152",
+        "RP-2017-513305 | 11/21/2017 | DEED | Grantor: DASIGENIS SANDY Grantor: HOPKINS JENNIFER M Grantor: HOPKINS PAUL B Grantee: CITY WIDE INVESTMENT GROUP LP | Desc: LONDONDERRY Sec: 3 Lot: 1 Block: 1",
+        "RP-2017-484133 | 11/02/2017 | W/D | Grantor: KNIGGE MARGARET L Grantor: MINOR CARL LEE Grantee: CITY WIDE DEVELOPMENTS Grantee: ZUNIGA ALEJANDRO | Desc: TIMBERGROVE MANOR Sec: 9 Lot: 32 Block: 51",
+        "RP-2017-467891 | 10/25/2017 | AFFT | Grantor: EXODUS TITLE COMPANY Grantor: FRIEDRICH JERRY WAYNE Grantee: CITY WIDE DEVELOPMENTS Grantee: ZUNIGA ALEJANDRO | Desc: TIMBERGROVE MANOR Sec: 7 Lot: 12 Block: 48",
+        "RP-2017-448641 | 10/12/2017 | D/T | Grantor: DONG JING Grantor: PHANLE DANH Grantee: CITY WIDE FUNDING CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: WATERHILL HOMES ON DICKSON Lot: 13 Block: 1",
+        "RP-2017-438387 | 10/04/2017 | D/T | Grantor: KNIGHTON BRITTANY ELIZABETH Grantor: SCOTT KENNETH WAYNE Grantee: CITY WIDE FUNDING CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: STONE CREEK Sec: 3 Lot: 20 Block: 2 Related Docs",
+        "RP-2017-422706 | 09/26/2017 | NOTICE | Grantor: CITY WIDE DEVELOPMENTS Grantor: MAZEWSKI ADAM Z EST Grantor: MAZEWSKI-DRYDEN JOLANTA Grantor: ZUNIGA ALEJANDRO Grantee: CITY WIDE DEVELOPMENTS Grantee: MAZEWSKI ADAM Z EST Grantee: MAZEWSKI-DRYDEN JOLANTA Grantee: ZUNIGA ALEJANDRO | Desc: LAZYBROOK Lot: 83 Block: 3",
+        "RP-2017-422704 | 09/26/2017 | W/D | Grantor: MAZEWSKI ADAM Z EST Grantor: MAZEWSKI-DRYDEN JOLANTA Grantee: CITY WIDE DEVELOPMENTS Grantee: ZUNIGA ALEJANDRO | Desc: LAZYBROOK Lot: 83 Block: 3",
+        "RP-2017-412412 | 09/19/2017 | REL | Grantor: BANK OF AMERICA N A Grantee: CITY WIDE CLUB OF CLUBS CDC | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-412411 | 09/19/2017 | REL | Grantor: BANK OF AMERICA N A Grantee: CITY WIDE CLUB OF CLUBS CDC Grantee: CITY WIDE CLUB OF CLUBS INC | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-374789 | 08/18/2017 | A/J | Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON INDEPENDENT SCHOOL DISTRICT Grantor: PORT OF HOUSTON AUTHORITY OF HARRIS COUNTY Grantee: CITY WIDE CLUB OF CLUBS CDC Grantee: CWCC SERVICES | Comment: SEE INSTRUMENT",
+        "RP-2017-371076 | 08/17/2017 | A/J | Grantor: VANGUARD MODULAR BUILDING SYSTEMS LLC Grantee: CHRISTIAN RESCUE MISSION Grantee: CHRISTIAN RESCUE MISSION CHURCH Grantee: CITY WIDE CLUB OF CLUBS Grantee: CITY WIDE CLUB OF CLUBS CDC Grantee: CRM CITY FELLOWSHIP CHURCH Grantee: WOODARD LEROY J JR Grantee: YOUTH YOUNG AMERICANS HERE ON OPERATION INC | Comment: SEE INSTRUMENT",
+        "RP-2017-357110 | 08/09/2017 | NOTICE | Grantor: CITY WIDE CLUB OF CLUBS INC Grantor: LEMMINGS LLC Grantee: CITY WIDE CLUB OF CLUBS INC Grantee: LEMMINGS LLC | Desc: COLUMBIA ADDITION Lot: 1-4 Block: 1",
+        "RP-2017-332363 | 07/25/2017 | NOTICE | Grantor: CHRISTIAN RESCUE MISSION Grantor: CITY WIDE OF CLUBS INC Grantor: WALKER JOHNNY EST Grantor: WALKER L J SR Grantor: WOODARD LEROY J JR EST Grantee: CHRISTIAN RESCUE MISSION Grantee: CITY WIDE OF CLUBS INC Grantee: WALKER JOHNNY EST Grantee: WALKER L J SR Grantee: WOODARD LEROY J JR EST | Desc: COLUMBIA ADDITION Block: 1 Related Docs",
+        "RP-2017-317466 | 07/17/2017 | DEED | Grantor: ELCHEHABI ZIAD Grantor: SEWART ANNA Grantor: SUBIA VERONICA Grantee: CITY WIDE INVESTMENT GROUP LP | Desc: PARK HARBOR ESTATES Sec: 3 Lot: 24 Block: 1 Related Docs",
+        "RP-2017-230919 | 05/25/2017 | W/D | Grantor: FRIEDRICH JERRY WAYNE Grantee: CITY WIDE DEVELOPMENTS Grantee: ZUNIGA ALEJANDRO | Desc: TIMBERGROVE MANOR Sec: 1 Lot: 12 Block: 48",
+        "RP-2017-207655 | 05/12/2017 | D/T | Grantor: JERONIMO JUAN Grantor: JERONIMO SUMMER Grantee: CITY WIDE FUNDING CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: SPRING CREEK OAKS Sec: 8 Lot: 20 Block: 1 Related Docs",
+        "RP-2016-69427 | 02/19/2016 | A/J | Grantor: AMANI INVESTMENT LP Grantee: CITY WIDE CLUB OF CLUBS Grantee: CITY WIDE CLUB OF CLUBS CDC | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CITY WIDE')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-65335 | 02/23/2026 | A/J | Grantor: BAYOU GREYBEARDS LLC Grantor: CITY WIDE FACILITY SOLUTIONS HOUSTON WEST Grantee: SUMMA STAFFING Grantee: SUMMA STAFFING TECHNOLOGIES Grantee: SUMMA STAFFING TECHNOLOGIES LLC | Comment: SEE INSTRUMENT",
+        "RP-2026-54635 | 02/13/2026 | ORDER | Grantor: AJ100K INVESTMENTS Grantor: AMERTX LLC Grantor: CITY WIDE INVESTMENTS GROUP LLC Grantor: FLORES LILIAN Grantor: JUAREZ AGUSTINA Grantor: JUAREZ MARTIN Grantee: FIDELITY & GUARANTY LIFE MORTGAGE TRUST 2018-1 Grantee: U S BANK TRUST NATIONAL ASSOCIATION | Desc: HUMBLE ESTATES Lot: 108",
+        "RP-2026-237961 | 06/16/2026 | T/L | Grantor: CITY WIDE LAWN SERVICES LLC Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2026-13548 | 01/13/2026 | T/L | Grantor: CITY WIDE LAWN SERVICES LLC Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2025-489809 | 12/12/2025 | T/L | Grantor: CITY WIDE LAWN SERVICES LLC Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2025-408769 | 10/15/2025 | T/L | Grantor: CITY WIDE LAWN SERVICES LLC Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2024-94761 | 03/19/2024 | T/L | Grantor: CITY WIDE LANDSCAPE SERVICES LLC Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2024-356410 | 09/26/2024 | A/J | Grantor: BAYOU GREYBEARDS LLC Grantor: CITY WIDE FACILITY SOLUTIONS HOUSTON WEST Grantee: DOCTORS HOSPITAL Grantee: DOCTORS HOSPITAL 1997 LP Grantee: DOCTORS HOSPITAL PARKWAY & TIDWELL Grantee: UMMC MAIN Grantee: UMMC SUGAR LAND Grantee: UNITED MEMORIAL MEDICAL CENTER Grantee: UNITED MEMORIAL MEDICAL CENTER LLC | Comment: SEE INSTRUMENT",
+        "RP-2024-250784 | 07/12/2024 | T/L | Grantor: CITY WIDE LAWN SERVICES LLC Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-145766 | 04/24/2024 | T/L | Grantor: CITY WIDE LAWN SERVICES LLC Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2023-360266 | 09/19/2023 | T/L | Grantor: CITY WIDE LAWN SERVICES LLC Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2023-101485 | 03/23/2023 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: IVANOVA GALINA Grantee: LOUNEV IAROSLAV | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-59736 | 02/02/2022 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: HASAN SYED Grantee: HASAN SYED NAVED Grantee: KHAN HENA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-488160 | 09/30/2022 | LIEN | Grantor: CITY WIDE LAWN SERVICES LLC Grantee: STATE OF TEXAS | Comment: SEE INSTRUMENT",
+        "RP-2022-294869 | 06/06/2022 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: LEWIS EMILY LOUISE Grantee: LEWIS JACOB | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-195845 | 04/13/2022 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantee: DWARAKANATH KISHAN | Desc: POST OAK TERRACE Block: 4 Related Docs",
+        "RP-2022-137763 | 03/15/2022 | REL | Grantor: CITY WIDE EQUIPMENT RENTAL INC Grantor: WENDEL RANDY Grantee: MENDEZ GUNTHER ALEJANDRO | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-616346 | 10/26/2021 | ASSGN | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: PENNYMAC LOAN SERVICES LLC | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-461344 | 08/13/2021 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: BROOKE FRANK | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-267120 | 05/14/2021 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: CITYWIDE HOME LOANS Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GIST TAYLOR LEE Grantee: GIST TIFFINY | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-267108 | 05/14/2021 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: CITYWIDE HOME LOANS Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GIST TAYLOR LEE Grantee: GIST TIFFANY | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-187813 | 04/08/2021 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GARZA MOISES O Grantee: RAMOS CLAUDIA M | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-174575 | 04/01/2021 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: CITYWIDE HOME LOANS Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: PINEDA JAMES Grantee: SMAGLO BRANDON | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-174534 | 04/01/2021 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: CITYWIDE HOME LOANS Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: PINEDA JAMES Grantee: SMAGLO BRANDON | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-132840 | 03/15/2021 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: POOLE DANIELLE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-119401 | 03/09/2021 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SHAPIRO JORDAN Grantee: SHAPIRO MARY C | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-100516 | 02/26/2021 | DEED | Grantor: CITY WIDE DEVELOPMENTS Grantor: DASIGENIS SANDY Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: LAZYBROOK Lot: 83 Block: 3 Related Docs",
+        "RP-2020-458518 | 09/28/2020 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: JERONIMO JUAN Grantee: JERONIMO SUMMER | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-385270 | 08/20/2020 | DEED | Grantor: CITY WIDE DEVELOPMENTS Grantor: DASIGENIS SANDY Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: TIMBERGROVE MANOR Sec: 1 Lot: 12 Block: 48 Related Docs",
+        "RP-2020-383911 | 08/20/2020 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: FENOY ALBERT J Grantee: FENOY KATHLEEN A | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-341921 | 07/30/2020 | AFFT | Grantor: CITY WIDE DEVELOPMENTS Grantor: DASIGENIS SANDY TRE Grantor: PRIORITY INVESTOR LOANS LLC Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: TIMBERGROVE MANOR Sec: 9 Lot: 32 Block: 51 Tract: A",
+        "RP-2020-305470 | 07/10/2020 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: CITYWIDE HOME LOANS Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: HERMAN AMY Grantee: HERMAN JOSEPH M | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-304315 | 07/10/2020 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: WILLIAMS JESSICA Grantee: WILLIAMS LUKE ASHLEY | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-243597 | 06/08/2020 | DEED | Grantor: CITY WIDE DEVELOPMENTS Grantor: DASIGENIS SANDY TRE Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: TIMBERGROVE MANOR Related Docs",
+        "RP-2020-239376 | 06/05/2020 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SMITH CHASE PATRICK | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-544949 | 12/10/2019 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: CITYWIDE HOME LOANS Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: HERMAN AMY Grantee: HERMAN JOSEPH M | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-492758 | 11/06/2019 | MODIF | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: LAZYBROOK Lot: 83 Block: 3",
+        "RP-2019-457695 | 10/15/2019 | REL | Grantor: CITY WIDE FUNDGING CORPORATION Grantor: CITYWIDE HOME LOANS Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GRIFFIN ERIN Grantee: GRIFFIN JOHN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-455218 | 10/14/2019 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: CITYWIDE HOME LOANS Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GRIFFIN ERIN Grantee: GRIFFIN JOHN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-34522 | 01/28/2019 | MODIF | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: LAZYBROOK Lot: 83 Block: 3",
+        "RP-2019-34521 | 01/28/2019 | MODIF | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: TIMBERGROVEMANOR Sec: 1 Lot: 12 Block: 48",
+        "RP-2019-286917 | 07/03/2019 | MODIF | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: TIMEBERGROVE MANOR Sec: 1 Lot: 12 Block: 48",
+        "RP-2019-19123 | 01/15/2019 | W/D | Grantor: CITY WIDE CLUB OF CLUBS CDC Grantee: PRAYER PARTNERS EVANGELISTIC OUTREACH INC | Desc: COLUMBIA ADDITION Block: 4",
+        "RP-2019-185980 | 05/06/2019 | NOTICE | Grantor: CHRISTIAN RESCUE MISSION Grantor: CHRISTIAN RESCUE MISSION CHURCH Grantor: CITY WIDE CLUB OF CLUBS Grantor: CITY WIDE CLUB OF CLUBS CDC Grantor: CRM CITY FELLOWSHIP CHURCH Grantor: MALONE JON Grantor: WOODARD LEROY J JR Grantor: YOUTH YOUNG AMERICANS HERE ON OPERATIONS INC Grantor: ZOE LEARNING ACADEMY INC Grantee: CHRISTIAN RESCUE MISSION Grantee: CHRISTIAN RESCUE MISSION CHURCH Grantee: CITY WIDE CLUB OF CLUBS Grantee: CITY WIDE CLUB OF CLUBS CDC Grantee: CRM CITY FELLOWSHIP CHURCH Grantee: MALONE JON Grantee: WOODARD LEROY J JR Grantee: YOUTH YOUNG AMERICANS HERE ON OPERATIONS INC Grantee: ZOE LEARNING ACADEMY INC | Comment: SEE INSTRUMENT",
+        "RP-2019-164551 | 04/23/2019 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: TALLEY NANON P | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-96942 | 03/07/2018 | MODIF | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: TIMBERGROVE MANOR Sec: 1 Lot: 12 Block: 48",
+        "RP-2018-58089 | 02/12/2018 | DEED | Grantor: CITY WIDE INVESTMENT GROUP LP Grantee: WHITLACH CHRISTOPHER Grantee: WHITLACH JORDAN HACKNEY | Desc: LONDONDERRY Sec: 3 Lot: 1 Block: 1",
+        "RP-2018-546541 | 12/06/2018 | MODIF | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: TIMBERGROVE MANOR Lot: 32 Block: 51",
+        "RP-2018-51938 | 02/07/2018 | MODIF | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: TIMBERGROVE MANOR Sec: 1 Lot: 12 Block: 48",
+        "RP-2018-473136 | 10/16/2018 | MODIF | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: LAZYBROOK Lot: 83 Block: 3",
+        "RP-2018-472661 | 10/16/2018 | A/J | Grantor: CITY WIDE EQUIPMENT RENTAL INC Grantee: THOMSON CHRISTIAN | Comment: SEE INSTRUMENT",
+        "RP-2018-459945 | 10/08/2018 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: BLACHER ERIC Grantee: BLACHER SARAH | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-400633 | 08/31/2018 | ASSGN | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: U S BANK NATIONAL ASSOCIATION | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-399607 | 08/30/2018 | MODIF | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: TIMBERGROVE MANOR Sec: 1 Lot: 12 Block: 48",
+        "RP-2018-399593 | 08/30/2018 | MODIF | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: TIMBERGROVE MANOR Sec: 9 Lot: 32 Block: 51",
+        "RP-2018-337750 | 07/26/2018 | MODIF | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: LAZYBROOK Lot: 83 Block: 3",
+        "RP-2018-312510 | 07/12/2018 | AFFT | Grantor: AMERICAN TITLE COMPANY OF HOUSTON Grantor: CHRISTIAN RESCUE MISSION Grantor: CHRISTIAN RESCUE MISSION CHURCH Grantor: CITY WIDE CLUB OF CLUBS INC Grantor: CRM CITY FELLOWSHIP CHURCH Grantee: LEMMINGS LLC | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-279453 | 06/22/2018 | MODIF | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: TIMBERGROVE MANOR Sec: 1 Lot: 12 Block: 48",
+        "RP-2018-195000 | 05/04/2018 | ASSGN | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: U S BANK NATIONAL ASSOCIATION | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-188081 | 05/01/2018 | MODIF | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: TIMBERGROVE MANOR Lot: 32 Block: 51",
+        "RP-2018-188080 | 05/01/2018 | MODIF | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC | Desc: LAZYBROOK Lot: 83 Block: 3",
+        "RP-2018-138282 | 04/02/2018 | REL | Grantor: CITY WIDE EQUIPMENT RENTAL INC Grantee: MENDEZ GUNTHER ALEJANDRO | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-129877 | 03/28/2018 | A/J | Grantor: CITY WIDE EQUIPMENT RENTAL INC Grantee: SIKES RODNEY | Comment: SEE INSTRUMENT",
+        "RP-2017-64498 | 02/14/2017 | W/D | Grantor: CARMONA LUIS RAMIRO RODRIGUEZ Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: JOHNSON ERIC K Grantee: JOHNSON SAMAR I | Desc: WESTBURY Sec: 5 Lot: 10-11 Block: 160",
+        "RP-2017-557339 | 12/20/2017 | NOTICE | Grantor: CITY WIDE DEVELOPMENTS Grantor: GARCIA GERARDO Grantor: ZUNIGA ALEJANDRO Grantee: CITY WIDE DEVELOPMENTS Grantee: GARCIA GERARDO Grantee: ZUNIGA ALEJANDRO | Desc: WESTBURY Sec: 5 Lot: 6 Block: 152",
+        "RP-2017-557337 | 12/20/2017 | W/D | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: GARCIA GERARDO | Desc: WESTBURY Sec: 5 Lot: 6 Block: 152",
+        "RP-2017-543895 | 12/12/2017 | NOTICE | Grantor: CITY WIDE DEVELOPMENTS Grantor: JACKSON BETTY Grantor: ZOTZKY BETTY JEAN EST Grantor: ZUNIGA ALEJANDRO Grantee: CITY WIDE DEVELOPMENTS Grantee: JACKSON BETTY Grantee: ZOTZKY BETTY JEAN EST Grantee: ZUNIGA ALEJANDRO | Desc: WESTBURY Sec: 5 Lot: 6 Block: 152 Related Docs",
+        "RP-2017-484134 | 11/02/2017 | D/T | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC Trustee: HARMON CLIFFORD D | Desc: TIMBERGROVE MANOR Sec: 9 Lot: 32 Block: 51 Related Docs",
+        "RP-2017-471504 | 10/26/2017 | ASSGN | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: AMERIHOME MORTGAGE COMPANY LLC | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-422706 | 09/26/2017 | NOTICE | Grantor: CITY WIDE DEVELOPMENTS Grantor: MAZEWSKI ADAM Z EST Grantor: MAZEWSKI-DRYDEN JOLANTA Grantor: ZUNIGA ALEJANDRO Grantee: CITY WIDE DEVELOPMENTS Grantee: MAZEWSKI ADAM Z EST Grantee: MAZEWSKI-DRYDEN JOLANTA Grantee: ZUNIGA ALEJANDRO | Desc: LAZYBROOK Lot: 83 Block: 3",
+        "RP-2017-422705 | 09/26/2017 | D/T | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC Trustee: HARMON CLIFFORD D | Desc: LAZYBROOK Lot: 83 Block: 3",
+        "RP-2017-385369 | 08/25/2017 | LIEN | Grantor: CITY WIDE LANDSCAPE SERVICES LLC Grantee: STATE OF TEXAS | Comment: SEE INSTRUMENT",
+        "RP-2017-378342 | 08/22/2017 | LIEN | Grantor: CITY WIDE LANDSCAPE SERVICES LLC Grantee: STATE OF TEXAS Grantee: TEXAS WORKFORCE COMMISSION | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-357110 | 08/09/2017 | NOTICE | Grantor: CITY WIDE CLUB OF CLUBS INC Grantor: LEMMINGS LLC Grantee: CITY WIDE CLUB OF CLUBS INC Grantee: LEMMINGS LLC | Desc: COLUMBIA ADDITION Lot: 1-4 Block: 1",
+        "RP-2017-357107 | 08/09/2017 | W/D | Grantor: CITY WIDE CLUB OF CLUBS INC Grantee: LEMMINGS LLC | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-332363 | 07/25/2017 | NOTICE | Grantor: CHRISTIAN RESCUE MISSION Grantor: CITY WIDE OF CLUBS INC Grantor: WALKER JOHNNY EST Grantor: WALKER L J SR Grantor: WOODARD LEROY J JR EST Grantee: CHRISTIAN RESCUE MISSION Grantee: CITY WIDE OF CLUBS INC Grantee: WALKER JOHNNY EST Grantee: WALKER L J SR Grantee: WOODARD LEROY J JR EST | Desc: COLUMBIA ADDITION Block: 1 Related Docs",
+        "RP-2017-324698 | 07/20/2017 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTMES INC Grantee: REDMAN JOSEPH Grantee: REDMAN KELLIE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-261947 | 06/13/2017 | A/J | Grantor: CITY WIDE EQUIPMENT RENTAL INC Grantee: SMITH JAMES | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-230920 | 05/25/2017 | D/T | Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: PRIORITY INVESTOR LOANS LLC Trustee: HARMON CLIFFORD D | Desc: TIMEBERGROVE MANOR Sec: 1 Lot: 12 Block: 48 Related Docs",
+        "RP-2016-511532 | 11/11/2016 | ASSGN | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: CITY WIDE FUNDING CORPORATION | Desc: POST OAK TERRACE Lot: 17 Block: 4 Related Docs",
+        "RP-2016-193857 | 05/09/2016 | REL | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: AMIN SHETAL MAHESH Grantee: DWARAKANATH KISHAN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-149461 | 04/12/2016 | NOTICE | Grantor: BRITT PATRICIA CARROLL Grantor: CARMONA LUIS RAMIRO RODRIGUEZ Grantor: CITY WIDE DEVELOPMENTS Grantor: CURRY MARJORIE CARROLL Grantor: ZUNIGA ALEJANDRO Grantee: BRITT PATRICIA CARROLL Grantee: CARMONA LUIS RAMIRO RODRIGUEZ Grantee: CITY WIDE DEVELOPMENTS Grantee: CURRY MARJORIE CARROLL Grantee: ZUNIGA ALEJANDRO | Desc: WESTBURY Sec: 5 Block: 160 Related Docs",
+        "RP-2016-149460 | 04/12/2016 | D/T | Grantor: CARMONA LUIS RAMIRO RODRIGUEZ Grantor: CITY WIDE DEVELOPMENTS Grantor: ZUNIGA ALEJANDRO Grantee: SCF JAKE LP Trustee: JANNER MATT L | Desc: WESTBURY Sec: 5 Lot: 10-11 Block: 160 Related Docs",
+        "RP-2016-144284 | 04/07/2016 | ASSGN | Grantor: CITY WIDE EQUIPMENT RENTAL INC Grantor: CWER PROPERTIES LLC Grantee: NORTH TEXAS CERTIFIED DEVELOPMENT CORPORATION | Desc: ROGERS H P Abstract: 1531 Comment: 3.9082",
+        "RP-2016-144281 | 04/07/2016 | D/T | Grantor: CITY WIDE EQUIPMENT RENTAL INC Grantor: CWER PROPERTIES LLC Grantee: NORTH TEXAS CERTIFIED DEVELOPMENT CORPORATION Trustee: COOK WILLIAM M | Desc: J B MIDDLECOFF SUBDIVISION Lot: 9",
+        "RP-2016-131209 | 03/31/2016 | ASSGN | Grantor: CITY WIDE FUNDING CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: U S BANK NATIONAL ASSOCIATION | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CITY WIDE')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "DEED": 8,
+        "L/P": 3,
+        "REL": 35,
+        "ORDER": 2,
+        "A/J": 11,
+        "LIEN": 4,
+        "D/T": 16,
+        "NOTICE": 13,
+        "W/D": 10,
+        "AFFT": 3,
+        "T/L": 8,
+        "ASSGN": 7,
+        "MODIF": 14
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CITY WIDE')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "48 instruments as grantee, 86 as grantor (index, name 'CITY WIDE')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CITY WIDE')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  }
+}

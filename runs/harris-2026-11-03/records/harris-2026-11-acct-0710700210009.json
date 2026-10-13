@@ -1,0 +1,540 @@
+{
+  "property_id": "harris-2026-11-acct-0710700210009",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "5519 DENMARK ST HOUSTON 77028-3805",
+  "account_no": "0710700210009",
+  "cause_no": "202151949",
+  "intake": {
+    "opening_bid": {
+      "value": 25007.95,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 1; tipo SALE; sale# 9; sentencia 11/05/2025; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "5519 DENMARK ST, HOUSTON, 77028",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "AGCAT REALTY LLC (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "PO BOX 6296, SAN ANTONIO, TX, 78209-0296",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "7800",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1791",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "1315",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1970",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "60848",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "55188",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "116036",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "106015",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 5500.0000xSF $50325 | Res Improved Table Value 2300.0000xSF $10523",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 1350sf built 1970",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 9 BLK 12 TRIANGLE GARDENS SEC 4",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "03/06/2026",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.311232,
+        "lat": 29.827779
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0710700210009)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 7812,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0710700210009)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~60 x 132 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0710700210009)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2018,
+          "tax": 615.72,
+          "penalties_interest": 523.37,
+          "collection_penalty": 227.82,
+          "total": 1366.91
+        },
+        {
+          "year": 2019,
+          "tax": 1065.14,
+          "penalties_interest": 926.67,
+          "collection_penalty": 373.64,
+          "total": 2365.45
+        },
+        {
+          "year": 2020,
+          "tax": 1099.05,
+          "penalties_interest": 890.23,
+          "collection_penalty": 373.44,
+          "total": 2362.72
+        },
+        {
+          "year": 2021,
+          "tax": 1354.66,
+          "penalties_interest": 934.71,
+          "collection_penalty": 429.09,
+          "total": 2718.46
+        },
+        {
+          "year": 2022,
+          "tax": 1584.9,
+          "penalties_interest": 903.38,
+          "collection_penalty": 467.39,
+          "total": 2955.67
+        },
+        {
+          "year": 2023,
+          "tax": 1798.33,
+          "penalties_interest": 809.24,
+          "collection_penalty": 486.88,
+          "total": 3094.45
+        },
+        {
+          "year": 2024,
+          "tax": 2142.79,
+          "penalties_interest": 707.13,
+          "collection_penalty": 528.54,
+          "total": 3378.46
+        },
+        {
+          "year": 2025,
+          "tax": 2253.04,
+          "penalties_interest": 473.15,
+          "collection_penalty": 383.88,
+          "total": 3110.07
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710700210009",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 21352.19,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710700210009",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2018,
+        2024
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710700210009",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 16606.82,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710700210009",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 2253.04,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710700210009",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 18859.86,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710700210009",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "CHRIST MISSIONARY BAPTIST CHURCH ADDRESS UNKNOWN UNKNOWN 00000 5519 DENMARK ST LT 9 BLK 12 TRIANGLE GARDENS SEC 4",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710700210009",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 106015.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710700210009",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202151949",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "11/05/2025",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2027-11-05: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202151949 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de AGCAT REALTY LLC (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 116036.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 58830.25,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 27208.65,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 58830.25,
+        "impuestos_que_hereda": 18859.86,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 1764.91,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 83455.02,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 67931.01,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.39,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-49729 | 02/10/2026 | AFFT | Grantor: AGCAT REALTY LLC Grantor: LEGACYROCKE LLC Grantor: LIVING LEGACY HOME CARE LLC Grantee: AGCAT REALTY LLC | Desc: DEERBROOK ESTATES Sec: 6 Lot: 41 Block: 6 Related Docs",
+        "RP-2026-103802 | 03/19/2026 | W/D | Grantor: CHRIST MISSIONARY BAPTIST CHURCH Grantor: CHRIST MISSIONARY BAPTIST CHURCH INC Grantor: WILLIAMS BILLY R Grantee: AGCAT REALTY LLC | Desc: TRIANGLE GARDENS Sec: 4 Lot: 9-10 Block: 12",
+        "RP-2025-320271 | 08/14/2025 | W/D | Grantor: LAZURE SANDRA JUDITH EST Grantor: LAZURE STEPHEN Grantee: AGCAT REALTY LLC | Desc: GOLDEN ACRES Sec: 2 Lot: 8 Block: 3",
+        "RP-2025-320270 | 08/14/2025 | W/D | Grantor: LEE NICOLE RENE Grantee: AGCAT REALTY LLC | Desc: GOLDEN ACRES Sec: 2 Lot: 8 Block: 3",
+        "RP-2025-28389 | 01/27/2025 | W/D | Grantor: GAMEZ RAYMON Grantee: AGCAT REALTY LLC | Desc: NANTUCKET SQUARE CONDO PH 1 Unit: C3",
+        "RP-2025-249066 | 06/30/2025 | W/D | Grantor: ALLEYNE ANTHONY Grantor: LIVING LEGACY HOME CARE LLC Grantee: AGCAT REALTY LLC | Desc: DEERBROOK ESTATES Sec: 6 Lot: 41 Block: 6 Related Docs",
+        "RP-2025-249065 | 06/30/2025 | W/D | Grantor: ALLEYNE ANTHONY Grantor: LEGACYROCKE LLC Grantee: AGCAT REALTY LLC | Desc: DEERBROOK ESTATES Sec: 6 Lot: 41 Block: 6 Related Docs",
+        "RP-2025-217631 | 06/06/2025 | W/D | Grantor: OLSEN ROBERT GARY Grantee: AGCAT REALTY LLC | Desc: BAKER M E Abstract: 1521 Comment: 0.124 Related Docs",
+        "RP-2025-217630 | 06/06/2025 | W/D | Grantor: SIMMONS LISA GRACE OLSEN Grantee: AGCAT REALTY LLC | Desc: CYPRESS MEADOW Sec: 1 Lot: 3 Block: 10 Related Docs",
+        "RP-2025-217629 | 06/06/2025 | W/D | Grantor: OLSEN KENNETH ROBERT Grantee: AGCAT REALTY LLC | Desc: CYPRESS MEADOW Sec: 1 Lot: 3 Block: 10 Related Docs",
+        "RP-2025-217628 | 06/06/2025 | W/D | Grantor: OLSEN DAVID JOHN Grantee: AGCAT REALTY LLC | Desc: CYPRESS MEADOW Sec: 1 Lot: 3 Block: 10 Related Docs",
+        "RP-2025-217627 | 06/06/2025 | W/D | Grantor: OLSEN ALAN PAUL Grantee: AGCAT REALTY LLC | Desc: CYPRESS MEADOW Sec: 1 Lot: 3 Block: 10 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'AGCAT REALTY')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-49731 | 02/10/2026 | W/D | Grantor: AGCAT REALTY LLC Grantee: LOPEZ SULAYKA Grantee: NDEBELE JACOB | Desc: DEERBROOK ESTATES Sec: 6 Lot: 41 Block: 6",
+        "RP-2026-49729 | 02/10/2026 | AFFT | Grantor: AGCAT REALTY LLC Grantor: LEGACYROCKE LLC Grantor: LIVING LEGACY HOME CARE LLC Grantee: AGCAT REALTY LLC | Desc: DEERBROOK ESTATES Sec: 6 Lot: 41 Block: 6 Related Docs",
+        "RP-2026-49728 | 02/10/2026 | AFFT | Grantor: AGCAT REALTY LLC Grantor: LIVING LEGACY HOME CARE LLC Grantee: LIVING LEGACY HOME CARE LLC | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'AGCAT REALTY')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "AFFT": 3,
+        "W/D": 12
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'AGCAT REALTY')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "12 instruments as grantee, 3 as grantor (index, name 'AGCAT REALTY')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'AGCAT REALTY')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $67,931 >= cierre esperado $58,830. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 67931.01,
+    "all_in_cost_estimate": 83455.02,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
+  }
+}

@@ -1,0 +1,569 @@
+{
+  "property_id": "harris-2026-11-acct-0503460000022",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "3116 KIRK ST HOUSTON 77026-5838",
+  "account_no": "0503460000022",
+  "cause_no": "202344166",
+  "intake": {
+    "opening_bid": {
+      "value": 26350.53,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 1; tipo SALE; sale# 13; sentencia 07/11/2025; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "3116 KIRK ST, HOUSTON, 77026",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "SALGADO ANTONIO R (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "3116 KIRK ST, HOUSTON, TX, 77026-5838",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "4800",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1102",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "902",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1948",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "59328",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "56266",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "115594",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "112409",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 4800.0000xSF $59328",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 938sf built 1948",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "12/29/2025 2025-RP-2025-511427 | 12/30/2025 2026-RP-2026-5906",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 22 LIBERTY",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "12/30/2025",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (0.2 PCT ANNUAL CHANCE FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.326315,
+        "lat": 29.790206
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0503460000022)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 4899,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0503460000022)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~50 x 98 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0503460000022)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (0.2 PCT ANNUAL CHANCE FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2017,
+          "tax": 432.71,
+          "penalties_interest": 506.26,
+          "collection_penalty": 187.79,
+          "total": 1126.76
+        },
+        {
+          "year": 2018,
+          "tax": 920.16,
+          "penalties_interest": 966.16,
+          "collection_penalty": 377.27,
+          "total": 2263.59
+        },
+        {
+          "year": 2019,
+          "tax": 1442.07,
+          "penalties_interest": 1341.13,
+          "collection_penalty": 522.11,
+          "total": 3305.31
+        },
+        {
+          "year": 2020,
+          "tax": 1515.46,
+          "penalties_interest": 1227.52,
+          "collection_penalty": 514.93,
+          "total": 3257.91
+        },
+        {
+          "year": 2021,
+          "tax": 1556.53,
+          "penalties_interest": 1074.01,
+          "collection_penalty": 493.01,
+          "total": 3123.55
+        },
+        {
+          "year": 2023,
+          "tax": 2122.31,
+          "penalties_interest": 955.05,
+          "collection_penalty": 574.6,
+          "total": 3651.96
+        },
+        {
+          "year": 2024,
+          "tax": 2312.36,
+          "penalties_interest": 763.07,
+          "collection_penalty": 570.37,
+          "total": 3645.8
+        },
+        {
+          "year": 2025,
+          "tax": 2388.93,
+          "penalties_interest": 501.67,
+          "collection_penalty": 407.04,
+          "total": 3297.64
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0503460000022",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 23672.52,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0503460000022",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2017,
+        2024
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0503460000022",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 18899.96,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0503460000022",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 2388.93,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0503460000022",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 21288.89,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0503460000022",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "SALGADO ANTONIO R 3116 KIRK ST HOUSTON TX 77026 3116 KIRK ST LT 22 LIBERTY",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0503460000022",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 112409.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0503460000022",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-5906 | 01/07/2026 | W/D | Grantor: MAXPRO REALTY PARTNERS LLC Grantor: SANDOVAL VALERIA Grantee: SALGADO ANTONIO ROMAN | Desc: LIBERTY Lot: 22",
+        "RP-2025-396067 | 10/06/2025 | W/D | Grantor: MARTINEZ EDGAR Grantor: MARTINEZ EDGAR IVAN Grantor: MARTINEZ IVAN Grantor: MARTINEZ LORENA Grantee: FLORES DE SALGADO OLGA ERIKA Grantee: SALGADO ANTONIO | Desc: CYPRESS SPRINGS Sec: 3 Lot: 2 Block: 5 Related Docs",
+        "RP-2025-274582 | 07/16/2025 | CONT | Grantor: MARTINEZ EDGAR IVAN Grantor: MARTINEZ IVAN Grantor: MARTINEZ LORENA Grantee: DE SALGADO OLGA ERIKA FLORES Grantee: SALGADO ANTONIO | Desc: CYPRESS SPRINGS Sec: 3 Lot: 2 Block: 5 Related Docs",
+        "RP-2023-458226 | 12/05/2023 | REL | Grantor: MR COOPER Grantor: NATIONSTAR MORTGAGE LLC Grantee: SALGADO ANTONIO R | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-282677 | 05/31/2022 | REL | Grantor: TEXAS FUNDING CORPORATION Grantee: SALGADO ANTONIO Grantee: SALGADO CRISTINA | Desc: LINDALE COURT Block: 3 Related Docs",
+        "RP-2020-71350 | 02/17/2020 | EASMT | Grantor: ROMAN ANTONIO SALGADO Grantor: SALGADO ANTONIO Grantee: ROMAN ANTONIO SALGADO Grantee: SALGADO ANTONIO | Desc: HAMBLEN STATES RYONS ADDITION Lot: 1 Block: 1",
+        "RP-2020-71349 | 02/17/2020 | EASMT | Grantor: ROMAN ANTONIO SALGADO Grantor: SALGADO ANTONIO Grantee: ROMAN ANTONIO SALGADO Grantee: SALGADO ANTONIO | Desc: RYON ADDITION Lot: 2 Block: 1",
+        "RP-2020-241792 | 06/08/2020 | W/D | Grantor: GREEN WATER GROUP LLC Grantee: SALGADO ANTONIO | Desc: COLONIAL GARDENS Lot: 189 Block: 7",
+        "RP-2018-266680 | 06/15/2018 | W/D | Grantor: MELTON CYNTHIA Grantee: SALGADO ANTONIO | Desc: PARKS ADDITION TOT INDEPENDENCE HEIGHTS Lot: 23 Block: 76",
+        "RP-2018-265322 | 06/14/2018 | NOTICE | Grantor: ROMAN CLEOTILDE Grantor: SALGADO ANTONIO Grantor: SALGADO CRISTINA Grantor: TAVERA BARBARA JANET Grantor: TAVERA SERAFIN Grantee: ROMAN CLEOTILDE Grantee: SALGADO ANTONIO Grantee: SALGADO CRISTINA Grantee: TAVERA BARBARA JANET Grantee: TAVERA SERAFIN | Desc: CAPERTON-COCHRAN Sec: 1 Lot: 2 Block: 1",
+        "RP-2018-243968 | 06/01/2018 | NOTICE | Grantor: ROMAN CLEOTILDE Grantor: RUBIO ANGELA JOY Grantor: RUBIO HERMES R Grantor: SALGADO ANTONIO Grantor: SALGADO CRISTINA Grantee: ROMAN CLEOTILDE Grantee: RUBIO ANGELA JOY Grantee: RUBIO HERMES R Grantee: SALGADO ANTONIO Grantee: SALGADO CRISTINA | Desc: CAPERTON-COCHRAN Sec: 1 Lot: 4 Block: 1",
+        "RP-2017-381864 | 08/23/2017 | W/D | Grantor: FLORES MARGARITA Grantee: ROMAN CLEOTILDE Grantee: SALGADO ANTONIO | Desc: CAPERTON-COCHRAN Sec: 1 Lot: 1-4 Block: 1",
+        "RP-2016-511675 | 11/14/2016 | REL | Grantor: CAPITAL ONE BANK Grantor: PALMAROZZI KAITLIN Grantee: SALGADO ANTONIO | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-401770 | 09/07/2016 | REL | Grantor: STANFORD BEN Grantee: SALGADO ANTONIO | Desc: HANBLEN'S EXTENSION OF RYON ADDITION Block: 173 Related Docs",
+        "RP-2016-361826 | 08/16/2016 | W/D | Grantor: WETUSKI STEVEN Grantee: SALGADO ANTONIO Grantee: SALGADO CRISTINA | Desc: MELENDON PLACE Lot: 31 Block: 3",
+        "RP-2016-360036 | 08/15/2016 | A/J | Grantor: TEXAS FIRST BANK Grantee: SALGADO ANTONIO | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SALGADO ANTONIO')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-5905 | 01/07/2026 | D/T | Grantor: SALGADO ANTONIO ROMAN Grantee: MAXPRO REALTY PARTNERS LLC Trustee: KASPER TRAVIS | Desc: LIBERTY SUBDIVISION Lot: 22",
+        "RP-2026-1501 | 01/05/2026 | D/T | Grantor: SALGADO ANTONIO ROMAN Grantor: SALGADO VALERIE Grantee: MAXPRO REALTY PARTNERS LLC Grantee: SANDOVAL VALERIA Trustee: KASPER TRAVIS | Desc: ORGEN Lot: 1 Block: 9",
+        "RP-2024-136798 | 04/17/2024 | FI STM | Grantor: HERNANDEZ MINERVA Grantor: SALGADO ANTONIO Grantee: GOODLEAP LLC | Desc: ALTA VISTA TERRACE Lot: 5 Block: 2",
+        "RP-2022-282688 | 05/31/2022 | W/D | Grantor: SALGADO ANTONIO Grantor: SALGADO CRISTINA Grantee: ALVAREZ MA NATIVIDAD BARRERA | Desc: LINDALE COURT Block: 3",
+        "RP-2021-164245 | 03/29/2021 | W/D | Grantor: FLORES MARGARITA Grantor: SALGADO ANTONIO Grantee: SALGADO EFRAIN R | Desc: OAKWOOD ADDITION Lot: 97 Block: 1",
+        "RP-2020-71350 | 02/17/2020 | EASMT | Grantor: ROMAN ANTONIO SALGADO Grantor: SALGADO ANTONIO Grantee: ROMAN ANTONIO SALGADO Grantee: SALGADO ANTONIO | Desc: HAMBLEN STATES RYONS ADDITION Lot: 1 Block: 1",
+        "RP-2020-71349 | 02/17/2020 | EASMT | Grantor: ROMAN ANTONIO SALGADO Grantor: SALGADO ANTONIO Grantee: ROMAN ANTONIO SALGADO Grantee: SALGADO ANTONIO | Desc: RYON ADDITION Lot: 2 Block: 1",
+        "RP-2020-237939 | 06/04/2020 | W/D | Grantor: SALGADO ANTONIO Grantee: HERBST RYAN | Desc: PARK ADDITION TO INDEPENDENCE HEIGHTS Lot: 23 Block: 76",
+        "RP-2019-359529 | 08/15/2019 | W/D | Grantor: ROMAN CLEOTILDE Grantor: SALGADO ANTONIO Grantee: RAMIREZ ADRIAN Grantee: RAMIREZ MELISSA Grantee: ROMAN CLEOTILDE | Desc: CAPERTON-COCHRAN Sec: 1 Lot: 1 Block: 1",
+        "RP-2018-265322 | 06/14/2018 | NOTICE | Grantor: ROMAN CLEOTILDE Grantor: SALGADO ANTONIO Grantor: SALGADO CRISTINA Grantor: TAVERA BARBARA JANET Grantor: TAVERA SERAFIN Grantee: ROMAN CLEOTILDE Grantee: SALGADO ANTONIO Grantee: SALGADO CRISTINA Grantee: TAVERA BARBARA JANET Grantee: TAVERA SERAFIN | Desc: CAPERTON-COCHRAN Sec: 1 Lot: 2 Block: 1",
+        "RP-2018-265321 | 06/14/2018 | W/D | Grantor: ROMAN CLEOTILDE Grantor: SALGADO ANTONIO Grantor: SALGADO CRISTINA Grantee: TAVERA BARBARA JANET Grantee: TAVERA SERAFIN | Desc: CAPERTON-COCHRAN Sec: 1 Lot: 2 Block: 1",
+        "RP-2018-243968 | 06/01/2018 | NOTICE | Grantor: ROMAN CLEOTILDE Grantor: RUBIO ANGELA JOY Grantor: RUBIO HERMES R Grantor: SALGADO ANTONIO Grantor: SALGADO CRISTINA Grantee: ROMAN CLEOTILDE Grantee: RUBIO ANGELA JOY Grantee: RUBIO HERMES R Grantee: SALGADO ANTONIO Grantee: SALGADO CRISTINA | Desc: CAPERTON-COCHRAN Sec: 1 Lot: 4 Block: 1",
+        "RP-2018-243965 | 06/01/2018 | W/D | Grantor: ROMAN CLEOTILDE Grantor: SALGADO ANTONIO Grantor: SALGADO CRISTINA Grantee: RUBIO ANGELA JOY Grantee: RUBIO HERMES R | Desc: CAPERTON-COCHRAN Sec: 1 Lot: 4 Block: 1",
+        "RP-2016-484456 | 10/26/2016 | W/D | Grantor: SALGADO ANTONIO R Grantor: SALGADO LETICIA R Grantee: SALGADO LETICIA R | Desc: WHITNEY PLACE Sec: 1 Lot: 2",
+        "RP-2016-344084 | 08/04/2016 | W/D | Grantor: SALGADO ANTONIO Grantee: MARTINEZ SILVIA | Desc: OAKWOOD ADDITION Lot: 99 Block: 1",
+        "RP-2016-156001 | 04/14/2016 | W/D | Grantor: SALGADO ANTONIO Grantee: ALVAREZ LEONEL BARRERA Grantee: BARRERA SAIDA | Desc: RYON ADDITION Lot: 1-2 Block: 168"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SALGADO ANTONIO')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "W/D": 15,
+        "CONT": 1,
+        "REL": 4,
+        "EASMT": 4,
+        "NOTICE": 4,
+        "A/J": 1,
+        "D/T": 2,
+        "FI STM": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SALGADO ANTONIO')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "16 instruments as grantee, 16 as grantor (index, name 'SALGADO ANTONIO')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SALGADO ANTONIO')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202344166",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "07/11/2025",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2027-07-11: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202344166 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de SALGADO ANTONIO R (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 115594.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 58606.16,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 28669.38,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 58606.16,
+        "impuestos_que_hereda": 21288.89,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 1758.18,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 85653.23,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 65229.43,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.35,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $65,229 >= cierre esperado $58,606. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 65229.43,
+    "all_in_cost_estimate": 85653.23,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
+  }
+}

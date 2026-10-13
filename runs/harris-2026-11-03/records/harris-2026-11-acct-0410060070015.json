@@ -1,0 +1,757 @@
+{
+  "property_id": "harris-2026-11-acct-0410060070015",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "24922 WILSON ST TOMBALL 77375",
+  "account_no": "0410060070015",
+  "cause_no": "202136906",
+  "intake": {
+    "opening_bid": {
+      "value": 11339.97,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 4; tipo SALE; sale# 7; sentencia 10/27/2025; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "24922 WILSON ST, TOMBALL, 77375",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "UNKNOWN (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "ADDRESS UNKNOWN, UNKNOWN",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "C3",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "5227",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1200",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "31362",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "31362",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "31362",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Vacant Table Value 5227.0000xSF $31362",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 15 HUFFSMITH U/R ABST 50 J MILLER",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "01/02/1988",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.594915,
+        "lat": 30.124422
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0410060070015)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 5243,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0410060070015)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~49 x 107 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0410060070015)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2005,
+          "tax": 20.72,
+          "penalties_interest": 53.45,
+          "collection_penalty": 14.84,
+          "total": 89.01
+        },
+        {
+          "year": 2006,
+          "tax": 20.61,
+          "penalties_interest": 51.32,
+          "collection_penalty": 14.38,
+          "total": 86.31
+        },
+        {
+          "year": 2007,
+          "tax": 20.27,
+          "penalties_interest": 48.04,
+          "collection_penalty": 13.66,
+          "total": 81.97
+        },
+        {
+          "year": 2008,
+          "tax": 20.17,
+          "penalties_interest": 45.4,
+          "collection_penalty": 13.12,
+          "total": 78.69
+        },
+        {
+          "year": 2009,
+          "tax": 20.19,
+          "penalties_interest": 43.01,
+          "collection_penalty": 12.65,
+          "total": 75.85
+        },
+        {
+          "year": 2010,
+          "tax": 20.39,
+          "penalties_interest": 40.99,
+          "collection_penalty": 12.27,
+          "total": 73.65
+        },
+        {
+          "year": 2011,
+          "tax": 21.0,
+          "penalties_interest": 39.69,
+          "collection_penalty": 12.14,
+          "total": 72.83
+        },
+        {
+          "year": 2012,
+          "tax": 20.97,
+          "penalties_interest": 37.11,
+          "collection_penalty": 11.61,
+          "total": 69.69
+        },
+        {
+          "year": 2013,
+          "tax": 20.84,
+          "penalties_interest": 34.38,
+          "collection_penalty": 11.04,
+          "total": 66.26
+        },
+        {
+          "year": 2014,
+          "tax": 20.61,
+          "penalties_interest": 31.53,
+          "collection_penalty": 10.43,
+          "total": 62.57
+        },
+        {
+          "year": 2015,
+          "tax": 41.46,
+          "penalties_interest": 58.45,
+          "collection_penalty": 19.98,
+          "total": 119.89
+        },
+        {
+          "year": 2016,
+          "tax": 46.26,
+          "penalties_interest": 59.32,
+          "collection_penalty": 21.12,
+          "total": 126.7
+        },
+        {
+          "year": 2017,
+          "tax": 46.58,
+          "penalties_interest": 54.5,
+          "collection_penalty": 20.21,
+          "total": 121.29
+        },
+        {
+          "year": 2018,
+          "tax": 46.42,
+          "penalties_interest": 48.74,
+          "collection_penalty": 19.05,
+          "total": 114.21
+        },
+        {
+          "year": 2019,
+          "tax": 45.3,
+          "penalties_interest": 42.13,
+          "collection_penalty": 14.45,
+          "total": 101.88
+        },
+        {
+          "year": 2020,
+          "tax": 44.83,
+          "penalties_interest": 36.32,
+          "collection_penalty": 13.45,
+          "total": 94.6
+        },
+        {
+          "year": 2021,
+          "tax": 43.76,
+          "penalties_interest": 30.19,
+          "collection_penalty": 12.2,
+          "total": 86.15
+        },
+        {
+          "year": 2022,
+          "tax": 123.19,
+          "penalties_interest": 70.21,
+          "collection_penalty": 32.09,
+          "total": 225.49
+        },
+        {
+          "year": 2023,
+          "tax": 163.36,
+          "penalties_interest": 73.52,
+          "collection_penalty": 39.27,
+          "total": 276.15
+        },
+        {
+          "year": 2024,
+          "tax": 216.5,
+          "penalties_interest": 71.45,
+          "collection_penalty": 47.43,
+          "total": 335.38
+        },
+        {
+          "year": 2025,
+          "tax": 266.3,
+          "penalties_interest": 55.91,
+          "collection_penalty": 18.62,
+          "total": 340.83
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0410060070015",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 2699.4,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0410060070015",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2001,
+        2024
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0410060070015",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 2364.02,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0410060070015",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 266.3,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0410060070015",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 2630.32,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0410060070015",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "UNKNOWN ADDRESS UNKNOWN UNKNOWN 0 24922 WILSON ST LT 15 HUFFSMITH U/R ABST 50 J MILLER",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0410060070015",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 30106.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0410060070015",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-95339 | 03/13/2026 | CANCEL | Grantor: NORTH VIEW HOMEOWNERS ASSOCIATION INC Grantee: GREENE LYNDA LOIS Grantee: UNKNOWN HEIRS OF HELEN JAMES GREEN | Desc: NORTH VIEW Sec: 1 Lot: 2 Block: 15 Related Docs",
+        "RP-2026-80249 | 03/04/2026 | L/P | Grantor: CREDIT SUISSE FIRST BOSTON MORTGAGE SECURITIES CORP HOME EQUITY ASSET TRUST SERIES 2005-2 Grantor: U S BANK NATIONAL ASSOCIATION Grantee: BEENAU ASHLEY DAWN COLLEEN Grantee: BEENAU ERIN MARIE Grantee: BEENAU JOHN STEVEN Grantee: BEENAU KERRY LYNN Grantee: UNKNOWN HEIRS-AT-LAW OF JOSEPH PETER BEENAU | Desc: FESTE PARK AT BEAR CREEK VILLAGE Lot: 20 Block: 2",
+        "RP-2026-41193 | 02/04/2026 | A/J | Grantor: HARRIS COUNTY Grantee: HOLCOMBE DEBRA Grantee: UNKNOWN BOARDING HOME | Comment: SEE INSTRUMENT",
+        "RP-2026-405752 | 10/06/2026 | NOTICE | Grantor: SOUTHCREEK VILLAGE COMMUNITY ASSOCIATION INC Grantee: UNKNOWN HEIRS OF ELISA DEEGAN & WILLIAM DEEGAN | Desc: COPPERFIELD SOUTHCREEK VILLAGE Sec: 10 Lot: 46 Block: 1",
+        "RP-2026-396750 | 09/30/2026 | NOTICE | Grantor: GLENCAIRN COMMUNITY IMPROVEMENT ASSOCIATION Grantee: UNKNOWN HEIRS OF BOBBY DEAN DREW Grantee: UNKNOWN HEIRS OF LOIS JEAN DREW | Desc: GLENCAIRN Sec: 2 Lot: 32 Block: 16",
+        "RP-2026-396684 | 09/30/2026 | NOTICE | Grantor: GLENCAIRN COMMUNITY IMPROVEMENT ASSOCIATION Grantee: BRENNAN TATIANA Grantee: UNKNOWN HEIRS OF MICHAEL J BRENNAN | Desc: GLENCAIRN Sec: 3 Lot: 26 Block: 22",
+        "RP-2026-396206 | 09/30/2026 | NOTICE | Grantor: HARVEST BEND SECTION I ASSOCIATION Grantee: UNKNOWN HEIRS OF DIANA L STEPHENSON | Desc: HARVEST BEND Sec: 3 Lot: 12 Block: 11",
+        "RP-2026-394071 | 09/29/2026 | L/P | Grantor: S-G II OWNERS ASSOCIATION INC Grantee: MERRIWEATHER RAHMEL ALEXANDER Grantee: UNKNOWN HEIRS OF LIA L MERRIWEATHER | Desc: MARVIDA Sec: 23 Lot: 3 Block: 4",
+        "RP-2026-385483 | 09/23/2026 | L/P | Grantor: S-G II OWNERS ASSOCIATION INC Grantee: SHIPP CAROLYN Grantee: UNKNOWN HEIRS OF FELTON G SHIPP SR | Desc: MIRAMESA Sec: 3 Lot: 39 Block: 1",
+        "RP-2026-377939 | 09/17/2026 | AMEND | Grantor: STATE OF TEXAS Grantee: CITY OF HOUSTON Grantee: HARRIS COUNTY Grantee: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantee: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantee: HARRIS HEALTH Grantee: HOUSTON CITY COLLEGE Grantee: HOUSTON INDEPENDENT SCHOOL DISTRICT Grantee: HOUSTON SUN FOUNDATION Grantee: MIDTOWN MANAGEMENT DISTRICT Grantee: PORT HOUSTON Grantee: ROBINSON DORCAUS J Grantee: ROBINSON DORRIS J ELLIS Grantee: ROBINSON LONAL X Grantee: ROBINSON SHURONDA N Grantee: ROBINSON SIRROD Grantee: UNKNOWN HEIRS AND DEVISEES OF LONAL ROBINSON | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-370194 | 09/11/2026 | NOTICE | Grantor: ETHAN'S GLEN COMMUNITY ASSOCIATION INC Grantee: SHORT STEPHANIE SUSAN Grantee: UNKNOWN HEIRS OF PATRICA J SHORT Grantee: WALKER CHERYL SHORT | Desc: ETHAN'S GLEN Lot: 22 Related Docs",
+        "RP-2026-346895 | 08/26/2026 | L/P | Grantor: NG-A-MANN JOHN Grantee: JACKSON ARTHUR Grantee: JACKSON CHARLOTTE ANN Grantee: JACKSON TIMMIE Grantee: PARKER BETTY Grantee: UNKNOWN HEIRS OF VERGIE MONTGOMERY | Desc: TIMBER ACRES ADDITION Lot: 32-33 Block: 1",
+        "RP-2026-344194 | 08/24/2026 | L/P | Grantor: TIERRA HOMEOWNERS ASSOCIATION INC Grantee: SUMRA ALVA Grantee: SUMRA JULIA Grantee: UNKNOWN HEIRS OF GREGORY SUMRA | Desc: TIERRA GLEN Sec: 2 Lot: 25 Block: 4",
+        "RP-2026-342573 | 08/24/2026 | L/P | Grantor: FEDERAL HOME LOAN MORTGAGE CORPORATION Grantor: FREDDIE MAC SEASONED CREDIT RISK TRANSFER TRUST SERIES 2021-2 Grantee: GROSSMAN STEVEN DENNIS Grantee: UNKNOWN HEIRS-AT-LAW OF JUDITH GROSSMAN | Desc: FONDREN SOUTHWEST NORTHFIELD Sec: 4 Lot: 67 Block: 2",
+        "RP-2026-334766 | 08/18/2026 | LIEN | Grantor: ATASCOCITA TRAILS HOMEOWNERS ASSOCIATION INC Grantee: DELANEY SHARON Grantee: UNKNOWN HEIRS OF SAMUEL DELANEY | Desc: ATASCOCITA TRAILS Sec: 2 Lot: 1 Block: 13",
+        "RP-2026-329334 | 08/13/2026 | LIEN | Grantor: SOUTHDOWN VILLAGE COMMUNITY ASSOCIATION INC Grantee: PARRISH DONNA M Grantee: UNKNOWN HEIRS OF JOHN F PARRISH | Desc: COPPERFIELD SOUTHDOWN VILLAGE Sec: 1 Lot: 6 Block: 16",
+        "RP-2026-322173 | 08/10/2026 | NOTICE | Grantor: PARK LAKES PROPERTY OWNERS ASSOCIATION INC Grantee: UNKNOWN HEIRS OF EFREM Z MCDUFFIE Grantee: UNKNOWN HEIRS OF KEITH U MCDUFFIE Grantee: UNKNOWN HEIRS OF MIRA JEAN MCDUFFIE | Desc: CANYON GATE AT PARK LAKES Sec: 6 Lot: 20 Block: 1",
+        "RP-2026-320130 | 08/06/2026 | NOTICE | Grantor: S-G II OWNERS ASSOCIATION INC Grantee: MERRIWEATHER RAHMEL ALEXANDER Grantee: UNKNOWN HEIRS OF LIA L MERRIWEATHER | Desc: MARVIDA Sec: 23 Lot: 3 Block: 4",
+        "RP-2026-319085 | 08/06/2026 | LIEN | Grantor: GREENWOOD FOREST FUND INC Grantor: GREENWOOD FOREST HOMEOWNERS' ASSOCIATION Grantee: UNKNOWN HEIRS OF JERRY W WESTFALL Grantee: WESTFALL DIANE R | Desc: GREENWOOD FOREST Sec: 6 Lot: 3 Block: 1 Reserve: L",
+        "RP-2026-305261 | 07/28/2026 | L/P | Grantor: WELLS FARGO BANK N A Grantee: BATTS ROGER DEWAYNE Grantee: EVERETTE JAMMIE LEVANT Grantee: EVERETTE PASHA ANTOINE Grantee: MODEST JERMONTE DEVAN Grantee: MODEST RONALD DEVAN Grantee: MODEST RONRICA LAKETHA Grantee: STANBERRY HERBERT II Grantee: STANBERRY TRINA RENEE Grantee: UNKNOWN HEIRS-AT-LAW OF HERBERT STANBERRY Grantee: UNKNOWN HEIRS-AT-LAW OF JOLLYSTER EVERETTE STANBERRY | Desc: FAIRGREEN Sec: 3 Lot: 341 Block: 15",
+        "RP-2026-192654 | 05/18/2026 | ORDER | Grantor: SPEEDWAY PARK PLACE L C Grantee: UNKNOWN STOCKHOLDERS OF GULF TEMPORARIES INC | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-164368 | 04/29/2026 | LIEN | Grantor: CHAMPIONS COMMUNITY IMPROVEMENT ASSOCIATION Grantee: DELAHANTY MARY K Grantee: UNKNOWN HEIRS OF JOSEPH F DELAHANTY | Desc: CHAMPIONS WEST Lot: 112-113 Block: 6 Related Docs",
+        "RP-2026-164156 | 04/29/2026 | L/P | Grantor: LIMITLESS ABUNDANCE LLC Grantee: GILLIAM BRENDA Grantee: GILLIAM DALTON Grantee: GILLIAM GLADYS Grantee: UNKNOWN HEIRS OF DALTON GILLIAM Grantee: UNKNOWN HEIRS OF GLADYS GILLIAM | Desc: J E FOSTER'S FIRST NORTH ADDITION Lot: 10 Block: 11",
+        "RP-2026-160666 | 04/28/2026 | L/P | Grantor: WELLS FARGO BANK N A Grantee: BROWN DANIEL Grantee: BROWN DEWEY RAY II Grantee: BROWN MICHAEL JASON Grantee: UNKNOWN HEIRS-AT-LAW OF DEWEY BROWN | Desc: CYPRESS SPRINGS Sec: 1 Lot: 5 Block: 3",
+        "RP-2026-142105 | 04/14/2026 | REL | Grantor: ARCHAMBAULT CHRIS Grantor: CAMDEN PARK HOMEOWNERS ASSOCIATION Grantee: HOLBERT KEVIN Grantee: UNKNOWN HEIRS OF DEWION M GRAY-HOLBERT | Desc: CAMDEN PARK Sec: 2 Lot: 2 Block: 11 Related Docs",
+        "RP-2025-5609 | 01/07/2025 | L/P | Grantor: CYPRESS POINT COMMUNITY IMPROVEMENT ASSOCIATION INC Grantor: MCLAIN MELISSA Grantee: ALMENDAREZ NIKO Grantee: UNKNOWN HEIRS OF BRENDA ALMENDAREZ Grantee: UNKNOWN HEIRS OF FRANK RAY | Desc: CYPRESS POINT Sec: 2 Lot: 19 Block: 3 Related Docs",
+        "RP-2025-486092 | 12/10/2025 | L/P | Grantor: ASHCREEK HOMEOWNERS ASSOCIATION INC Grantee: UNKNOWN HEIRS OF DEIDRE C WHITE | Desc: ASHCREEK Lot: 29 Block: 1 Related Docs",
+        "RP-2025-485096 | 12/09/2025 | L/P | Grantor: DEUTSCHE BANK NATIONAL TRUST COMPANY Grantor: NEW CENTURY HOME EQUITY LOAN TRUST SERIES 2005-A Grantee: MARTINEZ JASMINE Grantee: UNKNOWN DESCENDANTS OF EARLE WHATLEY Grantee: UNKNOWN HEIRS-AT-LAW OF BETTY MAE WHATLEY Grantee: UNKNOWN HEIRS-AT-LAW OF WAYNE EARLE WHATLEY Grantee: WHATLEY BDGAR Grantee: WHATLEY LONNIE Grantee: WHATLEY TAMMY Grantee: WHATLEY TERRY | Desc: HOUSTON HARBOR ADDITION Lot: 11-12 Block: 58",
+        "RP-2025-479987 | 12/05/2025 | L/P | Grantor: GUILD MORTGAGE COMPANY LLC Grantee: BATY WILLIAM E Grantee: HILDEBRANDT LANCE DAVID Grantee: PRATHER RYAN SCOTT Grantee: UNKNOWN HEIRS-AT-LAW OF MELODY PRATHER BATY Grantee: WHITFORD LAWSON GRANT | Desc: PONDEROSA FOREST Sec: 10 Lot: 18 Block: 4",
+        "RP-2025-479177 | 12/04/2025 | LIEN | Grantor: LAKEWOOD HEIGHTS PROPERTY OWNERS ASSOCIATION INC Grantee: BROWN VIRGINIA Grantee: COCHRAN JOYCE Grantee: RODGERS FRANK Grantee: RODGERS RUSSELL Grantee: UNKNOWN HEIRS Grantee: WEBB SHARON | Desc: LAKEWOOD HEIGHTS Sec: 2 Lot: 376 Block: 12",
+        "RP-2025-453590 | 11/14/2025 | L/P | Grantor: PROPERTY OWNERS ASSOCIATION OF BALMORAL INC Grantee: UNKNOWN HEIRS OF GREGORY LYNN HIGHTOWER JR | Desc: BALMORAL Sec: 15 Lot: 1 Block: 3",
+        "RP-2025-387507 | 09/30/2025 | L/P | Grantor: CITIMORTGAGE INC Grantee: BATTEN BELLA Grantee: BATTEN JENNIFER Grantee: CALDERON BELLA Grantee: CALDERON DONNA Grantee: UNKNOWN HEIRS-AT-LAW OF KEVIN BATTEN DECEASED | Desc: BEND ON BRAZOS Lot: 2 Block: 1",
+        "RP-2025-323117 | 08/15/2025 | L/P | Grantor: WELLS FARGO BANK N A Grantee: HARDEN JJAMAR G W Grantee: PARRISH CYNTHIA MONIC Grantee: UNKNOWN HEIRS-AT-LAW OF DOREEN E MILTON EST | Desc: BRIARWALK Sec: 1 Reserve: D Related Docs",
+        "RP-2025-320302 | 08/14/2025 | L/P | Grantor: RABAGO SHELLIE Grantor: STATE OF TEXAS Grantee: CITY OF HOUSTON Grantee: CITY OF HOUSTON GREATER SOUTHEAST MANAGEMENT DISTRICT Grantee: HARRIS COUNTY Grantee: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantee: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantee: HARRIS COUNTY HOSPITAL DISTRICT Grantee: HARRIS HEALTH SYSTEM Grantee: HOLLINS CLARICE Grantee: HOUSTON COMMUNITY COLLEGE Grantee: HOUSTON INDEPENDENT SCHOOL DISTRICT Grantee: OST/ALMEDA CORRIDORS REDEVELOPMENT AUTHORITY Grantee: PORT OF HOUSTON AUTHORITY OF HARRIS COUNTY Grantee: REINVESTMENT ZONE NUMBER SEVEN Grantee: UNKNOWN HEIRS OF ESTATE ELAINE RHENEE MILLER Grantee: UNKNOWN HEIRS OF ESTATE OF IDA MAE STEWARD Grantee: UNKNOWN HEIRS OF ESTATE OF TOMMY EUGENE WALKER Grantee: WALKER KAREN WINFIELD Grantee: WALKER TRENTON L | Desc: HOLMAN 10 ACRE SURVEY Lot: 15 Block: C Related Docs",
+        "RP-2025-299011 | 07/31/2025 | REL | Grantor: LAKECREST FOREST AND VILLAGE HOMEOWNERS ASSOCIATION INC Grantee: NIU MINGYE Grantee: UNKNOWN HEIRS OF ANDREW WALZER | Desc: LAKECREST PARK Sec: 3 Lot: 10 Block: 2 Related Docs",
+        "RP-2025-272278 | 07/15/2025 | REL | Grantor: GLEANNLOCH FARMS COMMUNITY ASSOCIATION INC Grantor: PATEL POOJA Grantee: TATEM ALEXIS Grantee: UNKNOWN HEIRS OF CARL E TATEM | Desc: GLEANNLOCH FARMS Sec: 19 Lot: 11 Block: 1 Related Docs",
+        "RP-2025-261845 | 07/08/2025 | LIEN | Grantor: ATASCOCITA TRAILS HOMEOWNERS ASSOCIATION INC Grantee: UNKNOWN HEIRS OF MARIE T WALTER Grantee: WALTER STEPHANIE G | Desc: ATASCOCITA TRAILS Sec: 2 Lot: 25 Block: 18",
+        "RP-2025-205080 | 05/30/2025 | L/P | Grantor: GLEANNLOCH FARMS COMMUNITY ASSOCIATION INC Grantee: TATEM ALEXIS Grantee: UNKNOWN HEIRS OF CARL R TATEM | Desc: GLEANNLOCH FARMS Sec: 19 Lot: 11 Block: 1 Related Docs",
+        "RP-2025-176161 | 05/09/2025 | L/P | Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantee: LOPEZ ANGELICA Grantee: LOVELADY BONNIE EST Grantee: UNKNOWN HEIRS OF BONNIE BELL LOVELADY | Desc: ALDINE GARDENS Related Docs",
+        "RP-2025-121326 | 04/03/2025 | L/P | Grantor: PROPERTY OWNERS ASSOCIATION OF BALMORAL INC Grantee: UNKNOWN HEIRS OF KENDRICK ONRAY HENDERSON | Desc: BALMORAL Sec: 12 Lot: 2 Block: 1",
+        "RP-2024-468679 | 12/17/2024 | L/P | Grantor: GREENSBROOK PLACE COMMUNITY ASSOCIATION INC Grantee: HERNANDEZ ESTHER Grantee: UNKNOWN HEIRS AT LAW OF FIDEL TORRES | Desc: GREENSBROOK PLACE Sec: 3 Lot: 75 Block: 2 Related Docs",
+        "RP-2024-303508 | 08/20/2024 | A/J | Grantor: WALDEN ON LAKE HOUSTON COMMUNITY SERVICES ASSOCIATION INC Grantee: UNKNOWN HEIRS AT LAW OF BRENDA K SHAW EST | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-325077 | 08/25/2023 | REL | Grantor: DAUGHTRY & FARINE PC Grantor: DAUGHTRY CHARLES A Grantor: TIMBERHILLS HOMEOWNERS ASSOCIATION Grantee: RICHARDSON BARBARA G EST Grantee: UNKNOWN HEIRS AT LAW OF BOBBIE G RICHARDSON EST | Desc: SUNSET RIDGE WEST Sec: 3 Lot: 1 Block: 5 Related Docs",
+        "RP-2023-237603 | 06/27/2023 | L/P | Grantor: HENRY ANTWAN Grantor: HENRY ANTWAN T Grantor: JENKINS TERRI Grantor: JENKINS TERRI HENRY Grantee: BANK OF NEW YORK MELLON TRE Grantee: BANK OF NEW YORK TRE Grantee: BARRETT DAFFIN FRAPPIER TURNER & ENGEL LLP Grantee: CARRINGTON MORTGAGE SERVICES LLC Grantee: CWABS INC SERIES 2006-5 Grantee: KESLER REX Grantee: LEPP CAPITAL LLC Grantee: MCCULLEN MELISSA Grantee: P C F PROPERTIES IN TX LLC Grantee: P C F PROPERTIES MANAGEMENT LLC Grantee: UNKNOWN OWNERS OF THE EVIDENCE OF THE DEBT AND/OR OWNERS OF THE NOTE | Desc: CANYON GATE AT NORTHPOINTE Sec: 2 Lot: 1 Block: 2",
+        "RP-2023-237602 | 06/27/2023 | L/P | Grantor: HENRY ANTWAN Grantor: HENRY ANTWAN T Grantor: JENKINS TERRI Grantor: JENKINS TERRI HENRY Grantee: BANK OF NEW YORK MELLON TRE Grantee: BANK OF NEW YORK TRE Grantee: BARRETT DAFFIN FRAPPIER TURNER & ENGEL LLP Grantee: CARRINGTON MORTGAGE SERVICES LLC Grantee: CWABS INC SERIES 2006-5 Grantee: KESLER REX Grantee: LEPP CAPITAL LLC Grantee: MCCULLEN MELISSA Grantee: P C F PROPERTY MANAGEMENT LLC Grantee: P C G PROPERTIES IN TX LLC Grantee: UNKNOWN OWNERS OF THE EVIDENCE OF THE DEBT AND/OR OWNERS OF THE NOTE | Desc: CANYON GATE AT NORTHPOINTE Sec: 2 Lot: 1 Block: 2",
+        "RP-2022-80860 | 02/15/2022 | ORDER | Grantor: WEST HARRIS COUNTY REGIONAL WATER AUTHORITY Grantee: SEE INSTRUMENT Grantee: UNKNOWN SHAREHOLDERS OF CHATEAU FOREST HOME OWNERS INC | Desc: LEWIS S Abstract: 510 Comment: 0.0772 Related Docs",
+        "RP-2022-454889 | 09/08/2022 | REL | Grantor: HARRIS COUNTY Grantor: STATE OF TEXAS Grantee: CHOE CHONG CHUL Grantee: UNKNOWN GAME ROOM | Desc: STARLINE SUBDIVISION Reserve: C Related Docs",
+        "RP-2022-442528 | 08/31/2022 | L/P | Grantor: HCFCD Grantee: AGUILAR JUAN JOSE Grantee: AGUILAR REBECCA Grantee: AGUILAR TERESA Grantee: AGUILAR VICTORIA Grantee: ALBARRAN ADAN Grantee: ALMENDRAS ADALID Grantee: ALVARADO DANIEL Grantee: ALVARADO ELIA Grantee: ALVARADO VICTOR Grantee: ARANDA MARIO Grantee: ARRENDONDO ALVARO Grantee: ARRIAGA FERNANDO Grantee: ARRIAGO BERTHA Grantee: ASCENCIO EDUARDO Grantee: BANEGAS SUYAPA Grantee: BENITEZ FRANCISCO Grantee: BENITEZ JUDY Grantee: BERNAL AARON Grantee: BLENMAN ANSY Grantee: BONILLA ERCILIA Grantee: BONILLA LORENA Grantee: BUSTILLOS ISAAC Grantee: CALIX MARIA Grantee: CANALES MARIA Grantee: CANO MARISOL Grantee: CANO NANCY Grantee: CARBAJAL FRANCISCO Grantee: CARRILLO SONIA Grantee: CASTILLO CARLOS Grantee: CASTILLO DIEGO Grantee: CASTILLO XANEX Grantee: CERNA MARIA Grantee: CONTRERAS GERARDO Grantee: CORONA JOSE Grantee: CORRAL AURELIANO Grantee: CRUZ GRACIELA Grantee: CRUZ LUIZ Grantee: CUSIO PEDRO Grantee: DE LA CRUZ JUAN Grantee: DE LA CRUZ YAZMIN Grantee: DE LA LUZ MARIA JUANA Grantee: DEHUMA ROSA Grantee: DIAZ DANIELA Grantee: DIAZ MARIA Grantee: DOMINGUEZ PERLA Grantee: DUARTE JORGE Grantee: DUARTE NELSON Grantee: DUARTE VICTOR BELTRAN Grantee: ESCAMILLA JUAN Grantee: ESPARZA ISAAC Grantee: ESPINOZA CESAR Grantee: EVARISTO ENEIDA Grantee: EVARISTO JORGE Grantee: FIERRO SARAI Grantee: FRANCO SANTOS Grantee: GANDARA ROBERTO Grantee: GARCIA HECTOR Grantee: GARCIA MARIA Grantee: GARZA CLARIBEL Grantee: GONZALEZ ARCELIA Grantee: GONZALEZ MARIA Grantee: GONZALEZ RAFAEL Grantee: GONZALEZ SYLVIA Grantee: GUARDADO BRENDA Grantee: GUZMAN JOSE Grantee: HENRIQUEZ GLORIA Grantee: HERNANDEZ GEORGINA Grantee: HERNANDEZ JOSE Grantee: HERNANDEZ LESLIE Grantee: HERNANDEZ OLGA Grantee: HERNANDEZ YURIKO Grantee: HERRERA MIGUEL Grantee: JIMENEZ YAMILET Grantee: LAZARO OMAR Grantee: LIRA ELIZABETH HERNANDEZ Grantee: LOPEZ CESAR Grantee: LOPEZ JUAN Grantee: LOPEZ LETICIA Grantee: LOPEZ MARIELINA Grantee: LOPEZ NABOR A Grantee: LOPEZ SERGIO ADRIAN PULIDO Grantee: LUCHA OLGA Grantee: LUCIO JOSE FELIX AGUILAR Grantee: MADRID GERARDO MIRANDA Grantee: MALTEZ MARIA AMPARO Grantee: MARTINEZ CHRISTINA Grantee: MARTINEZ FRANCISCO Grantee: MARTINEZ MARIA Grantee: MARTINEZ MIGUEL Grantee: MARTINEZ RODOLFO JR Grantee: MARTINEZ YOVANE VILLARREAL Grantee: MAYORGA CARLOS Grantee: MEDINA ROSALIA Grantee: MELCHOR VICKY Grantee: MENDEZ LEONEL Grantee: MENDOZA ALONSO Grantee: MENDOZA ROBERTO Grantee: MERCADO CAROLINA Grantee: MILLER ELICIA Grantee: MIRANDA ABEL Grantee: MIRANDA ANASTACIO Grantee: MIRANDA GENOVEVA COLCHADO Grantee: MONTELONGO MARIA LUISA Grantee: MORENO ISABEL Grantee: MORENO JESUS Grantee: MORENO PABLO Grantee: MUNGUIA GUADALUPE Grantee: NIETO ERIC Grantee: NORIEGA FRANCISCO Grantee: NUNEZ GENOVEVA Grantee: ORONA ALAN Grantee: ORTIZ CARLOS Grantee: ORTIZ GUILLERMINA Grantee: PEREZ REYNAU Grantee: PINA CINTYA ARANDA Grantee: PINA JUAN ARANDA Grantee: PORRAS GISELLE Grantee: PRENEVOFT CHERI Grantee: RAMIREZ ALONDRA Grantee: RAMIREZ ROSAURA Grantee: RAMOS EVELYN Grantee: RAMOS ROGELIA Grantee: REYES YVONNE Grantee: RIVERA DAVID Grantee: RIVERA GLORIA Grantee: RIVERA PEDRO Grantee: RODRIGUEZ DEMETRIO Grantee: RODRIGUEZ EDER Grantee: RODRIGUEZ EULALIA Grantee: RODRIGUEZ JUANA Grantee: RODRIGUEZ KARINA KAMCHASQUY Grantee: RODRIGUEZ LUCIA G Grantee: RODRIGUEZ MARIA Grantee: ROMERO JORGE Grantee: ROSALES MARTIN Grantee: SALAZAR ADRIANA Grantee: SALDANA-GONZALEZ ANDRES Grantee: SANCHEZ LIZBETH Grantee: SANDOBAL JORGE Grantee: SASSON ELI Grantee: SERRANO ORVELIN Grantee: SOTO CESAR Grantee: TALAVERA ARLEN Grantee: TIJERINA BERTHA Grantee: TOPETE LUIS Grantee: TOPETE SAUL Grantee: TORRES JANETT Grantee: TORRES LEOPOLDO Grantee: TORRES OLVAN Grantee: TORRES TOMASA Grantee: UNKNOWN TENANTS Grantee: URIOSTEGUI FLORIBELLA Grantee: VALENCIA LECTICA Grantee: VARGAS MARIA ROSALLBA Grantee: VAZQUEZ BERNARDO MARTINEZ Grantee: VEZQUEZ JUAN Grantee: VIGIL LUZ Grantee: WARD ROBIN Grantee: YBARRA JUAN FRANK Grantee: YBARRA RENEE Grantee: ZUNIGA JOSE Grantee: ZUNIGA SOCORRO | Desc: UPSHAW S W Abstract: 0821 Comment: 29.352 Related Docs",
+        "RP-2022-424755 | 08/19/2022 | ORDER | Grantor: HARRIS COUNTY MUNICIPAL UTILITY DISTRICT NO 120 Grantee: 20 CLAYTON LTD Grantee: ATHARI MOHAMMAD Grantee: ATWOOD INVESTMENT CORPORATION Grantee: ATWOOD INVESTMENT CORPORATION AND THEIR HEIRS SUCCESSORS AND ASSIGNS Grantee: ATWOOD INVESTMENTS CORPORATION Grantee: BLAS HERRERA SURVEY ABSTRACT N0 321 Grantee: FIRST PROPERTY BANK Grantee: HARRIS COUNTY Grantee: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantee: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantee: HARRIS COUNTY HOSPITAL DISTRICT Grantee: HARRIS FORT BEND EMERGENCY SERVICES DISTRICT NO 100 Grantee: HOUSTON COMMUNITY COLLEGE SYSTEM Grantee: LADJEVARDIAN MOHAMMAD Grantee: LIZTON CORPORATION Grantee: PARVIZIAN ABOLGHASSEM Grantee: PARVIZIAN GUS Grantee: PORT OF HOUSTON AUTHORITY Grantee: PROSPERITY BANK Grantee: TAX ASSESSOR & COLLECTOR OF ALDINE INDEPENDENT SCHOOL DISTRICT Grantee: TAX ASSESSOR & COLLECTOR OF HARRIS COUNTY Grantee: THE UNKNOW HEIRS DEVISEES BENEFICIARIES ADMINISTRATORS AND EXECUTORS Grantee: THE UNKNOW OWNERS OF RESTRICTED RESERVE D IN THE OAK PARK RIDGE SECTION 3 SUBDIVISION Grantee: UNITED CAPITAL PROPERTIES INC Grantee: UNKNOWN OWNERS AND PARTNERS OF 20 CLAYTON LTD Grantee: UNKNOWN OWNERS AND STOCKHOLDERS OF LIZTON CORPORATION | Desc: OAK PARK RIDGE Sec: 3 Reserve: D",
+        "RP-2020-493582 | 10/14/2020 | W/D | Grantor: 5123 DEL MONTE HOLDINGS LLC Grantee: UNKNOWN OWNER LLC | Desc: DEL MONTE TERRACE Lot: 9 Block: 2",
+        "RP-2020-418635 | 09/08/2020 | L/P | Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantee: UNKNOWN STROCKHOLDERS OF HOMECRAFT LAND DEVELOPMENT INC | Desc: WALTON P Abstract: 1253 Comment: 2.879 Related Docs",
+        "RP-2020-346969 | 08/03/2020 | JUDGE | Grantor: JV'S IDEAL PROPERTIES & INVESTMENTS LLC Grantee: LEMON R Grantee: UNKNOWN HEIRS OF R LEMON | Desc: BENSON ELLIS Abstract: 110",
+        "RP-2020-343879 | 07/31/2020 | L/P | Grantor: HC Grantee: UNKNOWN OWNERS TRUSTEES OF RIVER TERRACE LOT PROJECT | Desc: ISBELL JAMES H Abstract: 0478 Comment: 0.2085 Related Docs",
+        "RP-2020-340742 | 07/30/2020 | L/P | Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantee: UNKNOWN STOCKHOLDERS OF GALINDO PROPERTY MANAGEMENT INC | Desc: BROOKLINE ADDITION Lot: 1-3 Block: 12 Related Docs",
+        "RP-2020-136833 | 03/26/2020 | AMEND | Grantor: STATE OF TEXAS Grantee: ALLEN BALTIS Grantee: ALLEN BERRIJEAN Grantee: ALLEN BESSIE Grantee: ALLEN CORRINE B Grantee: ALLEN GRETCHEN JANE Grantee: ALLEN JOHN Grantee: ALLEN MARY JANE Grantee: ALLEN RUTH LEILA Grantee: ALLEN SAM Grantee: ALLEN SAM EST Grantee: ALLEN SUSAN LOUISE Grantee: ALLEN SUZANNE MARIE Grantee: CONVERSE GEORGE PERRY Grantee: CONVERSE JAMES EST Grantee: CONVERSE JAMES PIERCE JR Grantee: CONVERSE JAMES PIERCE SR Grantee: CONVERSE MARION BANKS Grantee: CONVERSE MYRTLE LABARBE Grantee: CONVERSE PATRICIA BUCKLEY Grantee: CONVERSE THOMAS PIERCE Grantee: CRIMMINS EDITH M Grantee: CRON CLAYTON Grantee: DOGGETT ANN Grantee: DOGGETT VERNON GENE Grantee: DOGGETT WILLIAM LESLIE Grantee: FAY & FAY INC Grantee: FAY & FAY LTD Grantee: FITZHUGH JAMES G Grantee: FITZHUGH STELLA Grantee: GALAHER ABBOTT Grantee: GALAHER ELIZA Grantee: GALAHER MATTHEW A Grantee: GALAHER MEGAN T Grantee: GALAHER TOWNER W Grantee: GALAHER URSALA Grantee: HALL KATHLEEN MENEFEE Grantee: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantee: HUTCHINSON VIRGINIA IRENE Grantee: JOHANSEN JOAN Grantee: LAFFERTY CORNELIA Grantee: LAFFERTY MICHAEL Grantee: LEMON HORTENSE A BLEKER Grantee: LEMON MARCIA Grantee: MARSTON EDGAR Grantee: MARSTON GRAEME MEYERS Grantee: MCCLUSKEY MARY Grantee: MENEFEE ANDREW M Grantee: MENEFEE CHRISTINE Grantee: MENEFEE CHRISTOPHER Grantee: MENEFEE HOLLIS L Grantee: MENEFEE JENNIFER Grantee: MENEFEE JOHN Grantee: MENEFEE NANCY J Grantee: MENEFEE PETER Grantee: MENEFEE PHYLLIS Grantee: MENEFEE RICHELLE Grantee: MITCHELL ANDREW SR Grantee: MITCHELL PATRICIA NEWTON Grantee: MOORE SALLY Grantee: OKU VIRGINIA MENEFEE Grantee: OSBORNE BARBARA ANNE CONVERSE Grantee: OSBORNE DAVID DEVENS Grantee: OSBORNE HENRY THAYER Grantee: OSBORNE JAMES LITHGOW Grantee: OSBORNE LILLIE SUZANNE Grantee: OSBORNE MARION B Grantee: PFITZENMAYER LESLIE A Grantee: PLUMMER IONE DOGGETT Grantee: POWELL DOROTHY Grantee: RHODES CASSANDRA Grantee: RICKLES ELIZABETH M Grantee: RICKLES NORMAN A Grantee: SEABROOK MARINA INC Grantee: SHEAHAN CAROLINE Grantee: SKOVE MARGEY M Grantee: STADEAGAR GEOFFREY H Grantee: STEWART ARDATH AMANDA Grantee: STEWART BARBARA A Grantee: STEWART EDWARD PEDEN Grantee: STEWART ELBERT DAVIS III Grantee: STEWART JANE PEDEN Grantee: SWANSON IONE DOGGETT Grantee: SWANSON JAMES FRANK Grantee: TEXAS FIRST BANK Grantee: UNKNOWN HEIRS OF SARAH B JONES Grantee: UNKNOWN HEIRS OF SUE E BAKER Grantee: VAN MAAREN CHRIS Grantee: WALDEN LAURA Grantee: WATT VIRGINIA MEYERS Grantee: WILKINS OTIS LEE Grantee: WORLOW GARY | Desc: RITSON MORRIS LEAGUE Abstract: 52 Comment: 0.1231",
+        "RP-2019-92740 | 03/08/2019 | AFFT | Grantor: HARDEN PATRICIA LYNN Grantee: UNKNOWN LEAD DOG EST | Desc: BENNETT ESTATES Sec: 2 Lot: 265 Block: 12",
+        "RP-2019-90622 | 03/06/2019 | L/P | Grantor: HARRIS COUNTY Grantor: STATE OF TEXAS Grantee: AGUILAR MARICELA Grantee: DAO THOA Grantee: SEE INSTRUMENT Grantee: UNKNOWN GAME ROOM Grantee: VIMI 1 INVESTMENT LLC | Sec: 2 Lot: BRENTWOOD Reserve: C",
+        "RP-2019-70285 | 02/21/2019 | L/P | Grantor: HARRIS COUNTY Grantee: LE NHAN TRUNG Grantee: TRAM LONG XUAN Grantee: TRAM THOA THI Grantee: UNKNOWN HEIRS OF NHAN TRUNG LE | Desc: WINDFERN MEADOWS Lot: 23",
+        "RP-2019-540397 | 12/06/2019 | L/P | Grantor: HARRIS COUNTY Grantor: STATE OF TEXAS Grantee: ERA INVESTMENT INC Grantee: NGUYEN KHOA Grantee: UNKNOWN GAME ROOM | Comment: SEE INSTRUMENT",
+        "RP-2019-48850 | 02/05/2019 | L/P | Grantor: HARRIS COUNTY Grantor: STATE OF TEXAS Grantee: CHAVEZ ARUBE Grantee: PLACENCIA ABEL Grantee: PLACENCIA MARIA Grantee: PLACENCIA SANDRA Grantee: TORRES BARBARO Grantee: UNKNOWN GAME ROOM | Desc: COLONIAL GARDENS Lot: 224 Block: 7",
+        "RP-2019-428063 | 09/26/2019 | REL | Grantor: HARRIS COUNTY Grantor: NGUYEN TUAN Grantor: STATE OF TEXAS Grantee: LA ROMERO PROPERTIES LLC Grantee: MILEY CHARLES Grantee: ROMERO JOSE Grantee: UNKNOWN GAME ROOM | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-421522 | 09/23/2019 | L/P | Grantor: HERNANDEZ ANTONIO Grantor: HERNANDEZ GUADALUPE Grantee: UNKNOWN HEIRS OF ELIGIA N LOPEZ | Desc: NOBLE Lot: 6 Block: 83",
+        "RP-2019-293818 | 07/09/2019 | NOTICE | Grantor: 16431 AVENFIELD TRUST Grantor: BUDGE BARBARA Grantor: CIT BANK N A Grantor: LAKEWOOD FOREST FUND INC Grantor: SEELEY CAROL Grantor: UNKNOWN HEIRS AT LAW OF EVA M WHITE Grantor: UNKNOWN HEIRS AT LAW OF ROBERT J WHITE Grantor: WHITE ROBERT STEVEN Grantee: 16431 AVENFIELD TRUST Grantee: BUDGE BARBARA Grantee: CIT BANK N A Grantee: LAKEWOOD FOREST FUND INC Grantee: SEELEY CAROL Grantee: UNKNOWN HEIRS AT LAW OF EVA M WHITE Grantee: UNKNOWN HEIRS AT LAW OF ROBERT J WHITE Grantee: WHITE ROBERT STEVEN | Desc: LAKEWOOD FOREST Sec: 14 Lot: 33 Block: 6",
+        "RP-2019-260595 | 06/19/2019 | L/P | Grantor: HARRIS COUNTY Grantor: STATE OF TEXAS Grantee: 8900 NORTH FREEWAY INC Grantee: JWG CORP Grantee: TRAN THUY NGOC VY Grantee: UNKNOWN GAME ROOM | Desc: NORTH SHEPHERD MANOR Lot: 1-15 Block: 2 Related Docs",
+        "RP-2019-260592 | 06/19/2019 | L/P | Grantor: HARRIS COUNTY TEXAS Grantor: STATE OF TEXAS Grantee: CHOE CHONG CHUL Grantee: UNKNOWN GAME ROOM | Desc: W C R R COMPANY Sec: 9 Abstract: 923 Comment: 2.2875 Related Docs",
+        "RP-2019-253443 | 06/14/2019 | L/P | Grantor: HARRIS COUNTY Grantee: AMARO ELVIA Grantee: AMARO MANUEL Grantee: KING EDWARD SKYLER Grantee: UNKNOWN HEIRS O HOYD SIMPSON KING JR | Desc: SPRING CREEK VALLEY ESTATES Sec: II Lot: 1 Block: 21 Related Docs",
+        "RP-2019-221221 | 05/28/2019 | L/P | Grantor: HARRIS COUNTY Grantee: BOWRON LESLIE Grantee: DUBOSE NORWEN Grantee: DUDLEY MARVIN Grantee: FOX CYNTHIA ADELE Grantee: FOX JIM NATHAN Grantee: FOX TROY Grantee: JIANG HAIMING Grantee: MILLER BILL Grantee: STEWART CAMEY Grantee: UNKNOWN HEIRS OF CRAIG HILDRETH Grantee: WRIGHT RANDY Grantee: YOUNG DARRELL | Desc: WHITE R Abstract: 84 Comment: 0.4065 Related Docs",
+        "RP-2019-221219 | 05/28/2019 | L/P | Grantor: HARRIS COUNTY Grantor: STATE OF TEXAS Grantee: LA ROMERO PROPERTIES LLC Grantee: MILEY CHARLES Grantee: ROMERO JOSE Grantee: UNKNOWN GAME ROOM | Desc: OLD RIVER TERRACE Sec: 4 Lot: 35 Block: 15 Related Docs",
+        "RP-2018-5201 | 01/04/2018 | NOTICE | Grantor: HICKS NOELLE Grantor: SOUTHCREEK VILLAGE COMMUNITY ASSOCIATION INC Grantee: HILL KENDRELLA MARIE Grantee: HILL RENELLA F Grantee: JONES LAKESIA ROSHELL Grantee: UNKNOWN HEIRS OF ERSKIN C HILL | Desc: COPPERF'IELD SOUTHCREEK VILLAGE Sec: 5 Lot: 23 Block: 3 Related Docs",
+        "RP-2018-501987 | 11/02/2018 | NOTICE | Grantor: CITY OF HOUSTON Grantee: UNKNOWN OWNERS | Desc: SOUTH SIDE BUFFALO BAYOU Block: 570 Tract: 13",
+        "RP-2018-488887 | 10/26/2018 | DEED | Grantor: HARDEN PATRICIA LYNN Grantee: HARDEN PATRICIA LYNN Grantee: UNKNOWN LEAD DOG Grantee: WINKLE LAURA LEE Grantee: WINKLE STEPHANIE DENISE | Desc: BENNETT ESTATES Sec: 2 Lot: 265 Block: 12",
+        "RP-2018-488882 | 10/26/2018 | DEED | Grantor: UNKNOWN LEAD DOG Grantee: HARDEN PATRICIA LYNN Grantee: UNKNOWN LEAD DOG Grantee: WINKLE LAURA LEE Grantee: WINKLE STEPHANIE DENISE | Desc: BENNETT ESTATES Sec: 2 Lot: 265 Block: 12 Related Docs",
+        "RP-2018-477526 | 10/18/2018 | L/P | Grantor: HARRIS COUNTY Grantee: GILBERT ROY J Grantee: UNKNOWN OWNER OR OWNERS | Desc: PERKINS W M Abstract: 621 Comment: 0.141 Related Docs",
+        "RP-2018-466961 | 10/11/2018 | DEED | Grantor: HARDEN OLAN W EST Grantor: HARDEN PATRICIA LYNN Grantor: HARDEN WINNIE LOUISE EST Grantee: HARDEN PATRICIA LYNN Grantee: UNKNOWN LEAD DOG | Desc: BENNETT ESTATES Sec: 2 Lot: 265 Block: 12",
+        "RP-2018-366273 | 08/10/2018 | L/P | Grantor: SAN JACINTO RIVER AUTHORITY Grantee: ENID HAGGETT AND HER UNKNOWN HEIRS Grantee: HAGGETT AENID P Grantee: SMITH CAMILLE P EST Grantee: SMITH CAMILLE PICHET HAGGETT EST Grantee: SMITH VICTOR CONWAY EST Grantee: UNKNOWN HEIRS OF CAMILLE PICHET SMITH Grantee: UNKNOWN HEIRS OF VICTOR C SMITH | Desc: HIGHLAND FARMS Block: 7",
+        "RP-2017-358985 | 08/09/2017 | RESCND | Grantor: HARRIS COUNTY TEXAS Grantee: GONZALES FRANK R Grantee: UNKNOWN OWNERS | Comment: SEE INSTRUMENT",
+        "RP-2016-263351 | 06/20/2016 | L/P | Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantee: ARCHER DEVELOPMENT COMPANY INC Grantee: BLOCK DONALD MARTEL Grantee: BLOCK EDWARD M Grantee: BLOCK JOSEPH LUCIEN II Grantee: CAMPBELL JAN MOORE Grantee: CASTLEWOOD CIVIC CLUB Grantee: CITY NATIONAL BANK AND TRUST COMPANY OF CHICAGO Grantee: DAVIS ELAINE WOODLEY BLOCK Grantee: EIDMAN F G Grantee: HAASE SUSAN MAUK Grantee: HUTCHESON JAMES STERLING Grantee: JEANNE D MANDELL TRUST Grantee: JOE R BRADY TRUST Grantee: RICHARD E LEONARDON TRUST Grantee: SCHWARTS HENRIETTA H Grantee: SMITH MARY DICKEY BLOCK Grantee: UNKNOWN GRANDCHILDREN AND GREAT-GRANDCHILDREN OF ALLEN C HUTCHESON AND WIFE STRAUSIE M HUTCHESON Grantee: UNKNOWN OWNER OR OWNERS | Desc: CASTLEWOOD ADDITION Sec: 2 Lot: 188 Block: 3"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'UNKNOWN')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-87737 | 03/09/2026 | DEED | Grantor: HERMAN MARK CONST Grantor: JOHNSON CHARLES BRANDON Grantor: JOHNSON GLORIA D EST Grantor: JOHNSON KEYARRA SHUNTA PERRY Grantor: REMINGTON RANCH COMMUNITY ASSOCIATION INC Grantor: RICHARDSON GLORIA EST Grantor: UNKNOWN HEIRS AT LAW OF GLORIA D JOHNSON Grantee: POSSIBLE HEALTHCARE SOLUTIONS LLC | Desc: REMINGTON RANCH Sec: 7 Lot: 7 Block: 1",
+        "RP-2026-409043 | 10/08/2026 | ORDER | Grantor: CITY OF HOUSTON Grantor: CITY OF HOUSTON GREATER SOUTHEAST MANAGEMENT DISTRICT Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HARRIS HEALTH SYSTEM Grantor: HOLLINS CLARICE Grantor: HOUSTON COMMUNITY COLLEGE Grantor: HOUSTON INDEPENDENT SCHOOL DISTRICT Grantor: MILLER ELAINE RHENEE EST Grantor: MILLER WILLIAM ALFRED Grantor: PORT OF HOUSTON AUTHOIRTY OF HARRIS COUNTY Grantor: REINVESTMENT ZONE NUMBER SEVEN Grantor: UNKNOWN HEIRS OF THE ESTATE OF ELAINE RHENEE MILLER Grantor: UNKNOWN HEIRS OF THE ESTATE OF IDA MAE STEWARD Grantor: UNKNOWN HEIRS OF THE ESTATE OF TOMMY EUGENE WALKER Grantor: WALKER TRENTON L Grantee: STATE OF TEXAS | Desc: HOLMAN J S Abstract: 323 Comment: 0.0737 Related Docs",
+        "RP-2026-363013 | 09/04/2026 | ORDER | Grantor: UNKNOWN HEIRS OF GALE HILLIARD GOODWILL Grantor: UNKNOWN HEIRS OF JEROME GOODWILL Grantee: BANKS RODERICK L | Desc: WASHINGTON TERRACE Lot: 15 Block: 14",
+        "RP-2026-33085 | 01/29/2026 | W/D | Grantor: FARAH MICHAEL Grantor: UNKNOWN HEIRS OF ELIJAH MITCHELL Grantee: NEKO CAPITAL LLC | Desc: MAC GREGOR PLACE Sec: 3 Lot: 5 Block: 13",
+        "RP-2026-328092 | 08/12/2026 | JUDGE | Grantor: DRUMGOOLE STEPHANIE Grantor: KEENER LILLIE Grantor: KEENER LILLIE MAE Grantor: KEENER LILLIE MAE WATSON Grantor: LAW GRACE Grantor: LAW GRACE LEE SCOTT Grantor: LAW GRACIE LEE SCOTT Grantor: LAW JOHN Grantor: LAW JOHNNIE Grantor: LAW JOHNNY Grantor: LAW KEITH Grantor: LAW KEITH ADRIAN Grantor: LAW LANCE Grantor: LAW LANCE LAMAR Grantor: LAW STEFFANEE Grantor: LAW STEFFANEE LANETTE Grantor: LAW TIFFANEE Grantor: LAW TIFFANEE LANCHELLE Grantor: LAWS LILLIE MAE Grantor: RIDDLEY LILLIE MAE WATSON Grantor: SMITH SHARON Grantor: UNKNOWN HEIRS OF GRACE LAW Grantor: UNKNOWN HEIRS OF JOHN LAW Grantor: UNKNOWN HEIRS OF JOHNNY LAW Grantor: UNKNOWN HEIRS OF KEITH LAW Grantor: UNKNOWN HEIRS OF LANCE LAW Grantor: UNKNOWN HEIRS OF LILLIE MAE KEENER Grantor: UNKNOWN HEIRS OF LILLIE MAE KEENER RIDDLEY Grantee: HOWARD MONIQUE Grantee: STEWART CHRISTOPHER Grantee: TWF CAPITAL MANAGEMENT LLC | Desc: RYON ADDITTION Lot: 7-8 Block: 78 Related Docs",
+        "RP-2026-327936 | 08/12/2026 | ORDER | Grantor: ATASCOCITA COMMUNITY IMPROVEMENT ASSOCIATION Grantor: ATASCOCITA ON LAKE HOUSTON INC Grantor: ELRO-ATASCOCITA INC Grantor: GOLF VILLAS OF ATASCOCITA MAINTENANCE ASSOCIATION INC Grantor: SEE INSTRUMENT Grantor: TAX ASSESSOR/COLLECTOR OF HUMBLE ISD Grantor: TAX ASSESSOR/COLLECTOR OR HARRIS COUNTY Grantor: UNKNOWN DISTRIBUTESS AND SHAREHOLDERS OF ATASCOCITA ON LAKE HOUSTON INC Grantee: HARRIS COUNTY MUNICIPAL UTILITY DISTRICT NO 132 | Desc: GOLF VILLAS OF ATASCOCITA Related Docs",
+        "RP-2026-297341 | 07/23/2026 | W/D | Grantor: FLORES ROSENDO EST Grantor: GONZALEZ TERESA Grantor: HEACOCK SANDRA Grantor: UNKNOWN HEIRS OF TERESA FLORES Grantee: VILLEGAS LEONARDO A | Desc: LITTLE &DICKENSON ADDITION Lot: 5 Block: 44",
+        "RP-2026-291271 | 07/20/2026 | ORDER | Grantor: UNKNOWN HEIRS OF IRVA H DAUGHTRY Grantee: PARKER CALVIN | Desc: MAYWOOD PLACE Lot: 119 Block: 4",
+        "RP-2026-246944 | 06/22/2026 | DEED | Grantor: ALDINE INDEPENDENT SCHOOL DISTRICT Grantor: CITY OF HOUSTON Grantor: CULTON RAMELL Grantor: GRANT PATRICIA Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL Grantor: JOHNSON WALTER Grantor: LONE STAR COLLEGE SYSTEM DISTRICT Grantor: PORT OF HOUSTON AUTHORITY OF HARRIS COUNTY Grantor: ROSEN ALAN CONST Grantor: THE HARRIS COUNTY HOSPITAL DISTRICT Grantor: UNKNOWN HEIRS Grantor: WHITE DION Grantee: FLORES BALTAZAR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-241409 | 06/17/2026 | DEED | Grantor: EAGLETON SHERMAN CONST Grantor: INTERNATIONAL CONSTRUCTION COMPANY INC Grantor: KWW COMPANY INC Grantor: THOMAS EARL E Grantor: THOMAS RUTH S Grantor: UNKNOWN SHAREHOLDERS SUCCESSORS AND ASSIGNS Grantee: SALVADOR VICENTE | Desc: STANLEY J L Abstract: 700 Tract: 4 Comment: 2.500 Related Docs",
+        "RP-2026-233675 | 06/12/2026 | ORDER | Grantor: BALDWIN DEBORAH ROGERS Grantor: ROGERS DEBORAH ANN Grantor: UNKNOWN HEIRS Grantee: CARLSSON JUDITH A Grantee: MATTHEWS JERRY LYNN | Desc: SPENWICK VILLAGE CONDOMINIUM NO ONE Unit: 408",
+        "RP-2026-120787 | 03/31/2026 | ORDER | Grantor: ALMENDAREZ BRENDA Grantor: ALMENDAREZ NIKO Grantor: RAY LEWIS FRANKLIN Grantor: UNKNOWN HEIRS AT LAW OF BRENDA ALMENDAREZ Grantee: MR COOPER Grantee: NATIONSTAR MORTGAGE LLC | Desc: CYPRESS POINT Sec: 2 Lot: 19 Block: 3 Related Docs",
+        "RP-2026-105580 | 03/20/2026 | DEED | Grantor: CARTER DEBRA Grantor: COLEMAN ADDIE LEE Grantor: COLEMAN ARTHUR JR Grantor: COLEMAN JOAN Grantor: COLEMAN LOUIS Grantor: EDWARDS JOHN L SR Grantor: GRANVILLE KAREN Grantor: HARRIS COUNTY Grantor: HOUSTON LENORA Grantor: LOCKETT CRAIG Grantor: LOCKETT DAVID JR Grantor: MAXIE PAULA C Grantor: PHILLIPS JAMES CONST Grantor: PINCHBACK GAIL Grantor: SHAAR SHEHADI SHARBEL Grantor: THOMPSON MINNIE Grantor: UNKNOWN MEMBERS SUCCESSORS AND ASSIGNS UNION GROVE BAPT CHURCH Grantee: RPG INVESTMENTS LLC | Desc: FLOWER CITY Lot: 6-7 Block: 3",
+        "RP-2025-468219 | 11/25/2025 | ORDER | Grantor: HENSON MARGARET EST Grantor: PERRY LARRY BRIAN Grantor: UNKNOWN HEIRS AT LAW Grantee: CIM TRUST 2021-NR3 Grantee: U S BANK NATIONAL ASSOCIATION Grantee: U S BANK TRUST COMPANY | Desc: GREENVIEW TOWNHOMES Unit: D-15",
+        "RP-2025-441468 | 11/06/2025 | ORDER | Grantor: UNKNOWN MEMBERS OF GMAC MORTGAGE LLC Grantor: UNKNOWN SHAREHOLDERS OF GMAC MORTGAGE CORPORATION Grantee: VILLARREAL CATARINA Grantee: VILLARREAL JOSUE | Desc: MITCHELL PLACE Lot: 29",
+        "RP-2025-416744 | 10/21/2025 | ORDER | Grantor: MAGNOLIA PROPERTIES LTD Grantor: UNKNOWN OWNERS OF A 8.4710 ACRE TRACT OF LAND Grantor: UNKNOWN OWNERS OF MAGNOLIA PROPERTIES LTD Grantee: WEST HARRIS COUNTY REGIONAL WATER AUTHORITY | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-360042 | 09/10/2025 | DEED | Grantor: ALDINE INDEPENDENT SCHOOL DISTRICT Grantor: ALMODOVAR MICHAEL Grantor: CHANEY CHRIS Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY EDUCATION DEPARTMENT Grantor: HARRIS COUNTY EMERGENCY SERVICES DISTRICT #1 Grantor: HARRIS COUNTY EMERGENCY SERVICES DISTRICT #25 Grantor: HARRIS COUNTY FLOOD CONTROL Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: ISRAEL RICHARD III Grantor: ISRAEL TREY Grantor: LONE STAR COLLEGE SYSTEM DISTRICT Grantor: PARKDALE HOLDINGS LLC Grantor: PORT OF HOUSTON AUTHORITY OF HARRIS COUNTY Grantor: RAMKISSOM AMANDA Grantor: RICHARDSON BILLIE JEAN Grantor: RICHARDSON DEWAYNE Grantor: ROSEN ALAN CONST Grantor: UNKNOWN HEIRS OF DEWAYNE RICHARDSON Grantor: UNKNOWN HEIRS OF ELMER L RICHARDSON Grantor: UNKNOWN HEIRS OF ELMER RICHARDSON Grantee: MARYLAND RIGHT WAY 1 LLC | Desc: OAKWILDE Sec: 1 Lot: 6 Block: 1 Related Docs",
+        "RP-2025-323249 | 08/15/2025 | DEED | Grantor: ALLBRITTON TERRY Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY EMERGENCY SERVICE DISTRICT #11 Grantor: HARRIS COUNTY EMERGENCY SERVICE DISTRICT #16 Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: KLEIN INDEPENDENT SCHOOL DISTRICT Grantor: LONE STAR COLLEGE SYSTEM Grantor: PORT OF HOUSTON AUTHORITY Grantor: UNKNOWN HEIRS OF MARY ANN FRAZIER Grantee: AIC MANAGEMENT | Desc: SMITH E Abstract: 70 Tract: 43A",
+        "RP-2024-438322 | 11/22/2024 | W/D | Grantor: UNKNOWN OWNER LLC Grantee: MEHRAN HOUSTON LLC | Desc: DEL MONTE TERRACE Lot: 9-10 Block: 2",
+        "RP-2024-432575 | 11/19/2024 | ORDER | Grantor: UNKNOWN HEIRS AT LAW OF CORDELIA REYNOLDS Grantee: CITIGROUP MORTGAGE LOAN TRUST INC SERIES 2006-HE3 Grantee: U S BANK NATIONAL ASSOCIATION | Desc: BERKSHIRE Sec: 7 Lot: 17 Block: 2",
+        "RP-2024-257283 | 07/17/2024 | DEED | Grantor: BAYVIEW FINANCIAL L P Grantor: BMW PARTNERS LLC Grantor: DDD INVESTMENT PARTNERS LLC Grantor: EBCO PARTNERS LLC Grantor: GARCIA JERRY CONST Grantor: HARRIS COUNTY Grantor: J KARAM 11 INC Grantor: KARAM JEROME M Grantor: TYSON AND ASSOCIATES LLC Grantor: UNKNOWN SHAREHOLDERS Grantee: CITY OF PASADENA Grantee: DEER PARK INDEPENDENT SCHOOL DISTRICT Grantee: HARRIS COUNTY Grantee: SAN JACINTO COMMUNITY COLLEGE DISTRICT | Desc: EARLE THOMAS Abstract: 73 Related Docs",
+        "RP-2024-211209 | 06/11/2024 | ORDER | Grantor: SALINAS ERNESTO DANIEL Grantor: UNKNOWN HEIRS OF ALBERT SALINAS Grantor: UNKNOWN HEIRS OF ELIZABETH GARCIA-SALINAS Grantor: UNKNOWN HEIRS OF ERNESTO DANIEL SALINAS Grantee: CONTRERAS JOSE LUIS | Desc: OAK FOREST Sec: 1 Lot: 27 Block: 8",
+        "RP-2024-126444 | 04/10/2024 | ORDER | Grantor: BELLEAU WOOD EAST PROPERTY OWNERS ASSOCIATION Grantor: CHIN ALFORD Grantor: PARAMOUNT GROWTH FUND CH LTD Grantor: SABLE GROUP LP Grantor: UNKNOWN HEIRS OF LANA P Y CHIN EST Grantee: STATE OF TEXAS | Desc: BELLEAU WOOD EAST SUBDIVISION Block: 3 Reserve: B Related Docs",
+        "RP-2024-100995 | 03/22/2024 | DEED | Grantor: BENTLY MARTHA Grantor: CITY OF BAYTOWN Grantor: COOKE JUANITA Grantor: EAGLETON SHERMAN CONST Grantor: ELKINS BONNIE Grantor: ELKINS BONNIE LUCILLE Grantor: GOOSE CREEK CONSOLIDATED INDEPENDENT SCHOOL DISTRICT Grantor: GRAY LINDA V Grantor: HARRIS COUNTY Grantor: HOFFMAN JOHN E Grantor: JUDICE JOHN Grantor: JUDICE MARIE Grantor: JUDICE PAMELA Grantor: JUDICE PAMELA MULLER Grantor: LACEFIELD CURTIS Grantor: LACEFIELD CURTIS LYNDON Grantor: LACEFIELD DENNIS Grantor: LACEFIELD DENNIS LINDON Grantor: LEE COLLEGE DISTRICT Grantor: PETREY BOBBY Grantor: PETREY BOBBY JOE Grantor: PETREY GERALD Grantor: PETREY GERALD DEE Grantor: PETREY JERRY L Grantor: PETREY JERRY LYNN Grantor: STEHLING JUANITA Grantor: STEHLING JUANITA MULLER Grantor: UNKNOWN SHAREHOLDERS SUCCESSORS AND ASSIGNS OF LAKEWOOD #1 Grantor: VIDRINE DOROTHY W Grantor: VIDRINE DOROTHY W EST Grantor: VIDRINE DOROTHY WISMER Grantor: VIDRINE MARCUS Grantee: CITY OF BAYTOWN Grantee: GOOSE CREEK CONSOLIDATED INDEPENDENT SCHOOL DISTRICT Grantee: HARRIS COUNTY Grantee: LEE COLLEGE DISTRICT | Desc: LAKEWOOD Sec: 1 Lot: 4 Block: 23 Related Docs",
+        "RP-2023-473538 | 12/18/2023 | ORDER | Grantor: UNKNOWN HEIRS OF JESSE OWENS EST Grantor: YOUNG JENNIFER MARIE Grantee: QUICKEN LOANS LLC Grantee: ROCKET MORTGAGE LLC | Desc: FAIRMONT PARK Sec: III Lot: 17 Block: 14",
+        "RP-2023-438174 | 11/17/2023 | ORDER | Grantor: UNKNOWN HEIRS OF ELIZA A DEWALT Grantee: WALLACE ROGER P JR | Desc: STAPLES & MCCLELLAND Lot: 2 Block: 4",
+        "RP-2023-430747 | 11/10/2023 | ORDER | Grantor: MOLINA FREDY Grantor: MOLINA JOSE Grantor: UNKNOWN HEIRS AT LAW OF MARTHA CASTRO EST Grantee: LOANCARE LLC | Desc: THE BONAIRE Sec: 5 Lot: 2 Block: 28",
+        "RP-2023-423947 | 11/06/2023 | ORD | Grantor: ABRISZ JAMES P Grantor: UNKNOWN HEIRS AT LAW OF JAMES ABRISZ EST Grantee: QUICKEN LOANS INC Grantee: QUICKEN LOANS LLC Grantee: ROCKET MORTGAGE LLC | Desc: CYPRESS MEADOW Sec: 4 Lot: 30 Block: 1",
+        "RP-2023-285886 | 07/31/2023 | ORDER | Grantor: ELLISON ERIC Grantor: ELLISON GARY Grantor: UNKNOWN HEIRS AT LAW OF CECILLE ELLISON EST Grantee: PROVIDENT FUNDING ASSOCIATES LP | Desc: WINCHESTER COUNTRY Sec: 3 Lot: 31 Block: 10",
+        "RP-2023-118288 | 04/04/2023 | ORDER | Grantor: MATHIS ROBERT JR Grantor: UNKNOWN HEIRS OF ROBERT MATHIS SR EST Grantee: LAKEVIEW LOAN SERVICING LLC | Desc: LUM TERRACE Lot: 9 Block: 4",
+        "RP-2021-392788 | 07/13/2021 | ORDER | Grantor: ALLEN BALTIS Grantor: ALLEN BERRIJEAN Grantor: ALLEN BESSIE Grantor: ALLEN CORINNE B Grantor: ALLEN GRETCHEN JANE Grantor: ALLEN JOHN Grantor: ALLEN MARY JANE Grantor: ALLEN RUTH LEILA Grantor: ALLEN SUSAN LOUISE Grantor: ALLEN SUZANNE MARIE Grantor: CITY OF SEABROOK Grantor: CLEAR CREEK INDEPENDENT SCHOOL DISTRICT Grantor: CONVERSE GEORGE PERRY Grantor: CONVERSE JAMES PIERCE JR Grantor: CONVERSE JAMES PIERCE SR Grantor: CONVERSE MARION BANKS Grantor: CONVERSE MYRTLE LABARBE Grantor: CONVERSE PATRICIA BUCKLEY Grantor: CONVERSE THOMAS PIERCE Grantor: CRIMMINS EDITH M Grantor: CRON CLAYTON Grantor: DOGGETT ANN Grantor: DOGGETT VERNON GENE Grantor: DOGGETT WILLIAM LESLIE Grantor: FAY & FAY INC Grantor: FAY & FAY LTD Grantor: FITZHUGH JAMES G Grantor: FITZHUGH STELLA DOGGETT Grantor: GALAHER ABBOTT Grantor: GALAHER ELIZA Grantor: GALAHER MATTHEW A Grantor: GALAHER MEGAN T Grantor: GALAHER TOWNER W Grantor: GALAHER URSALA Grantor: HALL KATHLEEN MENEFEE Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY EDUCATION DEPARTMENT Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HUTCHINSON VIRGINIA IRENE Grantor: JOHANSEN JOAN Grantor: LAFFERTY CORNELIA Grantor: LAFFERTY MICHAEL Grantor: LEMON HORTENSE A BLEKER Grantor: MAAREN CHRIS VAN Grantor: MARSTON EDGAR Grantor: MARSTON GRAEME MEYERS Grantor: MCCLUSKEY MARY Grantor: MENEFEE ANDREW M Grantor: MENEFEE CHRISTINE Grantor: MENEFEE CHRISTOPHER Grantor: MENEFEE HOLLIS L Grantor: MENEFEE JENNIFER Grantor: MENEFEE JOHN Grantor: MENEFEE PETER Grantor: MENEFEE PHYLLIS Grantor: MENEFEE RICHELLE Grantor: MITCHELL ANDREW SR Grantor: MITCHELL PATRICIA NEWTON Grantor: MOORE SALLY Grantor: OKU VIRGINIA MENEFEE Grantor: OSBORNE BARBARA ANNE CONVERSE Grantor: PFITZENMAYER LESLIE A Grantor: PLUMMER IONE DOGGETT Grantor: PORT OF HOUSTON AUTHORITY Grantor: RHODES CASSANDRA Grantor: RICKLES ELIZABETH M Grantor: SEABROOK MARINA INC Grantor: SHEAHAN CARLINE Grantor: SKOVE MARGEY M Grantor: STADEAGER GEOFFREY H Grantor: STALESKI LANE Grantor: STEWART ARDATH AMANDA Grantor: STEWART BARBRA A Grantor: STEWART EDWARD PEDEN Grantor: STEWART ELBERT DAVID III Grantor: SWANSON IONE DOGGETT Grantor: SWANSON JAMES FRANK Grantor: TATUM LAURIE Grantor: TEXAS FIRST BANK Grantor: UNKNOW HEIRS OF SAM ALLEN Grantor: UNKNOW HEIRS OF SARA B JONES Grantor: UNKNOW HEIRS OF SUE E BAKER Grantor: UNKNOWN HEIRS OF JAMES CONVERSE Grantor: WALDEN LAURA Grantor: WATT VIRGINIA MEYERS Grantor: WORLOW GARY Grantee: STATE OF TEXAS | Desc: RITSON MORRIS LEAGUE Abstract: 0052 Comment: 0.1528",
+        "RP-2021-247629 | 05/05/2021 | ORDER | Grantor: ALLEN BALTIS Grantor: ALLEN BERRIJEAN Grantor: ALLEN BESSIE Grantor: ALLEN CORRINE B Grantor: ALLEN GRETCHEN JANE Grantor: ALLEN JOHN Grantor: ALLEN MARY JANE Grantor: ALLEN RUTH LEILA Grantor: ALLEN SUSAN LOUISE Grantor: ALLEN SUZANNE MARIE Grantor: CONVERSE GEORGE PERRY Grantor: CONVERSE JAMES PIERCE JR Grantor: CONVERSE JAMES PIERCE SR Grantor: CONVERSE MARION BANKS Grantor: CONVERSE MYRTLE LABARBE Grantor: CONVERSE PATRICIA BUCKLEY Grantor: CONVERSE THOMAS PIERCE Grantor: CRIMMINS EDITH M Grantor: CRON CLAYTON Grantor: DOGGETT ANN Grantor: DOGGETT VERNON GENE Grantor: DOGGETT WILLIAM LESLIE Grantor: FAY & FAY INC Grantor: FAY & FAY LTD Grantor: FITZHUGH JAMES G Grantor: FITZHUGH STELLA DOGGETT Grantor: GALAGHER MATTHEW A Grantor: GALAGHER MEGAN T Grantor: GALAGHER URSALA Grantor: GALAHER ABOTT Grantor: GALAHER ELIZA Grantor: GALAHER TOWNER W Grantor: HALL KATHLEEN MENEFEE Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HUTCHINSON VIRGINIA IRENE Grantor: JOHANSEN JOAN Grantor: LAFFERTY CORNELIA Grantor: LAFFERTY MICHAEL Grantor: LEMON HORTENSE A BLEKER Grantor: LEMON MARCIA Grantor: MARSTON EDGAR Grantor: MARSTON GRAEME MEYERS Grantor: MCCLUSKEY MARY Grantor: MENEFEE ANDREW M Grantor: MENEFEE CHRISTINE Grantor: MENEFEE CHRISTOPHER Grantor: MENEFEE HOLLIS L Grantor: MENEFEE JENNIFER Grantor: MENEFEE JOHN Grantor: MENEFEE NANCY J Grantor: MENEFEE PETER Grantor: MENEFEE PHYLLIS Grantor: MENEFEE RICHELLE Grantor: MITCHELL ANDREW Grantor: MITCHELL PATRICIA NEWTON Grantor: MOORE SALLY Grantor: OKU VIRGINIA MENEFEE Grantor: OSBORNE BARBARA ANNE CONVERSE Grantor: OSBORNE DAVID DEVENS Grantor: OSBORNE HENRY THAYER Grantor: OSBORNE JAMES LITHGOW Grantor: OSBORNE LILLIE SUZANNE Grantor: OSBORNE MARION B Grantor: PFITZENMAYER LESLIE A Grantor: PLUMMER IONE DOGGETT Grantor: POWELL DOROTHY Grantor: RHODES CASSANDRA Grantor: RICKLES ELIZABETH M Grantor: RICKLES NORMAN A Grantor: SEABROOK MARINA INC Grantor: SHEAHAN CAROLINE Grantor: SKOVE MARGEY M Grantor: STADEAGAR GEOFFREY H Grantor: STALESKI LANA Grantor: STEWART ARDATH AMANDA Grantor: STEWART BARBARA A Grantor: STEWART EDWARD PEDEN Grantor: STEWART ELBERT DAVIS III Grantor: STEWART JANE PEDEN Grantor: SWANSON IONE DOGGETT Grantor: SWANSON JAMES FRANK Grantor: TATUM LAURIE Grantor: TEXAS FIRST BANK Grantor: UNKNOWN HEIRS OF JAMES CONVERSE EST Grantor: UNKNOWN HEIRS OF SAM ALLEN EST Grantor: UNKNOWN HEIRS OF SARAH B JONES EST Grantor: UNKNOWN HEIRS OF SUE E BAKER EST Grantor: VAN MAAREN CHRIS Grantor: WALDEN LAURE Grantor: WATT VIRGINIA MEYERS Grantor: WILKINS OTIS LEE Grantor: WORLOW GARY Grantee: STATE OF TEXAS | Desc: RITSON MORRIS LEAGUE Abstract: 52 Comment: 0.1231",
+        "RP-2020-493584 | 10/14/2020 | ASSGN | Grantor: UNKNOWN OWNER LLC Grantee: CENTRAL BANK | Desc: DEL MONTE TERRACE Lot: 9-10 Block: 2",
+        "RP-2020-493583 | 10/14/2020 | D/T | Grantor: UNKNOWN OWNER LLC Grantee: CENTRAL BANK Trustee: MRLIK ROBERT | Desc: DEL MONTE TERRACE Lot: 9-10 Block: 2",
+        "RP-2019-42622 | 02/01/2019 | A/J | Grantor: SMITH JOHN A Grantor: SMITH RACHEL Grantor: UNKNOWN HEIRS AT LAW OF JOHN A SMITH AND RACHEL SMITH Grantee: LIVINGSTON DELORIS Grantee: LIVINGSTON HERBERT | Desc: LIBERTY ROAD MANOR Sec: 15 Block: 8",
+        "RP-2019-409079 | 09/16/2019 | ORDER | Grantor: CITY OF BAYTOWN Grantor: GUIDRY DANA CAROL Grantor: GUIDRY DANA OWING Grantor: HALBERT STEPHEN R Grantor: OWINGS DARRELL CASH Grantor: UNKNOWN OWNER OR OWNERS Grantee: HARRIS COUNTY TEXAS | Desc: SANDBAR ESTATES Sec: 3 Lot: 1",
+        "RP-2019-293818 | 07/09/2019 | NOTICE | Grantor: 16431 AVENFIELD TRUST Grantor: BUDGE BARBARA Grantor: CIT BANK N A Grantor: LAKEWOOD FOREST FUND INC Grantor: SEELEY CAROL Grantor: UNKNOWN HEIRS AT LAW OF EVA M WHITE Grantor: UNKNOWN HEIRS AT LAW OF ROBERT J WHITE Grantor: WHITE ROBERT STEVEN Grantee: 16431 AVENFIELD TRUST Grantee: BUDGE BARBARA Grantee: CIT BANK N A Grantee: LAKEWOOD FOREST FUND INC Grantee: SEELEY CAROL Grantee: UNKNOWN HEIRS AT LAW OF EVA M WHITE Grantee: UNKNOWN HEIRS AT LAW OF ROBERT J WHITE Grantee: WHITE ROBERT STEVEN | Desc: LAKEWOOD FOREST Sec: 14 Lot: 33 Block: 6",
+        "RP-2018-8772 | 01/05/2018 | DEED | Grantor: BLACKHAWK CAPITAL RESOURCES LLC Grantor: HARRIS COUNTY Grantor: HARRIS R ALEX Grantor: HARRIS ROBERT ALEXANDER Grantor: HARRIS S H Grantor: HARRIS STUART HURT Grantor: HERMAN MARK CONST Grantor: STATE OF TEXAS Grantor: TEXINDEVCO INC Grantor: UNKNOWN SHAREHOLDERS Grantee: RPG INVESTMENTS LLC | Desc: CO-OPERATIVE LAND AND OIL COMPANY SUBDIVISION Lot: 187-191 Block: 1",
+        "RP-2018-488882 | 10/26/2018 | DEED | Grantor: UNKNOWN LEAD DOG Grantee: HARDEN PATRICIA LYNN Grantee: UNKNOWN LEAD DOG Grantee: WINKLE LAURA LEE Grantee: WINKLE STEPHANIE DENISE | Desc: BENNETT ESTATES Sec: 2 Lot: 265 Block: 12 Related Docs",
+        "RP-2018-419425 | 09/12/2018 | DEED | Grantor: FOLSOM ERNEST MARION Grantor: FOLSOM JOYCE Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY EMERGENCY SERVICES DISTRICT #04 Grantor: HARRIS COUNTY RURAL FIRE PREVENTION DISTRICT #15 Grantor: HARRIS COUNTY TRE Grantor: HERMAN MARK CONST Grantor: HINKLE MARY KATHLEEN Grantor: HOGG CLAUDIA MARIE Grantor: HUMBLE INDEPENDENT SCHOOL DISTRICT Grantor: LONE STAR COLLEGE SYSTEM Grantor: MORGAN KATHLEEN FOLSOM Grantor: MORGAN MARY KATHLEEN Grantor: T & C CORPORATION Grantor: UNKNOWN SHAREHOLDERS Grantee: HARRIS COUNTY Grantee: HARRIS COUNTY EMERGENCY SERVICES DISTRICT #04 Grantee: HARRIS COUNTY RURAL FIRE PREVENTION DISTRICT #15 Grantee: HARRIS COUNTY TRE Grantee: HUMBLE INDEPENDENT SCHOOL DISTRICT Grantee: LONE STAR COLLEGE SYSTEM | Desc: IDLE GLEN ADDITION Lot: 4 Block: 7",
+        "RP-2018-306944 | 07/09/2018 | ORDER | Grantor: BRALY JAMES Grantor: BRYAN STEPHANIE A Grantor: KALDIS STEPHANIE A Grantor: MATHEWS TAMI Grantor: TUNSTASLL LETA Grantor: UNKNOWN HEIRS OF DONALD BRALY Grantor: UNKNOWN HEIRS OF SAM BRALY Grantee: WARFIELD SYLVIA | Desc: LOWELL HEIGHTS Lot: 174 Block: G Related Docs",
+        "RP-2018-306943 | 07/09/2018 | ORDER | Grantor: BRALY JAMES Grantor: BRYAN STEPHANIE A Grantor: HORRIGAN & GOEHRS LLP Grantor: KALDIS STEPHANIE A Grantor: MATHEWS TAMI Grantor: TUNSTALL LETA Grantor: UNKNOWN HEIRS OF DONALD BRALY Grantor: UNKNOWN HEIRS OF SAM BRALY Grantee: WARFIELD SYLVIA | Desc: LOWELL HEIGHTS Lot: 174 Block: G Related Docs",
+        "RP-2018-255472 | 06/08/2018 | ORDER | Grantor: BRALY JAMES Grantor: BRYAN STEPHANIE A Grantor: KALDIS STEPHANIE A Grantor: MATHEWS TAMI Grantor: TUNSTALL LETA Grantor: UNKNOWN HEIRS OF DONALD BRALY Grantor: UNKNOWN HEIRS OF SAM BRALY Grantee: WARFIELD SYLVIA | Comment: SEE INSTRUMENT",
+        "RP-2018-255471 | 06/08/2018 | ORDER | Grantor: BRALY JAMES Grantor: BRYAN STEPHANIE A Grantor: KALDIS STEPHANIE A Grantor: MATHEWS TAMI Grantor: MATTHEWS TAMI Grantor: TUNSTALL LETA Grantor: UNKNOWN HEIRS OF DONALD BRALY Grantor: UNKNOWN HEIRS OF SAM BRALY Grantee: WARFIELD SYLVIA | Desc: LOWELL HEIGHTS Lot: 174-A Block: G",
+        "RP-2017-4504 | 01/04/2017 | DEED | Grantor: HARRIS COUNTY Grantor: ROSEN ALAN CONST Grantor: STATE OF TEXAS Grantor: SUPERIOR TIRE AND RUBBER INC Grantor: UNKNOWN SHAREHOLDERS Grantee: GOMEZ ADRIAN | Desc: PINEWOOD VILLAGE Sec: 1 Lot: 1 Block: 3",
+        "RP-2016-555078 | 12/12/2016 | ORDER | Grantor: CROSSWINDS JOINT VENTURE Grantor: DOWDELL PUBLIC UTILITY DISTRICT Grantor: UNKNOWN VENTURERS OF CROSSWINDS JOINT VENTURE Grantee: STATE OF TEXAS | Desc: YATES M Abstract: 945 Comment: 1.386",
+        "RP-2016-289017 | 07/05/2016 | DEED | Grantor: CONCORDE ACCEPTANCE CORPORATION Grantor: HARRIS COUNTY Grantor: UNKNOWN SHAREHOLDERS Grantor: WALKER MAY CONST Grantee: ZARATE JOSE LUIS | Desc: SCOTT TERRACE Sec: 3 Lot: 5 Block: 12",
+        "RP-2016-281588 | 06/29/2016 | ORDER | Grantor: PAYNE BILLIE JEAN EST Grantor: PAYNE CALVIN VINCENT Grantor: PAYNE GREGORY D JR Grantor: PAYNE LESTER Grantor: UNKNOWN HEIRS OF BILLIE JEAN PAYNE Grantee: AMERICAN HOMEOWNER PRESERVATION TRUST SERIES 2013C Grantee: CRUSH ROY Grantee: U S BANK N A TRE | Desc: SOUTH UNION Sec: 1 Lot: 15 Block: 85",
+        "RP-2016-217718 | 05/23/2016 | DEED | Grantor: CONSUMERS WATER INC Grantor: HARRIS COUNTY Grantor: ROSEN ALAN CONST Grantor: STATE OF TEXAS Grantor: UNKNOWN SHAREHOLDERS Grantee: CARCAMO FRANCISCO | Desc: THOMPSON P Abstract: 768",
+        "RP-2016-141843 | 04/06/2016 | DEED | Grantor: GULF COLLATERAL INC Grantor: HARRIS COUNTY Grantor: JONES KEN CONST Grantor: LEWIS JOHN JR Grantor: LEWIS JOHN LINNA Grantor: UNKNOWN SHAREHOLDERS Grantee: LAND ASSEMBLAGE REDEVELOPMENT AUTHORITY | Desc: LIBERTY ROAD MANOR Sec: 6 Lot: 20 Block: K"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'UNKNOWN')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "CANCEL": 1,
+        "L/P": 40,
+        "A/J": 3,
+        "NOTICE": 11,
+        "AMEND": 2,
+        "LIEN": 6,
+        "ORDER": 29,
+        "REL": 6,
+        "W/D": 4,
+        "JUDGE": 2,
+        "AFFT": 1,
+        "DEED": 18,
+        "RESCND": 1,
+        "ORD": 1,
+        "ASSGN": 1,
+        "D/T": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'UNKNOWN')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "77 instruments as grantee, 50 as grantor (index, name 'UNKNOWN')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'UNKNOWN')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202136906",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "10/27/2025",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2027-10-27: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202136906 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de UNKNOWN (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 31362.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 15900.53,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 12337.89,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 15900.53,
+        "impuestos_que_hereda": 2630.32,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 477.02,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 23007.87,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 17921.63,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.363,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $17,922 >= cierre esperado $15,901. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 17921.63,
+    "all_in_cost_estimate": 23007.87,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
+  }
+}

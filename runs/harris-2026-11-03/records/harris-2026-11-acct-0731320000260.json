@@ -1,0 +1,718 @@
+{
+  "property_id": "harris-2026-11-acct-0731320000260",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "7442 W KNOLL ST HOUSTON 77028-2335",
+  "account_no": "0731320000260",
+  "cause_no": "202206322",
+  "intake": {
+    "opening_bid": {
+      "value": 20313.64,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 3; tipo SALE; sale# 3; sentencia 05/06/2024; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "7442 W KNOLL ST, HOUSTON, 77028",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "SMITH ADAM P (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "7442 W KNOLL ST, HOUSTON, TX, 77028-2335",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "8580",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1970",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "1032",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1950",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "61835",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "50344",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "112179",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "116710",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 7800.0000xSF $58890 | Res Improved Table Value 780.0000xSF $2945",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 1356sf built 1950",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "05/27/2025 2025-RP-2025-211665",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 260 ROSEWOOD ESTATES SEC 2",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "05/27/2025",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.29439,
+        "lat": 29.834636
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0731320000260)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 8684,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0731320000260)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~60 x 146 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0731320000260)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2019,
+          "tax": 341.9,
+          "penalties_interest": 317.96,
+          "collection_penalty": 123.78,
+          "total": 783.64
+        },
+        {
+          "year": 2020,
+          "tax": 1493.24,
+          "penalties_interest": 1209.53,
+          "collection_penalty": 507.37,
+          "total": 3210.14
+        },
+        {
+          "year": 2021,
+          "tax": 1450.47,
+          "penalties_interest": 1000.83,
+          "collection_penalty": 459.43,
+          "total": 2910.73
+        },
+        {
+          "year": 2022,
+          "tax": 1935.98,
+          "penalties_interest": 1103.53,
+          "collection_penalty": 570.96,
+          "total": 3610.47
+        },
+        {
+          "year": 2023,
+          "tax": 2259.97,
+          "penalties_interest": 1016.99,
+          "collection_penalty": 611.89,
+          "total": 3888.85
+        },
+        {
+          "year": 2024,
+          "tax": 2497.6,
+          "penalties_interest": 824.22,
+          "collection_penalty": 471.09,
+          "total": 3792.91
+        },
+        {
+          "year": 2025,
+          "tax": 2480.35,
+          "penalties_interest": 520.88,
+          "collection_penalty": 422.61,
+          "total": 3423.84
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0731320000260",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 21620.58,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0731320000260",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2018,
+        2022
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0731320000260",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 18010.11,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0731320000260",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 2480.35,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0731320000260",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 20490.46,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0731320000260",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "SMITH ADAM P 7442 W KNOLL ST HOUSTON TX 77028 7442 W KNOLL ST LT 260 ROSEWOOD ESTATES SEC 2",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0731320000260",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 116710.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0731320000260",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202206322",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "05/06/2024",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 cerro el 2026-05-06 (si hubo citacion por publicacion)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202206322 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de SMITH ADAM P (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 112179.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 56874.75,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 22101.24,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 56874.75,
+        "impuestos_que_hereda": 20490.46,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 1706.24,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 83071.45,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 63352.17,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.35,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $63,352 >= cierre esperado $56,875. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 63352.17,
+    "all_in_cost_estimate": 83071.45,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-351516 | 08/28/2026 | REL | Grantor: BBVA USA Grantor: COMPASS BANK Grantor: PNC BANK NATIONAL ASSOCIATION Grantee: KNEZ KELLY JO Grantee: SMITH ADAM JAY | Desc: WESTVIEW TERRACE Sec: 2 Lot: 11 Block: 26 Related Docs",
+        "RP-2026-329059 | 08/13/2026 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: MOVEMENT MORTGAGE LLC Grantee: SMITH ADAM D Grantee: SMITH JULIE ANN H | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-323016 | 08/10/2026 | NOTICE | Grantor: GUAN WEIJIA Grantor: KNEZ KELLY JO Grantor: SMITH ADAM JAY Grantor: SUN XI Grantee: GUAN WEIJIA Grantee: KNEZ KELLY JO Grantee: SMITH ADAM JAY Grantee: SUN XI | Desc: WESTVIEW TERRACE Sec: 2 Lot: 11 Block: 26 Related Docs",
+        "RP-2026-188208 | 05/14/2026 | DEED | Grantor: SMITH ADAM RAND Grantor: SMITH KAYLAN ANN Grantor: TANNAHILL KAYLAN ANN Grantee: SMITH ADAM RAND Grantee: SMITH KAYLAN ANN Grantee: TANNAHILL KAYLAN ANN | Desc: SUNSET HEIGHTS Lot: 45-46 Block: 40",
+        "RP-2025-39966 | 02/04/2025 | PROB | Grantor: SMITH RICHARD R EST Grantee: SMITH ADAM R Grantee: SMITH DIANE M Grantee: SMITH ERIK W Grantee: SMITH RYAN S Grantee: THE SMITH FAMILY TRUST | Comment: SEE INSTRUMENT",
+        "RP-2025-272473 | 07/15/2025 | LIEN | Grantor: ARCHER NOW LLC Grantor: BAYWOOD OAKS COMMUNITY ASSOCIATION INC Grantor: GOODWIN & COMPANY Grantor: HAYS CLINT Grantee: SMITH ADAM Grantee: SMITH HEATHER | Desc: BAYWOOD OAKS WEST Lot: 6 Block: 2",
+        "RP-2025-211665 | 06/03/2025 | W/D | Grantor: SAGALA JOE Grantor: SAGALA OPHELIA Grantee: SMITH ADAM P | Desc: ROSEWOOD ESTATES Sec: 2 Lot: 260",
+        "RP-2024-469449 | 12/17/2024 | REL | Grantor: FREEDOM MORTGAGE CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SMITH ADAM | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-448941 | 12/03/2024 | NOTICE | Grantor: MKCH PROPERTIES LLC Grantor: SMITH ADAM Grantor: SMITH BRITTANY Grantee: MKCH PROPERTIES LLC Grantee: SMITH ADAM Grantee: SMITH BRITTANY | Desc: SHEPHERD FOREST Sec: 2 Lot: 633 Block: 35",
+        "RP-2024-404221 | 10/31/2024 | MAP | Grantor: CENTRAL TRANSPORT HOUSTON Grantee: H&TC COMPANY A0726 Grantee: SMITH ADAMS A0726 | Desc: CENTRAL TRANSPORT HOUSTON",
+        "RP-2023-392249 | 10/12/2023 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: QUICKEN LOANS LLC Grantee: SMITH ADAM Grantee: SMITH CHELSEA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-317542 | 08/21/2023 | NOTICE | Grantor: SCHILLING JASON J Grantor: SCHILLING KRISTINA Grantor: SMITH ADAM D Grantor: SMITH JULIE ANN H Grantee: SCHILLING JASON J Grantee: SCHILLING KRISTINA Grantee: SMITH ADAM D Grantee: SMITH JULIE ANN H | Desc: WIMBLEDON CHAMPIONS ESTATES Sec: 2 Lot: 2-3 Block: 4",
+        "RP-2023-317541 | 08/21/2023 | NOTICE | Grantor: SCHILLING JASON J Grantor: SCHILLING KRISTINA Grantor: SMITH ADAM D Grantor: SMITH JULIE ANN H Grantee: SCHILLING JASON J Grantee: SCHILLING KRISTINA Grantee: SMITH ADAM D Grantee: SMITH JULIE ANN H | Desc: WIMBLEDON CHAMPIONS ESTATES Sec: 2 Lot: 2-3 Block: 4 Related Docs",
+        "RP-2023-317539 | 08/21/2023 | W/D | Grantor: SCHILLING JASON J Grantor: SCHILLING KRISTINA K Grantee: SMITH ADAM D Grantee: SMITH JULIE ANN H | Desc: WIMBLEDON CHAMPIONS ESTATES Sec: 2 Lot: 2-3 Block: 4",
+        "RP-2023-257343 | 07/11/2023 | REL | Grantor: JACOBS SHAUTEL MONIQUE Grantee: SMITH ADAM JESSE JR | Comment: SEE INSTRUMENT",
+        "RP-2023-202005 | 06/02/2023 | LIEN | Grantor: JACOBS SHAUTEL MONIQUE Grantee: SMITH ADAM JESSE JR | Comment: SEE INSTRUMENT",
+        "RP-2022-452382 | 09/07/2022 | NOTICE | Grantor: JUAN ANTONIO VALENCIA II IRA #3275011 Grantor: QUEST TRUST COMPANY Grantor: SMITH ADAM Grantor: TINNEY MERCEDES Grantee: JUAN ANTONIO VALENCIA II IRA #3275011 Grantee: QUEST TRUST COMPANY Grantee: SMITH ADAM Grantee: TINNEY MERCEDES | Desc: JOHNSON PLACE Lot: 38 Block: 4",
+        "RP-2022-452380 | 09/07/2022 | W/D | Grantor: JUAN ANTONIO VALENCIA II IRA #3275011 Grantor: QUEST TRUST COMPANY Grantee: SMITH ADAM Grantee: TINNEY MERCEDES | Desc: JOHNSON PLACE Lot: 38 Block: 4",
+        "RP-2022-340034 | 06/30/2022 | MAP | Grantor: JONTE SUBSTATION Grantee: SMITH ADAM A0694 | Desc: JONTE SUBSTATION",
+        "RP-2021-77381 | 02/11/2021 | REL | Grantor: CROSSCOUNTRY MORTGAGE INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SMITH ADAM K Grantee: SMITH CRESTA M | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-707830 | 12/10/2021 | REL | Grantor: HOME FINANCING UNLIMITED INC Grantor: MISSION MORTGAGE OF TEXAS INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SMITH ADAM RAND Grantee: SMITH KAYLAN ANN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-68699 | 02/08/2021 | FI STM | Grantor: OLD UNION FINANCIAL Grantee: SMITH ADAM | Desc: GLENCAIRN Sec: 3 Lot: 27 Block: 21 Related Docs",
+        "RP-2021-68368 | 02/08/2021 | LIEN | Grantor: SHERWOOD-ELM GROVE TRAIL ASSOCIATION INC Grantee: SMITH ADAM D | Desc: ELM GROVE VILLAGE Sec: 1 Lot: 7 Block: 7 Related Docs",
+        "RP-2021-553754 | 09/27/2021 | W/D | Grantor: BGRS LLC Grantor: BROOKFIELD GLOBAL RELOCATION SERVICES LLC Grantee: SMITH ADAM Grantee: SMITH JOHANNA | Desc: LONG POINT WOODS Sec: 1 Lot: 11 Block: 4",
+        "RP-2021-533970 | 09/17/2021 | PROB | Grantor: SMITH ROBERT EUGENE EST Grantee: COUSSENS CODY Grantee: COUSSENS DEBRA Grantee: SMITH ADAM | Comment: SEE INSTRUMENT",
+        "RP-2021-374001 | 07/02/2021 | REL | Grantor: HOME USA MORTGAGE INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SMITH ADAM | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-368050 | 06/30/2021 | REL | Grantor: WELLS FARGO NATIONAL BANK WEST Grantee: SMITH ADAM M Grantee: SMITH JUDY H | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-358915 | 06/25/2021 | REL | Grantor: SHERWOOD-ELM GROVE TRAIL ASSOCIATION INC Grantor: TOLLETT LUKE P Grantee: SMITH ADAM D | Desc: ELM GROVE VILLAGE Sec: 1 Lot: 7 Block: 7 Related Docs",
+        "RP-2021-326910 | 06/11/2021 | REL | Grantor: BANK OF AMERICA N A Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: FREDERICK JACLYN D Grantee: SMITH ADAM M | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-316886 | 06/07/2021 | NOTICE | Grantor: BENNETT PAIGE T Grantor: BENNETT WESLEY C Grantor: GRANA ALLISON Grantor: SMITH ADAM Grantee: BENNETT PAIGE T Grantee: BENNETT WESLEY C Grantee: GRANA ALLISON Grantee: SMITH ADAM | Desc: TIMBERGROVE MANOR Sec: 14 Lot: 24 Block: 6 Related Docs",
+        "RP-2021-316884 | 06/07/2021 | W/D | Grantor: BENNETT PAIGE T Grantor: BENNETT WESLEY C Grantee: GRANA ALLISON Grantee: SMITH ADAM | Desc: TIMBERGROVE MANOR Sec: 14 Lot: 24 Block: 6",
+        "RP-2021-311066 | 06/04/2021 | LIEN | Grantor: ATTORNEY GENERAL OF TEXAS Grantor: JACOBS SHAUTEL MONIQUE Grantee: SMITH ADAM JESSE JR | Comment: SEE INSTRUMENT",
+        "RP-2021-308536 | 06/03/2021 | W/D | Grantor: FREDERICK JACLYN D Grantor: SMITH ADAM M Grantee: FREDERICK JACLYN D Grantee: SMITH ADAM M | Desc: AUSTIN ISABELLA Lot: 4 Block: 1",
+        "RP-2021-30344 | 01/20/2021 | NOTICE | Grantor: BURGHOFF KAITLYN Grantor: BURGHOFF KALVIN Grantor: SMITH ADAM Grantor: SMITH CHELSEA Grantee: BURGHOFF KAITLYN Grantee: BURGHOFF KALVIN Grantee: SMITH ADAM Grantee: SMITH CHELSEA | Desc: PINE TRACE VILLAGE Sec: 6 Lot: 21 Block: 2",
+        "RP-2021-30342 | 01/20/2021 | W/D | Grantor: BURGHOFF KAITLYN Grantor: BURGHOFF KALVIN Grantee: SMITH ADAM Grantee: SMITH CHELSEA | Desc: PINE TRACE VILLAGE Sec: 6 Lot: 21 Block: 2",
+        "RP-2021-278859 | 05/20/2021 | NOTICE | Grantor: BRADFORD ANDREA Grantor: BRADFORD BRYAN Grantor: SMITH ADAM MICHAEL Grantee: BRADFORD ANDREA Grantee: BRADFORD BRYAN Grantee: SMITH ADAM MICHAEL | Desc: W R BAKER ADDITION Lot: 7-8 Block: 260",
+        "RP-2021-278857 | 05/20/2021 | W/D | Grantor: BRADFORD ANDREA R Grantor: BRADFORD BRYAN Grantee: SMITH ADAM | Desc: W R BAKER ADDITION Lot: 7-8 Block: 260",
+        "RP-2021-275299 | 05/19/2021 | W/D | Grantor: SULLIVAN BROTHERS BUILDERS LTD Grantee: SMITH ADAM ROGER | Desc: SEAMIST Sec: 1 Lot: 11 Block: 1",
+        "RP-2021-252232 | 05/07/2021 | REL | Grantor: BANK OF ENGLAND Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SMITH ADAM Grantee: SMITH KRISTIN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-238387 | 05/03/2021 | NOTICE | Grantor: LINWOOD YAN GUNAWAN Grantor: SMITH ADAM CHARLES Grantor: SMITH MEENAKSHI USHA Grantee: LINWOOD YAN GUNAWAN Grantee: SMITH ADAM CHARLES Grantee: SMITH MEENAKSHI USHA | Desc: PLANTATION LAKES Sec: 5 Lot: 10 Block: 1",
+        "RP-2021-238385 | 05/03/2021 | W/D | Grantor: LINWOOD YAN GUNAWAN Grantee: SMITH ADAM CHARLES Grantee: SMITH MEENAKSHI USHA | Desc: PLANTATION LAKES Sec: 5 Lot: 10 Block: 1",
+        "RP-2020-95594 | 03/03/2020 | NOTICE | Grantor: SMITH ADAM Grantee: SMITH ADAM | Desc: SUNSET HEIGHTS Lot: 51 Block: 60 Related Docs",
+        "RP-2020-95592 | 03/03/2020 | W/D | Grantor: CARTUS FINANCIAL CORPORATION Grantee: AIKIN MARK Grantee: SMITH ADAM | Desc: SUNSET HEIGHTS Lot: 51 Block: 60",
+        "RP-2020-74801 | 02/19/2020 | NOTICE | Grantor: SMITH ADAM Grantor: SMITH CHELSEA T Grantor: WEAVER NANCY H Grantor: WEAVER SAMUEL A Grantee: SMITH ADAM Grantee: SMITH CHELSEA T Grantee: WEAVER NANCY H Grantee: WEAVER SAMUEL A | Desc: PINELAKES OAKMOSS VILLAGE Sec: 1 Lot: 9 Block: 1",
+        "RP-2020-74799 | 02/19/2020 | W/D | Grantor: WEAVER NANCY H Grantor: WEAVER SAMUEL A Grantee: SMITH ADAM Grantee: SMITH CHELSEA T | Desc: PINELAKES OAKMOSS VILLAGE Sec: 1 Lot: 9 Block: 1",
+        "RP-2020-557631 | 11/16/2020 | AGMT | Grantor: GUPTA PARKSIDE LIMITED PARTNERSHIP Grantor: GUPTA WESTCOTT INVESTMENTS L L C Grantor: JAMES D SMITH LAW FIRM PLLC Grantor: LAW FEEHAN ADAMS LLLP Grantor: LAW RICHARD M Grantor: SMITH ADAMS LAW FEEHAN LLP Grantor: TIAA FSB Grantee: GUPTA PARKSIDE LIMITED PARTNERSHIP Grantee: GUPTA WESTCOTT INVESTMENTS L L C Grantee: JAMES D SMITH LAW FIRM PLLC Grantee: LAW FEEHAN ADAMS LLLP Grantee: LAW RICHARD M Grantee: SMITH ADAMS LAW FEEHAN LLP Grantee: TIAA FSB | Comment: SEE INSTRUMENT",
+        "RP-2020-553871 | 11/12/2020 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: MORTGAGE RESEARCH CENTER LLC Grantor: VETERANS UNITED HOME LOANS Grantee: SMITH ADAM Grantee: SMITH BETH | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-508644 | 10/22/2020 | W/D | Grantor: SMITH ADAM Grantee: SMITH ADAM Grantee: SMITH BETH | Desc: GLENCAIRN Sec: 3 Lot: 27 Block: 21",
+        "RP-2020-466838 | 10/01/2020 | NOTICE | Grantor: BRENSIKE BRUCE Grantor: LIND DELILAH Grantor: MONAGHAN RACHAEL Grantor: SMITH ADAM Grantor: SMITH ROBIN Grantee: BRENSIKE BRUCE Grantee: LIND DELILAH Grantee: MONAGHAN RACHAEL Grantee: SMITH ADAM Grantee: SMITH ROBIN | Desc: SAGEMEADOW Sec: 1 Lot: 4 Block: 3",
+        "RP-2020-466837 | 10/01/2020 | NOTICE | Grantor: MONAGHAN RACHAEL Grantor: SMITH ADAM Grantor: SMITH ROBIN Grantee: MONAGHAN RACHAEL Grantee: SMITH ADAM Grantee: SMITH ROBIN | Desc: SAGEMEADOW Sec: 1 Lot: 4 Block: 3",
+        "RP-2020-40459 | 01/29/2020 | REL | Grantor: GREAT WESTERN FINANCIAL SERVICES INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SMITH ADAM LEE Grantee: SMITH MELANIE KAY | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-34184 | 01/24/2020 | NOTICE | Grantor: PANKRATZ JEFFREY Grantor: PANKRATZ JESSICA Grantor: SMITH ADAM LEE Grantor: SMITH MELANIE KAY Grantee: PANKRATZ JEFFREY Grantee: PANKRATZ JESSICA Grantee: SMITH ADAM LEE Grantee: SMITH MELANIE KAY | Desc: FALLS AT DRY CREEK Sec: 1 Lot: 11 Block: 1 Related Docs",
+        "RP-2020-34183 | 01/24/2020 | NOTICE | Grantor: PANKRATZ JEFFREY Grantor: PANKRATZ JESSICA Grantor: SMITH ADAM LEE Grantor: SMITH MELANIE KAY Grantee: PANKRATZ JEFFREY Grantee: PANKRATZ JESSICA Grantee: SMITH ADAM LEE Grantee: SMITH MELANIE KAY | Desc: FALLS AT DRY CREEK Sec: 1 Lot: 11 Block: 1",
+        "RP-2020-192960 | 05/07/2020 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: TEXAS SECURITY BANK Grantee: SMITH ADAM Grantee: SMITH AMY | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-156005 | 04/09/2020 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: UNIVERSAL AMERICAN MORTGAGE COMPANY LLC Grantee: SMITH ADAM Grantee: TAYLOR CHELSEA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-116837 | 03/13/2020 | NOTICE | Grantor: GUTIERREZ JESSE Grantor: SMITH ADAM Grantor: TAYLOR CHELSEA Grantee: GUTIERREZ JESSE Grantee: SMITH ADAM Grantee: TAYLOR CHELSEA | Desc: WILDWOOD AT NORTHPOINT Sec: 14 Lot: 31 Block: 2 Related Docs",
+        "RP-2019-534372 | 12/03/2019 | NOTICE | Grantor: MCNALLY JOHN G Grantor: MCNALLY MARLENE A Grantor: SMITH ADAM I Grantor: SMITH JESSICA L Grantee: MCNALLY JOHN G Grantee: MCNALLY MARLENE A Grantee: SMITH ADAM I Grantee: SMITH JESSICA L | Desc: SUMMERWOOD Sec: 18 Lot: 3 Block: 1",
+        "RP-2019-534371 | 12/03/2019 | NOTICE | Grantor: MCNALLY JOHN G Grantor: MCNALLY MARLENE A Grantor: SMITH ADAM I Grantor: SMITH JESSICA L Grantee: MCNALLY JOHN G Grantee: MCNALLY MARLENE A Grantee: SMITH ADAM I Grantee: SMITH JESSICA L | Desc: SUMMERWOOD Sec: 18 Lot: 3 Block: 1 Related Docs",
+        "RP-2019-534369 | 12/03/2019 | W/D | Grantor: MCNALLY JOHN Grantor: MCNALLY JOHN G Grantor: MCNALLY MARLENE Grantor: MCNALLY MARLENE A Grantee: SMITH ADAM I Grantee: SMITH JESSICA L | Desc: SUMMERWOOD Sec: 18 Lot: 3 Block: 1",
+        "RP-2019-255177 | 06/17/2019 | NOTICE | Grantor: IONESCO CONSTANTIN Grantor: IONESCO NATHALIE Grantor: SMITH ADAM K Grantor: SMITH CRESTA M Grantee: IONESCO CONSTANTIN Grantee: IONESCO NATHALIE Grantee: SMITH ADAM K Grantee: SMITH CRESTA M | Desc: SPRING VALLEY OAKS Lot: 5 Block: 1",
+        "RP-2019-255175 | 06/17/2019 | W/D | Grantor: IONESCO CONSTANTIN Grantor: IONESCO NATHALIE Grantee: SMITH ADAM K Grantee: SMITH CRESTA M | Desc: SPRING VALLEY OAKS Lot: 5 Block: 1",
+        "RP-2019-243248 | 06/10/2019 | REL | Grantor: ENVOY MORTGAGE LTD Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SMITH ADAM Grantee: SMITH CRESTA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-216993 | 05/24/2019 | NOTICE | Grantor: DUFFY CHRISTOPHER Grantor: DUFFY KAREN Grantor: SMITH ADAM Grantor: SMITH CRESTA Grantee: DUFFY CHRISTOPHER Grantee: DUFFY KAREN Grantee: SMITH ADAM Grantee: SMITH CRESTA | Desc: WOODLAND HEIGHTS Lot: 2 Block: 12 Related Docs",
+        "RP-2019-207711 | 05/20/2019 | REL | Grantor: FBC MORTGAGE LLC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SMITH ADAM RODERICK Grantee: SMITH KRISTIN LEIGH | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-149991 | 04/15/2019 | NOTICE | Grantor: SCHEIBLE JENNIFER M Grantor: SCHEIBLE JOHNNY D Grantor: SMITH ADAM Grantee: SCHEIBLE JENNIFER M Grantee: SCHEIBLE JOHNNY D Grantee: SMITH ADAM | Desc: CANYON GATE AT NORTHPOINTE Sec: 1 Lot: 86 Block: 1",
+        "RP-2019-149990 | 04/15/2019 | NOTICE | Grantor: SCHEIBLE JENNIFER M Grantor: SCHEIBLE JOHNNY D Grantor: SMITH ADAM Grantee: SCHEIBLE JENNIFER M Grantee: SCHEIBLE JOHNNY D Grantee: SMITH ADAM | Desc: CANYON GATE AT NORTHPOINTE Sec: 1 Lot: 86 Block: 1",
+        "RP-2019-149989 | 04/15/2019 | NOTICE | Grantor: SCHEIBLE JENNIFER M Grantor: SCHEIBLE JOHNNY D Grantor: SMITH ADAM Grantee: SCHEIBLE JENNIFER M Grantee: SCHEIBLE JOHNNY D Grantee: SMITH ADAM | Desc: CANYON GATE AT NORTHPOINTE Sec: 1 Lot: 86 Block: 1",
+        "RP-2019-149987 | 04/15/2019 | W/D | Grantor: SCHEIBLE JENNIFER M Grantor: SCHEIBLE JOHNNY D Grantee: SMITH ADAM | Desc: CANYON GATE AT NORTHPOINTE Sec: 1 Lot: 86 Block: 1",
+        "RP-2018-478225 | 10/19/2018 | REL | Grantor: HOMETRUST MORTGAGE COMPANY Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SMITH ADAM CHARLES Grantee: SMITH HEATHER LENEE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-451922 | 10/02/2018 | NOTICE | Grantor: PICAZO ANISSA C Grantor: SMITH ADAM CHARLES Grantor: SMITH HEATHER LENEE Grantee: PICAZO ANISSA C Grantee: SMITH ADAM CHARLES Grantee: SMITH HEATHER LENEE | Desc: PARKGATE NORTH Lot: 25 Block: 7 Related Docs",
+        "RP-2018-450619 | 10/02/2018 | W/D | Grantor: PRUNES KAREN Grantor: PRUNES LOUIS Grantee: SMITH ADAM C Grantee: SMITH HEATHER L | Desc: BAYWOOD OAKS WEST Lot: 6 Block: 2",
+        "RP-2018-321922 | 07/17/2018 | REL | Grantor: ESTATES AT WILLOW CREEK COMMUNITY ASSOCIATION INC Grantor: ESTATES AT WILLOW CRFEK COMMUNITY ASSOC INC Grantee: SMITH ADAM Grantee: SMITH KRISTIN | Desc: ESTATES AT WILLOW CREEK Sec: 1 Lot: 53 Block: 1 Related Docs",
+        "RP-2018-313782 | 07/12/2018 | NOTICE | Grantor: SMITH ADAM Grantor: SMITH AMY Grantee: SMITH ADAM Grantee: SMITH AMY | Desc: BLACKHORSE RANCH SOUTH Sec: 1 Lot: 51 Block: 1",
+        "RP-2018-304098 | 07/06/2018 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: STONEGATE MORTGAGE CORPORATION Grantee: SMITH ADAM C Grantee: SMITH AMY FOUSHEE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-279787 | 06/25/2018 | NOTICE | Grantor: SMITH ADAM Grantor: SMITH AMY Grantee: SMITH ADAM Grantee: SMITH AMY | Desc: BLACKHORSE RANCH SOUTH Sec: 1 Lot: 51 Block: 1",
+        "RP-2018-279785 | 06/25/2018 | W/D | Grantor: CARTUS FINANCIAL CORPORATION Grantee: SMITH ADAM Grantee: SMITH AMY | Desc: BLACKHORSE RANCH SOUTH Sec: 1 Lot: 51 Block: 1",
+        "RP-2018-223431 | 05/22/2018 | LIEN | Grantor: ESTATES AT WILLOW CREEK COMMUNITY ASSOCIATION INC Grantee: SMITH ADAM Grantee: SMITH KRISTIN | Desc: ESTATES AT WILLOW CREEK Sec: 1 Lot: 53 Block: 1",
+        "RP-2017-84423 | 02/28/2017 | NOTICE | Grantor: MUELLER CAROL A Grantor: MUELLER NORBERT H JR Grantor: SMITH ADAM DALE Grantor: SMITH JULIE ANN HARRIS Grantee: MUELLER CAROL A Grantee: MUELLER NORBERT H JR Grantee: SMITH ADAM DALE Grantee: SMITH JULIE ANN HARRIS | Desc: SPRING CREEK OAKS Sec: 4 Lot: 17 Block: 2",
+        "RP-2017-409358 | 09/18/2017 | REL | Grantor: STATE OF TEXAS Grantee: SMITH ADAM | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-228512 | 05/24/2017 | REL | Grantor: OCWEN LOAN SERVICING LLC Grantee: SMITH ADAM CAMPBELL Grantee: SMITH ESMERALDA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-186524 | 05/01/2017 | W/D | Grantor: COLEMAN DEANNE Y Grantor: COLEMAN ERIC THOMAS Grantee: SMITH ADAM RODERICK Grantee: SMITH KRISTIN LEIGH | Desc: ESTATE AT WILLOW CREEK Lot: 53 Block: 1",
+        "RP-2017-131739 | 03/29/2017 | REL | Grantor: ARK-LA-TEX FINANCIAL SERVICES LLC Grantor: BENCHMARK MORTGAGE Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SMITH ADAM LEE Grantee: SMITH MELANIE KAY | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-111209 | 03/16/2017 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: SMITH ADAM DALE Grantee: SMITH JULIE ANN HARRIS | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-561850 | 12/15/2016 | REL | Grantor: HOME FINANCING UNLIMITED INC Grantor: MISSION MORTGAGE OF TEXAS INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SMITH ADAM RAND Grantee: TANNAHILL KAYLAN ANN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-437594 | 09/28/2016 | DEED | Grantor: SMITH ANNIE C Grantor: SMITH DAVID J Grantee: SMITH AARON JOSHUA Grantee: SMITH ADAM CAMPBELL Grantee: SMITH ANNIE C Grantee: SMITH DAVID J Grantee: STORFER NATASHA DAVIAN | Desc: OLDE OAKS Lot: 37 Block: 11",
+        "RP-2016-307061 | 07/14/2016 | REL | Grantor: HANCOCK MORTGAGE PARTNERS LLC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SMITH ADAM C Grantee: SMITH AMY FOUSHEE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-277814 | 06/28/2016 | W/D | Grantor: BEAZER HOMES L P Grantor: BEAZER HOMES TEXAS HOLDINGS INC Grantee: SMITH ADAM LEE Grantee: SMITH MELANIE KAY | Desc: FALLS AT DRY CREEK Sec: 1 Lot: 11 Block: 1",
+        "RP-2016-260233 | 06/17/2016 | REL | Grantor: KEMP KESHIA R Grantee: SMITH ADAM JESSE JR | Comment: SEE INSTRUMENT",
+        "RP-2016-190671 | 05/05/2016 | OFCRTN | Grantor: DICKEY BERNICE Grantor: DICKEY BERNICE MARIE Grantor: SHAKUR ISMAIL ABDUL Grantor: SIMS MILDRED JEAN Grantor: SMITH ADAM Grantor: SMITH ADAM ROY Grantor: SMITH JAMES CHARLES Grantor: SMITH LARRY Grantor: SMITH LAWRENCE Grantor: SMITH LAWRENCE L Grantor: SMITH MILDRED Grantor: SMITH OSCAR Grantor: SMITH OSS Grantor: SMITH OSS JR Grantor: SMITH OSS SR Grantor: SMITH QUINCY Grantor: SMITH QUINCY DOUGLAS Grantor: WILLIS DORIS SMITH Grantor: WOOTEN DOROTHY HARRISON Grantee: DICKEY BERNICE Grantee: DICKEY BERNICE MARIE Grantee: SHAKUR ISMAIL ABDUL Grantee: SIMS MILDRED JEAN Grantee: SMITH ADAM Grantee: SMITH ADAM ROY Grantee: SMITH JAMES CHARLES Grantee: SMITH LARRY Grantee: SMITH LAWRENCE Grantee: SMITH LAWRENCE L Grantee: SMITH MILDRED Grantee: SMITH OSCAR Grantee: SMITH OSS Grantee: SMITH OSS JR Grantee: SMITH OSS SR Grantee: SMITH QUINCY Grantee: SMITH QUINCY DOUGLAS Grantee: WILLIS DORIS SMITH Grantee: WOOTEN DOROTHY HARRISON | Desc: INTERNATIONAL SUBDIVISION Sec: 2 Lot: 36",
+        "RP-2016-162255 | 04/20/2016 | W/D | Grantor: COLVILLE LESLIE M Grantee: SMITH ADAM | Desc: SHEPHERD FOREST Sec: 2 Lot: 633 Block: 35",
+        "RP-2016-112875 | 03/18/2016 | REL | Grantor: BANK OF AMERICA N A Grantee: SMITH ADAM L Grantee: SMITH MELANIE K | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-106116 | 03/15/2016 | NOTICE | Grantor: LUONG CHRISTINE Grantor: SMITH ADAM L Grantor: SMITH MELANIE K Grantor: VAN LIEN Grantee: LUONG CHRISTINE Grantee: SMITH ADAM L Grantee: SMITH MELANIE K Grantee: VAN LIEN | Desc: SYDNEY HARBOUR Sec: 3 Lot: 6 Block: 2",
+        "RP-2016-106115 | 03/15/2016 | NOTICE | Grantor: LIEN VAN Grantor: LUONG CHRISTINE Grantor: SMITH ADAM L Grantor: SMITH MELANIE K Grantee: LIEN VAN Grantee: LUONG CHRISTINE Grantee: SMITH ADAM L Grantee: SMITH MELANIE K | Desc: SYDNEY HARBOUR SUBDIVISION Sec: 3 Lot: 6 Block: 2 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SMITH ADAM')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-5145 | 01/06/2026 | FI STM | Grantor: SMITH ADAM R Grantor: SMITH MINNIE L Grantee: FOUNDATION FINANCE COMPANY LLC | Desc: INWOOD NORTH Sec: 4 Lot: 8 Block: 5",
+        "RP-2026-323016 | 08/10/2026 | NOTICE | Grantor: GUAN WEIJIA Grantor: KNEZ KELLY JO Grantor: SMITH ADAM JAY Grantor: SUN XI Grantee: GUAN WEIJIA Grantee: KNEZ KELLY JO Grantee: SMITH ADAM JAY Grantee: SUN XI | Desc: WESTVIEW TERRACE Sec: 2 Lot: 11 Block: 26 Related Docs",
+        "RP-2026-323014 | 08/10/2026 | W/D | Grantor: KNEZ KELLY JO Grantor: SMITH ADAM JAY Grantee: GUAN WEIJIA Grantee: SUN XI | Desc: WESTVIEW TERRACE Sec: 2 Lot: 11 Block: 26",
+        "RP-2026-188208 | 05/14/2026 | DEED | Grantor: SMITH ADAM RAND Grantor: SMITH KAYLAN ANN Grantor: TANNAHILL KAYLAN ANN Grantee: SMITH ADAM RAND Grantee: SMITH KAYLAN ANN Grantee: TANNAHILL KAYLAN ANN | Desc: SUNSET HEIGHTS Lot: 45-46 Block: 40",
+        "RP-2024-448941 | 12/03/2024 | NOTICE | Grantor: MKCH PROPERTIES LLC Grantor: SMITH ADAM Grantor: SMITH BRITTANY Grantee: MKCH PROPERTIES LLC Grantee: SMITH ADAM Grantee: SMITH BRITTANY | Desc: SHEPHERD FOREST Sec: 2 Lot: 633 Block: 35",
+        "RP-2024-448940 | 12/03/2024 | W/D | Grantor: SMITH ADAM Grantor: SMITH BRITTANY Grantee: MKCH PROPERTIES LLC | Desc: SHEPHERD FOREST Sec: 2 Lot: 633 Block: 35",
+        "RP-2024-434781 | 11/20/2024 | AFFT | Grantor: SHAKUR ISMAIL A Grantor: SIMS MILDRED Grantor: SMITH ADAM Grantee: CHARLTON-SMITH PATRICIA S EST | Desc: FONTAINE PLACE Sec: 6 Lot: 849 Block: 30",
+        "RP-2023-374419 | 09/29/2023 | W/D | Grantor: SMITH ADAM Grantor: SMITH CHELSEA Grantee: DINH TAMMY HOANG Grantee: HUYNH TOAN KIM | Desc: PINE TRACE VILLAGE Sec: 6 Lot: 21 Block: 2",
+        "RP-2023-342408 | 09/06/2023 | A/J | Grantor: SMITH ADAM Grantee: TOWNES CONTESSA SHAUNDRIKA | Comment: SEE INSTRUMENT",
+        "RP-2023-317542 | 08/21/2023 | NOTICE | Grantor: SCHILLING JASON J Grantor: SCHILLING KRISTINA Grantor: SMITH ADAM D Grantor: SMITH JULIE ANN H Grantee: SCHILLING JASON J Grantee: SCHILLING KRISTINA Grantee: SMITH ADAM D Grantee: SMITH JULIE ANN H | Desc: WIMBLEDON CHAMPIONS ESTATES Sec: 2 Lot: 2-3 Block: 4",
+        "RP-2023-317541 | 08/21/2023 | NOTICE | Grantor: SCHILLING JASON J Grantor: SCHILLING KRISTINA Grantor: SMITH ADAM D Grantor: SMITH JULIE ANN H Grantee: SCHILLING JASON J Grantee: SCHILLING KRISTINA Grantee: SMITH ADAM D Grantee: SMITH JULIE ANN H | Desc: WIMBLEDON CHAMPIONS ESTATES Sec: 2 Lot: 2-3 Block: 4 Related Docs",
+        "RP-2023-317540 | 08/21/2023 | D/T | Grantor: SMITH ADAM D Grantor: SMITH JULIE ANN H Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: MOVEMENT MORTGAGE LLC Trustee: SULLIIVAN CHRISTOPHER J | Desc: WIMBLEDON CHAMPIONS ESTATES Sec: 2 Lot: 2-3 Block: 4 Related Docs",
+        "RP-2022-452382 | 09/07/2022 | NOTICE | Grantor: JUAN ANTONIO VALENCIA II IRA #3275011 Grantor: QUEST TRUST COMPANY Grantor: SMITH ADAM Grantor: TINNEY MERCEDES Grantee: JUAN ANTONIO VALENCIA II IRA #3275011 Grantee: QUEST TRUST COMPANY Grantee: SMITH ADAM Grantee: TINNEY MERCEDES | Desc: JOHNSON PLACE Lot: 38 Block: 4",
+        "RP-2022-452381 | 09/07/2022 | D/T | Grantor: SMITH ADAM Grantor: TINNEY MERCEDES Grantee: AMERICAN NEIGHBORHOOD MORTGAGE ACCEPTANCE COMPANY LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: JOHNSON PLACE Lot: 38 Block: 4",
+        "RP-2021-68905 | 02/08/2021 | AFFT | Grantor: SMITH ADAM K Grantee: SEE INSTRUMENT | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-68904 | 02/08/2021 | D/T | Grantor: SMITH ADAM K Grantor: SMITH CRESTA M Grantee: ALLY BANK Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK MANN & GRAHAM LLP | Desc: SPRING VALLEY OAKS Lot: 5 Block: 1",
+        "RP-2021-673705 | 11/23/2021 | CONT | Grantor: SMITH ADAM Grantor: SMITH ADAM RAND Grantor: SMITH KAYLAN Grantor: TANNAHILL KAYLAN ANN Grantee: EAVES CARL A Grantee: EAVES CONSTRUCTION & DESIGN SERVICES | Desc: SUNSET HEIGHTS Lot: 45-46 Block: 40",
+        "RP-2021-673704 | 11/23/2021 | D/T | Grantor: SMITH ADAM Grantor: SMITH KAYLAN Grantee: COMMUNITYBANK OF TEXAS N A Trustee: WEST JOE | Desc: SUNSET HEIGHTS Lot: 45-46 Block: 40",
+        "RP-2021-553755 | 09/27/2021 | D/T | Grantor: SMITH ADAM Grantor: SMITH ADAM WHEELER Grantor: SMITH JOHANNA Grantor: SMITH JOHANNA ESTHER Grantee: BETTER MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: GARNER RUTH W | Desc: LONG POINT WOODS Sec: 1 Lot: 11 Block: 4",
+        "RP-2021-384126 | 07/08/2021 | D/T | Grantor: SMITH ADAM Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: UNITED WHOLESALE MORTGAGE LLC Trustee: BLACK MANN & GRAHAM L L P | Desc: STONE CREEK Sec: 1 Lot: 55 Block: 5",
+        "RP-2021-358347 | 06/25/2021 | D/T | Grantor: SMITH ADAM Grantor: SMITH ADAM M Grantor: SMITH JUDY Grantor: SMITH JUDY H Grantee: WELLS FARGO BANK N A Trustee: FOWLER ROBERT K | Desc: VILLAGE OF CREEKSIDE PARK Sec: 9 Lot: 15 Block: 1",
+        "RP-2021-348763 | 06/22/2021 | D/T | Grantor: REED BRITTANY Grantor: SMITH ADAM Grantee: FREEDOM MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK MANN & GRAHAM L L P | Desc: SHEPHERD FOREST Sec: 2 Lot: 633 Block: 35 Related Docs",
+        "RP-2021-316886 | 06/07/2021 | NOTICE | Grantor: BENNETT PAIGE T Grantor: BENNETT WESLEY C Grantor: GRANA ALLISON Grantor: SMITH ADAM Grantee: BENNETT PAIGE T Grantee: BENNETT WESLEY C Grantee: GRANA ALLISON Grantee: SMITH ADAM | Desc: TIMBERGROVE MANOR Sec: 14 Lot: 24 Block: 6 Related Docs",
+        "RP-2021-316885 | 06/07/2021 | D/T | Grantor: GRANA ALLISON Grantor: SMITH ADAM Grantee: AMEGY BANK Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: ZIONS BANCORPORATION N A Trustee: AMEGY BANK Trustee: ZIONS BANCORPORATION N A | Desc: TIMBERGROVE MANOR Sec: 14 Lot: 24 Block: 6",
+        "RP-2021-308537 | 06/03/2021 | D/T | Grantor: FREDERICK JACLYN D Grantor: SMITH ADAM M Grantee: MILLENNIAL HOME LENDING INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: MARCHLLNSKI HEATHER | Desc: AUSTIN ISABELLA COURT Lot: 4 Block: 1",
+        "RP-2021-308536 | 06/03/2021 | W/D | Grantor: FREDERICK JACLYN D Grantor: SMITH ADAM M Grantee: FREDERICK JACLYN D Grantee: SMITH ADAM M | Desc: AUSTIN ISABELLA Lot: 4 Block: 1",
+        "RP-2021-30344 | 01/20/2021 | NOTICE | Grantor: BURGHOFF KAITLYN Grantor: BURGHOFF KALVIN Grantor: SMITH ADAM Grantor: SMITH CHELSEA Grantee: BURGHOFF KAITLYN Grantee: BURGHOFF KALVIN Grantee: SMITH ADAM Grantee: SMITH CHELSEA | Desc: PINE TRACE VILLAGE Sec: 6 Lot: 21 Block: 2",
+        "RP-2021-30343 | 01/20/2021 | D/T | Grantor: SMITH ADAM Grantor: SMITH CHELSEA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: QUICKEN LOANS LLC Trustee: MAGERS ANDREA K | Desc: PINE TRACE VILLAGE Sec: 6 Lot: 21 Block: 2 Related Docs",
+        "RP-2021-278859 | 05/20/2021 | NOTICE | Grantor: BRADFORD ANDREA Grantor: BRADFORD BRYAN Grantor: SMITH ADAM MICHAEL Grantee: BRADFORD ANDREA Grantee: BRADFORD BRYAN Grantee: SMITH ADAM MICHAEL | Desc: W R BAKER ADDITION Lot: 7-8 Block: 260",
+        "RP-2021-278858 | 05/20/2021 | D/T | Grantor: SMITH ADAM Grantee: MATADOR LENDING LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK MANN & GRAHAM L L P | Desc: W R BAKER ADDITION Lot: 7-8 Block: 260",
+        "RP-2021-275300 | 05/19/2021 | D/T | Grantor: SMITH ADAM ROGER Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: MOVEMENT MORTGAGE LLC Trustee: SULLIVAN CHRISTOPHER J | Desc: SEAMIST Sec: 1 Lot: 11 Block: 1",
+        "RP-2021-238387 | 05/03/2021 | NOTICE | Grantor: LINWOOD YAN GUNAWAN Grantor: SMITH ADAM CHARLES Grantor: SMITH MEENAKSHI USHA Grantee: LINWOOD YAN GUNAWAN Grantee: SMITH ADAM CHARLES Grantee: SMITH MEENAKSHI USHA | Desc: PLANTATION LAKES Sec: 5 Lot: 10 Block: 1",
+        "RP-2021-238386 | 05/03/2021 | D/T | Grantor: SMITH ADAM CHARLES Grantor: SMITH MEENAKSHI USHA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: PARAMOUNT RESIDENTIAL MORTGAGE GROUP INC Trustee: GRAHAM GREGORY S | Desc: PLANTATION LAKES Sec: 5 Lot: 10 Block: 1",
+        "RP-2021-236521 | 04/30/2021 | D/T | Grantor: SMITH ADAM Grantor: SMITH KRISTIN Grantee: LOANDEPOT.COM LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK THOMAS E JR | Desc: CANYON GATE AT NORTHPOINTE Sec: 1 Lot: 86 Block: 1 Related Docs",
+        "RP-2020-95594 | 03/03/2020 | NOTICE | Grantor: SMITH ADAM Grantee: SMITH ADAM | Desc: SUNSET HEIGHTS Lot: 51 Block: 60 Related Docs",
+        "RP-2020-95593 | 03/03/2020 | D/T | Grantor: AIKIN MARK Grantor: SMITH ADAM Grantee: JPMORGAN CHASE BANK N A Trustee: POLUNSKY ALLAN B | Desc: SUNSET HEIGHTS Lot: 51 Block: 60",
+        "RP-2020-74801 | 02/19/2020 | NOTICE | Grantor: SMITH ADAM Grantor: SMITH CHELSEA T Grantor: WEAVER NANCY H Grantor: WEAVER SAMUEL A Grantee: SMITH ADAM Grantee: SMITH CHELSEA T Grantee: WEAVER NANCY H Grantee: WEAVER SAMUEL A | Desc: PINELAKES OAKMOSS VILLAGE Sec: 1 Lot: 9 Block: 1",
+        "RP-2020-74800 | 02/19/2020 | D/T | Grantor: SMITH ADAM Grantor: SMITH CHELSEA T Grantee: GUARANTEED RATE AFFINITY LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: PINELAES OAKMOSS VILLAGE Sec: 1 Lot: 9 Block: 1",
+        "RP-2020-557631 | 11/16/2020 | AGMT | Grantor: GUPTA PARKSIDE LIMITED PARTNERSHIP Grantor: GUPTA WESTCOTT INVESTMENTS L L C Grantor: JAMES D SMITH LAW FIRM PLLC Grantor: LAW FEEHAN ADAMS LLLP Grantor: LAW RICHARD M Grantor: SMITH ADAMS LAW FEEHAN LLP Grantor: TIAA FSB Grantee: GUPTA PARKSIDE LIMITED PARTNERSHIP Grantee: GUPTA WESTCOTT INVESTMENTS L L C Grantee: JAMES D SMITH LAW FIRM PLLC Grantee: LAW FEEHAN ADAMS LLLP Grantee: LAW RICHARD M Grantee: SMITH ADAMS LAW FEEHAN LLP Grantee: TIAA FSB | Comment: SEE INSTRUMENT",
+        "RP-2020-508646 | 10/22/2020 | AFFT | Grantor: SMITH ADAM Grantor: SMITH BETH Grantee: SEE INSTRUMENT | Desc: GLENCAIRN Sec: 3 Lot: 27 Block: 21",
+        "RP-2020-508645 | 10/22/2020 | D/T | Grantor: SMITH ADAM Grantor: SMITH BETH Grantee: AMERICAN FINANCING CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: RICH & KARLSENG LLC | Desc: GLENCAIRN Sec: 3 Lot: 27 Block: 21",
+        "RP-2020-508644 | 10/22/2020 | W/D | Grantor: SMITH ADAM Grantee: SMITH ADAM Grantee: SMITH BETH | Desc: GLENCAIRN Sec: 3 Lot: 27 Block: 21",
+        "RP-2020-466838 | 10/01/2020 | NOTICE | Grantor: BRENSIKE BRUCE Grantor: LIND DELILAH Grantor: MONAGHAN RACHAEL Grantor: SMITH ADAM Grantor: SMITH ROBIN Grantee: BRENSIKE BRUCE Grantee: LIND DELILAH Grantee: MONAGHAN RACHAEL Grantee: SMITH ADAM Grantee: SMITH ROBIN | Desc: SAGEMEADOW Sec: 1 Lot: 4 Block: 3",
+        "RP-2020-466837 | 10/01/2020 | NOTICE | Grantor: MONAGHAN RACHAEL Grantor: SMITH ADAM Grantor: SMITH ROBIN Grantee: MONAGHAN RACHAEL Grantee: SMITH ADAM Grantee: SMITH ROBIN | Desc: SAGEMEADOW Sec: 1 Lot: 4 Block: 3",
+        "RP-2020-466835 | 10/01/2020 | W/D | Grantor: MONAGHAN RACHAEL Grantor: SMITH ADAM Grantor: SMITH ROBIN Grantee: BRENSIKE BRUCE Grantee: LIND DELILAH | Desc: SAGEMEADOW Sec: 1 Lot: 4 Block: 3",
+        "RP-2020-34184 | 01/24/2020 | NOTICE | Grantor: PANKRATZ JEFFREY Grantor: PANKRATZ JESSICA Grantor: SMITH ADAM LEE Grantor: SMITH MELANIE KAY Grantee: PANKRATZ JEFFREY Grantee: PANKRATZ JESSICA Grantee: SMITH ADAM LEE Grantee: SMITH MELANIE KAY | Desc: FALLS AT DRY CREEK Sec: 1 Lot: 11 Block: 1 Related Docs",
+        "RP-2020-34183 | 01/24/2020 | NOTICE | Grantor: PANKRATZ JEFFREY Grantor: PANKRATZ JESSICA Grantor: SMITH ADAM LEE Grantor: SMITH MELANIE KAY Grantee: PANKRATZ JEFFREY Grantee: PANKRATZ JESSICA Grantee: SMITH ADAM LEE Grantee: SMITH MELANIE KAY | Desc: FALLS AT DRY CREEK Sec: 1 Lot: 11 Block: 1",
+        "RP-2020-34181 | 01/24/2020 | W/D | Grantor: SMITH ADAM LEE Grantor: SMITH MELANIE KAY Grantee: PANKRATZ JEFFREY Grantee: PANKRATZ JESSICA | Desc: FALLS AT DRY CREEK Sec: 1 Lot: 11 Block: 1",
+        "RP-2020-196040 | 05/11/2020 | D/T | Grantor: SMITH ADAM Grantor: SMITH AMY Grantee: ALLY BANK Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK THOMAS E JR | Desc: BLACKHORSE RANCH SOUTH Sec: 1 Lot: 51 Block: 1",
+        "RP-2020-116837 | 03/13/2020 | NOTICE | Grantor: GUTIERREZ JESSE Grantor: SMITH ADAM Grantor: TAYLOR CHELSEA Grantee: GUTIERREZ JESSE Grantee: SMITH ADAM Grantee: TAYLOR CHELSEA | Desc: WILDWOOD AT NORTHPOINT Sec: 14 Lot: 31 Block: 2 Related Docs",
+        "RP-2020-116835 | 03/13/2020 | W/D | Grantor: SMITH ADAM Grantor: TAYLOR CHELSEA Grantee: GUTIERREZ JESSE | Desc: WILDWOOD AT NORTHPOINTE Sec: 14 Lot: 31 Block: 2",
+        "RP-2019-534372 | 12/03/2019 | NOTICE | Grantor: MCNALLY JOHN G Grantor: MCNALLY MARLENE A Grantor: SMITH ADAM I Grantor: SMITH JESSICA L Grantee: MCNALLY JOHN G Grantee: MCNALLY MARLENE A Grantee: SMITH ADAM I Grantee: SMITH JESSICA L | Desc: SUMMERWOOD Sec: 18 Lot: 3 Block: 1",
+        "RP-2019-534371 | 12/03/2019 | NOTICE | Grantor: MCNALLY JOHN G Grantor: MCNALLY MARLENE A Grantor: SMITH ADAM I Grantor: SMITH JESSICA L Grantee: MCNALLY JOHN G Grantee: MCNALLY MARLENE A Grantee: SMITH ADAM I Grantee: SMITH JESSICA L | Desc: SUMMERWOOD Sec: 18 Lot: 3 Block: 1 Related Docs",
+        "RP-2019-534370 | 12/03/2019 | D/T | Grantor: SMITH ADAM I Grantor: SMITH JESSICA L Grantee: JPMORGAN CHASE BANK N A Trustee: POLUNSKY ALLAN B | Desc: SUMMERWOOD Sec: 18 Lot: 3 Block: 1",
+        "RP-2019-255177 | 06/17/2019 | NOTICE | Grantor: IONESCO CONSTANTIN Grantor: IONESCO NATHALIE Grantor: SMITH ADAM K Grantor: SMITH CRESTA M Grantee: IONESCO CONSTANTIN Grantee: IONESCO NATHALIE Grantee: SMITH ADAM K Grantee: SMITH CRESTA M | Desc: SPRING VALLEY OAKS Lot: 5 Block: 1",
+        "RP-2019-255176 | 06/17/2019 | D/T | Grantor: SMITH ADAM K Grantor: SMITH CRESTA M Grantee: CROSSCOUNTRY MORTGAGE INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: GIBSON MALCOLM D | Desc: SPRING VALLEY OAKS Lot: 5 Block: 1 Related Docs",
+        "RP-2019-216994 | 05/24/2019 | AFFT | Grantor: SMITH ADAM Grantee: SEE INSTRUMENT | Comment: SEE INSTRUMENT",
+        "RP-2019-216993 | 05/24/2019 | NOTICE | Grantor: DUFFY CHRISTOPHER Grantor: DUFFY KAREN Grantor: SMITH ADAM Grantor: SMITH CRESTA Grantee: DUFFY CHRISTOPHER Grantee: DUFFY KAREN Grantee: SMITH ADAM Grantee: SMITH CRESTA | Desc: WOODLAND HEIGHTS Lot: 2 Block: 12 Related Docs",
+        "RP-2019-216991 | 05/24/2019 | W/D | Grantor: SMITH ADAM Grantor: SMITH CRESTA Grantee: DUFFY CHRISTOPHER Grantee: DUFFY KAREN | Desc: WOODLAND HEIGHTS Lot: 2 Block: 12",
+        "RP-2019-149991 | 04/15/2019 | NOTICE | Grantor: SCHEIBLE JENNIFER M Grantor: SCHEIBLE JOHNNY D Grantor: SMITH ADAM Grantee: SCHEIBLE JENNIFER M Grantee: SCHEIBLE JOHNNY D Grantee: SMITH ADAM | Desc: CANYON GATE AT NORTHPOINTE Sec: 1 Lot: 86 Block: 1",
+        "RP-2019-149990 | 04/15/2019 | NOTICE | Grantor: SCHEIBLE JENNIFER M Grantor: SCHEIBLE JOHNNY D Grantor: SMITH ADAM Grantee: SCHEIBLE JENNIFER M Grantee: SCHEIBLE JOHNNY D Grantee: SMITH ADAM | Desc: CANYON GATE AT NORTHPOINTE Sec: 1 Lot: 86 Block: 1",
+        "RP-2019-149989 | 04/15/2019 | NOTICE | Grantor: SCHEIBLE JENNIFER M Grantor: SCHEIBLE JOHNNY D Grantor: SMITH ADAM Grantee: SCHEIBLE JENNIFER M Grantee: SCHEIBLE JOHNNY D Grantee: SMITH ADAM | Desc: CANYON GATE AT NORTHPOINTE Sec: 1 Lot: 86 Block: 1",
+        "RP-2019-149988 | 04/15/2019 | D/T | Grantor: SMITH ADAM Grantor: SMITH KRISTIN Grantee: BANK OF ENGLAND Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK MANN & GRAHAM LLP | Desc: CANYON GATE AT NORTHPOINTE Sec: 1 Lot: 86 Block: 1 Related Docs",
+        "RP-2019-140436 | 04/08/2019 | AFFT | Grantor: SMITH ADAM RODERICK Grantee: SEE INSTRUMENT | Desc: ESTATES AT WILLOW CREEK Lot: 53 Block: 1",
+        "RP-2019-140433 | 04/08/2019 | W/D | Grantor: SMITH ADAM RODERICK Grantor: SMITH KRISTIN LEIGH Grantee: SCHOLWINSKI KATHY KAY Grantee: SCHOLWINSKI STEVEN WAYNE | Desc: ESTATES AT WILLOW CREEK Lot: 53 Block: 1",
+        "RP-2018-451922 | 10/02/2018 | NOTICE | Grantor: PICAZO ANISSA C Grantor: SMITH ADAM CHARLES Grantor: SMITH HEATHER LENEE Grantee: PICAZO ANISSA C Grantee: SMITH ADAM CHARLES Grantee: SMITH HEATHER LENEE | Desc: PARKGATE NORTH Lot: 25 Block: 7 Related Docs",
+        "RP-2018-451920 | 10/02/2018 | W/D | Grantor: SMITH ADAM CHARLES Grantor: SMITH HEATHER LENEE Grantee: PICAZO ANISSA C | Desc: PARKGATE NORTH Lot: 25 Block: 7",
+        "RP-2018-450620 | 10/02/2018 | D/T | Grantor: SMITH ADAM C Grantor: SMITH HEATHER L Grantee: GULF COAST EDUCATORS FEDERAL CREDIT UNION Trustee: BLACK MANN & GRAHAM LLP | Desc: BAYWOOD OAKS WEST Lot: 6 Block: 2",
+        "RP-2018-348019 | 08/01/2018 | W/D | Grantor: SMITH ADAM C Grantor: SMITH AMY FOUSHEE Grantee: O'DONNELL JOHN | Desc: FALL CREEK Sec: 36 Lot: 7 Block: 4",
+        "RP-2018-313782 | 07/12/2018 | NOTICE | Grantor: SMITH ADAM Grantor: SMITH AMY Grantee: SMITH ADAM Grantee: SMITH AMY | Desc: BLACKHORSE RANCH SOUTH Sec: 1 Lot: 51 Block: 1",
+        "RP-2018-305312 | 07/06/2018 | W/D | Grantor: SMITH ADAM C Grantor: SMITH AMY FOUSHEE Grantee: O'DONNELL JOHN | Desc: FALL CREEK Sec: 36 Lot: 7 Block: 4",
+        "RP-2018-279787 | 06/25/2018 | NOTICE | Grantor: SMITH ADAM Grantor: SMITH AMY Grantee: SMITH ADAM Grantee: SMITH AMY | Desc: BLACKHORSE RANCH SOUTH Sec: 1 Lot: 51 Block: 1",
+        "RP-2018-279786 | 06/25/2018 | D/T | Grantor: SMITH ADAM Grantor: SMITH AMY Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: TEXAS SECURITY BANK Trustee: SCHEEF CRAIG | Desc: BLACKHORSE RANCH SOUTH Sec: 1 Lot: 51 Block: 1 Related Docs",
+        "RP-2017-84423 | 02/28/2017 | NOTICE | Grantor: MUELLER CAROL A Grantor: MUELLER NORBERT H JR Grantor: SMITH ADAM DALE Grantor: SMITH JULIE ANN HARRIS Grantee: MUELLER CAROL A Grantee: MUELLER NORBERT H JR Grantee: SMITH ADAM DALE Grantee: SMITH JULIE ANN HARRIS | Desc: SPRING CREEK OAKS Sec: 4 Lot: 17 Block: 2",
+        "RP-2017-84421 | 02/28/2017 | W/D | Grantor: SMITH ADAM DALE Grantor: SMITH JULIE ANN HARRIS Grantee: MUELLER CAROL A Grantee: MUELLER NORBERT H JR | Desc: SPRING CREEK OAKS Sec: 4 Lot: 17 Block: 2",
+        "RP-2017-84420 | 02/28/2017 | AFFT | Grantor: SMITH ADAM DALE Grantee: SEE INSTRUMENT | Comment: SEE INSTRUMENT",
+        "RP-2017-375415 | 08/21/2017 | LIEN | Grantor: SMITH ADAM Grantee: STATE OF TEXAS | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-227283 | 05/24/2017 | W/D | Grantor: SMITH ADAM CAMPBELL Grantee: PETERS RYAN DAVID | Desc: LAKEWOOD HILLS Sec: 1 Lot: 5 Block: 4",
+        "RP-2017-186525 | 05/01/2017 | D/T | Grantor: SMITH ADAM RODERICK Grantor: SMITH KRISTIN LEIGH Grantee: FBC MORTGAGE LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: MACKIE L KELLER | Desc: ESTATE AT WILLOW CREEK Lot: 53 Block: 1 Related Docs",
+        "RP-2017-123530 | 03/23/2017 | D/T | Grantor: SMITH ADAM LEE Grantor: SMITH MELANIE KAY Grantee: GREAT WESTERN FINANCIAL SERVICES INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: FALLS AT DRY CREEK Sec: 1 Lot: 11 Block: 1 Related Docs",
+        "RP-2017-117248 | 03/20/2017 | AMEND | Grantor: BAKER MARCIA Grantor: BECKMAN CHARLES Grantor: BICKERS ZACH Grantor: BOYD MARK Grantor: BRASHIER CHERYL Grantor: CALVA GERARDO Grantor: CARTER GAYLE Grantor: CERVENKA RONNIE Grantor: CERZANTOS ARMANDO Grantor: CHAFFEE MARIE Grantor: CHAPMAN JUNE Grantor: CHARLOTTE ONLY NAME LEGIBLE Grantor: COLLINS LOGAN Grantor: CORTEZ JAVIER Grantor: COSIA ANADELIA Grantor: CRAINE MICHAEL A Grantor: DAVIS JENNY Grantor: DELOACH JOYCE Grantor: DIAZ ANA Grantor: DICKERSON TOMMY Grantor: DOBYANSKI JAMEY Grantor: DODSON SEAN Grantor: DREY JAIME Grantor: DUNCAN LINDA Grantor: FARMACKA LOUIS Grantor: FAZ LEONOR Grantor: FERGUSON GARY Grantor: FRAZIER BARBARA Grantor: GARCIA GLORIA Grantor: GHORMLEY JULIA Grantor: GILLEY KATHY Grantor: GRACIA JUANA Grantor: GREER TONI Grantor: GRIFFITH DEBRA Grantor: HICKS KEVIN Grantor: HOOVER SUE Grantor: HUTCHINSON FLOYD Grantor: JARAMILLO GILBERTO Grantor: JOHNSON JIMMY Grantor: JOHNSON MARIE Grantor: JONES JERRY Grantor: KEIL DONNA Grantor: KELLY-OLSON JANE Grantor: KIMBALL JOYCE Grantor: LAMBERT DAWN Grantor: LEBOURGEOIS MARILYN Grantor: LOGAN JOHN Grantor: LORD DIANE Grantor: LOZANO CARLOS Grantor: MILLER CHAD Grantor: MILTON JOE Grantor: MIZE CASEY L Grantor: MONTEMAYER MARIA Grantor: MOORE CREDIA Grantor: MORTON JAMES Grantor: NICHOLSON DANN Grantor: ORTEGA YAZMIN Grantor: OVERTON JAMES Grantor: PARKGATE NORTH CIVIC CLUB Grantor: PEACOCK CONNIE Grantor: PEMBROKE PAT Grantor: PEREZ EDWARD Grantor: PEREZ ROGELIO Grantor: POTEET CHRISTINE Grantor: PRUITT DAURI Grantor: RANNALS PEGGY Grantor: ROBELS BENITA Grantor: RODRIGUEZ DANNY Grantor: RODRIGUEZ MARIA Grantor: RONALD ONLY NAME LEGIBLE Grantor: SANCHEZ ERICA Grantor: SANDHU SUSAN Grantor: SCHIMA KERI Grantor: SCOTT CORY Grantor: SEAY BOB Grantor: SEE INSTRUMENT Grantor: SEYFERT KELSY Grantor: SHARP SHIRLEY Grantor: SMITH ADAM Grantor: SMITH RENE Grantor: STEWART DEBORAH Grantor: TAMEZ MELISSA Grantor: TATE DAVID Grantor: TAVASADI MASTANEH Grantor: THOMPSON JEANNIE Grantor: TRAER GORDON Grantor: TRAHAN GERI Grantor: VASQUEZ MARIA Grantor: VEGA MARGARITA Grantor: VORDEN BAUM MIKE Grantor: WATSON SUSAN Grantor: WESSELS BRYAN Grantor: WESTERBURG TREY Grantor: WILLIAMS CHERIE Grantor: ZARATE RUDY Grantee: PARKGATE NORTH SUBDIVISION | Desc: PARKGATE Sec: 4 Related Docs",
+        "RP-2016-532405 | 11/28/2016 | D/T | Grantor: SMITH ADAM RAND Grantor: SMITH KAYLAN ANN Grantor: TANNAHILL KAYLAN ANN Grantee: HOME FINANCING UNLIMITED INC Grantee: MISSION MORTGAGE OFTEXAS INC Trustee: BURNS MICHAEL | Desc: SUNSET HEIGHTS Lot: 45-46 Block: 40 Related Docs",
+        "RP-2016-510663 | 11/11/2016 | AFFT | Grantor: SMITH ADAM MATTHEW EST Grantee: SMITH DIANE Grantee: SMITH DIRK | Comment: SEE INSTRUMENT",
+        "RP-2016-500189 | 11/04/2016 | FI STM | Grantor: SMITH ADAM Grantee: OLD UNION FINANCIAL | Desc: GLENCAIRN Sec: 3 Lot: 27 Block: 21 Related Docs",
+        "RP-2016-277815 | 06/28/2016 | D/T | Grantor: SMITH ADAM LEE Grantor: SMITH MELANIE KAY Grantee: ARK-LATEX FINANCIAL SERVICES LLC Grantee: BENCHMARK MORTGAGE Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BURNS MICHAEL | Desc: FALLS AT DRY CREEK Sec: 1 Lot: 11 Block: 1 Related Docs",
+        "RP-2016-275004 | 06/27/2016 | D/T | Grantor: SMITH ADAM C Grantor: SMITH AMY FOUSHEE Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: STONEGATE MORTGAGE CORPORATION Trustee: LEDBETTER DON W | Desc: FALL CREEK Sec: 36 Lot: 7 Block: 4",
+        "RP-2016-273515 | 06/24/2016 | D/T | Grantor: SMITH ADAM C Grantor: SMITH AMY FOUSHEE Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: STONEGATE MORTGAGE CORPORATION Trustee: DON W LEDBETTER PLLC | Desc: FALL CREEK Sec: 36 Lot: 7 Block: 4 Related Docs",
+        "RP-2016-190671 | 05/05/2016 | OFCRTN | Grantor: DICKEY BERNICE Grantor: DICKEY BERNICE MARIE Grantor: SHAKUR ISMAIL ABDUL Grantor: SIMS MILDRED JEAN Grantor: SMITH ADAM Grantor: SMITH ADAM ROY Grantor: SMITH JAMES CHARLES Grantor: SMITH LARRY Grantor: SMITH LAWRENCE Grantor: SMITH LAWRENCE L Grantor: SMITH MILDRED Grantor: SMITH OSCAR Grantor: SMITH OSS Grantor: SMITH OSS JR Grantor: SMITH OSS SR Grantor: SMITH QUINCY Grantor: SMITH QUINCY DOUGLAS Grantor: WILLIS DORIS SMITH Grantor: WOOTEN DOROTHY HARRISON Grantee: DICKEY BERNICE Grantee: DICKEY BERNICE MARIE Grantee: SHAKUR ISMAIL ABDUL Grantee: SIMS MILDRED JEAN Grantee: SMITH ADAM Grantee: SMITH ADAM ROY Grantee: SMITH JAMES CHARLES Grantee: SMITH LARRY Grantee: SMITH LAWRENCE Grantee: SMITH LAWRENCE L Grantee: SMITH MILDRED Grantee: SMITH OSCAR Grantee: SMITH OSS Grantee: SMITH OSS JR Grantee: SMITH OSS SR Grantee: SMITH QUINCY Grantee: SMITH QUINCY DOUGLAS Grantee: WILLIS DORIS SMITH Grantee: WOOTEN DOROTHY HARRISON | Desc: INTERNATIONAL SUBDIVISION Sec: 2 Lot: 36",
+        "RP-2016-162256 | 04/20/2016 | D/T | Grantor: SMITH ADAM Grantee: HOME USA MORTGAGE INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: GARNER RUTH W | Desc: SHEPHERD FOREST Sec: 2 Lot: 633 Block: 35 Related Docs",
+        "RP-2016-106116 | 03/15/2016 | NOTICE | Grantor: LUONG CHRISTINE Grantor: SMITH ADAM L Grantor: SMITH MELANIE K Grantor: VAN LIEN Grantee: LUONG CHRISTINE Grantee: SMITH ADAM L Grantee: SMITH MELANIE K Grantee: VAN LIEN | Desc: SYDNEY HARBOUR Sec: 3 Lot: 6 Block: 2",
+        "RP-2016-106115 | 03/15/2016 | NOTICE | Grantor: LIEN VAN Grantor: LUONG CHRISTINE Grantor: SMITH ADAM L Grantor: SMITH MELANIE K Grantee: LIEN VAN Grantee: LUONG CHRISTINE Grantee: SMITH ADAM L Grantee: SMITH MELANIE K | Desc: SYDNEY HARBOUR SUBDIVISION Sec: 3 Lot: 6 Block: 2 Related Docs",
+        "RP-2016-106113 | 03/15/2016 | W/D | Grantor: SMITH ADAM L Grantor: SMITH MELANIE K Grantee: LUONG CHRISTINE Grantee: VAN LIEN | Desc: SYDNEY HARBOUR Sec: 3 Lot: 6 Block: 2",
+        "RP-2016-106112 | 03/15/2016 | P/A | Grantor: SMITH ADAM Grantor: SMITH ADAM LEE Grantee: SMITH MELANIE | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SMITH ADAM')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "REL": 29,
+        "NOTICE": 58,
+        "DEED": 3,
+        "PROB": 2,
+        "LIEN": 6,
+        "W/D": 37,
+        "MAP": 2,
+        "FI STM": 3,
+        "AGMT": 2,
+        "OFCRTN": 2,
+        "AFFT": 7,
+        "A/J": 1,
+        "D/T": 31,
+        "CONT": 1,
+        "AMEND": 1,
+        "P/A": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SMITH ADAM')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "93 instruments as grantee, 93 as grantor (index, name 'SMITH ADAM')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SMITH ADAM')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  }
+}

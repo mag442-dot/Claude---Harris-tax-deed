@@ -1,0 +1,523 @@
+{
+  "property_id": "harris-2026-11-acct-0950930000002",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "1200 MAGNOLIA LN KINGWOOD 77339",
+  "account_no": "0950930000002",
+  "cause_no": "202570985",
+  "intake": {
+    "opening_bid": {
+      "value": 179054.4,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 4; tipo SALE; sale# 6; sentencia 02/23/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "1200 MAGNOLIA LN, HUMBLE, 77339",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "HSU SHU F (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "1200 MAGNOLIA LN, KINGWOOD, TX, 77339-3432",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "43470",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.9979",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "2241",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1976",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "134320",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "216038",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "355180",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "333411",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 23690.0000xSF $94760 | Res Improved Table Value 19780.0000xSF $39560",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 2986sf built 1976",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "04/02/2013 2013-0164755 | 09/03/2014 2014-0432737",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 2 BLK 9 FOREST COVE SEC 3 U/R",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "09/03/2014",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.238522,
+        "lat": 30.034411
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0950930000002)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 41950,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0950930000002)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~185 x 230 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0950930000002)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2024,
+          "tax": 3070.53,
+          "penalties_interest": 1013.28,
+          "collection_penalty": 716.16,
+          "total": 4799.97
+        },
+        {
+          "year": 2025,
+          "tax": 1156.79,
+          "penalties_interest": 242.92,
+          "collection_penalty": 244.84,
+          "total": 1644.55
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0950930000002",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 6444.52,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0950930000002",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2024,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0950930000002",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0950930000002",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 1156.79,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0950930000002",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 1156.79,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0950930000002",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "HSU SHU F 1200 MAGNOLIA LN KINGWOOD TX 77339 1200 MAGNOLIA LN LT 2 BLK 9 FOREST COVE SEC 3 U/R",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0950930000002",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 333411.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0950930000002",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202570985",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "02/23/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-02-23: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202570985 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de HSU SHU F (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 355180.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 180076.26,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 194811.19,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 194811.19,
+        "impuestos_que_hereda": 1156.79,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 5844.34,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 205812.32,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 270861.37,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.726,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $270,861 >= cierre esperado $194,811. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien de mecanico. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 270861.37,
+    "all_in_cost_estimate": 205812.32,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-308949 | 07/30/2026 | REL | Grantor: DAVID WEEKLEY HOMES Grantor: WEEKLEY HOMES LLC Grantee: HSU SHUH-MING Grantee: HSU TA-MING | Desc: TERRACES ON MEMORIAL AMENDING PLAT NO 1 Lot: 11 Block: 2 Related Docs",
+        "RP-2025-372243 | 09/19/2025 | NOTICE | Grantor: HSU SHU-HUI Grantor: SANDCASTLE HOMES INC Grantor: SHA SUNNY Grantee: HSU SHU-HUI Grantee: SANDCASTLE HOMES INC Grantee: SHA SUNNY | Desc: TOWNHOMES AT DART Lot: 2 Block: 1",
+        "RP-2025-372242 | 09/19/2025 | W/D | Grantor: SANDCASTLE HOMES INC Grantee: HSU SHU-HUI Grantee: SHA SUNNY | Desc: TOWNHOMES AT DART Lot: 2 Block: 1",
+        "RP-2024-352135 | 09/24/2024 | W/D | Grantor: HERRERA CHARDONNAY Grantor: HERRERA JOSHUA Grantee: HSU SHU-CHUAN Grantee: VILLEGAS VICTOR | Desc: ELM GROVE VILLAGE Sec: 3 Lot: 29 Block: 13",
+        "RP-2023-392237 | 10/12/2023 | W/D | Grantor: TAYLOR MORRISON OF TEXAS INC Grantee: HSU SHU-FEN SHIH | Desc: AVALON AT CYPRESS Sec: 1 Lot: 12 Block: 2",
+        "RP-2023-390067 | 10/11/2023 | REVOC | Grantor: FNA VI LLC Grantor: HUNTER-KELSEY OF TEXAS LLC Grantee: HSU SHU GRACE | Desc: FOREST COVE Sec: 3 Lot: 2 Block: 9 Related Docs",
+        "RP-2022-516483 | 10/20/2022 | REL | Grantor: FNA VI LLC Grantor: HUNTER-KELSEY OF TEXAS LLC Grantee: HSU SHU GRACE | Desc: FOREST COVE Sec: 3 Lot: 2 Block: 9 Related Docs",
+        "RP-2021-11416 | 01/07/2021 | NOTICE | Grantor: HSU SHU HUI Grantor: MORAN SARA Grantor: YANG CHUN Grantor: YE STEVEN Grantee: HSU SHU HUI Grantee: MORAN SARA Grantee: YANG CHUN Grantee: YE STEVEN | Desc: 3525 SAGE CONDOMINIUMS Unit: 908 Related Docs",
+        "RP-2021-11413 | 01/07/2021 | P/A | Grantor: YE STEVEN Grantee: HSU SHU HUI | Desc: 3525 SAGE CONDO 4TH AMEND Unit: 908",
+        "RP-2021-11412 | 01/07/2021 | P/A | Grantor: YANG CHUN Grantee: HSU SHU HUI | Desc: 3525 SAGE CONDO Unit: 908"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HSU SHU')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2025-372243 | 09/19/2025 | NOTICE | Grantor: HSU SHU-HUI Grantor: SANDCASTLE HOMES INC Grantor: SHA SUNNY Grantee: HSU SHU-HUI Grantee: SANDCASTLE HOMES INC Grantee: SHA SUNNY | Desc: TOWNHOMES AT DART Lot: 2 Block: 1",
+        "RP-2024-61803 | 02/22/2024 | ASSGN | Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HSU SHU F Grantor: LONE STAR COLLEGE SYSTEM Grantor: PORT OF HOUSTON AUTHORITY Grantee: FNA VII LLC | Desc: FOREST COVE Sec: 3 Lot: 2 Block: 9",
+        "RP-2024-47873 | 02/12/2024 | ASSGN | Grantor: HSU SHU F Grantor: HUMBLE ISD Grantee: FNA VII LLC | Desc: FOREST COVE Sec: 3 Lot: 2 Block: 9",
+        "RP-2024-36151 | 02/01/2024 | CONT | Grantor: HSU SHUFANG Grantee: FNA VII LLC | Desc: FOREST COVE Sec: 3 Lot: 2 Block: 9",
+        "RP-2024-352136 | 09/24/2024 | D/T | Grantor: HSU SHU-CHUAN Grantor: VILLEGAS VICTOR Grantee: GULF COAST EDUCATORS FEDERAL CREDIT UNION Trustee: BLACK MANN & GRAHAM LLP | Desc: ELM GROVE VILLAGE Sec: 3 Lot: 29 Block: 13",
+        "RP-2023-438172 | 11/17/2023 | ASSGN | Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HAZRIS COUNTY Grantor: HSU SHU F Grantor: LONE STAR COLLEGE SYSTEM Grantor: PORT OF HOUSTON AUTHORITY Grantee: FNA VII LLC | Desc: FOREST COVE Sec: 3 Lot: 2 Block: 9",
+        "RP-2023-412715 | 10/27/2023 | ASSGN | Grantor: HSU SHU F Grantor: HUMBLE ISD Grantee: FNA VII LLC | Desc: FOREST COVE Sec: 3 Lot: 2 Block: 9",
+        "RP-2023-398484 | 10/17/2023 | CONT | Grantor: HSU SHUFANG Grantee: FNA VII LLC | Desc: FOREST COVE Sec: 3 Lot: 2 Block: 9",
+        "RP-2022-478950 | 09/26/2022 | ASSGN | Grantor: HSU SHU F Grantor: HUMBLE ISD Grantee: CC2 TX LLC | Desc: FOREST COVE Sec: 3 Lot: 2 Block: 9 Related Docs",
+        "RP-2022-476845 | 09/23/2022 | ASSGN | Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HSU SHU F Grantor: HSU SHU FANG Grantor: LONE STAR COLLEGE SYSTEM Grantor: PORT OF HOUSTON AUTHORITY Grantee: CC2 TX LLC | Desc: FOREST COVE Sec: 3 Lot: 2 Block: 9",
+        "RP-2022-443489 | 08/31/2022 | CONT | Grantor: HSU SHU FANG Grantee: CC2 TX LLC | Desc: FOREST COVE Sec: 3 Lot: 2 Block: 9 Related Docs",
+        "RP-2021-11416 | 01/07/2021 | NOTICE | Grantor: HSU SHU HUI Grantor: MORAN SARA Grantor: YANG CHUN Grantor: YE STEVEN Grantee: HSU SHU HUI Grantee: MORAN SARA Grantee: YANG CHUN Grantee: YE STEVEN | Desc: 3525 SAGE CONDOMINIUMS Unit: 908 Related Docs",
+        "RP-2021-11414 | 01/07/2021 | W/D | Grantor: HSU SHU HUI Grantor: YANG CHUN Grantor: YE STEVE Grantee: MORAN SARA | Desc: 3525 SAGE CONDOMINIUMS Unit: 908",
+        "RP-2020-120217 | 03/17/2020 | W/D | Grantor: HSU SHU-ER Grantor: HSU-CHANDRAHASAN JENNY Grantee: HSU-CHANDRAHASAN JENNY | Desc: CLAYTON Sec: 1 Lot: 29 Block: 4",
+        "RP-2019-148930 | 04/12/2019 | W/D | Grantor: HSU SHUH-MING LIU Grantor: HSU TA-MING Grantor: SUN GEORGE WEN-CHI Grantor: SUN MARISA SHUH-KUANG LIU Grantee: DU YAPING Grantee: YU CONG | Desc: HAPPY VILLAGE CONDOMINIUMS Unit: 48",
+        "RP-2018-176515 | 04/25/2018 | ASSGN | Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HSU SHU F Grantor: LONE STAR COLLEGE SYSTEM Grantor: PORT OF HOUSTON AUTHORITY Grantee: FNA DZ LLC | Desc: FOREST COVE Sec: 3 Lot: 2 Block: 9",
+        "RP-2018-167082 | 04/19/2018 | ASSGN | Grantor: HSU SHU Grantor: HUMBLE ISD Grantee: FNA DZ LLC | Desc: FOREST COVE Sec: 3 Lot: 2 Block: 9",
+        "RP-2018-124051 | 03/26/2018 | CONT | Grantor: HSU SHU FANG Grantee: FNA DZ LLC | Desc: FOREST COVE Sec: 3 Lot: 2 Block: 9 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HSU SHU')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "REL": 2,
+        "NOTICE": 4,
+        "W/D": 6,
+        "REVOC": 1,
+        "P/A": 2,
+        "ASSGN": 8,
+        "CONT": 4,
+        "D/T": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HSU SHU')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "10 instruments as grantee, 18 as grantor (index, name 'HSU SHU')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HSU SHU')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  }
+}

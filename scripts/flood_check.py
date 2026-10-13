@@ -11,6 +11,9 @@ Limits (stated in each note): the point is the geocoded ADDRESS, not the parcel
 centroid; this is the effective NFHL map, not the draft MAAPnext; no depth grids.
 """
 import json
+import sys as _s
+_s.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
+from _recio import save_sections
 import sys
 import time
 import urllib.parse
@@ -86,7 +89,7 @@ def main(argv):
         except Exception as e:  # network/API failure: say so, never guess
             phys["fema_effective_zone"] = {"value": None, "status": "unknown", "source": src, "retrieved_at": today,
                                            "note": f"lookup failed: {e}"}
-        f.write_text(json.dumps(rec, ensure_ascii=False, indent=2) + "\n")
+        save_sections(f, rec, ['physical'])
         time.sleep(0.3)
     print(f"flood-checked {n} records")
 

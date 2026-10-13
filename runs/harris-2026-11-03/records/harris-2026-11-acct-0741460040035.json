@@ -1,0 +1,574 @@
+{
+  "property_id": "harris-2026-11-acct-0741460040035",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "309 SHADY LN. BAYTOWN 77520",
+  "account_no": "0741460040035",
+  "cause_no": "202239288",
+  "intake": {
+    "opening_bid": {
+      "value": 59542.62,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 8; tipo SALE; sale# 5; sentencia 03/27/2025; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "309 SHADY LN, BAYTOWN, 77520",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "JACKSON ADDIE L (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "309 SHADY LN, BAYTOWN, TX, 77520-7132",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "8250",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1894",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "1518",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1948",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "43830",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "112663",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "156493",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "169834",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 7200.0000xSF $43200 | Res Improved Table Value 1050.0000xSF $630",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 1748sf built 1948",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 35 BLK 4 WYNNEWOOD SEC 3",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "01/02/1995",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -94.966805,
+        "lat": 29.725658
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0741460040035)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 8052,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0741460040035)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~78 x 130 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0741460040035)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF BAYTOWN",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2015,
+          "tax": 110.01,
+          "penalties_interest": 155.12,
+          "collection_penalty": 53.01,
+          "total": 318.14
+        },
+        {
+          "year": 2016,
+          "tax": 336.55,
+          "penalties_interest": 434.16,
+          "collection_penalty": 154.15,
+          "total": 924.86
+        },
+        {
+          "year": 2017,
+          "tax": 100.26,
+          "penalties_interest": 117.31,
+          "collection_penalty": 43.52,
+          "total": 261.09
+        },
+        {
+          "year": 2018,
+          "tax": 425.33,
+          "penalties_interest": 446.59,
+          "collection_penalty": 174.39,
+          "total": 1046.31
+        },
+        {
+          "year": 2019,
+          "tax": 539.98,
+          "penalties_interest": 502.18,
+          "collection_penalty": 157.66,
+          "total": 1199.82
+        },
+        {
+          "year": 2020,
+          "tax": 529.03,
+          "penalties_interest": 428.52,
+          "collection_penalty": 144.81,
+          "total": 1102.36
+        },
+        {
+          "year": 2021,
+          "tax": 652.7,
+          "penalties_interest": 450.36,
+          "collection_penalty": 165.46,
+          "total": 1268.52
+        },
+        {
+          "year": 2022,
+          "tax": 697.58,
+          "penalties_interest": 397.62,
+          "collection_penalty": 164.27,
+          "total": 1259.47
+        },
+        {
+          "year": 2023,
+          "tax": 716.18,
+          "penalties_interest": 322.29,
+          "collection_penalty": 155.77,
+          "total": 1194.24
+        },
+        {
+          "year": 2024,
+          "tax": 920.59,
+          "penalties_interest": 303.8,
+          "collection_penalty": 183.67,
+          "total": 1408.06
+        },
+        {
+          "year": 2025,
+          "tax": 1068.14,
+          "penalties_interest": 224.3,
+          "collection_penalty": 0.0,
+          "total": 1292.44
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0741460040035",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 11275.31,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0741460040035",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0741460040035",
+      "retrieved_at": "2026-10-13",
+      "note": "el condado no lista los anios incluidos en la sentencia"
+    },
+    "post_judgment_taxes": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0741460040035",
+      "retrieved_at": "2026-10-13",
+      "note": "sin anios de sentencia no se puede separar"
+    },
+    "current_year_estimate": {
+      "value": 1068.14,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0741460040035",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0741460040035",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "JACKSON ADDIE L 309 SHADY LN BAYTOWN TX 77520 309 SHADY LN LT 35 BLK 4 WYNNEWOOD SEC 3",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0741460040035",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 169834.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0741460040035",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202239288",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "03/27/2025",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2027-03-27: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202239288 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de JACKSON ADDIE L (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 156493.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 79341.95,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 64782.37,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 79341.95,
+        "impuestos_que_hereda": 11275.31,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 2380.26,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: COTA SUPERIOR: total adeudado de todos los anios (el condado no separa anios de la sentencia); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 96997.52,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 106717.56,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.613,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $106,718 >= cierre esperado $79,342. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF BAYTOWN. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 106717.56,
+    "all_in_cost_estimate": 96997.52,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2025-448097 | 11/11/2025 | REL | Grantor: O'NEAL MICHAEL R Grantor: WOODLAND PINES OWNERS ASSOCIATION INC Grantee: JACKSON ADDIE F | Desc: WOODLAND PINES Sec: 2 Lot: 25 Block: 1 Related Docs",
+        "RP-2025-288519 | 07/24/2025 | LIEN | Grantor: O'NEAL MICHAEL R Grantor: WOODLAND PINES OWNERS ASSOCIATION INC Grantee: JACKSON ADDIE F | Desc: WOODLAND PINES Sec: 2 Lot: 25 Block: 1 Related Docs",
+        "RP-2024-322754 | 09/04/2024 | LIEN | Grantor: O'NEAL MICHAEL R Grantor: WOODLAND PINES OWNER'S ASSOCIATION INC Grantee: JACKSON ADDIE F | Desc: WOODLAND PINES Sec: 2 Lot: 25 Block: 1",
+        "RP-2022-70432 | 02/08/2022 | LIEN | Grantor: CITY OF BAYTOWN Grantee: CERRATO NORMA Grantee: JACKSON ADDIE L Grantee: LAKEWOOD NO 1 Grantee: LINDGRAM KYLE Grantee: MILLER H A Grantee: MILLER JUNE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-245245 | 05/10/2022 | AFFT | Grantor: CAMPBELL JOHNNY R JR Grantor: CAMPBELL NECOLE Grantor: JACKSON GARFIELD Grantee: FONTENOT JANETTE MARIE JACKSON EST Grantee: JACKSON ADDIE V EST Grantee: JACKSON TILTON EST | Desc: BLUERIDGE Sec: 1 Lot: 23 Block: 11",
+        "RP-2021-487541 | 08/26/2021 | REL | Grantor: O'NEAL MICHAEL R Grantor: WOODLAND PINES OWNERS ASSOCIATION Grantee: JACKSON ADDIE F | Desc: WOODLAND PINES Sec: 2 Lot: 25 Block: 1 Related Docs",
+        "RP-2021-487540 | 08/26/2021 | REL | Grantor: O'NEAL MICHAEL R Grantor: WOODLAND PINES OWNERS ASSOCIATION INC Grantee: JACKSON ADDIE F | Desc: WOODLAND PINES Sec: 2 Lot: 25 Block: 1 Related Docs",
+        "RP-2021-284305 | 05/21/2021 | LIEN | Grantor: O'NEAL MICHAEL R Grantor: WOODLAND PINES OWNER'S ASSOCIATION INC Grantee: JACKSON ADDIE F | Desc: WOODLAND PINES Sec: 2 Lot: 25 Block: 1",
+        "RP-2019-220277 | 05/28/2019 | LIEN | Grantor: O'NEAL MICHAEL R Grantor: WOODLAND PINES OWNER'S ASSOCIATION INC Grantee: JACKSON ADDIE F | Desc: WOODLAND PINES Sec: 2 Lot: 25 Block: 1 Related Docs",
+        "RP-2019-129500 | 04/01/2019 | REL | Grantor: O'NEAL MICHAEL R Grantor: WOODLAND PINES OWNER'S ASSOCIATION INC Grantee: JACKSON ADDIE F | Desc: WOODLAND PINES Sec: 2 Lot: 25 Block: 1 Related Docs",
+        "RP-2018-224584 | 05/22/2018 | LIEN | Grantor: WOODLAND PINES OWNER'S ASSOCIATION INC Grantee: JACKSON ADDIE F | Desc: WOODLAND PINES Sec: 2 Lot: 25 Block: 1",
+        "RP-2016-196876 | 05/10/2016 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: WACHOVIA MORTGAGE CORPORATION Grantee: JACKSON ADDIE F | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JACKSON ADDIE')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2023-234600 | 06/26/2023 | MODIF | Grantor: JACKSON ADDIE F Grantee: CARRINGTON MORTGAGE SERVICES LLC | Desc: WOODLAND PINES Sec: 2 Lot: 25 Block: 1 Related Docs",
+        "RP-2022-96658 | 02/23/2022 | AFFT | Grantor: BUCKLEY AARON DEWAYNE Grantor: BUCKLEY JUNIOR Grantor: BUCKLEY LATOYA ANJENETTE Grantor: BUCKLEY YOUNG JACK JR Grantor: JACKSON ADDIE Grantor: JACKSON DANIEL MATTHEW Grantor: JACKSON JEROME BRUSHAWN Grantor: JACKSON JOSHUA Grantor: JACKSON RACHEAL LACHELLE Grantor: NICKERSON JACQUELINE Grantor: NICKERSON LISA Grantor: NICKERSON MELISA M Grantor: NICKERSON MELVIN Grantor: S WILLIAMS ASSOCIATES PLLC Grantor: SECURED TITLE OF TEXAS LLC Grantor: WILLIAM BOBBY Grantee: QUICK HOUSE BUYERS LLC | Desc: LAKE FOREST Sec: 2 Lot: 3 Block: 8 Related Docs",
+        "RP-2022-91781 | 02/21/2022 | W/D | Grantor: BUCKLEY AARON DEWAYNE Grantor: BUCKLEY JUNIOR Grantor: BUCKLEY LATOYA ANJENETTE Grantor: BUCKLEY YOUNG JACK JR Grantor: JACKSON ADDIE Grantor: JACKSON DANIEL MATTHEW Grantor: JACKSON JEROME BRUSHAWN Grantor: JACKSON JOSHUA Grantor: JACKSON RACHEAL LACHELLE Grantor: JACKSON RACHEL LACHELLE Grantor: NICKERSON JACQUELINE Grantor: NICKERSON LISA Grantor: NICKERSON MELISA M Grantor: NICKERSON MELVIN Grantor: WILLIAM BOBBY Grantee: QUICK HOUSE BUYERS LLC | Desc: CYPRESS CREEK MANOR SU BDIVISION Lot: 7 Block: 5 Related Docs",
+        "RP-2022-606754 | 12/30/2022 | QCD | Grantor: JACKSON ADDIE Grantor: JACKSON ADDIE M Grantee: SAMUEL SHARON Grantee: SAMUEL SHARON D | Desc: WOODFOREST Sec: 21 Lot: 47 Block: 82",
+        "RP-2022-255191 | 05/16/2022 | MTG | Grantor: JACKSON ADDIE F Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SEE INSTRUMENT | Desc: WOODLAND PINES Sec: 2 Lot: 25 Block: 1",
+        "RP-2016-179232 | 04/29/2016 | D/T | Grantor: JACKSON ADDIE F Grantee: CARRINGTON MORTGAGE SERVICES LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: WOODLAND PINES Sec: 2 Lot: 25 Block: 1 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JACKSON ADDIE')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "REL": 5,
+        "LIEN": 6,
+        "AFFT": 2,
+        "MODIF": 1,
+        "W/D": 1,
+        "QCD": 1,
+        "MTG": 1,
+        "D/T": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JACKSON ADDIE')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "12 instruments as grantee, 6 as grantor (index, name 'JACKSON ADDIE')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JACKSON ADDIE')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  }
+}

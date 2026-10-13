@@ -1,0 +1,542 @@
+{
+  "property_id": "harris-2026-11-acct-0731110080232",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "6606 WEAVER RD HOUSTON 77028",
+  "account_no": "0731110080232",
+  "cause_no": "202244936",
+  "intake": {
+    "opening_bid": {
+      "value": 18567.39,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 1; tipo SALE; sale# 10; sentencia 04/30/2025; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "6606 WEAVER RD, HOUSTON, 77028",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "KAY ANTHONY C (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "17310 TOWER FALLS LN, HUMBLE, TX, 77346-3804",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "C1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "13440",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.3085",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "105648",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "105648",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "105648",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Vacant Table Value 7680.0000xSF $54528 | Res Vacant Table Value 5760.0000xSF $51120",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "03/04/2008 2008-0449134 | 09/04/2007 2007-0659775",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LTS 232 & 233 BLK 8 PELHAM PLACE SEC 3",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "03/04/2008",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.307982,
+        "lat": 29.83253
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0731110080232)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 13703,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0731110080232)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~118 x 120 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0731110080232)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2018,
+          "tax": 262.0,
+          "penalties_interest": 275.12,
+          "collection_penalty": 107.43,
+          "total": 644.55
+        },
+        {
+          "year": 2019,
+          "tax": 383.57,
+          "penalties_interest": 356.72,
+          "collection_penalty": 138.87,
+          "total": 879.16
+        },
+        {
+          "year": 2020,
+          "tax": 570.09,
+          "penalties_interest": 461.76,
+          "collection_penalty": 193.69,
+          "total": 1225.54
+        },
+        {
+          "year": 2021,
+          "tax": 553.77,
+          "penalties_interest": 382.1,
+          "collection_penalty": 175.41,
+          "total": 1111.28
+        },
+        {
+          "year": 2022,
+          "tax": 930.07,
+          "penalties_interest": 530.13,
+          "collection_penalty": 274.29,
+          "total": 1734.49
+        },
+        {
+          "year": 2023,
+          "tax": 1276.58,
+          "penalties_interest": 574.47,
+          "collection_penalty": 345.63,
+          "total": 2196.68
+        },
+        {
+          "year": 2024,
+          "tax": 1568.78,
+          "penalties_interest": 517.71,
+          "collection_penalty": 386.95,
+          "total": 2473.44
+        },
+        {
+          "year": 2025,
+          "tax": 1912.08,
+          "penalties_interest": 401.56,
+          "collection_penalty": 325.78,
+          "total": 2639.42
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0731110080232",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 12904.56,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0731110080232",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2015,
+        2024
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0731110080232",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 10431.12,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0731110080232",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 1912.08,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0731110080232",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 12343.2,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0731110080232",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "KAY ANTHONY C 17310 TOWER FALLS LN HUMBLE TX 77346 6606 WEAVER RD LTS 232 & 233 BLK 8 PELHAM PLACE SEC 3",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0731110080232",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 89971.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0731110080232",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202244936",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "04/30/2025",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2027-04-28: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202244936 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de KAY ANTHONY C (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 105648.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 53563.54,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 20201.32,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 53563.54,
+        "impuestos_que_hereda": 12343.2,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 1606.91,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 71513.65,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 66189.51,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.477,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $66,190 >= cierre esperado $53,564. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 66189.51,
+    "all_in_cost_estimate": 71513.65,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-289643 | 07/17/2026 | REL | Grantor: CURATIVE ASSETS LLC Grantee: KAY ANTHONY C | Desc: PELHAM PLACE Sec: 3 Lot: 232-233 Block: 8 Related Docs",
+        "RP-2025-322978 | 08/15/2025 | MEMO | Grantor: CURATIVE ASSETS LLC Grantee: KAY ANTHONY C | Desc: PELHAM PLACE Sec: 3 Lot: 232-233 Block: 8 Related Docs",
+        "RP-2022-122336 | 03/08/2022 | REL | Grantor: CHRISTIAN CALEB Grantor: HERITAGE MEMORIAL FUNDING LLC Grantee: CHRISTIAN CALEB Grantee: KAY ANTHONY C Grantee: LEOLAND MCGUIRE & ASSOCIATES LLC Grantee: PRUITT'S MORTUARY | Comment: SEE INSTRUMENT",
+        "RP-2020-263238 | 06/18/2020 | REL | Grantor: SADBERRY LONNIE ANTONIO Grantor: SADBERRY LONNIE EST Grantor: SANSOM GEOFFREY C Grantee: KAY ANTHONY C Grantee: KAY KATHRYN J BLUITT Grantee: KAY MARY DOMIO | Desc: INDEPENDENT HEIGHTS Block: 33",
+        "RP-2020-223326 | 05/27/2020 | LIEN | Grantor: CITY OF HOUSTON Grantee: KAY ANTHONY C | Desc: PELHAM PLACE Sec: 3 Lot: 232-233 Block: 8",
+        "RP-2019-519213 | 11/22/2019 | A/J | Grantor: HERITAGE MEMORIAL FUNDING LLC Grantee: KAY ANTHONY C Grantee: LEOLAND MCGUIRE & ASSOCIATES LLC Grantee: PRUITT'S MORTUARY | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-368774 | 08/21/2019 | REINST | Grantor: FRONTIERS LONG TERM INVESTMENTS LLC Grantee: KAY ANTHONY Grantee: LEOLAND MCGUIRE & ASSOCIATES LLC Grantee: PRUITT'S MORTUARY | Desc: INDEPENDENCE HEIGHTS Block: 33 Related Docs",
+        "RP-2019-270214 | 06/25/2019 | L/P | Grantor: SADBERRY LONNIE ANTONIO Grantee: KAY ANTHONY C Grantee: KAY KATHRYN J BLUITT Grantee: KAY MARY DOMIO | Desc: INDEPENDENCE HEIGHTS Block: 33",
+        "RP-2018-201114 | 05/08/2018 | REL | Grantor: INTERNAL REVENUE SERVICE Grantee: KAY ANTHONY C | Comment: SEE INSTRUMENT",
+        "RP-2018-184253 | 04/30/2018 | REL | Grantor: INTERNAL REVENUE SERVICE Grantee: KAY ANTHONY Grantee: LEOLAND MCGUIRE & ASSOCIATES LLC | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-130379 | 03/28/2018 | LIEN | Grantor: CITY OF HOUSTON Grantee: KAY ANTHONY C | Desc: PELHAM PLACE Sec: 3 Lot: 232-233 Block: 8",
+        "RP-2017-309761 | 07/11/2017 | A/J | Grantor: MYERS PLUMBING SERVICES INC Grantee: KAY ANTHONY C Grantee: LEOLAND MCGUIRE & ASSOCIATIES LLC Grantee: PRUITT'S MORTUARY | Comment: SEE INSTRUMENT",
+        "RP-2017-212583 | 05/16/2017 | REL | Grantor: INTERNAL REVENUE SERVICE Grantee: ANGLIN RAECHELLE Grantee: KAY ANTHONY C | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-190686 | 05/05/2016 | LIEN | Grantor: CITY OF HOUSTON Grantee: KAY ANTHONY C | Desc: PELHAM PLACE Sec: 3 Lot: 232-233 Block: 8"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'KAY ANTHONY')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2021-549653 | 09/24/2021 | T/L | Grantor: KAY ANTHONY C Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2021-150996 | 03/23/2021 | T/L | Grantor: KAY ANTHONY C Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2018-396702 | 08/29/2018 | MODIF | Grantor: KAY ANTHONY Grantor: KAY KATHRYN J BLUITT Grantor: LEOLAND MCGUIRE & ASSOCIATES LLC Grantor: SADBERRY LONNIE Grantee: FRONTIERS LONG TERM INVESTMENTS LLC | Desc: INDEPENDENCE HEIGHTS Block: 33 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'KAY ANTHONY')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "REL": 6,
+        "MEMO": 1,
+        "LIEN": 3,
+        "A/J": 2,
+        "REINST": 1,
+        "L/P": 1,
+        "T/L": 2,
+        "MODIF": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'KAY ANTHONY')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "14 instruments as grantee, 3 as grantor (index, name 'KAY ANTHONY')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'KAY ANTHONY')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  }
+}

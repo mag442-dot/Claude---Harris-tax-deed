@@ -16,115 +16,115 @@
       "value": "9046 IRON SPRINGS DR, HOUSTON, 77034",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_owner": {
       "value": "MONSIVAIS EDUARDO & MARIA (1.0000%)",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_mailing_address": {
       "value": "9046 IRON SPRINGS DR, HOUSTON, TX, 77034-3652",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_state_class": {
       "value": "A1",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_land_sqft": {
       "value": "3280",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_acres": {
       "value": "0.0753",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_building_sqft": {
       "value": "1316",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_year_improved": {
       "value": "2003",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_land_value": {
       "value": "45284",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_building_value": {
       "value": "166214",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_market_value": {
       "value": "211498",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_prior_market_value": {
       "value": "207615",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_exemptions": {
       "value": "RES (Residential Homestead)",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_homestead_on_roll": {
       "value": "yes",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_land_detail": {
       "value": "Res Improved Table Value 3280.0000xSF $45284",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_buildings": {
       "value": "Residential 1772sf built 2003",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_deeds_recorded": {
       "value": "03/28/2007 2007-0204386",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_legal": {
       "value": "LT 21 BLK 1 TIERRA GLEN SEC 2",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_owner_since": {
       "value": "03/28/2007",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     }
   }
 }

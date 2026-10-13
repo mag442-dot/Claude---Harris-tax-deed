@@ -1,0 +1,500 @@
+{
+  "property_id": "harris-2026-11-acct-0610050400046",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "0 DAVIDSON ST HOUSTON 77091",
+  "account_no": "0610050400046",
+  "cause_no": "202254663",
+  "intake": {
+    "opening_bid": {
+      "value": 9056.52,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 1; tipo SALE; sale# 12; sentencia 01/24/2025; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "0 DAVIDSON ST, HOUSTON, 77091",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "MATHIS DEBORAH B ET AL (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "8615 HAYNES ST, HOUSTON, TX, 77088-4519",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "C1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "10870",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.2496",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "122611",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "122611",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "122611",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Vacant Table Value 10000.0000xSF $117500 | Res Vacant Table Value 870.0000xSF $5111",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "TR 30B BLK 40 HIGHLAND HEIGHTS ANNEX SEC 6",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "11/04/2007",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.414938,
+        "lat": 29.84841
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0610050400046)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 10849,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0610050400046)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~65 x 167 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0610050400046)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2023,
+          "tax": 1346.51,
+          "penalties_interest": 605.93,
+          "collection_penalty": 364.56,
+          "total": 2317.0
+        },
+        {
+          "year": 2024,
+          "tax": 1965.05,
+          "penalties_interest": 648.47,
+          "collection_penalty": 370.64,
+          "total": 2984.16
+        },
+        {
+          "year": 2025,
+          "tax": 2220.09,
+          "penalties_interest": 466.21,
+          "collection_penalty": 378.27,
+          "total": 3064.57
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0610050400046",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 8365.73,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0610050400046",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2001,
+        2023
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0610050400046",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 6048.73,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0610050400046",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 2220.09,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0610050400046",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 8268.82,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0610050400046",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "MATHIS DEBORAH B ET AL 8615 HAYNES ST HOUSTON TX 77088 DAVIDSON ST TR 30B BLK 40 HIGHLAND HEIGHTS ANNEX SEC 6",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0610050400046",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 112698.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0610050400046",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-232940 | 06/12/2026 | W/D | Grantor: MATHIS JASON L Grantee: MATHIS DEBORAH | Desc: MONTGOMERYTERRACE Lot: 308-309 Block: 12",
+        "RP-2026-190267 | 05/15/2026 | AMEND | Grantor: MATHIS LEO MANN EST Grantee: MATHIS DEBORAH Grantee: MATHIS JASON | Comment: SEE INSTRUMENT",
+        "RP-2023-470740 | 12/14/2023 | ORDER | Grantor: CITY OF HOUSTON Grantee: BREAUX ALBERT JR EST Grantee: BREAUX DONALD GEORGE Grantee: BREAUX HOMER LEE EST Grantee: BREAUX JAMES CALVIN EST Grantee: BREAUX SIGNORA EST Grantee: BREAUX SIGNORA FULLER EST Grantee: CURVEY ANNIE MARIE BREAUX EST Grantee: FLEM GARY LESLIE Grantee: FLEM GLENAE RACHELLE Grantee: GABRIEL EDNA JEAN BREAUX EST Grantee: MATHIS DEBORAH MANETTE BREAUX Grantee: PHILLIPS SIGNORA ELAINE BREAUX EST Grantee: PHLEGM BENNIE RUTH BREAUX | Desc: HIGHLAND HEIGHTS ANNEX Sec: 6 Lot: 23 Block: 40",
+        "RP-2023-436239 | 11/15/2023 | NOTICE | Grantor: CITY OF HOUSTON Grantee: BREAUX ALBERT JR EST Grantee: BREAUX DONALD GEORGE Grantee: BREAUX HOMER LEE EST Grantee: BREAUX JAMES CALVIN EST Grantee: BREAUX SIGNORA EST Grantee: BREAUX SIGNORA FULLER EST Grantee: CURVEY ANNLE MARIE BREAUX EST Grantee: FLEM GARY LESLIE Grantee: FLEM GLENAE RACHELLE Grantee: GABRIEL EDNA JEAN BREAUX EST Grantee: MATHIS DEBORAH MANETTE BREAUX Grantee: PHLEGM BENNIE RUTH BREAUX | Desc: HIGHLAND HEIGHTS ANNEX Sec: 6 Lot: 23 Block: 40",
+        "RP-2018-351570 | 08/02/2018 | DEED | Grantor: MAXWELL JILL E Grantor: MAXWELL LANCE W Grantee: MATHIS DEBORAH | Desc: SIDONIE ULRICH AKA COTTAGE GROVE",
+        "RP-2018-351569 | 08/02/2018 | W/D | Grantor: MAXWELL JILL E Grantor: MAXWELL LANCE W Grantee: MATHIS DEBORAH | Desc: SIDONIE ULRICH SUBDIVISION/COTTAGE GROVE"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MATHIS DEBORAH')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-232939 | 06/12/2026 | AFFT | Grantor: BRISTO TASHA Grantor: GUICE SIDNEY Grantor: MATHIS DEBORAH Grantee: MATHIS LEO MANN EST | Comment: SEE INSTRUMENT",
+        "RP-2023-64810 | 02/27/2023 | AFFT | Grantor: BROOKS CAROLYN E Grantor: BROOKS GERRIDENE Grantor: MATHIS DEBORAH MANETTE Grantee: BREAUX ALBERT SR EST Grantee: BREAUX HOMER LEE EST Grantee: CURVEY ANNIE MARIE EST Grantee: FLEM GLENDA RAYE EST Grantee: GABRIEL EDNA JEAN EST Grantee: PHILLIPS SIGNORA ELAINE EST | Desc: HIGHLAND HEIGHTS Sec: 6 Block: 40",
+        "RP-2023-177803 | 05/16/2023 | AMEND | Grantor: BROOKS CAROLYN E Grantor: BROOKS GERRIDENE Grantor: MATHIS DEBORAH MANETTE Grantee: BREAUX ALBERT JR EST Grantee: BREAUX ALBERT SR EST Grantee: BREAUX HOMER LEE EST Grantee: BREAUX JAMES CALVIN EST Grantee: CURVEY ANNIE MARIE EST Grantee: FLEM GLENDA RAYE EST Grantee: GABRIEL EDNA JEAN EST Grantee: PHILLIPS SIGNORA ELAINE EST | Desc: HIGHLAND HEIGHTS ANNEX Sec: 6",
+        "RP-2022-519261 | 10/21/2022 | W/D | Grantor: MATHIS DEBORAH GAY EST Grantor: PERTERSON AMY JOLAINE Grantee: GRFIS1L LLC | Desc: JACKSON H Abstract: 37 Comment: 0.0450",
+        "RP-2022-519260 | 10/21/2022 | PROB | Grantor: MATHIS DEBORAH GAY EST Grantee: MATHIS BRADLEY Grantee: MAXWELL CLINTON Grantee: MAXWELL LANCE Grantee: PETERSON AMY | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MATHIS DEBORAH')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "W/D": 3,
+        "AMEND": 2,
+        "ORDER": 1,
+        "NOTICE": 1,
+        "DEED": 1,
+        "AFFT": 2,
+        "PROB": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MATHIS DEBORAH')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "6 instruments as grantee, 5 as grantor (index, name 'MATHIS DEBORAH')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MATHIS DEBORAH')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202254663",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "01/24/2025",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2027-01-24: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202254663 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de MATHIS DEBORAH B ET AL (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 122611.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 62163.78,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 9853.49,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 62163.78,
+        "impuestos_que_hereda": 8268.82,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 1864.91,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 76297.51,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 83320.37,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.607,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $83,320 >= cierre esperado $62,164. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 83320.37,
+    "all_in_cost_estimate": 76297.51,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "property_id": "harris-2026-11-acct-0450040000275",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "0 WAYSIDE DR HOUSTON 77028",
+  "account_no": "0450040000275",
+  "cause_no": "202320291",
+  "intake": {
+    "opening_bid": {
+      "value": 49384.65,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 3; tipo SALE; sale# 6; sentencia 05/08/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "0 WAYSIDE DR, HOUSTON, 77028",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "CAREFREE MANAGEMENT LLC (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "9337 B KATY FWY # 328, HOUSTON, TX, 77024-1515",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "C2",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "28112",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.6454",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "281120",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "281120",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "281120",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Land Neighborhood Section 1 28112.0000xSF $281120",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "03/02/2004 2004-Y205262 | 06/17/2009 2009-0268927",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "TR 40 ABST 700 J L STANLEY",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "06/17/2009",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.285876,
+        "lat": 29.827468
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0450040000275)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 25059,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0450040000275)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~45 x 617 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0450040000275)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2021,
+          "tax": 2620.79,
+          "penalties_interest": 1808.36,
+          "collection_penalty": 830.12,
+          "total": 5259.27
+        },
+        {
+          "year": 2022,
+          "tax": 6189.94,
+          "penalties_interest": 3528.27,
+          "collection_penalty": 1825.46,
+          "total": 11543.67
+        },
+        {
+          "year": 2023,
+          "tax": 5664.04,
+          "penalties_interest": 2548.81,
+          "collection_penalty": 1533.52,
+          "total": 9746.37
+        },
+        {
+          "year": 2024,
+          "tax": 5882.04,
+          "penalties_interest": 1941.08,
+          "collection_penalty": 1450.82,
+          "total": 9273.94
+        },
+        {
+          "year": 2025,
+          "tax": 5974.42,
+          "penalties_interest": 1254.64,
+          "collection_penalty": 1338.86,
+          "total": 8567.92
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0450040000275",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 44391.17,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0450040000275",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2021,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0450040000275",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 30563.98,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0450040000275",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 5974.42,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0450040000275",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 36538.4,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0450040000275",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "CAREFREE MANAGEMENT LLC 9337 B KATY FWY # 328 HOUSTON TX 77024 WAYSIDE DR TR 40 ABST 700 J L STANLEY",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0450040000275",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 281120.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0450040000275",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2023-168059 | 05/09/2023 | REL | Grantor: DOCS TRADING POST LLC Grantee: CAREFREE MANAGEMENT LLC Grantee: SOHL GLENN | Comment: SEE INSTRUMENT",
+        "RP-2019-407886 | 09/13/2019 | REL | Grantor: CROFFIE BRANDI J Grantor: CT OF TIMBER LANE COMMUNITY IMPROVEMENT ASSOCIATION INC Grantee: CAREFREE MANAGEMENT LLC Grantee: NEPH INDUSTRIES INC Grantee: SOHL GLEN | Comment: SEE INSTRUMENT",
+        "RP-2017-78667 | 02/24/2017 | LIEN | Grantor: CITY OF HOUSTON Grantee: CAREFREE MANAGEMENT LLC | Desc: SUNNYSIDE EXTENSION SOUTH Lot: 8 Block: L",
+        "RP-2017-75427 | 02/22/2017 | NOTICE | Grantor: CITY OF HOUSTON Grantee: CAREFREE MANAGEMENT LLC | Desc: FOSTER PLACE Lot: 12 Block: 30",
+        "RP-2017-501501 | 11/15/2017 | LIEN | Grantor: CITY OF LA PORTE Grantee: 369 HOLDINGS LLC Grantee: ANDERSON CONNIE Grantee: ANDERSON JAMES F JR Grantee: BAYWAY HOMES INC Grantee: BRADSHAW RODNEY A Grantee: CALVERT CASSANDRA V Grantee: CAREFREE MANAGEMENT LLC Grantee: CITY OF LA PORTE Grantee: EXXON MOBIL PIPELINE COMPANY Grantee: FAIRMONT PARK CENTRAL HOMEOWNERS Grantee: GARZE CRISTOBAL L Grantee: GONZALEZ TEODORO Grantee: HEALTH & SAFETY MGMT INC Grantee: LA PORTE ISD Grantee: LEOPARD JASON A Grantee: LIBERTY PROPERTY LIMITED PARTNERSHIP Grantee: LONG JONATHAN Grantee: MARTINEZ TAMMIE L Grantee: MEDINA JOSE Grantee: MILLER DANIEL A Grantee: MORGAN DWIGHT R Grantee: PARSLEY ROBERT S Grantee: PEACETRAIN LLC SERIES B Grantee: PFIRMAN RICHARD L Grantee: RECTOR SUZAN G Grantee: STEELE DWAYNE Grantee: STRICKLAND BRAD Grantee: TAYLOR NAOMI S Grantee: TEJAS GAS CORP Grantee: TEXAN LAND AND CATTLE CO Grantee: UNITED MARITIME SERVICES INC Grantee: VENTAJA INVESTMENT GROUP LLC Grantee: VILLARREAL BLANCA Grantee: VILLARREAL JESUS Grantee: WALKER MILTON Grantee: WARWICK HOMES INC Grantee: WESTWELL BOONYISA Grantee: WESTWELL ROY | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-501499 | 11/15/2017 | LIEN | Grantor: CITY OF LA PORTE Grantee: 369 HOLDINGS LLC Grantee: AKHTAR MOBIN U Grantee: BAKER JESSIE M Grantee: CAREFREE MANAGEMENT LLC Grantee: CITY OF LA PORTE Grantee: DIAZ DIANA Grantee: DOLNEY FAMILY REVOCABLE LIVING TRUST Grantee: EXXON MOBIL PIPELINE COMPANY Grantee: EXXON PIPELINE 00555 Grantee: EXXON PIPELINE 00570 Grantee: EXXON PIPELINE 00625 Grantee: FLORES CESAR C Grantee: GIERING INVESTMENTS INC Grantee: GONZALEZ FRANCISCO R Grantee: GONZALEZ TEODORO Grantee: HEALTH & SAFETY MGMT INC Grantee: HINRICHSEN H E JR Grantee: KOLOFA LIDGE J EST Grantee: KOSS JAMES Grantee: LA PORTE ISD Grantee: LIBERTY PROPERTY LIMITED PARTNERSHIP Grantee: LONG JONATHAN Grantee: MARKS FRANCES M Grantee: MP HOMES LLC Grantee: NEW JOHN Grantee: PARSLEY ROBERT S Grantee: PFEIFFER MARZEE W EST Grantee: PFIRMAN RICHARD L Grantee: RECTOR SUZAN G Grantee: RUTHERFORD CONSTANCE Grantee: SAHARA GROUP LP Grantee: SANDOVAL ALBINO JR Grantee: SANDOVAL JAMIE J Grantee: STEELAND JOHNNY Grantee: STRICKLAND BRAD Grantee: TEXAN LAND AND CATTLE CO Grantee: THOMAS TRUDIE D Grantee: TONTOS PROPERTY LLC Grantee: VENTAJA INVESTMENT GROUP LLC Grantee: VR & SONS LP Grantee: WARWICK HOMES INC | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-399096 | 09/08/2017 | LIEN | Grantor: CITY OF HOUSTON Grantee: CAREFREE MANAGEMENT LLC | Desc: PELHAM PLACE SEC 2 Sec: 2 Lot: 390 Block: 13",
+        "RP-2017-114717 | 03/17/2017 | ORDER | Grantor: CITY OF HOUSTON Grantee: CAREFREE MANAGEMENT LLC | Desc: FOSTER PLACE Lot: 12 Block: 30",
+        "RP-2016-162089 | 04/20/2016 | LIEN | Grantor: COUNTRYSIDE VILLAGE HOMEOWNERS ASSOCIATION INC Grantee: CAREFREE MANAGEMENT LLC | Desc: INTERCONTINENTAL VILLAGE TOWNHOUSES Unit: 2",
+        "RP-2016-161432 | 04/19/2016 | LIEN | Grantor: CITY OF LA PORTE Grantee: ANDERSON CONNIE Grantee: ANDERSON JAMES F JR Grantee: ARAJ FARID I Grantee: BOOKER BARBARA Grantee: BOOKER JOE Grantee: CAREFREE MANAGEMENT LLC Grantee: CITY OF LA PORTE Grantee: DURDEN JOE REV Grantee: GARCIA JOSE ENRIQUE Grantee: JNJ OPERATIONS INC Grantee: KUCHINKE PETER Grantee: LA PORTE PROPERTIES INC Grantee: LAMB SHAMARIA Grantee: MALDONADO JORGE A Grantee: MANAGED MORTGAGE INV LP Grantee: MILES LORENZO Grantee: MILLER DANIEL Grantee: MNSF II ACQUISTITIONS LLC Grantee: PHU MARK Grantee: PLEASANT HILL BAPTIST CHURCH Grantee: RILEY CLIFTON Grantee: RILEY GEORGE Grantee: SANDOVAL ALBINO JR Grantee: SANDOVAL JAMIE J Grantee: SCOTT AGNESS EST Grantee: SHANLEY RYAN K Grantee: SRY VICHITTRA Grantee: STICKLAND BRAD Grantee: STICKLAND SUSAN Grantee: THOMAS TRUDIE D Grantee: VENTAJA INVESTMENT GROUP LLC Grantee: WALKER MILTON Grantee: WARWICK HOMES INC Grantee: YAZDANI AJWAD S | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CAREFREE MANAGEMENT')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2018-504133 | 11/05/2018 | DEED | Grantor: CAREFREE MANAGEMENT LLC Grantor: HARRIS COUNTY Grantor: WALKER MAY CONST Grantee: MY TEXAS REALTY LLC | Desc: SUNNYSIDE EXTENSION SOUTH Lot: 8 Block: L",
+        "RP-2018-462622 | 10/09/2018 | DEED | Grantor: CAREFREE MANAGEMENT LLC Grantor: HARRIS COUNTY Grantor: ROSEN ALAN CONST Grantor: SOHL GLENN Grantee: RENZO CLAUDIO DI | Desc: PELHAM PLACE Sec: 2 Lot: 390 Block: 13",
+        "RP-2017-419174 | 09/22/2017 | DEED | Grantor: CAREFREE MANAGEMENT LLC Grantor: CITY OF EL LAGO Grantor: CITY OF LA PORTE Grantor: CITY OF SHOREACRES Grantor: CLEAR CREEK INDEPENDENT SCHOOL DISTRICT Grantor: CT OF TIMBER LANE COMMUNITY IMPROVEMENT ASSOCIATION INC Grantor: DAVENPORT PAMELA J Grantor: DOC'S TRADING POST LLC Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: LA PORTE INDEPENDENT SCHOOL DISTRICT Grantor: PORT OF HOUSTON AUTHORITY OF HARRIS COUNTY Grantor: SAN JACINTO COMMUNITY COLLEGE DISTRICT Grantor: SANDLIN PHIL CONST Grantor: SHADY RIVER CIVIC ASSOCIATION Grantor: SOHL GLENN Grantee: REYES CELIA | Desc: LANDING Unit: 313",
+        "RP-2017-419173 | 09/22/2017 | DEED | Grantor: CAREFREE MANAGEMENT LLC Grantor: CITY OF EL LAGO Grantor: CITY OF LA PORTE Grantor: CITY OF SHOREACRES Grantor: CLEAR CREEK INDEPENDENT SCHOOL DISTRICT Grantor: CT OF TIMBER LANE COMMUNITY IMPROVEMENT ASSOCIATION INC Grantor: DAVENPORT PAMELA J Grantor: DOC'S TRADING POST LLC Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: LA PORTE INDEPENDENT SCHOOL DISTRICT Grantor: PORT OF HOUSTON AUTHORITY OF HARRIS COUNTY Grantor: SAN JACINTO COMMUNITY COLLEGE DISTRICT Grantor: SANDLIN PHIL CONST Grantor: SHADY RIVER CIVIC ASSOCIATION Grantor: SOHL GLENN Grantee: SHAFAII INVESTMENTS | Desc: SHOREACRES Lot: 16 Block: 48",
+        "RP-2017-419172 | 09/22/2017 | DEED | Grantor: CAREFREE MANAGEMENT LLC Grantor: CITY OF EL LAGO Grantor: CITY OF LA PORTE Grantor: CITY OF SHOREACRES Grantor: CLEAR CREEK INDEPENDENT SCHOOL DISTRICT Grantor: CT OF TIMBER LANE COMMUNITY IMPROVEMENT ASSOCIATION INC Grantor: DAVENPORT PAMELA J EST Grantor: DOC'S TRADING POST LLC Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: LA PORTE INDEPENDENT SCHOOL DISTRICT Grantor: PORT OF HOUSTON AUTHORITY OF HARRIS COUNTY Grantor: SAN JACINTO COMMUNITY COLLEGE DISTRICT Grantor: SANDLIN PHIL CONST Grantor: SHADY RIVER CIVIC ASSOCIATION Grantor: SOHL GLENN EST Grantee: JAEHNE KEITH | Desc: SHADY RIVER Sec: 2 Lot: 27 Block: 5 Tract: 2",
+        "RP-2017-419171 | 09/22/2017 | DEED | Grantor: CAREFREE MANAGEMENT LLC Grantor: CITY OF EL LAGO Grantor: CITY OF LA PORTE Grantor: CITY OF SHOREACRES Grantor: CLEAR CREEK INDEPENDENT SCHOOL DISTRICT Grantor: CT OF TIMBER LANE COMMUNITY IMPROVEMENT ASSOCIATION INC Grantor: DAVENPORT PAMELA J Grantor: DOC'S TRADING POST LLC Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: LA PORTE INDEPENDENT SCHOOL DISTRICT Grantor: SAN JACINTO COMMUNITY COLLEGE DISTRICT Grantor: SANDLIN PHIL CONST Grantor: SHADY RIVER CIVIC ASSOCIATION Grantor: SOHL GLENN Grantor: THE HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: THE PORT OF HOUSTON AUTHORITY OF HARRIS COUNTY Grantee: PAR 19 LLC | Desc: HARRIS WILLIAM P Lot: 2 Block: B Related Docs",
+        "RP-2017-253538 | 06/07/2017 | DEED | Grantor: CAREFREE MANAGEMENT LLC Grantor: COUNTRYSIDE VILLAGE HOMEOWNERS ASSOCIATION INC Grantor: CT OF TIMBER LANE COMMUNITY IMPROVEMENT ASSOCIATION INC Grantor: DAVENPORT PAMELA J Grantor: DOC'S TRADING POST LLC Grantor: HARRIS COUNTY Grantor: HERMAN MARK CONST Grantee: CORNELIUS MICHAEL | Desc: INTERCONTINENTAL VILLAGE TOWNHOUSES Unit: 2"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CAREFREE MANAGEMENT')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "REL": 2,
+        "LIEN": 6,
+        "NOTICE": 1,
+        "ORDER": 1,
+        "DEED": 7
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CAREFREE MANAGEMENT')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "10 instruments as grantee, 7 as grantor (index, name 'CAREFREE MANAGEMENT')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CAREFREE MANAGEMENT')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202320291",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "05/08/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-05-08: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202320291 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de CAREFREE MANAGEMENT LLC (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 281120.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 142527.84,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 53730.5,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 142527.84,
+        "impuestos_que_hereda": 36538.4,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 4275.84,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 187342.08,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 178987.96,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.501,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $178,988 >= cierre esperado $142,528. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 178987.96,
+    "all_in_cost_estimate": 187342.08,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
+  }
+}

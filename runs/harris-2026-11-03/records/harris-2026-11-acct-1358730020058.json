@@ -22,115 +22,115 @@
       "value": "7007 FLEWELLEN FALLS LN, SPRING, 77379",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_owner": {
       "value": "TALFORD MARK D & SHANTEL N (1.0000%)",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_mailing_address": {
       "value": "7007 FLEWELLEN FALLS LN, SPRING, TX, 77379-1437",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_state_class": {
       "value": "A1",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_land_sqft": {
       "value": "10269",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_acres": {
       "value": "0.2357",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_building_sqft": {
       "value": "4532",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_year_improved": {
       "value": "2015",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_land_value": {
       "value": "64269",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_building_value": {
       "value": "421574",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_market_value": {
       "value": "485843",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_prior_market_value": {
       "value": "511858",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_exemptions": {
       "value": "RES (Residential Homestead)",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_homestead_on_roll": {
       "value": "yes",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_land_detail": {
       "value": "Res Improved Table Value 6000.0000xSF $60000 | Res Improved Table Value 4269.0000xSF $4269",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_buildings": {
       "value": "Residential 5066sf built 2015",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_deeds_recorded": {
       "value": "09/15/2015 2022-RP-2022-504241",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_legal": {
       "value": "LT 58 BLK 2 TWIN FALLS SEC 4",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_owner_since": {
       "value": "09/15/2015",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     }
   }
 }

@@ -22,115 +22,115 @@
       "value": "15814 TWISTING SPRINGS DR, CYPRESS, 77433",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_owner": {
       "value": "ROBINSON NEVIN T & CRISTI LYNN (1.0000%)",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_mailing_address": {
       "value": "15814 TWISTING SPRINGS DR, CYPRESS, TX, 77433-5570",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_state_class": {
       "value": "A1",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_land_sqft": {
       "value": "13800",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_acres": {
       "value": "0.3168",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_building_sqft": {
       "value": "3719",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_year_improved": {
       "value": "1993",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_land_value": {
       "value": "108570",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_building_value": {
       "value": "466511",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_market_value": {
       "value": "590023",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_prior_market_value": {
       "value": "590023",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_exemptions": {
       "value": "RES (Residential Homestead)",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_homestead_on_roll": {
       "value": "yes",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_land_detail": {
       "value": "Res Improved Table Value 11300.0000xSF $106220 | Res Improved Table Value 2500.0000xSF $2350",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_buildings": {
       "value": "Residential 3811sf built 1993",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_deeds_recorded": {
       "value": "07/19/2010 2010-0312267 | 09/15/2015 2015-0424164",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_legal": {
       "value": "LT 4 BLK 6 FAIRFIELD CHAPPELL RIDGE SEC 4",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     },
     "hcad_owner_since": {
       "value": "09/15/2015",
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-13"
     }
   }
 }

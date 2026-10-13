@@ -77,7 +77,15 @@ def main(argv):
         except ValueError:
             pass
         sig.append("pendiente: impuestos que hereda, demandados/citacion (District Clerk login), PACER, ocupacion, comps")
+        tail = f(rec, "tax", "buyer_tax_tail_estimate")
+        tdue = f(rec, "tax", "total_due_all_years")
+        rv = rec.get("review") or {}
         rows.append({
+            "decision_previa": rv.get("decision", ""), "tipo_lote": "LOTE" if str(f(rec, "intake", "hcad_building_sqft") or "0") in ("0", "0.0") and str(f(rec, "intake", "hcad_state_class") or "").startswith(("C", "D", "E")) else "CASA/OTRO",
+            "impuestos_total_adeudado": tdue if tdue is not None else "", "impuestos_que_hereda_est": tail if tail is not None else "",
+            "cierre_esperado": max([x for x in (f(rec, "valuation", "expected_close_from_ratio"), f(rec, "valuation", "expected_close_from_premium")) if x] or [""]),
+            "techo_teorico": f(rec, "valuation", "bid_ceiling") if f(rec, "valuation", "bid_ceiling") is not None else "",
+            "razon": rv.get("rationale", ""),
             "account_no": acct, "direccion": rec.get("address", ""), "dueno_hcad": f(rec, "intake", "hcad_owner") or "",
             "dueno_desde": f(rec, "intake", "hcad_owner_since") or "", "clase": f(rec, "intake", "hcad_state_class") or "",
             "lote_sqft": f(rec, "intake", "hcad_land_sqft") or "", "construccion_sqft": f(rec, "intake", "hcad_building_sqft") or "",
@@ -87,7 +95,9 @@ def main(argv):
                 {t: stypes.count(t) for t in sorted(set(stypes))}, ensure_ascii=False), "tipos_clerk_nombre": json.dumps(
                 {t: types.count(t) for t in sorted(set(types))}, ensure_ascii=False),
             "señales": " | ".join(sig), "property_id": rec["property_id"]})
-    rows.sort(key=lambda r: (r["floodway"] == "yes", -(float(r["valor_hcad"]) if str(r["valor_hcad"]).replace(".", "").isdigit() else 0)))
+    order = ["CONDICIONAL", "SOLO CERCA DE LA APERTURA", "VIGILAR", "NO PARA DUPLEX", "BAJA", "DESCARTADA", ""]
+    rows.sort(key=lambda r: (order.index(r["decision_previa"]) if r["decision_previa"] in order else 9, r["tipo_lote"] != "LOTE",
+                             -(float(r["valor_hcad"]) if str(r["valor_hcad"]).replace(".", "").isdigit() else 0)))
     out = run / "analisis.csv"
     with out.open("w", newline="", encoding="utf-8-sig") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0]))

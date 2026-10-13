@@ -1,0 +1,556 @@
+{
+  "property_id": "harris-2026-11-acct-0680630170019",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "12129 TICONDEROGA RD HOUSTON 77044",
+  "account_no": "0680630170019",
+  "cause_no": "202475737",
+  "intake": {
+    "opening_bid": {
+      "value": 34714.68,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 3; tipo SALE; sale# 5; sentencia 05/27/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "12129 TICONDEROGA RD, HOUSTON, 77044",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "HERRERA MARTIN (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "7118 JOHN RALSTON RD, HOUSTON, TX, 77044-2622",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "54390",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "1.2486",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "3820",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1935",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "176768",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "179423",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "359006",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "413818",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 43560.0000xSF $141570 | Res Improved Table Value 10830.0000xSF $35198",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 2204sf built 1999 | Mobile Home/Manufactured Housing 1232sf built 1985 | Residential 1516sf built 1935 | Mobile Home/Manufactured Housing 540sf built 1970",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "09/28/2011 2011-0413753",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 19 & TR 20 BLK 17 HOUMONT PARK SEC 1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "09/28/2011",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.218445,
+        "lat": 29.846874
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0680630170019)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 64100,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0680630170019)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~108 x 607 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0680630170019)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2023,
+          "tax": 2094.56,
+          "penalties_interest": 942.55,
+          "collection_penalty": 510.68,
+          "total": 3547.79
+        },
+        {
+          "year": 2024,
+          "tax": 3252.23,
+          "penalties_interest": 1073.24,
+          "collection_penalty": 713.69,
+          "total": 5039.16
+        },
+        {
+          "year": 2025,
+          "tax": 3715.01,
+          "penalties_interest": 780.16,
+          "collection_penalty": 741.57,
+          "total": 5236.74
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0680630170019",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 13823.69,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0680630170019",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2023,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0680630170019",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 5039.16,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0680630170019",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 3715.01,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0680630170019",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 8754.17,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0680630170019",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "HERRERA MARTIN 7118 JOHN RALSTON RD HOUSTON TX 77044 12129 TICONDEROGA RD LT 19 & TR 20 BLK 17 HOUMONT PARK SEC 1",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0680630170019",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 413818.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0680630170019",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "SFJV-2003-1 LLC",
+        "RP-2025-41230 | 02/05/2025 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: NEWREZ LLC Grantor: NEWREZ MORTGAGE Grantee: HERRERA ANITA Grantee: HERRERA MARTIN E JR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-166069 | 05/02/2025 | W/D | Grantor: CONLEY TILTON I EST Grantor: COOKS LATANYA CONLEY Grantee: HERRERA ANGELA M Grantee: HERRERA MARTIN | Desc: ELENA FRUIT AND COTTON FARMS Block: 130 Unit: D",
+        "RP-2024-49747 | 02/13/2024 | A/J | Grantor: SHELDON INDEPENDENT SCHOOL DISTRICT Grantee: HERRERA MARTIN | Comment: SEE INSTRUMENT",
+        "RP-2023-413644 | 10/30/2023 | W/D | Grantor: HERRERA MARTIN MENDEZ Grantee: HERRERA MARTIN MENDEZ Grantee: MENDEZ SONIA FLORES | Desc: WOODFOREST Sec: 22 Lot: 35 Block: 71",
+        "RP-2022-551261 | 11/15/2022 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: NATIONSTAR MORTGAGE LLC Grantee: HERRERA ANDREA L Grantee: HERRERA MARTIN G | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-531293 | 10/31/2022 | W/D | Grantor: MARTINEZ JANETH HERRERA Grantor: PEREZ EUSEBIO JR Grantee: HERRERA MARTINEZ WHESLHOWDEETH WUOR | Desc: SOUTH END SUNNYSIDE Sec: 17 Lot: 21 Block: 7",
+        "RP-2022-50546 | 01/28/2022 | REL | Grantor: REMINGTON RANCH COMMUNITY ASSOCIATION INC Grantor: TOLLETT LUKE P Grantee: HERRERA MARTIN Grantee: HERRERA SANDRA | Desc: REMINGTON RANCH Sec: 12 Lot: 20 Block: 5 Related Docs",
+        "RP-2021-695179 | 12/06/2021 | REL | Grantor: DEUTSCHE BANK TRUST COMPANY AMERICAS TRE Grantor: PHH MORTGAGE CORPORATION Grantor: RESIDENTIAL ACCREDIT LOANS INC SERIES 2007-QS7 Grantee: HERRERA MARTIN Grantee: HERRERA SANDRA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-666621 | 11/19/2021 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: HERRERA MARTIN Grantee: HERRERA SANDRA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-664943 | 11/18/2021 | NOTICE | Grantor: HERRERA MARTIN FELIPE Grantor: HERRERA SANDRA RUTH Grantor: MCMILLIAN SHANDRIKA MONEE Grantee: HERRERA MARTIN FELIPE Grantee: HERRERA SANDRA RUTH Grantee: MCMILLIAN SHANDRIKA MONEE | Desc: REMINGTON RANCH Sec: 12 Lot: 20 Block: 5",
+        "RP-2021-572192 | 10/05/2021 | REL | Grantor: HICKS BEVERLY Grantee: HERRERA MARTIN CORTEZ Grantee: LOPEZ VERONICA ROMAN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-522451 | 09/13/2021 | A/J | Grantor: HARRIS COUNTY Grantee: HERRERA MARTIN RICHARD | Comment: SEE INSTRUMENT",
+        "RP-2021-407509 | 07/20/2021 | REL | Grantor: GREEN TREE SERVICING LLC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: HERRERA ANITA A Grantee: HERRERA MARTIN E JR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-368720 | 06/30/2021 | W/D | Grantor: HERRERA MARTIN E JR Grantee: HERRERA ANITA Grantee: HERRERA MARTIN E JR | Desc: WILLOWOOD Sec: 3 Lot: 30-31 Block: 12",
+        "RP-2021-337960 | 06/16/2021 | TRSALE | Grantor: REMINGTON RANCH COMMUNITY ASSOCIATION INC Grantor: TOLLETT LUKE P TRE Grantee: HERRERA MARTIN Grantee: HERRERA SANDRA | Desc: REMINGTON RANCH Sec: 12 Lot: 20 Block: 5 Related Docs",
+        "RP-2021-299486 | 05/28/2021 | NOTICE | Grantor: HERRERA MARIA GUADALUPE Grantor: HERRERA MARTIN Grantor: MARTINEZ ELEAZAR C Grantee: HERRERA MARIA GUADALUPE Grantee: HERRERA MARTIN Grantee: MARTINEZ ELEAZAR C | Desc: HOUMONT PARK Lot: 58-60 Block: 12",
+        "RP-2020-515391 | 10/26/2020 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: HERRERA MARTIN M Grantee: HERRERA RACHEL O Grantee: HERRERA RAQUEL O | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-499451 | 10/19/2020 | REL | Grantor: ABN AMRO MORTGAGE GROUP INC Grantor: CITIMORTGAGE INC Grantee: HERRERA MARTIN M Grantee: HERRERA RACHEL O | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-146016 | 04/02/2020 | NOTICE | Grantor: HERRERA MARTINEZ JOSE MIGUEL Grantor: TORRES VERDECIA MARCOS MAIKEL Grantee: HERRERA MARTINEZ JOSE MIGUEL Grantee: TORRES VERDECIA MARCOS MAIKEL | Desc: GLENCAIRN Sec: 4 Lot: 7 Block: 31 Related Docs",
+        "RP-2020-146015 | 04/02/2020 | NOTICE | Grantor: HERRERA MARTINEZ JOSE MIGUEL Grantor: TORRES VERDECIA MARCOS MAIKEL Grantee: HERRERA MARTINEZ JOSE MIGUEL Grantee: TORRES VERDECIA MARCOS MAIKEL | Desc: GLENCAIRN Sec: 4 Lot: 7 Block: 31",
+        "RP-2020-104794 | 03/06/2020 | REL | Grantor: HERRERA ANGELICA Grantee: HERRERA MARTIN | Comment: SEE INSTRUMENT",
+        "RP-2019-564208 | 12/20/2019 | DEED | Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY EMERGENCY SERVICE DISTRICT #11 Grantor: HARRIS COUNTY EMERGENCY SERVICE DISTRICT #7 Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HERMAN MARK CONST Grantor: HOLLIMAN CHARLIE Grantor: HOLLIMON ALBERTA W Grantor: HOLLIMON CHARLES Grantor: LONE STAR COLLEGE SYSTEM Grantor: PORT OF HOUSTON AUTHORITY OF HARRIS COUNTY Grantor: SPRING INDEPENDENT SCHOOL DISTRICT Grantor: TRUSTED LEGACY HOUSE BUYERS INC Grantor: WILLIAMS DEBORAH HOLLIMON Grantee: HERRERA MARTIN | Desc: FRITZ C W Abstract: 971 Comment: .43",
+        "RP-2019-402156 | 09/11/2019 | W/D | Grantor: NIX LUCI Grantor: NIX ROBERTO Grantee: HERRERA MARIA ELENA Grantee: HERRERA MARTIN | Desc: TWIN FALLS Sec: 2 Lot: 13 Block: 2 Related Docs",
+        "RP-2019-169666 | 04/26/2019 | REL | Grantor: NIX LUCI L Grantor: NIX ROBERTO Grantee: HERRERA MARIA ELENA Grantee: HERRERA MARTIN | Desc: OLE OAKS Sec: 2 Lot: 29 Block: 5",
+        "RP-2018-6015 | 01/04/2018 | W/D | Grantor: BEARD JASON PAUL Grantor: PINKHAM ELLEN MARIE EST Grantee: HERRERA MARTIN MENDEZ | Desc: WOODFOREST Sec: 22 Lot: 35 Block: 71",
+        "RP-2016-64967 | 02/17/2016 | LIEN | Grantor: REMINGTON RANCH COMMUNITY ASSOCIATION INC Grantee: HERRERA MARTIN Grantee: HERRERA SANDRA | Desc: REMINGTON RANCH Sec: 12 Lot: 20 Block: 5",
+        "RP-2016-455072 | 10/07/2016 | NOTICE | Grantor: ECHEVESTE RAMONA K Grantor: HERRERA GABRIELA M Grantor: HERRERA MARTIN Grantee: ECHEVESTE RAMONA K Grantee: HERRERA GABRIELA M Grantee: HERRERA MARTIN | Desc: GOSLING PINE Sec: 1 Lot: 21 Block: 1",
+        "RP-2016-455070 | 10/07/2016 | W/D | Grantor: ECHEVESTE RAMONA K Grantee: HERRERA GABRIELA M Grantee: HERRERA MARTIN E | Desc: GOSLING PINES Sec: 1 Lot: 21 Block: 1",
+        "RP-2016-180878 | 05/02/2016 | REL | Grantor: CAPITAL ONE Grantee: GONZALEZ MARTHA Grantee: HERRERA MARTIN G | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HERRERA MARTIN')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2025-433685 | 10/31/2025 | AFFT | Grantor: CARRENO FERNANDO Grantor: DE ODOM TERESA DE JESUS MOREIRA Grantor: HERRERA MARTIN ALFONSO Grantee: HERRERA BLANCA S | Desc: GLENCAIRN VILLAGE Lot: 8 Block: 5",
+        "RP-2025-28291 | 01/27/2025 | D/T | Grantor: HERRERA MARTIN Grantor: HERRERA MELANIE Grantor: HERRERA SANDRA Grantee: KIND LENDING LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: PATTERSON MICHAEL H | Desc: NORTHWOOD PINES Sec: 4 Lot: 3 Block: 1",
+        "RP-2025-28290 | 01/27/2025 | D/T | Grantor: HERRERA MARTIN Grantor: HERRERA MELANIE Grantor: HERRERA SANDRA Grantee: KIND LENDING LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: PATTERSON MICHAEL H | Desc: NORTHWOOD PINES Sec: 4 Lot: 3 Block: 1",
+        "RP-2025-22455 | 01/23/2025 | AFFT | Grantor: HERRERA ANITA Grantor: HERRERA MARTIN E JR Grantee: SEE INSTRUMENT | Desc: WILLOWOOD Sec: 3 Lot: 30-31 Block: 12 Related Docs",
+        "RP-2025-22454 | 01/23/2025 | D/T | Grantor: HERRERA ANITA Grantor: HERRERA MARTIN E JR Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: NEWREZ LLC Grantee: NEWREZ MORTGAGE Trustee: BLACK MANN & GRAHAM LLP | Desc: WILLOWOOD Sec: 3 Lot: 30-31 Block: 12 Related Docs",
+        "RP-2023-446737 | 11/27/2023 | W/D | Grantor: HERRERA MARTIN E Grantee: HERRERA GABRIELA M | Desc: GOSLING PINES Sec: 1 Lot: 21 Block: 1",
+        "RP-2023-413644 | 10/30/2023 | W/D | Grantor: HERRERA MARTIN MENDEZ Grantee: HERRERA MARTIN MENDEZ Grantee: MENDEZ SONIA FLORES | Desc: WOODFOREST Sec: 22 Lot: 35 Block: 71",
+        "RP-2021-664943 | 11/18/2021 | NOTICE | Grantor: HERRERA MARTIN FELIPE Grantor: HERRERA SANDRA RUTH Grantor: MCMILLIAN SHANDRIKA MONEE Grantee: HERRERA MARTIN FELIPE Grantee: HERRERA SANDRA RUTH Grantee: MCMILLIAN SHANDRIKA MONEE | Desc: REMINGTON RANCH Sec: 12 Lot: 20 Block: 5",
+        "RP-2021-664940 | 11/18/2021 | W/D | Grantor: HERRERA MARTIN Grantor: HERRERA SANDRA Grantee: MCMILLIAN SHANDRIKA MONEE | Desc: REMINGTON RANCH Sec: 12 Lot: 20 Block: 5",
+        "RP-2021-368722 | 06/30/2021 | AFFT | Grantor: HERRERA ANITA Grantor: HERRERA MARTIN E JR Grantee: SEE INSTRUMENT | Desc: WILLOWOOD Sec: 3 Lot: 30-31 Block: 12",
+        "RP-2021-368721 | 06/30/2021 | D/T | Grantor: HERRERA ANITA Grantor: HERRERA MARTIN E JR Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEM INC Grantee: NEWREZ LLC Grantee: NEWREZ MORTGAGE Trustee: PEIRSON CHRIS | Desc: WILLOWOOD Sec: 3 Lot: 30-31 Block: 12 Related Docs",
+        "RP-2021-368720 | 06/30/2021 | W/D | Grantor: HERRERA MARTIN E JR Grantee: HERRERA ANITA Grantee: HERRERA MARTIN E JR | Desc: WILLOWOOD Sec: 3 Lot: 30-31 Block: 12",
+        "RP-2021-299486 | 05/28/2021 | NOTICE | Grantor: HERRERA MARIA GUADALUPE Grantor: HERRERA MARTIN Grantor: MARTINEZ ELEAZAR C Grantee: HERRERA MARIA GUADALUPE Grantee: HERRERA MARTIN Grantee: MARTINEZ ELEAZAR C | Desc: HOUMONT PARK Lot: 58-60 Block: 12",
+        "RP-2021-299485 | 05/28/2021 | W/D | Grantor: HERRERA MARIA GUADALUPE Grantor: HERRERA MARTIN Grantee: MARTINEZ ELEAZAR C | Desc: HOUMONT PARK Lot: 58-60 Block: 12",
+        "RP-2020-146016 | 04/02/2020 | NOTICE | Grantor: HERRERA MARTINEZ JOSE MIGUEL Grantor: TORRES VERDECIA MARCOS MAIKEL Grantee: HERRERA MARTINEZ JOSE MIGUEL Grantee: TORRES VERDECIA MARCOS MAIKEL | Desc: GLENCAIRN Sec: 4 Lot: 7 Block: 31 Related Docs",
+        "RP-2020-146015 | 04/02/2020 | NOTICE | Grantor: HERRERA MARTINEZ JOSE MIGUEL Grantor: TORRES VERDECIA MARCOS MAIKEL Grantee: HERRERA MARTINEZ JOSE MIGUEL Grantee: TORRES VERDECIA MARCOS MAIKEL | Desc: GLENCAIRN Sec: 4 Lot: 7 Block: 31",
+        "RP-2019-402157 | 09/11/2019 | D/T | Grantor: HERRERA MARIA ELENA Grantor: HERRERA MARTIN Grantee: NIX LUCI Grantee: NIX ROBERTO Trustee: GOTSCHALL DAVID A | Desc: TWIN FALLS Sec: 2 Lot: 13 Block: 2",
+        "RP-2018-6016 | 01/04/2018 | D/T | Grantor: HERRERA MARTIN MENDEZ Grantee: LEADERONE FINANCIAL CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: KARLSENG BOB | Desc: WOODFOREST Sec: 22 Lot: 35 Block: 71",
+        "RP-2017-384724 | 08/25/2017 | D/T | Grantor: BARAJAS JESUS EDUARDO Grantor: CHAVEZ MARTIN HERRERA Grantor: HERRERA MARTIN Grantee: ALMARAZ DANIEL Trustee: HADDOX RONALD | Desc: R S STERLING SUBDIVISION Lot: 9",
+        "RP-2017-274642 | 06/20/2017 | AFFT | Grantor: HERRERA MARTIN Grantor: TAMEZ DANIEL Grantee: ESCOBAR JUANA M EST | Desc: MAGNOLIA PARK Sec: 2 Block: 273 Tract: 1A",
+        "RP-2016-455072 | 10/07/2016 | NOTICE | Grantor: ECHEVESTE RAMONA K Grantor: HERRERA GABRIELA M Grantor: HERRERA MARTIN Grantee: ECHEVESTE RAMONA K Grantee: HERRERA GABRIELA M Grantee: HERRERA MARTIN | Desc: GOSLING PINE Sec: 1 Lot: 21 Block: 1",
+        "RP-2016-455071 | 10/07/2016 | D/T | Grantor: HERRERA GABRIELA M Grantor: HERRERA MARTIN E Grantee: HOUSTONIAN MORTGAGE GROUP INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: VALBY SCOTT R | Desc: GOSLING PINES Sec: 1 Lot: 21 Block: 1"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HERRERA MARTIN')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "?": 1,
+        "REL": 12,
+        "W/D": 12,
+        "A/J": 2,
+        "NOTICE": 10,
+        "TRSALE": 1,
+        "DEED": 1,
+        "LIEN": 1,
+        "AFFT": 4,
+        "D/T": 8
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HERRERA MARTIN')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "30 instruments as grantee, 22 as grantor (index, name 'HERRERA MARTIN')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HERRERA MARTIN')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202475737",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "05/27/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-05-27: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202475737 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de HERRERA MARTIN (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 359006.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 182016.04,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 37769.57,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 182016.04,
+        "impuestos_que_hereda": 8754.17,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 5460.48,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 200230.69,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 266456.92,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.793,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $266,457 >= cierre esperado $182,016. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 266456.92,
+    "all_in_cost_estimate": 200230.69,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
+  }
+}

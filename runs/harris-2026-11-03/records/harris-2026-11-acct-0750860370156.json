@@ -1,0 +1,620 @@
+{
+  "property_id": "harris-2026-11-acct-0750860370156",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "13362 KNOLLCREST ST HOUSTON 77015",
+  "account_no": "0750860370156",
+  "cause_no": "202541422",
+  "intake": {
+    "opening_bid": {
+      "value": 16975.01,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 3; tipo SALE; sale# 8; sentencia 01/20/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "13362 KNOLLCREST ST, HOUSTON, 77015",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "GILBERT JOHN (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "13362 KNOLLCREST ST, HOUSTON, TX, 77015-4362",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "12960",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.2976",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "1390",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1948",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "83040",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "107483",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "190523",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "201700",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 7800.0000xSF $62400 | Res Improved Table Value 5160.0000xSF $20640",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 2170sf built 1948",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "09/25/2013 2014-0005477",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 1156 BLK 37 HOME OWNED ESTATES SEC 2",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "09/25/2013",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "AE + otras",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.188083,
+        "lat": 29.778733
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0750860370156)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 12474,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0750860370156)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~116 x 126 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0750860370156)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (0.2 PCT ANNUAL CHANCE FLOOD HAZARD)": 16.4,
+        "AE": 83.6
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 83.6,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2023,
+          "tax": 1724.32,
+          "penalties_interest": 775.95,
+          "collection_penalty": 444.33,
+          "total": 2944.6
+        },
+        {
+          "year": 2024,
+          "tax": 2126.94,
+          "penalties_interest": 701.88,
+          "collection_penalty": 498.66,
+          "total": 3327.48
+        },
+        {
+          "year": 2025,
+          "tax": 2657.62,
+          "penalties_interest": 551.79,
+          "collection_penalty": 559.13,
+          "total": 3768.54
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0750860370156",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 10040.62,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0750860370156",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2023,
+        2024
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0750860370156",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 3768.54,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0750860370156",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 2657.62,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0750860370156",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 6426.16,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0750860370156",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "GILBERT JOHN 13362 KNOLLCREST ST HOUSTON TX 77015 13362 KNOLLCREST ST LT 1156 BLK 37 HOME OWNED ESTATES SEC 2",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0750860370156",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 201700.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0750860370156",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202541422",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "01/20/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-01-20: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202541422 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de GILBERT JOHN (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 190523.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 96595.16,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 18468.81,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 96595.16,
+        "impuestos_que_hereda": 6426.16,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 2897.85,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 109919.17,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 137856.54,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.733,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "NO PARA DUPLEX",
+    "rationale": "Lote 12,474 sqft / 84% del predio en zona de inundacion especial (SFHA): heuristica contra la salida dúplex (no es un limite legal). Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 137856.54,
+    "all_in_cost_estimate": 109919.17,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-3480 | 01/05/2026 | NOTICE | Grantor: GILBERT JACLYN Grantor: GILBERT JOHNATHAN C Grantor: MCCARTHY ELIZABETH GARZA Grantor: RICHARD GARZA REVOCABLE TRUST Grantee: GILBERT JACLYN Grantee: GILBERT JOHNATHAN C Grantee: MCCARTHY ELIZABETH GARZA Grantee: RICHARD GARZA REVOCABLE TRUST | Desc: WILLOW TRACE Sec: 1 Lot: 62 Block: 2 Related Docs",
+        "RP-2026-3478 | 01/05/2026 | W/D | Grantor: MCCARTHY ELIZABETH GARZA Grantor: RICHARD GARZA REVOCABLE TRUST Grantee: GILBERT JOHNATHAN C | Desc: WILLOW TRACE Sec: 1 Lot: 62 Block: 2",
+        "RP-2026-182124 | 05/11/2026 | REL | Grantor: BBVA USA Grantor: COMPASS BANK Grantor: PNC BANK NATIONAL ASSOCIATION Grantee: GILBERT COLLEEN GILLIGAN Grantee: GILBERT JOHN R JR | Desc: LONGWOOD VILLAGE Sec: 4 Lot: 31 Block: 2 Related Docs",
+        "RP-2026-122956 | 04/01/2026 | DEED | Grantor: GILBERT JOHN P Grantor: GILBERT SUZANNE Grantee: GILBERT JOHN P Grantee: GILBERT MARC ANDREW Grantee: GILBERT SUZANNE | Desc: FALLS AT CHAMPION FOREST Sec: 1 Lot: 8 Block: 2",
+        "RP-2025-316608 | 08/12/2025 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: PREMIA MORTGAGE LLC Grantor: PREMIA RELOCATION MORTGAGE Grantee: GILBERT JOAN B Grantee: GILBERT JOHN R JR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-22565 | 01/23/2025 | L/P | Grantor: EASTPOINT SUBDIVISION HOMEOWNERS ASSOCIATION INC Grantee: GILBERT JOHN | Desc: EASTPOINT SUBDIVISION Sec: 3 Lot: 12 Block: 1",
+        "RP-2025-167998 | 05/05/2025 | REL | Grantor: EASTPOINT SUBDIVISION HOMEOWNERS ASSOCIATION Grantee: GILBERT JOHN | Desc: EASTPOINT SUBDIVISION Sec: 3 Lot: 12 Block: 1 Related Docs",
+        "RP-2025-167997 | 05/05/2025 | REL | Grantor: BARSALOU W AUSTIN Grantor: EASTPOINT SUBDIVISION HOMEOWNERS ASSOCIATION Grantee: GILBERT JOHN | Desc: EASTPOINT SUBDIVISION Sec: 3 Lot: 12 Block: 1 Related Docs",
+        "RP-2025-167996 | 05/05/2025 | REL | Grantor: BARSALOU W AUSTIN Grantor: EASTPOINT SUBDIVISION HOMEOWNERS ASSOCIATION Grantee: GILBERT JOHN | Desc: EASTPOINT SUBDIVISION Sec: 3 Lot: 12 Block: 1 Related Docs",
+        "RP-2024-343154 | 09/18/2024 | LIEN | Grantor: EASTPOINT SUBDIVISION HOMEOWNERS ASSOCIATION Grantee: GILBERT JOHN | Desc: EASTPOINT SUBDIVISION Sec: 3 Lot: 12 Block: 1 Related Docs",
+        "RP-2024-333838 | 09/11/2024 | LIEN | Grantor: ATTORNEY GENERAL OF TEXAS Grantor: ROBERTS BRIANA TAJEE DIAN Grantee: GILBERT JOHNATHAN JULIAN | Comment: SEE INSTRUMENT",
+        "RP-2024-158106 | 05/02/2024 | A/J | Grantor: MORGAN THOMAS H Grantee: 150 BEE STREET LLC Grantee: BELLA VISTA PARTNERSHIP Grantee: BOMASADA GROUP INC Grantee: BOMASADA INVESTMENT GROUP II LLC Grantee: FRED STUART L Grantee: GILBERT JOHN L Grantee: LAURALIS MANAGEMENT INC | Comment: SEE INSTRUMENT",
+        "RP-2024-107029 | 03/27/2024 | REL | Grantor: GRAYSON SHANNON Grantor: INFORMATION SYSTEMS AND NETWORKS CORPORATION Grantor: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Grantee: GILBERT JOHN DARYK Grantee: GILBERT KAMARLA SKAGGS | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-106918 | 03/27/2024 | REL | Grantor: NEWREZ LLC Grantor: SHELLPOINT MORTGAGE SERVICING Grantee: GILBERT JOHN DARYK Grantee: GILBERT KAMARLA SKAGGS | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-69108 | 02/28/2023 | LIEN | Grantor: ATTORNEY GENERAL OFFICE Grantor: COTTON STEPHANIE LAUREN Grantee: GILBERT JOHN WINSTON | Comment: SEE INSTRUMENT",
+        "RP-2023-419512 | 11/01/2023 | REL | Grantor: COMMUNITY RESOURCE CREDIT UNION Grantee: GILBERT JOHN A Grantee: GILBERT JULIE A | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-285496 | 07/31/2023 | W/D | Grantor: KELLEY JENTRY Grantor: LYNCH SHAWN Grantee: GILBERT JOHN WENDEL JR Grantee: UNDERWOOD KELLY | Desc: AVALON PLACE Lot: 4 Block: E Related Docs",
+        "RP-2023-171282 | 05/11/2023 | LIEN | Grantor: EASTPOINT SUBDIVISION HOMEOWNERS ASSOCIATION Grantee: GILBERT JOHN | Desc: EASTPOINT SUBDIVISION Sec: 3 Lot: 12 Block: 1 Related Docs",
+        "RP-2022-305161 | 06/13/2022 | W/D | Grantor: BOST AZUCENA Grantor: BOST THOMAS CARL II Grantee: GILBERT JOHN DARYK Grantee: GILBERT KAMARLA SKAGGS | Desc: GROVES Sec: 5 Lot: 6 Block: 3",
+        "RP-2022-258079 | 05/17/2022 | LIEN | Grantor: EASTPOINT SUBDIVISION HOMEOWNERS ASSOCIATION Grantee: GILBERT JOHN | Desc: EASTPOINT SUBDIVISION Sec: 3 Lot: 12 Block: 1 Related Docs",
+        "RP-2022-164784 | 03/29/2022 | NOTICE | Grantor: GILBERT JOHN P Grantor: GILBERT SUZANNE Grantor: REED KERRY R Grantee: GILBERT JOHN P Grantee: GILBERT SUZANNE Grantee: REED KERRY R | Desc: MEMORIAL NORTHWEST ESTATES Sec: 1 Lot: 5 Block: 1",
+        "RP-2022-127669 | 03/09/2022 | QCD | Grantor: GILBERT JOHN N III Grantee: GILBERT JOHN N III | Desc: NORHILL ADDITION Lot: 6 Block: 15",
+        "RP-2022-112156 | 03/02/2022 | NOTICE | Grantor: GILBERT JOHN P Grantor: GILBERT SUZANNE Grantor: MASON BENJAMIN H Grantor: MASON LAVONNE M Grantee: GILBERT JOHN P Grantee: GILBERT SUZANNE Grantee: MASON BENJAMIN H Grantee: MASON LAVONNE M | Desc: FALLS AT CHAMPION FOREST Sec: 1 Lot: 8 Block: 2",
+        "RP-2022-112154 | 03/02/2022 | W/D | Grantor: MASON BENJAMIN H Grantor: MASON LAVONNE M Grantee: GILBERT JOHN P Grantee: GILBERT SUZANNE | Desc: FALLS AT CHAMPION FOREST Sec: 1 Lot: 8 Block: 1",
+        "RP-2021-737325 | 12/28/2021 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: ROYAL UNITED MORTGAGE LLC Grantee: GILBERT JOHN F Grantee: GILBERT PENNY H | Desc: VILLAGE WEST Sec: 2 Lot: 86 Block: 2 Related Docs",
+        "RP-2021-727212 | 12/21/2021 | REL | Grantor: ARK-LA-TEX FINANCIAL SERVICES LLC Grantor: BENCHMARK MORTGAGE Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GILBERT JOHN Grantee: GILBERT SANDRA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-625183 | 10/29/2021 | D/T | Grantor: COHEN AMY G Grantor: COHEN JACOB D Grantee: GILBERT JOHN Grantee: GILBERT JULIE Trustee: KSS LAW PLLC | Desc: MORELAND COURT Block: 7 Related Docs",
+        "RP-2021-314967 | 06/07/2021 | REL | Grantor: BBVA USA Grantor: COMPASS BANK Grantee: GILBERT CARMELLA Grantee: GILBERT JOHN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-300151 | 06/01/2021 | W/D | Grantor: GILBERT CONNIE C Grantor: GILBERT JOHN D Grantee: DOUBLE CREEK REVOCABLE LIVING TRUST Grantee: GILBERT CONNIE CARYLON TRE Grantee: GILBERT JOHN DAVID TRE | Desc: LAKEWOOD OAKS ESTATES Sec: 1 Lot: 10 Block: 1",
+        "RP-2021-227212 | 04/27/2021 | NOTICE | Grantor: GILBERT CARMELLA Grantor: GILBERT JOHN Grantor: HOYLAND HEATHER JO Grantor: HOYLAND WESLEY HARRELL Grantee: GILBERT CARMELLA Grantee: GILBERT JOHN Grantee: HOYLAND HEATHER JO Grantee: HOYLAND WESLEY HARRELL | Desc: LEXINGTON WOODS Sec: 5 Lot: 7 Block: 22",
+        "RP-2021-227211 | 04/27/2021 | NOTICE | Grantor: GILBERT CARMELLA Grantor: GILBERT JOHN Grantor: HOYLAND HEATHER JO Grantor: HOYLAND WESLEY HARRELL Grantee: GILBERT CARMELLA Grantee: GILBERT JOHN Grantee: HOYLAND HEATHER JO Grantee: HOYLAND WESLEY HARRELL | Desc: LEXINGTON WOODS Sec: 5 Lot: 7 Block: 22 Related Docs",
+        "RP-2020-82912 | 02/24/2020 | A/J | Grantor: MUY HAMBURGER PARTNERS LLC Grantor: MUY PIZZA-TEJAS LLC Grantee: EKG CONSTRUCTION MANAGEMENT Grantee: GILBERT JOHN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-279957 | 06/29/2020 | REL | Grantor: ARK-LA-TEX FINANCIAL SERVICES LLC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: UNITED LENDING Grantee: GILBERT JOHN Grantee: GILBERT SANDRA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-204901 | 05/15/2020 | REL | Grantor: FBC MORTGAGE LLC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GILBERT JOHN DARYK Grantee: SMITH KAMARLA SKAGGS | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-540800 | 12/09/2019 | REL | Grantor: AMCAP MORTGAGE LTD Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GILBERT JOHNNY C | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-487708 | 11/04/2019 | NOTICE | Grantor: GILBERT CONNIE C Grantor: GILBERT JOHN D Grantor: LE VUI Grantor: LE YOUNG Grantee: GILBERT CONNIE C Grantee: GILBERT JOHN D Grantee: LE VUI Grantee: LE YOUNG | Desc: LAKEWOOD OAKS ESTATES Sec: 1 Lot: 10 Block: 1",
+        "RP-2019-487707 | 11/04/2019 | W/D | Grantor: LE VUI Grantor: LE YOUNG Grantee: GILBERT CONNIE C Grantee: GILBERT JOHN D | Desc: LAKEWOOD OAKS ESTATES Sec: 1 Lot: 10 Block: 1",
+        "RP-2019-286312 | 07/03/2019 | REL | Grantor: EASTPOINT SUBDIVISION HOMEOWNERS ASSOCIATION Grantee: GILBERT JOHN | Desc: EASTPOINT SUBDIVISION Sec: 3 Lot: 12 Block: 1 Related Docs",
+        "RP-2019-185867 | 05/06/2019 | LIEN | Grantor: EASTPOINT SUBDIVISION HOMEOWNERS ASSOCIATION Grantee: GILBERT JOHN | Desc: EASTPOINT SUBDIVISION Sec: 3 Lot: 12 Block: 1 Related Docs",
+        "RP-2019-164689 | 04/23/2019 | REL | Grantor: CITYWORTH MORTGAGE LLC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GILBERT JOHN Grantee: GILBERT MOLLY | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-65083 | 02/16/2018 | NOTICE | Grantor: DARLING HOMES OF TEXAS LLC Grantor: GILBERT JOHN DARYK Grantor: SMITH KAMARLA SKAGGS Grantee: DARLING HOMES OF TEXAS LLC Grantee: GILBERT JOHN DARYK Grantee: SMITH KAMARLA SKAGGS | Desc: GROVES Sec: 4 Lot: 19 Block: 2",
+        "RP-2018-65081 | 02/16/2018 | W/D | Grantor: DARLING HOMES OF TEXAS LLC Grantee: GILBERT JOHN DARYK Grantee: SMITH KAMARLA SKAGGS | Desc: GROVES Sec: 4 Lot: 19 Block: 2",
+        "RP-2018-394058 | 08/28/2018 | REL | Grantor: INTERNAL REVENUE SERVICE Grantee: GILBERT JOHNNY L | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-394050 | 08/28/2018 | REL | Grantor: INTERNAL REVENUE SERVICE Grantee: GILBERT JOHNNY L | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-368064 | 08/13/2018 | P/A | Grantor: GILBERT EDNA LUCILLE Grantee: GILBERT JOHN | Comment: SEE INSTRUMENT",
+        "RP-2018-322017 | 07/17/2018 | REL | Grantor: DAVIS CAMILLE TRE Grantor: GARDENS TRUST Grantee: GILBERT JOHN Grantee: GILBERT MOLLY | Desc: CANYON VILLAGE AT PARK LAKES Sec: 8 Lot: 12 Block: 5 Related Docs",
+        "RP-2018-311078 | 07/11/2018 | REL | Grantor: COMPASS BANK Grantor: FEDERAL DEPOSIT INSURANCE CORPORATION Grantor: GUARANTY BANK Grantor: GUARANTY FEDERAL BANK F S B Grantor: ROUNDPOINT MORTGAGE SERVICING CORPORATION Grantee: GILBERT JOHN E JR Grantee: GILBERT KIMBERLY D | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-105330 | 03/13/2018 | W/D | Grantor: GILBERT JOHN WENDEL SR Grantor: GILBERT MARY PATRICIA HARRIS EST Grantee: GILBERT JOHN WENDEL | Desc: FOUR-LEAF TOWERS Unit: 202",
+        "RP-2017-66154 | 02/15/2017 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GILBERT JOHN | Desc: HUNTERS COURT Block: 1 Related Docs",
+        "RP-2017-559373 | 12/21/2017 | REL | Grantor: CHASE HOME FINANCE LLC Grantor: CHASE MANHATTAN MORTGAGE CORPORATION Grantor: JPMORGAN CHASE BANK Grantee: GILBERT JOHN P Grantee: GILBERT SUZANNE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-48836 | 02/02/2017 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: NETWORK FUNDING L P Grantor: UNITED LENDING LLC Grantee: GILBERT JOHN Grantee: GILBERT SANDRA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-478789 | 10/31/2017 | NOTICE | Grantor: GILBERT JOHNNY C Grantor: RAVENNA HOMES LLC Grantee: GILBERT JOHNNY C Grantee: RAVENNA HOMES LLC | Desc: TOWNE LAKE Sec: 35 Lot: 20 Block: 3",
+        "RP-2017-478787 | 10/31/2017 | W/D | Grantor: RAVENNA HOMES LLC Grantee: GILBERT JOHNNY C | Desc: TOWNE LAKE Sec: 35 Lot: 20 Block: 3",
+        "RP-2017-378739 | 08/22/2017 | REL | Grantor: HOMETRUST MORTGAGE COMPANY Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GILBERT JOHN F Grantee: GILBERT STACI W | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-531272 | 11/28/2016 | REL | Grantor: JONES GAIL Grantor: JONES ROY Grantee: GILBERT JOHN Grantee: GILBERT TALINE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-531271 | 11/28/2016 | W/D | Grantor: JONES GAIL Grantor: JONES ROY Grantee: GILBERT JOHN Grantee: GILBERT TALINA | Comment: SEE INSTRUMENT",
+        "RP-2016-43997 | 02/02/2016 | W/D | Grantor: DAVIS CAMILLE Grantor: INDIAN GARDENS TRUST Grantee: GILBERT JOHN Grantee: GILBERT MOLLY | Desc: CANYON VILLAGE AT PARK LAKES Sec: 8 Lot: 12 Block: 5",
+        "RP-2016-407452 | 09/12/2016 | REL | Grantor: BANK ONE N A Grantor: JPMORGAN CHASE BANK N A Grantee: GILBERT JOHN F Grantee: GILBERT PENNY C Grantee: GILBERT PENNY H | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-360243 | 08/15/2016 | W/D | Grantor: CUFFLINK CAPITAL LLC Grantee: GILBERT JOHN W Grantee: TALLOW BRIAR-SUNSET HARBOR | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GILBERT JOHN')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-3480 | 01/05/2026 | NOTICE | Grantor: GILBERT JACLYN Grantor: GILBERT JOHNATHAN C Grantor: MCCARTHY ELIZABETH GARZA Grantor: RICHARD GARZA REVOCABLE TRUST Grantee: GILBERT JACLYN Grantee: GILBERT JOHNATHAN C Grantee: MCCARTHY ELIZABETH GARZA Grantee: RICHARD GARZA REVOCABLE TRUST | Desc: WILLOW TRACE Sec: 1 Lot: 62 Block: 2 Related Docs",
+        "RP-2026-3479 | 01/05/2026 | D/T | Grantor: GILBERT JACLYN Grantor: GILBERT JOHNATHAN C Grantee: CROSSCOUNTRY MORTGAGE LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK MANN AND GRAHAM LLP | Desc: WILLOW TRACE Sec: 1 Lot: 62 Block: 2",
+        "RP-2026-122956 | 04/01/2026 | DEED | Grantor: GILBERT JOHN P Grantor: GILBERT SUZANNE Grantee: GILBERT JOHN P Grantee: GILBERT MARC ANDREW Grantee: GILBERT SUZANNE | Desc: FALLS AT CHAMPION FOREST Sec: 1 Lot: 8 Block: 2",
+        "RP-2025-295965 | 07/29/2025 | W/D | Grantor: GILBERT JOAN B Grantor: GILBERT JOHN R JR Grantee: MILLER KEN E JR Grantee: MILLER MARIA ISABEL | Desc: ROYAL OAKS COUNTRY CLUB Sec: 1 Lot: 24 Block: 6",
+        "RP-2025-139309 | 04/16/2025 | W/D | Grantor: GILBERT JOHN Grantor: GILBERT TALINA Grantee: ESPINO IVANA Grantee: FRANCESCA IVANA Grantee: LOPEZ SERGIO ABUNDIZ | Desc: ALDINE GARDENS Lot: 183",
+        "RP-2024-90292 | 03/14/2024 | W/D | Grantor: GILBERT JOHN DARYK Grantor: GILBERT KAMARLA SKAGGS Grantee: BAKER ANDREW D Grantee: BAKER MELANIE ANN | Desc: GROVES Sec: 5 Lot: 6 Block: 3",
+        "RP-2024-451954 | 12/04/2024 | AFFT | Grantor: GILBERT JOHN A Grantor: GILBERT JULIA A Grantee: SEE INSTRUMENT | Desc: NEWPORT Sec: 1 Lot: 22 Block: 25",
+        "RP-2024-449779 | 12/03/2024 | D/T | Grantor: GILBERT JOHN A Grantor: GILBERT JULIA A Grantee: FROST BANK Trustee: GUARINO DAN J | Desc: NEWPORT Sec: 1 Lot: 22 Block: 25",
+        "RP-2024-38965 | 02/05/2024 | D/T | Grantor: GILBERT JOHN DARYK Grantor: GILBERT KAMARLA SKAGGS Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: MACKIE KELLER | Desc: GROVES Sec: 5 Lot: 6 Block: 3",
+        "RP-2023-391682 | 10/12/2023 | W/D | Grantor: GILBERT CARLIE EST Grantor: GILBERT JOHN EARL Grantee: ITZEP EFRAIN Grantee: MALDONADO REYNA GABRIELA | Desc: TANGLEBRIAR Sec: 1 Lot: 5 Block: 2",
+        "RP-2023-285497 | 07/31/2023 | D/T | Grantor: GILBERT JOHN WENDEL JR Grantor: UNDERWOOD KELLY Grantee: FAIRWAY INDEPENDENT MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: SORUM TINA | Desc: AVALON PLACE Lot: 4 Block: E Related Docs",
+        "RP-2022-95167 | 02/22/2022 | ASSGN | Grantor: CITY OF HOUSTON Grantor: GILBERT JOHN Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: PORT OF HOUSTON AUTHORITY Grantor: SAN JACINTO COLLEGE DISTRICT Grantee: FGMS HOLDINGS LLC | Desc: HOME OWNED ESTATES Sec: 2 Lot: 1156 Block: 37",
+        "RP-2022-9287 | 01/05/2022 | REL | Grantor: GILBERT JOHN Grantor: GILBERT JULIE Grantee: COHEN AMY G Grantee: COHEN JACOB D | Desc: MORELAND COURTS Block: 7 Related Docs",
+        "RP-2022-305162 | 06/13/2022 | D/T | Grantor: GILBERT JOHN DARYK Grantor: GILBERT KAMARLA SKAGGS Grantee: FBC MORTGAGE LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: MACKIE L KELLER | Desc: GROVES Sec: 5 Lot: 6 Block: 3 Related Docs",
+        "RP-2022-292274 | 06/03/2022 | MODIF | Grantor: ALCAZAR TRUDY Grantor: GILBERT JOHN Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: MOTIVE LENDING Grantee: NATIONS DIRECT MORTGAGE LLC | Desc: EASTPOINT SUBDIVISION Sec: 3 Lot: 12 Block: 1 Related Docs",
+        "RP-2022-19716 | 01/11/2022 | D/T | Grantor: ALCAZAR TRUDY Grantor: GILBERT JOHN Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT | Desc: EASTPOINT SUBDIVISION Sec: 3 Lot: 12 Block: 1",
+        "RP-2022-164784 | 03/29/2022 | NOTICE | Grantor: GILBERT JOHN P Grantor: GILBERT SUZANNE Grantor: REED KERRY R Grantee: GILBERT JOHN P Grantee: GILBERT SUZANNE Grantee: REED KERRY R | Desc: MEMORIAL NORTHWEST ESTATES Sec: 1 Lot: 5 Block: 1",
+        "RP-2022-164782 | 03/29/2022 | W/D | Grantor: GILBERT JOHN P Grantor: GILBERT SUZANNE Grantee: REED KERRY R | Desc: MEMORIAL NORTHWEST ESTATES Sec: 1 Lot: 5 Block: 1",
+        "RP-2022-127669 | 03/09/2022 | QCD | Grantor: GILBERT JOHN N III Grantee: GILBERT JOHN N III | Desc: NORHILL ADDITION Lot: 6 Block: 15",
+        "RP-2022-112156 | 03/02/2022 | NOTICE | Grantor: GILBERT JOHN P Grantor: GILBERT SUZANNE Grantor: MASON BENJAMIN H Grantor: MASON LAVONNE M Grantee: GILBERT JOHN P Grantee: GILBERT SUZANNE Grantee: MASON BENJAMIN H Grantee: MASON LAVONNE M | Desc: FALLS AT CHAMPION FOREST Sec: 1 Lot: 8 Block: 2",
+        "RP-2022-112155 | 03/02/2022 | D/T | Grantor: GILBERT JOHN P Grantor: GILBERT SUZANNE Grantee: AMEGY BANK Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: ZIONS BANCORPORATION N A Trustee: AMEGY BANK Trustee: ZIONS BANCORPORATION N A | Desc: FALLS AT CHAMPION FOREST Sec: 1 Lot: 8 Block: 1",
+        "RP-2021-72399 | 02/09/2021 | AFFT | Grantor: GILBERT JOHN Grantor: HARRIS MARSHENE Grantor: JOUBERT RONALD Grantee: JOUBERT FRANK EST Grantee: JOUBERT HELEN EST | Desc: KENTSHIRE PLACE Sec: 3 Lot: 503-504 Block: 22",
+        "RP-2021-712335 | 12/14/2021 | AFFT | Grantor: GILBERT JOHN F Grantor: GILBERT PENNY H Grantee: SEE INSTRUMENT | Desc: VILLAGE WEST Sec: 2 Lot: 86 Block: 2",
+        "RP-2021-712334 | 12/14/2021 | D/T | Grantor: GILBERT JOHN F Grantor: GILBERT PENNY H Grantee: JPMORGAN CHASE BANK N A Trustee: POLUNKSY ALLAN B | Desc: VILLAGE WEST Sec: 2 Lot: 86 Block: 2",
+        "RP-2021-693155 | 12/03/2021 | W/D | Grantor: GILBERT JOHN Grantor: GILBERT SANDRA Grantee: JAPHET JULI | Desc: HUNTERS COURT Lot: 4-5 Block: 1",
+        "RP-2021-300151 | 06/01/2021 | W/D | Grantor: GILBERT CONNIE C Grantor: GILBERT JOHN D Grantee: DOUBLE CREEK REVOCABLE LIVING TRUST Grantee: GILBERT CONNIE CARYLON TRE Grantee: GILBERT JOHN DAVID TRE | Desc: LAKEWOOD OAKS ESTATES Sec: 1 Lot: 10 Block: 1",
+        "RP-2021-227213 | 04/27/2021 | AFFT | Grantor: GILBERT JOHN Grantee: SEE INSTRUMENT | Desc: LEXINGTON WOODS Sec: 5 Lot: 7 Block: 22 Related Docs",
+        "RP-2021-227212 | 04/27/2021 | NOTICE | Grantor: GILBERT CARMELLA Grantor: GILBERT JOHN Grantor: HOYLAND HEATHER JO Grantor: HOYLAND WESLEY HARRELL Grantee: GILBERT CARMELLA Grantee: GILBERT JOHN Grantee: HOYLAND HEATHER JO Grantee: HOYLAND WESLEY HARRELL | Desc: LEXINGTON WOODS Sec: 5 Lot: 7 Block: 22",
+        "RP-2021-227211 | 04/27/2021 | NOTICE | Grantor: GILBERT CARMELLA Grantor: GILBERT JOHN Grantor: HOYLAND HEATHER JO Grantor: HOYLAND WESLEY HARRELL Grantee: GILBERT CARMELLA Grantee: GILBERT JOHN Grantee: HOYLAND HEATHER JO Grantee: HOYLAND WESLEY HARRELL | Desc: LEXINGTON WOODS Sec: 5 Lot: 7 Block: 22 Related Docs",
+        "RP-2021-227209 | 04/27/2021 | W/D | Grantor: GILBERT CARMELLA Grantor: GILBERT JOHN Grantee: HOYLAND HEATHER Grantee: HOYLAND WESLEY | Desc: LEXINGTON WOODS Sec: 5 Lot: 7 Block: 22",
+        "RP-2020-265058 | 06/19/2020 | AFFT | Grantor: ANDERSON KAREN E Grantor: GILBERT JOHN MICHAEL Grantor: GILBERT KAREN E Grantee: SEE INSTRUMENT | Desc: CYPRESS MILL PARK Sec: 1 Lot: 4 Block: 5",
+        "RP-2020-265057 | 06/19/2020 | AFFT | Grantor: ANDERSON KAREN E Grantor: GILBERT JOHN MICHAEL Grantor: GILBERT KAREN E Grantee: SEE INSTRUMENT | Desc: CYPRESS MILL PARK Sec: 1 Lot: 4 Block: 5",
+        "RP-2020-265056 | 06/19/2020 | D/T | Grantor: ANDERSON KAREN E Grantor: GILBERT JOHN MICHAEL Grantor: GILBERT KAREN E Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: QUICKEN LOANS LLC Trustee: MAGERS ANDREA K | Desc: CYPRESS MILL PARK Sec: 1 Lot: 4 Block: 5",
+        "RP-2020-255234 | 06/15/2020 | AFFT | Grantor: GILBERT JOHN Grantor: GILBERT SANDRA Grantee: SEE INSTRUMENT | Desc: HUNTERS COURT Lot: 4-5 Block: 1",
+        "RP-2020-255233 | 06/15/2020 | D/T | Grantor: GILBERT JOHN Grantor: GILBERT SANDRA Grantee: ARK-LA-TEX FINANCIAL SERVICES LLC Grantee: BENCHMARK MORTGAGE Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BURNS MICHAEL | Desc: HUNTERS COURT Lot: 4-5 Block: 1 Related Docs",
+        "RP-2020-252067 | 06/12/2020 | W/D | Grantor: ALCAZAR TRUDY Grantor: GILBERT JOHN Grantor: GILBERT TRUDY Grantee: AGUIRRE JESSICA | Desc: TERRELL VILLAGE Lot: 7",
+        "RP-2020-252066 | 06/12/2020 | P/A | Grantor: GILBERT JOHN Grantee: GILBERT TRUDY | Desc: TERRELL VILLAGE Lot: 7",
+        "RP-2020-178599 | 04/28/2020 | W/D | Grantor: GILBERT JOHN Grantor: GILBERT KAMARLA Grantee: BURKA ERIC | Desc: GROVES Sec: 4 Lot: 19 Block: 2",
+        "RP-2020-160821 | 04/14/2020 | AFFT | Grantor: GILBERT JOHN R JR Grantor: OLMSCHEID CONNER Grantor: OLMSCHEID CONNOR Grantor: OLMSCHEID KATHRYN PEEPLES Grantor: OLMSCHEID TRAVIS Grantee: OLMSCHEID JOSEPH F EST | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-535049 | 12/04/2019 | D/T | Grantor: GILBERT JOHNNY C Grantee: CALIBER HOME LOANS INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK THOMAS E JR | Desc: TOWNE LAKE Sec: 35 Lot: 20 Block: 3",
+        "RP-2019-487708 | 11/04/2019 | NOTICE | Grantor: GILBERT CONNIE C Grantor: GILBERT JOHN D Grantor: LE VUI Grantor: LE YOUNG Grantee: GILBERT CONNIE C Grantee: GILBERT JOHN D Grantee: LE VUI Grantee: LE YOUNG | Desc: LAKEWOOD OAKS ESTATES Sec: 1 Lot: 10 Block: 1",
+        "RP-2018-65083 | 02/16/2018 | NOTICE | Grantor: DARLING HOMES OF TEXAS LLC Grantor: GILBERT JOHN DARYK Grantor: SMITH KAMARLA SKAGGS Grantee: DARLING HOMES OF TEXAS LLC Grantee: GILBERT JOHN DARYK Grantee: SMITH KAMARLA SKAGGS | Desc: GROVES Sec: 4 Lot: 19 Block: 2",
+        "RP-2018-65082 | 02/16/2018 | D/T | Grantor: GILBERT JOHN DARYK Grantor: SMITH KAMARLA SKAGGS Grantee: FBC MORTGAGE LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: MACKIE L KELLER | Desc: GROVES Sec: 4 Lot: 19 Block: 2 Related Docs",
+        "RP-2018-421899 | 09/13/2018 | CONVEY | Grantor: GILBERT JOHN Grantee: SOUTH HOUSTON PRODUCTION | Desc: J D JONES SUBDIVISION Block: 24",
+        "RP-2018-368066 | 08/13/2018 | W/D | Grantor: GILBERT EDNA LUCILLE DUNLAP Grantor: GILBERT JOHN Grantee: 1230 GLOURIE DR LLC | Desc: HILLSHIRE MANORS Lot: 23 Block: 4",
+        "RP-2018-348595 | 08/01/2018 | W/D | Grantor: GILBERT JOHN Grantor: GILBERT MOLLY Grantee: ASTON TIFFANY TRE Grantee: INDIAN GARDENS TRUST | Desc: CANYON VILLAGE AT PARK LAKES Sec: 8 Lot: 12 Block: 5",
+        "RP-2018-105330 | 03/13/2018 | W/D | Grantor: GILBERT JOHN WENDEL SR Grantor: GILBERT MARY PATRICIA HARRIS EST Grantee: GILBERT JOHN WENDEL | Desc: FOUR-LEAF TOWERS Unit: 202",
+        "RP-2017-478789 | 10/31/2017 | NOTICE | Grantor: GILBERT JOHNNY C Grantor: RAVENNA HOMES LLC Grantee: GILBERT JOHNNY C Grantee: RAVENNA HOMES LLC | Desc: TOWNE LAKE Sec: 35 Lot: 20 Block: 3",
+        "RP-2017-478788 | 10/31/2017 | D/T | Grantor: GILBERT JOHNNY C Grantee: AMCAP MORTGAGE LTD Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: RAMIREZ RICHARD A | Desc: TOWNE LAKE Sec: 35 Lot: 20 Block: 3 Related Docs",
+        "RP-2017-351328 | 08/04/2017 | W/D | Grantor: GILBERT JOHN F Grantor: GILBERT STACI W Grantee: COORG ROHINI KUSUM | Desc: HYDE PARK LANDING Lot: 4 Block: 1",
+        "RP-2017-291976 | 06/30/2017 | ASSGN | Grantor: CITY OF HOUSTON Grantor: GILBERT JOHN Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: PORT OF HOUSTON AUTHORITY Grantor: SAN JACINTO COLLEGE DISTRICT Grantee: FGMS HOLDINGS LLC | Desc: HOME OWNED ESTATES Sec: 2 Lot: 1156 Block: 37",
+        "RP-2017-24065 | 01/18/2017 | D/T | Grantor: GILBERT JOHN Grantor: GILBERT SANDRA Grantee: ARK-LA-TEX FINANCIAL SERVICES LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: UNITED LENDING Trustee: BURNS MICHAEL | Desc: HUNTERS COURT Block: 1 Related Docs",
+        "RP-2016-450419 | 10/05/2016 | ASSGN | Grantor: CITY OF HOUSTON Grantor: GILBERT JOHN Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: PORT OF HOUSTON AUTHORITY Grantor: SAN JACINTO COLLEGE DISTRICT Grantee: FGMS HOLDINGS LLC | Desc: HOME OWNED ESTATES Sec: 2 Lot: 1156 Block: 37",
+        "RP-2016-43998 | 02/02/2016 | D/T | Grantor: GILBERT JOHN Grantor: GILBERT MOLLY Grantee: INDIAN GARDENS TRUST Trustee: DAVIS CAMILLE | Desc: CANYON VILLAGE AT PARK LAKES Sec: 8 Lot: 12 Block: 5 Related Docs",
+        "RP-2016-432544 | 09/26/2016 | D/T | Grantor: ALCAZAR TRUDY Grantor: GILBERT JOHN Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: NATIONS DIRECT MORTGAGE LLC Trustee: BURNS MICHAEL | Desc: EASTPOINT SUBDIVISION Sec: 3 Lot: 12 Block: 1 Related Docs",
+        "RP-2016-384445 | 08/29/2016 | AFFT | Grantor: GILBERT JOHN F Grantor: GILBERT PENNY H Grantee: SEE INSTRUMENT | Desc: VILLAGE WEST Sec: 2 Lot: 86 Block: 2",
+        "RP-2016-384444 | 08/29/2016 | D/T | Grantor: GILBERT JOHN F Grantor: GILBERT PENNY H Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: ROYAL UNITED MORTGAGE LLC Trustee: POLUNSKY ALLAN B | Desc: VILLAGE WEST Sec: 2 Lot: 86 Block: 2 Related Docs",
+        "RP-2016-302598 | 07/12/2016 | AFFT | Grantor: GILBERT JOHN Grantee: SEE INSTRUMENT | Desc: BENJAMIN Block: 1"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GILBERT JOHN')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "NOTICE": 16,
+        "W/D": 26,
+        "REL": 27,
+        "DEED": 2,
+        "L/P": 1,
+        "LIEN": 6,
+        "A/J": 2,
+        "QCD": 2,
+        "D/T": 18,
+        "P/A": 2,
+        "AFFT": 10,
+        "ASSGN": 3,
+        "MODIF": 1,
+        "CONVEY": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GILBERT JOHN')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "59 instruments as grantee, 58 as grantor (index, name 'GILBERT JOHN')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GILBERT JOHN')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  }
+}

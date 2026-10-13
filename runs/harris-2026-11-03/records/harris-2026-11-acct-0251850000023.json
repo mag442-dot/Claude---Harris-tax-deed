@@ -1,0 +1,590 @@
+{
+  "property_id": "harris-2026-11-acct-0251850000023",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "0 AVENUE L HOUSTON 77012",
+  "account_no": "0251850000023",
+  "cause_no": "202437583",
+  "intake": {
+    "opening_bid": {
+      "value": 14297.06,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 6; tipo SALE; sale# 1; sentencia 02/15/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "0 AVENUE L, HOUSTON, 77012",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "JIMENEZ VICTOR M & ANA (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "7102 AVENUE O, HOUSTON, TX, 77011-1526",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "C2",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "5000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1148",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "75000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "75000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "75000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Land Neighborhood Section 3 5000.0000xSF $75000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "03/14/2008 2008-0149556",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LTS 23 & 24 BLK 104 MAGNOLIA PARK SEC 2",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "03/14/2008",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.284857,
+        "lat": 29.738984
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0251850000023)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 5515,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0251850000023)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~55 x 102 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0251850000023)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2021,
+          "tax": 509.11,
+          "penalties_interest": 351.28,
+          "collection_penalty": 161.25,
+          "total": 1021.64
+        },
+        {
+          "year": 2022,
+          "tax": 1321.13,
+          "penalties_interest": 753.04,
+          "collection_penalty": 389.62,
+          "total": 2463.79
+        },
+        {
+          "year": 2023,
+          "tax": 1511.11,
+          "penalties_interest": 680.01,
+          "collection_penalty": 409.14,
+          "total": 2600.26
+        },
+        {
+          "year": 2024,
+          "tax": 1569.28,
+          "penalties_interest": 517.87,
+          "collection_penalty": 387.08,
+          "total": 2474.23
+        },
+        {
+          "year": 2025,
+          "tax": 1593.93,
+          "penalties_interest": 334.72,
+          "collection_penalty": 357.18,
+          "total": 2285.83
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0251850000023",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 10845.75,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0251850000023",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2021,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0251850000023",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 7538.28,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0251850000023",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 1593.93,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0251850000023",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 9132.21,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0251850000023",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "JIMENEZ VICTOR M & ANA 7102 AVENUE O HOUSTON TX 77011 AVENUE L LTS 23 & 24 BLK 104 MAGNOLIA PARK SEC 2",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0251850000023",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 75000.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0251850000023",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-227762 | 06/09/2026 | DEED | Grantor: TORTUGA PROPIEDADES LLC Grantee: JIMENEZ VICTOR MANUEL | Desc: FAUNA MOBILE ESTATES Sec: 1 Lot: 4 Related Docs",
+        "RP-2025-506058 | 12/24/2025 | NOTICE | Grantor: GOLDEN KIMBERLY Grantor: JIMENEZ VICTOR HUGO SEGURA Grantor: POZO GABRIELA KRUPSKAYA GUTIERREZ Grantor: TAYLOR MORRISON OF TEXAS INC Grantee: GOLDEN KIMBERLY Grantee: JIMENEZ VICTOR HUGO SEGURA Grantee: POZO GABRIELA KRUPSKAYA GUTIERREZ Grantee: TAYLOR MORRISON OF TEXAS INC | Desc: RABURN RESERVE Sec: 2 Lot: 23 Block: 1",
+        "RP-2025-506056 | 12/24/2025 | W/D | Grantor: TAYLOR MORRISON OF TEXAS INC Grantee: JIMENEZ VICTOR HUGO SEGURA Grantee: POZO GABRIELA KRUPSKAYA GUTIERREZ | Desc: REBURN RESERVE Sec: 2 Lot: 23 Block: 1",
+        "RP-2025-14520 | 01/14/2025 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: TEXAS STATE HOME LOANS INC Grantee: JIMENEZ OLGA Grantee: JIMENEZ VICTOR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-7320 | 01/08/2024 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: JIMENEZ MARTIN Grantee: JIMENEZ VICTORIA G | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-11465 | 01/11/2024 | REL | Grantor: DEUTSCHE BANK NATIONAL TRUST COMPANY TRE Grantor: GSAMP TRUST SERIES 2006-S1 Grantor: SELECT PORTFOLIO SERVICING INC Grantee: JIMENEZ MARTIN Grantee: JIMENEZ VICTORIA G | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-329035 | 08/28/2023 | NOTICE | Grantor: D R HORTON INC Grantor: D R HORTON-TEXAS LTD Grantor: JIMENEZ VICTORIA Grantee: D R HORTON INC Grantee: D R HORTON-TEXAS LTD Grantee: JIMENEZ VICTORIA | Desc: LEGACY PARK ON SPEARS ROAD NORTH Lot: 15 Block: 4",
+        "RP-2023-329034 | 08/28/2023 | NOTICE | Grantor: D.R. HORTON-TEXAS LTD Grantor: JIMENEZ VICTORIA Grantee: D.R. HORTON-TEXAS LTD Grantee: JIMENEZ VICTORIA | Desc: LEGACY PARK ON SPEARS ROAD NORTH Lot: 15 Block: 4",
+        "RP-2023-329031 | 08/28/2023 | W/D | Grantor: D.R. HORTON - TEXAS LTD Grantor: D.R. HORTON INC Grantee: JIMENEZ VICTORIA | Desc: LEGACY PARK ON SPEARS ROAD NORTH Lot: 15 Block: 4",
+        "RP-2023-327904 | 08/28/2023 | REL | Grantor: VANDERBILT MORTGAGE AND FINANCE INC Grantee: JIMENEZ VICTOR | Desc: STIMSON E Abstract: 702 Comment: 0.16529 Related Docs",
+        "RP-2022-374736 | 07/21/2022 | LIEN | Grantor: ARCHER NOW LLC KATY Grantor: EAGLE RANCH WEST HOA KATY Grantor: GOODWIN & COMPANY Grantor: HAYS CLINT Grantee: JIMENEZ MARTIN Grantee: JIMENEZ VICTORIA | Desc: EAGLE RANCH WEST Sec: 2 Lot: 56 Block: 1",
+        "RP-2022-359375 | 07/12/2022 | NOTICE | Grantor: AGUILAR OSWALDO Grantor: DERAS CINTHIA DIANNA Grantor: JIMENEZ VICTOR Grantee: AGUILAR OSWALDO Grantee: DERAS CINTHIA DIANNA Grantee: JIMENEZ VICTOR | Desc: MAGNOLIA PARK Lot: 19-20 Block: 104 Related Docs",
+        "RP-2021-224049 | 04/26/2021 | REL | Grantor: EAGLE RANCH WEST HOMEOWNERS ASSOCIATION INC Grantor: HICKS NOELLE Grantee: JIMENEZ MARTIN Grantee: JIMENEZ VICTORIA G | Desc: EAGLE RANCH WEST Sec: 2 Lot: 56 Block: 1 Related Docs",
+        "RP-2021-20893 | 01/13/2021 | NOTICE | Grantor: GRANDA PEDRO DAMIAN Grantor: JIMENEZ VICTORIA GUILLERMO Grantor: PORTILLO JOSE JR Grantor: RUIZ MARIA Grantee: GRANDA PEDRO DAMIAN Grantee: JIMENEZ VICTORIA GUILLERMO Grantee: PORTILLO JOSE JR Grantee: RUIZ MARIA | Desc: GREENGATE PLACE Sec: 4 Lot: 14 Block: 26",
+        "RP-2021-189660 | 04/09/2021 | L/P | Grantor: EAGLE RANCH WEST HOMEOWNERS ASSOCIATION INC Grantee: JIMENEZ MARTIN Grantee: JIMENEZ VICTORIA G | Desc: EAGLE RANCH WEST Sec: 2 Lot: 56 Block: 1 Related Docs",
+        "RP-2020-495212 | 10/15/2020 | A/J | Grantor: TARGET NATIONAL BANK Grantor: TD BANK USA N.A. Grantee: JIMENEZ VICTOR M | Comment: SEE INSTRUMENT",
+        "RP-2020-430977 | 09/14/2020 | NOTICE | Grantor: JIMENEZ VICTORIA SOL Grantor: LEAL JANET Grantee: JIMENEZ VICTORIA SOL Grantee: LEAL JANET | Desc: FOXWOOD Sec: 9 Lot: 4 Block: 4",
+        "RP-2020-430976 | 09/14/2020 | NOTICE | Grantor: JIMENEZ VICTORIA SOL Grantor: LEAL JANET Grantee: JIMENEZ VICTORIA SOL Grantee: LEAL JANET | Desc: FOXWOOD Sec: 9 Lot: 4 Block: 4",
+        "RP-2020-430974 | 09/14/2020 | W/D | Grantor: LEAL JANET Grantee: JIMENEZ VICTORIA SOL | Desc: FOXWOOD Sec: 9 Lot: 4 Block: 4",
+        "RP-2020-13879 | 01/10/2020 | A/J | Grantor: EAST END DISTRICT Grantor: HARRIS COUNTY Grantee: JIMENEZ VICTOR M | Comment: SEE INSTRUMENT",
+        "RP-2020-12975 | 01/10/2020 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: SIERRA PACIFIC MORTGAGE COMPANY INC Grantee: JIMENEZ ROSA Grantee: JIMENEZ VICTOR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-42777 | 02/01/2019 | REL | Grantor: NORTH ROBERT Grantor: NORTHWEST PARK MAINTENANCE ASSOCIATION INC Grantee: JIMENEZ VICTOR M | Desc: NORTHWEST PARK Sec: 4 Lot: 21 Block: 35 Related Docs",
+        "RP-2019-318605 | 07/24/2019 | W/D | Grantor: LONG LAKE LTD Grantee: CARDENAS RICARDO JIMENEZ Grantee: JIMENEZ VICTORIA MICHELLE | Desc: REMINGTON CREEK RANCH Sec: 4 Lot: 2 Block: 3",
+        "RP-2019-12976 | 01/10/2019 | W/D | Grantor: LOPEZ MARY O Grantor: LOPEZ PRIMITIVO Grantee: JIMENEZ VICTORIA ZAVALETA | Desc: TRINITY GARDENS Sec: 3 Lot: 1110 Block: 8 Related Docs",
+        "RP-2018-408888 | 09/05/2018 | REL | Grantor: AMEGY BANK Grantor: ZB NA Grantee: JIMENEZ VICTOR | Desc: CYPRESSWOOD POINT Sec: 2 Lot: 6 Block: 3 Related Docs",
+        "RP-2018-407876 | 09/05/2018 | REL | Grantor: RODRIGUEZ CARLOS Grantor: RODRIGUEZ JUANA Grantor: RODRIGUEZ JUANITA Grantee: JIMENEZ VICTOR Grantee: JIMENEZ VICTOR CHAN Grantee: ROSAS ISAURA Grantee: ROSAS ISAURA M | Desc: GRAND PARK ANNEX Lot: 19 Block: E",
+        "RP-2018-304991 | 07/06/2018 | REL | Grantor: M&T BANK Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: JIMENEZ CONCEPCION I Grantee: JIMENEZ VICTOR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-271957 | 06/19/2018 | W/D | Grantor: HERNANDEZ JOSE O Grantor: HERNANDEZ OSVALDO J Grantee: JIMENEZ VICTORIA ZAVALETA | Desc: REDWOOD ESTATES Lot: 6 Block: 2",
+        "RP-2018-160152 | 04/16/2018 | REL | Grantor: JPMORGAN CHASE BANK NA Grantee: JIMENEZ MARY GRACE Grantee: JIMENEZ VICTOR JULIE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-77501 | 02/23/2017 | FI STM | Grantor: OLD UNION FINANCIAL Grantee: JIMENEZ VICTOR | Desc: WESTBANK Block: 1",
+        "RP-2017-321842 | 07/19/2017 | REL | Grantor: CHASE HOME FINANCE LLC Grantor: CHASE MANHATTAN MORTGAGE CORPORATION Grantor: JPMORGAN CHASE BANK Grantee: JIMENEZ BARTOLA Grantee: JIMENEZ VICTOR M | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-11636 | 01/10/2017 | D/T | Grantor: LEAL JOSE LUIS Grantee: JIMENEZ ANA L Grantee: JIMENEZ VICTOR M Trustee: JIMENEZ ANA L Trustee: JIMENEZ VICTOR M | Desc: CENTRAL PARK Lot: 36-37 Block: 112",
+        "RP-2016-515546 | 11/16/2016 | REL | Grantor: PFS TAX LIEN TRUST 2014-1 Grantor: PROPEL FINANCIAL SERVICES LLC Grantee: JIMENEZ OLGA Grantee: JIMENEZ VICTOR | Desc: FOREST HILL ADDITION Lot: 521 Related Docs",
+        "RP-2016-389226 | 08/31/2016 | NOTICE | Grantor: JIMENEZ CRYSTAL Grantor: JIMENEZ VICTOR Grantor: K HOVNANIAN OF HOUSTON II LLC Grantee: JIMENEZ CRYSTAL Grantee: JIMENEZ VICTOR Grantee: K HOVNANIAN OF HOUSTON II LLC | Desc: KODIAK CROSSING Sec: 1 Lot: 30 Block: 1",
+        "RP-2016-389224 | 08/31/2016 | W/D | Grantor: K HOVNANIAN OF HOUSTON II LLC Grantee: JIMENEZ CRYSTAL L Grantee: JIMENEZ VICTOR M JR | Desc: KODIAK CROSSING Sec: 1 Lot: 30 Block: 1",
+        "RP-2016-327225 | 07/27/2016 | REL | Grantor: ARK-LA-TEX FINANCIAL SERVICES LLC Grantor: BENCHMARK MORTGAGE Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: JIMENEZ VICTORIA | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JIMENEZ VICTOR')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-227763 | 06/09/2026 | D/T | Grantor: JIMENEZ VICTOR MANUEL Grantee: TORTUGA PROPIEDADES LLC Trustee: SANCHEZ S | Desc: FAUNA MOBILE ESTATES Sec: 1 Lot: 4 Related Docs",
+        "RP-2025-506058 | 12/24/2025 | NOTICE | Grantor: GOLDEN KIMBERLY Grantor: JIMENEZ VICTOR HUGO SEGURA Grantor: POZO GABRIELA KRUPSKAYA GUTIERREZ Grantor: TAYLOR MORRISON OF TEXAS INC Grantee: GOLDEN KIMBERLY Grantee: JIMENEZ VICTOR HUGO SEGURA Grantee: POZO GABRIELA KRUPSKAYA GUTIERREZ Grantee: TAYLOR MORRISON OF TEXAS INC | Desc: RABURN RESERVE Sec: 2 Lot: 23 Block: 1",
+        "RP-2025-506057 | 12/24/2025 | D/T | Grantor: JIMENEZ VICTOR HUGO SEGURA Grantor: POZO GABRIELA KRUPSKAYA GUTIERREZ Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: TAYLOR MORRISON HOME FUNDING INC Trustee: BOLEN JOHN P | Desc: RABURN RESERVE Sec: 2 Lot: 23 Block: 1",
+        "RP-2025-370177 | 09/17/2025 | ASSGN | Grantor: EAST END DISTRICT Grantor: JIMENEZ VICTOR Grantee: FNA DZ LLC | Desc: MAGNOLIA PARK Sec: 2 Lot: 21-22 Block: 104 Related Docs",
+        "RP-2025-346935 | 09/02/2025 | ASSGN | Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON ISD Grantor: JIMENEZ VICTOR M Grantor: PORT OF HOUSTON AUTHORITY Grantee: FNA DZ LLC | Desc: MAGNOLIA PARK Sec: 2 Lot: 21-22 Block: 104 Related Docs",
+        "RP-2025-341801 | 08/28/2025 | DECREE | Grantor: JIMENEZ VICTOR PRIEGO Grantee: PRIEGO SANDRA ROSS PINEDA | Desc: SPRING CREAK VALLEY ESTATES Sec: 2 Lot: 1 Block: 18",
+        "RP-2025-296135 | 07/29/2025 | CONT | Grantor: JIMENEZ VICTOR Grantee: FNA DZ LLC | Desc: MAGNOLIA PARK Lot: 21-22 Related Docs",
+        "RP-2024-211229 | 06/11/2024 | FI STM | Grantor: JIMENEZ VICTORIA Grantee: ISPC | Desc: LEGACY PARK ON SPEARS ROAD NORTH Lot: 15 Block: 4",
+        "RP-2023-465184 | 12/11/2023 | W/D | Grantor: JIMENEZ MARTIN Grantor: JIMENEZ VICTORIA G Grantee: OFF MARKET LLC | Desc: EAGLE RANCH WEST Sec: 2 Lot: 56 Block: 1",
+        "RP-2023-329035 | 08/28/2023 | NOTICE | Grantor: D R HORTON INC Grantor: D R HORTON-TEXAS LTD Grantor: JIMENEZ VICTORIA Grantee: D R HORTON INC Grantee: D R HORTON-TEXAS LTD Grantee: JIMENEZ VICTORIA | Desc: LEGACY PARK ON SPEARS ROAD NORTH Lot: 15 Block: 4",
+        "RP-2023-329034 | 08/28/2023 | NOTICE | Grantor: D.R. HORTON-TEXAS LTD Grantor: JIMENEZ VICTORIA Grantee: D.R. HORTON-TEXAS LTD Grantee: JIMENEZ VICTORIA | Desc: LEGACY PARK ON SPEARS ROAD NORTH Lot: 15 Block: 4",
+        "RP-2023-329033 | 08/28/2023 | D/T | Grantor: JIMENEZ VICTORIA Grantor: SAMAYOA LUIS JIMENEZ Grantee: BANK OF NEW YORK MELLON TRUST COMPANY N A Grantee: TEXAS DEPARTMENT OF HOUSING AND COMMUNITY AFFAIRS Trustee: WILKINSON ROBERT | Desc: LEGACY PARK ON SPEARS ROAD NORTH Lot: 15 Block: 4",
+        "RP-2023-329032 | 08/28/2023 | D/T | Grantor: JIMENEZ VICTORIA Grantor: SAMAYOA LUIS JIMENEZ Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SWBC MORTGAGE CORP Trustee: KERSHNER EDWARD | Desc: LEGACY PARK ON SPEARS ROAD NORTH Lot: 15 Block: 4",
+        "RP-2023-112721 | 03/31/2023 | W/D | Grantor: AGUILERA VERONICA Grantor: HERNANDEZ PATRICIA MARIA Grantor: JIMENEZ VICTORIA MICHELLE Grantor: PEREZ GLORIA Grantor: SALAZAR CATALINA Grantor: SALAZAR GLORIA Grantee: AGUILERA CESAR JR | Desc: COLONIAL GARDENS Lot: 119 Block: 6",
+        "RP-2022-471968 | 09/20/2022 | D/T | Grantor: GUTIERREZ GABRIELA K Grantor: JIMENEZ VICTOR HUGO SEGURA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: WEICHERT FINANCIAL SERVICES CORP Trustee: HUNTER KARL V Trustee: KRAMER CHARLES E | Desc: GLEANNLOCH FARMS Sec: 5 Lot: 23 Block: 1",
+        "RP-2022-370861 | 07/19/2022 | REL | Grantor: JIMENEZ ANA L Grantor: JIMENEZ VICTOR M Grantee: LEAL JOSE LUIS | Desc: CENTRAL PARK Lot: 36-37 Block: 112",
+        "RP-2022-359375 | 07/12/2022 | NOTICE | Grantor: AGUILAR OSWALDO Grantor: DERAS CINTHIA DIANNA Grantor: JIMENEZ VICTOR Grantee: AGUILAR OSWALDO Grantee: DERAS CINTHIA DIANNA Grantee: JIMENEZ VICTOR | Desc: MAGNOLIA PARK Lot: 19-20 Block: 104 Related Docs",
+        "RP-2022-359374 | 07/12/2022 | W/D | Grantor: CORONA ELVA JIMENEZ Grantor: JIMENEZ ELVA Grantor: JIMENEZ RAUL ENRIQUE Grantor: JIMENEZ VICTOR MANUEL Grantor: JIMINEZ OLIVIA Grantor: VILLARREAL CARLOS FEDERICO Grantor: VILLARREAL STALINA EMMANUELLE Grantee: AGUILAR OSWALDO Grantee: DERAS CINTHIA DIANNA | Desc: MAGNOLIA PARK Lot: 19-20 Block: 104 Related Docs",
+        "RP-2021-68896 | 02/08/2021 | REL | Grantor: AMADOR MARIA Grantor: AMAYA KAREN Grantor: ARREDONDO JUAN C Grantor: BAIRIENTOS ROSEMARIE Grantor: BARRERA JUAN PABLO Grantor: BARRERA MARIA Grantor: BARRERA MINERVA Grantor: BARRIENTOS ARIEL Grantor: BARRIENTOS ROSEMARIE Grantor: BASAN RODOLFO Grantor: BASAN RODOLFO JR Grantor: BORGAS MARIA Grantor: BORGAS VICTOR Grantor: CANSECO FELIPE NARVAEZ Grantor: CANTU MARIA Grantor: CANTU RUDOLFO Grantor: CAO FRANCIS Grantor: CARRALES JUAN F Grantor: CARRALES OFELIA Grantor: CARRIZAL ENRIQUE Grantor: CARRIZAL ESMERALDA Grantor: CASTILLO JOSE Grantor: CASTILLO MARIA Grantor: CAUAZOR JOSE Grantor: CAUAZOR MYRNA Grantor: CAUDILLO JOHN Grantor: CAUDILLO ROY Grantor: CEDILLO JOSE Grantor: CERVANTES JESUS Grantor: CHAVEZ MARIA Grantor: CHIRINO ADA Grantor: CORPUS JOSE C CEDILLO Grantor: CORRALES JUAN F Grantor: CRUZ DIEGO G Grantor: CUELLAR JOSE Grantor: DE LA GARZA ANNIE Grantor: ESTRADA GILBERTO Grantor: FERNANDEZ TERESO Grantor: FLORES RAUL Grantor: FRANKLIN JAMEY D Grantor: GAMEZ MARINA I Grantor: GARZA ADRIAN Grantor: GARZA BLANCA Grantor: GARZA JUAN Grantor: GOMEZ JUAN Grantor: GOMEZ MAGDA MATA Grantor: GONZALEZ JOSE B Grantor: GONZALEZ JUAN M Grantor: GONZALEZ MARY LOUISE Grantor: GREGORIO GLENDA Grantor: GUTIERREZ ARTURO Grantor: GUTIERREZ MARIA I Grantor: GUTIERREZ RAFAEL Grantor: GUTIERREZ SABINA Grantor: HERRERA JOSEPHINE Grantor: HINCAPIE GUSTAVO Grantor: IBARRA ALINA Grantor: IBARRA MARIO Grantor: JASSO JUAN FRANCISCO Grantor: JIMENEZ NADYA B Grantor: JIMENEZ VICTOR F Grantor: LOPEZ DIANA Grantor: MALDONADO ARMANDO Grantor: MALDONADO IRMA Grantor: MALDONADO JULIO C Grantor: MALDONADO MARTIN Grantor: MARTINEZ DORA E Grantor: MARTINEZ JAVIER Grantor: MARTINEZ JOSE Grantor: MARTINEZ JUAN R Grantor: MARTINEZ LILIA Grantor: MARTINEZ SARA Grantor: MEDIANO ALFREDO Grantor: MENCHACA LUIS Grantor: MENCHACA MARIA Grantor: MONTEMAYOR EMERICO Grantor: MONTEMAYOR JOSEFINA Grantor: MOREIRA JOSE A Grantor: MOREIRA JOSE A JR Grantor: MOREIRA MARIBEL Grantor: MORENO EUSEBIO Grantor: MORENO MARIA VICTORIA Grantor: MUNIZ RICHARD Grantor: MUNIZ VIOLA MARIE Grantor: MURILLO DERMY A Grantor: NARVAEZ EVA T Grantor: NARVAEZ FELIPE Grantor: NARVAEZ FELIPE C Grantor: NAVA AMADO Grantor: NAVA MARY V Grantor: NAVARRO SANDRA Grantor: ORTIZ RICARDO Grantor: ORTIZ VALENTINA Grantor: OVALLE MANUEL A Grantor: OYERVIDEZ JOSE Grantor: OYERVIDEZ JOSE E Grantor: PATINO JESUS P Grantor: PESINA BALDOMERO Grantor: PESINA CONCEPCION Grantor: PRIMITIVO LARA Grantor: QUINTANILLA JESUS Grantor: RAMIREZ DARIO Grantor: RAMIREZ JOSIE Grantor: RIVERA ARMANDINA Grantor: RIVERA ARTURO Grantor: SANCHEZ AUDENCIA P Grantor: SAUCEDO JULIAN Grantor: SAUCEDO MARIA Grantor: SAUCEDO OSCAR Grantor: SILVA MARIA Grantor: SMITH CHERIE A Grantor: SOLORZONO CONSTANZA Grantor: SOLORZONO RODOLFO Grantor: SOTO ESTELLA Grantor: SOTO REYNALDO Grantor: TUDON CLAUDIA Grantor: TUDON CLAUDIA Y Grantor: VAGLIENTY ARTURO Grantor: VAGLIENTY MARIA Grantor: VILLAGRANA RUDOLPH Grantor: VILLAREAL MERCEDES Grantor: VILLARREAL ALEIDA GARZA Grantor: ZIMMERER PAUL Grantee: GUVERNA PROPERTIES L L C | Desc: WOODRIDGE Sec: 3 Lot: 39-42 Block: 12",
+        "RP-2021-439396 | 08/03/2021 | AFFT | Grantor: JIMENEZ ANA LUIS Grantor: JIMENEZ VICTOR MANUEL Grantor: RODRIGUEZ CARLOS Grantee: JIMENEZ ELVA EST Grantee: JIMENEZ MARIA DE LOS ANGELES EST Grantee: JIMENEZ RAUL GOMEZ EST | Desc: MAGNOLIA PARK Lot: 27-28 Block: 120",
+        "RP-2021-415184 | 07/22/2021 | AFFT | Grantor: JIMENEZ ANA LUIS Grantor: JIMENEZ VICTOR MANUEL Grantor: RODRIGUEZ CARLOS Grantee: DE LOS ANGELES JIMENEZ MARIA EST Grantee: JIMENEZ ELVA EST Grantee: JIMENEZ RAUL GOMEZ EST Grantee: VILLAREAL CARLOS FEDERICO EST Grantee: VILLAREAL STALINA EMMANULLE EST | Desc: MAGNOLIA PARK Lot: 27-28 Block: 120 Related Docs",
+        "RP-2021-415183 | 07/22/2021 | AFFT | Grantor: JIMENEZ ANA LUIS Grantor: JIMENEZ VICTOR MANUEL Grantor: RODRIGUEZ CARLOS Grantee: DE LOS ANGELES JIMENEZ MARIA EST | Desc: MAGNOLIA PARK Lot: 27-28 Block: 120 Related Docs",
+        "RP-2021-20893 | 01/13/2021 | NOTICE | Grantor: GRANDA PEDRO DAMIAN Grantor: JIMENEZ VICTORIA GUILLERMO Grantor: PORTILLO JOSE JR Grantor: RUIZ MARIA Grantee: GRANDA PEDRO DAMIAN Grantee: JIMENEZ VICTORIA GUILLERMO Grantee: PORTILLO JOSE JR Grantee: RUIZ MARIA | Desc: GREENGATE PLACE Sec: 4 Lot: 14 Block: 26",
+        "RP-2021-20891 | 01/13/2021 | W/D | Grantor: GRANDA PEDRO DAMIAN Grantor: JIMENEZ VICTORIA GUILLERMO Grantee: PORTILLO JOSE R JR | Desc: GREENGATE PLACE Sec: 4 Lot: 14 Block: 26",
+        "RP-2020-594937 | 12/04/2020 | MODIF | Grantor: JIMENEZ CRYSTAL L Grantor: JIMENEZ VICTOR M JR Grantee: MIDFIRST BANK | Desc: KODIAK CROSSING Sec: 1 Lot: 30 Block: 1 Related Docs",
+        "RP-2020-441721 | 09/18/2020 | W/D | Grantor: JIMENEZ VICTOR Grantor: RODRIGUEZ CELIA Grantee: RODRIGUEZ CELIA | Desc: BALDWIN AND FOSTER SUBDIVISION Lot: 5 Block: 1",
+        "RP-2020-430977 | 09/14/2020 | NOTICE | Grantor: JIMENEZ VICTORIA SOL Grantor: LEAL JANET Grantee: JIMENEZ VICTORIA SOL Grantee: LEAL JANET | Desc: FOXWOOD Sec: 9 Lot: 4 Block: 4",
+        "RP-2020-430976 | 09/14/2020 | NOTICE | Grantor: JIMENEZ VICTORIA SOL Grantor: LEAL JANET Grantee: JIMENEZ VICTORIA SOL Grantee: LEAL JANET | Desc: FOXWOOD Sec: 9 Lot: 4 Block: 4",
+        "RP-2020-430975 | 09/14/2020 | D/T | Grantor: JIMENEZ VICTORIA SOL Grantee: ACADEMY MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: FOXWOOD Sec: 9 Lot: 4 Block: 4",
+        "RP-2019-318606 | 07/24/2019 | D/T | Grantor: CARDENAS RICARDO JIMENEZ Grantor: JIMENEZ VICTORIA MICHELLE Grantee: INTERLINC MORTGAGE SERVICES LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: REMINGTON CREEK RANCH Sec: 4 Lot: 2 Block: 3",
+        "RP-2019-288439 | 07/05/2019 | MODIF | Grantor: JIMENEZ CRYSTAL L Grantor: JIMENEZ VICTOR M JR Grantee: MIDFIRST BANK | Desc: JODIAK CROSSING Sec: 1 Lot: 30 Block: 1 Related Docs",
+        "RP-2019-285981 | 07/03/2019 | D/T | Grantor: JIMENEZ CRYSTAL L Grantor: JIMENEZ VICTOR M JR Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: BARRETT DAFFIN FRAPPIER TURNER & ENGLE LLP | Desc: KODIAK CROSSING Sec: 1 Lot: 30 Block: 1 Related Docs",
+        "RP-2019-12975 | 01/10/2019 | D/T | Grantor: JIMENEZ VICTORIA ZAVALETA Grantee: LOPEZ MARY O Grantee: LOPEZ PRIMITIVO Trustee: DEFOYD JIM L | Desc: TRINITY GARDENS Sec: 3 Lot: 1110 Block: 8",
+        "RP-2018-265413 | 06/14/2018 | W/D | Grantor: JIMENEZ CONCEPCION Grantor: JIMENEZ VICTOR Grantee: BAHNFLETH GARY ALLEN Grantee: BAHNFLETH LIANNE ELISE | Desc: CYPRESSWOOD POINT Sec: 2 Lot: 6 Block: 3 Related Docs",
+        "RP-2017-88556 | 03/02/2017 | W/D | Grantor: JIMENEZ VICTOR J SR Grantee: JIMENEZ JUAN M Grantee: JIMENEZ VIKI M | Desc: NORCHESTER Sec: 3 Lot: 25 Block: 21",
+        "RP-2017-434654 | 10/03/2017 | AFFT | Grantor: JIMENEZ CONCEPCION Grantor: JIMENEZ VICTOR Grantee: SEE INSTRUMENT | Desc: CYPRESSWOOD POINT Sec: 2 Lot: 6 Block: 3",
+        "RP-2017-434653 | 10/03/2017 | D/T | Grantor: JIMENEZ CONCEPCION Grantor: JIMENEZ VICTOR Grantee: AMEGY BANK Grantee: ZB N A Trustee: MARSHALL GEORGE | Desc: CYPRESSWOOD POINT Sec: 2 Lot: 6 Block: 3 Related Docs",
+        "RP-2017-311767 | 07/12/2017 | AFFT | Grantor: JIMENEZ VICTOR MANUEL EST Grantee: LAZO DE JIMENEZ BARTOLA | Comment: SEE INSTRUMENT",
+        "RP-2017-11635 | 01/10/2017 | W/D | Grantor: JIMENEZ ANA L Grantor: JIMENEZ VICTOR M Grantee: LEAL JOSE LUIS | Desc: CENTRAL PARK Lot: 36-37 Block: 112",
+        "RP-2016-569036 | 12/20/2016 | FI STM | Grantor: JIMENEZ VICTOR M Grantee: CARMEL FINANCIAL CORP | Desc: CLAYTON GREENS Lot: 94 Block: 3 Related Docs",
+        "RP-2016-389226 | 08/31/2016 | NOTICE | Grantor: JIMENEZ CRYSTAL Grantor: JIMENEZ VICTOR Grantor: K HOVNANIAN OF HOUSTON II LLC Grantee: JIMENEZ CRYSTAL Grantee: JIMENEZ VICTOR Grantee: K HOVNANIAN OF HOUSTON II LLC | Desc: KODIAK CROSSING Sec: 1 Lot: 30 Block: 1",
+        "RP-2016-389225 | 08/31/2016 | D/T | Grantor: JIMENEZ CRYSTAL L Grantor: JIMENEZ VICTOR M JR Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: MORTGAGE FINANCIAL SERVICES LLC Trustee: LAW OFFICE OF CHRISTOPHER J SULLIVAN PLLC | Desc: KODIAK CROSSING Sec: 1 Lot: 30 Block: 1 Related Docs",
+        "RP-2016-367216 | 08/18/2016 | FI STM | Grantor: JIMENEZ VICTOR Grantee: OLD UNION FINANCIAL | Desc: WESTBANK Sec: 2 Block: 1",
+        "RP-2016-281347 | 06/29/2016 | D/T | Grantor: JIMENEZ VICTORIA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: PENNYMAC LOAN SERVICES LLC Trustee: MARCHLINSKI HEATHER | Desc: FALL CREEK Sec: 27 Lot: 42 Block: 1"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JIMENEZ VICTOR')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "DEED": 1,
+        "NOTICE": 16,
+        "W/D": 15,
+        "REL": 16,
+        "LIEN": 1,
+        "L/P": 1,
+        "A/J": 2,
+        "FI STM": 4,
+        "D/T": 13,
+        "ASSGN": 2,
+        "DECREE": 1,
+        "CONT": 1,
+        "AFFT": 5,
+        "MODIF": 2
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JIMENEZ VICTOR')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "36 instruments as grantee, 44 as grantor (index, name 'JIMENEZ VICTOR')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JIMENEZ VICTOR')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202437583",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "02/15/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-02-15: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202437583 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de JIMENEZ VICTOR M & ANA (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 75000.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 38025.0,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 15555.2,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 38025.0,
+        "impuestos_que_hereda": 9132.21,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 1140.75,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 52297.96,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 45502.71,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.434,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $45,503 >= cierre esperado $38,025. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien de mecanico. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 45502.71,
+    "all_in_cost_estimate": 52297.96,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
+  }
+}

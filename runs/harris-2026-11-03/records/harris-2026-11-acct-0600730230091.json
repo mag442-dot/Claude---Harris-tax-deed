@@ -1,0 +1,555 @@
+{
+  "property_id": "harris-2026-11-acct-0600730230091",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "3301 DE SOTO ST. HOUSTON 77091",
+  "account_no": "0600730230091",
+  "cause_no": "202104206",
+  "intake": {
+    "scout_notes": {
+      "value": "Precinct 1; tipo SALE; sale# 2; sentencia 03/13/2026; sin apertura publicada aun; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "3301 DE SOTO ST, HOUSTON, 77091",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "TAYLOR LEE V SR ET AL (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "1927 HAMPTON ST, HOUSTON, TX, 77088-4601",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "C1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "5726",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1315",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "73741",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "73741",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "73741",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Vacant Table Value 5000.0000xSF $68750 | Res Vacant Table Value 726.0000xSF $4991",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "TR 7C-1 BLK 23 HIGHLAND HEIGHTS ANNEX SEC 4",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "04/08/1998",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.456289,
+        "lat": 29.853097
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0600730230091)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 5737,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0600730230091)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~41 x 140 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0600730230091)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2021,
+          "tax": 112.96,
+          "penalties_interest": 77.96,
+          "collection_penalty": 33.68,
+          "total": 224.6
+        },
+        {
+          "year": 2022,
+          "tax": 557.56,
+          "penalties_interest": 317.81,
+          "collection_penalty": 155.17,
+          "total": 1030.54
+        },
+        {
+          "year": 2023,
+          "tax": 635.3,
+          "penalties_interest": 285.89,
+          "collection_penalty": 163.03,
+          "total": 1084.22
+        },
+        {
+          "year": 2024,
+          "tax": 911.07,
+          "penalties_interest": 300.66,
+          "collection_penalty": 212.5,
+          "total": 1424.23
+        },
+        {
+          "year": 2025,
+          "tax": 567.67,
+          "penalties_interest": 119.22,
+          "collection_penalty": 120.15,
+          "total": 807.04
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0600730230091",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 4570.63,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0600730230091",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0600730230091",
+      "retrieved_at": "2026-10-13",
+      "note": "el condado no lista los anios incluidos en la sentencia"
+    },
+    "post_judgment_taxes": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0600730230091",
+      "retrieved_at": "2026-10-13",
+      "note": "sin anios de sentencia no se puede separar"
+    },
+    "current_year_estimate": {
+      "value": 567.67,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0600730230091",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0600730230091",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "TAYLOR LEE V SR ET AL 1927 HAMPTON ST HOUSTON TX 77088 3301 DE SOTO ST TR 7C-1 BLK 23 HIGHLAND HEIGHTS ANNEX SEC 4",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0600730230091",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 73741.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0600730230091",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-363797 | 09/04/2026 | REL | Grantor: AMERISAVE MORTGAGE CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: TAYLOR LEEANN MICHELLE Grantee: TAYLOR WADE RYAN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-352249 | 08/28/2026 | NOTICE | Grantor: LOZANO GABRIEL Grantor: LOZANO LAUREN Grantor: TAYLOR LEEANN MICHELLE Grantor: TAYLOR WADE RYAN Grantee: LOZANO GABRIEL Grantee: LOZANO LAUREN Grantee: TAYLOR LEEANN MICHELLE Grantee: TAYLOR WADE RYAN | Desc: LAKES AT CREEKSIDE Sec: 1 Block: 4 Reserve: F Related Docs",
+        "RP-2026-24201 | 01/22/2026 | LIEN | Grantor: ATTORNEY GENERAL OFFICE Grantor: BAHAM AUDREAU CHRISTENAU Grantee: TAYLOR LEE TODD ASHTON | Comment: SEE INSTRUMENT",
+        "RP-2026-24200 | 01/22/2026 | LIEN | Grantor: ATTORNEY GENERAL OFFICE Grantor: WATKINS KYARA MONET Grantee: TAYLOR LEE TODD ASHTON | Comment: SEE INSTRUMENT",
+        "RP-2026-140068 | 04/13/2026 | DEED | Grantor: TAYLOR TANYA NAOMI Grantee: TAYLOR LEE HASSIE LEE Grantee: TAYLOR MOLLANDRO ANTOINE II Grantee: TAYLOR TANYA NAOMI | Desc: SAGEMONT PARK Sec: 1 Lot: 5-6 Block: 9",
+        "RP-2025-374735 | 09/22/2025 | AFFT | Grantor: PENRIGHT JENNIFER J Grantee: TAYLOR LEE RANSOM EST Grantee: TAYLOR LUVENIA EST Grantee: TAYLOR LUVENIA JELKS EST | Comment: SEE INSTRUMENT",
+        "RP-2024-44577 | 02/08/2024 | L AFFT | Grantor: FONTENOT AHSHA Grantee: DOUCETTE DEVELOPMENT CORP Grantee: TAYLOR LEE | Desc: REEDWOODS Lot: 3 Block: 8",
+        "RP-2024-429402 | 11/18/2024 | AFFT | Grantor: COLLINS LOIS Grantor: HICKS-LEWIS SHIRLEY Grantor: STEWART FRANCIS GREG Grantee: COTTON REGINALD EUGENE EST Grantee: MATLOCK GLORIA JEAN WILSON EST Grantee: MATLOCK KIMPER EST Grantee: TAYLOR LEE JANE EST Grantee: WILSON NOLAN EST | Desc: WASHINGTON TERRACE Lot: 7 Block: 8",
+        "RP-2023-468990 | 12/13/2023 | REL | Grantor: WACHOVIA BANK Grantor: WELLS FARGO BANK N A Grantee: TAYLOR LEE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-229817 | 06/21/2023 | AFFT | Grantor: COLLINS LOIS Grantor: HICKS-LEWIS SHIRLEY Grantor: STEWART FRANCIS GREG Grantee: COTTON REGINALD EUGENE EST Grantee: MATLOCK GLORIA JEAN WILSON EST Grantee: MATLOCK KIMPER EST Grantee: TAYLOR LEE JANE EST Grantee: WILSON NOLAN EST | Desc: WASHINGTON TERRACE Lot: 7 Block: 8",
+        "RP-2022-507876 | 10/14/2022 | REL | Grantor: HENDERSON PRECIOUS JANELLE Grantee: TAYLOR LEE A JR | Comment: SEE INSTRUMENT",
+        "RP-2021-535635 | 09/17/2021 | REL | Grantor: M/I FINANCIAL LLC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: TAYLOR LEEANN MICHELLE Grantee: TAYLOR WADE RYAN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-346632 | 08/03/2020 | AFFT | Grantor: DOUGLAS ANN Grantee: TAYLOR LEE ANN EST | Comment: SEE INSTRUMENT",
+        "RP-2020-346631 | 08/03/2020 | AFFT | Grantor: MANNING MARY Grantee: TAYLOR LEE ANN EST | Desc: CRESTMONT PARK Sec: 2 Lot: 27 Block: 17",
+        "RP-2018-70005 | 02/20/2018 | P/A | Grantor: TAYLOR LEO LEE Grantee: TAYLOR LEE OTIS | Comment: SEE INSTRUMENT",
+        "RP-2017-6768 | 01/05/2017 | L AFFT | Grantor: JOHN MOORE L P Grantee: TAYLOR LEE Grantee: TAYLOR RUTH | Desc: BROWNING Sec: 2 Lot: 237-238 Block: 11 Related Docs",
+        "RP-2017-553961 | 12/18/2017 | NOTICE | Grantor: M/I HOMES OF HOUSTON LLC Grantor: TAYLOR LEEANN MICHELLE Grantor: TAYLOR WADE Grantee: M/I HOMES OF HOUSTON LLC Grantee: TAYLOR LEEANN MICHELLE Grantee: TAYLOR WADE | Desc: LAKES AT CREEKSIDE Sec: 1 Lot: 29 Block: 4 Reserve: F",
+        "RP-2017-553959 | 12/18/2017 | W/D | Grantor: M/I HOMES OF HOUSTON LLC Grantee: TAYLOR LEEANN MICHELLE Grantee: TAYLOR WADE RYAN | Desc: LAKES AT CREEKSIDE Sec: 1 Block: 4 Related Docs",
+        "RP-2017-515366 | 11/22/2017 | REL | Grantor: FLAGSTAR BANK FSB Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: TAYLOR LEE J JR Grantee: TAYLOR RUTH | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-405809 | 09/14/2017 | W/D | Grantor: HOUSTON SHARONDA Grantee: TAYLOR LEE E | Desc: INDEPENDENCE HEIGHTS ANNEX Lot: 6 Block: 51",
+        "RP-2017-376320 | 08/21/2017 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: TAYLOR LEE J JR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-339813 | 07/31/2017 | REL | Grantor: WELLS FARGO BANK N A Grantor: WELLS FARGO HOME MORTGAGE INC Grantee: TAYLOR CHRISTEEN Grantee: TAYLOR LEE J JR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-306930 | 07/10/2017 | DECREE | Grantor: JETER RUTH ANN Grantor: TAYLOR LEE JOSEPH JR Grantor: TAYLOR RUTH ANN Grantee: JETER RUTH ANN Grantee: TAYLOR LEE JOSEPH JR Grantee: TAYLOR RUTH ANN | Desc: BROWING SUBDIVISION Sec: 2 Lot: 237-238 Block: 11",
+        "RP-2017-226842 | 05/23/2017 | REL | Grantor: JOHN MOORE L P Grantee: TAYLOR LEE Grantee: TAYLOR RUTH | Desc: BROWNING Sec: 2 Lot: 237-238 Block: 11 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'TAYLOR LEE')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-352249 | 08/28/2026 | NOTICE | Grantor: LOZANO GABRIEL Grantor: LOZANO LAUREN Grantor: TAYLOR LEEANN MICHELLE Grantor: TAYLOR WADE RYAN Grantee: LOZANO GABRIEL Grantee: LOZANO LAUREN Grantee: TAYLOR LEEANN MICHELLE Grantee: TAYLOR WADE RYAN | Desc: LAKES AT CREEKSIDE Sec: 1 Block: 4 Reserve: F Related Docs",
+        "RP-2026-352247 | 08/28/2026 | W/D | Grantor: TAYLOR LEEANN MICHELLE Grantor: TAYLOR WADE RYAN Grantee: LOZANO GABRIEL Grantee: LOZANO LAUREN | Desc: LAKES AT CREEKSIDE Sec: 1 Block: 4 Related Docs",
+        "RP-2025-425098 | 10/27/2025 | FI STM | Grantor: TAYLOR LEE Grantor: TAYLOR MELISSA Grantee: GOODLEAP LLC | Desc: SAGEMONT Sec: 7 Lot: 23 Block: 37",
+        "RP-2024-108523 | 03/28/2024 | D/T | Grantor: TAYLOR LEE Grantor: TAYLOR LEE E Grantee: CREDIT UNION OF TEXAS Trustee: POINTER V ERIC | Desc: INDEPENDENCE HEIGHTS Lot: 2-3 Block: 51",
+        "RP-2023-449305 | 11/28/2023 | W/D | Grantor: TAYLOR LEE Grantee: CHAVER RUDI GUSTAVO LOPEZ Grantee: DERAS SANDRA MAGDALY RIVERA | Desc: SUGAR VALLEY Lot: 17 Block: 11",
+        "RP-2023-26498 | 01/25/2023 | AFFT | Grantor: TAYLOR LEE E Grantee: HOUSTON SHARONDA | Desc: INDEPENDENCE HEIGHTS ANNEX Lot: 6 Block: 51 Related Docs",
+        "RP-2023-223547 | 06/16/2023 | DEED | Grantor: CROSBY INDEPENDENT SCHOOL DISTRICT Grantor: DOYLE BRYAN ARICK Grantor: DOYLE JENNIFER LYNETTE Grantor: EAGLETON SHERMAN CONST Grantor: FREEMAN LAVONYA MICHELLE Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY EMERGENCY SERVICE DISTRICT #5 Grantor: HARRIS COUNTY EMERGENCY SERVICE DISTRICT #80 Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: LAWSON ANGEL Grantor: PORT OF HOUSTON AUTHORITY Grantor: PUCKETT BILLY RAY Grantor: TAYLOR BRUCE LEE Grantor: TAYLOR LEE Grantor: TAYLOR LINDA NELL Grantor: TAYLOR RICKLEY LEE SR Grantor: TAYLOR RICKLY LEE JR Grantee: 2212 DUNLAVY LLC | Desc: TALL CEDARS Lot: 48-50 Related Docs",
+        "RP-2022-69727 | 02/08/2022 | AFFT | Grantor: GERHART BILLY GENE JR Grantor: GERHART LEE ANN Grantor: MCCABE STACEY Grantor: TAYLOR LEE ANN Grantee: K5 REAL ESTATE LLC | Desc: LAKE SHADOWS Sec: 2 Lot: 8 Block: 4",
+        "RP-2022-353336 | 07/08/2022 | DEED | Grantor: TAYLOR LEE A Grantee: JEFFERSON MARLA M Grantee: TYLER AVERY M Grantee: TYLER LEE A | Desc: SKYVIEW PARK Sec: 9 Lot: 26 Block: 1",
+        "RP-2021-96030 | 02/25/2021 | AFFT | Grantor: DESALVO KAITLIN M Grantor: TAYLOR LEE Grantee: SEE INSTRUMENT | Comment: SEE INSTRUMENT",
+        "RP-2021-670799 | 11/22/2021 | CORREC | Grantor: TAYLOR LEE E Grantee: SEE INSTRUMENT | Desc: INDEPENDENCE HEIGHTS ANNEX Lot: 6 Block: 51 Related Docs",
+        "RP-2021-504639 | 09/02/2021 | AFFT | Grantor: TAYLOR LEEANN MICHELLE Grantor: TAYLOR WADE RYAN Grantee: SEE INSTRUMENT | Desc: LAKES AT CREEKSIDE Sec: 1 Lot: 29 Block: 4",
+        "RP-2021-504638 | 09/02/2021 | D/T | Grantor: TAYLOR LEEANN MICHELLE Grantor: TAYLOR WADE RYAN Grantee: AMERISAVE MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: VALBY SCOTT R | Desc: LAKES AT CREEKSIDE Sec: 1 Lot: 29 Block: 4 Reserve: F Related Docs",
+        "RP-2021-431573 | 07/30/2021 | W/D | Grantor: GERHART BILLY GENE JR Grantor: GERHART LEE ANN Grantor: TAYLOR LEE ANN Grantee: K5 REAL ESTATE LLC | Desc: LAKE SHADOWS Sec: 1 Lot: 8 Block: 4",
+        "RP-2020-68757 | 02/14/2020 | W/D | Grantor: TAYLOR HENDERSON Grantor: TAYLOR LEE Grantee: 315 31ST HOLDINGS LLC | Desc: INDEPENDENCE HEIGHTS ANNEX Lot: 23-24 Block: 49",
+        "RP-2019-368782 | 08/21/2019 | DEED | Grantor: ALDINE INDEPENDENT SCHOOL DISTRICT Grantor: HARRIS COUNTY Grantor: ROSEN ALAN CONST Grantor: TAYLOR FRANK Grantor: TAYLOR LEE VESTER Grantor: TAYLOR RANSOM Grantor: TAYLOR RANSOM F Grantee: KBM REI LLC | Desc: HIGHLAND HEIGHTS ANNEX Sec: 4 Lot: 6 Block: 23",
+        "RP-2019-20596 | 01/16/2019 | AFFT | Grantor: FORTUNE MARY LOUISE TAYLOR Grantor: STURGES RUBY Grantor: TAYLOR LEE VESTER Grantee: GULLEY FLOYD CHESTER JR EST | Desc: HIGHLAND HEIGHTS Lot: 25-28 Block: 21",
+        "RP-2018-175950 | 04/25/2018 | AFFT | Grantor: TAYLOR LEEANN MICHELLE Grantor: TAYLOR WADE RYAN Grantee: SEE INSTRUMENT | Comment: SEE INSTRUMENT",
+        "RP-2017-553961 | 12/18/2017 | NOTICE | Grantor: M/I HOMES OF HOUSTON LLC Grantor: TAYLOR LEEANN MICHELLE Grantor: TAYLOR WADE Grantee: M/I HOMES OF HOUSTON LLC Grantee: TAYLOR LEEANN MICHELLE Grantee: TAYLOR WADE | Desc: LAKES AT CREEKSIDE Sec: 1 Lot: 29 Block: 4 Reserve: F",
+        "RP-2017-553960 | 12/18/2017 | D/T | Grantor: TAYLOR LEEANN MICHELLE Grantor: TAYLOR WADE RYAN Grantee: M/I FINANCIAL LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: ROBERTSON JAMES L | Desc: LAKES AT CREEKSIDE Sec: 1 Lot: 29 Block: 4 Related Docs",
+        "RP-2017-479889 | 10/31/2017 | W/D | Grantor: JETER RUTH Grantor: TAYLOR LEE J Grantor: TAYLOR RUTH Grantee: CHAMPAGNE JILL ANN Grantee: CHAMPAGNE NOLAN RAY | Desc: BROWNING ADDITION Sec: 2 Lot: 237-238 Block: 11",
+        "RP-2017-352611 | 08/07/2017 | W/D | Grantor: TAYLOR LEE J JR Grantee: J-P REI SOLUTIONS LLC | Desc: PARKWOOD Lot: 36 Block: 7",
+        "RP-2017-306930 | 07/10/2017 | DECREE | Grantor: JETER RUTH ANN Grantor: TAYLOR LEE JOSEPH JR Grantor: TAYLOR RUTH ANN Grantee: JETER RUTH ANN Grantee: TAYLOR LEE JOSEPH JR Grantee: TAYLOR RUTH ANN | Desc: BROWING SUBDIVISION Sec: 2 Lot: 237-238 Block: 11",
+        "RP-2017-284114 | 06/27/2017 | W/D | Grantor: SULLINGER LEEANN MICHELLE Grantor: TAYLOR LEEANN MICHELLE Grantor: TAYLOR WADE Grantee: TETZLAFF CHARITY | Desc: SADDLEBROOK VILLAGE Sec: 2 Lot: 18 Block: 1",
+        "RP-2017-234993 | 05/30/2017 | W/D | Grantor: TAYLOR LEE E Grantee: HOUSTON SHARONDA | Desc: INDEPENDENCE HEIGHTS ANNEX Lot: 6 Block: 51 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'TAYLOR LEE')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "REL": 8,
+        "NOTICE": 4,
+        "LIEN": 2,
+        "DEED": 4,
+        "AFFT": 11,
+        "L AFFT": 2,
+        "P/A": 1,
+        "W/D": 10,
+        "DECREE": 2,
+        "FI STM": 1,
+        "D/T": 3,
+        "CORREC": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'TAYLOR LEE')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "24 instruments as grantee, 25 as grantor (index, name 'TAYLOR LEE')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'TAYLOR LEE')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202104206",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "03/13/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-03-13: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202104206 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de TAYLOR LEE V SR ET AL (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 73741.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 37386.69,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 37386.69,
+        "impuestos_que_hereda": 4570.63,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 1121.6,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: COTA SUPERIOR: total adeudado de todos los anios (el condado no separa anios de la sentencia); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 47078.92,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 48953.56,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.566,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "VIGILAR",
+    "rationale": "El condado aun no publica la apertura. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 48953.56,
+    "all_in_cost_estimate": 47078.92,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
+  }
+}

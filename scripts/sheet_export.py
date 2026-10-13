@@ -9,8 +9,9 @@ import csv
 import sys
 from pathlib import Path
 
-COLS = ["property_id", "account_no", "direccion", "dueno_hcad", "clase", "lote_sqft", "construccion_sqft", "ano_construccion",
-        "valor_hcad", "apertura", "fema_zona", "floodway", "hits_clerk_misma_subdivision", "tipos_misma_subdivision", "señales"]
+COLS = ["property_id", "decision_previa", "tipo_lote", "direccion", "dueno_hcad", "clase", "lote_sqft", "construccion_sqft",
+        "valor_hcad", "apertura", "impuestos_total_adeudado", "impuestos_que_hereda_est", "cierre_esperado", "techo_teorico",
+        "fema_zona", "floodway", "hits_clerk_misma_subdivision", "tipos_misma_subdivision", "razon", "señales", "account_no"]
 
 
 def main(argv):

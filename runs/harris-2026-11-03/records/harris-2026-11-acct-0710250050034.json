@@ -1,0 +1,612 @@
+{
+  "property_id": "harris-2026-11-acct-0710250050034",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "1203 JACKSON AVE PASADENA 77506",
+  "account_no": "0710250050034",
+  "cause_no": "202049669",
+  "intake": {
+    "opening_bid": {
+      "value": 63365.5,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 2; tipo SALE; sale# 1; sentencia 05/01/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "1203 JACKSON AVE, PASADENA, 77506",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "AVINA MARIA (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "1203 JACKSON AVE, PASADENA, TX, 77506-2707",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "C1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "9180",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.2108",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1944",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "76280",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "76280",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "76280",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Vacant Table Value 6350.0000xSF $73025 | Res Vacant Table Value 2830.0000xSF $3255",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 34 BLK 5 PASADENA GARDENS",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "03/16/2011",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.197481,
+        "lat": 29.707418
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0710250050034)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 8579,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0710250050034)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~62 x 154 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0710250050034)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF PASADENA",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2012,
+          "tax": 60.36,
+          "penalties_interest": 106.84,
+          "collection_penalty": 33.44,
+          "total": 200.64
+        },
+        {
+          "year": 2013,
+          "tax": 60.36,
+          "penalties_interest": 99.59,
+          "collection_penalty": 31.99,
+          "total": 191.94
+        },
+        {
+          "year": 2014,
+          "tax": 60.36,
+          "penalties_interest": 92.35,
+          "collection_penalty": 30.54,
+          "total": 183.25
+        },
+        {
+          "year": 2015,
+          "tax": 57.16,
+          "penalties_interest": 80.6,
+          "collection_penalty": 27.55,
+          "total": 165.31
+        },
+        {
+          "year": 2016,
+          "tax": 475.0,
+          "penalties_interest": 612.75,
+          "collection_penalty": 217.54,
+          "total": 1305.29
+        },
+        {
+          "year": 2017,
+          "tax": 469.94,
+          "penalties_interest": 549.84,
+          "collection_penalty": 203.96,
+          "total": 1223.74
+        },
+        {
+          "year": 2018,
+          "tax": 482.1,
+          "penalties_interest": 506.21,
+          "collection_penalty": 197.67,
+          "total": 1185.98
+        },
+        {
+          "year": 2019,
+          "tax": 611.24,
+          "penalties_interest": 568.45,
+          "collection_penalty": 209.97,
+          "total": 1389.66
+        },
+        {
+          "year": 2020,
+          "tax": 585.29,
+          "penalties_interest": 474.09,
+          "collection_penalty": 188.01,
+          "total": 1247.39
+        },
+        {
+          "year": 2021,
+          "tax": 674.03,
+          "penalties_interest": 465.08,
+          "collection_penalty": 201.52,
+          "total": 1340.63
+        },
+        {
+          "year": 2022,
+          "tax": 788.44,
+          "penalties_interest": 449.41,
+          "collection_penalty": 219.7,
+          "total": 1457.55
+        },
+        {
+          "year": 2023,
+          "tax": 867.15,
+          "penalties_interest": 390.21,
+          "collection_penalty": 221.89,
+          "total": 1479.25
+        },
+        {
+          "year": 2024,
+          "tax": 944.63,
+          "penalties_interest": 311.74,
+          "collection_penalty": 220.4,
+          "total": 1476.77
+        },
+        {
+          "year": 2025,
+          "tax": 952.84,
+          "penalties_interest": 200.1,
+          "collection_penalty": 201.55,
+          "total": 1354.49
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710250050034",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 14201.89,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710250050034",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2012,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710250050034",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 12646.76,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710250050034",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 952.84,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710250050034",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 13599.6,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710250050034",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "AVINA MARIA 1203 JACKSON AVE PASADENA TX 77506 1203 JACKSON AVE LT 34 BLK 5 PASADENA GARDENS",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710250050034",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 76280.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710250050034",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202049669",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "05/01/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-05-01: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202049669 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de AVINA MARIA (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 76280.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 38673.96,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 68941.66,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 68941.66,
+        "impuestos_que_hereda": 13599.6,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 2068.25,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 88609.51,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 42159.61,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": -0.139,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-98949 | 03/17/2026 | W/D | Grantor: FRIENDSWOOD DEVELOPMENT COMPANY Grantor: LENNAR HOMES OF TEXAS LAND AND CONSTRUCTION LTD Grantor: LONGO JASON Grantor: U S HOME CORPORATION Grantor: U S HOME LLC Grantee: AVINA MARIA DE JESUS Grantee: RUVALCABA LUIS ENRIQUE AVINA | Desc: WINWARD COVE Sec: 1 Lot: 4 Block: 4",
+        "RP-2026-389092 | 09/24/2026 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2026-378623 | 09/17/2026 | W/D | Grantor: RUGGS ARCHIE III Grantor: RUGGS KEISHA Grantee: AVINA MARIA Grantee: GUERRERO MIGUEL Grantee: MIGUEL GUERRERO AND MARIA AVINA LIVING TRUST | Desc: POLK ROBERTS CROSSING Lot: 9 Block: 1",
+        "RP-2026-275538 | 07/09/2026 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2026-160613 | 04/28/2026 | LIEN | Grantor: CITY OF PASADENA TEXAS Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2026-11866 | 01/13/2026 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2025-403171 | 10/10/2025 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2025-338738 | 08/27/2025 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2024-486289 | 12/31/2024 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2024-467424 | 12/17/2024 | LIEN | Grantor: CITY OF PASADENA TEXAS Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2024-393210 | 10/23/2024 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2024-314026 | 08/28/2024 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2024-254021 | 07/15/2024 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2024-201398 | 06/04/2024 | NOTICE | Grantor: AVINA MARIA DEL CARMEN Grantor: KNOWLES LANGSTON G Grantee: AVINA MARIA DEL CARMEN Grantee: KNOWLES LANGSTON G | Desc: WILLOW RUN Sec: 5 Lot: 42 Block: 4",
+        "RP-2024-201397 | 06/04/2024 | W/D | Grantor: KNOWLES LANGSTON G Grantee: AVINA MARIA DEL CARMEN | Desc: WILLOW RUN Sec: 5 Lot: 42 Block: 4",
+        "RP-2024-15646 | 01/17/2024 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2024-142870 | 04/22/2024 | W/D | Grantor: TONY'S REMODELS & FLIPS LLC Grantee: AVINA MARIA DEL CARMEN | Desc: WILLOW RUN Sec: 1 Lot: 12 Block: 5",
+        "RP-2023-60890 | 02/23/2023 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2023-48804 | 02/13/2023 | NOTICE | Grantor: AVINA FRANCISCO JAVIER Grantor: AVINA MARIA ELENA Grantor: DO HONG Grantor: DO KIM HUNG Grantee: AVINA FRANCISCO JAVIER Grantee: AVINA MARIA ELENA Grantee: DO HONG Grantee: DO KIM HUNG | Desc: HAMBLEDON Sec: 1 Lot: 11 Block: 1",
+        "RP-2023-353387 | 09/14/2023 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2022-483645 | 09/28/2022 | REL | Grantor: CHAPARRAL MANAGEMENT COMPANY Grantor: HAMBLEDON HOMEOWNERS ASSOCIATION INC Grantee: AVINA FRANCISCO JAVIER Grantee: AVINA MARIA ELENA | Desc: HAMBLEDON Sec: 1 Lot: 11 Block: 1 Related Docs",
+        "RP-2022-481706 | 09/27/2022 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2022-448607 | 09/02/2022 | REL | Grantor: NEW PENN FINANCIAL LLC Grantor: NEW RESIDENTIAL MORTGAGE LLC Grantor: NEWREZ LLC Grantor: SHELLPOINT MORTGAGE SERVICING Grantee: AVINA ARMANDO Grantee: AVINA MARIA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-363699 | 07/14/2022 | W/D | Grantor: MARES LUIS Grantee: AVINA MARIA DE JESUS Grantee: RUVALCABA LUIS ENRIQUE AVINA | Desc: BRIDGEWATER MEADOW Sec: 2 Lot: 10 Block: 6",
+        "RP-2022-114929 | 03/03/2022 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2021-720259 | 12/17/2021 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2021-635046 | 11/03/2021 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2021-18028 | 01/12/2021 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2020-416450 | 09/04/2020 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2020-30331 | 01/22/2020 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2020-196532 | 05/11/2020 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENDS Lot: 34 Block: 5",
+        "RP-2019-559916 | 12/19/2019 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2019-482290 | 10/30/2019 | A/J | Grantor: PORTFOLIO RECOVERY ASSOCIATES LLC Grantee: AVINA MARIA | Comment: SEE INSTRUMENT",
+        "RP-2019-420115 | 09/23/2019 | W/D | Grantor: AVINA EDGAR ALONSO Grantee: AVINA MARIA DEL CARMEN | Desc: AUSTIN J Comment: 0.2295 Related Docs",
+        "RP-2018-84669 | 02/28/2018 | W/D | Grantor: AVINA REFUGIO Grantee: AVINA EDGAR ALONSO Grantee: AVINA MARIA DELCARMEN Grantee: AVINA REFUGIO | Desc: AUSTIN J Abstract: 1 Comment: 0.2295 Related Docs",
+        "RP-2018-538574 | 12/03/2018 | REL | Grantor: CITIMORTGAGE INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: AVINA MARIA I | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-452257 | 10/02/2018 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2018-32768 | 01/25/2018 | LIEN | Grantor: CITY OF PASADENA Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2017-515735 | 11/22/2017 | ORDER | Grantor: CITY OF PASADENA Grantee: AVINA ANTONIO TORRES Grantee: AVINA MARIA | Desc: PASADENA GARDENS Lot: 34 Block: 5",
+        "RP-2017-464723 | 10/23/2017 | REL | Grantor: WELLS FARGO BANK N A Grantor: WELLS FARGO BANK TEXAS N A Grantee: AVINA HECTOR L Grantee: AVINA MARIA LUISA | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'AVINA MARIA')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-378624 | 09/17/2026 | D/T | Grantor: AVINA MARIA Grantor: GUERRERO MIGUEL Grantor: MIGUEL GUERRERO AND MARIA AVINA LIVING TRUST Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: UNION HOME MORTGAGE CORP Trustee: BARBER LAW PLLC | Comment: SEE INSTRUMENT",
+        "RP-2024-201398 | 06/04/2024 | NOTICE | Grantor: AVINA MARIA DEL CARMEN Grantor: KNOWLES LANGSTON G Grantee: AVINA MARIA DEL CARMEN Grantee: KNOWLES LANGSTON G | Desc: WILLOW RUN Sec: 5 Lot: 42 Block: 4",
+        "RP-2023-48804 | 02/13/2023 | NOTICE | Grantor: AVINA FRANCISCO JAVIER Grantor: AVINA MARIA ELENA Grantor: DO HONG Grantor: DO KIM HUNG Grantee: AVINA FRANCISCO JAVIER Grantee: AVINA MARIA ELENA Grantee: DO HONG Grantee: DO KIM HUNG | Desc: HAMBLEDON Sec: 1 Lot: 11 Block: 1",
+        "RP-2023-48802 | 02/13/2023 | W/D | Grantor: AVINA FRANCISCO JAVIER Grantor: AVINA MARIA ELENA Grantee: DO HONG Grantee: DO KIM HUNG | Desc: HAMBLEDON Sec: 1 Lot: 11 Block: 1",
+        "RP-2021-505248 | 09/02/2021 | W/D | Grantor: AVINA JOSE REFUGIO Grantor: AVINA MARIA DEL CARMEN Grantor: VALDEZ CYNTHIA Grantee: 5010 DARLING L.L.C. | Desc: AUSTIN JOHN Abstract: 0001 Related Docs",
+        "RP-2021-363495 | 06/29/2021 | D/T | Grantor: AVINA MARIA Grantor: GRANADOS HEMILIO Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: PRESENT RANDALL C | Desc: BRUNSWICK LAKES Sec: 7 Lot: 27 Block: 4"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'AVINA MARIA')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "W/D": 9,
+        "LIEN": 25,
+        "NOTICE": 4,
+        "REL": 4,
+        "A/J": 1,
+        "ORDER": 1,
+        "D/T": 2
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'AVINA MARIA')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "40 instruments as grantee, 6 as grantor (index, name 'AVINA MARIA')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'AVINA MARIA')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "review": {
+    "decision": "BAJA",
+    "rationale": "Techo teorico $42,160 < apertura $63,366. Jurisdiccion: CITY OF PASADENA. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 42159.61,
+    "all_in_cost_estimate": 88609.51,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
+  }
+}

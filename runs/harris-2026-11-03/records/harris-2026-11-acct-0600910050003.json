@@ -1,0 +1,577 @@
+{
+  "property_id": "harris-2026-11-acct-0600910050003",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "706 E. HUNNICUTT ST. BAYTOWN 77520",
+  "account_no": "0600910050003",
+  "cause_no": "202367665",
+  "intake": {
+    "opening_bid": {
+      "value": 21476.27,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 8; tipo SALE; sale# 6; sentencia 02/06/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "706 E HUNNICUTT ST, BAYTOWN, 77520",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "HILL RONNIE (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "2310 GARTH RD, BAYTOWN, TX, 77520-2348",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "5000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1148",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "672",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1948",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "37500",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "53760",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "94183",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "88538",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 5000.0000xSF $37500",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 834sf built 1948",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 3 BLK 5 WRIGHT J W",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "01/01/1996",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -94.957795,
+        "lat": 29.73562
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0600910050003)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 5012,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0600910050003)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~51 x 101 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0600910050003)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF BAYTOWN",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2020,
+          "tax": 323.65,
+          "penalties_interest": 262.15,
+          "collection_penalty": 88.59,
+          "total": 674.39
+        },
+        {
+          "year": 2021,
+          "tax": 365.88,
+          "penalties_interest": 252.45,
+          "collection_penalty": 92.76,
+          "total": 711.09
+        },
+        {
+          "year": 2022,
+          "tax": 390.2,
+          "penalties_interest": 222.41,
+          "collection_penalty": 91.89,
+          "total": 704.5
+        },
+        {
+          "year": 2023,
+          "tax": 473.75,
+          "penalties_interest": 213.19,
+          "collection_penalty": 103.04,
+          "total": 789.98
+        },
+        {
+          "year": 2024,
+          "tax": 538.93,
+          "penalties_interest": 177.84,
+          "collection_penalty": 107.53,
+          "total": 824.3
+        },
+        {
+          "year": 2025,
+          "tax": 556.84,
+          "penalties_interest": 116.93,
+          "collection_penalty": 101.07,
+          "total": 774.84
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0600910050003",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 4479.1,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0600910050003",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0600910050003",
+      "retrieved_at": "2026-10-13",
+      "note": "el condado no lista los anios incluidos en la sentencia"
+    },
+    "post_judgment_taxes": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0600910050003",
+      "retrieved_at": "2026-10-13",
+      "note": "sin anios de sentencia no se puede separar"
+    },
+    "current_year_estimate": {
+      "value": 556.84,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0600910050003",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0600910050003",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "HILL RONNIE 2310 GARTH RD BAYTOWN TX 77520 706 E HUNNICUTT ST LT 3 BLK 5 WRIGHT J W",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0600910050003",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 88538.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0600910050003",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HILL RONNIE')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-92872 | 03/12/2026 | W/D | Grantor: HILL RONNIE GLEN Grantee: SANCHEZ GUADALUPE | Desc: SCOTT W Abstract: 65 Tract: 17C",
+        "RP-2026-51968 | 02/11/2026 | D/T | Grantor: HILL RONNIE G Grantee: GSH FINANCIAL SERVICES LLC Trustee: HODGES ELEANOR H | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-410493 | 10/09/2026 | D/T | Grantor: HILL RONNIE G Grantee: GSH FINANCIAL SERVICES LLC Trustee: HODGES ELEANOR H | Desc: HIGHLANDS TERRACE Lot: 17-18 Related Docs",
+        "RP-2026-371725 | 09/14/2026 | NOTICE | Grantor: GOMEZ GIPSIN IVANY Grantor: HILL LEYLANI Grantor: HILL RONNIE Grantee: GOMEZ GIPSIN IVANY Grantee: HILL LEYLANI Grantee: HILL RONNIE | Desc: LAKEWOOD SUBDIVISION Sec: F Lot: 22 Block: 55",
+        "RP-2026-371723 | 09/14/2026 | W/D | Grantor: HILL LEYLANI Grantor: HILL RONNIE Grantee: GOMEZ GIPSIN IVANY | Desc: LAKEWOOD SUBDIVISION Sec: F Lot: 22 Block: 55",
+        "RP-2026-335891 | 08/18/2026 | W/D | Grantor: HILL LEYLANI Grantor: HILL RONNIE Grantor: HILL RONNIE G Grantee: CARRILLO JOSE ALFREDO | Desc: J W WRIGHT ADDITION TO THE TOWN OF GOOSE CREEK Lot: 10 Block: 8",
+        "RP-2026-32744 | 01/29/2026 | W/D | Grantor: HILL MARY LOU Grantor: HILL RONNIE GLEN Grantee: MALDONADO MARIA THERESA Grantee: MALDONADO PEDRO | Desc: BAYTOWN HEIGHTS Lot: 4-5 Block: 5",
+        "RP-2026-262825 | 07/01/2026 | REL | Grantor: HILL RONNIE GLEN Grantee: CUEVAS AUREA Grantee: CUEVAS SERGIO | Desc: RIDGEWOOD Sec: 1 Lot: 6 Block: 1",
+        "RP-2026-195610 | 05/19/2026 | W/D | Grantor: HILL LELAYNI Grantor: HILL RONNIE GLENN Grantee: MARIN JENNIFER Grantee: PALOMARES JAHIR HERNANDEZ | Desc: ARON ADDITION Lot: 3 Block: 9",
+        "RP-2026-139189 | 04/13/2026 | FI STM | Grantor: HILL RONNIE Grantee: GOODLEAP LLC | Desc: LA HACIENDA Lot: 4 Block: 3",
+        "RP-2026-138452 | 04/13/2026 | NOTICE | Grantor: HILL RONNIE GLEN Grantor: JARAMILLO PATRICIA Grantor: ORTIZ CARLOS F Grantee: HILL RONNIE GLEN Grantee: JARAMILLO PATRICIA Grantee: ORTIZ CARLOS F | Desc: WOODFOREST Sec: 12 Lot: 4 Block: 31 Related Docs",
+        "RP-2026-138450 | 04/13/2026 | W/D | Grantor: HILL LEYLANI Grantor: HILL RONNIE GLEN Grantee: JARAMILLO PATRICIA Grantee: ORTIZ CARLOS F | Desc: WOODFOREST Sec: 12 Lot: 4 Block: 31",
+        "RP-2026-13572 | 01/13/2026 | MODIF | Grantor: HILL RONNIE G Grantee: GSH FINANCIAL SERVICES LLC | Desc: SMITH C Abstract: 69 Related Docs",
+        "RP-2025-399374 | 10/07/2025 | W/D | Grantor: HILL MARY LOU EST Grantor: HILL RONNIE GLEN Grantee: LUCARTERO RODOLFO LOZA | Desc: EVA MAUD Lot: 13 Block: 1",
+        "RP-2025-393010 | 10/02/2025 | W/D | Grantor: HILL RONNIE GLENN Grantee: MACIAS JOE Grantee: QUIROZ SANDRA | Desc: A C LONG ADDITION Lot: 4-6 Block: 13",
+        "RP-2025-372857 | 09/19/2025 | D/T | Grantor: HILL RONNIE G Grantee: GSH FINANCIAL SERVICES LLC Trustee: HODGES ELEANOR H | Desc: LAKEWOOD SUBDIVISION Sec: E Lot: 10 Block: 42",
+        "RP-2025-304146 | 08/04/2025 | W/D | Grantor: HILL MARY LOU Grantor: HILL RONNIE GLEN Grantee: CERINO JOSE Grantee: CERINO MARIA L | Desc: EAST BAYTOWN Lot: 10 Block: 29",
+        "RP-2025-174443 | 05/08/2025 | W/D | Grantor: HILL MARY LOU Grantor: HILL RONNIE GLEN Grantee: REYES OSCAR | Desc: GOOSE CREEK Lot: 8-9 Block: 39",
+        "RP-2025-149460 | 04/23/2025 | NOTICE | Grantor: HILL RONNIE GLEN Grantor: PEDDY ELIZABETH A Grantor: PEDDY ELIZABETH ANN Grantor: WHITE DEBRA ANN Grantee: HILL RONNIE GLEN Grantee: PEDDY ELIZABETH A Grantee: PEDDY ELIZABETH ANN Grantee: WHITE DEBRA ANN | Desc: WOODFOREST Sec: 12 Lot: 4 Block: 31 Related Docs",
+        "RP-2025-104405 | 03/24/2025 | W/D | Grantor: HILL RONNIE GLEN Grantee: CRUZ JOSEFA MAGALY Grantee: GALEAS ELVIN ALEXIS RODRIGUEZ | Desc: HIGHLAND PARK Lot: 94 Block: 5",
+        "RP-2024-8703 | 01/09/2024 | W/D | Grantor: HILL RONNIE G Grantee: SAGASTUME JOSE | Desc: OAKWOOD ANNEX Sec: 1 Lot: 1 Block: 3",
+        "RP-2024-435006 | 11/20/2024 | D/T | Grantor: HILL RONNIE G Grantee: GSH FINANCIAL SERVICES LLC Trustee: HODGES ELEANOR | Desc: HAZEL NELSON HOMESITE Related Docs",
+        "RP-2024-343100 | 09/17/2024 | W/D | Grantor: HILL RONNIE GLEN Grantee: GULF STATE HOMEBUYERS LLC | Desc: GOOSE CREEK TOWNSITE Lot: 1-2 Block: 82",
+        "RP-2024-343099 | 09/17/2024 | AFFT | Grantor: HILL RONNIE GLEN Grantee: SIMMONS CHRIS | Desc: GOOSE CREEK Lot: 1-2 Block: 82 Related Docs",
+        "RP-2024-339698 | 09/16/2024 | W/D | Grantor: HILL LEYLANI Grantor: HILL RONNIE GLEN Grantee: TORRES NOEL | Desc: BENNIE GRAY ADDITION Lot: 1 Block: 1",
+        "RP-2024-215678 | 06/13/2024 | W/D | Grantor: HILL LEYLANI Grantor: HILL RONNIE G Grantee: RODRIGUEZ YANEISY K SANTANA | Desc: MILBY DALE NO 5 ANNEX Lot: 1 Block: 3 Related Docs",
+        "RP-2024-174650 | 05/14/2024 | W/D | Grantor: HILL MARY LOU Grantor: HILL RONNIE GLEN Grantee: GONZALEZ FRANK Grantee: GONZALEZ SANDRA | Desc: MORRELL PARK Sec: 1 Lot: 1-2 Block: 7",
+        "RP-2024-165717 | 05/07/2024 | W/D | Grantor: HILL LELANI Grantor: HILL RONNIE GLEN Grantee: MARROQUIN GARY Grantee: MARROQUIN TERESA Grantee: SANCHEZ RICHARD LEE | Desc: EAST BAYTOWN Lot: 7 Block: 26",
+        "RP-2024-137308 | 04/17/2024 | AFFT | Grantor: HILL RONNIE GLEN Grantee: SEE INSTRUMENT | Desc: BRITTON CRAVENS Sec: 3 Lot: 196 Related Docs",
+        "RP-2024-135779 | 04/16/2024 | RESCND | Grantor: HILL MARY LOU Grantor: HILL RONNIE GLEN Grantor: JACKSON DANIEL R Grantee: MARTINEZ ARTURO | Desc: BRITTON CRAVENS Sec: 3 Lot: 196 Related Docs",
+        "RP-2023-99973 | 03/22/2023 | W/D | Grantor: HILL LAYLANI Grantor: HILL RONNIE G Grantee: OTIS DAVID Grantee: OTIS DIANA JOHNSON | Desc: WILBURN BROTHERS SUBDIVISION Sec: 1 Lot: 20 Block: 3",
+        "RP-2023-99515 | 03/22/2023 | W/D | Grantor: HILL MARY LOU Grantor: HILL RONNIE GLEN Grantee: PULIDO GUADALUPE Grantee: PULIDO MARTHA | Desc: CHAPARRAL VILLAGE Sec: 5 Lot: 7 Block: 1",
+        "RP-2023-99513 | 03/22/2023 | REL | Grantor: HILL RONNIE GLEN Grantee: HERRERA ANA GLORIA | Desc: SCOTT W Abstract: 65 Tract: 17F-17G",
+        "RP-2023-99510 | 03/22/2023 | REL | Grantor: HILL RONNIE GLEN Grantee: BALDERAS ROBERTO Grantee: JUAREZ YOLANDA | Desc: RIDGEWOOD Sec: 2 Lot: 5 Block: 2",
+        "RP-2023-99509 | 03/22/2023 | REL | Grantor: HILL RONNIE GLEN Grantee: SIMMONS CHRIS | Desc: GOOSE CREEK Lot: 1-2 Block: 82",
+        "RP-2023-89233 | 03/14/2023 | W/D | Grantor: HILL RONNIE G Grantee: CRUZ JHONNY | Desc: GUERINGER L A Abstract: 1699 Comment: 2.8865",
+        "RP-2023-61920 | 02/23/2023 | W/D | Grantor: HILL RONNIE GLEN Grantee: GARCIA ERICK FERNANDO Grantee: GARCIA SAYRALI | Desc: SPRINGFIELD ESTATES Sec: 1 Lot: 111",
+        "RP-2023-40771 | 02/07/2023 | D/T | Grantor: HILL RONNIE G Grantee: GSII FINANCIAL SERVICES LLC Trustee: HODGES ELLIE H | Desc: WEICKERSHEIMER ACRE HOMESITE SUBDIVISION Lot: 16 Related Docs",
+        "RP-2023-385765 | 10/06/2023 | REL | Grantor: HILL RONNIE GLEN Grantee: VALENZUELA LUZ | Comment: SEE INSTRUMENT",
+        "RP-2023-285131 | 07/28/2023 | W/D | Grantor: HILL LEYLANI Grantor: HILL RONNIE GLEN Grantee: KENDALL ADAM Grantee: KENDALL CECILY | Desc: CEDAR BAYOU ESTATES Block: 5 Related Docs",
+        "RP-2023-134764 | 04/17/2023 | W/D | Grantor: HILL RONNIE GLEN Grantee: CHAVEZ JUAN Grantee: CHAVEZ ROSALIINDA | Desc: HILL TERRACE Sec: 1 Lot: 8 Block: 3",
+        "RP-2023-134763 | 04/17/2023 | REL | Grantor: HILL RONNIE GLEN Grantee: CHAVEZ JUAN Grantee: CHAVEZ ROSALINDA | Desc: HILL TERRACE Sec: 1 Lot: 8 Block: 3",
+        "RP-2022-536419 | 11/02/2022 | AGMT | Grantor: HILL RONNIE Grantor: HILL SCOTT Grantee: GARZA CARLOS Grantee: GARZA LAURA | Desc: BRITTON-CRAVENS SUBDIVISION Sec: 3 Lot: 248-249 Related Docs",
+        "RP-2022-434820 | 08/26/2022 | D/T | Grantor: HILL RONNIE G Grantee: GSH FINANCIAL SERVICES LLC Trustee: HODGES ELLIE | Desc: HAZEL NELSON HOMESITE",
+        "RP-2022-427285 | 08/22/2022 | REL | Grantor: HILL RONNIE GLEN Grantee: SIMMONS CHRIS | Desc: GOOSE CREEK Lot: 1-2 Block: 82",
+        "RP-2022-409752 | 08/10/2022 | W/D | Grantor: HILL LEYLANI P Grantor: HILL RONNIE Grantee: MORTENSEN ERIC WAYNE | Desc: MILBY DALE NO 2 Lot: 4 Block: 15",
+        "RP-2022-409751 | 08/10/2022 | REL | Grantor: HILL MARY LOU Grantor: HILL RONNIE GLEN Grantee: BARAJAS MARIBEL | Desc: MILBY DALE Lot: 4 Block: 15",
+        "RP-2022-40964 | 01/24/2022 | W/D | Grantor: HILL MARY LOU Grantor: HILL RONNIE GLEN Grantee: RODIRGUEZ SANDRA MARILU MARROQUIN Grantee: TREVILLO JUAN ANTONIO SERNA | Desc: QUAIL HOLLOW Sec: 2 Lot: 176",
+        "RP-2022-336505 | 06/29/2022 | W/D | Grantor: HILL RONNIE GLEN Grantee: MARTINEZ DORA Grantee: PEREZ JORGE | Desc: GOOSE CREEK Lot: 9-10 Block: 76",
+        "RP-2022-283196 | 05/31/2022 | W/D | Grantor: HILL RONNIE GLEN Grantee: REMINGTON MARLENA KAYE Grantee: REMINGTON STEVE VALENTINO | Desc: WOODLAWN ADDITION Lot: 13 Block: 8",
+        "RP-2022-283193 | 05/31/2022 | REL | Grantor: HILL RONNIE GLEN Grantee: MARTINEZ MIGUEL A Grantee: TORRES AMANDA | Desc: WOODLAWN ADDITION Lot: 13 Block: 8 Related Docs",
+        "RP-2022-212896 | 04/22/2022 | W/D | Grantor: HILL LEYLANI Grantor: HILL RONNIE Grantee: DE TAPIA ILEANA C SOZA Grantee: GONZALEZ MAURICIO J TAPIA | Desc: MILBY DALE ADDITION Sec: 1 Lot: 4 Block: 5",
+        "RP-2022-206570 | 04/20/2022 | W/D | Grantor: HILL RONNIE GLEN Grantee: OCHOA ALBA Grantee: OCHOA ROGELIO | Desc: MARTIN Block: 4 Tract: 4B-6B",
+        "RP-2022-191844 | 04/12/2022 | W/D | Grantor: HILL RONNIE Grantee: DE LEON HUGO MANZANARES | Desc: W P WRIGHT ADDITION Lot: 10 Block: 5",
+        "RP-2022-191719 | 04/12/2022 | W/D | Grantor: HILL RONNIE Grantee: DE LEON HUGO MANZANARES | Desc: W P WRIGHT ADDITION Lot: 9 Block: 5",
+        "RP-2022-167800 | 03/30/2022 | W/D | Grantor: HILL RONNIE Grantee: DE COVARUBIAS YOLANDA RAMIREZ | Desc: W P WRIGHT ADDITION Lot: 7 Block: 6",
+        "RP-2022-151529 | 03/22/2022 | NOTICE | Grantor: BASS RANDY Grantor: HILL RONNIE GLEN Grantee: BASS RANDY Grantee: HILL RONNIE GLEN | Desc: ALLENBROOK Sec: 3 Lot: 18 Block: 5",
+        "RP-2022-151527 | 03/22/2022 | W/D | Grantor: HILL RONNIE GLEN Grantee: BASS RANDY | Desc: ALLENBROOK Sec: 3 Lot: 18 Block: 5",
+        "RP-2021-661319 | 11/17/2021 | W/D | Grantor: HILL RONNIE Grantee: CALDERON EZEQUIEL JR | Desc: WILLIAM SCOTT UPPER LEAGUE Abstract: 66 Comment: 0.2717 Related Docs",
+        "RP-2021-65037 | 02/05/2021 | APPT | Grantor: HILL RONNIE Grantee: JACKSON DANIEL R | Desc: WOODLAWN Lot: 13 Block: 8",
+        "RP-2021-650253 | 11/10/2021 | W/D | Grantor: HILL RONNIE GLEN Grantee: REBOLLAR JUANA Grantee: REBOLLAR SERGIO MEDRANO | Desc: SCOTT W Lot: 17F-17G Abstract: 65"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HILL RONNIE')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "W/D": 35,
+        "D/T": 6,
+        "NOTICE": 4,
+        "REL": 9,
+        "FI STM": 1,
+        "MODIF": 1,
+        "AFFT": 2,
+        "RESCND": 1,
+        "AGMT": 1,
+        "APPT": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HILL RONNIE')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "0 instruments as grantee, 61 as grantor (index, name 'HILL RONNIE')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HILL RONNIE')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202367665",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "02/06/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-02-06: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202367665 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de HILL RONNIE (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 94183.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 47750.78,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 23366.18,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 47750.78,
+        "impuestos_que_hereda": 4479.1,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 1432.52,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: COTA SUPERIOR: total adeudado de todos los anios (el condado no separa anios de la sentencia); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 57662.4,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 64919.71,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.633,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $64,920 >= cierre esperado $47,751. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF BAYTOWN. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 64919.71,
+    "all_in_cost_estimate": 57662.4,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
+  }
+}

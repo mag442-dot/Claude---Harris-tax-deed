@@ -1,0 +1,607 @@
+{
+  "property_id": "harris-2026-11-acct-0651280550375",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "4610 N LOOP E HOUSTON 77026",
+  "account_no": "0651280550375",
+  "cause_no": "202471288",
+  "intake": {
+    "opening_bid": {
+      "value": 13283.56,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 1; tipo SALE; sale# 16; sentencia 07/10/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "4610 N LOOP E, HOUSTON, 77026",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "MURRAY JAMES JR ESTATE (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "3916 GALESBURG ST, HOUSTON, TX, 77051-2438",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "C1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "4509",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1035",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1957",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "48291",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "48291",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "48291",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Vacant Table Value 4509.0000xSF $48291",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "TR 1344C BLK 55 KASHMERE GARDENS EXTN",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "01/02/1988",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "AE",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "fema_sfha": {
+      "value": true,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.323903,
+        "lat": 29.808703
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0651280550375)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 4496,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0651280550375)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~42 x 125 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0651280550375)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "AE": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 100.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2018,
+          "tax": 191.26,
+          "penalties_interest": 200.82,
+          "collection_penalty": 78.42,
+          "total": 470.5
+        },
+        {
+          "year": 2019,
+          "tax": 7.49,
+          "penalties_interest": 6.96,
+          "collection_penalty": 2.17,
+          "total": 16.62
+        },
+        {
+          "year": 2020,
+          "tax": 530.11,
+          "penalties_interest": 429.38,
+          "collection_penalty": 180.12,
+          "total": 1139.61
+        },
+        {
+          "year": 2021,
+          "tax": 514.94,
+          "penalties_interest": 355.3,
+          "collection_penalty": 163.11,
+          "total": 1033.35
+        },
+        {
+          "year": 2022,
+          "tax": 694.97,
+          "penalties_interest": 396.13,
+          "collection_penalty": 204.94,
+          "total": 1296.04
+        },
+        {
+          "year": 2023,
+          "tax": 890.31,
+          "penalties_interest": 400.63,
+          "collection_penalty": 241.05,
+          "total": 1531.99
+        },
+        {
+          "year": 2024,
+          "tax": 1010.43,
+          "penalties_interest": 333.44,
+          "collection_penalty": 249.23,
+          "total": 1593.1
+        },
+        {
+          "year": 2025,
+          "tax": 1026.29,
+          "penalties_interest": 215.53,
+          "collection_penalty": 229.98,
+          "total": 1471.8
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0651280550375",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 8553.01,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0651280550375",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0651280550375",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 7081.21,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0651280550375",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 1026.29,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0651280550375",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 8107.5,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0651280550375",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "MURRAY JAMES JR ESTATE 3916 GALESBURG ST HOUSTON TX 77051 4610 N LOOP E TR 1344C BLK 55 KASHMERE GARDENS EXTN",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0651280550375",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 48291.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0651280550375",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-304588 | 07/28/2026 | LIEN | Grantor: LAKES OF AVALON VILLAGE COMMUNITY ASSOCIATION INC Grantor: O'NEAL MICHAEL R Grantee: MURRAY JAMES | Desc: LAKES OF AVALON VILLAGE Sec: 2 Lot: 7 Block: 1",
+        "RP-2025-383155 | 09/26/2025 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: SENTE MORTGAGE INC Grantee: MURRAY JAMES H JR Grantee: MURRAY JANICE M | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-89773 | 03/14/2024 | AFFT | Grantor: LIEDER DARREL Grantor: LIEDER DARREL EUGENE Grantor: LIEDER EMILY ANN Grantor: LIEDER-SCAIFE DANIELLE Grantor: MURRAY MARY CATHRYN HIGHTOWER EST Grantee: MURRAY JAMES JOHNSON JR EST Grantee: MURRAY JOHN EST Grantee: MURRAY MARY CATHRYN HIGHTOWER EST | Desc: TANGLEBRIAR Sec: 2 Lot: 31 Block: 8",
+        "RP-2024-467669 | 12/17/2024 | REL | Grantor: COLONIAL SAVINGS F A Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: MURRAY JAMES II Grantee: MURRAY REEDIA | Desc: THE COMMONS OF LAKE HOUSTON Sec: 14 Lot: 19-20 Block: 4 Related Docs",
+        "RP-2024-137462 | 04/17/2024 | NOTICE | Grantor: MURRAY HAYLEY SAUER Grantor: MURRAY JAMES STANTON Grantor: VAN KEPPEL JUSTIN MICHAEL Grantor: VAN KEPPEL KATHLEEN KOEHLER Grantee: MURRAY HAYLEY SAUER Grantee: MURRAY JAMES STANTON Grantee: VAN KEPPEL JUSTIN MICHAEL Grantee: VAN KEPPEL KATHLEEN KOEHLER | Desc: BRIARMEADOW Sec: 1 Lot: 4 Block: 10 Related Docs",
+        "RP-2024-137460 | 04/17/2024 | W/D | Grantor: VAN KEPPEL JUSTIN MICHAEL Grantor: VAN KEPPEL KATHLEEN KOEHLER Grantee: MURRAY HAYIEY SAUER Grantee: MURRAY JAMES STANTON | Desc: BRIARMEADOW Sec: 1 Lot: 4 Block: 10",
+        "RP-2023-54221 | 02/16/2023 | NOTICE | Grantor: BUBENIK RONDA Grantor: MURRAY BRITTANY LEIGH Grantor: MURRAY JAMES TYLER Grantor: TAYLOR MORRISON OF TEXAS INC Grantee: BUBENIK RONDA Grantee: MURRAY BRITTANY LEIGH Grantee: MURRAY JAMES TYLER Grantee: TAYLOR MORRISON OF TEXAS INC | Desc: ELYSON Sec: 31 Lot: 20 Block: 2",
+        "RP-2023-54219 | 02/16/2023 | W/D | Grantor: EPPS KRISTAN Grantor: TAYLOR MORRISON OF TEXAS INC Grantee: MURRAY BRITTANY LEIGH Grantee: MURRAY JAMES TYLER | Desc: ELYSON Sec: 31 Lot: 20 Block: 2",
+        "RP-2022-575256 | 12/06/2022 | REL | Grantor: GUARANTEED RATE INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: MURRAY JAMES Grantee: MURRAY SARAH | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-567440 | 11/29/2022 | W/D | Grantor: GURLEY DEBORAH Grantor: MAKI SUSAN Grantee: MURRAY JAMES Grantee: WARD MELISSA | Desc: BROOK FOREST Sec: 3 Lot: 11 Block: 74 Related Docs",
+        "RP-2022-566711 | 11/29/2022 | NOTICE | Grantor: MURRAY JAMES Grantor: MURRAY JAMES ISAIAH Grantor: NEU MIRANDA L Grantor: SATTERFIELD GRADY Grantee: MURRAY JAMES Grantee: MURRAY JAMES ISAIAH Grantee: NEU MIRANDA L Grantee: SATTERFIELD GRADY | Desc: MEADOWGREEN Sec: 1 Lot: 38 Block: 5 Related Docs",
+        "RP-2022-566710 | 11/29/2022 | NOTICE | Grantor: MURRAY JAMES Grantor: MURRAY JAMES ISAIAH Grantor: NEU MIRANDA L Grantor: SATTERFIELD GRADY Grantee: MURRAY JAMES Grantee: MURRAY JAMES ISAIAH Grantee: NEU MIRANDA L Grantee: SATTERFIELD GRADY | Desc: MEADOWGREEN Sec: 1 Lot: 38 Block: 5",
+        "RP-2022-566707 | 11/29/2022 | DECREE | Grantor: MURRAY SARAH LEE Grantee: MURRAY JAMES ISAIAH | Desc: MEADOWGREEN Sec: 1 Lot: 38 Block: 5",
+        "RP-2022-554074 | 11/17/2022 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: PROSPERITY BANK Grantee: MURRAY BRITTANY LEIGH Grantee: MURRAY JAMES TYLER | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-554072 | 11/17/2022 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: PROSPERITY BANK Grantee: MURRAY BRITTANY LEIGH Grantee: MURRAY JAMES TYLER | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-542749 | 11/08/2022 | NOTICE | Grantor: MOUGHERA MOHEB DANIEL Grantor: MURRAY BRITTANY L Grantor: MURRAY JAMES T Grantor: RIZKALLAH MARIAN RAMZY Grantee: MOUGHERA MOHEB DANIEL Grantee: MURRAY BRITTANY L Grantee: MURRAY JAMES T Grantee: RIZKALLAH MARIAN RAMZY | Desc: PARK CREEK Sec: 2 Lot: 12 Block: 2",
+        "RP-2022-541669 | 11/07/2022 | REL | Grantor: PRUETT BRIAN A Grantee: MURRAY JAMES R Grantee: MURRAY KARA N | Desc: STEEPLECHASE Sec: 1 Lot: 14 Block: 2 Related Docs",
+        "RP-2022-432786 | 08/25/2022 | W/D | Grantor: MURRAY KARA NOEL Grantee: MURRAY JAMES RONALD | Desc: STEEPLECHASE Sec: 1 Lot: 14 Block: 2",
+        "RP-2022-18620 | 01/11/2022 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: UNIVERSAL AMERICAN MORTGAGE COMPANY LLC Grantee: MURRAY JAMES | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-68518 | 02/08/2021 | NOTICE | Grantor: MURRAY JAMES A Grantor: MURRAY KARA N Grantor: PRUETT BRIAN A Grantee: MURRAY JAMES A Grantee: MURRAY KARA N Grantee: PRUETT BRIAN A | Desc: STEEPLECHASE Sec: 1 Lot: 14 Block: 2",
+        "RP-2021-68516 | 02/08/2021 | W/D | Grantor: PRUETT BRIAN A Grantee: MURRAY JAMES R Grantee: MURRAY KARA N | Desc: STEEPLECHASE Sec: 1 Lot: 14 Block: 2 Related Docs",
+        "RP-2020-520617 | 10/28/2020 | W/D | Grantor: LEE SHELLI Grantor: LEE SHELLI RAE Grantee: LEE SHELLI RAE Grantee: MURRAY JAMES WALTER | Desc: CYPRESS MILL PARK Sec: 5 Lot: 39 Block: 3",
+        "RP-2020-398017 | 08/27/2020 | REL | Grantor: WELLS FARGO BANK NA Grantee: JAMISON LAUREN E Grantee: MURRAY ELIZABETH R Grantee: MURRAY JAMES O | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-438960 | 10/02/2019 | REL | Grantor: WELLS FARGO BANK N A Grantee: MURRAY BELEN Grantee: MURRAY JAMES J | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-416571 | 09/19/2019 | NOTICE | Grantor: MCGEE DELILAH Grantor: MURRAY BELEN Grantor: MURRAY JAMES J JR Grantee: MCGEE DELILAH Grantee: MURRAY BELEN Grantee: MURRAY JAMES J JR | Desc: POST OAK PLACE Sec: 6 Lot: 8 Block: 3 Related Docs",
+        "RP-2019-398029 | 09/09/2019 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: USAA FEDERAL SAVINGS BANK Grantee: MURRAY JAMES Grantee: MURRAY MOLLIANNE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-351407 | 08/12/2019 | W/D | Grantor: DECKER JEANNE TILELLI Grantor: DECKER JOHN J Grantee: MURRAY JAMES Grantee: MURRAY KARA | Desc: LAKES OF ROSEHILL Sec: 4 Lot: 20 Block: 3",
+        "RP-2019-141548 | 04/09/2019 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: NATIONSTAR MORTGAGE LLC Grantee: MURRAY DESIREE R Grantee: MURRAY JAMES | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-217072 | 05/17/2018 | NOTICE | Grantor: COLLINS ROBERT C Grantor: COLLINS STEPHANIE Grantor: MURRAY JAMES Grantor: MURRAY SARAH Grantee: COLLINS ROBERT C Grantee: COLLINS STEPHANIE Grantee: MURRAY JAMES Grantee: MURRAY SARAH | Desc: MEADOWGREEN Sec: 1 Lot: 38 Block: 5",
+        "RP-2018-217070 | 05/17/2018 | W/D | Grantor: COLLINS ROBERT C Grantor: COLLINS STEPHANIE Grantee: MURRAY JAMES Grantee: MURRAY SARAH | Desc: MEADOWGREEN Sec: 1 Lot: 38 Block: 5",
+        "RP-2017-93025 | 03/06/2017 | REL | Grantor: WELLS FARGO BANK N A Grantee: HIGHTOWER MARY CATHRYN Grantee: MURRAY JAMES JOHNSON | Comment: SEE INSTRUMENT",
+        "RP-2016-310475 | 07/18/2016 | FI STM | Grantor: OLD UNION FINANCIAL Grantee: MURRAY JAMES | Desc: POSET OAK PLACE Sec: 6 Lot: 8 Block: 3 Related Docs",
+        "RP-2016-204659 | 05/16/2016 | REL | Grantor: HANCOCK MORTGAGE PARTNERS LLC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: MURRAY ANGELA RANSONET Grantee: MURRAY JAMES CHADWICK | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-133632 | 04/01/2016 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: NATIONWIDE HOME LENDING Grantor: NTFN INC Grantee: MURRAY JAMES H JR Grantee: MURRAY JANICE M | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-124323 | 03/28/2016 | NOTICE | Grantor: ARNOTT JENNIFER Grantor: ARNOTT KYLE Grantor: MURRAY ANGELA Grantor: MURRAY JAMES CHADWICK Grantee: ARNOTT JENNIFER Grantee: ARNOTT KYLE Grantee: MURRAY ANGELA Grantee: MURRAY JAMES CHADWICK | Desc: SUMMERWOO Sec: 16 Lot: 21 Block: 1"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MURRAY JAMES')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-265587 | 07/02/2026 | W/D | Grantor: MURRAY JAMES W Grantor: MURRAY JAMES WILLIAM Grantee: ODUM MARILOLI L Grantee: ODUM MARVIN E | Desc: MEMORIAL FOREST Sec: 2 Lot: 27 Block: 6",
+        "RP-2026-265586 | 07/02/2026 | AFFT | Grantor: BRANNAN JOHN K Grantor: MURRAY JAMES WILLIAM Grantee: MURRAY MARIAN TANGREEN EST | Desc: MEMORIAL FOREST Sec: 2 Lot: 27 Block: 6",
+        "RP-2026-240156 | 06/17/2026 | AFFT | Grantor: BRANNAN JOHN K Grantor: COWELL RON Grantor: MURRAY JAMES WILLIAM Grantee: MURRAY MARIAN TANGREEN EST | Desc: MEMORIAL FOREST Sec: 2 Lot: 27 Block: 6",
+        "RP-2026-236726 | 06/15/2026 | AFFT | Grantor: BRANNAN JOHN K Grantor: MURRAY JAMES WILLIAM Grantee: MURRAY MARIAN TANGREEN EST | Desc: MEMORIAL FOREST Sec: 2 Lot: 27 Block: 6",
+        "RP-2026-109432 | 03/24/2026 | P/A | Grantor: MURRAY JAMES WILLIAM Grantee: BRANNAN ELIZABETH MURRAY Grantee: BRANNAN JOHN KEVIN | Comment: SEE INSTRUMENT",
+        "RP-2024-137462 | 04/17/2024 | NOTICE | Grantor: MURRAY HAYLEY SAUER Grantor: MURRAY JAMES STANTON Grantor: VAN KEPPEL JUSTIN MICHAEL Grantor: VAN KEPPEL KATHLEEN KOEHLER Grantee: MURRAY HAYLEY SAUER Grantee: MURRAY JAMES STANTON Grantee: VAN KEPPEL JUSTIN MICHAEL Grantee: VAN KEPPEL KATHLEEN KOEHLER | Desc: BRIARMEADOW Sec: 1 Lot: 4 Block: 10 Related Docs",
+        "RP-2024-137461 | 04/17/2024 | D/T | Grantor: MURRAY HAYLEY SAUER Grantor: MURRAY JAMES STANTON Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: VANTAGE BANK TEXAS Trustee: ESPINOSA MARIN | Desc: BRIARMEADOW Sec: 1 Lot: 4 Block: 10",
+        "RP-2023-54221 | 02/16/2023 | NOTICE | Grantor: BUBENIK RONDA Grantor: MURRAY BRITTANY LEIGH Grantor: MURRAY JAMES TYLER Grantor: TAYLOR MORRISON OF TEXAS INC Grantee: BUBENIK RONDA Grantee: MURRAY BRITTANY LEIGH Grantee: MURRAY JAMES TYLER Grantee: TAYLOR MORRISON OF TEXAS INC | Desc: ELYSON Sec: 31 Lot: 20 Block: 2",
+        "RP-2023-54220 | 02/16/2023 | D/T | Grantor: MURRAY BRITTANY LEIGH Grantor: MURRAY JAMES TYLER Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: TAYLOR MORRISON HOME FUNDING INC Trustee: GIBSON MALCOLM D | Desc: ELYSON Sec: 31 Lot: 20 Block: 2",
+        "RP-2023-42693 | 02/08/2023 | L AFFT | Grantor: MURRAY JAMES Grantor: MURRAY'D RENOVATION LLC Grantee: WELDON MONICA | Desc: FAIRFIELD VILLAGE WEST Sec: 4 Lot: 24 Block: 1",
+        "RP-2023-216881 | 06/13/2023 | REL | Grantor: MURRAY JAMES Grantor: MURRAY'D RENOVATION LLC Grantee: WELDON MONICA | Desc: FAIRFIELD VILLAGE WEST Sec: 4 Lot: 24 Block: 1 Related Docs",
+        "RP-2022-567441 | 11/29/2022 | D/T | Grantor: MURRAY JAMES Grantor: WARD MELISSA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: NEWREZ LLC Trustee: BLACK THOMAS E JR | Desc: BROOK FOREST Sec: 3 Lot: 11 Block: 74",
+        "RP-2022-566711 | 11/29/2022 | NOTICE | Grantor: MURRAY JAMES Grantor: MURRAY JAMES ISAIAH Grantor: NEU MIRANDA L Grantor: SATTERFIELD GRADY Grantee: MURRAY JAMES Grantee: MURRAY JAMES ISAIAH Grantee: NEU MIRANDA L Grantee: SATTERFIELD GRADY | Desc: MEADOWGREEN Sec: 1 Lot: 38 Block: 5 Related Docs",
+        "RP-2022-566710 | 11/29/2022 | NOTICE | Grantor: MURRAY JAMES Grantor: MURRAY JAMES ISAIAH Grantor: NEU MIRANDA L Grantor: SATTERFIELD GRADY Grantee: MURRAY JAMES Grantee: MURRAY JAMES ISAIAH Grantee: NEU MIRANDA L Grantee: SATTERFIELD GRADY | Desc: MEADOWGREEN Sec: 1 Lot: 38 Block: 5",
+        "RP-2022-566708 | 11/29/2022 | W/D | Grantor: MURRAY JAMES Grantor: MURRAY JAMES ISAIAH Grantee: NEU MIRANDA L Grantee: SATTERFIELD GRADY | Desc: MEADOWGREEN Sec: 1 Lot: 38 Block: 5",
+        "RP-2022-542749 | 11/08/2022 | NOTICE | Grantor: MOUGHERA MOHEB DANIEL Grantor: MURRAY BRITTANY L Grantor: MURRAY JAMES T Grantor: RIZKALLAH MARIAN RAMZY Grantee: MOUGHERA MOHEB DANIEL Grantee: MURRAY BRITTANY L Grantee: MURRAY JAMES T Grantee: RIZKALLAH MARIAN RAMZY | Desc: PARK CREEK Sec: 2 Lot: 12 Block: 2",
+        "RP-2022-542747 | 11/08/2022 | W/D | Grantor: MURRAY BRITTANY LEIGH Grantor: MURRAY JAMES TYLER Grantee: MOUGHERA MOHEB DANIEL Grantee: RIZKALLAH MARIAN RAMZY | Desc: PARK CREEK Sec: 2 Lot: 12 Block: 2",
+        "RP-2022-531413 | 10/31/2022 | W/D | Grantor: MURRAY JAMES RONALD Grantee: JONES DEVON | Desc: STEEPLECHASE Sec: 1 Lot: 14 Block: 2",
+        "RP-2021-740059 | 12/29/2021 | D/T | Grantor: MURRAY AMANDA JEAN Grantor: MURRAY JAMES Grantor: MURRAY JAMES CHARLES Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: MOVEMENT MORTGAGE LLC Trustee: VALBY SCOTT R | Desc: LAKES AT AVALON VILLAGE Sec: 2 Lot: 7 Block: 1",
+        "RP-2021-696622 | 12/06/2021 | W/D | Grantor: MURRAY JAMES Grantor: MURRAY KARA Grantee: BUECHE KEVIN Grantee: FRANK CASEY | Desc: LAKES OF ROSEHILL Sec: 4 Lot: 20 Block: 3",
+        "RP-2021-68518 | 02/08/2021 | NOTICE | Grantor: MURRAY JAMES A Grantor: MURRAY KARA N Grantor: PRUETT BRIAN A Grantee: MURRAY JAMES A Grantee: MURRAY KARA N Grantee: PRUETT BRIAN A | Desc: STEEPLECHASE Sec: 1 Lot: 14 Block: 2",
+        "RP-2021-68517 | 02/08/2021 | D/T | Grantor: MURRAY JAMES R Grantor: MURRAY KARA N Grantee: PRUETT BRIAN A Trustee: PHILLIPS KENNETH R TRE | Desc: STEEPLECHASE Sec: 1 Lot: 14 Block: 2 Related Docs",
+        "RP-2020-520618 | 10/28/2020 | D/T | Grantor: LEE SHELLI Grantor: LEE SHELLI RAE Grantor: MURRAY JAMES WALTER Grantee: FAIRWAY INDEPENDENT MORTGAGE CORPORATION Grantee: HOMEFINITY Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: PORTERFIELD CYNTHIA | Desc: CYPRESS MILL PARK Sec: 5 Lot: 39 Block: 3",
+        "RP-2020-357224 | 08/06/2020 | W/D | Grantor: JAMISON LAUREN E Grantor: MURRAY ELIZABETH R Grantor: MURRAY JAMES O Grantee: KLJR INVESTMENTS LLC | Desc: TRENTON PLACE TOWNHOUSES Lot: 41",
+        "RP-2020-357223 | 08/06/2020 | P/A | Grantor: MURRAY JAMES Grantee: JAMISON LAUREN E | Comment: SEE INSTRUMENT",
+        "RP-2020-172021 | 04/22/2020 | W/D | Grantor: FOSTER JENNIFER Grantor: MURRAY JAMES D Grantor: MURRAY SANDRA L Grantee: JOFFRION PARKER Grantee: PLUNKETT ZACH | Desc: TOWN OF LA PORTE Lot: 26-30 Block: 726",
+        "RP-2020-172020 | 04/22/2020 | P/A | Grantor: MURRAY JAMES D Grantee: FOSTER JENNIFER Grantee: FOSTER MARC | Comment: SEE INSTRUMENT",
+        "RP-2019-41884 | 01/31/2019 | W/D | Grantor: MURRAY JAMES W Grantee: MURRAY MOLLIANNE | Desc: COPPERFIELD WESTCREEK VILLAGE Sec: 4 Lot: 78 Block: 4",
+        "RP-2019-416571 | 09/19/2019 | NOTICE | Grantor: MCGEE DELILAH Grantor: MURRAY BELEN Grantor: MURRAY JAMES J JR Grantee: MCGEE DELILAH Grantee: MURRAY BELEN Grantee: MURRAY JAMES J JR | Desc: POST OAK PLACE Sec: 6 Lot: 8 Block: 3 Related Docs",
+        "RP-2019-416568 | 09/19/2019 | W/D | Grantor: MURRAY BELEN Grantor: MURRAY JAMES J Grantee: MCGEE DELILAH | Desc: POST OAK PLACE Sec: 6 Lot: 8 Block: 3",
+        "RP-2019-152231 | 04/16/2019 | W/D | Grantor: MURRAY DARWIN P Grantor: MURRAY DESIREE R Grantor: MURRAY JAMES Grantee: VARNER MYAVIA T | Desc: REMINGTON RANCH Sec: 22 Lot: 25 Block: 4",
+        "RP-2018-217072 | 05/17/2018 | NOTICE | Grantor: COLLINS ROBERT C Grantor: COLLINS STEPHANIE Grantor: MURRAY JAMES Grantor: MURRAY SARAH Grantee: COLLINS ROBERT C Grantee: COLLINS STEPHANIE Grantee: MURRAY JAMES Grantee: MURRAY SARAH | Desc: MEADOWGREEN Sec: 1 Lot: 38 Block: 5",
+        "RP-2018-217071 | 05/17/2018 | D/T | Grantor: MURRAY JAMES Grantor: MURRAY SARAH Grantee: GUARANTEED RATE INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: MEADOWGREEN Sec: 1 Lot: 38 Block: 5 Related Docs",
+        "RP-2017-565034 | 12/27/2017 | W/D | Grantor: MURRAY GEORGIA THOMAS Grantor: MURRAY JAMES L III Grantee: BEINART JASON Grantee: BEINART STACI DAVIDOFF | Desc: MYLLA COURT Lot: 18 Block: 2",
+        "RP-2017-210434 | 05/15/2017 | AFFT | Grantor: MURRAY BELEN Grantor: MURRAY JAMES Grantee: GOMEZ DIANA BELEN EST | Desc: BRAMLEY ADDITION Lot: 22 Block: 2",
+        "RP-2016-124323 | 03/28/2016 | NOTICE | Grantor: ARNOTT JENNIFER Grantor: ARNOTT KYLE Grantor: MURRAY ANGELA Grantor: MURRAY JAMES CHADWICK Grantee: ARNOTT JENNIFER Grantee: ARNOTT KYLE Grantee: MURRAY ANGELA Grantee: MURRAY JAMES CHADWICK | Desc: SUMMERWOO Sec: 16 Lot: 21 Block: 1",
+        "RP-2016-124321 | 03/28/2016 | W/D | Grantor: MURRAY ANGELA Grantor: MURRAY JAMES CHADWICK Grantee: ARNOTT JENNIFER Grantee: ARNOTT KYLE | Desc: SUMMERWOOD Sec: 16 Lot: 21 Block: 1",
+        "RP-2016-109858 | 03/17/2016 | AFFT | Grantor: MURRAY JAMES H JR Grantee: SEE INSTRUMENT | Desc: ROBERTS A Abstract: 63 Comment: 2.998",
+        "RP-2016-109857 | 03/17/2016 | AFFT | Grantor: MURRAY JAMES H JR Grantor: MURRAY JANICE M Grantee: SEE INSTRUMENT | Desc: ROBERTS A Abstract: 63 Comment: 2.998",
+        "RP-2016-109856 | 03/17/2016 | D/T | Grantor: MURRAY JAMES H JR Grantor: MURRAY JANICE M Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SENTE MORTGAGE INC Trustee: GARNER RUTH W | Desc: ROBERTS A Abstract: 63 Comment: 2.998 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MURRAY JAMES')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "LIEN": 1,
+        "REL": 15,
+        "AFFT": 7,
+        "NOTICE": 18,
+        "W/D": 20,
+        "DECREE": 1,
+        "FI STM": 1,
+        "P/A": 3,
+        "D/T": 8,
+        "L AFFT": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MURRAY JAMES')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "35 instruments as grantee, 40 as grantor (index, name 'MURRAY JAMES')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MURRAY JAMES')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202471288",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "07/10/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-07-10: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202471288 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de MURRAY JAMES JR ESTATE (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 48291.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 24483.54,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 14452.51,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 24483.54,
+        "impuestos_que_hereda": 8107.5,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 734.51,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 37325.55,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 25752.72,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.294,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "NO PARA DUPLEX",
+    "rationale": "Lote 4,496 sqft / 100% del predio en zona de inundacion especial (SFHA): heuristica contra la salida dúplex (no es un limite legal). Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 25752.72,
+    "all_in_cost_estimate": 37325.55,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
+  }
+}

@@ -1,0 +1,756 @@
+{
+  "property_id": "harris-2026-11-acct-0752150020001",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "0 TRICHELLE PASADENA 77506",
+  "account_no": "0752150020001",
+  "cause_no": "202423338",
+  "intake": {
+    "opening_bid": {
+      "value": 115539.41,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 2; tipo SALE; sale# 2; sentencia 06/22/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "0 TRICHELLE, PASADENA, 77506",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "JOHN S KEIBLER & JACKSON (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "ADDRESS UNKNOWN, UNKNOWN",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "C1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "23980",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.5505",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "179880",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "179880",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "179880",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Vacant Table Value 6000.0000xSF $72000 | Res Vacant Table Value 17980.0000xSF $107880",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "TR 4 & W 50 FT OF LTS 1 2 & 3 BLK 2 WEST JACKSON PARK",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "01/02/1988",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.22471,
+        "lat": 29.70651
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0752150020001)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 13070,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0752150020001)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~58 x 238 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0752150020001)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF PASADENA",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2004,
+          "tax": 258.31,
+          "penalties_interest": 705.2,
+          "collection_penalty": 172.5,
+          "total": 1136.01
+        },
+        {
+          "year": 2005,
+          "tax": 259.5,
+          "penalties_interest": 675.13,
+          "collection_penalty": 167.49,
+          "total": 1102.12
+        },
+        {
+          "year": 2006,
+          "tax": 259.5,
+          "penalties_interest": 646.15,
+          "collection_penalty": 162.25,
+          "total": 1067.9
+        },
+        {
+          "year": 2007,
+          "tax": 257.68,
+          "penalties_interest": 610.71,
+          "collection_penalty": 155.4,
+          "total": 1023.79
+        },
+        {
+          "year": 2008,
+          "tax": 260.17,
+          "penalties_interest": 585.39,
+          "collection_penalty": 151.65,
+          "total": 997.21
+        },
+        {
+          "year": 2009,
+          "tax": 261.61,
+          "penalties_interest": 557.22,
+          "collection_penalty": 146.95,
+          "total": 965.78
+        },
+        {
+          "year": 2010,
+          "tax": 268.43,
+          "penalties_interest": 539.55,
+          "collection_penalty": 161.6,
+          "total": 969.58
+        },
+        {
+          "year": 2011,
+          "tax": 270.21,
+          "penalties_interest": 510.7,
+          "collection_penalty": 156.17,
+          "total": 937.08
+        },
+        {
+          "year": 2012,
+          "tax": 270.2,
+          "penalties_interest": 478.24,
+          "collection_penalty": 149.69,
+          "total": 898.13
+        },
+        {
+          "year": 2013,
+          "tax": 270.16,
+          "penalties_interest": 445.77,
+          "collection_penalty": 143.19,
+          "total": 859.12
+        },
+        {
+          "year": 2014,
+          "tax": 427.66,
+          "penalties_interest": 654.31,
+          "collection_penalty": 216.41,
+          "total": 1298.38
+        },
+        {
+          "year": 2015,
+          "tax": 424.01,
+          "penalties_interest": 597.86,
+          "collection_penalty": 204.38,
+          "total": 1226.25
+        },
+        {
+          "year": 2016,
+          "tax": 425.95,
+          "penalties_interest": 549.47,
+          "collection_penalty": 195.09,
+          "total": 1170.51
+        },
+        {
+          "year": 2017,
+          "tax": 767.25,
+          "penalties_interest": 897.68,
+          "collection_penalty": 332.98,
+          "total": 1997.91
+        },
+        {
+          "year": 2018,
+          "tax": 787.11,
+          "penalties_interest": 826.47,
+          "collection_penalty": 322.71,
+          "total": 1936.29
+        },
+        {
+          "year": 2019,
+          "tax": 1074.39,
+          "penalties_interest": 999.17,
+          "collection_penalty": 369.08,
+          "total": 2442.64
+        },
+        {
+          "year": 2020,
+          "tax": 1224.72,
+          "penalties_interest": 992.02,
+          "collection_penalty": 393.39,
+          "total": 2610.13
+        },
+        {
+          "year": 2021,
+          "tax": 1190.04,
+          "penalties_interest": 821.13,
+          "collection_penalty": 355.81,
+          "total": 2366.98
+        },
+        {
+          "year": 2022,
+          "tax": 1113.64,
+          "penalties_interest": 634.77,
+          "collection_penalty": 310.29,
+          "total": 2058.7
+        },
+        {
+          "year": 2023,
+          "tax": 1789.25,
+          "penalties_interest": 805.17,
+          "collection_penalty": 457.82,
+          "total": 3052.24
+        },
+        {
+          "year": 2024,
+          "tax": 1949.16,
+          "penalties_interest": 643.22,
+          "collection_penalty": 454.77,
+          "total": 3047.15
+        },
+        {
+          "year": 2025,
+          "tax": 2246.93,
+          "penalties_interest": 471.87,
+          "collection_penalty": 475.33,
+          "total": 3194.13
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0752150020001",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 36358.03,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0752150020001",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2004,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0752150020001",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 32027.89,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0752150020001",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 2246.93,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0752150020001",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 34274.82,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0752150020001",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "JOHN S KEIBLER & JACKSON ADDRESS UNKNOWN UNKNOWN 0 TRICHELLE TR 4 & W 50 FT OF LTS 1 2 & 3 BLK 2 WEST JACKSON PARK",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0752150020001",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 179880.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0752150020001",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202423338",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "06/22/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-06-22: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202423338 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de JOHN S KEIBLER & JACKSON (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 179880.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 91199.16,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 125706.88,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 125706.88,
+        "impuestos_que_hereda": 34274.82,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 3771.21,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 167752.91,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 102552.6,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.072,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "BAJA",
+    "rationale": "Techo teorico $102,553 < apertura $115,539. Jurisdiccion: CITY OF PASADENA. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 102552.6,
+    "all_in_cost_estimate": 167752.91,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-8387 | 01/09/2026 | DEED | Grantor: GALE P RUNNELLS 1963 TRUST Grantor: JPMORGAN CHASE BANK N A Grantor: RUNNELLS JOHN S III Grantee: JOHN S RUNNELLS III 1964 TRUST Grantee: JPMORGAN CHASE BANK N A Grantee: MARY W RUNNELLS 1964 TRUST Grantee: RUNNELLS JOHN S III Grantee: RUNNELLS MARY W | Comment: SEE INSTRUMENT",
+        "RP-2026-62659 | 02/19/2026 | A/J | Grantor: HARRIS COUNTY MUNICIPAL UTILITY DISTRICT #344 Grantor: HUMBLE INDEPENDENT SCHOOL DISTRICT Grantor: SAN JACINTO COMMUNITY COLLEGE DISTRICT Grantee: JOHN SEYMOUR TRUCKING LLC | Comment: SEE INSTRUMENT",
+        "RP-2026-43376 | 02/05/2026 | NOTICE | Grantor: DAVID STUMPO LLC Grantor: HIP REAL ESTATE HOMES INCOME PROPERTY LIMITED LIABILITY COMPANY Grantor: JOHN STUHLMAN LLC Grantor: LAKME CAPITAL LLC Grantor: LI INVESTMENT LLC Grantor: MORTUUS EQUIPMENT LTD Grantor: OLERICH HOLDINGS LLC Grantor: QUINN PROPERTIES LLC Grantor: RIZZUTO CPP LLC Grantor: STEVEN GAAL LLC Grantee: DAVID STUMPO LLC Grantee: HIP REAL ESTATE HOMES INCOME PROPERTY LIMITED LIABILITY COMPANY Grantee: JOHN STUHLMAN LLC Grantee: LAKME CAPITAL LLC Grantee: LI INVESTMENT LLC Grantee: MORTUUS EQUIPMENT LTD Grantee: OLERICH HOLDINGS LLC Grantee: QUINN PROPERTIES LLC Grantee: RIZZUTO CPP LLC Grantee: STEVEN GAAL LLC | Desc: WOODBRIDGE Sec: 2 Reserve: B",
+        "RP-2026-390764 | 09/25/2026 | NOTICE | Grantor: JOHN ALFRED Grantor: JOHN SUSHMITA Grantor: SAWHNEY AMBIKA Grantor: SHAD VIKRAM Grantee: JOHN ALFRED Grantee: JOHN SUSHMITA Grantee: SAWHNEY AMBIKA Grantee: SHAD VIKRAM | Desc: THE ENCLAVE AT CASTLEBRIDGE PARTIAL REPLAT NO 1 AMENDING PLAT Lot: 36 Block: 1 Related Docs",
+        "RP-2026-38070 | 02/02/2026 | D/T | Grantor: JOHN MELLINGER RODGERS TUW Grantor: JPMORGAN CHASE BANK N A Grantor: MARGUERITE MEACHUM MELLINGER TRUST Grantee: JOHN MELLINGER RODGERS TUW Grantee: JOHN SWEENEY MELLINGER TRUST Grantee: JPMORGAN CHASE BANK N A Trustee: TIDWELL SHELBY | Desc: RIVER OAKS COUNTRY CLUB ESTATES Lot: 11-12 Block: 5",
+        "RP-2026-38014 | 02/02/2026 | D/T | Grantor: JPMORGAN CHASE BANK N A Grantor: MARGUERITE MEACHUM MELLINGER TRUST Grantor: RODGERS LISA LUCILE Grantor: THURMOND LISA LUCILE Grantee: JOHN SWEENEY MELLINGER TRUST Grantee: JPMORGAN CHASE BANK N A Grantee: RODGERS LISA LUCILE Grantee: THURMOND LUCILE Trustee: TIDWELL SHELBY | Desc: RIVER OAKS COUNTRY CLUB ESTATES Lot: 11-12 Block: 5",
+        "RP-2026-335423 | 08/18/2026 | REL | Grantor: BANK OF AMERICA N A Grantor: FIRST AMERICAN MORTGAGE SOLUTIONS LLC Grantee: JOHN SUNNY M Grantee: MATHEW GRACY S Grantee: MATTHEW GRACY S | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-299870 | 07/24/2026 | W/D | Grantor: SOMAVARAPU JOHN A Grantor: SOMAVARAPU NIRMALA S Grantee: JOHN SOMAVARAPU AND NIRMALA SOMAVARAPU LIVING TRUST Grantee: SOMAVARAPU JOHN Grantee: SOMAVARAPU NIRMALA | Desc: COPPER LAKES Sec: 13 Lot: 11 Block: 3",
+        "RP-2026-293529 | 07/21/2026 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: NETWORK FUNDING L P Grantee: JOHN JESSICA S Grantee: JOHN SAM K | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-250577 | 06/24/2026 | AFFT | Grantor: HARRISON RONALD Grantor: STEWART RODNEY D Grantor: WILLIAMS ARLENE LINDY-ANN Grantee: JOHN SAMUEL AUGUSTUS EST Grantee: JOHN URSULA M EST | Comment: SEE INSTRUMENT",
+        "RP-2026-227552 | 06/09/2026 | LIEN | Grantor: CITY OF PASADENA Grantee: JOHN S KEIBLER & JACKSON | Desc: WEST JACKSON PARK Lot: 1-3 Block: 2",
+        "RP-2026-159858 | 04/27/2026 | ASSGN | Grantor: CHANG S REALESTATE INC Grantee: INSPIRA FINANCIAL TRUST LLC Grantee: JOHN SIMS IRA 3274911 Grantee: JOHN SIMS ROTH IRA 3274921 Grantee: JONATHAN SIMS ROTH IRA 3514721 Grantee: KATY CAPITAL INVESTMENTS LLC | Desc: HOMESTEAD ADDITION Sec: 2 Lot: 13 Block: 5",
+        "RP-2026-159857 | 04/27/2026 | D/T | Grantor: CHANG'S REALESTATE INC Grantee: INSPIRA FINANCIAL TRUST LLC Grantee: JOHN SIMS IRA #3274911 Grantee: JOHN SIMS ROTH IRA #3274921 Grantee: JONATHAN SIMS ROTH IRA #3514721 Grantee: KATY CAPITAL INVESTMENTS LLC Trustee: BRESLER RICHARD A | Desc: HOMESTEAD ADDITION Sec: 2 Lot: 13 Block: 5",
+        "RP-2026-148321 | 04/20/2026 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: UNITED WHOLESALE MORTGAGE LLC Grantee: JOHN SIMON Grantee: MATHEW RINCY SUSAN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-115798 | 03/27/2026 | ASSGN | Grantor: TEXAS NOTES LLC Grantee: INSPIRA FINANCIAL TRUST LLC Grantee: JOHN SIMS ROTH IRA 3274921 Grantee: JOHN SIMS TRADITIONAL IRA 3274911 Grantee: JONATHAN SIMS ROTH IRA 3514721 Grantee: TAMBREY SIMS ROTH IRA 4061021 | Desc: COLLEGE COURT PLACE Lot: 20 Block: 1 Related Docs",
+        "RP-2026-107586 | 03/23/2026 | DEED | Grantor: SPATH JOHN BRADFORD Grantee: JOHN SPATH REVOCABLE LIVING TRUST Grantee: SPATH JOHN BRADFORD | Desc: HOUSTON HEIGHTS Lot: 18 Block: 226",
+        "RP-2025-72192 | 02/28/2025 | DEED | Grantor: JOHN POOJAN PANDYA Grantee: JOHN BRYAN VARGHESE Grantee: JOHN MALAKAI VARGHESE Grantee: JOHN POOJAN PANDYA Grantee: JOHN SCION DAVAY Grantee: STEPHEN ASHLYN Grantee: STEPHEN BINDHU Grantee: STEPHEN JARED Grantee: STEPHEN KESLYN Grantee: STEPHEN SABU Grantee: STEPHEN SHAILYN | Desc: BRIDGELAND PARKLAND VILLAGE Sec: 5 Lot: 4 Block: 2",
+        "RP-2025-72191 | 02/28/2025 | DEED | Grantor: JOHN BRYAN VARGHESE Grantee: JOHN BRYAN VARGHESE Grantee: JOHN MALAKAI VARGHESE Grantee: JOHN POOJAN PANDYA Grantee: JOHN SCION DAVAY Grantee: STEPHEN ASHLYN Grantee: STEPHEN BINDHU Grantee: STEPHEN JARED Grantee: STEPHEN KESLYN Grantee: STEPHEN SABU Grantee: STEPHEN SHAILYN | Desc: BRIDGELAND PARKLAND VILLAGE Sec: 5 Lot: 4 Block: 2",
+        "RP-2025-511816 | 12/30/2025 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: JOHN JIMMY Grantee: JOHN SONA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-511085 | 12/30/2025 | REL | Grantor: CHAMPIONS LENDING LLC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: JOHN SONIA Grantee: MATHEW ROBERT | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-5061 | 01/06/2025 | W/D | Grantor: BRISCH BARBARA BELL EST Grantor: BRISCH MICHAEL CURTIS Grantee: JOHN ANNAMMA Grantee: JOHN SHYNY Grantee: JOHN STEPHEN | Desc: WESTBURY Sec: 1 Lot: 2 Block: 10",
+        "RP-2025-492073 | 12/15/2025 | AFFT | Grantor: BALDREE LARSTON B Grantor: BROWN ASHLEY E Grantor: TITLE HOUSTON HOLDINGS Grantee: FINE ABRAHAM Grantee: JOHN SOFIA | Desc: TULANE WEST Lot: 17 Block: 1 Related Docs",
+        "RP-2025-46005 | 02/10/2025 | NOTICE | Grantor: JOHN SIMON Grantor: MATHEW RINCY SUSAN Grantor: TRI POINTE HOMES TEXAS INC Grantee: JOHN SIMON Grantee: MATHEW RINCY SUSAN Grantee: TRI POINTE HOMES TEXAS INC | Desc: BRIDGELAND PRAIRIELAND VILLAGE Sec: 25 Lot: 12 Block: 1",
+        "RP-2025-46004 | 02/10/2025 | NOTICE | Grantor: JOHN SIMON Grantor: MATHEW RINCY SUSAN Grantor: TRI POINTE HOMES TEXAS INC Grantee: JOHN SIMON Grantee: MATHEW RINCY SUSAN Grantee: TRI POINTE HOMES TEXAS INC | Desc: BRIDGELAND PRAIRIELAND VILLAGE Sec: 25 Lot: 12 Block: 1",
+        "RP-2025-46002 | 02/10/2025 | W/D | Grantor: TRENDMAKER HOMES INC Grantor: TRI-POINTE HOMES TEXAS INC Grantee: JOHN SIMON Grantee: MATHEW RINCY SUSAN | Desc: BRIDGELAND PRAIRIELAND VILLAGE Sec: 25 Lot: 12 Block: 1",
+        "RP-2025-423563 | 10/24/2025 | NOTICE | Grantor: BALDREE ASHLEY ELIZABETH Grantor: BALDREE LARSTON BRUCE Grantor: FINE ABRAHAM J Grantor: JOHN SOFIA Grantee: BALDREE ASHLEY ELIZABETH Grantee: BALDREE LARSTON BRUCE Grantee: FINE ABRAHAM J Grantee: JOHN SOFIA | Desc: TULANE WEST Lot: 17 Block: 1",
+        "RP-2025-423561 | 10/24/2025 | W/D | Grantor: BALDREE LARSTON B Grantor: BROWN ASHLEY E Grantee: FINE ABRAHAM Grantee: JOHN SOFIA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-37617 | 02/03/2025 | ASSGN | Grantor: INVEST HOME PRO LLC Grantee: INSPIRA FINANCIAL TRUST LLC Grantee: JOHN SIMS ROTH IRA #3274921 Grantee: JONATHAN SIMS ROTH IRA #3514721 | Desc: NORTHWEST PARK Sec: 1 Lot: 8 Block: 1",
+        "RP-2025-37616 | 02/03/2025 | D/T | Grantor: INVEST HOME PRO LLC Grantee: INSPIRA FINANCIAL TRUST LLC Grantee: JOHN SIMS ROTH IRA #3274921 Grantee: JONATHAN SIMS ROTH IRA #3514721 Trustee: NEWSOM STEVEN S | Desc: NORTHWEST PARK Sec: 1 Lot: 8 Block: 1",
+        "RP-2025-366594 | 09/16/2025 | REL | Grantor: CITIBANK N A Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: CAPPS LISA R Grantee: JOHN SAMI | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-352187 | 09/05/2025 | DEED | Grantor: JOHN JACOB Grantor: JOHN SUSAN Grantee: JOHN JACOB Grantee: JOHN SUSAN | Desc: PINE BROOK Sec: 14 Lot: 7 Block: 1 Related Docs",
+        "RP-2025-339707 | 08/27/2025 | AFFT | Grantor: BEURY JOHN S EST Grantee: BEURY SUSAN Grantee: JOHN S BEURY MANAGMENT TRUST | Comment: SEE INSTRUMENT",
+        "RP-2025-333971 | 08/25/2025 | CONVEY | Grantor: GALE P RUNNELLS 1961 TRUST Grantor: JPMORGAN CHASE BANK N A Grantee: JOHN S RUNNELLS III 1961 TRUST Grantee: JPMORGAN CHASE BANK N A Grantee: MARY W RUNNELLS 1961 TRUST | Comment: SEE INSTRUMENT",
+        "RP-2025-315344 | 08/11/2025 | REL | Grantor: ATASCOCITA MEADOWS HOMEOWNERS ASSOCIATION INC Grantor: MCLAIN MELISSA Grantee: JOHN SARGENT FAMILY TRUST Grantee: SASSER JUSTIN | Desc: ATASCOCITA MEADOWS Lot: 48 Block: 4 Related Docs",
+        "RP-2025-315343 | 08/11/2025 | REL | Grantor: ATASCOCITA MEADOWS HOMEOWNERS ASSOCIATION INC Grantor: MCLAIN MELISSA Grantee: JOHN SARGENT FAMILY TRUST Grantee: SASSER JUSTIN | Desc: ATASCOCITA MEADOWS Lot: 48 Block: 4 Related Docs",
+        "RP-2025-272562 | 07/15/2025 | W/D | Grantor: REBER JOHN SCOTT Grantee: JOHN SCOTT REBER REVOCABLE TRUST Grantee: REBER JOHN SCOTT | Desc: GREEN TRAILS OAK Lot: 18 Block: 1",
+        "RP-2025-220319 | 06/09/2025 | L/P | Grantor: ATASCOCITA MEADOWS HOMEOWNERS ASSOCIATION INC Grantee: JOHN SARGENT FAMILY TRUST Grantee: SASSER JUSTIN | Desc: ATASCOCITA MEADOWS Lot: 48 Block: 4 Related Docs",
+        "RP-2025-186219 | 05/16/2025 | NOTICE | Grantor: COMEAUX CHANDLER R Grantor: HOLLEMAN BEVERLY B Grantor: JOHN S AND BEVERLY B HOLLEMAN LIVING TRUST Grantee: COMEAUX CHANDLER R Grantee: HOLLEMAN BEVERLY B Grantee: JOHN S AND BEVERLY B HOLLEMAN LIVING TRUST | Desc: THE BELLAIRE CONDOMINIUM Unit: 2D Related Docs",
+        "RP-2025-119727 | 04/02/2025 | A/J | Grantor: CLEAR CREEK INDEPENDENT SCHOOL DISTRICT Grantee: JOHN STEVIE | Comment: SEE INSTRUMENT",
+        "RP-2024-448714 | 12/03/2024 | W/D | Grantor: DYSLIN DERRICK J Grantor: DYSLIN LINDSAY L SMITH Grantor: SMITH LINDSAY L Grantee: JOHN SHERRI Grantee: THOMPSON SPANKY | Desc: WILLOWICK FOREST Sec: 2 Lot: 13 Block: 1",
+        "RP-2024-377796 | 10/11/2024 | AFFT | Grantor: HARRISON RONALD Grantor: STEWART RODNEY D Grantor: WILLIAMS ARLENE LINDY-ANN Grantee: JOHN SAMUEL AUGUSTUS EST | Desc: PLANTATION OAKS Lot: 3-4 Block: 3",
+        "RP-2024-332637 | 09/10/2024 | W/D | Grantor: PRYOR EDITH S Grantor: PRYOR JESSE E Grantee: JOHN SHYNY K Grantee: JOHN STEPHEN | Desc: MAPLEWOOD NORTH Sec: 2 Lot: 5 Block: 5",
+        "RP-2024-328120 | 09/06/2024 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: JOHN JIMMY Grantee: JOHN SONA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-313798 | 08/27/2024 | MODIF | Grantor: CAPITAL PARTNERS OF TEXAS LLC Grantee: JOHN SIMS ROTH IRA #3274921 Grantee: JONATHAN SIMS ROTH IRA #3514721 Grantee: QUEST TRUST COMPANY | Desc: HIDDEN VALLEY Sec: 3 Lot: 286 Block: 2 Related Docs",
+        "RP-2024-289933 | 08/09/2024 | W/D | Grantor: CAPPS LISA Grantee: JOHN SAMI | Desc: MILLS BRANCH VILLAGE Sec: 3 Lot: 2 Block: 5",
+        "RP-2024-236333 | 06/28/2024 | NOTICE | Grantor: BALCH CHARLES MITCHELL Grantor: HOLLEMAN BEVERLY B Grantor: JOHN S HOLLEMAN & BEVERLY B HOLLEMAN LIVING TRUST Grantee: BALCH CHARLES MITCHELL Grantee: HOLLEMAN BEVERLY B Grantee: JOHN S HOLLEMAN & BEVERLY B HOLLEMAN LIVING TRUST | Desc: THE BELLAIRE CONDOMINIUM Unit: 31 Related Docs",
+        "RP-2024-236332 | 06/28/2024 | W/D | Grantor: BALCH CHARLES MITCHELL Grantee: HOLLEMAN BEVERLY B Grantee: JOHN S HOLLEMAN & BEVERLY B HOLLEMAN LIVING TRUST | Desc: THE BELLAIRE CONDOMINIUM Unit: 31",
+        "RP-2024-201350 | 06/04/2024 | D/T | Grantor: HEFLIN'S HOUSE BUYERS LLC Grantee: JOHN SCHNEIDER IRA #4263411 Grantee: QUEST TRUST COMPANY Trustee: VALDEZ DANIEL | Desc: DANUBINA COURT Sec: 2-B Lot: 2 Block: 9",
+        "RP-2024-12171 | 01/11/2024 | ASSGN | Grantor: CAPITAL PARTNERS OF TEXAS LLC Grantee: JOHN SIMS ROTH IRA #3274921 Grantee: JONATHAN SIMS ROTH IRA #3514721 Grantee: QUEST TRUST COMPANY | Desc: HIDDEN VALLEY Sec: 3 Lot: 286 Block: 2",
+        "RP-2024-116020 | 04/02/2024 | W/D | Grantor: JACKSON CATHERINE L Grantor: JACKSON JAMES A EST Grantee: JOHN SONIA Grantee: MATHEW ROBERT | Desc: BRAE BURN CLUB ESTATES Lot: 1 Block: 2",
+        "RP-2024-115514 | 04/02/2024 | W/D | Grantor: HOLMGREN LISBETH Grantee: HOLLEMAN BEVERLY B Grantee: JOHN S AND BEVERLY B HOLLEMAN LIVING TRUST | Desc: THE BELLAIRE CONDOMINIUM Unit: 2D",
+        "RP-2023-78807 | 03/07/2023 | NOTICE | Grantor: BUTT AYISHA YOUSUF Grantor: BUTT MOHAMMAD Grantor: JOHN PETER K Grantor: JOHN SOSAMMA Grantee: BUTT AYISHA YOUSUF Grantee: BUTT MOHAMMAD Grantee: JOHN PETER K Grantee: JOHN SOSAMMA | Desc: MISSION BEND ESTATES Sec: 2 Lot: 4 Block: 1",
+        "RP-2023-5983 | 01/06/2023 | REL | Grantor: SCF JAKE LP Grantee: JOHN AMBILI JOHN Grantee: JOHN SAJI | Desc: MARGARETH MANOR Lot: 3 Block: 1",
+        "RP-2023-463246 | 12/08/2023 | W/D | Grantor: DE GUERRERO VERONICA HERNANDEZ Grantor: RESENDIZ VICTOR DAVID GUERRERO Grantee: JOHN JIMMY Grantee: JOHN SONA | Desc: THE WOODLANDS VILLAGE OF CREEKSIDE PARK Sec: 23 Lot: 17 Block: 1",
+        "RP-2023-449171 | 11/28/2023 | REL | Grantor: PNC BANK NATIONAL ASSOCIATION Grantee: JOHN JIMMY Grantee: JOHN SONA Grantee: JOSEPH SONA | Desc: THE WOODLANDS CREEKSIDE PARK WEST Sec: 20 Lot: 16 Block: 1 Related Docs",
+        "RP-2023-355466 | 09/15/2023 | LIEN | Grantor: ARCHER NOW LLC Grantor: ATASCOCITA MEADOWS HOMEOWNERS ASSOCIATION INC Grantor: GOODWIN & COMPANY Grantor: HAYS CLINT Grantee: JOHN SARGENT FAMILY TRUST | Desc: ATASCOCITA MEADOWS Lot: 48 Block: 4 Related Docs",
+        "RP-2023-221949 | 06/15/2023 | W/D | Grantor: REGAN CUSTOM HOMES LP Grantee: JOHN SCOTT ARNOLD AND JUDY STANCILL ARNOLD MANAGEMENT TRUST | Desc: MONTICELLO Lot: 7-8 Block: 13",
+        "RP-2023-165359 | 05/08/2023 | W/D | Grantor: COOK KYLIE Grantor: NICHOLSON KYLIE COOK Grantee: JOHN JOEL Grantee: JOHN STEFFIN | Desc: RIVERWALK CONDOMINIUMS Unit: 2110",
+        "RP-2023-154683 | 05/01/2023 | DEED | Grantor: JOHN ANN MARIE V Grantor: JOHN ANN MARIE VERICA Grantee: JOHN ANN MARIE V Grantee: JOHN ANN MARIE VERICA Grantee: JOHN SAMONE ALEXA Grantee: JOHN SAMUEL ALEXANDER JR | Desc: TORREY PINES Sec: 2 Lot: 37 Block: 3",
+        "RP-2022-66206 | 02/07/2022 | REL | Grantor: KIRKLAND FINANCIAL LLC Grantee: JOHN MYRA Grantee: JOHN SHAUGHN | Desc: EDGEWOOD TERRACE Sec: 1 Lot: 15 Block: 4 Related Docs",
+        "RP-2022-459499 | 09/12/2022 | W/D | Grantor: ANTONY ELSY Grantee: JOHN SALY | Desc: AIRPORT BOULEVARD ESTATES Sec: 1 Lot: 2 Block: 7",
+        "RP-2022-418014 | 08/16/2022 | NOTICE | Grantor: CONTEMPORARY GARDEN HOMES LTD Grantor: CONTEMPORARY REAL ESTATE LLC Grantor: DAVIS MARLENE Grantor: JOHN SHERRIE Grantee: CONTEMPORARY GARDEN HOMES LTD Grantee: CONTEMPORARY REAL ESTATE LLC Grantee: DAVIS MARLENE Grantee: JOHN SHERRIE | Desc: VILLAS ON MONROE Lot: 4 Block: 1 Related Docs",
+        "RP-2022-418012 | 08/16/2022 | W/D | Grantor: CONTEMPORARY GARDEN HOMES LTD Grantor: CONTEMPORARY REAL ESTATE LLC Grantee: DAVIS MARLENE Grantee: JOHN SHERRIE | Desc: VILLAS ON MONROE Lot: 4 Block: 1",
+        "RP-2022-416877 | 08/15/2022 | REL | Grantor: CALIBER HOME LOANS INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: ANTONY ELSY Grantee: JOHN SALY | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-404555 | 08/08/2022 | MEMO | Grantor: SALAZAR MAUBRICIO Grantee: JOHN SUAREZ | Comment: SEE INSTRUMENT",
+        "RP-2022-372052 | 07/20/2022 | PT REL | Grantor: MILBERG FACTORS INC Grantor: TOTZ JON D Grantee: JOHN SAMUELS ENTERPRISES Grantee: JOHN SAMUELS ENTERPRISES I Grantee: JOHN SAMUELS ENTERPRISES INC Grantee: PETTIES M S Grantee: PETTIES MARK Grantee: PETTIES MARK S Grantee: PETTIES MARK STEVEN | Desc: BLACKHOURSE RANCH SOUTH Sec: 1 Lot: 59 Block: 1 Related Docs",
+        "RP-2022-300452 | 06/09/2022 | W/D | Grantor: BETTER REAL ESTATE LLC Grantee: JOHN MICHAEL MATHEW Grantee: JOHN SARAH ELIZABETH | Desc: LAUREL PARK Sec: 1 Lot: 16 Block: 6",
+        "RP-2022-236927 | 05/05/2022 | W/D | Grantor: PIN PROPERTY BUYERS LLC Grantee: JOHN AMBILI Grantee: JOHN SAJI | Desc: MARGARETH MANOR Lot: 2 Block: 1",
+        "RP-2022-236573 | 05/04/2022 | W/D | Grantor: PIN PROPERTY BUYERS LLC Grantee: JOHN AMBILI Grantee: JOHN SAJI | Desc: MARGARETH MANOR Lot: 3 Block: 1",
+        "RP-2022-20658 | 01/12/2022 | P/A | Grantor: JOHN DAVID ALAN Grantee: JOHN STACIE CRAMER | Desc: NORTHGATE FOREST Block: 8",
+        "RP-2021-711689 | 12/14/2021 | NOTICE | Grantor: JOHN SCHMIDT LIVING TRUST Grantor: SCHMIDT JOHN TRE Grantee: JOHN SCHMIDT LIVING TRUST | Comment: SEE INSTRUMENT",
+        "RP-2021-469561 | 08/18/2021 | W/D | Grantor: 1114 W 22ND ST LLC Grantee: JOHN SONIA Grantee: MATHEW ROBERT | Desc: VILLAS ON WEST 22ND STREET Lot: 2 Block: 1",
+        "RP-2021-439839 | 08/03/2021 | W/D | Grantor: K HOVNANIAN HOUSTON PARKWAY TRAILS LLC Grantee: JOHN JOEL Grantee: JOHN STEFFIN ANN | Desc: PARKWAY TRAILS Sec: 4 Lot: 9 Block: 3",
+        "RP-2021-417451 | 07/23/2021 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: UNITED WHOLESALE MORTGAGE Grantee: JOHN SHEBA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-40508 | 01/26/2021 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: STEARNS LENDING INC Grantee: JOHN SHIBU M | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-295550 | 05/27/2021 | REL | Grantor: FAIRWAY INDEPENDENT MORTGAGE CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: JOHN JACOB Grantee: JOHN SUSAN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-226674 | 04/27/2021 | W/D | Grantor: SCHOTT BARBARA Y Grantor: STAUFFACHER JOHN J Grantee: JOHN STAUFFACHER AND BARBARA SCHOTT LIVING TRUST Grantee: SCHOTT BARBARA Y TRE Grantee: STAUFFACHER JOHN J TRE | Desc: THE SPIRES Unit: 1702",
+        "RP-2021-189693 | 04/09/2021 | REL | Grantor: IMORTGAGE Grantor: LOANDEPOT.COM LLC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: JOHN JESSICA S Grantee: JOHN SAM K | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-1451 | 01/04/2021 | W/D | Grantor: CRESCENT PLACE PARTNERS LLP Grantor: RIZZUTO RICHARD C Grantee: DAVID STUMPO LLC Grantee: HIP REAL ESTATE HOMES INCOME PROPERTY LIMITED LIABILITY COMPANY Grantee: JOHN STUHLMAN LLC Grantee: LI INVESTMENT LLC Grantee: MORTUUS EQUIPMENT LTD Grantee: OLERICH HOLDINGS LLC Grantee: QUINN PROPERTIES LLC Grantee: RIZZUTO CPP LLC Grantee: STEVEN GAAL LLC | Desc: WOODBRIDGE Sec: 2 Reserve: B Related Docs",
+        "RP-2020-98391 | 03/04/2020 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: NETWORK FUNDING LP Grantee: JOHN SHERIN Grantee: THALAYAT ANIL | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-629383 | 12/22/2020 | D/T | Grantor: J P M E LIMITED LIABILITY CORPORATION Grantee: JOHN SIMS ROTH #3274921 Grantee: LATIR INC Grantee: QUEST TRUST COMPANY Trustee: BANAHAN MARGARET H Trustee: MARTINEZ VERONICA | Desc: FOREST PINES Sec: 1 Lot: 35 Block: 3",
+        "RP-2020-608393 | 12/11/2020 | REL | Grantor: COE LAURA J Grantor: WEINGARTEN REALTY INVESTORS Grantee: JOHN SHIBU | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JOHN S')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-7713 | 01/08/2026 | D/T | Grantor: JOHN SONIA Grantor: MATHEW ROBERT Grantee: REGIONS BANK Grantee: REGIONS MORTGAGE Trustee: CONNELL EARL | Desc: BRAE BURN CLUB ESTATES Lot: 1 Block: 2 Related Docs",
+        "RP-2026-43376 | 02/05/2026 | NOTICE | Grantor: DAVID STUMPO LLC Grantor: HIP REAL ESTATE HOMES INCOME PROPERTY LIMITED LIABILITY COMPANY Grantor: JOHN STUHLMAN LLC Grantor: LAKME CAPITAL LLC Grantor: LI INVESTMENT LLC Grantor: MORTUUS EQUIPMENT LTD Grantor: OLERICH HOLDINGS LLC Grantor: QUINN PROPERTIES LLC Grantor: RIZZUTO CPP LLC Grantor: STEVEN GAAL LLC Grantee: DAVID STUMPO LLC Grantee: HIP REAL ESTATE HOMES INCOME PROPERTY LIMITED LIABILITY COMPANY Grantee: JOHN STUHLMAN LLC Grantee: LAKME CAPITAL LLC Grantee: LI INVESTMENT LLC Grantee: MORTUUS EQUIPMENT LTD Grantee: OLERICH HOLDINGS LLC Grantee: QUINN PROPERTIES LLC Grantee: RIZZUTO CPP LLC Grantee: STEVEN GAAL LLC | Desc: WOODBRIDGE Sec: 2 Reserve: B",
+        "RP-2026-390764 | 09/25/2026 | NOTICE | Grantor: JOHN ALFRED Grantor: JOHN SUSHMITA Grantor: SAWHNEY AMBIKA Grantor: SHAD VIKRAM Grantee: JOHN ALFRED Grantee: JOHN SUSHMITA Grantee: SAWHNEY AMBIKA Grantee: SHAD VIKRAM | Desc: THE ENCLAVE AT CASTLEBRIDGE PARTIAL REPLAT NO 1 AMENDING PLAT Lot: 36 Block: 1 Related Docs",
+        "RP-2026-390763 | 09/25/2026 | D/T | Grantor: JOHN ALFRED Grantor: JOHN SUSHMITA Grantee: FIRST COMMUNITY CREDIT UNION Trustee: BLACK MANN & GRAHAM LLP | Desc: ENCLAVE AT CASTLEBRIDGE PARTIAL REPLAT NO 1 AMENDING PLAT Lot: 36 Block: 1",
+        "RP-2026-38027 | 02/02/2026 | W/D | Grantor: DAVID STUMPO LLC Grantor: HIP REAL ESTATE HOMES INCOME PROPERTY LIMITED LIABILITY COMPANY Grantor: JOHN STUHLMAN LLC Grantor: LI INVESTMENT LLC Grantor: MORTUUS EQUIPMENT LTD Grantor: OLERICH HOLDINGS LLC Grantor: QUINN PROPERTIES LLC Grantor: RIZZUTO CPP LLC Grantor: STEVEN GAAL LLC Grantee: LAKME CAPITAL LLC | Desc: WOODBRIDGE Sec: 2 Reserve: B Related Docs",
+        "RP-2026-38026 | 02/02/2026 | AFFT | Grantor: DAVID STUMPO LLC Grantor: HIP REAL ESTATE HOMES INCOME PROPERTY LIMITED LIABILITY COMPANY Grantor: JOHN STUHLMAN LLC Grantor: LI INVESTMENT LLC Grantor: MORTUUS EQUIPMENT LTD Grantor: OLERICH HOLDINGS LLC Grantor: QUINN PROPERTIES LLC Grantor: RIZZUTO CPP LLC Grantor: STEVEN GAAL LLC Grantee: SEE INSTRUMENT | Desc: THE CRESCENT PLACE APARTMENTS Related Docs",
+        "RP-2026-368038 | 09/10/2026 | T/L | Grantor: JOHN S WHEEL REPAIR & TIRES CORP Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2026-32365 | 01/29/2026 | CONT | Grantor: JOHN SONIA Grantor: MATHEW ROBERT Grantee: HAMLET LUXURY HOMES LLC | Desc: BRAE BURN CLUB ESTATES Lot: 1 Block: 2",
+        "RP-2026-299871 | 07/24/2026 | AFFT | Grantor: JOHN SOMAVARAPU AND NIRMALA SOMAVARAPU LIVING TRUST Grantor: SOMAVARAPU JOHN Grantor: SOMAVARAPU NIRMALA Grantee: SEE INSTRUMENT | Desc: COPPER LAKES Sec: 13 Lot: 11 Block: 3",
+        "RP-2026-238525 | 06/16/2026 | W/D | Grantor: JOHN SARGENT FAMILY TRUST Grantor: SASSER JUSTIN Grantee: CASEY PAUL | Desc: ATASCOCITA MEADOWS Lot: 48 Block: 4",
+        "RP-2026-129194 | 04/06/2026 | D/T | Grantor: JOHN SIMON Grantor: MATHEW RINCY SUSAN Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: UNITED WHOLESALE MORTGAGE LLC Trustee: BLACK MANN & GRAHAM L L P | Desc: BRIDGELAND PRAIRIELAND VILLAGE Sec: 25 Lot: 12 Block: 1",
+        "RP-2025-496719 | 12/17/2025 | D/T | Grantor: JOHN JIMMY Grantor: JOHN SONA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SUN WEST MORTGAGE COMPANY INC Trustee: SANDLER LAW GROUP | Desc: THE WOODLANDS VILLAGE OF CREEKSIDE PARK Sec: 23 Lot: 17 Block: 1 Related Docs",
+        "RP-2025-46005 | 02/10/2025 | NOTICE | Grantor: JOHN SIMON Grantor: MATHEW RINCY SUSAN Grantor: TRI POINTE HOMES TEXAS INC Grantee: JOHN SIMON Grantee: MATHEW RINCY SUSAN Grantee: TRI POINTE HOMES TEXAS INC | Desc: BRIDGELAND PRAIRIELAND VILLAGE Sec: 25 Lot: 12 Block: 1",
+        "RP-2025-46004 | 02/10/2025 | NOTICE | Grantor: JOHN SIMON Grantor: MATHEW RINCY SUSAN Grantor: TRI POINTE HOMES TEXAS INC Grantee: JOHN SIMON Grantee: MATHEW RINCY SUSAN Grantee: TRI POINTE HOMES TEXAS INC | Desc: BRIDGELAND PRAIRIELAND VILLAGE Sec: 25 Lot: 12 Block: 1",
+        "RP-2025-46003 | 02/10/2025 | D/T | Grantor: JOHN SIMON Grantor: MATHEW RINCY SUSAN Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: UNITED WHOLESALE MORTGAGE LLC Trustee: ROBERTSON ANSCHUTZ VETTERS LLC | Desc: BRIDGELAND PRAIRIELAND VILLAGE Sec: 25 Lot: 12 Block: 1 Related Docs",
+        "RP-2025-447356 | 11/11/2025 | AFFT | Grantor: JOHN SAJEENA Grantor: PATHROSE JOHN Grantee: SEE INSTRUMENT | Desc: HERITAGE PARK Sec: 22 Lot: 9 Block: 2",
+        "RP-2025-447355 | 11/11/2025 | AFFT | Grantor: JOHN SAJEENA Grantor: PATHROSE JOHN Grantee: SEE INSTRUMENT | Desc: HERITAGE PARK Sec: 22 Lot: 9 Block: 2",
+        "RP-2025-447354 | 11/11/2025 | D/T | Grantor: JOHN SAJEENA Grantor: PATHROSE JOHN Grantee: DART COLLATERAL MANAGER LLC Grantee: WEST CAPITAL LENDING INC Trustee: KENNEDY SUTHERLAND LLP | Desc: HERITAGE PARK Sec: 22 Lot: 9 Block: 2 Related Docs",
+        "RP-2025-423563 | 10/24/2025 | NOTICE | Grantor: BALDREE ASHLEY ELIZABETH Grantor: BALDREE LARSTON BRUCE Grantor: FINE ABRAHAM J Grantor: JOHN SOFIA Grantee: BALDREE ASHLEY ELIZABETH Grantee: BALDREE LARSTON BRUCE Grantee: FINE ABRAHAM J Grantee: JOHN SOFIA | Desc: TULANE WEST Lot: 17 Block: 1",
+        "RP-2025-423562 | 10/24/2025 | D/T | Grantor: FINE ABRAHAM Grantor: JOHN SOFIA Grantee: CADENCE BANK Trustee: KUZDZAL SHANNA | Desc: TULANE WEST Lot: 17 Block: 1",
+        "RP-2025-408744 | 10/15/2025 | T/L | Grantor: JOHN S WHEEL REPAIR & TIRES CORP Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2025-36390 | 02/03/2025 | D/T | Grantor: JOHN AMBILI Grantor: JOHN SAJI Grantee: CROSSCOUNTRY MORTGAGE LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: RAMIREZ RICHARD A | Desc: MARGARETH MANOR Lot: 2 Block: 1",
+        "RP-2025-36386 | 02/03/2025 | D/T | Grantor: JOHN AMBILI Grantor: JOHN SAJI Grantee: CROSSCOUNTRY MORTGAGE LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: RAMIREZ RICHARD A | Desc: MARGARETH MANOR Lot: 3 Block: 1",
+        "RP-2025-352187 | 09/05/2025 | DEED | Grantor: JOHN JACOB Grantor: JOHN SUSAN Grantee: JOHN JACOB Grantee: JOHN SUSAN | Desc: PINE BROOK Sec: 14 Lot: 7 Block: 1 Related Docs",
+        "RP-2025-295332 | 07/29/2025 | T/L | Grantor: JOHN S WHEEL REPAIR & TIRES CORP Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2025-283324 | 07/22/2025 | REL | Grantor: INSPIRA FINANCIAL TRUST LLC Grantor: JOHN SIMS ROTH IRA #3274921 Grantor: JONATHAN SIMS ROTH IRA #3514721 Grantee: INVEST HOME PRO LLC | Desc: NORTHWEST PARK Sec: 1 Lot: 8 Block: 1",
+        "RP-2025-2645 | 01/03/2025 | REL | Grantor: JOHN SIMS ROTH IRA #3274921 Grantor: JONATHAN SIMS ROTH IRA #3514721 Grantor: QUEST TRUST COMPANY Grantee: NKX REAL ESTATE LLC | Desc: HIDDEN VALLEY Sec: 3 Lot: 286 Block: 2 Related Docs",
+        "RP-2025-25316 | 01/24/2025 | MODIF | Grantor: JOHN AMBILI Grantor: JOHN SAJI Grantee: ALLSTAR CONSTRUCTION LOANS Grantee: AMCASH LLC | Desc: MARGARETH MANOR Lot: 2 Block: 1 Related Docs",
+        "RP-2025-25315 | 01/24/2025 | MODIF | Grantor: JOHN AMBILI Grantor: JOHN SAJI Grantee: ALLSTAR CONSTRUCTION LOANS Grantee: AMCASH LLC | Desc: MARGARETH MANOR Lot: 3 Block: 1 Related Docs",
+        "RP-2025-227804 | 06/13/2025 | T/L | Grantor: JOHN S WHEEL REPAIR & TIRES CORP Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2025-186219 | 05/16/2025 | NOTICE | Grantor: COMEAUX CHANDLER R Grantor: HOLLEMAN BEVERLY B Grantor: JOHN S AND BEVERLY B HOLLEMAN LIVING TRUST Grantee: COMEAUX CHANDLER R Grantee: HOLLEMAN BEVERLY B Grantee: JOHN S AND BEVERLY B HOLLEMAN LIVING TRUST | Desc: THE BELLAIRE CONDOMINIUM Unit: 2D Related Docs",
+        "RP-2025-186217 | 05/16/2025 | W/D | Grantor: HOLLEMAN BEVERLY B Grantor: JOHN S AND BEVERLY B HOLLEMAN LIVING TRUST Grantee: COMEAUX CHANDLER R | Desc: BELLAIRE CONDOMINIUM Unit: 2D",
+        "RP-2024-448715 | 12/03/2024 | D/T | Grantor: JOHN SHERRI Grantor: THOMPSON SPANKY Grantee: DYSLIN DERRICK J Grantee: DYSLIN LINDSAY L SMITH Trustee: KATHLEEN BRADLEY P C | Desc: WILLOWICK FOREST Sec: 2 Lot: 13 Block: 1",
+        "RP-2024-431767 | 11/19/2024 | W/D | Grantor: JOHN SHERRI Grantor: THOMPSON SPANKY B J Grantee: LY VAN Grantee: NGUYEN TIEN | Desc: SHARPSTOWN Sec: 2 Lot: 53 Block: 42",
+        "RP-2024-352064 | 09/24/2024 | MODIF | Grantor: ALLSTAR CONSTRUCTION LOANS Grantor: AMCASH LLC Grantor: JOHN AMBILI Grantor: JOHN SAJI Grantee: AMCAP MORTGAGE LTD | Desc: MARGARETH MANOR Lot: 2 Block: 1 Related Docs",
+        "RP-2024-352063 | 09/24/2024 | MODIF | Grantor: ALLSTAR CONSTRUCTION LOANS Grantor: AMCASH LLC Grantor: JOHN AMBILI Grantor: JOHN SAJI Grantee: AMCAP MORTGAGE LTD | Desc: MARGARETH MANOR Lot: 3 Block: 1 Related Docs",
+        "RP-2024-332638 | 09/10/2024 | D/T | Grantor: JOHN SHYNY K Grantor: JOHN STEPHEN Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: UNITED WHOLESALE MORTGAGE LLC Trustee: BLACK MANN & GRAHAM L L P | Desc: MAPLEWOOD NORTH Sec: 2 Lot: 5 Block: 5",
+        "RP-2024-307963 | 08/22/2024 | D/T | Grantor: JOHN JIMMY Grantor: JOHN SONA Grantee: JPMORGAN CHASE BANK N A Trustee: POLUNSKY ALLAN B | Desc: THE WOODLANDS VILLAGE OF CREEKSIDE PARK Sec: 23 Lot: 17 Block: 1 Related Docs",
+        "RP-2024-236333 | 06/28/2024 | NOTICE | Grantor: BALCH CHARLES MITCHELL Grantor: HOLLEMAN BEVERLY B Grantor: JOHN S HOLLEMAN & BEVERLY B HOLLEMAN LIVING TRUST Grantee: BALCH CHARLES MITCHELL Grantee: HOLLEMAN BEVERLY B Grantee: JOHN S HOLLEMAN & BEVERLY B HOLLEMAN LIVING TRUST | Desc: THE BELLAIRE CONDOMINIUM Unit: 31 Related Docs",
+        "RP-2024-210514 | 06/11/2024 | MODIF | Grantor: JOHN AMBILI Grantor: JOHN SAJI Grantee: DUODUO CONSTRUCTION LLC Grantee: YE WENHAO | Desc: MARGARETH MANOR Lot: 2 Block: 1",
+        "RP-2024-210513 | 06/11/2024 | MODIF | Grantor: JOHN AMBILI Grantor: JOHN SAJI Grantee: AMCAP MORTGAGE LTD | Desc: MARGARETH MANOR Lot: 2 Block: 1 Related Docs",
+        "RP-2024-210512 | 06/11/2024 | MODIF | Grantor: JOHN AMBILI Grantor: JOHN SAJI Grantee: AMCAP MORTGAGE LTD | Desc: MARGARETH MANOR Lot: 3 Block: 1"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JOHN S')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "DEED": 7,
+        "A/J": 2,
+        "NOTICE": 17,
+        "D/T": 18,
+        "REL": 21,
+        "W/D": 27,
+        "AFFT": 8,
+        "LIEN": 2,
+        "ASSGN": 4,
+        "CONVEY": 1,
+        "L/P": 1,
+        "MODIF": 8,
+        "MEMO": 1,
+        "PT REL": 1,
+        "P/A": 1,
+        "T/L": 4,
+        "CONT": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JOHN S')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "82 instruments as grantee, 42 as grantor (index, name 'JOHN S')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JOHN S')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  }
+}

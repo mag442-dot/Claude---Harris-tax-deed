@@ -1,0 +1,519 @@
+{
+  "property_id": "harris-2026-11-acct-1141250100032",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "15718 AMAPOLA DR HOUSTON 77083",
+  "account_no": "1141250100032",
+  "cause_no": "202586259",
+  "intake": {
+    "opening_bid": {
+      "value": 35728.42,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 5; tipo SALE; sale# 3; sentencia 05/13/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "15718 AMAPOLA DR, HOUSTON, 77083",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "KLEIN RICHARD A (0.5000%); DAVIS LINDA L ESTATE OF (0.5000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "3711 BURWOOD CT, PEARLAND, TX, 77584-5113",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "7320",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1680",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "2186",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1979",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "56256",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "187313",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "243569",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "250076",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 7000.0000xSF $56000 | Res Improved Table Value 320.0000xSF $256",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 2666sf built 1979",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "11/24/1993 1993-P576255",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LT 32 BLK 10 MISSION BEND SEC 2",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "11/30/2010",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.663439,
+        "lat": 29.708083
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=1141250100032)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 7656,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=1141250100032)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~70 x 115 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=1141250100032)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2023,
+          "tax": 1879.9,
+          "penalties_interest": 845.96,
+          "collection_penalty": 442.83,
+          "total": 3168.69
+        },
+        {
+          "year": 2024,
+          "tax": 1978.11,
+          "penalties_interest": 652.77,
+          "collection_penalty": 424.95,
+          "total": 3055.83
+        },
+        {
+          "year": 2025,
+          "tax": 2069.96,
+          "penalties_interest": 434.7,
+          "collection_penalty": 405.78,
+          "total": 2910.44
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1141250100032",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 9134.96,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1141250100032",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2023,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1141250100032",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 3055.83,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1141250100032",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 2069.96,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1141250100032",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 5125.79,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1141250100032",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "KLEIN RICHARD A DAVIS LINDA L ESTATE OF 3711 BURWOOD CT PEARLAND TX 77584 15718 AMAPOLA DR LT 32 BLK 10 MISSION BEND SEC 2",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1141250100032",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 250076.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1141250100032",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202586259",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "05/13/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-05-13: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202586259 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de KLEIN RICHARD A (0.5000%); DAVIS LINDA L en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 243569.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 123489.48,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 38872.52,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 123489.48,
+        "impuestos_que_hereda": 5125.79,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 3704.68,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 136319.95,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 180319.82,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.787,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $180,320 >= cierre esperado $123,489. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Indice del Clerk (misma subdivision): lien de mecanico. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 180319.82,
+    "all_in_cost_estimate": 136319.95,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2017-135444 | 03/30/2017 | REL | Grantor: GATEWAY MORTGAGE GROUP LLC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: KLEIN RICHARD P Grantee: YEOMANS VICKI | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-31093 | 01/25/2016 | REL | Grantor: INTERNAL REVENUE SERVICE Grantee: KLEIN RICHARD A | Comment: SEE INSTRUMENT",
+        "RP-2016-22940 | 01/19/2016 | P/A | Grantor: YEOMANS VICKI ANN Grantee: DESAI MANISH Grantee: KLEIN RICHARD PHILLIP Grantee: YEOMANS-DESAI PATRICIA ANN | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'KLEIN RICHARD')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2023-119834 | 04/05/2023 | FI STM | Grantor: KLEIN CAROL Grantor: KLEIN RICHARD Grantor: KLEIN RICHARD W Grantee: SUNNOVA SLA MANAGEMENT LLC | Desc: CHAMPIONS PLACE Lot: 11 Block: 4",
+        "RP-2022-422825 | 08/18/2022 | W/D | Grantor: BRENDA CAROL LAKE TESTAMENTARY TRUST #1 Grantor: EDWARD J KLEIN FAMILY TRUST Grantor: GABRIEL SARA K TRE Grantor: KLEIN BENJAMIN N TRE Grantor: KLEIN EDWARD J Grantor: KLEIN ERNEST BERNARD EST Grantor: KLEIN NATHAN J II TRE Grantor: KLEIN RICHARD ALLEN TRE Grantor: LAKE CHESTER RAYBURN TRE Grantor: LAVIN DANIEL NORMAN Grantor: MARKEY LAWRENCE M TRE Grantor: MARKEY RANDOLPH L TRE Grantor: MCLAUGHLIN DEBORAH LYNN KLEIN TRE Grantor: SHIRLEY KLEIN MARKEY FAMILY TRUST Grantee: HOUSTON PARKS BOARD LGC INC | Desc: HAMILTON J Abstract: 877",
+        "RP-2019-141390 | 04/09/2019 | ASSGN | Grantor: ALIEF ISD Grantor: KLEIN RICHARD A Grantee: CAZ CREEK TX LLC | Desc: MISSION BEND Sec: 2 Lot: 32 Block: 10",
+        "RP-2019-141388 | 04/09/2019 | ASSGN | Grantor: CHELFORD ONE MUD Grantor: KLEIN RICHARD A Grantee: CAZ CREEK TX LLC | Desc: MISSION BEND Sec: 2 Lot: 32 Block: 10",
+        "RP-2019-130697 | 04/02/2019 | ASSGN | Grantor: DAVIS LINDA L EST Grantor: EMERGENCY SERV DIST #100- E M S /FIRE Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: KLEIN RICHARD A Grantor: PORT OF HOUSTON AUTHORITY Grantee: CAZ CREEK LLC | Desc: MISSION BEND Sec: 2 Lot: 32 Block: 10 Related Docs",
+        "RP-2019-122806 | 03/28/2019 | CONT | Grantor: KLEIN RICHARD A Grantee: CAZ CREEK TX LLC | Desc: MISSION BEND Sec: 2 Lot: 32 Block: 10 Related Docs",
+        "RP-2018-165811 | 04/18/2018 | T/L | Grantor: KLEIN RICHARD A Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2017-133916 | 03/30/2017 | W/D | Grantor: KLEIN RICHARD P Grantor: YEOMANS VICKI Grantee: BARNETT LOUANN | Desc: BRIAR HOLLOW TOWNHOUSES NO SIX",
+        "RP-2016-362733 | 08/16/2016 | ASSGN | Grantor: CHELFORD ONE MUD Grantor: KLEIN RICHARD A Grantee: TAX EASE FUNDING LLC | Desc: MISSION BEND Sec: 2 Lot: 32 Block: 10 Related Docs",
+        "RP-2016-344395 | 08/04/2016 | W/D | Grantor: 2307 S SHAVER LP Grantor: KLEIN RICHARD P Grantee: JIANG WEIPING | Desc: SHAVER PLACE ADDITION Sec: 1 Block: 1",
+        "RP-2016-253957 | 06/14/2016 | ASSGN | Grantor: ALIEF ISD Grantor: KLEIN RICHARD A Grantee: TAX EASE FUNDING LLC | Desc: MISSION BEND Sec: 2 Lot: 32 Block: 10 Related Docs",
+        "RP-2016-251452 | 06/13/2016 | ASSGN | Grantor: DAVIS LINDA L EST Grantor: EMERGENCY SERV DIST #100-E M S/FIRE Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: KLEIN RICHARD A Grantor: PORT OF HOUSTON AUTHORITY Grantee: TAX EASE FUNDING LP | Desc: MISSION BEND Sec: 2 Lot: 32 Block: 10 Related Docs",
+        "RP-2016-231565 | 06/01/2016 | CONT | Grantor: KLEIN RICHARD A Grantee: TAX EASE FUNDING LLC | Desc: MISSION BEND Sec: 2 Lot: 32 Block: 10 Related Docs",
+        "RP-2016-22941 | 01/19/2016 | P/A | Grantor: KLEIN RICHARD PHILLIP Grantee: DESAI MANISH Grantee: YEOMANS VICKI ANN Grantee: YEOMANS-DESAI PATRICIA ANN | Comment: SEE INSTRUMENT",
+        "RP-2016-134369 | 04/01/2016 | REL | Grantor: KLEIN RICHARD E EST Grantor: KLEIN SHEILLA T Grantee: KLEIN ELIZABETH Grantee: KLEIN MARK R | Desc: GARDEN OAKS Sec: 3 Lot: 12 Block: 39"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'KLEIN RICHARD')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "REL": 3,
+        "P/A": 2,
+        "FI STM": 1,
+        "W/D": 3,
+        "ASSGN": 6,
+        "CONT": 2,
+        "T/L": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'KLEIN RICHARD')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "3 instruments as grantee, 15 as grantor (index, name 'KLEIN RICHARD')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'KLEIN RICHARD')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  }
+}

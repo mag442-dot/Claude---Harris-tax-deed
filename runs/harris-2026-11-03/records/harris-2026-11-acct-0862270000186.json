@@ -1,0 +1,621 @@
+{
+  "property_id": "harris-2026-11-acct-0862270000186",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "187 CYPRESS ST HUFFMAN 77336-3402",
+  "account_no": "0862270000186",
+  "cause_no": "202277773",
+  "intake": {
+    "opening_bid": {
+      "value": 11349.1,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 3; tipo SALE; sale# 4; sentencia 07/10/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "187 CYPRESS ST, HUFFMAN, 77336",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "BROOKS THOMAS J & LINDA J (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "187 CYPRESS ST, HUFFMAN, TX, 77336-3402",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "C1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "12600",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.2892",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "1950",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "34650",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "34650",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "34650",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Vacant Table Value 6300.0000xSF $17325 | Res Vacant Table Value 6300.0000xSF $17325",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "LTS 186 & 187 RIVER TERRACE",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "05/04/1994",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": "AE",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "fema_sfha": {
+      "value": false,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.148458,
+        "lat": 30.098006
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0862270000186)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 13450,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0862270000186)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~110 x 125 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0862270000186)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "AE": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 100.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2009,
+          "tax": 75.42,
+          "penalties_interest": 160.64,
+          "collection_penalty": 47.2,
+          "total": 283.26
+        },
+        {
+          "year": 2010,
+          "tax": 75.62,
+          "penalties_interest": 152.0,
+          "collection_penalty": 45.53,
+          "total": 273.15
+        },
+        {
+          "year": 2011,
+          "tax": 75.62,
+          "penalties_interest": 142.91,
+          "collection_penalty": 43.7,
+          "total": 262.23
+        },
+        {
+          "year": 2012,
+          "tax": 75.62,
+          "penalties_interest": 133.84,
+          "collection_penalty": 41.9,
+          "total": 251.36
+        },
+        {
+          "year": 2013,
+          "tax": 75.61,
+          "penalties_interest": 124.76,
+          "collection_penalty": 40.07,
+          "total": 240.44
+        },
+        {
+          "year": 2014,
+          "tax": 75.57,
+          "penalties_interest": 115.63,
+          "collection_penalty": 38.24,
+          "total": 229.44
+        },
+        {
+          "year": 2015,
+          "tax": 167.29,
+          "penalties_interest": 151.28,
+          "collection_penalty": 51.7,
+          "total": 370.27
+        },
+        {
+          "year": 2016,
+          "tax": 107.26,
+          "penalties_interest": 138.37,
+          "collection_penalty": 49.12,
+          "total": 294.75
+        },
+        {
+          "year": 2017,
+          "tax": 107.25,
+          "penalties_interest": 125.48,
+          "collection_penalty": 46.54,
+          "total": 279.27
+        },
+        {
+          "year": 2018,
+          "tax": 51.88,
+          "penalties_interest": 54.47,
+          "collection_penalty": 21.27,
+          "total": 127.62
+        },
+        {
+          "year": 2019,
+          "tax": 50.59,
+          "penalties_interest": 47.06,
+          "collection_penalty": 15.44,
+          "total": 113.09
+        },
+        {
+          "year": 2020,
+          "tax": 49.71,
+          "penalties_interest": 40.26,
+          "collection_penalty": 14.24,
+          "total": 104.21
+        },
+        {
+          "year": 2021,
+          "tax": 86.48,
+          "penalties_interest": 59.66,
+          "collection_penalty": 22.99,
+          "total": 169.13
+        },
+        {
+          "year": 2022,
+          "tax": 120.1,
+          "penalties_interest": 68.46,
+          "collection_penalty": 29.77,
+          "total": 218.33
+        },
+        {
+          "year": 2023,
+          "tax": 120.03,
+          "penalties_interest": 54.02,
+          "collection_penalty": 27.49,
+          "total": 201.54
+        },
+        {
+          "year": 2024,
+          "tax": 160.73,
+          "penalties_interest": 51.44,
+          "collection_penalty": 33.32,
+          "total": 245.49
+        },
+        {
+          "year": 2025,
+          "tax": 198.4,
+          "penalties_interest": 41.67,
+          "collection_penalty": 37.66,
+          "total": 277.73
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0862270000186",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 3941.31,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0862270000186",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2009,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0862270000186",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 3380.32,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0862270000186",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 198.4,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0862270000186",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 3578.72,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0862270000186",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "BROOKS THOMAS J & LINDA J 187 CYPRESS ST HUFFMAN TX 77336 187 CYPRESS ST LTS 186 & 187 RIVER TERRACE",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0862270000186",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 27216.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0862270000186",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202277773",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "07/10/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-07-10: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202277773 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de BROOKS THOMAS J & LINDA J (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 34650.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 17567.55,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 12347.82,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 17567.55,
+        "impuestos_que_hereda": 3578.72,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 527.03,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 25673.3,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 19554.64,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.35,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "NO PARA DUPLEX",
+    "rationale": "Lote 13,450 sqft / 100% del predio en zona de inundacion especial (SFHA): heuristica contra la salida dúplex (no es un limite legal). Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 19554.64,
+    "all_in_cost_estimate": 25673.3,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-358454 | 09/02/2026 | DEED | Grantor: BROOKS MARY M Grantor: BROOKS THOMAS L JR Grantee: BROOKS ANDREW THOMAS Grantee: BROOKS MARY M Grantee: BROOKS THOMAS L JR Grantee: EDWARDS ALLISON BROOKS | Desc: SAND CREEK VILLAGE Sec: 1 Lot: 17 Block: 25",
+        "RP-2026-122326 | 04/01/2026 | NOTICE | Grantor: BROOKS JUDITH A Grantor: BROOKS THOMAS D Grantor: MCCOLLUM MICHAEL J Grantee: BROOKS JUDITH A Grantee: BROOKS THOMAS D Grantee: MCCOLLUM MICHAEL J | Desc: CHAMPION FOREST Sec: 10 Lot: 8 Block: 2",
+        "RP-2025-76178 | 03/04/2025 | A/J | Grantor: STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY Grantor: WILLIAMS TOMEKA Grantee: BROOKS THOMAS | Comment: SEE INSTRUMENT",
+        "RP-2024-80081 | 03/07/2024 | REL | Grantor: EVERETT FINANCIAL INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: SUPREME LENDING Grantee: BROOKS JUDITH A Grantee: BROOKS THOMAS D | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-205142 | 06/05/2023 | REL | Grantor: SHELL FEDERAL CREDIT UNION Grantee: BROOKS SHERRY LEE Grantee: BROOKS THOMAS W Grantee: BROOKS THOMAS WAYNE | Desc: LAKECREST FOREST Sec: 1 Lot: 13 Block: 6 Related Docs",
+        "RP-2021-477902 | 08/23/2021 | LIEN | Grantor: ATTORNEY GENERAL OF TEXAS Grantor: OWENS SHANTELE EVETTE Grantee: BROOKS THOMAS | Comment: SEE INSTRUMENT",
+        "RP-2021-473781 | 08/19/2021 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: PATRIOT BANK MORTGAGE INC Grantee: BROOKS SHERRY LEE Grantee: BROOKS THOMAS W | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-298049 | 07/11/2019 | LIEN | Grantor: CITY OF HOUSTON Grantee: BROOKS THOMAS | Desc: INDEPENDENCE HEIGHTS PARK Lot: 14-15 Block: 67",
+        "RP-2018-66921 | 02/16/2018 | LIEN | Grantor: CITY OF HOUSTON Grantee: BROOKS THOMAS | Desc: INDEPENDENCE HEIGHTS PARK Lot: 14-15 Block: 67",
+        "RP-2017-508264 | 11/17/2017 | FI STM | Grantor: SNAP HOME FINANCE INC Grantee: BROOKS THOMAS WAYNE | Desc: LAKECREST FOREST Sec: 1 Lot: 13 Block: 6 Related Docs",
+        "RP-2017-17888 | 01/13/2017 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: BROOKS CATHY Grantee: BROOKS THOMAS A | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-317816 | 07/21/2016 | REL | Grantor: EMBRACE HOME LOANS INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: BROOKS RENEE Grantee: BROOKS THOMAS J Grantee: MCCRORY RENEE | Desc: NEWPORT Sec: 6 Lot: 24 Block: 9 Related Docs",
+        "RP-2016-190400 | 05/05/2016 | LIEN | Grantor: CITY OF HOUSTON Grantee: BROOKS THOMAS Grantee: JACOB SHEILA R Grantee: ROBINSON LEE Grantee: SCOTT ROOSEVELT JR Grantee: WATKINGS ALLEN EST Grantee: WATKINS ALLEN EST Grantee: WATKINS JEWELL L EST Grantee: WILLIS JEWEL EST | Desc: INDEPENDENCE HEIGHTS PARK Lot: 14-15 Block: 67"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BROOKS THOMAS')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-358454 | 09/02/2026 | DEED | Grantor: BROOKS MARY M Grantor: BROOKS THOMAS L JR Grantee: BROOKS ANDREW THOMAS Grantee: BROOKS MARY M Grantee: BROOKS THOMAS L JR Grantee: EDWARDS ALLISON BROOKS | Desc: SAND CREEK VILLAGE Sec: 1 Lot: 17 Block: 25",
+        "RP-2026-122326 | 04/01/2026 | NOTICE | Grantor: BROOKS JUDITH A Grantor: BROOKS THOMAS D Grantor: MCCOLLUM MICHAEL J Grantee: BROOKS JUDITH A Grantee: BROOKS THOMAS D Grantee: MCCOLLUM MICHAEL J | Desc: CHAMPION FOREST Sec: 10 Lot: 8 Block: 2",
+        "RP-2026-122324 | 04/01/2026 | W/D | Grantor: BROOKS JUDITH A Grantor: BROOKS THOMAS D Grantee: MCCOLLUM LISA ANN Grantee: MCCOLLUM MICHAEL J | Desc: CHAMPION FOREST Sec: 10 Lot: 8 Block: 2",
+        "RP-2024-241337 | 07/02/2024 | DEED | Grantor: BOULTINGHOUSE KATHERINE Grantor: BROOKS LINDA LYNN Grantor: BROOKS MARY ALMA-LEE Grantor: BROOKS THOMAS DLAE Grantor: BURNS DALE RICHARD Grantor: BURNS LAMAR DAVID Grantor: BURNS LAMAR DAVID SR Grantor: BURNS MORRIS RICHARD Grantor: BURNS WILLIAM FRANKLIN\\ Grantor: EAGLETON SHERMAN CONST Grantor: HUFFMAN INDEPENDENT SCHOOL DISTRICT Grantor: LAPE EDWARD MICKEAL Grantor: LAPE MARY KATHERINE JAMES Grantor: WILKS BRIDGETTE Grantor: WILKS JAMES WILLIAM-EDWARD Grantee: MOSES WALTER ALLEN JR | Comment: SEE INSTRUMENT",
+        "RP-2023-403876 | 10/20/2023 | DEED | Grantor: BOULTINGHOUSE KATHERINE Grantor: BROOKS LINDA LYNN Grantor: BROOKS MARY ALMA-LEE Grantor: BROOKS THOMAS DALE Grantor: BURNS DALE RICHARD Grantor: BURNS LAMAR DAVID Grantor: BURNS LAMAR DAVID SR Grantor: BURNS MORRIS RICHARD Grantor: BURNS WILLIAM FRANKLIN Grantor: EAGLETON SHERMAN CONST Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY EMERGENCY SERVICES DISTRICT #4 Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HUFFMAN INDEPENDENT SCHOOL DISTRICT Grantor: LAPE HARRIS MICKEAL Grantor: LAPE MARY KATHERINE JAMES Grantor: PORT OF HOUSTON AUTHORITY OF HARRIS COUNTY Grantor: WILKS BRIDGETTE Grantor: WILKS JAMES WILLIAMS-EDWARD Grantee: HUFFMAN INDEPENDENT SCHOOL DISTRICT | Desc: ISBELL J H Abstract: 478 Comment: 0.669",
+        "RP-2021-593236 | 10/14/2021 | AFFT | Grantor: BROOKS THOMAS Grantor: BROOKS THOMAS W Grantee: SEE INSTRUMENT | Desc: LAKECREST FOREST Sec: 1 Lot: 13 Block: 6",
+        "RP-2021-593235 | 10/14/2021 | D/T | Grantor: BROOKS SHERRY LEE Grantor: BROOKS THOMAS Grantor: BROOKS THOMAS W Grantee: WELLS FARGO BANK N A Trustee: FOWLER ROBERT K | Desc: LAKECREST FOREST Sec: 1 Lot: 13 Block: 6",
+        "RP-2019-396373 | 09/06/2019 | DEED | Grantor: BROOKS THOMAS Grantor: HARRIS COUNTY Grantor: JACOB SHEILA R Grantor: JACOB SHEILA RANSOM Grantor: ROBINSON LEE Grantor: ROSEN ALAN CONST Grantor: WATKINS ALLEN Grantor: WATKINS JEWEL LITTLE Grantor: WATKINS JEWELL Grantee: ADVANCE CAPITAL INVESTMENT LLC | Desc: INDEPENDENCE HEIGHTS PARK Lot: 14-15 Block: 67",
+        "RP-2018-214536 | 05/16/2018 | AFFT | Grantor: BROOKS SHERRY LEE Grantor: BROOKS THOMAS W Grantor: BROOKS THOMAS WAYNE Grantee: SEE INSTRUMENT | Desc: LAKECREST FOREST Sec: 1 Lot: 13 Block: 6",
+        "RP-2018-214535 | 05/16/2018 | D/T | Grantor: BROOKS SHERRY LEE Grantor: BROOKS THOMAS W Grantor: BROOKS THOMAS WAYNE Grantee: SHELL FEDERAL CREDIT UNION Trustee: TURNER D'ANNE | Desc: LAKECREST FOREST Sec: 1 Lot: 13 Block: 6 Related Docs",
+        "RP-2017-524501 | 11/30/2017 | W/D | Grantor: BROOKS DARLENE D Grantor: BROOKS DAVID R EST Grantor: BROOKS DAVID STEVEN Grantor: BROOKS GLENDA JEAN Grantor: BROOKS LULA M EST Grantor: BROOKS SANDRA L Grantor: BROOKS THOMAS R Grantee: GREEN WATER GROUP LLC | Desc: WEBSTER TOWNSITE Lot: 6-7 Block: 41",
+        "RP-2016-339402 | 08/02/2016 | DEED | Grantor: BROOKS THOMAS Grantor: BROOKS THOMAS JAMES Grantor: CITY OF HOUSTON Grantor: CITY OF HOUSTON TRE Grantor: CONWAY SHERREL A Grantor: CONWAY SHERREL VANDURING Grantor: HARRIS COUNTY Grantor: HENDERSON FREDERICK C Grantor: HENDERSON FREDERICK CHARLES Grantor: HENDERSON HERMAN JR Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON INDEPENDENT SCHOOL DISTRICT Grantor: KNOP MARK K Grantor: KNOP MARK KENNETH Grantor: MARTINEZ HELIODORO CONST Grantor: MOSBY BRIAN ELLIOT Grantor: MOSBY PAUL RICHARD Grantor: MOSBY RICHARD JAMES EST Grantor: THOMAS CALVIN Grantor: THOMAS CALVIN DWAYNE Grantee: CITY OF HOUSTON Grantee: CITY OF HOUSTON TRE Grantee: HARRIS COUNTY Grantee: HOUSTON COMMUNITY COLLEGE SYSTEM Grantee: HOUSTON INDEPENDENT SCHOOL DISTRICT | Desc: FARMER-TEAL ADDITION Lot: 11 Block: 4",
+        "RP-2016-308024 | 07/15/2016 | W/D | Grantor: BROOKS RENEE Grantor: BROOKS THOMAS J Grantee: GOUGER STANLEY EUGENE | Desc: NEWPORT Sec: 6 Lot: 24 Block: 9"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BROOKS THOMAS')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "DEED": 6,
+        "NOTICE": 2,
+        "A/J": 1,
+        "REL": 5,
+        "LIEN": 4,
+        "FI STM": 1,
+        "W/D": 3,
+        "AFFT": 2,
+        "D/T": 2
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BROOKS THOMAS')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "13 instruments as grantee, 13 as grantor (index, name 'BROOKS THOMAS')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BROOKS THOMAS')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  }
+}

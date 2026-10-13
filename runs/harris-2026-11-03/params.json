@@ -1,1 +1,14 @@
-{"target_margin_pct": 25, "exit_strategy": "duplex"}
+{
+  "target_margin_pct": 25,
+  "exit_strategy": "duplex",
+  "assumptions": {
+    "_nota": "Valores editables. close_to_value_* salen de 14 lotes vendidos el 04/08/2026 (hoja Harris_TaxDeed_Terrenos_Vendidos_2026, fuente PropertyOnion). quiet_title_cost_usd y closing_cost_pct son SUPUESTOS de Claude, no datos: confirmar con abogado/titulo.",
+    "close_to_value_p25": 0.365,
+    "close_to_value_median": 0.507,
+    "close_to_value_p75": 0.683,
+    "premium_over_opening_median": 0.088,
+    "quiet_title_cost_usd": 4000,
+    "closing_cost_pct": 0.03,
+    "resale_value_haircut_vs_hcad": 0.0
+  }
+}

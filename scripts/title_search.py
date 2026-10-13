@@ -12,6 +12,9 @@ reading the images are left to the title agent / a human. Rows are kept verbatim
 Needs Playwright + Chromium.
 """
 import json
+import sys as _s
+_s.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
+from _recio import save_sections
 import re
 import sys
 import time
@@ -93,7 +96,7 @@ def main(argv):
                                      "note": f"search failed: {e}"}
                 rec.setdefault("human_blockers", []).append(
                     {"agent": "title", "item": f"Buscar '{name}' en cclerk RP index (fallo automatico)", "why": str(e)[:120]})
-            f.write_text(json.dumps(rec, ensure_ascii=False, indent=2) + "\n")
+            save_sections(f, rec, ['title'])
             n += 1
             time.sleep(0.5)
         b.close()

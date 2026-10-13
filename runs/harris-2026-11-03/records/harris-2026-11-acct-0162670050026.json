@@ -1,0 +1,599 @@
+{
+  "property_id": "harris-2026-11-acct-0162670050026",
+  "sale_id": "harris-2026-11-03",
+  "county": "Harris",
+  "address": "0 DOLLYWRIGHT HOUSTON 77088",
+  "account_no": "0162670050026",
+  "cause_no": "202380293",
+  "intake": {
+    "opening_bid": {
+      "value": 10000.0,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 1; tipo RESALE; sale# 1; sentencia 01/27/2026; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_site_address": {
+      "value": "0 DOLLYWRIGHT, HOUSTON, 77088",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner": {
+      "value": "WRIGHT LIZ (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_mailing_address": {
+      "value": "215 W LITTLE YORK RD # 33, HOUSTON, TX, 77076-1415",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_state_class": {
+      "value": "C2",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_sqft": {
+      "value": "6000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_acres": {
+      "value": "0.1377",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_sqft": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_year_improved": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_value": {
+      "value": "60000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_building_value": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_market_value": {
+      "value": "60000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "60000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_land_detail": {
+      "value": "Land Neighborhood Section 4 6000.0000xSF $60000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_buildings": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_legal": {
+      "value": "TR 26B BLK 5 HIGHLAND ACRE HOME ANNEX",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    },
+    "hcad_owner_since": {
+      "value": "01/02/1988",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "physical": {
+    "fema_effective_zone": {
+      "value": null,
+      "status": "unknown",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "fallo de consulta: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.424652,
+        "lat": 29.867902
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0162670050026)",
+      "retrieved_at": "2026-10-13"
+    },
+    "lot_sqft_gis": {
+      "value": 5981,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0162670050026)",
+      "retrieved_at": "2026-10-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~60 x 100 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0162670050026)",
+      "retrieved_at": "2026-10-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2003,
+          "tax": 115.55,
+          "penalties_interest": 329.32,
+          "collection_penalty": 88.97,
+          "total": 533.84
+        },
+        {
+          "year": 2004,
+          "tax": 116.65,
+          "penalties_interest": 318.45,
+          "collection_penalty": 87.02,
+          "total": 522.12
+        },
+        {
+          "year": 2005,
+          "tax": 117.36,
+          "penalties_interest": 306.31,
+          "collection_penalty": 84.74,
+          "total": 508.41
+        },
+        {
+          "year": 2006,
+          "tax": 171.72,
+          "penalties_interest": 427.58,
+          "collection_penalty": 119.86,
+          "total": 719.16
+        },
+        {
+          "year": 2007,
+          "tax": 151.72,
+          "penalties_interest": 359.58,
+          "collection_penalty": 102.27,
+          "total": 613.57
+        },
+        {
+          "year": 2008,
+          "tax": 151.42,
+          "penalties_interest": 340.7,
+          "collection_penalty": 98.42,
+          "total": 590.54
+        },
+        {
+          "year": 2009,
+          "tax": 151.41,
+          "penalties_interest": 322.51,
+          "collection_penalty": 94.78,
+          "total": 568.7
+        },
+        {
+          "year": 2010,
+          "tax": 151.44,
+          "penalties_interest": 304.39,
+          "collection_penalty": 91.15,
+          "total": 546.98
+        },
+        {
+          "year": 2011,
+          "tax": 151.75,
+          "penalties_interest": 286.81,
+          "collection_penalty": 87.71,
+          "total": 526.27
+        },
+        {
+          "year": 2012,
+          "tax": 151.76,
+          "penalties_interest": 268.62,
+          "collection_penalty": 84.08,
+          "total": 504.46
+        },
+        {
+          "year": 2013,
+          "tax": 153.54,
+          "penalties_interest": 253.35,
+          "collection_penalty": 81.38,
+          "total": 488.27
+        },
+        {
+          "year": 2014,
+          "tax": 154.23,
+          "penalties_interest": 235.98,
+          "collection_penalty": 78.04,
+          "total": 468.25
+        },
+        {
+          "year": 2015,
+          "tax": 152.12,
+          "penalties_interest": 214.49,
+          "collection_penalty": 73.33,
+          "total": 439.94
+        },
+        {
+          "year": 2016,
+          "tax": 151.72,
+          "penalties_interest": 195.73,
+          "collection_penalty": 69.5,
+          "total": 416.95
+        },
+        {
+          "year": 2017,
+          "tax": 151.58,
+          "penalties_interest": 177.35,
+          "collection_penalty": 65.78,
+          "total": 394.71
+        },
+        {
+          "year": 2018,
+          "tax": 227.74,
+          "penalties_interest": 239.12,
+          "collection_penalty": 93.37,
+          "total": 560.23
+        },
+        {
+          "year": 2019,
+          "tax": 435.89,
+          "penalties_interest": 405.38,
+          "collection_penalty": 157.81,
+          "total": 999.08
+        },
+        {
+          "year": 2020,
+          "tax": 575.85,
+          "penalties_interest": 466.44,
+          "collection_penalty": 195.65,
+          "total": 1237.94
+        },
+        {
+          "year": 2021,
+          "tax": 839.04,
+          "penalties_interest": 578.95,
+          "collection_penalty": 265.79,
+          "total": 1683.78
+        },
+        {
+          "year": 2022,
+          "tax": 1056.91,
+          "penalties_interest": 602.45,
+          "collection_penalty": 311.68,
+          "total": 1971.04
+        },
+        {
+          "year": 2023,
+          "tax": 1208.88,
+          "penalties_interest": 544.0,
+          "collection_penalty": 327.3,
+          "total": 2080.18
+        },
+        {
+          "year": 2024,
+          "tax": 1255.41,
+          "penalties_interest": 414.29,
+          "collection_penalty": 309.65,
+          "total": 1979.35
+        },
+        {
+          "year": 2025,
+          "tax": 1275.14,
+          "penalties_interest": 267.78,
+          "collection_penalty": 217.27,
+          "total": 1760.19
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0162670050026",
+      "retrieved_at": "2026-10-13",
+      "note": "statement as of 10/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 20113.96,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0162670050026",
+      "retrieved_at": "2026-10-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2003,
+        2024
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0162670050026",
+      "retrieved_at": "2026-10-13",
+      "note": "from county sale list ('Tax Years in Judgement')"
+    },
+    "post_judgment_taxes": {
+      "value": 17600.77,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0162670050026",
+      "retrieved_at": "2026-10-13"
+    },
+    "current_year_estimate": {
+      "value": 1275.14,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0162670050026",
+      "retrieved_at": "2026-10-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 18875.91,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0162670050026",
+      "retrieved_at": "2026-10-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "WRIGHT LIZ 215 W LITTLE YORK RD # 33 HOUSTON TX 77076 DOLLYWRIGHT TR 26B BLK 5 HIGHLAND ACRE HOME ANNEX",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0162670050026",
+      "retrieved_at": "2026-10-13"
+    },
+    "appraised_value_county": {
+      "value": 60000.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0162670050026",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2016-404768 | 09/09/2016 | REL | Grantor: WELLS FARGO BANK N A Grantee: WRIGHT LEO Grantee: WRIGHT LIZZETTER B | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-364334 | 08/17/2016 | W/D | Grantor: WRIGHT LEO Grantor: WRIGHT LIZETTA B Grantor: WRIGHT LIZZETTER B Grantee: WRIGHT LEO Grantee: WRIGHT LIZZETTER B | Desc: WESTGREEN PARK Sec: 3 Lot: 23 Block: 5"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'WRIGHT LIZ')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-359408 | 09/02/2026 | DEED | Grantor: DELAFOSE KAREN Grantor: DELAFOSE KAREN HURD Grantor: DELAFOSE RODNEY Grantor: DELAFOSE TIFFANI BREANNA Grantor: ROSEN ALAN CONST Grantor: WRIGHT LILLIAN Grantor: WRIGHT LIZ Grantor: WRIGHT ROOSEVELT Grantor: WRIGHT ROOSEVELT JAMES Grantee: CITY OF HOUSTON Grantee: HARRIS COUNTY Grantee: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantee: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantee: HARRIS COUNTY HOSPITAL DISTRICT Grantee: HOUSTON CITY COLLEGE Grantee: HOUSTON COMMUNITY COLLEGE Grantee: HOUSTON INDEPENDENT SCHOOL DISTRICT Grantee: PORT OF HOUSTON AUTHORITY | Desc: HIGHLAND ACRE HOME ANNEX Lot: 26 Block: 5",
+        "RP-2016-364336 | 08/17/2016 | D/T | Grantor: WRIGHT LEO Grantor: WRIGHT LIZZETTER B Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SEE INSTRUMENT | Desc: WESTGREEN PARK Sec: 3 Lot: 23 Block: 5",
+        "RP-2016-364335 | 08/17/2016 | D/T | Grantor: WRIGHT LEO Grantor: WRIGHT LIZZETTER B Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: WILLOW BEND MORTGAGE COMPANY LLC Trustee: FOWLER ROBERT K | Desc: WESTGREEN PARK Sec: 3 Lot: 23 Block: 5 Related Docs",
+        "RP-2016-364334 | 08/17/2016 | W/D | Grantor: WRIGHT LEO Grantor: WRIGHT LIZETTA B Grantor: WRIGHT LIZZETTER B Grantee: WRIGHT LEO Grantee: WRIGHT LIZZETTER B | Desc: WESTGREEN PARK Sec: 3 Lot: 23 Block: 5"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'WRIGHT LIZ')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "REL": 1,
+        "W/D": 2,
+        "DEED": 1,
+        "D/T": 2
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'WRIGHT LIZ')",
+      "retrieved_at": "2026-10-13"
+    },
+    "rp_summary": {
+      "value": "2 instruments as grantee, 4 as grantor (index, name 'WRIGHT LIZ')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'WRIGHT LIZ')",
+      "retrieved_at": "2026-10-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "RESALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "cause_no": {
+      "value": "202380293",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "judgment_date": {
+      "value": "01/27/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-01-27: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-10-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-10-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-10-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-10-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202380293 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de WRIGHT LIZ (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 60000.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-10-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 30420.0,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 10880.0,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 30420.0,
+        "impuestos_que_hereda": 18875.91,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 912.6,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 54208.51,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    },
+    "bid_ceiling": {
+      "value": 24392.32,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.107,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-10-13"
+    }
+  },
+  "review": {
+    "decision": "SOLO CERCA DE LA APERTURA",
+    "rationale": "Techo $24,392 < cierre esperado $30,420: solo conviene cerca de la apertura. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 24392.32,
+    "all_in_cost_estimate": 54208.51,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
+  }
+}
