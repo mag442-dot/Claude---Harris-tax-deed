@@ -340,6 +340,11 @@
       "agent": "title",
       "item": "Read images RP-2017-149014 (NOTICE) and RP-2022-453120 / RP-2023-400711 (FGMS contracts) and confirm FGMS was a party to the tax suit",
       "why": "Index shows only type/parties; images require Clerk image purchase/login"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Verificar con FGMS Holdings LLC / abogado si sus liens de impuestos 2022-2023 sobreviven la venta y su payoff",
+      "why": "Liens transferidos sin liberacion; no cuantificados en el costo total"
     }
   ],
   "valuation": {
@@ -427,16 +432,22 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $76,581 >= cierre esperado $53,070. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote grande (13,250 sqft), 0% SFHA, fuera de ciudad (sin zonificacion) y sin hipoteca visible: es el mejor perfil fisico del lote de 7. Pero hay dos hechos que frenan: (1) siete instrumentos 2022-2023 muestran que FGMS Holdings LLC (prestamista de impuestos) tiene liens transferidos sobre el lote sin liberacion, no cuantificados en el modelo; (2) el techo de $76,581 es teorico (reventa al valor HCAD $104,675, sin comps, 25% de retorno, quiet title y cierre supuestos) y equivale al 73% del valor, asi que no lo respaldo con evidencia tan delgada. Legal (demandados, citacion, bancarrota) sigue bloqueado. Attorney review recommended.",
     "bid_ceiling": 76581.08,
     "all_in_cost_estimate": 59523.82,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $21,521.53 vs saldo total del condado $1,211.06 (solo 2025): ~$20k sin explicar (costas, o pago a FGMS como cesionario?). El modelo no lo reconcilia.",
+      "taxes_in_judgment = 2024 y 2025, pero el estado de cuenta solo muestra 2025 pendiente: 2024 ya fue pagado/transferido. Los liens FGMS (ASSGN/CONT 2022-2023) pueden sobrevivir y all_in_costs.liens_que_sobreviven dice 'NO CUANTIFICADO' mientras el techo asume cero.",
+      "Descripcion: HCAD 'LT 33 & TR 32A BLK 6' vs escritura de vesting del indice 'Lot 32-33 Blk 6' (y fecha 04/05/2017 HCAD vs 04/07/2017 indice): confirmar que el lote subastado es el mismo que se transfirio.",
+      "Valuacion usa cierre esperado $53,070 (razon 0.507) cuando el benchmark de prima da $23,415 (2.3x de diferencia); el techo $76,581 y el 'margen 75.9%' dependen del valor HCAD sin comps."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Pedir a FGMS Holdings LLC (o al abogado) carta de payoff/estado de sus liens sobre Lot 33/Tr 32A Blk 6 Northgate Forest Ph 1 y confirmar si fue parte (y fue citado) en el cause 202488775",
+      "Leer imagenes RP-2017-149014 (NOTICE), RP-2022-453120 y RP-2023-400711 (contratos FGMS) para ver restricciones y monto de los liens",
+      "Obtener del Notice of Sale/sentencia el desglose de la apertura $21,521.53 (impuestos vs costas vs otros)",
+      "Confirmar demandados y metodo de citacion en hcdistrictclerk.com (login) y bancarrota de Manuel J. Morris en PACER",
+      "Conseguir 3+ comps de lotes baldios en Northgate Forest/77068 antes de fijar un tope propio; no pujar sobre el techo teorico",
+      "Verificar descripcion legal (Lot 32-33 vs Lot 33 + Tr 32A) y restricciones del plat para uso dúplex; visita al sitio"
     ]
   },
   "title": {

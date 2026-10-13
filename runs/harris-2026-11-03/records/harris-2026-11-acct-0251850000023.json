@@ -563,6 +563,11 @@
       "agent": "title",
       "item": "Confirm vesting deed 2008-0149556 and identity of A/J debtor (RP-2020-13879, RP-2020-495212) vs. this owner",
       "why": "Needs images and a full-name/address match; common-name search"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Confirmar identidad de los A/J RP-2020-13879/495212 y si existe cesion a FNA DZ LLC sobre Lts 23-24",
+      "why": "Gravamenes posibles por nombre comun; titulo no localizado en el indice"
     }
   ],
   "valuation": {
@@ -650,16 +655,23 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $45,503 >= cierre esperado $38,025. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien de mecanico. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote chico pero util (5,000 sqft HCAD / 5,515 GIS, ~55x102 ft), City of Houston, 100% zona X, apertura $14,297 vs valor HCAD $75,000. Lo que frena: (1) el titulo del lote no se encontro (la escritura 2008-0149556 no aparece y las busquedas por legal dieron 0 filas), dos abstracts of judgment de 2020 solo por nombre comun (Jimenez Victor M) podrian sobrevivir, y los lotes vecinos 21-22 tienen cesion de impuestos a FNA DZ LLC en 2025; (2) el techo $45,503 es teorico (reventa a valor HCAD, sin comps, 61% del valor) y descansa en una cola de impuestos de $9,132 que parece mal calculada. Evidencia insuficiente para ir mas alla de CONDICIONAL; legal bloqueado. Attorney review recommended.",
     "bid_ceiling": 45502.71,
     "all_in_cost_estimate": 52297.96,
-    "contradictions": [],
+    "contradictions": [
+      "impuestos_que_hereda $9,132.21 (post_judgment_taxes $7,538.28 marcado verified) sale de leer taxes_in_judgment=[2021,2025] como dos anos sueltos; la deuda 2021-2025 es continua y la sentencia (02/15/2026) probablemente cubre el rango, asi que la cola real seria ~$1,594 (proxy 2026). El techo $45,503 queda inexacto (subestimado) y no es respaldable.",
+      "Dueno gravado Jimenez Victor M & Ana (HCAD desde 03/14/2008, escritura 2008-0149556) vs indice del Clerk: no hay vesting deed para Lts 23-24 Blk 104; titulo del lote desconocido y la cadena del dueno no se pudo verificar.",
+      "Dos abstracts of judgment (RP-2020-13879 East End District/Harris County; RP-2020-495212 TD Bank) contra 'Jimenez Victor M' sin liberacion, identidad no confirmada; costo total dice 'NO CUANTIFICADO' y el techo asume cero gravamenes.",
+      "Lotes vecinos 19-20 y 21-22 Blk 104 muestran al mismo apellido con CONT/ASSGN de impuestos a FNA DZ LLC (2025): puede existir lien de prestamista de impuestos similar sobre 23-24 no detectado, ademas de AFFT de herederos en parcelas Jimenez (Lot 27-28 Blk 120) que sugieren origen sucesorio.",
+      "state class C2 (distinto de C1 residencial del resto de lotes) y land_detail 'Land Neighborhood Section 3': valoracion HCAD $15/sqft puede no reflejar uso residencial; GIS 5,515 sqft vs HCAD 5,000."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Busqueda de titulo por legal (Magnolia Park Sec 2, Lts 23-24 Blk 104) incluyendo film code/pre-2009 y lectura de 2008-0149556 (vesting)",
+      "Confirmar identidad del deudor en RP-2020-13879 y RP-2020-495212 (imagen, direccion) y si aplican a este lote; pedir payoff",
+      "Buscar con FNA DZ LLC/Clerk si existe cesion de tax lien sobre Lts 23-24 (no solo 21-22)",
+      "Del Notice of Sale/sentencia: anos de sentencia y desglose de apertura $14,297; recalcular cola de impuestos",
+      "Confirmar demandados y metodo de citacion (ventana TRCP 329 hasta 2028-02-15) y bancarrota de Victor M y Ana Jimenez en PACER",
+      "Leer restricciones de Magnolia Park Sec 2, confirmar uso residencial (C2) y comps de lotes 77012 antes de fijar un tope propio"
     ]
   }
 }

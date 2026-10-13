@@ -456,6 +456,11 @@
       "agent": "title",
       "item": "Pull 2008-0409757 and run film-code/pre-2009 search for Pine Village North Sec 4A Blk 40 Units B-D",
       "why": "Pre-2009 instruments/images not available in index search"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Encargar busqueda de titulo humana (film code) y confirmar naturaleza de Units B-D",
+      "why": "Indice del Clerk no devuelve cadena de titulo; HCAD vacio vs legal de townhome"
     }
   ],
   "valuation": {
@@ -542,17 +547,24 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $46,978 >= cierre esperado $43,328. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "La legal HCAD es 'UNITS B C & D BLK 40 PINE VILLAGE NORTH T/H SEC 4A': parecen franjas de unidades de townhome (6,469 sqft, 75x95), no un lote baldio limpio, y probablemente con restricciones/HOA de townhome. Segundo, el titulo es practicamente desconocido: el indice del Clerk no devolvio ni la escritura de 2008 ni gravamenes, y el dueno es una corporacion de Kansas que no paga desde 2008 (posiblemente disuelta). El techo de $46,978 es teorico (reventa a valor HCAD $76,174, sin comps) y deja solo ~$7k sobre la apertura de $39,823, un colchon fragil con costo de impuestos solo como cota superior. Attorney review recommended.",
     "bid_ceiling": 46978.11,
     "all_in_cost_estimate": 57179.54,
-    "contradictions": [],
+    "contradictions": [
+      "HCAD dice terreno vacio (building 0) pero la legal habla de Units B, C & D de townhome (T/H): puede ser franja/area comun o unidades; titulo marca restricciones y HOA como probables pero 'unknown'.",
+      "all_in_costs.impuestos_que_hereda = $8,551.75 es el total de TODOS los anos (cota superior, taxes_in_judgment unknown); la apertura $39,823 ya incluye montos de la sentencia, asi que hay doble conteo probable y el techo $46,978 depende de un numero no confiable.",
+      "Apertura $39,823 vs saldo total del condado $8,551.75: ~$31k no explicado (costas, otros anos/jurisdicciones); el modelo no lo reconcilia.",
+      "vesting_deed solo proviene de HCAD (inferred); el indice del Clerk no la devolvio y mortgages/lien federal/city/HOA estan 'unknown' mientras el costo total pone 'NO CUANTIFICADO' y el techo asume cero.",
+      "Cierre esperado usa la prima ($43,328) mientras la razon da $38,620; el margen 33% con reventa a HCAD sin comps no es evidencia."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Busqueda de titulo completa (film code / pre-2009) de Pine Village North T/H Sec 4A Blk 40 Units B-D y lectura de 2008-0409757",
+      "Confirmar con plat/HCAD map si Units B, C y D son parcelas edificables o franjas/areas comunes y si hay estructura",
+      "Consultar HOA/restricciones de Pine Village North y estado de la corporacion Aleritas Capital Corp (SOS Kansas/Texas)",
+      "Obtener del Notice of Sale/sentencia los anos incluidos y el desglose de la apertura para fijar la cola de impuestos real",
+      "Confirmar demandados/citacion (cause 202374024, ventana TRCP 329 hasta 2027-01-28) y bancarrota en PACER",
+      "Comps de townhome lots/infill 77039 antes de fijar un tope propio"
     ]
   },
   "title": {

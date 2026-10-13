@@ -83,7 +83,14 @@ def main(argv):
                                                              "why": "statement no disponible en hctax.net"})
             else:
                 yj = re.search(r"anios_en_sentencia ([^;]*)", notes.get(acct, ""))
-                jyears = sorted({int(y) for y in re.findall(r"20\d\d", yj.group(1))}) if yj else []
+                jyears = []
+                if yj:
+                    txt = yj.group(1)
+                    for a, b in re.findall(r"(\d{4})\s*-\s*(\d{4})", txt):          # county shows a RANGE: '2004 - 2018'
+                        jyears += list(range(int(a), int(b) + 1))
+                    rest = re.sub(r"\d{4}\s*-\s*\d{4}", " ", txt)
+                    jyears += [int(y) for y in re.findall(r"\b(?:19|20)\d\d\b", rest)]
+                    jyears = sorted(set(jyears))
                 rows = d["rows"]
                 post = [r for r in rows if r["year"] not in jyears] if jyears else None
                 post_sum = round(sum(r["total"] for r in post), 2) if post is not None else None
@@ -94,7 +101,7 @@ def main(argv):
                                                                "retrieved_at": today, **({"note": note} if note else {})}
                 sec["delinquent_by_year"] = v(rows, note=f"statement as of {d['asof']}")
                 sec["total_due_all_years"] = v(d["total_due"])
-                sec["taxes_in_judgment"] = v(jyears, note="from county sale list ('Tax Years in Judgement')") if jyears else \
+                sec["taxes_in_judgment"] = v(jyears, note="from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b") if jyears else \
                     v(None, "unknown", "el condado no lista los anios incluidos en la sentencia")
                 sec["post_judgment_taxes"] = v(post_sum) if post_sum is not None else v(None, "unknown", "sin anios de sentencia no se puede separar")
                 sec["current_year_estimate"] = v(cur, "inferred", f"base tax of {last['year']} as proxy for the {last['year'] + 1} bill (due 31 Jan); penalties not included")

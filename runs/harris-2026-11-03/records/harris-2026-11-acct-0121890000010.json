@@ -571,6 +571,11 @@
       "agent": "title",
       "item": "Read image RP-2023-25490 (AFFT) and check Harris County probate for Harold G. Torman",
       "why": "Image behind Clerk purchase; probate search not available via index"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisar sucesion de Harold G. Torman en Harris County Probate y leer AFFT RP-2023-25490",
+      "why": "Dueno fallecido, herederos desconocidos y posible reclamo competidor (Perserva/Stevens)"
     }
   ],
   "valuation": {
@@ -657,17 +662,24 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $35,103 >= cierre esperado $33,367. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Dueno fallecido ('ESTATE OF' Harold Torman), herederos desconocidos y sin escritura de vesting en el indice, mas una declaracion jurada RP-2023-25490 (Perserva Real Estate / Saltzman -> Patricia A Stevens) que cita estos mismos lotes y Stevens aparece como 'c/o' en el rol del condado: posible reclamo competidor y alto riesgo de redencion/quiet title. El modelo ademas parece sobrestimar la cola de impuestos ($12,494) al tratar 2006 y 2025 como los unicos anos de sentencia, por lo que el techo de $35,103 no es confiable en ningun sentido y sigue siendo teorico (valor HCAD $65,812, sin comps). Lote atractivo (13,500 sqft, X, City of Houston) pero evidencia insuficiente. Attorney review recommended.",
     "bid_ceiling": 35102.58,
     "all_in_cost_estimate": 50861.62,
-    "contradictions": [],
+    "contradictions": [
+      "post_judgment_taxes $11,324.81 (marcado verified) sale de leer taxes_in_judgment=[2006,2025] como dos anos sueltos; la deuda 2006-2025 es continua y la sentencia (06/30/2026) probablemente cubre el rango, asi que la cola real seria ~$1,169 (proxy 2026), no $12,494. El techo $35,103 estaria subestimado (~$46k) pero tampoco es respaldable.",
+      "Valor HCAD 2026 $65,812 (usado) vs valor del condado/anterior $55,012 (appraised_value_county): +20% sin comps.",
+      "Dueno gravado 'Estate of Torman' y c/o 'Patricia A Stevens' (condado) vs HCAD 'Sandra Cockream 0%': dos personas de contacto distintas; AFFT RP-2023-25490 a favor de Stevens Patricia A con terceros no leido (posible escritura/herencia/posesion adversa).",
+      "Sin vesting deed ni deed ref en HCAD (propietario desde 2002) pero costo total da 'liens NO CUANTIFICADO'; titulo todo 'unknown' y modelo asume cero.",
+      "Apertura $16,886 vs saldo total $13,015: costas ~$3.9k plausibles, pero con anos de sentencia incierta no se puede verificar la composicion."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Leer imagen RP-2023-25490 (AFFT) y buscar en Harris County Probate Courts sucesion de Harold G. Torman",
+      "Buscar cadena de titulo (pre-2009) de Lts 10-11 Blk 16 East Houston; obtener vesting deed 2002",
+      "Confirmar anos de sentencia y desglose de apertura en Notice of Sale/sentencia; corregir cola de impuestos",
+      "Confirmar demandados (herederos desconocidos?), metodo de citacion (publicacion = riesgo TRCP 329 hasta 2028-06-28) y bancarrota",
+      "Contactar a Patricia A Stevens / Sandra Cockream (herederos) para entender postura de redencion",
+      "Comps de lotes 77028 antes de fijar tope propio"
     ]
   }
 }

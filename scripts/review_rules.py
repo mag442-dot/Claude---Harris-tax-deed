@@ -40,7 +40,7 @@ def matches_legal(hit, legal):
 def main(argv):
     if len(argv) < 2:
         sys.exit(__doc__)
-    run, only = Path(argv[1]), set(argv[2:])
+    run, only = Path(argv[1]), set(a for a in argv[2:] if not a.startswith("--"))
     params = json.loads((run / "params.json").read_text())
     prem = 1 + params["assumptions"]["premium_over_opening_median"]
     bids = {r["account_no"]: r["opening_bid"] for r in csv.DictReader((run / "candidatos.csv").open(encoding="utf-8-sig"))}
@@ -50,6 +50,9 @@ def main(argv):
         acct = (rec.get("account_no") or "").strip()
         if not acct or (only and acct not in only):
             continue
+        old = (rec.get("review") or {}).get("rationale", "")
+        if old and "nunca COMPRA FUERTE sin esa revision" not in old and "--force" not in argv:
+            continue  # written by the reviewer agent: do not overwrite
         bid = float(bids[acct]) if bids.get(acct) else None
         ceiling, tail = g(rec, "valuation", "bid_ceiling"), g(rec, "tax", "buyer_tax_tail_estimate")
         exp_close = max([x for x in (g(rec, "valuation", "expected_close_from_ratio"), g(rec, "valuation", "expected_close_from_premium")) if x] or [0])

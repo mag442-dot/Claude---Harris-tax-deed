@@ -393,6 +393,11 @@
       "agent": "title",
       "item": "Pull City of Houston lien images RP-2016-190686, RP-2018-130379, RP-2020-223326 for amounts",
       "why": "Images not available in index"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Confirmar identidad del deudor de los T/L del IRS y obtener montos de liens de la Ciudad",
+      "why": "Posible lien federal sobreviviente y 3 liens de ciudad sin cuantificar"
     }
   ],
   "valuation": {
@@ -479,17 +484,24 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $66,190 >= cierre esperado $53,564. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Es la ficha mas gravada del lote: tres liens de la Ciudad de Houston (2016, 2018, 2020) sin liberacion, dos avisos de lien federal del IRS (2021) contra 'Kay Anthony C' sin liberacion, y un posible judgment abstract de 2017, todo sin cuantificar mientras el modelo asume cero gravamenes. Un lien federal puede sobrevivir una venta local (26 USC 7425; IRS tiene derecho de redencion) y, si se confirma la identidad del deudor, aplicaria el descarte automatico; hoy es inferred, por eso VIGILAR y no DESCARTADA. El techo $66,190 es teorico (valor HCAD $105,648, sin comps) y la cola de impuestos de $12,343 parece mal calculada. Attorney review recommended.",
     "bid_ceiling": 66189.51,
     "all_in_cost_estimate": 71513.65,
-    "contradictions": [],
+    "contradictions": [
+      "Dos T/L del IRS (RP-2021-150996 y RP-2021-549653, 'Kay Anthony C') sin liberacion, ~5 anos (no expirados): el modelo ignora cualquier lien federal; identidad solo por nombre (inferred).",
+      "Tres liens de la Ciudad (RP-2016-190686, RP-2018-130379, RP-2020-223326) 'verified' en el indice pero sin monto ni liberacion; costo total dice 'NO CUANTIFICADO' y el techo asume cero. Posible A/J RP-2017-309761 (Myers Plumbing) sin liberacion.",
+      "impuestos_que_hereda $12,343.20 sale de leer taxes_in_judgment=[2015,2024] como dos anos sueltos (post_judgment_taxes $10,431 'verified' es derivado); con sentencia 2015-2024 la cola real seria ~$4.55k (2025 $2,639 + proxy 2026 $1,912).",
+      "Valor HCAD $105,648 (usado) vs valor del condado $89,971 (appraised_value_county): +17% sin comps; ademas land_detail parte el lote en 7,680 + 5,760 sqft con tarifas distintas.",
+      "Direccion numerada (6606 Weaver Rd) y 3 liens de la Ciudad (tipicos de demolicion/maleza) vs HCAD building 0: verificar si hubo casa demolida; title mortgages marcado verified aunque el pareo MEMO/REL es inferido."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Confirmar identidad del deudor en RP-2021-150996 y RP-2021-549653 (imagen: direccion/SSN-4) y si hay liberacion o refile; si es este Anthony C. Kay y no hay via de extincion, DESCARTADA",
+      "Obtener montos y estado de los 3 liens de la Ciudad (RP-2016-190686, 2018-130379, 2020-223326) y si la Ciudad fue parte del cause 202244936",
+      "Leer A/J RP-2017-309761 y su liberacion; verificar que RP-2026-289643 libera la MEMO de Curative Assets",
+      "Confirmar demandados/citacion (ventana TRCP 329 hasta 2027-04-28) y bancarrota de Anthony C Kay en PACER",
+      "Del Notice of Sale: anos de sentencia y desglose de apertura $18,567; recalcular cola de impuestos",
+      "Attorney: efecto de 26 USC 7425 (aviso al IRS, redencion de 120 dias) sobre una compra tax deed"
     ]
   },
   "title": {

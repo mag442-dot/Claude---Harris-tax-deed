@@ -273,6 +273,11 @@
       "agent": "title",
       "item": "Confirm Luxehauss LLC was a defendant/served in the tax suit; pull image RP-2026-337349 and Chretien/Alolabi L/P releases",
       "why": "Needs district clerk login and Clerk images"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Confirmar con abogado/District Clerk si Luxehauss LLC (comprador del 08/19/2026) fue parte del cause 202476197 y su derecho de redencion",
+      "why": "Posible defecto de demandados y riesgo de redencion o pago previo a la venta"
     }
   ],
   "valuation": {
@@ -360,16 +365,22 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $226,537 >= cierre esperado $154,515. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote en City of Houston de ~7,551 sqft (GIS), 100% zona X, sin SFHA ni floodway, con apertura de solo $13,207 frente a un valor HCAD de $304,763: potencial alto pero tambien muy competido. Los dos hechos que mandan: (1) el indice del Clerk muestra que el dueno gravado Strickland LLC vendio a Luxehauss LLC el 08/19/2026, un mes despues de la sentencia (07/16/2026), por lo que hay un tercero con derecho de redencion y posible pago previo que retire el lote; (2) el techo de $226,537 es puramente teorico (73% del valor HCAD, sin comps) y no lo respaldo. No hay zonificacion en Houston pero las restricciones de Larchmont Sec 1 no se han leido. Legal bloqueado. Attorney review recommended.",
     "bid_ceiling": 226537.39,
     "all_in_cost_estimate": 169627.18,
-    "contradictions": [],
+    "contradictions": [
+      "Dueno gravado (HCAD y condado: Strickland LLC) vs titulo en el indice: W/D RP-2026-337349 (08/19/2026) a LUXEHAUSS LLC, posterior a la sentencia del 07/16/2026. Si Luxehauss no fue citado/parte, posible defecto de demandados; ademas puede redimir o pagar antes de la venta.",
+      "HCAD: year improved 1954 pero building sqft 0 y direccion numerada (5346 Schumacher) en vez de '0': verificar si hay estructura/demolicion y que 'baldio' sea cierto.",
+      "Techo $226,537 vs apertura $13,207: el cierre esperado $154,515 sale de la razon 0.507 aplicada a un lote de $305k (calibrada con 14 lotes de ~$50-100k); la prima benchmark da $14,370. Diferencia de 10x, sin comps; 'margen 79.7%' no es verificable.",
+      "Modelo de costos asume cero gravamenes; title no mapeo la cadena Chretien/Alolabi (L/P 2019-2020) a su liberacion (REL RP-2020-609681 es 'unmatched', inferred) ni leyo restricciones (unknown)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Leer imagen RP-2026-337349 (Strickland -> Luxehauss) y confirmar si Luxehauss fue parte/citado en cause 202476197 y si pagara o redimira",
+      "Revalidar en T-7 y T-1 que el lote sigue en la lista (el nuevo dueno puede pagar los impuestos de $9,288 y retirarlo)",
+      "Confirmar demandados/citacion en hcdistrictclerk.com y bancarrota de Strickland LLC y Luxehauss LLC en PACER",
+      "Leer restricciones de Larchmont Sec 1 (uso, lote minimo, setbacks para dúplex) y verificar en sitio si hay estructura",
+      "Conseguir comps reales de lotes en 77056 y fijar un tope propio; no usar $226k",
+      "Attorney: redencion de Luxehauss (180 dias no-homestead; confirmar prima) y efecto de la compraventa post-sentencia"
     ]
   },
   "physical": {

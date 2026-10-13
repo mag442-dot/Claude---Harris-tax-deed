@@ -418,6 +418,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de BMFX CAPITAL LLC (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Pedir a la Ciudad de Houston monto/estado del lien RP-2016-501537 y confirmar con abogado si sobrevive",
+      "why": "Lien sin liberacion; no cuantificado en el costo total"
     }
   ],
   "valuation": {
@@ -505,16 +510,23 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $56,768 >= cierre esperado $53,235. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Titulo comparativamente claro: escritura de 2023 a BMFX Capital LLC coincide con HCAD, sin hipoteca ni lien federal visible; lote de 5,000 sqft (~50x103), 100% zona X, City of Houston. Lo que frena: (1) un lien de la Ciudad de Houston de 2016 (RP-2016-501537) sin liberacion que puede sobrevivir y no esta cuantificado; (2) el cause 201939501 se abrio en 2019, antes de que BMFX comprara en 06/2023, y habria que confirmar que BMFX fue citada. El techo de $56,768 (54% del valor HCAD $105,000) es teorico, sin comps, y su cola de impuestos de $21,529 parece sobreestimada; no lo respaldo. Legal bloqueado. Attorney review recommended.",
     "bid_ceiling": 56768.44,
     "all_in_cost_estimate": 80360.56,
-    "contradictions": [],
+    "contradictions": [
+      "Cause 201939501 (presentado en 2019) vs dueno actual BMFX desde 06/05/2023 (RP-2023-205066): la sentencia (10/17/2025) puede haberse seguido contra el dueno anterior (Jeu); posible defecto de demandados si BMFX no fue unida.",
+      "Lien City of Houston RP-2016-501537 (deudor Jeu Yatsing, sin liberacion) puede sobrevivir; el modelo dice 'liens NO CUANTIFICADO' y el techo asume cero.",
+      "impuestos_que_hereda $21,528.51 sale de leer taxes_in_judgment=[2008,2024] como dos anos sueltos (post_judgment_taxes $19,297 'verified' es derivado); si la sentencia cubre 2008-2024, la cola real es ~$5.3k (2025 $3,080 + proxy 2026 $2,231) y el techo real seria mayor, pero tampoco confiable.",
+      "Apertura exactamente $15,000.00 vs saldo total $22,547: el numero redondo sugiere minimo fijado por regla (no la suma de la sentencia); sin explicar.",
+      "Lote 5,000 sqft con ~50 ft de frente: dúplex angosto, marginal para la estrategia; restricciones de South Union Sec 2 no leidas (unknown)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Obtener payoff/monto de RP-2016-501537 (City of Houston, Lot 7 Blk 91 South Union) y confirmar si la Ciudad fue parte del cause 201939501",
+      "Confirmar en hcdistrictclerk.com que BMFX Capital LLC (o Jeu Thanh) fue demandado/citado y el metodo de citacion; bancarrota de BMFX en PACER",
+      "Del Notice of Sale/sentencia: anos incluidos y composicion de la apertura $15,000; recalcular la cola de impuestos",
+      "Leer restricciones de South Union Sec 2 y confirmar frente minimo para dúplex (Houston: lot rules)",
+      "Comps de lotes 77021 antes de fijar tope propio",
+      "Visita al sitio para confirmar baldio y acceso"
     ]
   },
   "title": {
