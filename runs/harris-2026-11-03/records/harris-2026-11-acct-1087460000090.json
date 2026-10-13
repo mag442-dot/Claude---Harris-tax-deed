@@ -141,12 +141,6 @@
       "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
       "retrieved_at": "2026-10-13"
     },
-    "fema_sfha": {
-      "value": false,
-      "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
-      "retrieved_at": "2026-10-13"
-    },
     "parcel_centroid": {
       "value": {
         "lon": -95.501619,

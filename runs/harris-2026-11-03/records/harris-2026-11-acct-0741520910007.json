@@ -307,15 +307,30 @@
     "taxes_in_judgment": {
       "value": [
         2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0741520910007",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 19297.02,
+      "value": 3080.33,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0741520910007",
       "retrieved_at": "2026-10-13"
@@ -328,7 +343,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 21528.51,
+      "value": 5311.82,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0741520910007",
       "retrieved_at": "2026-10-13",
@@ -471,7 +486,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 53235.0,
-        "impuestos_que_hereda": 21528.51,
+        "impuestos_que_hereda": 5311.82,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 1597.05,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -482,20 +497,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 80360.56,
+      "value": 64143.87,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 56768.44,
+      "value": 72512.8,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": 0.307,
+      "value": 0.637,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -511,14 +526,15 @@
   "review": {
     "decision": "CONDICIONAL",
     "rationale": "Titulo comparativamente claro: escritura de 2023 a BMFX Capital LLC coincide con HCAD, sin hipoteca ni lien federal visible; lote de 5,000 sqft (~50x103), 100% zona X, City of Houston. Lo que frena: (1) un lien de la Ciudad de Houston de 2016 (RP-2016-501537) sin liberacion que puede sobrevivir y no esta cuantificado; (2) el cause 201939501 se abrio en 2019, antes de que BMFX comprara en 06/2023, y habria que confirmar que BMFX fue citada. El techo de $56,768 (54% del valor HCAD $105,000) es teorico, sin comps, y su cola de impuestos de $21,529 parece sobreestimada; no lo respaldo. Legal bloqueado. Attorney review recommended.",
-    "bid_ceiling": 56768.44,
-    "all_in_cost_estimate": 80360.56,
+    "bid_ceiling": 72512.8,
+    "all_in_cost_estimate": 64143.87,
     "contradictions": [
       "Cause 201939501 (presentado en 2019) vs dueno actual BMFX desde 06/05/2023 (RP-2023-205066): la sentencia (10/17/2025) puede haberse seguido contra el dueno anterior (Jeu); posible defecto de demandados si BMFX no fue unida.",
       "Lien City of Houston RP-2016-501537 (deudor Jeu Yatsing, sin liberacion) puede sobrevivir; el modelo dice 'liens NO CUANTIFICADO' y el techo asume cero.",
       "impuestos_que_hereda $21,528.51 sale de leer taxes_in_judgment=[2008,2024] como dos anos sueltos (post_judgment_taxes $19,297 'verified' es derivado); si la sentencia cubre 2008-2024, la cola real es ~$5.3k (2025 $3,080 + proxy 2026 $2,231) y el techo real seria mayor, pero tampoco confiable.",
       "Apertura exactamente $15,000.00 vs saldo total $22,547: el numero redondo sugiere minimo fijado por regla (no la suma de la sentencia); sin explicar.",
-      "Lote 5,000 sqft con ~50 ft de frente: dúplex angosto, marginal para la estrategia; restricciones de South Union Sec 2 no leidas (unknown)."
+      "Lote 5,000 sqft con ~50 ft de frente: dúplex angosto, marginal para la estrategia; restricciones de South Union Sec 2 no leidas (unknown).",
+      "[2026-10-13] Cifras actualizadas tras corregir el calculo de anios en sentencia (rango 'a - b'): techo $56768.44 -> $72512.8; costo total $80360.56 -> $64143.87. El texto del revisor puede citar las cifras anteriores; la decision no cambio."
     ],
     "conditions_to_buy": [
       "Obtener payoff/monto de RP-2016-501537 (City of Houston, Lot 7 Blk 91 South Union) y confirmar si la Ciudad fue parte del cause 201939501",

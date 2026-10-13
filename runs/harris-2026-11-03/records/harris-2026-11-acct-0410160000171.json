@@ -238,15 +238,18 @@
     "taxes_in_judgment": {
       "value": [
         2019,
+        2020,
+        2021,
+        2022,
         2023
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0410160000171",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 3461.0,
+      "value": 2373.65,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0410160000171",
       "retrieved_at": "2026-10-13"
@@ -259,7 +262,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 4473.69,
+      "value": 3386.34,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0410160000171",
       "retrieved_at": "2026-10-13",
@@ -469,7 +472,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 83781.75,
-        "impuestos_que_hereda": 4473.69,
+        "impuestos_que_hereda": 3386.34,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 2513.45,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -480,20 +483,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 94768.89,
+      "value": 93681.54,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 120122.63,
+      "value": 121178.31,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": 0.744,
+      "value": 0.764,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -509,8 +512,8 @@
   "review": {
     "decision": "VIGILAR",
     "rationale": "El condado aun no publica la apertura. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
-    "bid_ceiling": 120122.63,
-    "all_in_cost_estimate": 94768.89,
+    "bid_ceiling": 121178.31,
+    "all_in_cost_estimate": 93681.54,
     "contradictions": [],
     "conditions_to_buy": [
       "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",

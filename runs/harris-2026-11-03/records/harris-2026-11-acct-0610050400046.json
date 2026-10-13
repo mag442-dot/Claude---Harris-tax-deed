@@ -237,12 +237,33 @@
     "taxes_in_judgment": {
       "value": [
         2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
         2023
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0610050400046",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
       "value": 6048.73,

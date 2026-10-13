@@ -251,15 +251,18 @@
     "taxes_in_judgment": {
       "value": [
         2021,
+        2022,
+        2023,
+        2024,
         2025
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0450040000275",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 30563.98,
+      "value": 0,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0450040000275",
       "retrieved_at": "2026-10-13"
@@ -272,7 +275,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 36538.4,
+      "value": 5974.42,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0450040000275",
       "retrieved_at": "2026-10-13",
@@ -544,7 +547,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 142527.84,
-        "impuestos_que_hereda": 36538.4,
+        "impuestos_que_hereda": 5974.42,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 4275.84,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -555,20 +558,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 187342.08,
+      "value": 156778.1,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 178987.96,
+      "value": 208661.73,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": 0.501,
+      "value": 0.793,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -584,13 +587,14 @@
   "review": {
     "decision": "VIGILAR",
     "rationale": "Es la apuesta mas cara del grupo (apertura $49,385) sobre una franja de ~45 x 617 ft (GIS 25,059 sqft vs HCAD 28,112) en Wayside Dr, con titulo sin rastro: ninguna de las escrituras HCAD (2009-0268927, 2004-Y205262) aparece en el indice. El dueno es una LLC con historial de muchos liens de la Ciudad en otros lotes; no se pueden descartar liens ni probar que el tracto de acreage tenga acceso/frente para un dúplex. El techo de $178,988 (64% del valor HCAD de $281,120, plano $10/sqft y sin comps) es teorico y no debe endorsarse con evidencia tan delgada; el tail de impuestos tambien esta mal calculado. Vigilar y solo reconsiderar tras un title search a nivel de tracto, verificacion de acceso/ancho utilizable y lectura del expediente. Attorney review recommended.",
-    "bid_ceiling": 178987.96,
-    "all_in_cost_estimate": 187342.08,
+    "bid_ceiling": 208661.73,
+    "all_in_cost_estimate": 156778.1,
     "contradictions": [
       "tax.taxes_in_judgment: el script scripts/tax_statement.py leyo el rango del condado 'anios_en_sentencia A - B' (candidatos.csv) como DOS anios sueltos [A,B]; por eso post_judgment_taxes y buyer_tax_tail_estimate incluyen anios que en realidad estan dentro de la sentencia. Rango 2021-2025: toda la deuda por anio esta dentro de la sentencia; tail correcto ~ $5,974 (proxy 2026) vs $36,538 usado (post_judgment_taxes $30,563.98 erroneo). Techo corregido ~ $208,662 y costo total ~ $156,778 (no modificado aqui); esto hace el techo aun mas irreal frente a la apertura de $49,385.",
       "Tamano: HCAD 28,112 sqft vs GIS 25,059 sqft (~11% menos); forma ~45 x 617 ft (inferred) debil para dúplex y acceso/frente desconocidos, aunque valuation aplica $10/sqft plano.",
       "valuation: cierre por razon $142,528 vs por prima $53,731 (2.7x); apertura = 17.6% del valor HCAD; el techo depende solo del valor HCAD sin comps.",
-      "title: vesting 'unknown', liens_city_county 'unknown/no atribuibles' pero la entidad tiene LIENs City of Houston/La Porte en otros lotes (algunos multi-parte sin legal, no descartables), mientras el modelo de costos supone cero liens sobrevivientes."
+      "title: vesting 'unknown', liens_city_county 'unknown/no atribuibles' pero la entidad tiene LIENs City of Houston/La Porte en otros lotes (algunos multi-parte sin legal, no descartables), mientras el modelo de costos supone cero liens sobrevivientes.",
+      "[2026-10-13] Cifras actualizadas tras corregir el calculo de anios en sentencia (rango 'a - b'): techo $178987.96 -> $208661.73; costo total $187342.08 -> $156778.1. El texto del revisor puede citar las cifras anteriores; la decision no cambio."
     ],
     "conditions_to_buy": [
       "Title search a nivel de tracto (Tr 40 Abst 700 J L Stanley; escrituras 2009-0268927 y 2004-Y205262) con title company/imagenes.",

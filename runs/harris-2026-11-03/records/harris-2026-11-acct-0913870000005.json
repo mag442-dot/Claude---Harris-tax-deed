@@ -147,12 +147,6 @@
       "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
       "retrieved_at": "2026-10-13"
     },
-    "fema_sfha": {
-      "value": false,
-      "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
-      "retrieved_at": "2026-10-13"
-    },
     "parcel_centroid": {
       "value": {
         "lon": -95.337885,
@@ -264,15 +258,17 @@
     "taxes_in_judgment": {
       "value": [
         2019,
+        2020,
+        2021,
         2022
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0913870000005",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 8284.24,
+      "value": 7156.15,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0913870000005",
       "retrieved_at": "2026-10-13"
@@ -285,7 +281,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 9747.45,
+      "value": 8619.36,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0913870000005",
       "retrieved_at": "2026-10-13",
@@ -433,7 +429,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 34906.95,
-        "impuestos_que_hereda": 9747.45,
+        "impuestos_que_hereda": 8619.36,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 1047.21,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -444,20 +440,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 49701.61,
+      "value": 48573.52,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 40128.69,
+      "value": 41223.92,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": 0.385,
+      "value": 0.417,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -473,14 +469,15 @@
   "review": {
     "decision": "CONDICIONAL",
     "rationale": "Es el candidato mas limpio del grupo: lote de 8,100 sqft en City of Houston, zona X (0.2%) sin SFHA ni floodway, apertura de $9,333 sobre HCAD $68,850, y la ventana TRCP 329 de 2 anios ya cerro el 06/03/2026. El obstaculo es que hay tres liens de la Ciudad de Houston sin liberar (RP-2016-304862, RP-2024-257373, RP-2026-277034) de tipo y monto desconocido, dos de ellos posteriores a la sentencia, que el modelo no cuantifica ni suma al costo; la HCAD tambien indica 1960 de mejora con 0 sqft (posible demolicion). El techo de $40,129 es teorico (reventa al valor HCAD sin comps), aunque la correccion del tail apenas lo mueve (~$41,224). Legal bloqueado; no es COMPRA FUERTE. Attorney review recommended.",
-    "bid_ceiling": 40128.69,
-    "all_in_cost_estimate": 49701.61,
+    "bid_ceiling": 41223.92,
+    "all_in_cost_estimate": 48573.52,
     "contradictions": [
       "tax.taxes_in_judgment: el script scripts/tax_statement.py leyo el rango del condado 'anios_en_sentencia A - B' (candidatos.csv) como DOS anios sueltos [A,B]; por eso post_judgment_taxes y buyer_tax_tail_estimate incluyen anios que en realidad estan dentro de la sentencia. Rango 2019-2022: 2020 ($1,128.09) se cuenta como post-sentencia. Tail correcto ~ $8,619 vs $9,747; techo corregido ~ $41,224 (no modificado aqui).",
       "title.liens_city_county esta 'verified' pero la identidad del deudor (sin segundo nombre) y la supervivencia son inferidas; tres liens de la Ciudad no liberados vs liens_que_sobreviven = NO CUANTIFICADO en all_in_costs ($49,702 los excluye).",
       "Fechas: HCAD owner-since 08/04/2015 y el OFCRTN 03/2016 preceden a la escritura vesting RP-2017-216312 (05/17/2017); el lien RP-2016-304862 (07/2016) figura contra Bobbitt antes de esa escritura. Cadena de titulo (venta constable 2016/2017) sin imagen.",
       "title.vesting_deed esta 'verified' pero es solo una fila de indice sin imagen y la naturaleza de la escritura (constable tax deed) se infiere: debe ser 'inferred' segun el playbook.",
-      "valuation: cierre por razon $34,907 vs por prima $10,154 (3.4x); techo depende solo del valor HCAD. physical solo reporta FEMA efectivo; falta el borrador MAAPnext que exige el playbook."
+      "valuation: cierre por razon $34,907 vs por prima $10,154 (3.4x); techo depende solo del valor HCAD. physical solo reporta FEMA efectivo; falta el borrador MAAPnext que exige el playbook.",
+      "[2026-10-13] Cifras actualizadas tras corregir el calculo de anios en sentencia (rango 'a - b'): techo $40128.69 -> $41223.92; costo total $49701.61 -> $48573.52. El texto del revisor puede citar las cifras anteriores; la decision no cambio."
     ],
     "conditions_to_buy": [
       "Pedir a City of Houston payoff/estatus de los tres liens (RP-2016-304862, RP-2024-257373, RP-2026-277034) y leer imagenes para ver tipo (mowing/nuisance/demolicion) y si sobreviven; sumar el monto al costo.",

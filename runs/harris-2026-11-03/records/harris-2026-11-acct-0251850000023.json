@@ -251,15 +251,18 @@
     "taxes_in_judgment": {
       "value": [
         2021,
+        2022,
+        2023,
+        2024,
         2025
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0251850000023",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 7538.28,
+      "value": 0,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0251850000023",
       "retrieved_at": "2026-10-13"
@@ -272,7 +275,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 9132.21,
+      "value": 1593.93,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0251850000023",
       "retrieved_at": "2026-10-13",
@@ -616,7 +619,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 38025.0,
-        "impuestos_que_hereda": 9132.21,
+        "impuestos_que_hereda": 1593.93,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 1140.75,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -627,20 +630,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 52297.96,
+      "value": 44759.68,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 45502.71,
+      "value": 52821.43,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": 0.434,
+      "value": 0.676,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -656,14 +659,15 @@
   "review": {
     "decision": "CONDICIONAL",
     "rationale": "Lote chico pero util (5,000 sqft HCAD / 5,515 GIS, ~55x102 ft), City of Houston, 100% zona X, apertura $14,297 vs valor HCAD $75,000. Lo que frena: (1) el titulo del lote no se encontro (la escritura 2008-0149556 no aparece y las busquedas por legal dieron 0 filas), dos abstracts of judgment de 2020 solo por nombre comun (Jimenez Victor M) podrian sobrevivir, y los lotes vecinos 21-22 tienen cesion de impuestos a FNA DZ LLC en 2025; (2) el techo $45,503 es teorico (reventa a valor HCAD, sin comps, 61% del valor) y descansa en una cola de impuestos de $9,132 que parece mal calculada. Evidencia insuficiente para ir mas alla de CONDICIONAL; legal bloqueado. Attorney review recommended.",
-    "bid_ceiling": 45502.71,
-    "all_in_cost_estimate": 52297.96,
+    "bid_ceiling": 52821.43,
+    "all_in_cost_estimate": 44759.68,
     "contradictions": [
       "impuestos_que_hereda $9,132.21 (post_judgment_taxes $7,538.28 marcado verified) sale de leer taxes_in_judgment=[2021,2025] como dos anos sueltos; la deuda 2021-2025 es continua y la sentencia (02/15/2026) probablemente cubre el rango, asi que la cola real seria ~$1,594 (proxy 2026). El techo $45,503 queda inexacto (subestimado) y no es respaldable.",
       "Dueno gravado Jimenez Victor M & Ana (HCAD desde 03/14/2008, escritura 2008-0149556) vs indice del Clerk: no hay vesting deed para Lts 23-24 Blk 104; titulo del lote desconocido y la cadena del dueno no se pudo verificar.",
       "Dos abstracts of judgment (RP-2020-13879 East End District/Harris County; RP-2020-495212 TD Bank) contra 'Jimenez Victor M' sin liberacion, identidad no confirmada; costo total dice 'NO CUANTIFICADO' y el techo asume cero gravamenes.",
       "Lotes vecinos 19-20 y 21-22 Blk 104 muestran al mismo apellido con CONT/ASSGN de impuestos a FNA DZ LLC (2025): puede existir lien de prestamista de impuestos similar sobre 23-24 no detectado, ademas de AFFT de herederos en parcelas Jimenez (Lot 27-28 Blk 120) que sugieren origen sucesorio.",
-      "state class C2 (distinto de C1 residencial del resto de lotes) y land_detail 'Land Neighborhood Section 3': valoracion HCAD $15/sqft puede no reflejar uso residencial; GIS 5,515 sqft vs HCAD 5,000."
+      "state class C2 (distinto de C1 residencial del resto de lotes) y land_detail 'Land Neighborhood Section 3': valoracion HCAD $15/sqft puede no reflejar uso residencial; GIS 5,515 sqft vs HCAD 5,000.",
+      "[2026-10-13] Cifras actualizadas tras corregir el calculo de anios en sentencia (rango 'a - b'): techo $45502.71 -> $52821.43; costo total $52297.96 -> $44759.68. El texto del revisor puede citar las cifras anteriores; la decision no cambio."
     ],
     "conditions_to_buy": [
       "Busqueda de titulo por legal (Magnolia Park Sec 2, Lts 23-24 Blk 104) incluyendo film code/pre-2009 y lectura de 2008-0149556 (vesting)",

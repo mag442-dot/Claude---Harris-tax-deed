@@ -135,11 +135,11 @@
   },
   "physical": {
     "fema_effective_zone": {
-      "value": null,
-      "status": "unknown",
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
       "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
       "retrieved_at": "2026-10-13",
-      "note": "fallo de consulta: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
     },
     "parcel_centroid": {
       "value": {
@@ -163,6 +163,39 @@
       "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0162670050026)",
       "retrieved_at": "2026-10-13",
       "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
     }
   },
   "tax": {
@@ -344,15 +377,35 @@
     "taxes_in_judgment": {
       "value": [
         2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0162670050026",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 17600.77,
+      "value": 1760.19,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0162670050026",
       "retrieved_at": "2026-10-13"
@@ -365,7 +418,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 18875.91,
+      "value": 3035.33,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0162670050026",
       "retrieved_at": "2026-10-13",
@@ -625,7 +678,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 30420.0,
-        "impuestos_que_hereda": 18875.91,
+        "impuestos_que_hereda": 3035.33,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 912.6,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -636,20 +689,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 54208.51,
+      "value": 38367.93,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 24392.32,
+      "value": 39771.52,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": 0.107,
+      "value": 0.564,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -665,14 +718,15 @@
   "review": {
     "decision": "CONDICIONAL",
     "rationale": "Es una REVENTA de un lote ya adjudicado a las unidades fiscales: la escritura RP-2026-359408 (09/02/2026, constable a City/County/HISD etc.) es consistente con el strike-off de la venta de septiembre, asi que el lote probablemente SI esta disponible el 11/03 con apertura de $10,000 sobre HCAD $60,000. Pero faltan tres cosas: que la imagen confirme la escritura y que cubra el 'TR 26B' de HCAD, que se sepa que pasa con los impuestos y derechos de redencion en una reventa (el modelo trata el caso como venta normal), y que se mida inundacion/ciudad (consulta FEMA fallo y no hay jurisdiccion). El tail de impuestos del modelo ($18,876) esta inflado por un error de parseo; el techo de $24,392 es teorico y se movera a ~ $39,800 si se corrige, pero eso tampoco es verificable sin comps. Demandados, citacion y bancarrota siguen bloqueados; varios coduenos/herederos (Wright, Delafose) aparecen en la escritura. Attorney review recommended.",
-    "bid_ceiling": 24392.32,
-    "all_in_cost_estimate": 54208.51,
+    "bid_ceiling": 39771.52,
+    "all_in_cost_estimate": 38367.93,
     "contradictions": [
       "tax.taxes_in_judgment: el script scripts/tax_statement.py leyo el rango del condado 'anios_en_sentencia A - B' (candidatos.csv) como DOS anios sueltos [A,B]; por eso post_judgment_taxes y buyer_tax_tail_estimate incluyen anios que en realidad estan dentro de la sentencia. Aqui el rango es 2003-2024: casi todo esta en la sentencia y solo 2025 ($1,760.19) es post-sentencia. Tail correcto ~ $3,035 vs $18,876 usado (post_judgment_taxes $17,600.77 es erroneo); techo corregido ~ $39,772 y costo total ~ $38,368 (no modificado aqui).",
       "Estado de la venta: title senalaba que RP-2026-359408 parecia strike-off; intake/legal dicen RESALE (sale# 1). Reconciliado: son consistentes (strike-off de la venta del 1-2 de septiembre de 2026 y reventa 11/03), pero es inferido (imagen sin leer) y valuation/tax siguen tratandolo como una venta ordinaria con impuestos heredados.",
       "Descripcion: HCAD 'TR 26B BLK 5 Highland Acre Home Annex' vs indice 'Lot 26 Block 5': la escritura puede cubrir otro alcance del tracto.",
       "physical: fema_effective_zone 'unknown' (fallo SSL) y sin parcel_city, pero valuation emite techo y exit 'resale' como si no hubiera riesgo de inundacion/zonificacion para el dúplex.",
-      "Propietarios: HCAD muestra solo WRIGHT LIZ (desde 1988, sin escritura), pero RP-2026-359408 nombra 9 grantors (Wright Lillian/Roosevelt, Delafose, etc.): coduenos/herederos no reflejados en rol; legal.redemption_note asume dueno unico no-homestead."
+      "Propietarios: HCAD muestra solo WRIGHT LIZ (desde 1988, sin escritura), pero RP-2026-359408 nombra 9 grantors (Wright Lillian/Roosevelt, Delafose, etc.): coduenos/herederos no reflejados en rol; legal.redemption_note asume dueno unico no-homestead.",
+      "[2026-10-13] Cifras actualizadas tras corregir el calculo de anios en sentencia (rango 'a - b'): techo $24392.32 -> $39771.52; costo total $54208.51 -> $38367.93. El texto del revisor puede citar las cifras anteriores; la decision no cambio."
     ],
     "conditions_to_buy": [
       "Leer imagen de RP-2026-359408 (constable deed) y confirmar que cubre TR 26B y que el lote fue adjudicado a las unidades fiscales; confirmar con el Tax Office (713-274-8120) que el 11/03 es reventa y su apertura final.",

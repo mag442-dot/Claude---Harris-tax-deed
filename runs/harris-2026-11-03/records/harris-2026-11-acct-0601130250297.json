@@ -258,15 +258,18 @@
     "taxes_in_judgment": {
       "value": [
         2020,
+        2021,
+        2022,
+        2023,
         2024
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0601130250297",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 7230.8,
+      "value": 2285.83,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0601130250297",
       "retrieved_at": "2026-10-13"
@@ -279,7 +282,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 8824.73,
+      "value": 3879.76,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0601130250297",
       "retrieved_at": "2026-10-13",
@@ -539,7 +542,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 38025.0,
-        "impuestos_que_hereda": 8824.73,
+        "impuestos_que_hereda": 3879.76,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 1140.75,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -550,20 +553,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 51990.48,
+      "value": 47045.51,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 45801.23,
+      "value": 50602.17,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": 0.443,
+      "value": 0.594,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -579,14 +582,15 @@
   "review": {
     "decision": "CONDICIONAL",
     "rationale": "Es la mejor del grupo: dueno es una entidad (sin herederos), vesting deed RP-2017-301570 coincide con la legal de HCAD, indice limpio de gravamenes, Zona X 100%, lote de ~10,000-12,500 sqft (~100 x 127 ft) en Houston sin zonificacion, ideal para duplex. Los dos hechos que la sostienen son el indice limpio y el lote grande, pero ese 'limpio' es solo un negativo del indice (sin imagenes) y el valor $75,000 es un 'Res Vacant Override' de HCAD sin comps. El techo de $45,801 es teorico (reventa al 100% de HCAD, 25% retorno, quiet title y cierre supuestos): con haircut de 20% bajaria a ~$34k. Legal esta bloqueado (demandados, citacion, bancarrota) asi que no puede ser COMPRA FUERTE; attorney review recommended.",
-    "bid_ceiling": 45801.23,
-    "all_in_cost_estimate": 51990.48,
+    "bid_ceiling": 50602.17,
+    "all_in_cost_estimate": 47045.51,
     "contradictions": [
       "Area: HCAD 10,000 sqft ($75,000, 'Res Vacant Override') vs poligono GIS 12,508 sqft (+25%). El valor HCAD es un override manual cuyo origen se desconoce; el techo usa el valor HCAD, no el area GIS.",
       "taxes_in_judgment=[2020,2024] se uso como dos anios sueltos: post_judgment $7,230.80 incluye 2021-2023 y 2025. Con sentencia de 03/16/2026 (cause 2025) lo mas probable es que 2020-2024 sea un rango, y el tail real seria ~2025+2026 (~$3.9k, no $8,824.73). El tail es COTA SUPERIOR, por lo que el techo $45,801 es conservativo en este punto (no confirmado).",
       "Vesting deed marcado 'verified' solo por una fila del indice (sin imagen): verifica existencia del RP-2017-301570, no validez/ejecucion. HCAD fecha 07/05/2017 vs recording 07/06/2017 (benigno); deed previo 2014-0438808 no se encontro: cadena anterior a 2017 sin revisar.",
       "Entidad 'WILLARD STREET PARTNERS': existencia/vigencia y agente registrado no revisados (title.owner_deceased_heirs lo dice 'not applicable' por ser entidad, inferred). Los hits 'Willard Street Estates/Landing/Grove' son otras entidades (Mazz). Direccion postal es un condo (Unit 1039): riesgo de citacion por publicacion/defectuosa, aun no verificable.",
-      "valuation.all_in_costs 'liens NO CUANTIFICADO' vs title 'None found' (status unknown): el modelo asume $0 de gravamenes que sobreviven con un negativo de indice de baja confianza (busqueda 'EAST' generica)."
+      "valuation.all_in_costs 'liens NO CUANTIFICADO' vs title 'None found' (status unknown): el modelo asume $0 de gravamenes que sobreviven con un negativo de indice de baja confianza (busqueda 'EAST' generica).",
+      "[2026-10-13] Cifras actualizadas tras corregir el calculo de anios en sentencia (rango 'a - b'): techo $45801.23 -> $50602.17; costo total $51990.48 -> $47045.51. El texto del revisor puede citar las cifras anteriores; la decision no cambio."
     ],
     "conditions_to_buy": [
       "Con login: leer en hcdistrictclerk.com demandados y metodo de citacion del cause (si hubo citacion por publicacion, la ventana TRCP 329 sigue abierta); PACER por bancarrota del dueno y co-duenos",

@@ -129,23 +129,16 @@
   },
   "physical": {
     "fema_effective_zone": {
-      "value": null,
-      "status": "unknown",
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
       "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
       "retrieved_at": "2026-10-13",
-      "note": "fallo de consulta: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
     },
     "floodway": {
       "value": "no",
       "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
-      "retrieved_at": "2026-10-13",
-      "note": "Point = geocoded address (7506 WISTERIA RIDGE CT, HOUSTON, TX, 77095), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
-    },
-    "fema_sfha": {
-      "value": false,
-      "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
       "retrieved_at": "2026-10-13"
     },
     "parcel_centroid": {
@@ -170,6 +163,33 @@
       "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=1166720060017)",
       "retrieved_at": "2026-10-13",
       "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
     }
   },
   "title": {
@@ -406,7 +426,7 @@
   },
   "review": {
     "decision": "VIGILAR",
-    "rationale": "El condado aun no publica la apertura. No hay estado de cuenta de impuestos (cota de costo desconocida). Es casa (HCAD): valor de reventa y ocupacion sin verificar. Indice del Clerk (misma subdivision): lis pendens. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "El condado aun no publica la apertura. No hay estado de cuenta de impuestos (cota de costo desconocida). Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Indice del Clerk (misma subdivision): lis pendens. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
     "bid_ceiling": null,
     "all_in_cost_estimate": null,
     "contradictions": [],

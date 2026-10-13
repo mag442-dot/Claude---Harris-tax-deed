@@ -307,15 +307,26 @@
     "taxes_in_judgment": {
       "value": [
         2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0741520910033",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 19233.14,
+      "value": 3080.33,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0741520910033",
       "retrieved_at": "2026-10-13"
@@ -328,7 +339,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 21464.63,
+      "value": 5311.82,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0741520910033",
       "retrieved_at": "2026-10-13",
@@ -481,7 +492,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 53235.0,
-        "impuestos_que_hereda": 21464.63,
+        "impuestos_que_hereda": 5311.82,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 1597.05,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -492,20 +503,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 80296.68,
+      "value": 64143.87,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 56830.46,
+      "value": 72512.8,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": 0.308,
+      "value": 0.637,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -521,14 +532,15 @@
   "review": {
     "decision": "CONDICIONAL",
     "rationale": "Lote bueno para duplex (5,000-5,158 sqft, ~51 x 102 ft, Zona X, Houston sin zonificacion), pero hay dos senales de riesgo de titulo: la demanda (cause 201939501, ano 2019) es anterior a la compra de BMFX Capital LLC (deed RP-2023-205067, 06/2023), asi que el dueno gravable actual pudo no haber sido demandado/citado, y existe un lien de la Ciudad RP-2017-56221 sin liberacion en el indice que el modelo de costos asume en $0. El techo de $56,830 es teorico (reventa al 100% de HCAD $105,000 = $21/sqft sin comps, 25% retorno, quiet title y cierre supuestos), unas 3.8x la apertura de $15,000; no lo respaldo, y con haircut de 15% baja a ~$44.6k. Solo avanzar si el docket muestra que BMFX fue parte y el lien se cotiza; attorney review recommended.",
-    "bid_ceiling": 56830.46,
-    "all_in_cost_estimate": 80296.68,
+    "bid_ceiling": 72512.8,
+    "all_in_cost_estimate": 64143.87,
     "contradictions": [
       "Dueno gravable vs demanda: cause 201939501 (2019) con sentencia 10/17/2025; el dueno gravable es BMFX Capital LLC por deed 06/05/2023 (despues de iniciada la demanda). Si solo se demando/cito a Jeu Thanh (dueno anterior) el comprador del tax deed enfrenta un defecto de citacion/redencion (TRCP 329, hasta 10/17/2027 si hubo publicacion). Demandados y citacion estan BLOQUEADOS. HCAD fecha 06/03/2023 vs recording 06/05/2023 (benigno).",
       "Cola de impuestos: taxes_in_judgment=[2012,2024] (2012 ni siquiera esta en el estado de cuenta) se uso como dos anios sueltos; post_judgment $19,233.14 trata 2013-2023 y 2025 como no incluidos aunque la demanda es de 2019. El tail $21,464.63 es COTA SUPERIOR; si fuera un rango el tail seria ~2025+2026 (~$5.3k) y el techo subiria ~$15k. Conservativo pero sin confirmar, y todo el costo all-in ($80,297) depende de esto.",
       "Lien Ciudad RP-2017-56221 (02/2017) esta marcado 'verified' solo como fila de indice; tipo, monto y supervivencia son desconocidos, y el deudor es 'Yatsing Jeu' vs vendedor 'Jeu Thanh' (identidad no confirmada). valuation.all_in_costs lo deja 'NO CUANTIFICADO' y el techo asume $0: inconsistencia entre title y modelo de costos.",
       "Dueno es un LLC inversionista que compro en 2023 con 10+ anios de deuda y un lien: puede redimir dentro del plazo (no homestead, plazo corto a confirmar con abogado), inmovilizando capital; el modelo no lo considera. Lote 7 Blk 91 comprado el mismo dia (RP-2023-205066) sugiere ensamblaje/estrategia propia.",
-      "Valor HCAD $105,000 ('Res Vacant Table Value', $21/sqft) sin comps; cierre esperado por ratio $53,235 vs por prima $16,320: rango 3x que muestra que el techo no esta anclado en datos."
+      "Valor HCAD $105,000 ('Res Vacant Table Value', $21/sqft) sin comps; cierre esperado por ratio $53,235 vs por prima $16,320: rango 3x que muestra que el techo no esta anclado en datos.",
+      "[2026-10-13] Cifras actualizadas tras corregir el calculo de anios en sentencia (rango 'a - b'): techo $56830.46 -> $72512.8; costo total $80296.68 -> $64143.87. El texto del revisor puede citar las cifras anteriores; la decision no cambio."
     ],
     "conditions_to_buy": [
       "Con login: leer demandados/citacion del cause 201939501 y confirmar que BMFX Capital LLC (o sucesor en interes) fue parte; si no, no pujar",

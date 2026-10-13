@@ -272,15 +272,23 @@
     "taxes_in_judgment": {
       "value": [
         2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0731110080232",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 10431.12,
+      "value": 2639.42,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0731110080232",
       "retrieved_at": "2026-10-13"
@@ -293,7 +301,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 12343.2,
+      "value": 4551.5,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0731110080232",
       "retrieved_at": "2026-10-13",
@@ -446,7 +454,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 53563.54,
-        "impuestos_que_hereda": 12343.2,
+        "impuestos_que_hereda": 4551.5,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 1606.91,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -457,20 +465,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 71513.65,
+      "value": 63721.95,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 66189.51,
+      "value": 73754.27,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": 0.477,
+      "value": 0.658,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -486,14 +494,15 @@
   "review": {
     "decision": "VIGILAR",
     "rationale": "Es la ficha mas gravada del lote: tres liens de la Ciudad de Houston (2016, 2018, 2020) sin liberacion, dos avisos de lien federal del IRS (2021) contra 'Kay Anthony C' sin liberacion, y un posible judgment abstract de 2017, todo sin cuantificar mientras el modelo asume cero gravamenes. Un lien federal puede sobrevivir una venta local (26 USC 7425; IRS tiene derecho de redencion) y, si se confirma la identidad del deudor, aplicaria el descarte automatico; hoy es inferred, por eso VIGILAR y no DESCARTADA. El techo $66,190 es teorico (valor HCAD $105,648, sin comps) y la cola de impuestos de $12,343 parece mal calculada. Attorney review recommended.",
-    "bid_ceiling": 66189.51,
-    "all_in_cost_estimate": 71513.65,
+    "bid_ceiling": 73754.27,
+    "all_in_cost_estimate": 63721.95,
     "contradictions": [
       "Dos T/L del IRS (RP-2021-150996 y RP-2021-549653, 'Kay Anthony C') sin liberacion, ~5 anos (no expirados): el modelo ignora cualquier lien federal; identidad solo por nombre (inferred).",
       "Tres liens de la Ciudad (RP-2016-190686, RP-2018-130379, RP-2020-223326) 'verified' en el indice pero sin monto ni liberacion; costo total dice 'NO CUANTIFICADO' y el techo asume cero. Posible A/J RP-2017-309761 (Myers Plumbing) sin liberacion.",
       "impuestos_que_hereda $12,343.20 sale de leer taxes_in_judgment=[2015,2024] como dos anos sueltos (post_judgment_taxes $10,431 'verified' es derivado); con sentencia 2015-2024 la cola real seria ~$4.55k (2025 $2,639 + proxy 2026 $1,912).",
       "Valor HCAD $105,648 (usado) vs valor del condado $89,971 (appraised_value_county): +17% sin comps; ademas land_detail parte el lote en 7,680 + 5,760 sqft con tarifas distintas.",
-      "Direccion numerada (6606 Weaver Rd) y 3 liens de la Ciudad (tipicos de demolicion/maleza) vs HCAD building 0: verificar si hubo casa demolida; title mortgages marcado verified aunque el pareo MEMO/REL es inferido."
+      "Direccion numerada (6606 Weaver Rd) y 3 liens de la Ciudad (tipicos de demolicion/maleza) vs HCAD building 0: verificar si hubo casa demolida; title mortgages marcado verified aunque el pareo MEMO/REL es inferido.",
+      "[2026-10-13] Cifras actualizadas tras corregir el calculo de anios en sentencia (rango 'a - b'): techo $66189.51 -> $73754.27; costo total $71513.65 -> $63721.95. El texto del revisor puede citar las cifras anteriores; la decision no cambio."
     ],
     "conditions_to_buy": [
       "Confirmar identidad del deudor en RP-2021-150996 y RP-2021-549653 (imagen: direccion/SSN-4) y si hay liberacion o refile; si es este Anthony C. Kay y no hay via de extincion, DESCARTADA",

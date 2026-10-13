@@ -237,15 +237,16 @@
     "taxes_in_judgment": {
       "value": [
         2023,
+        2024,
         2025
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0790770040017",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 5214.61,
+      "value": 0,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0790770040017",
       "retrieved_at": "2026-10-13"
@@ -258,7 +259,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 8573.95,
+      "value": 3359.34,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0790770040017",
       "retrieved_at": "2026-10-13",
@@ -406,7 +407,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 80141.49,
-        "impuestos_que_hereda": 8573.95,
+        "impuestos_que_hereda": 3359.34,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 2404.24,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -417,20 +418,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 95119.68,
+      "value": 89905.07,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 110565.1,
+      "value": 115627.83,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": 0.662,
+      "value": 0.758,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -446,14 +447,15 @@
   "review": {
     "decision": "VIGILAR",
     "rationale": "Lote de 15,807 sqft en City of Houston (sin zonificacion), zona X sin SFHA, con apertura de $19,738, pero el dueno (Sorrell Sanders) aparenta estar fallecido ('EST' en el indice) y no se encontro escritura de vesting ni se sabe si herederos fueron citados. Hay ademas un probable lien nuevo de la Ciudad (RP-2026-378497, 17/09/2026) sin leer, y demandados, citacion y bancarrota estan bloqueados. El techo de $110,565 es teorico: asume reventa al valor HCAD ($10/sqft plano, $158,070) sin comps y usa un tail de impuestos mal calculado; no se debe endorsar con esta evidencia. Vigilar hasta confirmar herederos/citacion y el lien; riesgo de redencion o nuevo juicio por herederos (TRCP 329 abierto hasta 2028-07-22 si hubo publicacion). Attorney review recommended.",
-    "bid_ceiling": 110565.1,
-    "all_in_cost_estimate": 95119.68,
+    "bid_ceiling": 115627.83,
+    "all_in_cost_estimate": 89905.07,
     "contradictions": [
       "tax.taxes_in_judgment: el script scripts/tax_statement.py leyo el rango del condado 'anios_en_sentencia A - B' (candidatos.csv) como DOS anios sueltos [A,B]; por eso post_judgment_taxes y buyer_tax_tail_estimate incluyen anios que en realidad estan dentro de la sentencia. Aqui el rango es 2023-2025: 2024 esta DENTRO de la sentencia pero el modelo lo cuenta como post-sentencia ($5,214.61). Tail correcto ~ $3,359 (solo proxy 2026) vs $8,574 usado; el techo corregido seria ~ $115,628 y el costo total ~ $89,905 (valores no cambiados aqui).",
       "Propietario: HCAD/rol del condado nombra a SORRELL SANDERS (persona natural), pero el indice lo marca 'EST' (RP-2025-501839 AFFT, RP-2026-278113): probable fallecido. legal.redemption_note trata el caso como no-homestead normal con redencion corta y no considera herederos; defendantes/citacion bloqueados.",
       "title: lien City of Houston RP-2026-378497 (09/17/2026, deudor 'Sanders Sorrell' invertido, sin lote) marcado 'inferred' y posterior a la sentencia (07/22/2026), vs modelo de costos que no cuantifica gravamenes sobrevivientes.",
       "Escrituras HCAD 2009-0298169 y 2007-0731436 no aparecen en el indice: vesting 'unknown' mientras hcad_owner_since (07/01/2009) figura 'verified'; no hay cadena de titulo comprobada.",
-      "valuation: cierre por razon $80,141 vs por prima $21,475 (3.7x); apertura = 12% del valor HCAD. El valor HCAD ($10/sqft sobre un tracto de 15.8k sqft, GIS 15,759) no tiene comps, y el techo depende solo de el."
+      "valuation: cierre por razon $80,141 vs por prima $21,475 (3.7x); apertura = 12% del valor HCAD. El valor HCAD ($10/sqft sobre un tracto de 15.8k sqft, GIS 15,759) no tiene comps, y el techo depende solo de el.",
+      "[2026-10-13] Cifras actualizadas tras corregir el calculo de anios en sentencia (rango 'a - b'): techo $110565.1 -> $115627.83; costo total $95119.68 -> $89905.07. El texto del revisor puede citar las cifras anteriores; la decision no cambio."
     ],
     "conditions_to_buy": [
       "Confirmar en hcdistrictclerk.com (login) los demandados del cause 202510498, si se cito a herederos/sucesion de Sorrell Sanders y el metodo de citacion (publicacion = riesgo TRCP 329).",

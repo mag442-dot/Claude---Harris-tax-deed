@@ -237,15 +237,16 @@
     "taxes_in_judgment": {
       "value": [
         2023,
+        2024,
         2025
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0610070510007",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 5938.08,
+      "value": 0,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0610070510007",
       "retrieved_at": "2026-10-13"
@@ -258,7 +259,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 10528.55,
+      "value": 4590.47,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0610070510007",
       "retrieved_at": "2026-10-13",
@@ -441,7 +442,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 119145.0,
-        "impuestos_que_hereda": 10528.55,
+        "impuestos_que_hereda": 4590.47,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 3574.35,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -452,20 +453,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 137247.9,
+      "value": 131309.82,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 168418.88,
+      "value": 174184.01,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": 0.712,
+      "value": 0.79,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -481,8 +482,8 @@
   "review": {
     "decision": "NO PARA DUPLEX",
     "rationale": "Lote 19,692 sqft / 100% del predio en zona de inundacion especial (SFHA): heuristica contra la salida dúplex (no es un limite legal). Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
-    "bid_ceiling": 168418.88,
-    "all_in_cost_estimate": 137247.9,
+    "bid_ceiling": 174184.01,
+    "all_in_cost_estimate": 131309.82,
     "contradictions": [],
     "conditions_to_buy": [
       "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",

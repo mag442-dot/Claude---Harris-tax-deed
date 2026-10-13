@@ -86,8 +86,8 @@ def main(argv):
                 jyears = []
                 if yj:
                     txt = yj.group(1)
-                    for a, b in re.findall(r"(\d{4})\s*-\s*(\d{4})", txt):          # county shows a RANGE: '2004 - 2018'
-                        jyears += list(range(int(a), int(b) + 1))
+                    for y1, y2 in re.findall(r"(\d{4})\s*-\s*(\d{4})", txt):          # county shows a RANGE: '2004 - 2018'
+                        jyears += list(range(int(y1), int(y2) + 1))
                     rest = re.sub(r"\d{4}\s*-\s*\d{4}", " ", txt)
                     jyears += [int(y) for y in re.findall(r"\b(?:19|20)\d\d\b", rest)]
                     jyears = sorted(set(jyears))

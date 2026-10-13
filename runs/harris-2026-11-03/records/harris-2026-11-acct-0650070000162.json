@@ -129,23 +129,16 @@
   },
   "physical": {
     "fema_effective_zone": {
-      "value": null,
-      "status": "unknown",
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
       "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
       "retrieved_at": "2026-10-13",
-      "note": "fallo de consulta: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
     },
     "floodway": {
       "value": "no",
       "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
-      "retrieved_at": "2026-10-13",
-      "note": "Point = geocoded address (2105 FIRNAT ST, HOUSTON, TX, 77093), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
-    },
-    "fema_sfha": {
-      "value": false,
-      "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
       "retrieved_at": "2026-10-13"
     },
     "parcel_centroid": {
@@ -170,6 +163,33 @@
       "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0650070000162)",
       "retrieved_at": "2026-10-13",
       "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
     }
   },
   "tax": {
@@ -344,15 +364,28 @@
     "taxes_in_judgment": {
       "value": [
         2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
         2018
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0650070000162",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 9534.76,
+      "value": 3357.64,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0650070000162",
       "retrieved_at": "2026-10-13"
@@ -365,7 +398,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 9914.12,
+      "value": 3737.0,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0650070000162",
       "retrieved_at": "2026-10-13",
@@ -532,7 +565,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 12835.72,
-        "impuestos_que_hereda": 9914.12,
+        "impuestos_que_hereda": 3737.0,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 385.07,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -543,20 +576,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 27134.91,
+      "value": 20957.79,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 6154.83,
+      "value": 12152.04,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": -0.067,
+      "value": 0.208,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -571,9 +604,9 @@
   },
   "review": {
     "decision": "VIGILAR",
-    "rationale": "El condado aun no publica la apertura. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
-    "bid_ceiling": 6154.83,
-    "all_in_cost_estimate": 27134.91,
+    "rationale": "El condado aun no publica la apertura. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 12152.04,
+    "all_in_cost_estimate": 20957.79,
     "contradictions": [],
     "conditions_to_buy": [
       "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",

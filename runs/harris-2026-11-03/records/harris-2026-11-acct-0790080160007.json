@@ -147,12 +147,6 @@
       "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
       "retrieved_at": "2026-10-13"
     },
-    "fema_sfha": {
-      "value": true,
-      "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
-      "retrieved_at": "2026-10-13"
-    },
     "parcel_centroid": {
       "value": {
         "lon": -95.327295,
@@ -306,15 +300,19 @@
     "taxes_in_judgment": {
       "value": [
         2010,
+        2011,
+        2012,
+        2013,
+        2014,
         2015
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0790080160007",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 37282.86,
+      "value": 35161.41,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0790080160007",
       "retrieved_at": "2026-10-13"
@@ -327,7 +325,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 40030.18,
+      "value": 37908.73,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0790080160007",
       "retrieved_at": "2026-10-13",
@@ -465,7 +463,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 57650.97,
-        "impuestos_que_hereda": 40030.18,
+        "impuestos_que_hereda": 37908.73,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 1729.53,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -476,20 +474,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 103410.68,
+      "value": 101289.23,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 45570.7,
+      "value": 47630.36,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": 0.1,
+      "value": 0.123,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -511,8 +509,8 @@
   "review": {
     "decision": "NO PARA DUPLEX",
     "rationale": "Lote 6,597 sqft / 100% del predio en zona de inundacion especial (SFHA): heuristica contra la salida dúplex (no es un limite legal). Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
-    "bid_ceiling": 45570.7,
-    "all_in_cost_estimate": 103410.68,
+    "bid_ceiling": 47630.36,
+    "all_in_cost_estimate": 101289.23,
     "contradictions": [],
     "conditions_to_buy": [
       "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",

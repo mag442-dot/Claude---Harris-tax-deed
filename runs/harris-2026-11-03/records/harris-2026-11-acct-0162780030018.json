@@ -147,12 +147,6 @@
       "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
       "retrieved_at": "2026-10-13"
     },
-    "fema_sfha": {
-      "value": false,
-      "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
-      "retrieved_at": "2026-10-13"
-    },
     "parcel_centroid": {
       "value": {
         "lon": -95.422569,
@@ -263,15 +257,44 @@
     },
     "taxes_in_judgment": {
       "value": [
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
         2023
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0162780030018",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 41645.34,
+      "value": 22444.95,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0162780030018",
       "retrieved_at": "2026-10-13"
@@ -284,7 +307,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 49304.07,
+      "value": 30103.68,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0162780030018",
       "retrieved_at": "2026-10-13",
@@ -467,7 +490,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 182709.11,
-        "impuestos_que_hereda": 49304.07,
+        "impuestos_que_hereda": 30103.68,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 5481.27,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -478,20 +501,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 241494.45,
+      "value": 222294.06,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 228149.83,
+      "value": 246790.99,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": 0.492,
+      "value": 0.621,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -512,9 +535,9 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $228,150 >= cierre esperado $182,709. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
-    "bid_ceiling": 228149.83,
-    "all_in_cost_estimate": 241494.45,
+    "rationale": "Techo teorico $246,791 >= cierre esperado $182,709. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 246790.99,
+    "all_in_cost_estimate": 222294.06,
     "contradictions": [],
     "conditions_to_buy": [
       "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",

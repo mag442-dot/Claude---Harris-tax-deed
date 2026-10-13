@@ -81,7 +81,7 @@ def main(argv):
         tdue = f(rec, "tax", "total_due_all_years")
         rv = rec.get("review") or {}
         rows.append({
-            "decision_previa": rv.get("decision", ""), "tipo_lote": "LOTE" if str(f(rec, "intake", "hcad_building_sqft") or "0") in ("0", "0.0") and str(f(rec, "intake", "hcad_state_class") or "").startswith(("C", "D", "E")) else "CASA/OTRO",
+            "decision_previa": rv.get("decision", ""), "revisado_por": ("agente reviewer" if rv and "nunca COMPRA FUERTE sin esa revision" not in rv.get("rationale", "") else ("reglas (sin leer a mano)" if rv else "")), "tipo_lote": "LOTE" if str(f(rec, "intake", "hcad_building_sqft") or "0") in ("0", "0.0") and str(f(rec, "intake", "hcad_state_class") or "").startswith(("C", "D", "E")) else "CASA/OTRO",
             "impuestos_total_adeudado": tdue if tdue is not None else "", "impuestos_que_hereda_est": tail if tail is not None else "",
             "cierre_esperado": max([x for x in (f(rec, "valuation", "expected_close_from_ratio"), f(rec, "valuation", "expected_close_from_premium")) if x] or [""]),
             "techo_teorico": f(rec, "valuation", "bid_ceiling") if f(rec, "valuation", "bid_ceiling") is not None else "",

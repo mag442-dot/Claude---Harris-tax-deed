@@ -243,7 +243,7 @@
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0750860370156",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
       "value": 3768.54,

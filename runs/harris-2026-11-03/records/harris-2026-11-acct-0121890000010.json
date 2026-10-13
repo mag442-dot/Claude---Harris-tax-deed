@@ -356,15 +356,33 @@
     "taxes_in_judgment": {
       "value": [
         2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
         2025
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0121890000010",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 11324.81,
+      "value": 0,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0121890000010",
       "retrieved_at": "2026-10-13"
@@ -377,7 +395,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 12493.94,
+      "value": 1169.13,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0121890000010",
       "retrieved_at": "2026-10-13",
@@ -624,7 +642,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 33366.68,
-        "impuestos_que_hereda": 12493.94,
+        "impuestos_que_hereda": 1169.13,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 1001.0,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -635,20 +653,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 50861.62,
+      "value": 39536.81,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 35102.58,
+      "value": 46097.54,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": 0.294,
+      "value": 0.665,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -664,14 +682,15 @@
   "review": {
     "decision": "VIGILAR",
     "rationale": "Dueno fallecido ('ESTATE OF' Harold Torman), herederos desconocidos y sin escritura de vesting en el indice, mas una declaracion jurada RP-2023-25490 (Perserva Real Estate / Saltzman -> Patricia A Stevens) que cita estos mismos lotes y Stevens aparece como 'c/o' en el rol del condado: posible reclamo competidor y alto riesgo de redencion/quiet title. El modelo ademas parece sobrestimar la cola de impuestos ($12,494) al tratar 2006 y 2025 como los unicos anos de sentencia, por lo que el techo de $35,103 no es confiable en ningun sentido y sigue siendo teorico (valor HCAD $65,812, sin comps). Lote atractivo (13,500 sqft, X, City of Houston) pero evidencia insuficiente. Attorney review recommended.",
-    "bid_ceiling": 35102.58,
-    "all_in_cost_estimate": 50861.62,
+    "bid_ceiling": 46097.54,
+    "all_in_cost_estimate": 39536.81,
     "contradictions": [
       "post_judgment_taxes $11,324.81 (marcado verified) sale de leer taxes_in_judgment=[2006,2025] como dos anos sueltos; la deuda 2006-2025 es continua y la sentencia (06/30/2026) probablemente cubre el rango, asi que la cola real seria ~$1,169 (proxy 2026), no $12,494. El techo $35,103 estaria subestimado (~$46k) pero tampoco es respaldable.",
       "Valor HCAD 2026 $65,812 (usado) vs valor del condado/anterior $55,012 (appraised_value_county): +20% sin comps.",
       "Dueno gravado 'Estate of Torman' y c/o 'Patricia A Stevens' (condado) vs HCAD 'Sandra Cockream 0%': dos personas de contacto distintas; AFFT RP-2023-25490 a favor de Stevens Patricia A con terceros no leido (posible escritura/herencia/posesion adversa).",
       "Sin vesting deed ni deed ref en HCAD (propietario desde 2002) pero costo total da 'liens NO CUANTIFICADO'; titulo todo 'unknown' y modelo asume cero.",
-      "Apertura $16,886 vs saldo total $13,015: costas ~$3.9k plausibles, pero con anos de sentencia incierta no se puede verificar la composicion."
+      "Apertura $16,886 vs saldo total $13,015: costas ~$3.9k plausibles, pero con anos de sentencia incierta no se puede verificar la composicion.",
+      "[2026-10-13] Cifras actualizadas tras corregir el calculo de anios en sentencia (rango 'a - b'): techo $35102.58 -> $46097.54; costo total $50861.62 -> $39536.81. El texto del revisor puede citar las cifras anteriores; la decision no cambio."
     ],
     "conditions_to_buy": [
       "Leer imagen RP-2023-25490 (AFFT) y buscar en Harris County Probate Courts sucesion de Harold G. Torman",

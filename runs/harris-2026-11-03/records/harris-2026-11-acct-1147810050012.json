@@ -147,12 +147,6 @@
       "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
       "retrieved_at": "2026-10-13"
     },
-    "fema_sfha": {
-      "value": false,
-      "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
-      "retrieved_at": "2026-10-13"
-    },
     "parcel_centroid": {
       "value": {
         "lon": -95.55534,
@@ -271,15 +265,20 @@
     "taxes_in_judgment": {
       "value": [
         2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=1147810050012",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 4321.53,
+      "value": 865.28,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=1147810050012",
       "retrieved_at": "2026-10-13"
@@ -292,7 +291,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 4972.13,
+      "value": 1515.88,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=1147810050012",
       "retrieved_at": "2026-10-13",
@@ -430,7 +429,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 24504.32,
-        "impuestos_que_hereda": 4972.13,
+        "impuestos_que_hereda": 1515.88,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 735.13,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -441,20 +440,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 34211.58,
+      "value": 30755.33,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 28828.61,
+      "value": 32184.19,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": 0.413,
+      "value": 0.571,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -475,9 +474,9 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $28,829 >= cierre esperado $24,504. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
-    "bid_ceiling": 28828.61,
-    "all_in_cost_estimate": 34211.58,
+    "rationale": "Techo teorico $32,184 >= cierre esperado $24,504. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 32184.19,
+    "all_in_cost_estimate": 30755.33,
     "contradictions": [],
     "conditions_to_buy": [
       "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",

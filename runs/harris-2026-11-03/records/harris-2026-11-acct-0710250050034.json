@@ -314,15 +314,27 @@
     "taxes_in_judgment": {
       "value": [
         2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
         2025
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0710250050034",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 12646.76,
+      "value": 0,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0710250050034",
       "retrieved_at": "2026-10-13"
@@ -335,7 +347,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 13599.6,
+      "value": 952.84,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0710250050034",
       "retrieved_at": "2026-10-13",
@@ -473,7 +485,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 68941.66,
-        "impuestos_que_hereda": 13599.6,
+        "impuestos_que_hereda": 952.84,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 2068.25,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -484,20 +496,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 88609.51,
+      "value": 75962.75,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 42159.61,
+      "value": 54438.02,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": -0.139,
+      "value": 0.004,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -597,9 +609,9 @@
   },
   "review": {
     "decision": "BAJA",
-    "rationale": "Techo teorico $42,160 < apertura $63,366. Jurisdiccion: CITY OF PASADENA. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
-    "bid_ceiling": 42159.61,
-    "all_in_cost_estimate": 88609.51,
+    "rationale": "Techo teorico $54,438 < apertura $63,366. Jurisdiccion: CITY OF PASADENA. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 54438.02,
+    "all_in_cost_estimate": 75962.75,
     "contradictions": [],
     "conditions_to_buy": [
       "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",

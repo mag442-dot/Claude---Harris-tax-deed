@@ -147,12 +147,6 @@
       "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
       "retrieved_at": "2026-10-13"
     },
-    "fema_sfha": {
-      "value": false,
-      "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
-      "retrieved_at": "2026-10-13"
-    },
     "parcel_centroid": {
       "value": {
         "lon": -95.594915,
@@ -369,15 +363,37 @@
     "taxes_in_judgment": {
       "value": [
         2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0410060070015",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 2364.02,
+      "value": 340.83,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0410060070015",
       "retrieved_at": "2026-10-13"
@@ -390,7 +406,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 2630.32,
+      "value": 607.13,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0410060070015",
       "retrieved_at": "2026-10-13",
@@ -783,7 +799,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 15900.53,
-        "impuestos_que_hereda": 2630.32,
+        "impuestos_que_hereda": 607.13,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 477.02,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -794,20 +810,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 23007.87,
+      "value": 20984.68,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 17921.63,
+      "value": 19885.89,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": 0.363,
+      "value": 0.495,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -823,13 +839,14 @@
   "review": {
     "decision": "VIGILAR",
     "rationale": "Lote de 5,227 sqft en condado no incorporado de Harris (sin zonificacion municipal, zona X sin SFHA) con apertura de $11,340, pero el dueno en HCAD es literalmente 'UNKNOWN' desde 1988 y no se pudo rastrear ninguna escritura, hipoteca ni lien. Con dueno desconocido es casi seguro que hubo citacion por publicacion (no verificado, bloqueado), de modo que la ventana TRCP 329 sigue abierta hasta 2027-10-27 y el riesgo de nuevo juicio o reclamo de herederos no esta cubierto por el supuesto de $4,000 de quiet title. El techo de $17,922 es teorico (valor HCAD $31,362 como precio de reventa, sin comps), aunque corregido el tail apenas sube a ~ $19,886; no se endorsa. Como el capital en riesgo es bajo se mantiene en vigilancia, pero necesita un title search real. Attorney review recommended.",
-    "bid_ceiling": 17921.63,
-    "all_in_cost_estimate": 23007.87,
+    "bid_ceiling": 19885.89,
+    "all_in_cost_estimate": 20984.68,
     "contradictions": [
       "tax.taxes_in_judgment: el script scripts/tax_statement.py leyo el rango del condado 'anios_en_sentencia A - B' (candidatos.csv) como DOS anios sueltos [A,B]; por eso post_judgment_taxes y buyer_tax_tail_estimate incluyen anios que en realidad estan dentro de la sentencia. Rango 2001-2024: casi todo esta en la sentencia; solo 2025 ($340.83) es post-sentencia. Tail correcto ~ $607 vs $2,630 usado (post_judgment_taxes $2,364.02); techo corregido ~ $19,886 (no modificado aqui). El estado de cuenta empieza en 2005 aunque la sentencia dice desde 2001.",
       "Propietario 'UNKNOWN': hcad_owner 'verified' pero sin identidad real; legal busca bancarrota de 'UNKNOWN' en PACER (sin sentido) y legal.redemption_note asume redencion corta normal sin considerar herederos/propietario desconocido.",
       "title: 'none found' para liens/hipotecas esta 'unknown' (no se pudo buscar por nombre); el modelo de costos lo toma como cero sobrevivientes y $4,000 de quiet title, que es bajo para dueno desconocido con citacion por publicacion.",
-      "Valor: tax.appraised_value_county $30,106 vs HCAD market $31,362 (el techo usa $31,362); sin comps, el techo es teorico."
+      "Valor: tax.appraised_value_county $30,106 vs HCAD market $31,362 (el techo usa $31,362); sin comps, el techo es teorico.",
+      "[2026-10-13] Cifras actualizadas tras corregir el calculo de anios en sentencia (rango 'a - b'): techo $17921.63 -> $19885.89; costo total $23007.87 -> $20984.68. El texto del revisor puede citar las cifras anteriores; la decision no cambio."
     ],
     "conditions_to_buy": [
       "Title search comercial de Lt 15 Huffsmith U/R Abst 50 J Miller (24922 Wilson St, Tomball) para identificar dueno de registro, hipotecas y liens.",

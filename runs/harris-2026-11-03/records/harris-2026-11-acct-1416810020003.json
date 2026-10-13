@@ -135,24 +135,17 @@
   },
   "physical": {
     "fema_effective_zone": {
-      "value": null,
-      "status": "unknown",
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
       "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
       "retrieved_at": "2026-10-13",
-      "note": "fallo de consulta: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
     },
     "floodway": {
       "value": "no",
       "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
-      "retrieved_at": "2026-10-11",
-      "note": "Point = geocoded address (24818 COLONY MEADOW TRL, HUFFMAN, TX, 77336), not parcel centroid; effective NFHL only, draft MAAPnext not checked; no depth grids."
-    },
-    "fema_sfha": {
-      "value": false,
-      "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
-      "retrieved_at": "2026-10-11"
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
     },
     "parcel_centroid": {
       "value": {
@@ -176,6 +169,33 @@
       "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=1416810020003)",
       "retrieved_at": "2026-10-13",
       "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-10-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-10-13"
     }
   },
   "title": {
@@ -371,7 +391,7 @@
   },
   "review": {
     "decision": "VIGILAR",
-    "rationale": "No hay estado de cuenta de impuestos (cota de costo desconocida). Es casa (HCAD): valor de reventa y ocupacion sin verificar. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "No hay estado de cuenta de impuestos (cota de costo desconocida). Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
     "bid_ceiling": null,
     "all_in_cost_estimate": null,
     "contradictions": [],

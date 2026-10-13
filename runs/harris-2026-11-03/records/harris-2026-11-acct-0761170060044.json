@@ -147,12 +147,6 @@
       "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
       "retrieved_at": "2026-10-13"
     },
-    "fema_sfha": {
-      "value": false,
-      "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov); geocode: US Census",
-      "retrieved_at": "2026-10-13"
-    },
     "parcel_centroid": {
       "value": {
         "lon": -95.284726,
@@ -284,15 +278,44 @@
     },
     "taxes_in_judgment": {
       "value": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
         2025
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0761170060044",
       "retrieved_at": "2026-10-13",
-      "note": "from county sale list ('Tax Years in Judgement')"
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
-      "value": 8329.64,
+      "value": 0,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0761170060044",
       "retrieved_at": "2026-10-13"
@@ -305,7 +328,7 @@
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
-      "value": 9854.23,
+      "value": 1524.59,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0761170060044",
       "retrieved_at": "2026-10-13",
@@ -458,7 +481,7 @@
     "all_in_costs": {
       "value": {
         "puja_esperada": 36371.17,
-        "impuestos_que_hereda": 9854.23,
+        "impuestos_que_hereda": 1524.59,
         "quiet_title_supuesto": 4000,
         "cierre_supuesto": 1091.14,
         "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
@@ -469,20 +492,20 @@
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
-      "value": 51316.54,
+      "value": 42986.9,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13"
     },
     "bid_ceiling": {
-      "value": 42268.13,
+      "value": 50355.16,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
-      "value": 0.398,
+      "value": 0.669,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
       "retrieved_at": "2026-10-13",
@@ -498,14 +521,15 @@
   "review": {
     "decision": "CONDICIONAL",
     "rationale": "Lote chico pero util (5,739 sqft, ~45 x 130 ft, Zona X, Houston sin zonificacion) con apertura baja ($17,287) frente a HCAD $71,738. Pero hay dos liens de la Ciudad sin liberar (RP-2023-17362 y RP-2024-257306) recordados DESPUES de que se presento la demanda (cause 2022), por lo que pueden no haber sido extinguidos y su monto es desconocido, y el dueno (Mary Rose Ford, desde 1988) pudo fallecer sin que se haya revisado. El techo de $42,268 es teorico (reventa al 100% de HCAD sin comps, 25% retorno, quiet title y cierre supuestos; con haircut de 15% baja a ~$33.9k, antes de restar los liens); no lo respaldo. Avanzar solo si los liens se leen y se restan del techo y el docket confirma la citacion; attorney review recommended.",
-    "bid_ceiling": 42268.13,
-    "all_in_cost_estimate": 51316.54,
+    "bid_ceiling": 50355.16,
+    "all_in_cost_estimate": 42986.9,
     "contradictions": [
       "Liens de la Ciudad RP-2023-17362 (01/2023) y RP-2024-257306 (07/2024) se registraron despues de presentada la demanda (cause 202281671, 2022): la Ciudad probablemente no era demandada como acreedor de record y los liens pueden sobrevivir. 'verified' solo cubre la fila del indice (deudor/legal coinciden); tipo y monto son desconocidos. valuation.all_in_costs los deja 'NO CUANTIFICADO' y el techo supone $0.",
       "taxes_in_judgment=[2025]: una demanda de 2022 no puede contener solo impuestos 2025 (vencen 02/2026); la lista es poco confiable. post_judgment $8,329.64 y tail $9,854.23 tratan 2017-2024 como 'post-judgment' aunque la demanda es anterior: COTA SUPERIOR (el tail real puede ser solo ~2025+2026 ~$3.7k).",
       "Candidatos de gravamen inferidos y no atribuidos: AG LIEN RP-2021-311067 (patron de manutencion de hijos; 'Ford Mary' sin segundo nombre), A/J RP-2022-13939 y RP-2018-341973. title los marca 'inferred' (nombre comun, 56 hits); no se deben tratar ni como ciertos ni como descartados.",
       "HCAD muestra 0 sqft de edificio pero la cuenta tiene numero de calle (7845 LINDA VISTA RD) y liens recurrentes de la Ciudad (tipicos de nuisance/demolicion): posible estructura demolida o casa movil no registrada. title.tdhca_status 'n/a vacant' es solo inferido de HCAD.",
-      "Dueno desde 1988 y sin exencion homestead; fallecimiento/herederos 'unknown' (sin busqueda de sucesion). Si murio antes de la demanda de 2022, la citacion a herederos es el punto debil (TRCP 329 abierto hasta 07/16/2028 si hubo publicacion). Valor: cierre esperado por ratio $36,371 vs por prima $18,809: techo no anclado."
+      "Dueno desde 1988 y sin exencion homestead; fallecimiento/herederos 'unknown' (sin busqueda de sucesion). Si murio antes de la demanda de 2022, la citacion a herederos es el punto debil (TRCP 329 abierto hasta 07/16/2028 si hubo publicacion). Valor: cierre esperado por ratio $36,371 vs por prima $18,809: techo no anclado.",
+      "[2026-10-13] Cifras actualizadas tras corregir el calculo de anios en sentencia (rango 'a - b'): techo $42268.13 -> $50355.16; costo total $51316.54 -> $42986.9. El texto del revisor puede citar las cifras anteriores; la decision no cambio."
     ],
     "conditions_to_buy": [
       "Leer imagenes de RP-2023-17362 y RP-2024-257306 (tipo/monto); pedir payoff a la Ciudad o confirmar si fue parte; restar del techo",
