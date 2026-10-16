@@ -381,6 +381,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de TEMPLE INLAND MORTGAGE (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Identificar propietario/sucesor de TEMPLE INLAND MORTGAGE y cadena de titulo (legal Woodland Trails North Sec 5 Lt 6 Blk 2)",
+      "why": "indice por nombre devolvio 0 filas"
     }
   ],
   "valuation": {
@@ -473,17 +478,23 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $120,965 >= cierre esperado $95,315. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Casa de 1974 (1,415 sqft, lote 6,600 sqft) en Houston a nombre de TEMPLE INLAND MORTGAGE desde 2000, una entidad que puede estar extinta o ser un duenio de record obsoleto; el indice de nombre no devolvio ninguna fila, asi que la cadena de titulo y los demandados son opacos. La apertura de $63,461 es 2.9x la deuda ($21,805) y 34% de HCAD ($187,998); como casa, el valor HCAD ignora condicion y ocupacion (con -25% el techo baja de $120,965 a ~$85k, por debajo del cierre esperado por ratio $95,315). Fuera de estrategia (casa). Attorney review recommended; subir a CONDICIONAL solo si se aclaran titular, demandados y ocupacion.",
     "bid_ceiling": 120964.82,
     "all_in_cost_estimate": 123979.08,
-    "contradictions": [],
+    "contradictions": [
+      "Dueno HCAD y condado = TEMPLE INLAND MORTGAGE (1300 S MO PAC, Austin) desde 01/13/2000 sin deeds registradas: entidad de credito posiblemente sucedida/extinta; citacion al ente correcto no verificable (BLOCKED).",
+      "taxes_in_judgment unknown: la cola $21,805 es toda la deuda como cota superior (supone que nada es pre-juicio); si parte de la deuda es del juicio la cola bajaria. all_in $123,979 usa esa cota.",
+      "Apertura $63,461 = 2.9x deuda $21,805 y 34% del valor: exceso sin explicar (costas? otras cuentas?); valor condado $200,014 vs HCAD $187,998 (+6.4%).",
+      "Index vacio (0 filas) para 'TEMPLE INLAND': ausencia de gravamenes no es evidencia (nombre pudo cambiar de entidad); sin lectura de liens de HOA/ciudad.",
+      "puja_esperada $95,315 por ratio 0.507 x HCAD (lotes baldios) aplicada a una casa; el techo de reventa $120,965 asume estado promedio."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Identificar al dueno real/sucesor de Temple Inland Mortgage y su cadena (Clerk por legal 'Woodland Trails North Sec 5 Lt 6 Blk 2')",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota (hcdistrictclerk/PACER, login de Miguel); attorney review recommended",
+      "Visita: ocupacion y condicion de 7214 Lumber Jack Dr; presupuesto de rehab; techo sugerido <= ~$85k hasta tener comps",
+      "Estado de cuenta con anos del juicio (taxes_in_judgment) para fijar la cola",
+      "Revisar lien de HOA/ciudad por legal, no por nombre"
     ]
   },
   "title": {

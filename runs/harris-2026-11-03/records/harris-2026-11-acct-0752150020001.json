@@ -501,6 +501,16 @@
       "agent": "legal",
       "item": "Buscar bancarrota de JOHN S KEIBLER & JACKSON (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Leer imagen del LIEN RP-2026-227552 (City of Pasadena) en County Clerk",
+      "why": "indice sin imagen, posible gravamen que sobrevive"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Confirmar area real del lote (HCAD 23,980 vs GIS 13,070 sqft)",
+      "why": "contradiccion de area; define el valor"
     }
   ],
   "valuation": {
@@ -587,17 +597,23 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $133,648 >= cierre esperado $125,707. Jurisdiccion: CITY OF PASADENA. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Lote baldio de 0.55 ac en Pasadena (zona X, sin floodway) pero el area no cuadra: HCAD 23,980 sqft vs poligono GIS 13,070 sqft (-45%); con el area GIS el valor seria ~$98k y no $179,880, por debajo de la apertura de $115,539 (64% del valor HCAD, 3.2x la deuda de $36,358). Ademas hay un LIEN de CITY OF PASADENA (RP-2026-227552, 06/09/2026) sobre Lots 1-3 Blk 2 que el modelo de costos no cuantifica, y el dueno (desde 1988, direccion desconocida) parece ausente o fallecido, lo que sube el riesgo de citacion por publicacion (TRCP 329 hasta 2028-06-22). El techo teorico $133,648 solo vale si el area HCAD es real. Attorney review recommended.",
     "bid_ceiling": 133647.64,
     "all_in_cost_estimate": 135725.02,
-    "contradictions": [],
+    "contradictions": [
+      "Area: HCAD 23,980 sqft (land detail 6,000 + 17,980) vs GIS 13,070 sqft (-45%); legal 'TR 4 & W 50 FT OF LTS 1 2 & 3' es irregular. Valor proporcional al area GIS ~ $98k vs HCAD $179,880; el techo $133,648 se apoya en el area HCAD.",
+      "Apertura $115,539 es 3.2x la deuda total del condado ($36,358) y 64% del valor HCAD: no se explica que incluye (costas, otras cuentas/jurisdicciones?). El 'puja_esperada' $125,707 sale de apertura x1.088, no del ratio de cierre (0.507 x valor = $91k, que seria menor que la apertura).",
+      "all_in_costs.liens_que_sobreviven = 'NO CUANTIFICADO' pero el indice muestra LIEN City of Pasadena (06/09/2026, tipo exacto sin leer; podria ser limpieza/demolicion Ch. 214) sobre este mismo lote: el costo total podria estar subestimado. Fila unica que coincide con la legal de ~124 filas de busqueda por nombre 'JOHN S' (el resto es ruido).",
+      "Dueno HCAD 'JOHN S KEIBLER & JACKSON' (1.0000%), dueno desde 01/02/1988, sin deeds ni direccion: posible sucesion/herederos no demandados; legal.tax_suit_defendants y service_method estan BLOCKED, asi que no se puede descartar defecto de citacion.",
+      "Homestead: 'none on roll' (verified) y redemption_note dice plazo corto (inferred); un dueno de 38 anos sin exencion puede ser sucesion o dueno ausente, no se puede asumir el plazo corto sin leer la citacion."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Obtener el area real del predio (plat/survey o HCAD map de TR 4 & W 50 FT of Lts 1-3 Blk 2) y recalcular valor y techo; no pujar sobre el valor HCAD hasta resolverlo",
+      "Leer la imagen del LIEN RP-2026-227552 (City of Pasadena): tipo, monto, si fue parte del juicio fiscal y si sobrevive la venta; pedir payoff/estado de cuenta a la Ciudad",
+      "Pedir al condado/abogado de la venta el desglose de la apertura de $115,539 vs deuda $36,358",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota (hcdistrictclerk/PACER, login de Miguel); attorney review recommended",
+      "Verificar por visita que el lote es baldio, con acceso legal y sin ocupantes ni estructuras; zonificacion Pasadena para dúplex"
     ]
   },
   "title": {

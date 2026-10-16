@@ -359,6 +359,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de LUNA SOTERO JR (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Leer REL IRS RP-2020-110932 vs T/L RP-2019-335180 (Luna Sotero Jr)",
+      "why": "liberacion solo en indice"
     }
   ],
   "valuation": {
@@ -496,16 +501,22 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $87,634 >= cierre esperado $60,586. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF PASADENA. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de 1945 (1,008-1,110 sqft) en Pasadena, fuera del nucleo de lotes baldios; se juzga como reventa/rehab. HCAD ($119,499) ignora estado y ocupacion, un recorte de 25-35% da ~$78-90k y un techo de ~$60-65k, apenas igual al cierre esperado por ratio ($60,586) pero muy por encima de la apertura de $18,657. Gravamen IRS: T/L 08/01/2019 contra Luna Sotero Jr con liberacion IRS 03/11/2020 (solo indice, nombre sin legal; inferred), mas A/J de PISD (2022) ya en el juicio. Sin homestead en el roll, dueno desde 2018 igual que el sujeto del juicio (sin transferencia posterior). Attorney review recommended; mantener solo si hay ocupacion y titulo aclarados.",
     "bid_ceiling": 87634.17,
     "all_in_cost_estimate": 67739.58,
-    "contradictions": [],
+    "contradictions": [
+      "Sqft: building_sqft 1,008 vs buildings '1110sf built 1945' (HCAD interno); lote HCAD 11,440 vs GIS 9,698 (-15%); valor HCAD $119,499 vs condado $106,955 (-10.5%).",
+      "Techo $87,634 asume reventa a $119,499 sin recorte por casa de 1945 ocupada/en mal estado; con -30% el techo baja a ~$60k.",
+      "IRS T/L RP-2019-335180 y REL RP-2020-110932 hallados por nombre 'Luna Sotero' sin descripcion legal: no se prueba que afecten este predio ni que la liberacion cubra ese lien (inferred); Luna Sotero (padre) aparece como grantor del deed de 2018 y de otros predios.",
+      "Apertura $18,657 es 2.3x la deuda $8,018 (anos 2020-2025); cola $1,336 (inferred) vs pagos del juicio sin desglosar.",
+      "redemption_note dice plazo corto por 'sin homestead on roll', pero es una casa de residencia: no se puede descartar uso como vivienda; plazo de redencion y desalojo dependen de ello."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Visita: ocupacion actual, condicion interior/exterior y presupuesto de rehab; no pujar sobre HCAD sin recorte",
+      "Leer imagen del REL IRS RP-2020-110932 y confirmar que libera el T/L RP-2019-335180; verificar que no haya otro T/L posterior",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota (hcdistrictclerk/PACER, login de Miguel); attorney review recommended",
+      "Confirmar plazo de redencion aplicable (homestead de hecho vs roll) con abogado",
+      "Obtener estado de cuenta actualizado y apertura final el dia de la venta; techo sugerido hasta ~$60k hasta tener comps"
     ]
   }
 }

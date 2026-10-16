@@ -344,6 +344,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de LAND FAST OFFERS LLC (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Verificar si LAND FAST OFFERS LLC (dueno HCAD desde 2026, deeds 02-06/2026) fue demandado en cause 202338634",
+      "why": "transferencias antes y despues del judgment 03/26/2026"
     }
   ],
   "valuation": {
@@ -436,17 +441,22 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $123,133 >= cierre esperado $85,112. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF PASADENA. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "BAJA",
+    "rationale": "La casa de 1949 en 411 Trichelle esta hoy a nombre de LAND FAST OFFERS LLC (mayorista con 140 escrituras W/D), no del dueno demandado ROGERS MELTON A; el indice muestra que Land Fast fue juntando escrituras del mismo lote de varios vendedores (02/03/2026, 03/16/2026 y 06/17/2026, esta ultima posterior al judgment del 03/26/2026). Una transferencia posterior al juicio a quien probablemente no fue demandado es un defecto de citacion/titulo clasico, y un dueno profesional es el que mas probablemente redima o ataque la venta. Apertura $16,626 es 3.5x la deuda de $4,800 y el techo teorico ($123,133 sobre HCAD $167,874 de una casa ocupada/por rehab) es optimista. Fuera de estrategia (casa); attorney review recommended antes de cualquier consideracion.",
     "bid_ceiling": 123133.23,
     "all_in_cost_estimate": 95137.45,
-    "contradictions": [],
+    "contradictions": [
+      "HCAD owner_since 03/14/2026 pero hcad_deeds_recorded dice '03/14/2020 2026-RP-2026-242068' (instrumento 2026 con fecha 2020): fecha inconsistente; RP-2026-242068 y RP-2026-241765 (06/17/2026, Rogers Kenneth Gene -> Land Fast) caen despues del judgment 03/26/2026.",
+      "Dueno gravado por el condado (ROGERS MELTON A, Pasadena) != dueno HCAD (LAND FAST OFFERS LLC): el juicio parece contra el dueno anterior; transferencias antes (03/16/2026) y despues del juicio sugieren que Land Fast no es demandado, cadena de herederos Rogers/Bailey/Gorham sin verificar (inferred).",
+      "Deuda total $4,800 (anos 2020-2024 + post-judgment $2,038) vs apertura $16,626 (3.5x); cola $3,472 (inferred) y puja_esperada $85,112 (ratio) vs prima $18,090: inconsistente la eleccion.",
+      "HCAD sqft 1,162 vs buildings 1,294; lote HCAD 9,720 vs GIS 9,873; valor HCAD $167,874 vs condado $170,821.",
+      "Title hits por nombre 'LAND FAST' (132 grantee) son casi todo ruido de otros predios; solo 3 filas coinciden con West Jackson Park Lt 7 Blk 2 (tres W/D). No hay lectura de imagenes: no se sabe si hubo D/T, contratos o lis pendens."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer las 3 W/D (RP-2026-39652, -97134, -241765) y RP-2026-242068; reconstruir cadena Rogers Melton A -> Land Fast",
+      "Leer demandados del cause 202338634 (¿Land Fast o herederos de Rogers fueron citados?) en hcdistrictclerk.com",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota (hcdistrictclerk/PACER, login de Miguel); attorney review recommended",
+      "Solo reconsiderar si el abogado confirma que la venta extingue los derechos de Land Fast; si no, mantener BAJA"
     ]
   },
   "title": {

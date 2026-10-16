@@ -400,6 +400,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de FOREMAN BOYS FREIGHT (0.5000%); FOREMAN  en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Visita para confirmar si existe estructura/ocupante en 12715 Ann Louise Rd (HCAD: 0 sqft pero A3 1969)",
+      "why": "contradiccion en HCAD"
     }
   ],
   "valuation": {
@@ -487,16 +492,23 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $168,271 >= cierre esperado $121,164. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Predio de 1.08 ac en zona no incorporada del condado (zona X 0.2%, sin floodway), HCAD lo muestra con 0 sqft construidos y valor $238,982 casi todo atribuido al terreno. Apertura $31,066 es 13% del valor HCAD y 2.2x la deuda de $13,867, y no hay gravamenes en el indice que coincidan con la legal (solo el QCD de 2020). Pero es clase A3 construida en 1969 con 'Res Improved' y 0 sqft, no se sabe si hay estructura u ocupante, y el valor depende de un precio de $5/sqft sin comparables. Sin demandados/citacion/bancarrota no puede ser COMPRA FUERTE; es candidato razonable al nucleo de lote si se confirma que esta vacante. Attorney review recommended.",
     "bid_ceiling": 168270.88,
     "all_in_cost_estimate": 142665.38,
-    "contradictions": [],
+    "contradictions": [
+      "HCAD: clase A3, year_improved 1969, land detail 'Res Improved' $238,582 pero building_sqft = 0 y sin edificios listados: ¿estructura demolida/no capturada u ocupada? Cambia la tesis (lote vs casa) y el valor.",
+      "Area: HCAD 47,244 sqft vs GIS 44,124 (-6.6%); valor HCAD $238,982 vs apreciado del condado $239,982 (+$1,000).",
+      "taxes_in_judgment unknown, por eso buyer_tax_tail_estimate esta ausente y valuation uso la deuda total $13,867 (cota superior; impuestos que hereda podria ser menor). Ademas puja_esperada $121,164 sale del ratio 0.507 x HCAD, 3.9x la apertura ($33,800 con prima): el modelo de costo total ($142,665) es muy sensible a esa eleccion.",
+      "Cadena: QCD RP-2020-568872 (Foreman Steven D Sr -> Foreman Boys Freight, fecha de indice 11/19/2020) vs HCAD deed 10/06/2020; HCAD ademas lista a FOREMAN JESSIE P (0.5%) como co-dueno que no aparece en el QCD. Un quitclaim da titulo debil y hay un dueno entidad (Foreman Boys Freight): citacion a agente registrado, no verificada.",
+      "Index del Clerk tiene 1 fila (nombre 'FOREMAN BOYS'); no se busco por 'Foreman Jessie P' ni 'Foreman Steven D Sr', asi que ausencia de liens no equivale a ausencia de gravamenes (inferred)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Visita al sitio: confirmar si hay estructura u ocupantes en 12715 Ann Louise Rd (Highland Home Place Lt 57 Blk 3) y acceso",
+      "Estado de cuenta de impuestos con anos del juicio (taxes_in_judgment) para fijar la cola real",
+      "Buscar en el Clerk por Foreman Jessie P y Foreman Steven D Sr y leer imagen del QCD RP-2020-568872",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota (hcdistrictclerk/PACER, login de Miguel); attorney review recommended",
+      "Recalcular el techo con comps de terrenos de ~1 ac en 77086 o con un descuento (HCAD sin comps); no superar el techo recalculado",
+      "Verificar zonificacion/restricciones deed y servicios (agua/septico) para dúplex en zona no incorporada"
     ]
   }
 }

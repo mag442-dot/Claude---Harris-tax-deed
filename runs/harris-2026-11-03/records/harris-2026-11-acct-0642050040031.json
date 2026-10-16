@@ -426,6 +426,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de RODRIQUEZ ADRIAN D (0.5000%); CUBAS MARV en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Visita 5848 Hopper Rd: confirmar si hay estructura/ocupante (HCAD A3 1969, 0 sqft)",
+      "why": "contradiccion HCAD"
     }
   ],
   "valuation": {
@@ -513,16 +518,22 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $76,513 >= cierre esperado $54,654. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Predio de 1.38 ac en la ciudad de Houston (zona X, sin floodway), HCAD sin edificios (0 sqft) y valor $107,798; apertura $29,146 es 27% del valor y casi igual a la deuda ($27,428), lo mas limpio del lote. Dueno desde 2017, igual al sujeto del juicio (10/21/2025) y sin transferencias posteriores; los gravamenes del indice (L/P, A/J, REL de Parkway Community Service Corp) son de Parkway Sec 1 Lot 90, otro inmueble. Pero el valor del condado es $67,798 (-$40k vs HCAD), la clase A3/1969 sugiere estructura y no hay comps; con el valor del condado el techo baja a ~$46k, aun sobre apertura+prima ($31.7k). Candidato razonable si se confirma que es baldio. Attorney review recommended.",
     "bid_ceiling": 76513.21,
     "all_in_cost_estimate": 63722.99,
-    "contradictions": [],
+    "contradictions": [
+      "HCAD valor $107,798 vs apreciado del condado $67,798 (-$40,000 exacto, 37%): el techo $76,513 usa $107,798; con $67,798 seria ~$46k.",
+      "HCAD clase A3 year_improved 1969 y land detail 'Res Improved' pero building_sqft 0: ¿estructura demolida/no capturada o ocupada? Define lote vs casa.",
+      "Fechas de la cadena: HCAD deed 07/19/2017 (2017-RP-2017-355904) vs indice 08/08/2017 para el mismo instrumento; otra deed 2017-5108 de 12/2016 no aparece por nombre.",
+      "Title hits: solo 1 de 8 filas coincide con Timber Acres Sec 2 Lt 32 Blk 4; L/P (2021), A/J (2022) y REL (2024) de Parkway Community Service Corp son de Parkway Sec 1 Lot 90 Blk 1 (vendido a Wisener 2024). Nombres 'RODRIQUEZ ADRIAN D' vs 'RODRIGUEZ ADRIAN M': posibles personas distintas. No se encontro lien de HOA/ciudad para este lote, pero busqueda es solo por nombre (inferred).",
+      "Cola de impuestos $3,430 = post-judgment $1,989 + proxy 2026 (inferred); el modelo supone cero liens, y la parcela esta dentro de City of Houston (posibles liens de limpieza no indexados por nombre)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Visita: confirmar que 5848 Hopper Rd esta vacante (sin estructura/ocupantes) y acceso; revisar permisos de Houston",
+      "Resolver el valor: comps de terreno 1.38 ac en 77016 o aceptar valor del condado $67,798; techo recalculado no menor que la oferta",
+      "Buscar en el Clerk por Cubas Marvin Jose y por legal 'Timber Acres Sec 2 Lt 32 Blk 4 / Tr 31A' para liens de la ciudad/HOA",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota (hcdistrictclerk/PACER, login de Miguel); attorney review recommended",
+      "Confirmar zonificacion/deed restrictions para dúplex y lote minimo en Houston (Timber Acres)"
     ]
   }
 }

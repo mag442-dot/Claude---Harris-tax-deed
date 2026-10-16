@@ -334,6 +334,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de DE LOS SANTO MARIO & SELINA (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Re-verificar T-7/T-1 si 904 Willow St sigue en la lista (los anos del juicio no aparecen como adeudados)",
+      "why": "posible pago/retiro"
     }
   ],
   "valuation": {
@@ -456,16 +461,22 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $99,224 >= cierre esperado $69,898. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF PASADENA. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de 1942 en Pasadena con apertura minima de $7,361 (5.3% de HCAD $137,866), dueno desde 1990 igual al demandado, sin deeds posteriores ni filas de gravamen. Pero la deuda actual del condado ($2,402) es toda post-judgment: los anos del juicio (2023-2024) ya no figuran como adeudados, lo que sugiere pago/acuerdo y riesgo de retiro de la venta antes del 11/03 o de redencion rapida. Como casa de dueno antiguo sin exencion en el roll, ocupacion y plazo de redencion (si fuera residencia) son incognitas; con un recorte de 20-30% el techo seria ~$70-76k. Fuera de estrategia; attorney review recommended.",
     "bid_ceiling": 99223.72,
     "all_in_cost_estimate": 80087.37,
-    "contradictions": [],
+    "contradictions": [
+      "taxes_in_judgment = [2023, 2024] pero total_due_all_years $2,402 == post_judgment_taxes $2,402 (2025): los anos del juicio parecen pagados; la venta podria ser retirada o la apertura $7,361 no refleja deuda actual.",
+      "Apertura $7,361 es 3.1x la deuda actual $2,402 y 5.3% del valor (<5% flag): puede incluir costas/honorarios del juicio, pero no se verifico.",
+      "Area/valor: HCAD 6,420 sqft vs GIS 6,401; sqft construido 1,054 vs buildings 1,250sf; HCAD $137,866 vs condado $135,293. Cola $4,092 vs deuda actual $2,402 (incluye proxy 2026).",
+      "redemption_note 'plazo corto' (inferred de no homestead on roll) vs dueno desde 1990: un residente de 36 anos podria ser homestead no registrado; redencion/desalojo cambian el costo.",
+      "Indice del Clerk con 0 filas para 'DE LOS' (busqueda de nombre truncada por apellido 'De Los Santos'): ausencia de liens no es evidencia; 'puja_esperada' $69,898 por ratio de lotes baldios."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Re-verificar el estado de cuenta hctax el dia antes (T-1): ¿siguen en lista y siguen adeudados 2023-2024?",
+      "Buscar en el Clerk por 'De Los Santos Mario' / 'Selina' y por legal 'Pasadena Heights Sec 1 Lt 49' para liens",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota (hcdistrictclerk/PACER, login de Miguel); attorney review recommended",
+      "Visita: ocupacion y condicion; confirmar plazo de redencion aplicable con abogado",
+      "Pujar solo con recorte vs HCAD (techo sugerido ~$70k)"
     ]
   }
 }

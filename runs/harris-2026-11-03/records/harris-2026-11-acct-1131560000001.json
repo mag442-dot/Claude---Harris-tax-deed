@@ -348,6 +348,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de PBGS LA ROCHELE REALTY LLC (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Leer gravamenes T/L State of Texas y D/T Third Coast Bank del 17629 El Camino Real (index->imagen)",
+      "why": "pueden sobrevivir; no cuantificados"
     }
   ],
   "valuation": {
@@ -440,17 +445,23 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $4,092,799 >= cierre esperado $2,751,628. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF WEBSTER. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "NO PARA DUPLEX",
+    "rationale": "Es un centro comercial (HCAD F1, 76,144 sqft, valor $5.43M, 3.85 ac) en Webster, fuera de la estrategia de lote baldio para dúplex y con un capital de 7 cifras. La apertura de $442,079 es 8% del valor HCAD y 2x la deuda de $226,130, y el indice muestra gravamenes que el modelo no cuantifica: T/L State of Texas (RP-2023-442707), deeds of trust a Third Coast Bank (2022) y un financing statement de Texas Traditions Bank (09/2026). El 'techo' de $4.09M y el cierre esperado de $2.75M (ratio 0.507) no son creibles para un activo comercial con inquilinos y deuda; no se recomienda para Miguel salvo que decida abrir una linea comercial con abogado de tax deed. Attorney review recommended.",
     "bid_ceiling": 4092798.89,
     "all_in_cost_estimate": 2960413.1,
-    "contradictions": [],
+    "contradictions": [
+      "Estrategia: activo comercial ocupado, no lote para dúplex; valuation.exit_strategy duplex no aplica y HCAD ignora condicion/ocupacion/arrendamientos.",
+      "puja_esperada $2,751,628 (ratio 0.507 x $5.43M) vs apertura $442,079 y prima $480,982: el ratio viene de 14 lotes baldios, no de un centro comercial; bid_ceiling $4,092,799 y all_in_cost $2,960,413 son teoricos y no deben usarse.",
+      "all_in_costs.liens_que_sobreviven = NO CUANTIFICADO pero el indice muestra T/L State of Texas 11/21/2023 (grantor PBGS LA ROCHELLE), D/T Third Coast Bank 05/05/2022 y D/T Abrams & Co 04/23/2020 (no hay liberacion visible de ninguno), mas FI STM Texas Traditions Bank 09/08/2026: gravamenes de acreedores no necesariamente demandados podrian sobrevivir. Index only, inferred.",
+      "Apertura $442,079 vs deuda total $226,130 (post-judgment $66,917): 1.95x; no se explica el exceso. buyer_tax_tail $122,236 incluye anos post-judgment; el sistema solo captura impuestos del condado y no otras jurisdicciones/MUD.",
+      "Nombre: HCAD/aviso 'PBGS LA ROCHELE REALTY LLC' vs Clerk 'PBGS LA ROCHELLE REALTY LLC' (ortografia); HCAD valor $5,427,274 vs condado $5,531,979; area HCAD 167,619 vs GIS 167,169 (menor). Dueno en CT: citacion probablemente fuera de estado."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Decision estrategica de Miguel: ¿entra al comercial? Si no, descartar",
+      "Leer imagenes de T/L RP-2023-442707, D/T RP-2022-238387/-238388 y RP-2020-172379 y FI STM RP-2026-364751; determinar quien fue demandado y que sobrevive",
+      "Verificar ocupacion/inquilinos y contratos de arrendamiento (Camino Center Management) por visita",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota (hcdistrictclerk/PACER, login de Miguel); attorney review recommended",
+      "Valuacion comercial independiente (ingresos/NOI) y capital disponible; no usar el ratio de lotes"
     ]
   },
   "title": {
