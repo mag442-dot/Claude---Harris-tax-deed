@@ -36,8 +36,10 @@ def main(argv):
         acct = (rec.get("account_no") or "").strip()
         bid = bids.get(acct) or ""
         exp = max([x for x in (g(rec, "valuation", "expected_close_from_ratio"), g(rec, "valuation", "expected_close_from_premium")) if x] or [""])
+        bsf = str(g(rec, "intake", "hcad_building_sqft") or "0")
+        tipo = "LOTE (estrategia)" if bsf in ("0", "0.0") and str(g(rec, "intake", "hcad_state_class") or "").startswith(("C", "D", "E")) else "CASA/OTRO (fuera de estrategia)"
         rows.append({
-            "paso_revision": "SI" if passed else "NO", "decision": rv.get("decision", ""),
+            "tipo": tipo, "paso_revision": "SI" if passed else "NO", "decision": rv.get("decision", ""),
             "property_id": rec["property_id"], "direccion": rec.get("address", ""),
             "jurisdiccion": g(rec, "physical", "parcel_city") or "",
             "lote_sqft_gis": g(rec, "physical", "lot_sqft_gis") or g(rec, "intake", "hcad_land_sqft") or "",
@@ -52,10 +54,10 @@ def main(argv):
             "primera_contradiccion": (contr or [""])[0],
             "pendientes_tuyos": len(rec.get("human_blockers") or []),
             "account_no": acct})
-    rows.sort(key=lambda r: (r["paso_revision"] != "SI", r["n_contradicciones"], float(r["apertura"] or 1e12)))
+    rows.sort(key=lambda r: (r["paso_revision"] != "SI", not r["tipo"].startswith("LOTE"), r["n_contradicciones"], float(r["apertura"] or 1e12)))
     for i, r in enumerate(rows, 1):
         r["orden"] = i
-    cols = ["orden", "paso_revision", "decision", "direccion", "jurisdiccion", "lote_sqft_gis", "dimensiones_est", "zona_fema", "valor_hcad",
+    cols = ["orden", "tipo", "paso_revision", "decision", "direccion", "jurisdiccion", "lote_sqft_gis", "dimensiones_est", "zona_fema", "valor_hcad",
             "apertura", "impuestos_que_hereda_est", "cierre_esperado", "techo_teorico", "motivo_del_revisor", "condiciones_para_comprar",
             "n_contradicciones", "primera_contradiccion", "pendientes_tuyos", "property_id", "account_no"]
     with (run / "resumen_sheet.csv").open("w", newline="", encoding="utf-8") as fh:
