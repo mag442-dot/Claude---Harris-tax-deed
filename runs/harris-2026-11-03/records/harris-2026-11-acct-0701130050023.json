@@ -131,6 +131,27 @@
       "status": "verified",
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-10-13"
+    },
+    "county_image_id": {
+      "value": "31236",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting",
+      "retrieved_at": "2026-10-16",
+      "note": "foto aerea del condado; ayuda visual, no es un levantamiento"
+    },
+    "county_image_url": {
+      "value": "https://www.hctax.net/Property/listings/image?id=31236",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting",
+      "retrieved_at": "2026-10-16",
+      "note": "foto aerea del condado; ayuda visual, no es un levantamiento"
+    },
+    "county_image_file": {
+      "value": "images/0701130050023.jpg",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting",
+      "retrieved_at": "2026-10-16",
+      "note": "foto aerea del condado; ayuda visual, no es un levantamiento"
     }
   },
   "physical": {

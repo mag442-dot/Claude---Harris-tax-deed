@@ -11,7 +11,7 @@ from pathlib import Path
 
 COLS = ["property_id", "decision_previa", "revisado_por", "tipo_lote", "direccion", "dueno_hcad", "clase", "lote_sqft", "construccion_sqft",
         "valor_hcad", "apertura", "impuestos_total_adeudado", "impuestos_que_hereda_est", "cierre_esperado", "techo_teorico",
-        "fema_zona", "floodway", "hits_clerk_misma_subdivision", "tipos_misma_subdivision", "razon", "señales", "account_no"]
+        "fema_zona", "floodway", "hits_clerk_misma_subdivision", "tipos_misma_subdivision", "razon", "foto_condado", "señales", "account_no"]
 
 
 def main(argv):

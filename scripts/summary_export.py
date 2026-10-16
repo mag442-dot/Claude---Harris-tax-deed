@@ -53,13 +53,14 @@ def main(argv):
             "n_contradicciones": len(contr),
             "primera_contradiccion": (contr or [""])[0],
             "pendientes_tuyos": len(rec.get("human_blockers") or []),
+            "foto_condado": g(rec, "intake", "county_image_url") or "",
             "account_no": acct})
     rows.sort(key=lambda r: (r["paso_revision"] != "SI", not r["tipo"].startswith("LOTE"), r["n_contradicciones"], float(r["apertura"] or 1e12)))
     for i, r in enumerate(rows, 1):
         r["orden"] = i
     cols = ["orden", "tipo", "paso_revision", "decision", "direccion", "jurisdiccion", "lote_sqft_gis", "dimensiones_est", "zona_fema", "valor_hcad",
             "apertura", "impuestos_que_hereda_est", "cierre_esperado", "techo_teorico", "motivo_del_revisor", "condiciones_para_comprar",
-            "n_contradicciones", "primera_contradiccion", "pendientes_tuyos", "property_id", "account_no"]
+            "n_contradicciones", "primera_contradiccion", "pendientes_tuyos", "foto_condado", "property_id", "account_no"]
     with (run / "resumen_sheet.csv").open("w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh)
         w.writerow(cols)

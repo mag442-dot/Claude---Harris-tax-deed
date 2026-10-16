@@ -86,6 +86,7 @@ def main(argv):
             "cierre_esperado": max([x for x in (f(rec, "valuation", "expected_close_from_ratio"), f(rec, "valuation", "expected_close_from_premium")) if x] or [""]),
             "techo_teorico": f(rec, "valuation", "bid_ceiling") if f(rec, "valuation", "bid_ceiling") is not None else "",
             "razon": rv.get("rationale", ""),
+            "foto_condado": f(rec, "intake", "county_image_url") or "",
             "account_no": acct, "direccion": rec.get("address", ""), "dueno_hcad": f(rec, "intake", "hcad_owner") or "",
             "dueno_desde": f(rec, "intake", "hcad_owner_since") or "", "clase": f(rec, "intake", "hcad_state_class") or "",
             "lote_sqft": f(rec, "intake", "hcad_land_sqft") or "", "construccion_sqft": f(rec, "intake", "hcad_building_sqft") or "",

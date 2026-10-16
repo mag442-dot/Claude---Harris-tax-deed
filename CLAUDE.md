@@ -51,6 +51,9 @@ Miguel quiere ver el resultado como **Google Sheet en su Drive**, no solo en el 
 6. Verifica con `read_file_content`: filas = registros + 1, 15 columnas. Google quita ceros iniciales de `account_no`; manda la columna `property_id` (texto).
 7. Entrega el `viewUrl`. Más de ~150 filas: sube por tandas (`_parte1`, `_parte2`) o usa la vía A.
 
+## Fotos del condado
+`python3 scripts/fetch_county_images.py runs/<sale_id>` baja la foto aérea que el condado muestra en cada propiedad (`https://www.hctax.net/Property/listings/image?id=<id>`; el id sale de la lista del condado; necesita cabecera User-Agent de navegador) a `runs/<sale_id>/images/<cuenta>.jpg`, solo de las cuentas sin homestead, y guarda `intake.county_image_url`. El condado solo tiene foto de algunas propiedades (el resto responde vacío = "No Image Available"). El enlace sale en la columna `foto_condado` de `Analisis` y `Resumen`. Es una ayuda visual del condado, no un levantamiento.
+
 ## Automatización diaria (rutina programada)
 La rutina `Vigilar lista tax sale Harris 3-nov` (8:47 a.m. hora de Houston) refresca la lista, completa lo que estaba EN ESPERA, lanza agentes `reviewer` en modo barato (instrucciones en `playbook/review_cheap_mode.md`, máx. 14 propiedades por corrida, solo sin homestead), reconstruye las tablas y, si existen `SHEET_WEBHOOK_URL`/`SHEET_WEBHOOK_TOKEN` en el entorno, actualiza las pestañas `Analisis`, `Resumen`, `Embudo` y `Embudo_resumen` del Sheet. Sin esas variables omite la carga y lo dice. El 27-oct y el 2-nov hace además un refresh de impuestos y Clerk sobre las que pasaron.
 
