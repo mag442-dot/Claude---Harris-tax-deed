@@ -381,6 +381,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de PALOMO NATALY (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisor: carta de saldo de la asociacion Winfield II y estado de la unidad 24 (visita)",
+      "why": "requiere imagen del Clerk, visita o tramite humano"
     }
   ],
   "valuation": {
@@ -473,17 +478,23 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $32,184 >= cierre esperado $24,504. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "NO PARA DUPLEX",
+    "rationale": "Es una unidad de condominio (Winfield, 713-839 sf, HCAD $48,332): no hay terreno propio, asi que el duplex es imposible y queda fuera de la estrategia de lotes. El techo teorico $32,184 sale de revender al 100% del valor HCAD; con un recorte de 30-40% (condo de 1981 sin inspeccion) el techo baja a ~$17-21K, por debajo del cierre esperado ($24.5K), y el quiet title supuesto ($4K) es ~8% del valor. Ademas hay actividad de gravamen de la asociacion (Winfield II) y cuotas HOA no modeladas. Legal bloqueado (demandados/citacion/bancarrota): attorney review recommended. Solo tendria sentido como reventa si cierra cerca de la apertura ($6,982).",
     "bid_ceiling": 32184.19,
     "all_in_cost_estimate": 30755.33,
-    "contradictions": [],
+    "contradictions": [
+      "Superficie: hcad_building_sqft 713 vs hcad_buildings 839 sf (area habitable vs bruta, sin reconciliar).",
+      "Lote: lot_sqft_gis 228,449 sf vs hcad_land_sqft 0: el poligono GIS es todo el complejo condominal, no la unidad; ningun dato de lote sirve para duplex.",
+      "Costos: all_in_costs no incluye cuotas/gravamen de la asociacion (REL RP-2025-393860 de WINFIELD II ASSOCIATION muestra gravamen previo; indice solo, sin imagen) ni cuotas HOA corrientes; 'liens_que_sobreviven' sigue sin cuantificar.",
+      "Impuestos: taxes_in_judgment incluye 2019 pero 2019 no aparece en delinquent_by_year (pagado o faltante, sin explicar); descripcion HCAD 'WINFIELD CONDO SEC 2' vs Clerk 'WINFIELD II CONDOMINIUM' (misma unidad probable, solo busqueda por nombre).",
+      "Valuacion: la salida 'expected_close' usa la razon cierre/valor 0.507 calibrada con 14 LOTES baldios (04/08/2026) y se aplica aqui a una CASA; el techo asume reventa al valor HCAD sin condicion ni ocupacion (optimista). Recorte aprox: techo $21K al 70% del valor HCAD, $17K al 60%, $13K al 50%."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Solo si Miguel acepta reventa de condo: pedir a Winfield II Association carta de saldo/estoppel (cuotas y gravamenes) y estatuto de arrendamiento",
+      "Leer imagen de RP-2025-393860 y buscar por descripcion legal (Unit 24 Bldg E Winfield Condo Sec 2) otros gravamenes de la asociacion",
+      "Demandados/citacion del cause 202432534 en hcdistrictclerk.com y bancarrota de PALOMO NATALY en PACER (bloqueados)",
+      "Visita: ocupacion (mailing = unidad, posible ocupante-dueno) y estado; comps de condos Winfield",
+      "No pasar de ~$17,000 de puja salvo comps que respalden el valor; confirmar apertura y estado de cuenta el dia de la venta"
     ]
   },
   "title": {

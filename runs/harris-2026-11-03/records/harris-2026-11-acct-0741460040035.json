@@ -494,17 +494,24 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $106,718 >= cierre esperado $79,342. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF BAYTOWN. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "BAJA",
+    "rationale": "Casa de 1948 en Baytown (HCAD $156K) con apertura de $59,543, 5x la deuda visible ($11,275), y sin 'Tax Years in Judgment' leido, por lo que la cola de impuestos y lo que cubre el minimo son desconocidos. Con la casa a 70% del valor HCAD el techo es ~$70K frente a un cierre esperado de ~$79K: margen ~13%, sin colchon para ocupacion, gravamen de la Ciudad de Baytown (RP-2022-70432, por nombre) ni quiet title. Dueno desde 1995 (posible adulto mayor/ocupante), sin homestead en roll, legal bloqueado. Fuera de la estrategia de lotes y sin ventaja clara; attorney review recommended si Miguel insiste.",
     "bid_ceiling": 106717.56,
     "all_in_cost_estimate": 96997.52,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $59,543 vs total_due_all_years $11,275 (5x): taxes_in_judgment es unknown, asi que no se sabe que cubre la sentencia (posibles liens de la Ciudad de Baytown, costos o varias cuentas).",
+      "Costos: buyer_tax_tail_estimate es None; valuation uso total_due_all_years ($11,275) como 'impuestos_que_hereda' (cota superior, no estimacion); la etiqueta del modelo no lo dice.",
+      "Titulo: casi todas las 12 filas de grantee corresponden a OTRA propiedad (JACKSON ADDIE F, WOODLAND PINES Sec 2 Lot 25, HUD/Carrington): ninguna fila coincide con WYNNEWOOD Sec 3 Lt 35 Blk 4 salvo LIEN RP-2022-70432 de CITY OF BAYTOWN (sin descripcion, lista de grantees mezclada): bandera para abogado, no conclusion. Busqueda por nombre incompleta.",
+      "HCAD vs HCAD: hcad_building_sqft 1,518 vs hcad_buildings 1,748 sf; lote HCAD 8,250 vs GIS 8,052; valor condado $169,834 vs HCAD $156,493 (ano previo).",
+      "Propietario: 'JACKSON ADDIE L' desde 01/02/1995 sin homestead en roll tras 10 anos de morosidad; redemption_note 'plazo corto' es solo inferencia del roll.",
+      "Valuacion: la salida 'expected_close' usa la razon cierre/valor 0.507 calibrada con 14 LOTES baldios (04/08/2026) y se aplica aqui a una CASA; el techo asume reventa al valor HCAD sin condicion ni ocupacion (optimista). Recorte: techo $70K al 70%, $58K al 60%, $46K al 50%."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Obtener 'Tax Years in Judgment' y el desglose del minimo $59,543 del Tax Office",
+      "Busqueda en el Clerk por descripcion legal (Wynnewood Sec 3 Lt 35 Blk 4) y por direccion en Baytown (liens de codigo/demolicion)",
+      "Demandados/citacion del cause 202239288 y bancarrota de JACKSON ADDIE L; verificar si el dueno vive o tiene sucesion",
+      "Visita: ocupacion y estado; comps en Baytown",
+      "Solo reconsiderar si la puja ganadora queda <= ~$45K"
     ]
   },
   "title": {

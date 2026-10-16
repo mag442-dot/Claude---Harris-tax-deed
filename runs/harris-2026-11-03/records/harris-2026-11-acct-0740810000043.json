@@ -372,6 +372,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de ROCHA LUIS E (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisor: payoff/ordenes de la Ciudad de Pasadena (ORDER 2025 y LIEN 2026) y MEMO de Real Equity TX LLC (imagenes del Clerk)",
+      "why": "requiere imagen del Clerk, visita o tramite humano"
     }
   ],
   "valuation": {
@@ -465,16 +470,23 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $77,477 >= cierre esperado $57,706. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF PASADENA. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de 997-1,033 sf (1947) en Pasadena con apertura de $6,277 (5.5% del valor HCAD de $113,819), zona X sin SFHA, lote 6,400 sf; es el mejor caso de bajo capital si cierra cerca de la apertura (all-in ~$18K con +8.8%). Pero hay gravamenes de CITY OF PASADENA con la descripcion exacta (ORDER RP-2025-151344 y LIEN RP-2026-133118, posteriores a la sentencia de 09/21/2023), A/J de PASADENA ISD y un MEMO de REAL EQUITY TX LLC sobre el lote 43, todos fuera del modelo. La sentencia tiene 3 anos, el modelo usa cierre esperado de $57.7K por razon de lotes, y la casa es reventa/rehab fuera de la estrategia. CONDICIONAL solo si los gravamenes de la Ciudad se pueden pagar/extinguir y el valor aguanta el recorte; attorney review recommended.",
     "bid_ceiling": 77476.55,
     "all_in_cost_estimate": 70691.77,
-    "contradictions": [],
+    "contradictions": [
+      "Gravamenes post-sentencia con descripcion coincidente: RP-2025-151344 ORDER (CITY OF PASADENA) y RP-2026-133118 LIEN (CITY OF PASADENA), OLEANDER Lot 43; pueden ser ordenes de demolicion/reparacion y no ser extinguidos por la venta si la Ciudad no fue parte (index only). all_in_costs dice 'liens_que_sobreviven: NO CUANTIFICADO'.",
+      "MEMO RP-2024-23391 (REAL EQUITY TX LLC, 01/2024, OLEANDER ADDITION Lot 43): memoria de contrato/opcion de tercero sobre el lote, sin evaluar; A/J RP-2024-361960 (PASADENA ISD) sin descripcion.",
+      "Cierre esperado: expected_close_from_ratio $57,706 vs expected_close_from_premium $6,827 (8x de diferencia por apertura de solo 5.5% del valor); el modelo usa la razon, asi que 'margen 61%' y 'all_in $70,692' son pesimistas en costo pero optimistas en valor (HCAD).",
+      "Fechas: HCAD owner_since 10/11/2017 vs W/D RP-2018-158395 del Clerk 04/13/2018; mailing del dueno en 920 DAVIS ST distinto de la propiedad (posible no-ocupante/inquilino).",
+      "Impuestos: cause 202152104, sentencia 09/21/2023 sobre 2018-2022 y apertura $6,277 vs total_due $9,810; la cola $7,254 (2023-2025) la hereda el comprador; sentencia de hace 3 anos sin venta anterior: motivo desconocido.",
+      "Valuacion: la salida 'expected_close' usa la razon cierre/valor 0.507 calibrada con 14 LOTES baldios (04/08/2026) y se aplica aqui a una CASA; el techo asume reventa al valor HCAD sin condicion ni ocupacion (optimista). Recorte: techo $60K al 80%, $51K al 70%, $42K al 60%."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer imagenes de RP-2025-151344 (ORDER) y RP-2026-133118 (LIEN) de la Ciudad de Pasadena: tipo (demolicion/codigo), monto, si fue parte de la demanda; pedir payoff a la Ciudad",
+      "Leer MEMO RP-2024-23391 (Real Equity TX LLC) y A/J RP-2024-361960 (PISD)",
+      "Demandados/citacion de cause 202152104 (hcdistrictclerk.com, login) y bancarrota de ROCHA LUIS E en PACER",
+      "Verificar zonificacion de Pasadena (duplex en lote 6,400 sf) y estado/ocupacion por visita",
+      "Sumar al techo el costo de los gravamenes de la Ciudad; no pasar de ~$40K"
     ]
   },
   "title": {

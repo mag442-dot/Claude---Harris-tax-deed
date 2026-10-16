@@ -443,6 +443,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de HERRERA MARTIN (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisor: confirmar si 7118 John Ralston Rd es residencia o negocio del dueno (posible homestead/uso propio) y la sentencia compartida con 12129 Ticonderoga Rd",
+      "why": "requiere abogado/login/investigacion de campo; no verificable desde el expediente"
     }
   ],
   "valuation": {
@@ -535,17 +540,25 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $562,906 >= cierre esperado $374,223. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Inmueble comercial F1 (10,570 sf, 4.96 acres, HCAD $738,112) en el mismo cause 202475737 que 12129 Ticonderoga Rd, con apertura de $77,872 (10.5% de HCAD) y techo teorico de $562,906. Los dos hechos decisivos: (1) fuera de la estrategia de lotes; el cierre esperado del modelo ($374k, razon de lotes) es 4.4x el del modelo por prima ($84.7k) y con 30% de descuento el techo seria aprox. $391k, de modo que el margen real depende del valor del edificio, no verificado (hcad_buildings vacio); (2) el dueno Martin Herrera parece ocupar o administrar esta propiedad (es la direccion postal de la otra cuenta) y el legal esta bloqueado, con riesgo de homestead/uso propio y de redencion. Vigilar a la espera de legal y ocupacion; attorney review recommended.",
     "bid_ceiling": 562905.6,
     "all_in_cost_estimate": 396146.29,
-    "contradictions": [],
+    "contradictions": [
+      "Mismo cause_no 202475737, misma fecha de sentencia y mismo dueno que la cuenta 0680630170019; esta parcela (7118 John Ralston Rd) es la direccion postal del dueno en la otra: probable dueno-ocupante o negocio propio; un defecto de citacion/bancarrota las afecta a ambas.",
+      "Apertura $77,871.91 es 2.6x el total adeudado ($29,663.56): sin explicar (costos, honorarios u otras cuentas del mismo caso).",
+      "Cierre esperado: razon 50.7% = $374,223 vs apertura x 1.088 = $84,725 (4.4x). Techo $562,906 y all_in $396,146 dependen de la razon de lotes; hcad_buildings esta vacio (no se sabe uso/condicion de los 10,570 sf).",
+      "Titulo: busqueda por 'HERRERA MARTIN' (nombre comun) sin ninguna fila con 'TR 14B ABST 546 J W MOODY'; las filas del indice (A/J Sheldon ISD RP-2024-49747, LIEN Remington Ranch HOA, etc.) son de otras descripciones o personas. Gravamenes sobrevivientes: desconocido, no cero.",
+      "Lote HCAD 216,106 sf vs GIS 217,470 sf (+0.6%, aceptable); hcad_owner_since 01/01/2003 con deeds vacios (posible fecha por defecto): no permite descartar una transferencia posterior a la sentencia.",
+      "Valor county $745,964 = HCAD 2025 vs modelo 2026 $738,112; F1 sin homestead en roll, pero uso propio no esta descartado."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Confirmar en hcdistrictclerk.com (login, Miguel) demandados, metodo de citacion (si fue por publicacion, la ventana TRCP 329 sigue abierta 2 anios desde la sentencia) y el monto exacto de la sentencia; attorney review recommended (cause 202475737; ver tambien 0680630170019)",
+      "Buscar bancarrota del dueno en PACER (Miguel): Martin Herrera",
+      "Busqueda del Clerk por descripcion (TR 14B ABST 546 J W MOODY) con imagenes de gravamenes y arrendamientos",
+      "Visita al sitio: uso (negocio/residencia del dueno), inquilinos, condicion del edificio de 10,570 sf; comparables comerciales",
+      "Si hay uso residencial por el dueno, preguntar al abogado por posible homestead (redencion 2 anios)",
+      "Re-bajar el estado de cuenta de impuestos y confirmar la apertura final el dia de la venta (el condado puede retirar o cambiar la propiedad)"
     ]
   }
 }

@@ -373,6 +373,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de CITY WIDE BEAUTICIANS (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisor: reejecutar la busqueda del Clerk de 3903 TOLNAY ST por descripcion (SCOTT TERRACE LT 23 BLK 3), no por 'CITY WIDE'; consultar SOS de Texas por la entidad",
+      "why": "requiere abogado/login/investigacion de campo; no verificable desde el expediente"
     }
   ],
   "valuation": {
@@ -466,16 +471,25 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $97,291 >= cierre esperado $70,821. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de 1940 (1,086 sf, lote de 6,480 sf en City of Houston) con dueno entidad 'CITY WIDE BEAUTICIANS' desde 1988, apertura de $28,699 (20.5% de HCAD $139,687) y techo teorico de $97,291. Los dos hechos decisivos: (1) el titulo es efectivamente DESCONOCIDO: la busqueda del Clerk fue por el prefijo generico 'CITY WIDE' y las 134 filas son de otras entidades (City Wide Lawn Services con muchos T/L del IRS, Developments, Funding...), ninguna con LT 23 BLK 3 SCOTT TERRACE SEC 1; (2) una entidad antigua probablemente inactiva suele implicar citacion por publicacion (ventana TRCP 329 hasta 2027-11-11) y posible ocupante o danos; legal bloqueado. Con un descuento de 40% por condicion el techo seria aprox. $54k, aun sobre la apertura. Casa fuera de la estrategia de lotes; mantener CONDICIONAL. Attorney review recommended.",
     "bid_ceiling": 97290.54,
     "all_in_cost_estimate": 84486.29,
-    "contradictions": [],
+    "contradictions": [
+      "Busqueda de titulo por 'CITY WIDE' (generico) no corresponde al dueno completo 'CITY WIDE BEAUTICIANS': los T/L del IRS (City Wide Lawn Services LLC), LIEN del Estado de Texas y A/J son de otras entidades y NO se pueden atribuir a esta parcela; tampoco se puede afirmar que no hay gravamenes. all_in_costs asume cero sobrevivientes.",
+      "hcad_owner_since 01/02/1988 y hcad_deeds_recorded vacio: la misma fecha 01/02/1988 aparece en la cuenta 0122840200003 (dueno generico), parece una fecha por defecto de HCAD; no permite descartar una transferencia posterior a la sentencia del 11/11/2025.",
+      "Anios en sentencia 2019-2024 pero el estado muestra 2020-2025: 2019 no esta adeudado (pagado/ajustado) y 2025 ($4,373) esta fuera de la sentencia y se suma al tail ($7,540) correctamente; la apertura ($28,699) es casi igual al total adeudado de todos los anios ($28,449), o sea que parece incluir costos pero omitir 2025: confirmar monto.",
+      "Cierre esperado: razon 50.7% x HCAD = $70,821 vs apertura x 1.088 = $31,225 (2.3x); all_in $84,486 y techo $97,291 se basan en la razon de lotes baldios y en reventa al valor HCAD de una casa de 1940.",
+      "Edificio: hcad_building_sqft 1,086 vs detalle 1,110 sf; lote HCAD 6,480 vs GIS 6,427 (diferencia menor). Valor county $149,053 = valor HCAD 2025; modelo usa 2026 ($139,687).",
+      "Jurisdiccion City of Houston: no se busco gravamen municipal (limpieza/demolicion/edificios danados) que normalmente no aparece como D/T en el indice."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Confirmar en hcdistrictclerk.com (login, Miguel) demandados, metodo de citacion (si fue por publicacion, la ventana TRCP 329 sigue abierta 2 anios desde la sentencia) y el monto exacto de la sentencia; attorney review recommended (cause 202410103): confirmar si la entidad fue citada por publicacion o agente registrado",
+      "Buscar bancarrota del dueno en PACER (Miguel): City Wide Beauticians",
+      "Busqueda del Clerk por descripcion (SCOTT TERRACE SEC 1, LT 23 BLK 3) con imagenes, no por 'CITY WIDE'; confirmar existencia/estado de la entidad en el SOS de Texas",
+      "Gravamenes de la Ciudad de Houston (limpieza, demolicion, codigo) y estado de la casa: visita al sitio para ocupacion y condicion",
+      "Comparables locales; pujar solo hasta techo con descuento 40% (~$54k) o menos",
+      "Preguntar al abogado el plazo de redencion aplicable (Tax Code 34.21: normalmente 180 dias para no-homestead, 2 anios si es homestead o agricola, aunque no haya exencion en el roll): el capital queda inmovilizado y el dueno puede redimir",
+      "Re-bajar el estado de cuenta de impuestos y confirmar la apertura final el dia de la venta (el condado puede retirar o cambiar la propiedad)"
     ]
   },
   "title": {

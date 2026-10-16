@@ -443,6 +443,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de HERRERA MARTIN (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisor: confirmar con abogado si una sola sentencia (cause 202475737) cubre esta cuenta y 0432120010421 y el monto exacto de la sentencia (apertura 2.5x el total adeudado)",
+      "why": "requiere abogado/login/investigacion de campo; no verificable desde el expediente"
     }
   ],
   "valuation": {
@@ -536,16 +541,27 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $271,349 >= cierre esperado $182,016. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Es la parcela de 1.25 acres (HCAD) con 4 estructuras, de las cuales 2 son casas moviles (1970 y 1985), dentro del mismo cause 202475737 que la cuenta 0432120010421 (mismo dueno, Martin Herrera). Los dos hechos decisivos: (1) el techo teorico de $271,349 supone reventa a $359,006 de HCAD y un cierre esperado de $182,016 (50.7% del valor, razon sacada de lotes baldios); con la apertura de $34,715 el modelo de prima da solo $37,770, asi que el techo no es una guia de puja; con un descuento de 30-50% por condicion/ocupacion el techo seria aprox. $188k-$132k; (2) legal bloqueado y el indice del Clerk no devolvio ninguna fila que coincida con LT 19 & TR 20 BLK 17 HOUMONT PARK, por lo que el titulo esta sin leer. Es una casa/rancho fuera de la estrategia de lotes; la tierra sola (HCAD $176,768) sostiene el interes. Mantener CONDICIONAL; no COMPRA FUERTE. Attorney review recommended.",
     "bid_ceiling": 271349.31,
     "all_in_cost_estimate": 195191.53,
-    "contradictions": [],
+    "contradictions": [
+      "Mismo cause_no 202475737, misma fecha de sentencia y mismo dueno que la cuenta 0432120010421 (7118 John Ralston Rd, que es la direccion postal de esta cuenta): dos parcelas, un solo caso; un defecto de citacion o una bancarrota las afecta a ambas y el dueno probablemente vive/opera en la otra.",
+      "Apertura $34,714.68 es 2.5x el total adeudado ($13,823.69; 3 anios en sentencia): los $20.9k de diferencia no estan explicados (costos/honorarios de la sentencia? otras cuentas del mismo caso?). Verificar contra la sentencia.",
+      "Cierre esperado: razon 50.7% x HCAD = $182,016 vs apertura x 1.088 = $37,770 (4.8x de diferencia). La razon viene de 14 lotes baldios y no aplica a una propiedad con mejoras; all_in_cost_estimate ($195,191) y bid_ceiling ($271,349) estan inflados por esa razon (no los cambio; solo copiados).",
+      "Mejoras: hcad_building_sqft 3,820 vs suma del detalle 5,492 sf (2204+1232+1516+540), y 2 de las 4 estructuras son casas moviles de 1970/1985; el valor HCAD de $179,423 en edificios las incluye. La regla del playbook de casa movil con titulo personal no transferido no se pudo evaluar (TDHCA no consultado).",
+      "Lote: HCAD 54,390 sf vs GIS 64,100 sf (+18%); el detalle HCAD suma 54,390. Pedir levantamiento antes de contar con area para dos unidades.",
+      "Valor: appraised_value_county ($413,818) es el valor HCAD 2025; el modelo usa el 2026 ($359,006, -13%). No es error, pero el valor de reventa ya esta bajando.",
+      "Gravamenes: el indice (busqueda por nombre 'HERRERA MARTIN', muy comun) no trae filas con la descripcion de esta parcela; existen A/J (Sheldon ISD, RP-2024-49747, sin descripcion) y otros que pueden o no ser de este dueno. all_in_costs asume cero gravamenes sobrevivientes ('NO CUANTIFICADO'); es un supuesto, no un hallazgo."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Confirmar en hcdistrictclerk.com (login, Miguel) demandados, metodo de citacion (si fue por publicacion, la ventana TRCP 329 sigue abierta 2 anios desde la sentencia) y el monto exacto de la sentencia; attorney review recommended (cause 202475737)",
+      "Buscar bancarrota del dueno en PACER (Miguel): Martin Herrera (tambien afecta la cuenta 0432120010421)",
+      "Busqueda en el Clerk por descripcion (HOUMONT PARK SEC 1, LT 19 & TR 20 BLK 17) y por 0680630170019, con imagen de RP-2024-49747 (A/J Sheldon ISD) para ver si afecta esta parcela",
+      "Consultar TDHCA mhweb por las 2 casas moviles (1232 sf 1985; 540 sf 1970): si su titulo personal no se transfiere con la venta y el valor depende de ellas, descartar",
+      "Visita al sitio: ocupacion de las 4 estructuras (dueno/inquilinos), condicion y acceso; levantamiento o plat para el area real (54,390 vs 64,100 sf)",
+      "Obtener comparables locales y pujar solo hasta el techo con descuento de 30-50% (~$132k-$188k) o menos; el techo de $271k no es una guia",
+      "Preguntar al abogado el plazo de redencion aplicable (Tax Code 34.21: normalmente 180 dias para no-homestead, 2 anios si es homestead o agricola, aunque no haya exencion en el roll): el capital queda inmovilizado y el dueno puede redimir",
+      "Re-bajar el estado de cuenta de impuestos y confirmar la apertura final el dia de la venta (el condado puede retirar o cambiar la propiedad)"
     ]
   }
 }

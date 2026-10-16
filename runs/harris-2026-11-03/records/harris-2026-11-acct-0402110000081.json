@@ -411,6 +411,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de PBGS LA ROCHELE REALTY LLC (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisor: apertura $441k vs $225.6k adeudado; 2023 ($66.7k) no esta en la sentencia; D/T y T/L del Estado sin cuantificar. Decision de Miguel si se sale de la estrategia (inmueble comercial de ~$3M)",
+      "why": "requiere abogado/login/investigacion de campo; no verificable desde el expediente"
     }
   ],
   "valuation": {
@@ -503,17 +508,25 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $4,082,571 >= cierre esperado $2,744,758. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF WEBSTER. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "NO PARA DUPLEX",
+    "rationale": "Es un inmueble comercial F1 de 76,144 sf y 4.15 acres en Webster, con valor HCAD de $5.4 millones y apertura de $441k: completamente fuera de la estrategia de lotes baldios para duplex y de un tamano de capital muy distinto. Los dos hechos decisivos: (1) el titulo muestra deudas de prestamo/financiamiento que pueden sobrevivir si los acreedores no fueron demandados (D/T 2022 Third Coast Bank, D/T 2020 Abrams, D/T 2019 Sandia, un FI STM nuevo de 09/2026 a Texas Traditions Bank, un T/L del Estado de Texas y una L AFFT de 2023), todo sin cuantificar; (2) la apertura ($441k) es casi el doble del total de impuestos adeudado ($225.6k) y los impuestos de 2023 ($66.7k) no estan en la sentencia (2024-2025), por lo que son un costo heredado ademas de los $55k del 2026. Con descuento de 30% el techo teorico seria aprox. $2.8M, pero ese techo no tiene sustento. Seguir solo como curiosidad; attorney review recommended.",
     "bid_ceiling": 4082570.97,
     "all_in_cost_estimate": 2953031.91,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $440,979.63 vs total adeudado $225,565.27 (diferencia $215k) y vs los anios en sentencia (2024+2025 = $158,815): no se explica; puede incluir otras cuentas del mismo caso o costos. Verificar la sentencia antes de nada.",
+      "Impuestos 2023 ($66,750) estan etiquetados post_judgment_taxes, pero la sentencia cubre 2024-2025: 2023 es un anio anterior no incluido en la sentencia (otra demanda o unidades no demandadas), asi que el gravamen fiscal de 2023 no queda purgado con certeza. El tail ($121,931) lo suma, pero la etiqueta es incorrecta.",
+      "Cierre esperado: razon 50.7% x $5.41M = $2.74M vs apertura x 1.088 = $480k (5.7x). El techo $4.08M y all_in $2.95M se derivan de la razon de lotes y no son creibles para un edificio comercial de 76k sf (HCAD tiende a sobrevaluar comercial); no los cambio, solo copio.",
+      "Gravamenes: la lista de filas (busqueda 'PBGS LA') incluye D/T de 3 bancos, T/L del Estado de Texas (RP-2023-442707, sin descripcion), L AFFT de contratista 2023 y un FI STM del 09/08/2026 (posterior a la sentencia del 06/30/2026) a Texas Traditions Bank; all_in_costs dice 'NO CUANTIFICADO' y asume cero sobrevivientes. Segun el abogado pueden sobrevivir los que no fueron parte en la demanda.",
+      "Nombre del dueno: HCAD/condado 'PBGS LA ROCHELE REALTY LLC' vs Clerk 'PBGS LA ROCHELLE REALTY LLC' (una L de diferencia): si la demanda uso el nombre mal escrito hay riesgo de citacion; ademas el dueno es una LLC con domicilio en Connecticut (servicio probable via agente registrado/publicacion).",
+      "CAMINO CENTER (descripcion del FI STM) y 'CAMINO CENTER MANAGEMENT' sugieren centro comercial con inquilinos/arrendamientos que sobreviven; hcad_buildings esta vacio y no se verifico ocupacion."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Confirmar en hcdistrictclerk.com (login, Miguel) demandados, metodo de citacion (si fue por publicacion, la ventana TRCP 329 sigue abierta 2 anios desde la sentencia) y el monto exacto de la sentencia; attorney review recommended (cause 202570553)",
+      "Buscar bancarrota del dueno en PACER (Miguel): PBGS La Rochelle Realty LLC",
+      "Obtener la sentencia y explicar la apertura de $441k (vs $225.6k adeudado) y el tratamiento de 2023",
+      "Busqueda en el Clerk por descripcion (TR 1Z-3 ABST 13 S DEEL / Camino Center) con imagenes de las D/T, el FI STM de 09/2026, el T/L del Estado y la L AFFT: cuales fueron demandados/purgados y cuales sobreviven",
+      "Rentas/arrendamientos, inquilinos y estado ambiental de 76,144 sf (visita y estoppels); fuera de la estrategia: solo avanzar si Miguel quiere diversificar a comercial con capital de ~$3M",
+      "Re-bajar el estado de cuenta de impuestos y confirmar la apertura final el dia de la venta (el condado puede retirar o cambiar la propiedad)"
     ]
   }
 }

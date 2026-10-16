@@ -526,6 +526,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de TUDON MARY ESTATE OF (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisor: confirmar sucesion/herederos de Mary Tudon (Probate Court) y ocupacion antes de considerar la puja",
+      "why": "requiere imagen del Clerk, visita o tramite humano"
     }
   ],
   "valuation": {
@@ -618,17 +623,23 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $573,993 >= cierre esperado $387,403. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Casa de 4,256 sf (1925) en Hyde Park a nombre de 'TUDON MARY ESTATE OF': dueno fallecido, 25 anos de impuestos en sentencia (08/07/2026, hace 3 meses) y apertura de $300,238, es decir ~100% de la deuda y ~39% del valor HCAD ($764K). El riesgo de heredero/ocupante y de citacion por publicacion (TRCP 329 abierta hasta 2028-08-07) es alto y no se puede leer, y la inversion total (~$357-420K) esta muy fuera de la estrategia de lotes. Con el valor HCAD recortado 30-50% el techo cae a $277-396K, cercano o bajo la apertura, y el indice del Clerk no devolvio nada (no es 'limpio', es busqueda vacia). Attorney review recommended; no es candidata mientras no se vea la demanda y la sucesion.",
     "bid_ceiling": 573992.58,
     "all_in_cost_estimate": 419098.88,
-    "contradictions": [],
+    "contradictions": [
+      "Dueno: HCAD y condado muestran 'ESTATE OF' (desde 01/31/2021) pero no hay evidencia de quien es el representante/herederos; redemption_note 'sin homestead = plazo corto' se infiere solo del roll HCAD y puede ser falso para una casa familiar de herederos (homestead del causante/herederos = plazo largo).",
+      "Titulo: 0 filas de RP por 'TUDON MARY' en una propiedad con 25 anos de morosidad y sucesion: busqueda vacia, no limpia (falta por descripcion legal LT 2 BLK 1 HYDE PARK, sucesiones y liens de la Ciudad); hcad_deeds_recorded tambien vacio.",
+      "Impuestos: taxes_in_judgment 2001-2025 (25 anos) vs delinquent_by_year 21 anos (faltan 2001-2003, 2007): la cuenta actual no cuadra con la sentencia; total_due 295,039 vs apertura 300,238 (apertura = deuda + ~$5.2K costos, sin margen para el postor). Cola 16,074 es solo proxy 2026.",
+      "Valuacion: techo $573,993 vs apertura $300,238 con cierre esperado $387K (razon 0.507 de lotes) pero apertura x1.088 = $326K: dos metodos con $60K de diferencia. Recorte: techo $396K al 70%, $277K al 50% del valor HCAD (HCAD pone $687K solo en terreno de 6,250 sf; sin comps).",
+      "Valuacion: la salida 'expected_close' usa la razon cierre/valor 0.507 calibrada con 14 LOTES baldios (04/08/2026) y se aplica aqui a una CASA; el techo asume reventa al valor HCAD sin condicion ni ocupacion (optimista)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer demanda/citacion del cause 202453723 (hcdistrictclerk.com, login): identidad del representante/herederos y metodo de citacion",
+      "Busqueda en Probate Court de Harris County: sucesion de Mary Tudon (letters, herederos) y busqueda del Clerk por descripcion legal y por 'ESTATE OF TUDON'",
+      "Gravamenes de la Ciudad de Houston (codigo/demolicion) y asociaciones por direccion; pedir desglose del minimo (apertura) y estado de cuenta",
+      "Visita: ocupacion por herederos, estado de la casa 1925; comps de Hyde Park (terreno HCAD $687K no verificado)",
+      "Confirmar capacidad de capital (~$360K+) y salida; attorney review recommended antes de cualquier puja"
     ]
   }
 }

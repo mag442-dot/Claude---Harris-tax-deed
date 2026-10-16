@@ -442,6 +442,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de HILL YVETTE (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisor: imagen de RP-2023-83192 (escritura Yvette Hill a Deborah T Hill, 2023) vs demandados del cause 202082675",
+      "why": "requiere imagen del Clerk, visita o tramite humano"
     }
   ],
   "valuation": {
@@ -534,17 +539,25 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $246,791 >= cierre esperado $182,709. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Terreno de ~0.47 acre en Highland Heights (HCAD $360K, de los cuales $319K terreno, valor sin comps y alto para 77091) con apertura de $33,307 (9%), pero la inversion total real es ~$220K (puja esperada $183K + cola $30K) con cola de impuestos de $30,104 y tax years desde 1994. Hay dos senales del indice que coinciden con la descripcion legal: DEED RP-2023-83192 de HILL YVETTE a HILL DEBORAH T (03/2023, antes de la sentencia de 10/28/2024, aunque HCAD y el condado siguen mostrando a Yvette) y LIEN RP-2023-309529 de CITY OF HOUSTON. Con 70% del valor el techo es ~$163K, bajo el cierre esperado ($183K). Hasta leer la demanda (demandados) y esas dos imagenes, es para vigilar, no para pujar; attorney review recommended.",
     "bid_ceiling": 246790.99,
     "all_in_cost_estimate": 222294.06,
-    "contradictions": [],
+    "contradictions": [
+      "Propietario: HCAD owner_since 09/10/2016 y condado = HILL YVETTE, pero el Clerk (descripcion que coincide, 'HIGHLAND HEIGHTS Block 3C Tract 18A') muestra DEED de Yvette Hill a HILL DEBORAH T el 03/09/2023, antes de la sentencia (10/28/2024) y despues de la demanda (cause 2020). Posible defecto de demandado/citacion o simple cesion de mero titulo; no concluyente (index only).",
+      "Gravamen: LIEN RP-2023-309529 CITY OF HOUSTON sobre la misma descripcion (probable codigo/demolicion/pavimento) fuera del modelo: all_in_costs trata 'liens_que_sobreviven' como no cuantificado y la ceiling no lo resta.",
+      "Impuestos: taxes_in_judgment 1994-2023 (30 anos) vs delinquent_by_year solo 2020-2025; la dueña actual lo es desde 2016, luego la deuda anterior es de duenos previos; total_due $54,600 vs apertura $33,307 (apertura < deuda total porque 2024-2025 ($22,445) son post-sentencia y los hereda el comprador).",
+      "Valor: HCAD terreno $300K por 20,000 sf ($15/sf) y casa de solo $41K: valor muy dependiente de la tasacion de terreno sin comps; lote HCAD 22,540 vs GIS 20,733 sf (-8%); escrituras HCAD (2015/2016) vs fechas del Clerk (10/31/2016 vs 09/10/2016) no cuadran.",
+      "Plazo TRCP 329 vence 2026-10-28, 6 dias antes de la venta (2026-11-03): si no hubo publicacion, no aplica; de lo contrario el riesgo se cierra justo antes.",
+      "Valuacion: la salida 'expected_close' usa la razon cierre/valor 0.507 calibrada con 14 LOTES baldios (04/08/2026) y se aplica aqui a una CASA; el techo asume reventa al valor HCAD sin condicion ni ocupacion (optimista). Recorte: techo $191K al 80%, $163K al 70%, $135K al 60%."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer imagen de RP-2023-83192 (tipo de instrumento: warranty/quitclaim, reserva de usufructo) y comparar con los demandados del cause 202082675 (hcdistrictclerk.com, login)",
+      "Leer RP-2023-309529 (City of Houston): tipo, monto, si fue parte del juicio; pedir payoff",
+      "Metodo de citacion y bancarrota de HILL YVETTE (y de HILL DEBORAH T) en PACER",
+      "Comps reales del vecindario (valor HCAD $360K sin respaldo); zonificacion/deed restrictions para duplex en 0.47 acre",
+      "Visita: ocupacion (la dueña tiene mailing en Humble)",
+      "Pedir minimo y estado de cuenta; presupuestar ~$220K totales"
     ]
   }
 }

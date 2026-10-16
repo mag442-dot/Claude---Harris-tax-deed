@@ -5,14 +5,20 @@ etapa_final,detalle,tipo,cantidad
 3 Filtro automatico,BAJA: techo teorico menor que la apertura,LOTE,10
 3 Filtro automatico,DESCARTADA: predio en floodway,CASA/OTRO,1
 3 Filtro automatico,DESCARTADA: predio en floodway,LOTE,2
-3 Filtro automatico,EN ESPERA: falta apertura publicada o estado de cuenta de impuestos,CASA/OTRO,31
-3 Filtro automatico,EN ESPERA: falta apertura publicada o estado de cuenta de impuestos,LOTE,10
+3 Filtro automatico,EN ESPERA: falta apertura publicada,CASA/OTRO,2
+3 Filtro automatico,EN ESPERA: falta apertura publicada,LOTE,7
+3 Filtro automatico,EN ESPERA: falta apertura publicada y estado de cuenta de impuestos,CASA/OTRO,15
+3 Filtro automatico,EN ESPERA: falta apertura publicada y estado de cuenta de impuestos,LOTE,2
+3 Filtro automatico,EN ESPERA: falta estado de cuenta de impuestos,CASA/OTRO,14
+3 Filtro automatico,EN ESPERA: falta estado de cuenta de impuestos,LOTE,1
 3 Filtro automatico,"NO PARA DUPLEX: lote chico (<4,000 sqft) o mayormente en zona de inundacion especial",CASA/OTRO,5
 3 Filtro automatico,"NO PARA DUPLEX: lote chico (<4,000 sqft) o mayormente en zona de inundacion especial",LOTE,10
-"4 Paso filtros, sin revision de agente","casa: no revisada (la revision de agentes se hizo solo en lotes vacios, que es tu estrategia)",CASA/OTRO,43
-"4 Paso filtros, sin revision de agente",lote que paso pero no entro a la lista corta,LOTE,1
+5 Revisada por agente,DESCARTADA o no apta: BAJA,CASA/OTRO,3
 5 Revisada por agente,DESCARTADA o no apta: BAJA,LOTE,1
+5 Revisada por agente,DESCARTADA o no apta: NO PARA DUPLEX,CASA/OTRO,3
 5 Revisada por agente,DESCARTADA o no apta: NO PARA DUPLEX,LOTE,1
-5 Revisada por agente,EN ESPERA (falta informacion clave),LOTE,9
+5 Revisada por agente,EN ESPERA (falta informacion clave),CASA/OTRO,14
+5 Revisada por agente,EN ESPERA (falta informacion clave),LOTE,10
+5 Revisada por agente,PASO (condicional a verificar pendientes),CASA/OTRO,23
 5 Revisada por agente,PASO (condicional a verificar pendientes),LOTE,10
 TOTAL lista oficial,,,182

@@ -401,6 +401,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de OJI REBECCA (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisor: confirmar con abogado que significa tipo EOS, los anios en sentencia y el CERT del IRS 2017 contra Rebecca Oji",
+      "why": "requiere abogado/login/investigacion de campo; no verificable desde el expediente"
     }
   ],
   "valuation": {
@@ -494,16 +499,26 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $136,331 >= cierre esperado $92,730. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de 1994 en lote pequeno de 5,500 sf (50x104 ft, fuera de ciudad) que HCAD valora en $182,900 y que abre en solo $8,499 (4.6% del valor), lo que deja margen incluso con un descuento fuerte: a 50% de descuento el techo teorico seria aprox. $65k, muy por encima de la apertura. Los dos hechos decisivos: (1) la apertura es 4.5x el total adeudado ($1,899) y los anios de sentencia son desconocidos, por lo que el tail ($1,899) es solo una cota superior y no se sabe que cubre la apertura; (2) el dueno (Rebecca Oji, inversionista activa: nueva D/T 03/2026 en otra propiedad) tiene un CERT del IRS de 2017 en el indice y puede redimir, y el legal esta bloqueado. Es casa, fuera de la estrategia de lotes para duplex, y el lote es chico para dos unidades. Mantener CONDICIONAL por el margen; no COMPRA FUERTE. Attorney review recommended.",
     "bid_ceiling": 136330.64,
     "all_in_cost_estimate": 101411.65,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $8,499.23 = 4.5x el total adeudado ($1,899.44) y 4.6% del valor HCAD (<5%): puede incluir honorarios/costos de la sentencia o anios anteriores ya pagados; sin la sentencia no se sabe.",
+      "Anios en sentencia desconocidos (taxes_in_judgment unknown): buyer_tax_tail_estimate esta vacio y valuation uso el total adeudado como cota superior; el impuesto 2024 de $34.75 es anormalmente bajo (pago parcial o error) frente a $1,529 de 2025.",
+      "Tipo de venta 'EOS' (no 'SALE') con nota del scout 'sin direccion publicada': confirmar con el abogado que significa EOS y si cambia el tratamiento de redencion o de citacion; la direccion proviene de HCAD, no del listado del condado.",
+      "HCAD hcad_owner_since 09/18/2019 pero los deeds registrados que HCAD lista son de 2017, 2013 y 2005: ninguno explica una transferencia en 2019 (puede ser fecha de actualizacion de HCAD o una escritura no indexada). Validar que Rebecca Oji sea la duena actual y la demandada.",
+      "Edificio: hcad_building_sqft 1,340 vs detalle de 'Residential 2069sf built 1994'; lote HCAD 5,500 vs GIS 5,147 sf (-6.4%).",
+      "Gravamenes: CERT del IRS 2017 (RP-2017-390788) contra Anthony y Rebecca Oji en otra descripcion (Kleinbrook); un lien federal por persona se pega a todos sus bienes, incluida esta casa, y el IRS puede tener derecho de redencion si no fue notificado. La playbook pide confirmar si es un lien o una liberacion y si esta vigente. all_in_costs asume cero sobrevivientes.",
+      "Cierre esperado: razon 50.7% x HCAD = $92,730 vs apertura x 1.088 = $9,247 (10x). El techo $136,331 no guia la puja."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Confirmar en hcdistrictclerk.com (login, Miguel) demandados, metodo de citacion (si fue por publicacion, la ventana TRCP 329 sigue abierta 2 anios desde la sentencia) y el monto exacto de la sentencia; attorney review recommended (cause 202521715) y por que anios fue la sentencia (explicar apertura $8,499 vs $1,899 adeudado)",
+      "Buscar bancarrota del dueno en PACER (Miguel): Rebecca Oji",
+      "Imagen del CERT del IRS RP-2017-390788 (lien o liberacion, vigencia, mismo deudor) y busqueda en el Clerk por descripcion (HERITAGE VILLAGE SEC 1, LT 98 BLK 4); attorney review recommended por el posible derecho de redencion del IRS",
+      "Escritura de 2017/2019 que sustente al dueno actual (hcad_owner_since 2019)",
+      "Visita al sitio: ocupacion (dueno/inquilino), condicion de la casa de 1994; superficie real 1,340 vs 2,069 sf",
+      "Preguntar al abogado el plazo de redencion aplicable (Tax Code 34.21: normalmente 180 dias para no-homestead, 2 anios si es homestead o agricola, aunque no haya exencion en el roll): el capital queda inmovilizado y el dueno puede redimir",
+      "Re-bajar el estado de cuenta de impuestos y confirmar la apertura final el dia de la venta (el condado puede retirar o cambiar la propiedad)"
     ]
   }
 }

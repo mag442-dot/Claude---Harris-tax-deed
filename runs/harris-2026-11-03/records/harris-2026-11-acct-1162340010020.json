@@ -348,6 +348,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de SIBRIAN DOMITILA M (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisor: TDHCA de la casa movil y desglose del minimo $30,415 (Tax Office)",
+      "why": "requiere imagen del Clerk, visita o tramite humano"
     }
   ],
   "valuation": {
@@ -441,16 +446,24 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $99,545 >= cierre esperado $69,139. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Es la mas cercana a la estrategia: ~1.25 acres (54,450 sf, area unificada en el condado sin ciudad) donde el terreno es ~80% del valor HCAD ($108,900 de $136,369), fuera de zona de inundacion (X, 0% SFHA). Pero hay una casa movil (HCAD: 'Mobile Home 4249 sf', 1994) sin verificar titulo TDHCA, un contrato/cesion de PROPEL PROPERTY TAX FUNDING sobre Franklin Square lotes 16-17 (2016) sin liberacion visible, y una apertura de $30,415 que es 10x la deuda actual ($2,973) sin explicacion. Con recorte (80%/70%) el techo es $68-78K frente a cierre esperado $69K, margen delgado. CONDICIONAL solo si se aclara el minimo, los gravamenes Propel/A-J y el titulo de la casa movil; attorney review recommended.",
     "bid_ceiling": 99544.67,
     "all_in_cost_estimate": 77777.44,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $30,415 vs total_due_all_years $2,973: la sentencia cubre 2016-2024 pero solo 2024-2025 siguen adeudados; o se pago parte despues de sentencia (riesgo de retiro/redencion) o el minimo incluye costos/otras cuentas. Sin explicar.",
+      "Casa: hcad_building_sqft 2,344 vs hcad_buildings 'Mobile Home/Manufactured Housing 4249sf built 1994' (dos superficies distintas y es casa movil, clase A2). La regla del playbook (casa movil con titulo personal) no aplica automaticamente porque el valor es ~80% terreno, pero el titulo TDHCA no esta verificado.",
+      "Gravamenes (indice, solo nombre): RP-2016-442723 CONT y RP-2016-498481 ASSGN con PROPEL PROPERTY TAX FUNDING sobre FRANKLIN SQUARE Lot 16-17 (descripcion coincide) sin liberacion en las filas; A/J RP-2021-408121 (INVESTMENT RETRIEVERS) y RP-2019-174138 (CAPITAL ONE) sin descripcion; RP-2018-78936 RWD a MAGELLAN PIPELINE (servidumbre de oleoducto, sin descripcion, podria limitar construir). all_in_costs dice 'liens_que_sobreviven: NO CUANTIFICADO' y asume cero.",
+      "Propietario: hcad_owner_since 05/12/2024 con hcad_deeds_recorded vacio, mientras la demanda es de 2022 y el condado cita a SIBRIAN DOMITILA M: un traspaso/correccion posterior a la demanda podria dejar a un titular no demandado.",
+      "Plazo TRCP 329 corre hasta 2026-11-26, 23 dias despues de la venta; si hubo citacion por publicacion queda abierta.",
+      "Valuacion: la salida 'expected_close' usa la razon cierre/valor 0.507 calibrada con 14 LOTES baldios (04/08/2026) y se aplica aqui a una CASA; el techo asume reventa al valor HCAD sin condicion ni ocupacion (optimista). Recorte: techo $78K al 80%, $68K al 70% del valor HCAD."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Pedir al Tax Office el desglose del minimo $30,415 vs deuda $2,973 y confirmar que la cuenta no esta en plan de pago ni en riesgo de retiro",
+      "Leer imagenes de RP-2016-442723/498481 (Propel) y ver si hay liberacion; leer A/J RP-2021-408121 y RP-2019-174138 y RP-2018-78936 (servidumbre Magellan: ubicacion en el lote)",
+      "Busqueda por descripcion legal (Franklin Square Lts 16-17 Blk 1) en el Clerk",
+      "TDHCA mhweb: titulo/Statement of Ownership de la casa movil (inmovilizada o personal) y si esta ocupada",
+      "Demandados/citacion de cause 202226182 en hcdistrictclerk.com (quien era dueno al demandar) y bancarrota de SIBRIAN DOMITILA M en PACER",
+      "Deed restrictions/septic/servicios para duplex en 1.25 acres; no pasar de ~$68K sin comps"
     ]
   },
   "title": {

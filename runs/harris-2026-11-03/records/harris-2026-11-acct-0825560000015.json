@@ -358,6 +358,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de LICON MARCO A & CLARE (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisor: identificar a John Thomas Longsworth (cuidado de/c.o. en el estado de cuenta) y si el dueno vive o esta fallecido (probate); repetir busqueda del Clerk",
+      "why": "requiere abogado/login/investigacion de campo; no verificable desde el expediente"
     }
   ],
   "valuation": {
@@ -451,16 +456,26 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $138,199 >= cierre esperado $94,260. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de 1954 (1,239 sf HCAD) en lote de 7,605 sf en City of Houston, valor HCAD $185,918, apertura $33,362 (17.9%) y techo teorico de $138,199. Los dos hechos decisivos: (1) la busqueda de titulo por 'LICON MARCO' devolvio 0 filas para un dueno desde 1998, lo que indica falla de la busqueda o ortografia y no un titulo limpio; el titulo esta desconocido; (2) el estado de cuenta va a nombre de un tercero ('% JOHN THOMAS LONGSWORTH', Vidor TX), por lo que el dueno probablemente no vive alli (heredero, administrador, inquilino o prestamista) y la ocupacion es incierta. Con descuento de 30% el techo seria aprox. $95k, aun sobre la apertura. Fuera de la estrategia de lotes; CONDICIONAL con legal bloqueado. Attorney review recommended.",
     "bid_ceiling": 138199.32,
     "all_in_cost_estimate": 103477.34,
-    "contradictions": [],
+    "contradictions": [
+      "Titulo: 0 instrumentos para 'LICON MARCO' (grantee y grantor) con dueno desde 04/11/1998: es improbable que no exista ni una escritura/D/T; el resultado vacio es indice no leido, no evidencia de ausencia. 'liens_que_sobreviven' sigue sin cuantificar.",
+      "Dueno vs estado de cuenta: HCAD 'LICON MARCO A & CLARE' pero el condado envia a '% JOHN THOMAS LONGSWORTH, 640 MELROSE ST, VIDOR TX': posible sucesion/fallecimiento, administracion o hipoteca; no verificado. Si hay un dueno fallecido, los herederos son partes necesarias.",
+      "Apertura $33,361.85 es 2.9x el total adeudado ($11,438.81); incluye lo que la sentencia (2021-2025) suma en honorarios/costos? No se explica. El impuesto 2022 ($285.69) vs 2023 ($2,314) sugiere pagos parciales.",
+      "Edificio: hcad_building_sqft 1,239 vs detalle 'Residential 1743sf'; lote HCAD 7,605 vs GIS 7,810 (+2.7%). Valor county $183,391 = HCAD 2025 vs modelo 2026 ($185,918).",
+      "Cierre esperado: razon 50.7% = $94,260 vs apertura x 1.088 = $36,298 (2.6x); techo $138,199 y all_in $103,477 dependen de la razon de lotes y de reventa al valor HCAD sin visita.",
+      "Tail ($2,389) es solo el impuesto base 2025 como proxy del 2026 (inferred); no incluye penalidades."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Confirmar en hcdistrictclerk.com (login, Miguel) demandados, metodo de citacion (si fue por publicacion, la ventana TRCP 329 sigue abierta 2 anios desde la sentencia) y el monto exacto de la sentencia; attorney review recommended (cause 202441751): demandados (Licon y Longsworth? herederos?) y servicio",
+      "Buscar bancarrota del dueno en PACER (Miguel): Marco A. y Clare Licon",
+      "Repetir busqueda del Clerk por descripcion (MEADOW CREEK VILLAGE SEC 3, LT 15 BLK 21) y con variantes del nombre (LICON MARCO ANTONIO, LICON CLARE) con imagenes de D/T, A/J y HOA",
+      "Averiguar quien es John Thomas Longsworth (probate/obituario del dueno, inquilino, administrador) y si el dueno vive o fallecio",
+      "Visita al sitio: ocupacion y condicion; area real del edificio (1,239 vs 1,743 sf)",
+      "Pujar solo hasta un techo con descuento 30% (~$95k) o menos",
+      "Preguntar al abogado el plazo de redencion aplicable (Tax Code 34.21: normalmente 180 dias para no-homestead, 2 anios si es homestead o agricola, aunque no haya exencion en el roll): el capital queda inmovilizado y el dueno puede redimir",
+      "Re-bajar el estado de cuenta de impuestos y confirmar la apertura final el dia de la venta (el condado puede retirar o cambiar la propiedad)"
     ]
   },
   "title": {

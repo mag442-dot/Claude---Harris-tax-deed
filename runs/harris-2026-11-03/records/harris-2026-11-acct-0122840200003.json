@@ -413,6 +413,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de CURRENT OWNER (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisor: identificar al dueno real de 8802 Liberty Rd (HCAD dice CURRENT OWNER) para busquedas de titulo y PACER; sin eso la cuenta no avanza",
+      "why": "requiere abogado/login/investigacion de campo; no verificable desde el expediente"
     }
   ],
   "valuation": {
@@ -505,17 +510,25 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $477,691 >= cierre esperado $344,476. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Inmueble comercial F1 de 18,000 sf (1960) en 3.33 acres en City of Houston con HCAD $637,282 y apertura de $316,614 (49.7% del valor), practicamente igual al total adeudado ($312,649 por 11 anios, 2015-2025). Los dos hechos decisivos: (1) el dueno es el generico 'CURRENT OWNER' en HCAD y en el condado, sin busqueda del Clerk, por lo que el titulo y las partes demandadas son DESCONOCIDOS; (2) el margen es fino: el techo teorico de $477,691 cae a ~$329k con un descuento de 30% sobre HCAD y a ~$280k con 40%, ambos cerca o por debajo de la apertura. Once anios de morosidad sugieren abandono o problemas (ambientales, de la Ciudad, ocupantes). Fuera de la estrategia; vigilar hasta tener dueno, titulo y condicion. Attorney review recommended.",
     "bid_ceiling": 477691.12,
     "all_in_cost_estimate": 372614.05,
-    "contradictions": [],
+    "contradictions": [
+      "El registro no tiene seccion `title`: dueno 'CURRENT OWNER' impide cualquier busqueda de nombre; el titulo es desconocido y 'liens_que_sobreviven' no se puede dar por cero.",
+      "hcad_owner_since 01/02/1988 (igual que la cuenta 0752370030023) y deeds vacios: fecha por defecto de HCAD, no sirve para detectar una transferencia posterior a la sentencia del 07/22/2026 ni a quien se demando.",
+      "Techo $477,691 (reventa a HCAD $637,282) vs apertura $316,614: con descuento 30% el techo es ~$329k y con 40% ~$280k < apertura; la 'margen_esperada 71%' es teorica. hcad_buildings vacio (uso/condicion de 18,000 sf desconocidos).",
+      "Cierre esperado: razon (50.7%) $323,102 vs prima $344,476; la valuacion uso $344,476 (la mayor); coinciden, pero la apertura ya es ~50% de HCAD, o sea no hay holgura.",
+      "Tail $13,804 es solo el impuesto base 2025 como proxy del 2026 (sin penalidades), con 11 anios en sentencia hasta 2025; no se midio deuda municipal ni de otras jurisdicciones.",
+      "Lote HCAD 144,968 vs GIS 140,338 sf (-3.2%)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Confirmar en hcdistrictclerk.com (login, Miguel) demandados, metodo de citacion (si fue por publicacion, la ventana TRCP 329 sigue abierta 2 anios desde la sentencia) y el monto exacto de la sentencia; attorney review recommended (cause 202513531): identificar al demandado real, servicio y si hay lienholders",
+      "Buscar bancarrota del dueno en PACER (Miguel): propietario real (una vez identificado)",
+      "Identificar al dueno real (acta, SOS de Texas, HCAD sin captcha) y rehacer la busqueda del Clerk por nombre y por descripcion (TR 19D-1 BLK 19 & TR 20E BLK 20 EAST HOUSTON)",
+      "Gravamenes de la Ciudad de Houston, ambientales y estado del edificio; visita al sitio y ocupantes/inquilinos",
+      "Comparables comerciales y pujar solo si el descuento de 30-40% aun deja margen sobre la apertura de $316,614",
+      "Re-bajar el estado de cuenta de impuestos y confirmar la apertura final el dia de la venta (el condado puede retirar o cambiar la propiedad)"
     ]
   }
 }

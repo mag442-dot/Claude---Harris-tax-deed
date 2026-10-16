@@ -563,16 +563,23 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $172,093 >= cierre esperado $118,494. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HUMBLE. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de 1940 en lote de ~0.54 acre (23,522 sf HCAD) en Humble, con apertura de solo $15,589 (6.7% del valor HCAD de $233,715) y el terreno vale ~55% del total, lo que da algo de espacio para redesarrollo; zona X sin SFHA. Pero la apertura es 3.6x la deuda actual ($4,372), el dueno es un inversionista con muchas filas en el Clerk (ruido, ninguna coincide con Tract 3R Abst 95 W B Adams salvo la escritura de 2018) y la sentencia es de 01/05/2026 (TRCP 329 abierta hasta 2028). Con 70% del valor el techo es ~$118K, igual al cierre esperado ($118K): margen minimo si la puja sube al promedio de lotes, pero muy bueno si cierra cerca de la apertura. CONDICIONAL: dependera del desglose del minimo, de los gravamenes y de la zonificacion de Humble para duplex; attorney review recommended.",
     "bid_ceiling": 172093.05,
     "all_in_cost_estimate": 131764.48,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $15,589 vs total_due $4,372 (sentencia 2020-2024 pero solo 2024-2025 pendientes): posible pago parcial posterior a la sentencia (riesgo de retiro/redencion) o costos; sin explicar.",
+      "Superficie: hcad_building_sqft 1,700 vs hcad_buildings 2,745 sf (diferencia de 61%); lote HCAD 23,522 vs GIS 26,502 sf (+12.7%): sin levantamiento.",
+      "Titulo: 83 filas por 'MOLINA MARIO' son casi todas de otras personas/propiedades (el dueno aparece como grantor/grantee en ventas fiscales, A/J de Cavalry, Midland, Investment Retrievers, etc., sin descripcion); solo W/D RP-2018-320416 (ADAMS W B Abstract 95) coincide con la propiedad: fecha 07/17/2018 vs HCAD owner_since 07/05/2018. Las A/J sin descripcion son bandera para abogado, no conclusion; la busqueda se pudo truncar.",
+      "Valor: HCAD $233,715 vs condado $250,394 (ano previo); la casa vale solo ~$105K en HCAD y el valor depende del terreno ($128K) sin comps.",
+      "Plazo TRCP 329 abierto hasta 2028-01-05; la sentencia tiene 10 meses, el dueno puede redimir: a la fecha sin homestead en roll (inferencia).",
+      "Valuacion: la salida 'expected_close' usa la razon cierre/valor 0.507 calibrada con 14 LOTES baldios (04/08/2026) y se aplica aqui a una CASA; el techo asume reventa al valor HCAD sin condicion ni ocupacion (optimista). Recorte: techo $136K al 80%, $118K al 70%, $99K al 60%."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Desglose del minimo $15,589 y estado de cuenta actualizado; confirmar que no hay plan de pago/retiro",
+      "Busqueda en el Clerk por descripcion legal (Tr 3R Abst 95 W B Adams) y por direccion 420 Charles St; leer A/J sin descripcion para ver si afectan este predio",
+      "Zonificacion de la Ciudad de Humble y deed restrictions: ¿duplex permitido en el lote?; servicios",
+      "Demandados/citacion de cause 202202877 y bancarrota de MOLINA MARIO G en PACER (bloqueados)",
+      "Visita: ocupacion y estado de la casa de 1940; comps; no pasar de ~$60K sin confirmar valor"
     ]
   }
 }

@@ -379,6 +379,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de SMITH ADAM P (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisor: demandados del cause 202206322 vs nuevo dueno SMITH ADAM P (adquirio 2025)",
+      "why": "requiere imagen del Clerk, visita o tramite humano"
     }
   ],
   "valuation": {
@@ -471,17 +476,24 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $70,056 >= cierre esperado $56,875. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "BAJA",
+    "rationale": "HCAD muestra al dueno actual (SMITH ADAM P) desde 05/27/2025, 13 meses DESPUES de la sentencia (05/06/2024): el Clerk confirma el W/D RP-2025-211665 de SAGALA JOE y OPHELIA, es decir el demandado original probablemente era otro y el nuevo dueno no fue citado: riesgo de defecto/redencion y de que el comprador reciente pague y retire la cuenta. Ademas la cola de impuestos es $13,586 y con la casa a 70% del valor ($112K) el techo es ~$44K frente a un cierre esperado de $56.9K: margen ~3%. Pocas ventajas dentro de la estrategia de lotes; baja prioridad, attorney review recommended si se insiste.",
     "bid_ceiling": 70055.58,
     "all_in_cost_estimate": 76166.94,
-    "contradictions": [],
+    "contradictions": [
+      "Propietario: HCAD owner_since 05/27/2025 (W/D RP-2025-211665 grabado 06/03/2025, de Sagala a Smith) posterior a la sentencia 05/06/2024 y a la demanda (cause 2022); tax.assessed_owner_county ya muestra al nuevo dueno: el condado listo a quien compro con el gravamen, pero el demandado pudo ser Sagala. Posible defecto de citacion o transmision pendente lite.",
+      "Titulo: 93 filas por 'SMITH ADAM' (nombre comun; busqueda truncada) con LIEN del Estado de Texas RP-2017-375415 y de AG (RP-2021-311066) contra SMITH ADAM (varias personas) sin descripcion: no se puede atribuir a este predio; bandera para abogado, no conclusion.",
+      "Impuestos: taxes_in_judgment 2018-2022 pero delinquent_by_year incluye 2019-2025: post_judgment 2023-2025 ($11,106) lo hereda el comprador; apertura $20,314 vs total_due $21,621, coherente solo si 2018 ya esta pagado.",
+      "Valuacion: all_in_cost_at_expected_close $76,167 > bid_ceiling $70,056 con margen 47% reportado: el margen del modelo (resale a HCAD) no sobrevive a un recorte de 30% (margen ~3%).",
+      "Superficie: hcad_building_sqft 1,032 vs hcad_buildings 1,356 sf; lote HCAD 8,580 vs GIS 8,684.",
+      "Valuacion: la salida 'expected_close' usa la razon cierre/valor 0.507 calibrada con 14 LOTES baldios (04/08/2026) y se aplica aqui a una CASA; el techo asume reventa al valor HCAD sin condicion ni ocupacion (optimista). Recorte: techo $53K al 80%, $44K al 70%, $35K al 60%."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer imagen de RP-2025-211665 (fecha, precio, garantia) y comparar con los demandados del cause 202206322 (hcdistrictclerk.com, login)",
+      "Confirmar con el Tax Office que la cuenta no se pago/retiro y la apertura del dia de la venta",
+      "Busqueda por descripcion legal (Rosewood Estates Sec 2 Lt 260) en el Clerk",
+      "Bancarrota de SMITH ADAM P y de los duenos previos (SAGALA) en PACER",
+      "Visita: ocupacion del nuevo dueno; no pasar de ~$35K"
     ]
   },
   "title": {
