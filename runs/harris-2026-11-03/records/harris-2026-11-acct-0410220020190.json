@@ -369,6 +369,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de NGUYEN THANH N (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Leer deed 2026-RP-2026-29516 y compararla con la sentencia del 02/06/2026; cotizar riesgo VE (31.7% del predio)",
+      "why": "requiere lectura de imagenes/expediente y abogado; fuera del alcance de la revision modo barato"
     }
   ],
   "valuation": {
@@ -461,17 +466,27 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $231,277 >= cierre esperado $156,663. Es casa (HCAD): valor de reventa y ocupacion sin verificar. 32% del predio en SFHA (FEMA efectivo). Jurisdiccion: CITY OF BAYTOWN. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Casa de 3,388 sqft en 0.75 acre en Baytown, $309k HCAD, con 31.7% del predio en zona VE (SFHA costera, sin floodway): costo de seguro y construccion nueva se elevan y el valor de reventa al 100% HCAD es dudoso. La escritura registrada como 2026-RP-2026-29516 (HCAD la fecha 01/15/2025) coincide con la fecha de sentencia 02/06/2026, y el titulo no tiene hallazgos: posible transferencia cerca de la demanda sin evidencia de citacion al nuevo dueno. Apertura $24.5k es 5x la deuda de $4,985 sin explicar. Attorney review recommended.",
     "bid_ceiling": 231276.85,
     "all_in_cost_estimate": 170347.73,
-    "contradictions": [],
+    "contradictions": [
+      "hcad_owner_since 01/15/2025 pero el numero de instrumento es 2026-RP-2026-29516 (registrado 2026): fecha vs instrumento inconsistente; si se registro cerca/despues de la sentencia (02/06/2026), el dueno actual puede no haber sido demandado.",
+      "Apertura $24,452 vs deuda $4,985 (4.9x) sin explicar.",
+      "taxes_in_judgment desconocido: buyer_tax_tail_estimate ausente; el modelo usa $4,985 como cota superior (aceptable).",
+      "puja_esperada $156,663 (razon 0.507 x $309k) vs apertura x1.088 = $26.6k: el modelo toma la razon; la brecha de 6x muestra que el ratio de lotes baldios no aplica a una casa de $309k.",
+      "FEMA: zona 'efectiva' reportada como X 0.2% pero 31.7% es VE (zona de olas); el campo principal ocultaria el riesgo, y VE esta peor que la tolerancia de un dúplex/seguro.",
+      "HCAD $309,000 = valor del condado $309,000 sin ajuste; lote HCAD 32,670 vs GIS 32,347 consistente; edificio 3,388 vs 3,428 sqft menor.",
+      "Correo en Cypress (no es el predio): probable no ocupada por el dueno; titulo sin filas (busqueda por 'NGUYEN THANH', nombre comun)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer escritura 2026-RP-2026-29516 (fecha de registro, grantor/grantee) y comparar con la citacion del cause 202559389",
+      "Obtener el tramo exacto VE/X sobre la casa (elevation certificate / FEMA) y cotizar seguro de inundacion",
+      "Busqueda de titulo por descripcion legal (Tr 29B Abst 66 W Scott); explicar apertura de $24.5k",
+      "Visita al sitio: ocupacion y estado",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota (hcdistrictclerk.com login / PACER): hoy BLOQUEADO",
+      "Estado de cuenta de impuestos actualizado el dia antes de pujar y apertura final confirmada con el condado",
+      "Revision de abogado (attorney review recommended) sobre redencion, quiet title y gravamenes que sobreviven; busqueda de titulo por descripcion legal, con imagenes"
     ]
   }
 }

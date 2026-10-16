@@ -564,17 +564,25 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $197,073 >= cierre esperado $136,266. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Casa de 2020 (HCAD $268,769) con apertura de $52,631 y sentencia 04/27/2026 por anos 2003-2024; el dueno desde el anio 2000 (Mims Laurena, direccion postal = predio, ocupada) tiene en el indice del Clerk, con descripcion de este lote, un LIEN de la Ciudad de Houston (RP-2020-46229) y un deed of trust a favor de la Ciudad (RP-2021-23681), mas un bond con Crown Ridge Builders y un A/J de Citibank (RP-2020-628138, sin descripcion): lo que sobrevive la venta no esta cuantificado y el modelo asume cero. La casa de 2020 construida por contratista y con DOT a la Ciudad sugiere un programa de reconstruccion con lien perdonable (inferido, no leido). Techo $197,073 es teorico; incluso con 15% de descuento (~$166k) la prioridad es leer los liens; plazo de redencion podria ser de 2 anios si es residencia. Fuera de la estrategia; attorney review recommended.",
     "bid_ceiling": 197072.75,
     "all_in_cost_estimate": 152384.13,
-    "contradictions": [],
+    "contradictions": [
+      "taxes_in_judgment cubre 2003-2024 (22 anios), pero el estado de cuenta solo adeuda 2003-2007, 2019-2025: 2008-2018 aparecen sin saldo (pagados o excluidos). Sentencia incluye anios sin saldo pendiente: la apertura $52,631 no cuadra con el total $27,827 (diferencia $24,804, 1.9x).",
+      "Liens del Clerk con descripcion de este lote: LIEN Ciudad de Houston 01/31/2020 y D/T a la Ciudad 01/14/2021 (programa o nuisance); A/J Citibank 12/22/2020 contra 'Mims Laurena B' sin descripcion. El modelo (liens_que_sobreviven = no cuantificado) los trata como cero. Solo indice, nombre/lote; attorney review recommended.",
+      "Casa de 2020 en lote desde 2000 con deuda tributaria 2003-2007: construccion nueva con recursos publicos (inferido) vs impuestos no pagados por ~20 anios; homestead 'no en el roll' vs mailing = predio: probable residencia con redencion de 2 anios no descartada.",
+      "Valor HCAD $268,769 vs condado $264,410 (-1.6%); lote 7,300 vs GIS 7,280: consistentes. Flood zone X 100%: sin conflicto.",
+      "Apertura $52,631 es 19.6% del valor: ratio de cierre 50.7% da puja esperada $136,266, lejos de apertura+8.8% ($57,262): all_in $152,384 no es precio realista."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer imagenes de RP-2020-46229 (LIEN Ciudad), RP-2021-23681 (D/T Ciudad), RP-2021-66573 (bond) y RP-2020-628138 (A/J Citibank): tipo, monto, si la Ciudad/Citibank fueron partes de la demanda fiscal y si sobreviven la venta",
+      "Obtener desglose de la sentencia (22 anios) y estado de cuenta actualizado; aclarar anios 2008-2018",
+      "Confirmar ocupacion y homestead real (plazo de redencion 2 anios)",
+      "Leer demandados y citacion del cause 202453918 (login) y PACER",
+      "Visita al sitio: casa 2020, estado y ocupantes",
+      "Pedir estado de cuenta de impuestos actualizado de TODAS las jurisdicciones antes de pujar y confirmar que la propiedad sigue en la lista (puede ser retirada si el dueno paga)",
+      "Leer demandados y metodo de citacion del cause en hcdistrictclerk.com y bancarrota en PACER (bloqueado); attorney review recommended"
     ]
   }
 }

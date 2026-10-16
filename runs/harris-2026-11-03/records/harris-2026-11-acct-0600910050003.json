@@ -562,16 +562,23 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $64,920 >= cierre esperado $47,751. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF BAYTOWN. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de 672 sf de 1948 (HCAD $94,183) en Baytown con apertura de $21,476, 4.8x el total adeudado en el condado ($4,479, solo 2020-2025): algo adicional (costas, Baytown, otras unidades) esta en la sentencia (02/06/2026). El dueno HCAD, Ronnie Hill, tiene mailing distinto del predio (probable no ocupada por el) y el indice del Clerk muestra un D/T (RP-2026-51968, 02/11/2026, a GSH Financial Services, sin descripcion) cinco dias despues de la sentencia: si es sobre este predio es un lien posterior que quiza no sobreviva, pero no esta cuantificado. Con 30% de descuento el techo bajaria de $64,920 a ~$43k contra apertura+8.8% de $23k, es decir aun hay margen. Nombre muy comun y activo en el Clerk: ruido alto, fuera de estrategia; attorney review recommended.",
     "bid_ceiling": 64919.71,
     "all_in_cost_estimate": 57662.4,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $21,476 vs total adeudado $4,479 (4.8x): sin explicacion (sentencia con otras cuentas, costas, Baytown?); taxes_in_judgment y tail unknown.",
+      "Cuenta del condado = HCAD (Hill Ronnie, desde 1996), pero el indice de nombre muestra decenas de ventas/D/T de 'Hill Ronnie Glen' en otras subdivisiones: la busqueda por nombre no se puede atribuir a este predio; el unico D/T sin descripcion (RP-2026-51968, 02/11/2026, posterior a la sentencia) puede o no ser de este predio.",
+      "D/T RP-2026-410493 (10/09/2026) cita 'Highlands Terrace Lot 17-18', otra descripcion: no es de este predio; el lien real sobre Lt 3 Blk 5 Wright J W es desconocido; el modelo 'liens_que_sobreviven' sin cuantificar.",
+      "Jurisdiccion Baytown: no se verifica si el estado de cuenta incluye la ciudad de Baytown y Goose Creek ISD ademas del condado; tail posible incompleto.",
+      "Lote HCAD 5,000 sf vs GIS 5,012 (ok); valor del condado $88,538 vs HCAD $94,183 (-6%)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Pedir desglose de la sentencia (por que $21,476 con $4,479 adeudado) y estado de cuenta de Baytown/ISD",
+      "Leer imagen de RP-2026-51968 y buscar por descripcion legal 'J W Wright Lt 3 Blk 5' (liens, hipotecas, municipales); confirmar a que predio corresponde el D/T",
+      "Leer demandados/citacion del cause 202367665 (login)",
+      "Verificar ocupacion (mailing distinto) y estado en visita; descuento de valor 30% (672 sf, 1948)",
+      "Pedir estado de cuenta de impuestos actualizado de TODAS las jurisdicciones antes de pujar y confirmar que la propiedad sigue en la lista (puede ser retirada si el dueno paga)",
+      "Leer demandados y metodo de citacion del cause en hcdistrictclerk.com y bancarrota en PACER (bloqueado); attorney review recommended"
     ]
   }
 }

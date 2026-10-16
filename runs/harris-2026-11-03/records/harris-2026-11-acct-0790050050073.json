@@ -349,6 +349,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de CAVAZOS ARNULFO (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Aclarar la cadena de titulo 2013/2014/2020 (W/D RP-2020-36831) del lote 73 Blk 5",
+      "why": "requiere lectura de imagenes/expediente y abogado; fuera del alcance de la revision modo barato"
     }
   ],
   "valuation": {
@@ -442,16 +447,24 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $102,167 >= cierre esperado $71,203. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de 1950 ($140k HCAD) con apertura $13.4k, cola de impuestos solo ~$3.1k (sentencia 03/2026 ya cubre 2023-2025) y sin gravamenes de la parcela en el indice; el cierre esperado $71.2k cabe bajo el techo de $80k con recorte de 20% pero no con 30% ($69k). El punto debil es la cadena de titulo: HCAD dice dueno desde 02/2015 pero hay un W/D de 2020 (Metz John a Cavazos) del mismo lote, que sugiere escritura correctiva o titulo irregular. Legal bloqueado. Fuera de la estrategia de lotes. Attorney review recommended.",
     "bid_ceiling": 102167.45,
     "all_in_cost_estimate": 80458.7,
-    "contradictions": [],
+    "contradictions": [
+      "hcad_owner_since 02/20/2015 vs deeds HCAD 2013/2014 vs W/D 2020-RP-2020-36831 (Metz John a Cavazos Arnulfo, 'BAKERS PLACE' Lt 73 Blk 5): tres fechas distintas para la adquisicion; posible escritura correctiva o cadena irregular.",
+      "Descripcion: HCAD 'BAKER PLACE' vs indice 'BAKERS PLACE Sec 1': probablemente la misma, confirmar por busqueda legal.",
+      "La fila RP-2019-123100 (VERDE FOREST Lt 21 Blk 3, con ROSAS YULISSA) no es de esta parcela: ruido.",
+      "Correo = predio (7825 DEWITT RD), sin homestead en roll: probable residencia; redencion de 2 anios posible, nota 'corta' optimista.",
+      "HCAD $140,440 vs condado $146,786 (+4.5%) por anio de valuacion; lote HCAD 7,150 vs GIS 7,112 y edificio 1,194 vs 1,272 sqft: menores.",
+      "Cola de impuestos $3,119.53 (proxy ano corriente) consistente con all_in_costs; post-sentencia = 0."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer W/D RP-2020-36831 con imagen y cadena completa (2013, 2014, 2020) para entender por que hay escritura en 2020; busqueda por legal (Baker/Bakers Place Sec 1 Lt 73 Blk 5)",
+      "Confirmar citacion de Cavazos Arnulfo y de Metz John (si siguiera en cadena) en cause 202510579",
+      "Visita al sitio: ocupacion (probable dueno) y estado; aplicar recorte 20-30% al valor",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota (hcdistrictclerk.com login / PACER): hoy BLOQUEADO",
+      "Estado de cuenta de impuestos actualizado el dia antes de pujar y apertura final confirmada con el condado",
+      "Revision de abogado (attorney review recommended) sobre redencion, quiet title y gravamenes que sobreviven; busqueda de titulo por descripcion legal, con imagenes"
     ]
   },
   "title": {

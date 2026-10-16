@@ -377,6 +377,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de WILLIAMS DAVID ELI (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Confirmar si el dueno de 2021 (WILLIAMS DAVID ELI) fue citado en la causa 201900184 (sentencia 2020) y busqueda de titulo por legal",
+      "why": "requiere lectura de imagenes/expediente y abogado; fuera del alcance de la revision modo barato"
     }
   ],
   "valuation": {
@@ -469,17 +474,26 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $85,530 >= cierre esperado $77,756. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "El dueno actual (WILLIAMS DAVID ELI) compro el 10/04/2021, un anio DESPUES de la sentencia del 10/26/2020 (causa 201900184, anos 2017-2019): posible defecto de citacion o gravamen no cubierto, y el titulo esta vacio (0 hallazgos). La apertura de $5,044 es engañosa: el comprador hereda ~$30.6k de impuestos post-sentencia (2020-2025 = $27.3k + ano corriente), asi que el costo real minimo es ~$40k antes de quiet title. El cierre esperado por razon ($77.8k) supera el techo con recorte de 20% (~$62k), y el margen teorico baja a 33.7%. Attorney review recommended.",
     "bid_ceiling": 85529.76,
     "all_in_cost_estimate": 114685.09,
-    "contradictions": [],
+    "contradictions": [
+      "hcad_owner_since 10/04/2021 vs judgment_date 10/26/2020: el dueno actual no es el demandado original; posible adquirente post-sentencia no citado o sujeto a lis pendens (abogado).",
+      "Apertura $5,044 (3.3% del valor HCAD, <5%) vs deuda total $28,780: la apertura cubre solo los anos 2017-2019 de la sentencia; el resto ($27.3k) lo hereda el comprador (cola $30,596 correcta en all_in_costs).",
+      "all_in_cost_estimate $114,685 > bid_ceiling $85,530: no es error (el techo es de puja, el all-in incluye la cola), pero el cierre esperado por razon ($77.8k) deja margen de solo 33.7% con valor HCAD sin recorte.",
+      "taxes_in_judgment [2017,2018,2019] pero la lista delinquent_by_year empieza en 2019 (2017-2018 ya no aparecen, probablemente pagados/incluidos): 2019 aparece tanto en la sentencia como en el estado; confirmar que no se cuenta doble.",
+      "Titulo: busqueda por 'WILLIAMS DAVID' devolvio 0 filas; no es evidencia de titulo limpio (nombre muy comun, sin busqueda por legal).",
+      "Correo = predio y dueno desde 2021, sin homestead en roll: posible residencia; redencion de 2 anios es posible. TRCP 329 ya cerro (2022-10-26)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer la sentencia/citacion de la causa 201900184: contra quien se dicto, si el dueno de 2021 fue citado, y por que se vende 6 anios despues",
+      "Busqueda de titulo por descripcion legal (Scottcrest Lt 14 Blk 3) incluyendo la escritura de 2021 y cualquier lien posterior a la sentencia",
+      "Cotizar el estado de cuenta exacto de 2020-2025 (los $27.3k post-sentencia heredados) y presupuestar el costo total ~$40k+ al ganar cerca de la apertura",
+      "Visita al sitio: ocupacion (mailing = predio) y estado",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota (hcdistrictclerk.com login / PACER): hoy BLOQUEADO",
+      "Estado de cuenta de impuestos actualizado el dia antes de pujar y apertura final confirmada con el condado",
+      "Revision de abogado (attorney review recommended) sobre redencion, quiet title y gravamenes que sobreviven; busqueda de titulo por descripcion legal, con imagenes"
     ]
   },
   "title": {

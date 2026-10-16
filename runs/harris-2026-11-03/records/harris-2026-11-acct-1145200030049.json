@@ -442,16 +442,23 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $318,662 >= cierre esperado $215,168. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa en ~1 acre (HCAD $424,394) con apertura de $13,925 (3.3% del valor) y sentencia 06/30/2025 por anos 2022-2024: el spread teorico es enorme, pero justo por eso es probable que el dueno (ocupante, direccion postal = predio, 20 anios de propiedad) pague/redima o impugne, y la ventana TRCP 329 sigue abierta hasta 2027-06-30 si hubo citacion por publicacion. El indice del Clerk no trae filas que coincidan con 'LT 48 Cypress Fields Sec 3' (solo Tract 47, otra descripcion), asi que el titulo del lote esta sin revisar. Techo $318,662 es teorico (reventa al valor HCAD); con 25% de descuento por condicion quedaria ~$236k, aun muy por encima de cualquier cierre plausible. Fuera de la estrategia de lotes; legal bloqueado; attorney review recommended.",
     "bid_ceiling": 318662.31,
     "all_in_cost_estimate": 232915.81,
-    "contradictions": [],
+    "contradictions": [
+      "Indice Clerk: W/D RP-2018-404603 (Raines a Zeringue Daryl Wayne, 2018) y NOTICE RP-2018-404604 describen 'Tract 47', no 'LT 48': o es un predio vecino o hay discrepancia en la descripcion legal; si la escritura cubre parte de este lote, el dueno HCAD/condado (Raines desde 2005) no seria el dueno real. Sin resolver.",
+      "taxes_in_judgment [2022,2023,2024] vs estado de cuenta que lista 2023, 2024 y 2025 (sin 2022): 2022 aparece pagado o fuera; el tail $7,293 mezcla 2025 post-judgment $4,059 con proxy 2026 $3,234.",
+      "Lote HCAD 43,560 sf vs GIS 41,603 sf (-4.5%); building_sqft 2,272 vs hcad_buildings 2,412 sf.",
+      "Apertura $13,925 es 3.3% del valor HCAD y apenas 6% mayor que el total adeudado $13,118: ratio de cierre 50.7% da $215k de 'puja esperada', irreal frente a premium-sobre-apertura $15,150; all_in $232,916 no es un precio creible.",
+      "Valor del condado $417,926 vs HCAD $424,394 (1.5%): consistente; ninguna otra incongruencia de flood (zona X 100%, sin floodway)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer en el Clerk por descripcion legal (Cypress Fields Sec 3 Lt 48) y aclarar la relacion con 'Tract 47' (RP-2018-404603/404604) y buscar liens hipotecarios/HOA con imagen",
+      "Confirmar ocupacion y si es residencia del dueno (plazo de redencion) y estado interior (visita; casa 1982)",
+      "Confirmar que 2022 ya esta pagado y el monto exacto de los anos de la sentencia (tail $7,293 es estimado)",
+      "Presupuestar descuento de valor HCAD de 20-30% y mantener la puja muy por debajo del techo teorico",
+      "Pedir estado de cuenta de impuestos actualizado de TODAS las jurisdicciones antes de pujar y confirmar que la propiedad sigue en la lista (puede ser retirada si el dueno paga)",
+      "Leer demandados y metodo de citacion del cause en hcdistrictclerk.com y bancarrota en PACER (bloqueado); attorney review recommended"
     ]
   },
   "title": {

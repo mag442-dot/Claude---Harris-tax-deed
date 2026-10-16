@@ -496,16 +496,24 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $77,413 >= cierre esperado $56,850. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de 862 sf de 1949 (HCAD $112,130) cuya apertura de $30,410 es 5x el total adeudado en el condado ($5,968) y 27% del valor: algo grande (costas de un cause 2019, otras jurisdicciones o sentencia) esta incluido y no esta explicado. A favor: la sentencia es de 07/10/2023, asi que la ventana TRCP 329 cerro el 2025-07-10. Con un descuento de 30% por edad/condicion el techo bajaria de $77,413 a ~$51k, por debajo del cierre esperado por ratio ($56,850), aunque cerca de apertura+8.8% ($33k) si dejaria margen. El dueno es un land trust (SH AND LVP LANDTRUST, apoderado desconocido) y el indice del Clerk volvio vacio, lo cual es evidencia delgada, no limpieza. Fuera de la estrategia de lotes; attorney review recommended.",
     "bid_ceiling": 77413.48,
     "all_in_cost_estimate": 68523.53,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $30,410 vs total adeudado $5,968 (5.1x): sin explicacion; taxes_in_judgment y tail son unknown (cota superior $5,968 puede ser muy baja si la sentencia incluye honorarios/costas o cuentas de otras jurisdicciones).",
+      "El suit (cause 201955989, 2019) es anterior a las escrituras HCAD 2020-09-21 y 2021-08-03: el dueno actual (land trust desde 2021) puede no haber sido demandado nombrado; el county muestra al trust como dueno hoy. Defecto de parte/citacion posible: requiere leer demandados.",
+      "Estado de cuenta lista 2018-2023 y 2025 pero no 2024: 2024 pagado o fuera; confirmar. Tail con 2025 ($1,045) y proxy 2026 ($844) deberia sumarse pero buyer_tax_tail es unknown.",
+      "Indice del Clerk vacio (0 filas) para un dueno con 2 escrituras en 2020-2021: la busqueda por nombre 'SH AND LVP LANDTRUST' no atrapa el nombre real del trustee ni liens; 'sin gravamenes' no es una conclusion. Marcado inferred correctamente.",
+      "Lote HCAD 9,424 sf vs GIS 9,781 sf (+3.8%); valor del condado $118,204 vs HCAD $112,130 (5%): menor; no relevante."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Explicar por que la apertura ($30,410) es 5x lo adeudado: pedir el desglose de la sentencia/costas al abogado del condado (Linebarger/Perdue)",
+      "Identificar al trustee/beneficiario del land trust y leer demandados y citacion del cause 201955989 (login); verificar que el titular 2021 fue citado",
+      "Busqueda en el Clerk por descripcion legal (Highland Park Lt 36 Blk 2) con imagen: liens, HOA, municipal",
+      "Presupuestar descuento de valor HCAD 30% (casa de 862 sf, 1949) y exigir que la puja total quede en o bajo ~$51k",
+      "Confirmar ocupacion/estado en visita",
+      "Pedir estado de cuenta de impuestos actualizado de TODAS las jurisdicciones antes de pujar y confirmar que la propiedad sigue en la lista (puede ser retirada si el dueno paga)",
+      "Leer demandados y metodo de citacion del cause en hcdistrictclerk.com y bancarrota en PACER (bloqueado); attorney review recommended"
     ]
   }
 }

@@ -341,6 +341,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de HSU SHU F (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisar con imagen RP-2023-390067 / RP-2022-516483 / cesiones FNA VII y explicar apertura de $179k (gravamenes de transferencia de impuestos)",
+      "why": "requiere lectura de imagenes/expediente y abogado; fuera del alcance de la revision modo barato"
     }
   ],
   "valuation": {
@@ -433,17 +438,24 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $270,861 >= cierre esperado $194,811. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien de mecanico. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Casa de $355k HCAD (1 acre, Kingwood) con apertura de $179,054, 27 veces la deuda de impuestos ($6,445): no esta explicado que incluye esa apertura (posible pago de gravamenes transferidos u otros conceptos) y el cierre esperado ($194.8k) ya es ~55% del valor HCAD. El indice de la parcela muestra cesiones de gravamenes de impuestos (CC2 TX 2022, FNA VII 2023-2024) y un REVOC en 2023 que revoca una liberacion: posible gravamen de transferencia sin precio en el modelo. Con 20% de recorte el techo baja a ~$216k y con 30% a ~$188k, por debajo del cierre esperado. Correo = direccion del predio, asi que probablemente esta ocupada por el dueno (redencion posible de 2 anios si califica como residencia). Attorney review recommended.",
     "bid_ceiling": 270861.37,
     "all_in_cost_estimate": 205812.32,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $179,054 vs deuda total de impuestos $6,444.52 (27x): origen de la diferencia sin explicar; el modelo asume que se compra libre de gravamenes.",
+      "Gravamenes: all_in_costs dice 'NO CUANTIFICADO' pero el indice (Lot 2 Blk 9 Forest Cove) tiene ASSGN/CONT a FNA VII LLC (2023, 2024), CC2 TX (2022), FNA DZ (2018) y un REVOC 10/11/2023 sobre un REL de 2022; si FNA VII financio impuestos 2022-2023 que no estan en la sentencia (solo 2024-2025), podrian sobrevivir.",
+      "HCAD sin exencion homestead, pero correo = direccion del predio y dueno desde 2014: la nota de 'redencion corta' es optimista si es residencia del dueno (Tax Code 34.21 depende del uso, no de la exencion en el roll).",
+      "Nombres: HCAD 'HSU SHU F'; el indice usa HSU SHU GRACE / SHUFANG / SHU FANG; busqueda por nombre 'HSU SHU' trae ruido (otras parcelas, condominios): solo las filas FOREST COVE Lot 2 Blk 9 pertenecen.",
+      "Modelo asume reventa al 100% del valor HCAD sin comps (margen 72.6% teorico); optimista para casa de 1976."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Averiguar que incluye la apertura de $179,054 (desglose de la sentencia / aviso de venta) antes de cualquier puja",
+      "Leer con imagen RP-2023-390067 (REVOC), RP-2022-516483 (REL) y las cesiones FNA VII 2023/2024 y CC2 2022: confirmar si hay gravamen de transferencia vigente que sobreviva",
+      "Visita al sitio: ocupacion (probable ocupante-dueno) y estado; estimar rehab y aplicar recorte 20-30% al valor",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota (hcdistrictclerk.com login / PACER): hoy BLOQUEADO",
+      "Estado de cuenta de impuestos actualizado el dia antes de pujar y apertura final confirmada con el condado",
+      "Revision de abogado (attorney review recommended) sobre redencion, quiet title y gravamenes que sobreviven; busqueda de titulo por descripcion legal, con imagenes"
     ]
   },
   "title": {

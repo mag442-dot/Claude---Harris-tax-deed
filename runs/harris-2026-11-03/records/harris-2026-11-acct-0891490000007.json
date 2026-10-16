@@ -348,6 +348,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de BETANCOURT-CHAVEZ ALMA R & JESUS A (0.50 en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Confirmar que PESINA-HERNANDEZ SERGIO fue citado en la causa 202518242 y leer RP-2023-316210",
+      "why": "requiere lectura de imagenes/expediente y abogado; fuera del alcance de la revision modo barato"
     }
   ],
   "valuation": {
@@ -441,16 +446,23 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $92,614 >= cierre esperado $65,592. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa barata de 1962 ($129k HCAD) con apertura $11.3k y cola de impuestos razonable ($4.1k, 2025 post-sentencia + ano corriente); el cierre esperado $65.6k deja techo de $72.5k incluso con recorte de 20% (30%: $62.5k, ya por debajo). El unico hallazgo de titulo es un REL 2023 de SWE Contractors (liberacion de gravamen de contratista) a los tres duenos; lo relevante es que Pesina-Hernandez aparece como dueno desde 2023 mientras HCAD dice desde 2013, y legal esta bloqueado. Es casa, fuera de la estrategia de lotes. Attorney review recommended.",
     "bid_ceiling": 92614.42,
     "all_in_cost_estimate": 75665.42,
-    "contradictions": [],
+    "contradictions": [
+      "hcad_owner_since 03/29/2013 vs RP-2023-316210 (08/18/2023) que nombra a PESINA-HERNANDEZ SERGIO como grantee junto con los Betancourt: transferencia posterior no reflejada en HCAD o error de fecha; verificar que el 0.5% de Pesina esta en la demanda.",
+      "El REL 2023 es una liberacion vista solo en indice (inferred): no prueba que el gravamen de contratista de SWE se extinguio; en una casa de 1962 sugiere obra reciente (estado/ocupacion).",
+      "HCAD $129,373 vs condado $135,182 (+4.5%): diferencia de anio de valuacion, sin importancia; building 1,203 vs 1,251 sqft menor; lote HCAD 6,664 vs GIS 6,789 ok.",
+      "Nota de redencion 'corta' pero correo = predio, dueno desde 2013: posible residencia con redencion de 2 anios.",
+      "Cola de impuestos $4,105.55 (2025 post-sentencia $2,410 + proxy $1,695) correcta frente a all_in_costs; sentencia 11/2025 deja TRCP 329 abierto hasta 2027-11-07."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer RP-2023-316210 con imagen y confirmar que libera el gravamen; busqueda de titulo por legal (Eastex Oaks Village Sec 1 Lt 7 Blk 6)",
+      "Confirmar citacion de los tres propietarios (incluido Pesina-Hernandez Sergio) en cause 202518242",
+      "Visita al sitio: ocupacion; presupuestar rehab y aplicar recorte 20-30%",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota (hcdistrictclerk.com login / PACER): hoy BLOQUEADO",
+      "Estado de cuenta de impuestos actualizado el dia antes de pujar y apertura final confirmada con el condado",
+      "Revision de abogado (attorney review recommended) sobre redencion, quiet title y gravamenes que sobreviven; busqueda de titulo por descripcion legal, con imagenes"
     ]
   },
   "title": {

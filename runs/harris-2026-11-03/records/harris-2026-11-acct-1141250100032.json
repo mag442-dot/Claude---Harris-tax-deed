@@ -349,6 +349,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de KLEIN RICHARD A (0.5000%); DAVIS LINDA L en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Confirmar identidad del deudor del T/L IRS RP-2018-165811 y citacion de herederos de DAVIS LINDA L",
+      "why": "requiere lectura de imagenes/expediente y abogado; fuera del alcance de la revision modo barato"
     }
   ],
   "valuation": {
@@ -441,17 +446,26 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $183,287 >= cierre esperado $123,489. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Indice del Clerk (misma subdivision): lien de mecanico. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Casa de $243.6k HCAD con apertura de $35.7k (4x la deuda de $9.1k) y un copropietario fallecido (DAVIS LINDA L ESTATE OF 50%): los herederos pueden no haber sido citados correctamente y el riesgo de TRCP 329 sigue abierto hasta 2028-05-13. El indice por nombre muestra un T/L del IRS (RP-2018-165811, 'KLEIN RICHARD A' como deudor) posterior al REL de 2016; si es el mismo dueno, un gravamen federal puede sobrevivir una venta donde el IRS no fue demandado, y no esta en el modelo. Con recorte de 20-30% el techo es ~$145k-$127k, por debajo del cierre esperado de $123.5k solo en el extremo; el margen teorico de 82.8% no es creible. Attorney review recommended.",
     "bid_ceiling": 183286.64,
     "all_in_cost_estimate": 133264.12,
-    "contradictions": [],
+    "contradictions": [
+      "all_in_costs dice liens 'NO CUANTIFICADO' pero el indice tiene T/L IRS 2018 contra KLEIN RICHARD A (identidad sin confirmar; el mismo nombre aparece como dueno de la parcela) que no esta en el costo.",
+      "Apertura $35,728 vs deuda $9,135 (3.9x) sin explicar.",
+      "Dueno incluye una sucesion (ESTATE OF) pero hcad_owner_since 2010 y ultimo deed 1993: no hay evidencia de transferencia de la parte de la sucesion; demandados bloqueados, posible defecto de citacion a herederos.",
+      "Cesiones de gravamenes de impuestos a TAX EASE FUNDING (2016) y CAZ CREEK TX (2019) sobre Lot 32 Blk 10: pagados presumiblemente, pero no hay liberacion visible (solo indice).",
+      "Las filas CHAMPIONS PLACE, GARDEN OAKS, BRIAR HOLLOW, SHAVER PLACE (KLEIN RICHARD W/P/E) no son de esta parcela: ruido de busqueda por nombre.",
+      "Correo en Pearland (no es el predio): probable inquilino o vacia, ocupacion no verificada."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer con imagen el T/L IRS RP-2018-165811 y confirmar si es la misma persona (SSN/direccion); buscar liberacion o certificado de descargo; verificar si el IRS fue parte de la demanda",
+      "Confirmar que los herederos de DAVIS LINDA L fueron citados (demandados/citacion en hcdistrictclerk.com)",
+      "Confirmar liberacion de cesiones Tax Ease 2016 / Caz Creek 2019 y explicar la apertura de $35.7k",
+      "Visita al sitio: ocupacion (posible inquilino) y estado",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota (hcdistrictclerk.com login / PACER): hoy BLOQUEADO",
+      "Estado de cuenta de impuestos actualizado el dia antes de pujar y apertura final confirmada con el condado",
+      "Revision de abogado (attorney review recommended) sobre redencion, quiet title y gravamenes que sobreviven; busqueda de titulo por descripcion legal, con imagenes"
     ]
   },
   "title": {

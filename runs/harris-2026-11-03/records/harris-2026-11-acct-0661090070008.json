@@ -390,6 +390,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de SABILLON JESSE E & MARY A (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Explicar el retraso 2022-2025 de la causa 202241264 (posible bancarrota) y busqueda de titulo por descripcion legal",
+      "why": "requiere lectura de imagenes/expediente y abogado; fuera del alcance de la revision modo barato"
     }
   ],
   "valuation": {
@@ -483,16 +488,24 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $134,171 >= cierre esperado $97,139. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "La mejor encaje con la estrategia del lote: dos lotes (Lts 7 y 8, 14,880 sqft) en City of Houston, zona X, con una casa de 942-1,014 sqft de 1960 que se puede juzgar como terreno de dúplex (demolicion) o reventa; apertura $14.2k vs valor $191.6k. Sin embargo la causa 202241264 es de 2022 y la sentencia de 04/09/2025: tres anios de retraso sugieren abatimiento por bancarrota u otro obstaculo, y todo el bloque legal esta bloqueado. Las filas de titulo (INWOOD NORTH) no son de esta parcela, asi que el titulo es desconocido, no limpio. Con recorte de 30% el techo (~$90k) queda debajo del cierre esperado ($97k): puja con disciplina. Attorney review recommended.",
     "bid_ceiling": 134171.18,
     "all_in_cost_estimate": 115133.83,
-    "contradictions": [],
+    "contradictions": [
+      "taxes_in_judgment y buyer_tax_tail_estimate desconocidos: el modelo uso los $11,080 de todos los anos; si la sentencia (04/2025) cubre 2022-2024, la cola real seria ~$5.3k (2025 + ano corriente), es decir el costo esta sobreestimado ~$5.8k. Conservador, pero sin verificar.",
+      "Cause 202241264 (2022) vs judgment_date 04/09/2025: lapso de ~3 anios sin explicar; posible bancarrota/abatimiento (PACER bloqueado).",
+      "Superficie construida: 942 sqft (building_sqft) vs 1,014 sqft (hcad_buildings): HCAD inconsistente; lote HCAD 14,880 vs GIS 14,834 consistente.",
+      "HCAD $191,596 (2026) vs condado $182,746: diferencia de ano de valuacion, no contradiccion real.",
+      "Title: las 4 filas son INWOOD NORTH Lot 8 Blk 7, no HIGHLAND GARDENS; ninguna pertenece a la parcela, asi que 'sin gravamenes' es ausencia de evidencia.",
+      "Correo = predio, dueno desde 2003, sin exencion en roll: la nota de redencion 'corta' puede ser optimista si es residencia."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Confirmar anos incluidos en la sentencia (cause 202241264) y por que tardo hasta 2025; buscar bancarrota en PACER",
+      "Busqueda de titulo por descripcion legal (Highland Gardens Sec 2 Lts 7-8 Blk 7): liens, HOA, restricciones",
+      "Verificar con la Ciudad de Houston lote combinado / permisos de dúplex y minimo de lote; visita al sitio: ocupacion y estado de la casa",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota (hcdistrictclerk.com login / PACER): hoy BLOQUEADO",
+      "Estado de cuenta de impuestos actualizado el dia antes de pujar y apertura final confirmada con el condado",
+      "Revision de abogado (attorney review recommended) sobre redencion, quiet title y gravamenes que sobreviven; busqueda de titulo por descripcion legal, con imagenes"
     ]
   }
 }

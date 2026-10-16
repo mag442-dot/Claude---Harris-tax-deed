@@ -461,17 +461,24 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $154,942 >= cierre esperado $105,295. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Indice del Clerk (misma subdivision): lis pendens. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Casa (fuera de la estrategia de lotes) con apertura de solo $8,679 (4.2% del valor HCAD $207,682) y deuda actual de apenas $2,555 en el condado: el dueno puede pagar y sacarla de la lista con facilidad, y la direccion postal es la del predio (ocupada por el dueno, posible plazo de redencion largo si es residencia). El indice del Clerk muestra un lis pendens (2025) y un abstract of judgment (09/2026) de la HOA Heritage Village contra los mismos nombres y lote 119 blk 4: gravamenes sin precio y posible ejecucion paralela de la HOA. El techo $154,942 supone reventa al valor HCAD sin comps ni inspeccion; con 25% de descuento por condicion/ocupacion seria ~$115k. Legal bloqueado; attorney review recommended.",
     "bid_ceiling": 154942.11,
     "all_in_cost_estimate": 115008.84,
-    "contradictions": [],
+    "contradictions": [
+      "HCAD building_sqft 1760 vs hcad_buildings 'Residential 2536sf': dos areas distintas en el mismo registro; el valor de $207,682 depende de cual sea la real.",
+      "Opening bid $8,679 vs total adeudado $2,555 (3.4x): la apertura incluye algo que el estado de cuenta no muestra (anos de la sentencia ya pagados, costas, honorarios); taxes_in_judgment es unknown y tail desconocido. Un cause 2025 con sentencia 05/2026 y solo 2025 pendiente sugiere que los anos de la sentencia ya se pagaron: riesgo de retiro de la venta.",
+      "Indice Clerk: A/J (RP-2026-358896, 09/02/2026, posterior a la sentencia del 05/06/2026) y L/P (RP-2025-222373, desc. lote 119 blk 4) de la HOA contra los demandados vs costo del modelo 'liens_que_sobreviven' sin cuantificar; la HOA no parece parte de la demanda fiscal. Match por nombre, solo indice.",
+      "Lote HCAD 6,000 sf vs GIS 5,556 sf (-7%); valor del condado $229,085 (2025) vs HCAD 2026 $207,682 (-9%): el valor de reventa esta inflado respecto al anio anterior.",
+      "Modelo: cierre esperado $105,295 (50.7% del valor) vs premium-sobre-apertura $9,443: el ratio de lotes no aplica a una casa con apertura de 4% del valor; all_in $115,009 no es un precio realista."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Pedir payoff/estado de cuenta: confirmar que sigue adeudado mas que $2,555 y que la apertura de $8,679 no sera retirada",
+      "Leer imagenes RP-2025-222373 (L/P) y RP-2026-358896 (A/J) de la HOA: si hay demanda de ejecucion y si el lien sobrevive la venta fiscal (attorney review)",
+      "Confirmar ocupacion y si es residencia homestead del dueno (plazo de redencion; HCAD no muestra exencion pero la direccion postal es la del predio)",
+      "Aclarar 1,760 vs 2,536 sf con HCAD y inspeccion exterior",
+      "Pedir estado de cuenta de impuestos actualizado de TODAS las jurisdicciones antes de pujar y confirmar que la propiedad sigue en la lista (puede ser retirada si el dueno paga)",
+      "Leer demandados y metodo de citacion del cause en hcdistrictclerk.com y bancarrota en PACER (bloqueado); attorney review recommended"
     ]
   }
 }

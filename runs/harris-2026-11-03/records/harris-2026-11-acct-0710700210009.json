@@ -529,17 +529,24 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $81,035 >= cierre esperado $58,830. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "La sentencia (11/05/2025, anos 2018-2024) es contra Christ Missionary Baptist Church, pero AGCAT Realty LLC compro (W/D RP-2026-103802, 03/19/2026, lotes 9-10 blk 12 Triangle Gardens) despues de la sentencia: un inversionista que sabe de la deuda y puede redimir o pagar hasta la venta, y que no es parte ni dueno con el que se negocia el titulo. Segundo hecho: el dueno anterior era una iglesia (posible exencion religiosa histórica, posible defecto en la demanda) y la escritura incluye el lote 10 aunque la venta es solo del lote 9. Con 30% de descuento por casa de 1970 el techo bajaria de $81,035 a ~$54k contra cierre por ratio de $58,830 y apertura $25,008. Fuera de la estrategia; attorney review recommended.",
     "bid_ceiling": 81034.65,
     "all_in_cost_estimate": 69958.27,
-    "contradictions": [],
+    "contradictions": [
+      "County assessed_owner 'CHRIST MISSIONARY BAPTIST CHURCH' vs HCAD AGCAT REALTY LLC (owner_since 03/06/2026, escritura grabada 03/19/2026): la transferencia es posterior a la sentencia (11/05/2025) pero el comprador no esta nombrado: derecho de redencion y de impugnar via TRCP 329 de un sucesor; detalle de citacion bloqueado.",
+      "W/D abarca 'Lot 9-10 Blk 12' vs HCAD legal solo 'LT 9 BLK 12': el lote 10 no esta en la venta; confirmar que la cuenta 0710700210009 es solo el lote 9 y que no hay otra cuenta.",
+      "HCAD owner_since 03/06/2026 vs fecha de grabacion 03/19/2026 de la escritura: 13 dias de diferencia (fecha de firma vs registro, probable).",
+      "Apertura $25,008 vs total adeudado $21,352: la apertura es mayor ($3,656 de costas probable); tail $5,363 = 2025 + proxy 2026, hecho segun taxes_in_judgment 2018-2024 verified.",
+      "Valor del condado $106,015 vs HCAD $116,036 (-9%): sin explicacion; mailing de AGCAT es PO Box San Antonio (no ocupada por dueno). Ciudad de Houston: posibles liens municipales no consultados."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer imagen de RP-2026-103802 (vesting, limites del lote 9) y buscar liens por descripcion legal Triangle Gardens Sec 4 Lt 9 Blk 12 (municipales, HOA)",
+      "Leer demandados/citacion del cause 202151949 (login): si la iglesia fue citada por publicacion y si habia exencion de iglesia en alguno de los anos 2018-2024",
+      "Verificar si AGCAT redimio/pago (vigilar lista en T-7 y T-1)",
+      "Descuento de valor HCAD 30%; maximo realista ~$54k todo incluido",
+      "Pedir estado de cuenta de impuestos actualizado de TODAS las jurisdicciones antes de pujar y confirmar que la propiedad sigue en la lista (puede ser retirada si el dueno paga)",
+      "Leer demandados y metodo de citacion del cause en hcdistrictclerk.com y bancarrota en PACER (bloqueado); attorney review recommended"
     ]
   }
 }

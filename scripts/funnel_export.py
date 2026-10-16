@@ -53,7 +53,12 @@ def main(argv):
             sub = {"DESCARTADA": "DESCARTADA: predio en floodway", "BAJA": "BAJA: techo teorico menor que la apertura",
                    "NO PARA DUPLEX": "NO PARA DUPLEX: lote chico (<4,000 sqft) o mayormente en zona de inundacion especial"}[dec]
         elif dec == "VIGILAR":
-            stage, sub = "3 Filtro automatico", "EN ESPERA: falta apertura publicada o estado de cuenta de impuestos"
+            miss = []
+            if not (cand.get(acct, {}).get("opening_bid") or ""):
+                miss.append("apertura publicada")
+            if "delinquent_by_year" not in (rec.get("tax") or {}):
+                miss.append("estado de cuenta de impuestos")
+            stage, sub = "3 Filtro automatico", "EN ESPERA: falta " + (" y ".join(miss) if miss else "revisar el motivo en la columna motivo")
         elif dec in ("CONDICIONAL", "SOLO CERCA DE LA APERTURA"):
             stage = "4 Paso filtros, sin revision de agente"
             sub = ("lote que paso pero no entro a la lista corta" if lot else "casa: no revisada (la revision de agentes se hizo solo en lotes vacios, que es tu estrategia)")

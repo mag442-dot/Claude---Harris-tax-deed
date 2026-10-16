@@ -23,6 +23,9 @@ Miguel (inversionista, bilingüe EN/ES). Estrategia: lotes baldíos en Harris Co
 - Cada agente toca solo su sección. Solo el revisor escribe `review`.
 - No inventes números de instrumento, saldos ni cause numbers. Si no lo encontraste: `unknown`.
 - Usa scripts en `scripts/` para validar y consolidar; no armes el CSV a mano.
+- **Homestead SIEMPRE excluido** (decisión de Miguel, para no gastar): las cuentas con exención de vivienda en el roll de HCAD se listan pero no se analizan ni se revisan con agentes. No las incluyas aunque sea más completo.
+- **Revisión de agentes en modo barato**: el `reviewer` lee el registro tal como está (sin agente `title` ni búsquedas nuevas) salvo que Miguel pida la versión profunda. No se auditan los descartes automáticos (BAJA, floodway, no dúplex).
+- **Control de cobertura**: al terminar corre `python3 scripts/funnel_export.py runs/<sale_id>` y `python3 scripts/coverage_check.py runs/<sale_id>`. Ninguna propiedad puede quedar en "pasó el filtro sin revisión" ni sin estado; las que faltan un dato se muestran como "EN ESPERA: falta <dato>".
 
 ## Entrega a Drive (siempre al terminar una venta)
 Miguel quiere ver el resultado como **Google Sheet en su Drive**, no solo en el repo. Hay dos vías; usa la primera si está disponible.

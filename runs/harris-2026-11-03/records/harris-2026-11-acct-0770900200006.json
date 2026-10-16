@@ -627,17 +627,25 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $99,317 >= cierre esperado $74,913. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "El condado demanda a 'TELSEE LOUISE ET AL' (sentencia 06/29/2026), pero el Clerk muestra que Flow Property Group LLC compro el lote a Telsee y a los demas herederos en febrero 2026 (RP-2026-49007, 47799, 47789, 47747, 47739, 47719, lote 6 blk 15 La Salette Place), antes de la sentencia y quiza antes de la demanda (cause 202623988): si Flow no fue demandado/citado, la sentencia no lo obliga y habria riesgo de nulidad o redencion. Segundo hecho: el titulo viene de varios herederos individuales (posible herencia sin probate) y Flow es un mayorista activo que revende o paga rapido. Con un descuento de 30% por casa de 1940 el techo bajaria de $99,317 a ~$65k, por debajo del cierre por ratio ($74,913). Fuera de la estrategia; attorney review recommended antes de cualquier puja.",
     "bid_ceiling": 99317.45,
     "all_in_cost_estimate": 93068.81,
-    "contradictions": [],
+    "contradictions": [
+      "assessed_owner_county 'TELSEE LOUISE ET AL' vs HCAD owner Flow Property Group LLC: transferencia ANTES de la sentencia y posible defecto de parte (hay que ver fecha de la demanda y si Flow o los herederos fueron citados).",
+      "hcad_owner_since 01/18/2026 vs fechas de recording de las escrituras Telsee-Flow (02/09-02/10/2026): la fecha HCAD es anterior a las escrituras indexadas; hay un instrumento mas temprano o una fecha mal.",
+      "Seis escrituras de herederos individuales (Telsee Louise, Terry, Johnny Lee Jr; Roy Meshia; Jones Gloria; Swamber Gidget) sugieren heirship no formalizado; el condado nombra 'ET AL': tipo de demandados desconocido.",
+      "Total adeudado $11,909 > apertura $9,714: la apertura no incluye todo el estado de cuenta (probable que 2025 post-judgment quede como tail); taxes_in_judgment y tail son unknown, el modelo toma $11,909 como cota superior.",
+      "Flow tiene un DEED de 08/04/2026 a Harris County en otro lote (Scott Terrance sec 4 lt 7 blk 14) con otros grantors (ejecucion fiscal): patron de actividad contra el mismo condado; no vincula este lote pero indica contacto. Match por nombre, solo indice.",
+      "Ciudad de Houston; mailing de Flow es oficina virtual (Austin): sin ocupacion conocida. Techo $99,317 vs all_in $93,069 deja solo ~7% de holgura aun con valor HCAD intacto."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer demandados/fecha de demanda/citacion del cause 202623988 (login): confirmar que Flow Property Group LLC o los herederos fueron partes y citados",
+      "Leer imagenes de las escrituras 2026 (vesting, fecha, quien firmo) y buscar por descripcion legal La Salette Place Sec 4 Lt 6 Blk 15",
+      "Confirmar si Flow pago/redimio o puede hacerlo antes de la venta (vigilar retirada en T-7 y T-1)",
+      "Descuento de valor HCAD 30% (casa de 1940, 1,016 sf): puja maxima realista ~$65k",
+      "Pedir estado de cuenta de impuestos actualizado de TODAS las jurisdicciones antes de pujar y confirmar que la propiedad sigue en la lista (puede ser retirada si el dueno paga)",
+      "Leer demandados y metodo de citacion del cause en hcdistrictclerk.com y bancarrota en PACER (bloqueado); attorney review recommended"
     ]
   }
 }
