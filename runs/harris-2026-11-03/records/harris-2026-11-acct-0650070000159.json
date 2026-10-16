@@ -352,14 +352,14 @@
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0650070000159",
-      "retrieved_at": "2026-10-13",
-      "note": "statement as of 10/13/2026"
+      "retrieved_at": "2026-10-16",
+      "note": "statement as of 10/15/2026"
     },
     "total_due_all_years": {
       "value": 11010.09,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0650070000159",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-16"
     },
     "taxes_in_judgment": {
       "value": [
@@ -381,40 +381,40 @@
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0650070000159",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-16",
       "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
       "value": 3357.64,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0650070000159",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-16"
     },
     "current_year_estimate": {
       "value": 379.36,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0650070000159",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-16",
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
       "value": 3737.0,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0650070000159",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-16",
       "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
     },
     "assessed_owner_county": {
-      "value": "POLK ELIZABETH STARKEY 20237 MONDAY HARGROVE RD NEW CANEY TX 77357 2105 FIRNAT ST .125 U/D INT IN LT 133 BLK J (.6917 AC) ARCHER ACRES SEC 3",
+      "value": null,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0650070000159",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-16"
     },
     "appraised_value_county": {
-      "value": 17850.0,
+      "value": null,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0650070000159",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-16"
     }
   },
   "title": {

@@ -226,14 +226,14 @@
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0410160000171",
-      "retrieved_at": "2026-10-13",
-      "note": "statement as of 10/13/2026"
+      "retrieved_at": "2026-10-16",
+      "note": "statement as of 10/15/2026"
     },
     "total_due_all_years": {
       "value": 4489.88,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0410160000171",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-16"
     },
     "taxes_in_judgment": {
       "value": [
@@ -245,40 +245,40 @@
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0410160000171",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-16",
       "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
       "value": 2373.65,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0410160000171",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-16"
     },
     "current_year_estimate": {
       "value": 1012.69,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0410160000171",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-16",
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
       "value": 3386.34,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0410160000171",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-16",
       "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
     },
     "assessed_owner_county": {
-      "value": "MURPHY RONALD T 1235 FOLEY RD CROSBY TX 77532 1103 FOLEY RD TR 11C-1 ABST 60 A REEVES",
+      "value": null,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0410160000171",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-16"
     },
     "appraised_value_county": {
-      "value": 143637.0,
+      "value": null,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0410160000171",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-16"
     }
   },
   "title": {
