@@ -31,6 +31,9 @@ Miguel quiere ver el resultado como **Google Sheet en su Drive**, no solo en el 
 1. Si existen las variables de entorno `SHEET_WEBHOOK_URL` y `SHEET_WEBHOOK_TOKEN` (configuración en `apps_script/README.md`), corre:
    `python3 scripts/push_to_sheet.py runs/<sale_id>`
    (reconstruye `analisis.csv` y `analisis_sheet.csv` y reemplaza la pestaña `Analisis`; agrega `--include-homestead` a `build_analysis.py` solo si Miguel lo pide).
+   Después arma y sube la hoja resumen (solo lo que PASÓ la revisión independiente, decisión CONDICIONAL):
+   `python3 scripts/summary_export.py runs/<sale_id>` y `python3 scripts/push_to_sheet.py runs/<sale_id> --file resumen_sheet.csv --tab Resumen --no-build`
+   (con `--all-reviewed` en `summary_export.py` incluye también las que no pasaron, marcadas NO). Si un agente `reviewer` no ha leído nada aún, la pestaña `Resumen` queda vacía: dilo.
 2. Debe imprimir `OK: N filas escritas`. Si falla, reporta el error exacto (token, red, `script.google.com` sin permitir) y pasa a la vía B.
 3. Dile a Miguel que el resultado está en su Sheet (pestaña `Analisis`) y entrega el resumen.
 
