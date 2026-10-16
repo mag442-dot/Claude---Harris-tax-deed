@@ -34,6 +34,8 @@ Miguel quiere ver el resultado como **Google Sheet en su Drive**, no solo en el 
    Después arma y sube la hoja resumen (solo lo que PASÓ la revisión independiente, decisión CONDICIONAL):
    `python3 scripts/summary_export.py runs/<sale_id>` y `python3 scripts/push_to_sheet.py runs/<sale_id> --file resumen_sheet.csv --tab Resumen --no-build`
    (con `--all-reviewed` en `summary_export.py` incluye también las que no pasaron, marcadas NO). Si un agente `reviewer` no ha leído nada aún, la pestaña `Resumen` queda vacía: dilo.
+   Y el embudo completo (en qué etapa quedó cada propiedad de la lista oficial): `python3 scripts/funnel_export.py runs/<sale_id>` y dos cargas con `--no-build`:
+   `--file embudo_resumen_sheet.csv --tab Embudo_resumen` y `--file embudo_sheet.csv --tab Embudo`. "No revisada" nunca se presenta como "descartada".
 2. Debe imprimir `OK: N filas escritas`. Si falla, reporta el error exacto (token, red, `script.google.com` sin permitir) y pasa a la vía B.
 3. Dile a Miguel que el resultado está en su Sheet (pestaña `Analisis`) y entrega el resumen.
 
