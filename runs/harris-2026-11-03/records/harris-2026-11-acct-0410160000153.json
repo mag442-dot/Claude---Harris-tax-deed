@@ -421,6 +421,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de MURPHY RONALD T (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Pedir payoff actualizado de la sentencia 202375655 y explicar por que la apertura $12,902 > total adeudado $5,109",
+      "why": "requiere abogado/consulta con imagenes; revision independiente"
     }
   ],
   "valuation": {
@@ -514,16 +519,22 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $132,953 >= cierre esperado $92,285. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de 1962 en 0.99 acre fuera de ciudad (Crosby): esta fuera de la estrategia de lotes baldios, se juzga como reventa/rehab. Hecho 1: el techo $132,953 supone reventa al valor HCAD ($182,021) sin condicion ni comps; con un descuento de 30% el techo baja a ~$90,500, igual al cierre esperado ($92,285), es decir margen casi cero. Hecho 2: la cadena de titulo pasa por un fideicomiso familiar y una sucesion (Mildred Murphy EST) y la apertura ($12,902) es mayor que el total adeudado hoy ($5,109), lo que indica una sentencia con costos o un saldo ya pagado en parte. Legal bloqueado, no puede ser COMPRA FUERTE; attorney review recommended.",
     "bid_ceiling": 132952.67,
     "all_in_cost_estimate": 103728.74,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $12,901.91 > total adeudado hoy $5,109.45, y los anios 2020-2021 de la sentencia ya no aparecen en el estado de cuenta (posible pago parcial/saldo de sentencia desactualizado)",
+      "hcad_owner_since 08/25/2015 vs instrumento 2017-RP-2017-18356 (CORREC registrado 01/13/2017): fecha y cadena no cuadran; en la cadena figuran Murphy Family Trust y la sucesion de Mildred E. Murphy (fallecida)",
+      "Filas del Clerk solo coinciden por 'Abstract 60' (nivel abstracto, otros tramos de 87, 11.675 y 5.92 acres, no 0.99 acre); solo RP-2017-18356 es plausible para el tramo 11C; la NOTICE 2024 (RP-2024-455629) nombra a Tanya Murphy, posible co-propietaria no listada en HCAD/demanda",
+      "Techo $132,953 optimista: casa sin condicion verificada; haircut 20% -> ~$104,700, 30% -> ~$90,500 (vs cierre esperado $92,285). Cola de impuestos $4,675.55 consistente con all_in_costs"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Pedir al Tax Office/abogado el payoff actualizado de la sentencia y confirmar por que la apertura excede lo adeudado (anios 2020-2021)",
+      "Busqueda por descripcion legal (TR 11C ABST 60 A REEVES) en el Clerk con imagenes; leer RP-2017-18356 y RP-2024-455629, confirmar si Tanya Murphy tiene interes y si el fideicomiso/sucesion es parte",
+      "Cola de impuestos 2024-2026 (~$4,700) y gravamenes de ciudad/condado: pedir certificado de impuestos",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades) y pedir estado de cuenta de impuestos actualizado antes de pujar",
+      "Leer demandados, metodo de citacion y bancarrota (hcdistrictclerk.com login / PACER) - bloqueados; attorney review recommended",
+      "Visita al sitio: ocupacion (inquilinos/propietario) y estado real; presupuestar redencion post-venta (normalmente 6 meses si no es homestead; confirmar con abogado) antes de revender"
     ]
   }
 }

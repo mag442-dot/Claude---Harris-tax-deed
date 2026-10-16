@@ -377,6 +377,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de DAVIS WILLIAM R (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Rehacer busqueda de titulo por descripcion legal (LT 13 BLK 17 FULLERTON PLACE): la busqueda por nombre devolvio 0 filas",
+      "why": "requiere abogado/consulta con imagenes; revision independiente"
     }
   ],
   "valuation": {
@@ -470,16 +475,22 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $427,467 >= cierre esperado $300,576. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "B2 con dos estructuras (1935 y 2018) en lote de 6,250 sf en Houston, valor HCAD $592,853: es el capital mas alto del lote y esta fuera de la estrategia de lotes baldios. Hecho 1: el titulo NO esta leido (busqueda 'DAVIS WILLIAM' devolvio 0 filas aunque el dueno tiene escritura de 2018), asi que cualquier gravamen que sobreviva es desconocido y el techo $427,467 no descuenta nada. Hecho 2: la cola de impuestos heredada es ~$30,000 (2025 ya con penalidades $17,392 + proxy 2026 $12,599) y con un descuento de 30% el techo (~$289,000) queda por debajo del cierre esperado ($300,576). Probable ocupacion por inquilinos y legal bloqueado; attorney review recommended.",
     "bid_ceiling": 427466.91,
     "all_in_cost_estimate": 343585.24,
-    "contradictions": [],
+    "contradictions": [
+      "Indice del Clerk: 0 filas como grantee y 0 como grantor para 'DAVIS WILLIAM' pero HCAD muestra escritura 2018-RP-2018-96740: la busqueda fallo o es incompleta; 'liens que sobreviven' sigue sin cuantificar mientras el techo asume cero",
+      "building_sqft 2,550 vs buildings 1,602 sf (1935) + 2,860 sf (2018) = 4,462 sf; clase B2 y dos estructuras: valor depende de la de 2018 y de si hay inquilinos",
+      "Techo $427,467 (72% del valor HCAD) es teorico: descuento 20% -> ~$335,400, 30% -> ~$289,300 < cierre esperado $300,576 (margen negativo). Cola $29,991 (63% de la apertura $47,208) correctamente en all_in_costs pero es una estimacion inferred"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Busqueda en el Clerk por LT 13 BLK 17 FULLERTON PLACE con imagenes (liens, A/J, T/L, hipotecas, HOA, ciudad); sin esto no pujar",
+      "Confirmar ocupacion/contratos de arrendamiento de ambas unidades y estado de la estructura de 1935 (visita o inspector)",
+      "Confirmar el payoff de impuestos 2025 y 2026 que hereda el comprador (~$30k) y presupuestarlo fuera del techo",
+      "Obtener comps o avaluo de reventa (el valor HCAD ignora condicion/ocupacion)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades) y pedir estado de cuenta de impuestos actualizado antes de pujar",
+      "Leer demandados, metodo de citacion y bancarrota (hcdistrictclerk.com login / PACER) - bloqueados; attorney review recommended",
+      "Visita al sitio: ocupacion (inquilinos/propietario) y estado real; presupuestar redencion post-venta (normalmente 6 meses si no es homestead; confirmar con abogado) antes de revender"
     ]
   }
 }

@@ -461,6 +461,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de SALGADO ANTONIO R (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Abogado: confirmar si Salgado (comprador post-judgment) y Maxpro (D/T RP-2026-5905) fueron parte o sobreviven la venta",
+      "why": "requiere abogado/consulta con imagenes; revision independiente"
     }
   ],
   "valuation": {
@@ -553,17 +558,24 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $80,377 >= cierre esperado $58,606. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Casa de 902 sf en Houston (fuera de estrategia); la economia parece buena sobre el papel (techo $80,377, apertura $26,351) pero el titulo tiene una bandera seria. Hecho 1: el dueno actual (Antonio R. Salgado) compro despues de la sentencia (07/11/2025): escritura de Maxpro Realty/Sandoval registrada ~01/07/2026 (HCAD 12/30/2025), por lo que podria no haber sido parte de la demanda de 2023 ni estar vinculado por ella. Hecho 2: el mismo dia registro un deed of trust a favor de Maxpro Realty Partners LLC (RP-2026-5905) sobre LT 22 LIBERTY, un gravamen posterior a la sentencia que podria sobrevivir y el modelo de costos lo trata como cero. No pujar hasta que un abogado confirme que la venta extingue esos intereses; legal bloqueado.",
     "bid_ceiling": 80377.31,
     "all_in_cost_estimate": 70050.91,
-    "contradictions": [],
+    "contradictions": [
+      "Fechas: HCAD dice dueno desde 12/30/2025 (2025-RP-511427 y 2026-RP-2026-5906) pero el indice del Clerk fecha RP-2026-5906 el 01/07/2026; 2025-RP-511427 no aparece en las filas del titulo",
+      "Dueno actual adquirio DESPUES del judgment (07/11/2025) y de la causa 202344166 (2023): assessed_owner_county muestra al dueno de hoy, no necesariamente al demandado; posible defecto de citacion/parte omitida (TRCP 329 hasta 2027-07-11 y redencion)",
+      "Gravamen en indice RP-2026-5905 (D/T a Maxpro, LIBERTY LT 22) puede sobrevivir y all_in_costs dice 'NO CUANTIFICADO' mientras el techo $80,377 asume cero; ademas una A/J 2016 (RP-2016-360036, Texas First Bank vs 'SALGADO ANTONIO') no se puede asignar al lote por nombre comun: bandera para abogado",
+      "Techo $80,377 supone reventa a valor HCAD $115,594 (avaluo del condado $112,409): descuento 30% -> ~$53,400 < cierre esperado $58,606. Buena parte de las 32 filas del Clerk son de otros inmuebles (ruido por nombre)"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Abogado de titulo: confirmar si Salgado y Maxpro fueron demandados/citados o tienen interes que sobrevive la venta; leer RP-2025-511427, RP-2026-5905 y RP-2026-5906 con imagen",
+      "Leer demandados/citacion del cause 202344166 en hcdistrictclerk.com; verificar lis pendens y demanda enmendada",
+      "Revisar A/J RP-2016-360036 (identidad del deudor) y si fue renovada",
+      "Si el abogado confirma extincion: reevaluar a CONDICIONAL con apertura final y cola ($5,687)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades) y pedir estado de cuenta de impuestos actualizado antes de pujar",
+      "Leer demandados, metodo de citacion y bancarrota (hcdistrictclerk.com login / PACER) - bloqueados; attorney review recommended",
+      "Visita al sitio: ocupacion (inquilinos/propietario) y estado real; presupuestar redencion post-venta (normalmente 6 meses si no es homestead; confirmar con abogado) antes de revender"
     ]
   }
 }

@@ -380,6 +380,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de BRADFORD RALPH TRUST (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Identificar fiduciario/herederos de Ralph Bradford Trust y confirmar citacion en hcdistrictclerk.com",
+      "why": "requiere abogado/consulta con imagenes; revision independiente"
     }
   ],
   "valuation": {
@@ -473,16 +478,20 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $170,976 >= cierre esperado $117,117. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de 1926 en lote de 5,000 sf en Houston (fuera del core de lotes baldios, se juzga como reventa/rehab o lote). Hecho 1: el valor HCAD ($231,000) es 84% terreno ($195,000), asi que la condicion de la casa pesa menos, pero el techo $170,976 sigue siendo teorico: con 30% de descuento baja a ~$117,000, igual al cierre esperado ($117,117). Hecho 2: el dueno es un fideicomiso (Ralph Bradford Trust) sin escritura de fideicomiso visible desde 2006 y las filas del Clerk no corresponden a este lote (son de otra subdivision); no hay evidencia de gravamenes, pero tampoco de que se haya buscado bien. Legal bloqueado; attorney review recommended.",
     "bid_ceiling": 170976.38,
     "all_in_cost_estimate": 129324.84,
-    "contradictions": [],
+    "contradictions": [
+      "Dueno actual = fideicomiso pero hcad_owner_since 02/22/2006 (2006-Z111373); no hay escritura al fideicomiso en el indice y las 4 filas del Clerk son de PONDEROSA FOREST (otro inmueble; 'BRADFORD RALPH WILLIAM JR EST' sugiere un homonimo fallecido): titulo del lote NOT leido, identidad del demandado/fiduciario sin confirmar",
+      "Base de valor: HCAD $231,000 vs avaluo del condado $220,887 (-4.4%); edificio 2,142 sf (building_sqft) vs 2,270 sf (buildings)",
+      "Techo $170,976 supone reventa al valor HCAD; descuento 20% -> ~$135,100, 30% -> ~$117,200 (= cierre esperado). Cola $4,694 = solo proxy 2026 (post-judgment 0), consistente con all_in_costs"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Busqueda en el Clerk por descripcion legal LT 7 BLK 72 NOBLE (no por nombre) con imagenes; identificar el fiduciario y confirmar si el fideicomiso (o el difunto) fue demandado",
+      "Confirmar con abogado quien fue citado (trustee/herederos) y el plazo de redencion; revisar Houston: restricciones, permisos y demolicion si se quiere duplex/lote",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades) y pedir estado de cuenta de impuestos actualizado antes de pujar",
+      "Leer demandados, metodo de citacion y bancarrota (hcdistrictclerk.com login / PACER) - bloqueados; attorney review recommended",
+      "Visita al sitio: ocupacion (inquilinos/propietario) y estado real; presupuestar redencion post-venta (normalmente 6 meses si no es homestead; confirmar con abogado) antes de revender"
     ]
   }
 }

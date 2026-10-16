@@ -373,6 +373,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de LACKEY VIRGIL (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Leer expediente 202139811 en hcdistrictclerk.com: demandados originales vs dueno actual Virgil Lackey; revisar posible lien federal",
+      "why": "requiere abogado/consulta con imagenes; revision independiente"
     }
   ],
   "valuation": {
@@ -466,16 +471,22 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $95,579 >= cierre esperado $68,001. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de 1947 en lote de ~7,200 sf en Houston: fuera de estrategia de baldios, reventa/rehab de valor modesto ($134,125). Hecho 1: la causa es de 2021 (202139811) y el dueno actual (Virgil Lackey) recibio el lote en 11/2022 de Victoria Lackey, quien era la duenia al presentarse la demanda; si Virgil no fue anadido, puede no estar vinculado por la sentencia (05/06/2025), ademas hay un descargo (DISCLM 2019) de 12 miembros de la familia Lackey que sugiere herederos. Hecho 2: la cola es ~$4,850 y el techo $95,579 teorico baja a ~$64,300 con descuento de 30%, por debajo del cierre esperado ($68,001). Legal bloqueado; attorney review recommended.",
     "bid_ceiling": 95579.03,
     "all_in_cost_estimate": 78895.02,
-    "contradictions": [],
+    "contradictions": [
+      "Causa 2021 vs dueno desde 11/30/2022 (RP-2022-570145, de Victoria Lackey; en 2019 Virgil J. a Victoria RP-2019-307276): el demandado original puede ser otro y el dueno actual no ser parte; DISCLM 2019 (RP-2019-332933) lista muchos Lackey y Porter: posible propiedad familiar/herederos",
+      "RP-2024-139194 (DEED, otra descripcion: HIGHLAND HEIGHTS ANNEX 2 Lot 23 Blk 16) tiene como otorgantes a Lackey Virgil/Victoria, todas las entidades fiscales y United States of America: no es este lote, pero indica otra venta fiscal y un posible interes federal contra el mismo apellido (identidad sin confirmar): attorney review",
+      "Lote HCAD 7,366 sf (7,200 + 166) vs GIS 7,160 (-2.8%); building_sqft 1,235 vs buildings 1,307 sf; HCAD $134,125 vs avaluo del condado $140,819; 2024 solo debe $1,124 (vs $4,617 en 2023): posible pago parcial reciente y riesgo de pago/redencion antes de la venta",
+      "Techo $95,579 teorico: descuento 20% -> ~$74,700, 30% -> ~$64,300 < cierre esperado $68,001; cola $4,853 consistente con all_in_costs"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer el expediente 202139811 (demandados originales, demanda enmendada, citacion, lis pendens) para confirmar que Virgil Lackey y los herederos estan vinculados",
+      "Busqueda en el Clerk por LT 278 BLK 14 GLEN MANOR SEC 2 con imagenes; revisar gravamenes federales (IRS/US) contra Lackey Virgil y la DISCLM 2019",
+      "Confirmar si el dueno hizo pagos recientes (2024 parcial) y pedir payoff para ver si la venta se retira",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades) y pedir estado de cuenta de impuestos actualizado antes de pujar",
+      "Leer demandados, metodo de citacion y bancarrota (hcdistrictclerk.com login / PACER) - bloqueados; attorney review recommended",
+      "Visita al sitio: ocupacion (inquilinos/propietario) y estado real; presupuestar redencion post-venta (normalmente 6 meses si no es homestead; confirmar con abogado) antes de revender"
     ]
   },
   "title": {

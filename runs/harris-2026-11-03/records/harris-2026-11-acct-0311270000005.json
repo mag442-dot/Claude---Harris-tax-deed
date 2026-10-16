@@ -387,6 +387,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de FLORES BETTY JEAN (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Busqueda por descripcion legal con imagenes en el Clerk (LT 5 BLK 127 RYON)",
+      "why": "requiere abogado/consulta con imagenes; revision independiente"
     }
   ],
   "valuation": {
@@ -480,16 +485,21 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $151,693 >= cierre esperado $104,310. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de 1955 en lote de 5,000 sf (Ryon, Houston): fuera de la estrategia de baldios, se juzga como reventa/rehab. Hecho 1: duenia actual con escritura de 07/2023 que coincide con la descripcion legal (RP-2023-248061), antes de la sentencia (03/06/2026), y sin gravamenes en el indice que correspondan a este lote, lo que es lo mas limpio del grupo (aunque es busqueda por nombre y sin imagenes). Hecho 2: techo $151,693 teorico: terreno es 67% del valor ($138,000 de $205,740), pero con descuento de 30% queda ~$103,750, igual al cierre esperado ($104,310). Direccion postal distinta (posible ausente/inquilinos); legal bloqueado; attorney review recommended.",
     "bid_ceiling": 151692.88,
     "all_in_cost_estimate": 115787.82,
-    "contradictions": [],
+    "contradictions": [
+      "Valor HCAD $205,740 < avaluo del condado $219,372 (+6.6%): base de valor incierta (cap/ajuste); no hay comps",
+      "building_sqft 1,088 vs buildings 1,208 sf; lote GIS 4,985 vs HCAD 5,000 sf (diferencia trivial)",
+      "Techo $151,693 (74% del valor) teorico: 20% de descuento -> ~$119,700, 30% -> ~$103,800 (= cierre esperado). La mayoria de filas del Clerk (Clayton's Corner, Fairfax, 'Betty A') son de otro inmueble; solo RP-2023-248061 coincide con LT 5 BLK 127 RYON; no se vio D/T de la duenia actual (compra en efectivo o busqueda incompleta)"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Busqueda en el Clerk por LT 5 BLK 127 RYON (descripcion legal) con imagenes para confirmar cero hipotecas/liens que sobrevivan",
+      "Confirmar con abogado quien fue demandado y citado (Betty Jean Flores, posible esposo/herederos) y que no hay bancarrota",
+      "Comps de reventa en Ryon/77009 para sustituir el valor HCAD",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades) y pedir estado de cuenta de impuestos actualizado antes de pujar",
+      "Leer demandados, metodo de citacion y bancarrota (hcdistrictclerk.com login / PACER) - bloqueados; attorney review recommended",
+      "Visita al sitio: ocupacion (inquilinos/propietario) y estado real; presupuestar redencion post-venta (normalmente 6 meses si no es homestead; confirmar con abogado) antes de revender"
     ]
   }
 }

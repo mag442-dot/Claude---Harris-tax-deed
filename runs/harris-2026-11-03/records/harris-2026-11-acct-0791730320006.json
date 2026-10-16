@@ -367,6 +367,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de ACA MUNIZ CONSTRUCTION COMPANY (0.5000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Identificar co-propietario (0.5% en HCAD) y estado de la entidad ACA Muniz en SOS; liens de la Ciudad por descripcion legal",
+      "why": "requiere abogado/consulta con imagenes; revision independiente"
     }
   ],
   "valuation": {
@@ -460,16 +465,23 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $350,480 >= cierre esperado $236,382. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "B2 de 2018 (3,610 sf segun buildings) en Houston, valor HCAD $466,237: fuera de la estrategia de lotes baldios y capital alto. Hecho 1: el dueno es una empresa constructora y HCAD lo muestra con solo 0.5% de participacion, lo que apunta a un co-propietario no identificado que tendria que haber sido demandado; ademas el avaluo del condado es $376,199 (-19%), con el cual el techo seria ~$280,500 en vez de $350,480. Hecho 2: la ruta de gravamenes es desconocida: el LIEN de la Ciudad (RP-2021-92288) es de LOT 33 BLK 6, no de este lote, asi que el pre-review lo atribuyo mal, pero muestra que la empresa ha tenido liens municipales. Legal bloqueado y entidad posiblemente inactiva; attorney review recommended.",
     "bid_ceiling": 350480.13,
     "all_in_cost_estimate": 255468.69,
-    "contradictions": [],
+    "contradictions": [
+      "hcad_owner muestra una sola fila con 0.5000% de participacion: falta el otro 50% (co-propietario) y la lista de demandados puede no cubrirlo",
+      "Pre-review mecanico citaba un lien de la misma subdivision, pero RP-2021-92288 (City of Houston LIEN) es SOUTH MAIN PLAZA Lot 33 Block 6, NO Lot 6 Block 32: no pertenece al lote por descripcion legal; liens municipales sobre este lote siguen sin buscar",
+      "fema_zone_shares suma 146.6% (46.6% X minimo + 100% X 0.2%): poligonos traslapados; SFHA 0% y floodway 0%, pero no hay lectura del borrador MAAPnext (playbook pide ambos)",
+      "Base de valor: HCAD $466,237 vs avaluo del condado $376,199 (-19%); building_sqft 2,818 vs buildings 3,610 sf. Techo $350,480: con base condado ~$280,500; descuento 30% -> ~$241,800 vs cierre esperado $236,382"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Identificar al co-propietario (50%) y confirmar que fue demandado/citado; verificar estado de la entidad ACA Muniz Construction Company en SOS (forfeited/inactiva) y agente registrado",
+      "Busqueda en el Clerk por LT 6 BLK 32 SOUTH MAIN PLAZA con imagenes; buscar liens de City of Houston (demolicion/obras), HOA y contratos de la NOTICE RP-2017-492992",
+      "Confirmar ocupacion (casa de 2018, 3,610 sf) y reconciliar area construida con la inspeccion; comps de reventa con base entre $376k y $466k",
+      "Revisar FEMA borrador MAAPnext para la parte X sombreada",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades) y pedir estado de cuenta de impuestos actualizado antes de pujar",
+      "Leer demandados, metodo de citacion y bancarrota (hcdistrictclerk.com login / PACER) - bloqueados; attorney review recommended",
+      "Visita al sitio: ocupacion (inquilinos/propietario) y estado real; presupuestar redencion post-venta (normalmente 6 meses si no es homestead; confirmar con abogado) antes de revender"
     ]
   },
   "title": {
