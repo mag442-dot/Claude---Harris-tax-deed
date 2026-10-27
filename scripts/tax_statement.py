@@ -42,7 +42,7 @@ def parse(text):
         rows.append({"year": int(m.group(1)), "tax": money(m.group(2)), "penalties_interest": money(m.group(3)),
                      "collection_penalty": money(m.group(4)), "total": money(m.group(5))})
     tot = re.search(r"Total Due >>> " + MONEY, t)
-    owner = re.search(r"Current As Of: Assessed Owner Property Description \S+ [\d/]+ [\d:]+ [AP]M (.*?) 20\d\d Appraised Values", t)
+    owner = re.search(r"Current As Of: Assessed Owner Property Description \S+ [\d/]+ [\d:]+ [AP]M (.*?) (?:20\d\d Appraised Values|Year Tax Penalties)", t)
     appr = re.search(r"Appraised Value: ([\d,]+)", t)
     asof = re.search(r"Property Description [\d-]+ ([\d/]+)", t)
     return {"rows": rows, "total_due": money(tot.group(1)) if tot else None,
@@ -107,8 +107,11 @@ def main(argv):
                 sec["current_year_estimate"] = v(cur, "inferred", f"base tax of {last['year']} as proxy for the {last['year'] + 1} bill (due 31 Jan); penalties not included")
                 sec["buyer_tax_tail_estimate"] = v(tail, "inferred" if tail is not None else "unknown",
                                                    "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions")
-                sec["assessed_owner_county"] = v(d["header"])
-                sec["appraised_value_county"] = v(d["appraised"])
+                # the county page may omit these blocks; never overwrite a known value with None
+                if d["header"] or not (sec.get("assessed_owner_county") or {}).get("value"):
+                    sec["assessed_owner_county"] = v(d["header"], "verified" if d["header"] else "unknown")
+                if d["appraised"] or not (sec.get("appraised_value_county") or {}).get("value"):
+                    sec["appraised_value_county"] = v(d["appraised"], "verified" if d["appraised"] else "unknown")
             save_sections(f, rec, ['tax'])
             n += 1
         b.close()

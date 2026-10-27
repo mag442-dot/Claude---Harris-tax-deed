@@ -203,10 +203,10 @@
       "value": [
         {
           "year": 2019,
-          "tax": 2208.39,
-          "penalties_interest": 2053.8,
-          "collection_penalty": 799.55,
-          "total": 5061.74
+          "tax": 1482.84,
+          "penalties_interest": 1379.05,
+          "collection_penalty": 536.87,
+          "total": 3398.76
         },
         {
           "year": 2020,
@@ -238,10 +238,10 @@
         },
         {
           "year": 2024,
-          "tax": 1448.58,
+          "tax": 1418.58,
           "penalties_interest": 468.14,
           "collection_penalty": 349.89,
-          "total": 2266.61
+          "total": 2236.61
         },
         {
           "year": 2025,
@@ -253,14 +253,14 @@
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0642050040031",
-      "retrieved_at": "2026-10-13",
-      "note": "statement as of 10/13/2026"
+      "retrieved_at": "2026-10-27",
+      "note": "statement as of 10/27/2026"
     },
     "total_due_all_years": {
-      "value": 27428.0,
+      "value": 25735.02,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0642050040031",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-27"
     },
     "taxes_in_judgment": {
       "value": [
@@ -273,27 +273,27 @@
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0642050040031",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
       "value": 1988.93,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0642050040031",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-27"
     },
     "current_year_estimate": {
       "value": 1440.86,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0642050040031",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
       "value": 3429.79,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0642050040031",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
     },
     "assessed_owner_county": {
@@ -320,7 +320,7 @@
       ],
       "status": "inferred",
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RODRIQUEZ ADRIAN')",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
     },
     "rp_hits_grantor": {
@@ -331,7 +331,7 @@
       ],
       "status": "inferred",
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RODRIQUEZ ADRIAN')",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
     },
     "rp_type_counts": {
@@ -345,13 +345,13 @@
       },
       "status": "inferred",
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RODRIQUEZ ADRIAN')",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-27"
     },
     "rp_summary": {
       "value": "5 instruments as grantee, 3 as grantor (index, name 'RODRIQUEZ ADRIAN')",
       "status": "inferred",
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RODRIQUEZ ADRIAN')",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
     }
   },
@@ -438,42 +438,42 @@
       "value": 107798.0,
       "status": "inferred",
       "source": "HCAD real_acct.txt tot_mkt_val",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
     },
     "value_low": {
       "value": null,
       "status": "unknown",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "sin comparables no se inventa rango"
     },
     "value_high": {
       "value": null,
       "status": "unknown",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "sin comparables no se inventa rango"
     },
     "comps": {
       "value": [],
       "status": "unknown",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "no accesibles desde este entorno"
     },
     "expected_close_from_ratio": {
       "value": 54653.59,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
     },
     "expected_close_from_premium": {
       "value": 31711.0,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "apertura x 1.088 (benchmark del playbook)"
     },
     "all_in_costs": {
@@ -486,34 +486,34 @@
       },
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
       "value": 63722.99,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-27"
     },
     "bid_ceiling": {
       "value": 76513.21,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
       "value": 0.692,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
     },
     "exit_strategy_used": {
       "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-27"
     }
   },
   "review": {

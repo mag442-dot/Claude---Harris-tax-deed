@@ -233,54 +233,54 @@
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0600730230091",
-      "retrieved_at": "2026-10-16",
-      "note": "statement as of 10/16/2026"
+      "retrieved_at": "2026-10-27",
+      "note": "statement as of 10/27/2026"
     },
     "total_due_all_years": {
       "value": 4570.63,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0600730230091",
-      "retrieved_at": "2026-10-16"
+      "retrieved_at": "2026-10-27"
     },
     "taxes_in_judgment": {
       "value": null,
       "status": "unknown",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0600730230091",
-      "retrieved_at": "2026-10-16",
+      "retrieved_at": "2026-10-27",
       "note": "el condado no lista los anios incluidos en la sentencia"
     },
     "post_judgment_taxes": {
       "value": null,
       "status": "unknown",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0600730230091",
-      "retrieved_at": "2026-10-16",
+      "retrieved_at": "2026-10-27",
       "note": "sin anios de sentencia no se puede separar"
     },
     "current_year_estimate": {
       "value": 567.67,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0600730230091",
-      "retrieved_at": "2026-10-16",
+      "retrieved_at": "2026-10-27",
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
       "value": null,
       "status": "unknown",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0600730230091",
-      "retrieved_at": "2026-10-16",
+      "retrieved_at": "2026-10-27",
       "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
     },
     "assessed_owner_county": {
       "value": null,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0600730230091",
-      "retrieved_at": "2026-10-16"
+      "retrieved_at": "2026-10-27"
     },
     "appraised_value_county": {
       "value": null,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0600730230091",
-      "retrieved_at": "2026-10-16"
+      "retrieved_at": "2026-10-27"
     }
   },
   "title": {

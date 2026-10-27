@@ -246,41 +246,41 @@
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0580910030100",
-      "retrieved_at": "2026-10-13",
-      "note": "statement as of 10/13/2026"
+      "retrieved_at": "2026-10-27",
+      "note": "statement as of 10/27/2026"
     },
     "total_due_all_years": {
       "value": 13866.59,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0580910030100",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-27"
     },
     "taxes_in_judgment": {
       "value": null,
       "status": "unknown",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0580910030100",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "el condado no lista los anios incluidos en la sentencia"
     },
     "post_judgment_taxes": {
       "value": null,
       "status": "unknown",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0580910030100",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "sin anios de sentencia no se puede separar"
     },
     "current_year_estimate": {
       "value": 2207.57,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0580910030100",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
       "value": null,
       "status": "unknown",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0580910030100",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
     },
     "assessed_owner_county": {
@@ -303,14 +303,14 @@
       ],
       "status": "inferred",
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FOREMAN BOYS')",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
     },
     "rp_hits_grantor": {
       "value": [],
       "status": "inferred",
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FOREMAN BOYS')",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
     },
     "rp_type_counts": {
@@ -319,13 +319,13 @@
       },
       "status": "inferred",
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FOREMAN BOYS')",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-27"
     },
     "rp_summary": {
       "value": "1 instruments as grantee, 0 as grantor (index, name 'FOREMAN BOYS')",
       "status": "inferred",
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FOREMAN BOYS')",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
     }
   },
@@ -412,42 +412,42 @@
       "value": 238982.0,
       "status": "inferred",
       "source": "HCAD real_acct.txt tot_mkt_val",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
     },
     "value_low": {
       "value": null,
       "status": "unknown",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "sin comparables no se inventa rango"
     },
     "value_high": {
       "value": null,
       "status": "unknown",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "sin comparables no se inventa rango"
     },
     "comps": {
       "value": [],
       "status": "unknown",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "no accesibles desde este entorno"
     },
     "expected_close_from_ratio": {
       "value": 121163.87,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
     },
     "expected_close_from_premium": {
       "value": 33799.86,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "apertura x 1.088 (benchmark del playbook)"
     },
     "all_in_costs": {
@@ -460,34 +460,34 @@
       },
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "impuestos: COTA SUPERIOR: total adeudado de todos los anios (el condado no separa anios de la sentencia); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
       "value": 142665.38,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-27"
     },
     "bid_ceiling": {
       "value": 168270.88,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
       "value": 0.675,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13",
+      "retrieved_at": "2026-10-27",
       "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
     },
     "exit_strategy_used": {
       "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-27"
     }
   },
   "review": {
