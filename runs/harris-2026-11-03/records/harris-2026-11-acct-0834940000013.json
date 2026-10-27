@@ -290,6 +290,11 @@
       "agent": "tax",
       "item": "Pedir estado de cuenta de 0834940000013 al Tax Office (713-274-8120)",
       "why": "statement no disponible en hctax.net"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Confirmar con el Tax Office si la cuenta 0834940000013 sigue certificada y en la venta del 11/03/2026 (hctax.net ya no produce estado de cuenta)",
+      "why": "Sin estado de cuenta no se puede confirmar monto ni que el lote siga en venta; pudo ser pagado/retirado"
     }
   ],
   "valuation": {
@@ -376,24 +381,28 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Lote en City of Houston de ~7,551 sqft (GIS), 100% zona X, sin SFHA ni floodway, con apertura de solo $13,207 frente a un valor HCAD de $304,763: potencial alto pero tambien muy competido. Los dos hechos que mandan: (1) el indice del Clerk muestra que el dueno gravado Strickland LLC vendio a Luxehauss LLC el 08/19/2026, un mes despues de la sentencia (07/16/2026), por lo que hay un tercero con derecho de redencion y posible pago previo que retire el lote; (2) el techo de $226,537 es puramente teorico (73% del valor HCAD, sin comps) y no lo respaldo. No hay zonificacion en Houston pero las restricciones de Larchmont Sec 1 no se han leido. Legal bloqueado. Attorney review recommended.",
-    "bid_ceiling": 226537.39,
-    "all_in_cost_estimate": 169627.18,
+    "decision": "VIGILAR",
+    "rationale": "Lote en City of Houston de ~7,551 sf (GIS), 100% zona X, sin SFHA ni floodway, apertura $13,207 frente a valor HCAD $304,763. Hechos decisivos: (1) el condado ya no produce estado de cuenta (tax_statement blocked el 27-oct), de modo que no se puede confirmar que la cuenta siga certificada/en venta ni el monto; las cifras de tax ($9,288.48) son del 13-oct y deben tratarse como obsoletas; (2) el Clerk muestra W/D RP-2026-337349 de Strickland LLC a Luxehauss LLC el 08/19/2026, un mes despues de la sentencia (07/16/2026), por lo que hay un tercero con posible derecho de redencion/pago previo y posible defecto de demandados. Combinado, es probable que el lote sea retirado o pagado; se baja de CONDICIONAL a VIGILAR hasta que el Tax Office confirme estado. El techo $226,537 es teorico y no lo respaldo. Legal bloqueado; attorney review recommended.",
     "contradictions": [
-      "Dueno gravado (HCAD y condado: Strickland LLC) vs titulo en el indice: W/D RP-2026-337349 (08/19/2026) a LUXEHAUSS LLC, posterior a la sentencia del 07/16/2026. Si Luxehauss no fue citado/parte, posible defecto de demandados; ademas puede redimir o pagar antes de la venta.",
-      "HCAD: year improved 1954 pero building sqft 0 y direccion numerada (5346 Schumacher) en vez de '0': verificar si hay estructura/demolicion y que 'baldio' sea cierto.",
-      "Techo $226,537 vs apertura $13,207: el cierre esperado $154,515 sale de la razon 0.507 aplicada a un lote de $305k (calibrada con 14 lotes de ~$50-100k); la prima benchmark da $14,370. Diferencia de 10x, sin comps; 'margen 79.7%' no es verificable.",
-      "Modelo de costos asume cero gravamenes; title no mapeo la cadena Chretien/Alolabi (L/P 2019-2020) a su liberacion (REL RP-2020-609681 es 'unmatched', inferred) ni leyo restricciones (unknown)."
+      "tax.tax_statement BLOCKED (27-oct, 'cuenta no certificada, inexistente o error') vs delinquent_by_year/total_due $9,288.48 marcados verified con fecha 2026-10-13: dato verificado pero potencialmente obsoleto; el costo (impuestos_que_hereda $6,476.89, inferred, proxy 2026) descansa en una cifra que el condado ya no confirma. Tampoco se sabe si el lote sigue en la lista oficial.",
+      "Dueno gravado (HCAD y condado: Strickland LLC) vs titulo: W/D RP-2026-337349 (08/19/2026) a LUXEHAUSS LLC, posterior a la sentencia del 07/16/2026. Si Luxehauss no fue citado/parte, posible defecto de demandados; puede redimir o pagar antes de la venta (y quiza explique que el statement ya no salga).",
+      "Cause 202476197 (anio 2024) vs taxes_in_judgment [2025] y sentencia 07/16/2026: una demanda de 2024 no deberia incluir impuestos 2025 (delinquent desde feb-2026); ano o cause mal leidos (limitacion conocida en HANDOFF 8.2). Ademas post_judgment_taxes=0 y total adeudado = solo 2025.",
+      "Apertura $13,207 es 42% mayor que el total adeudado $9,288 y 4.3% del valor HCAD: no se sabe que incluye la apertura (costos de demanda).",
+      "HCAD: year improved 1954 pero building sqft 0 y direccion numerada (5346 Schumacher): verificar si hay estructura/demolicion y que 'baldio' sea cierto.",
+      "Techo $226,537 vs apertura $13,207: cierre esperado $154,515 sale de ratio 0.507 (calibrada con lotes de ~$50-100k) aplicado a $305k; la prima benchmark da $14,370. Diferencia 10x, sin comps; 'margen 79.7%' no verificable.",
+      "Modelo de costos asume cero gravamenes; title no mapeo la cadena Chretien/Alolabi (L/P 2019-2020) a su liberacion (REL RP-2020-609681 'unmatched', inferred), no leyo restricciones (unknown) ni busco D/T de Luxehauss."
     ],
     "conditions_to_buy": [
+      "Obtener del Tax Office (713-274-8120) el estado de cuenta y confirmar que la cuenta sigue en la venta del 11/03 y no fue pagada/retirada; sin eso no pujar",
       "Leer imagen RP-2026-337349 (Strickland -> Luxehauss) y confirmar si Luxehauss fue parte/citado en cause 202476197 y si pagara o redimira",
-      "Revalidar en T-7 y T-1 que el lote sigue en la lista (el nuevo dueno puede pagar los impuestos de $9,288 y retirarlo)",
+      "Revalidar en T-7 y T-1 que el lote sigue en la lista",
       "Confirmar demandados/citacion en hcdistrictclerk.com y bancarrota de Strickland LLC y Luxehauss LLC en PACER",
-      "Leer restricciones de Larchmont Sec 1 (uso, lote minimo, setbacks para dúplex) y verificar en sitio si hay estructura",
+      "Leer restricciones de Larchmont Sec 1 (uso, lote minimo, setbacks para duplex) y verificar en sitio si hay estructura",
       "Conseguir comps reales de lotes en 77056 y fijar un tope propio; no usar $226k",
       "Attorney: redencion de Luxehauss (180 dias no-homestead; confirmar prima) y efecto de la compraventa post-sentencia"
-    ]
+    ],
+    "bid_ceiling": 226537.39,
+    "all_in_cost_estimate": 169627.18
   },
   "physical": {
     "fema_effective_zone": {
