@@ -203,10 +203,10 @@
       "value": [
         {
           "year": 2020,
-          "tax": 372.1,
-          "penalties_interest": 301.4,
-          "collection_penalty": 126.43,
-          "total": 799.93
+          "tax": 223.25,
+          "penalties_interest": 180.84,
+          "collection_penalty": 75.86,
+          "total": 479.95
         },
         {
           "year": 2021,
@@ -246,14 +246,14 @@
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0601130250297",
-      "retrieved_at": "2026-10-27",
-      "note": "statement as of 10/27/2026"
+      "retrieved_at": "2026-11-02",
+      "note": "statement as of 11/2/2026"
     },
     "total_due_all_years": {
-      "value": 10012.85,
+      "value": 9692.87,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0601130250297",
-      "retrieved_at": "2026-10-27"
+      "retrieved_at": "2026-11-02"
     },
     "taxes_in_judgment": {
       "value": [
@@ -265,34 +265,34 @@
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0601130250297",
-      "retrieved_at": "2026-10-27",
+      "retrieved_at": "2026-11-02",
       "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
       "value": 2285.83,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0601130250297",
-      "retrieved_at": "2026-10-27"
+      "retrieved_at": "2026-11-02"
     },
     "current_year_estimate": {
       "value": 1593.93,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0601130250297",
-      "retrieved_at": "2026-10-27",
+      "retrieved_at": "2026-11-02",
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
       "value": 3879.76,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0601130250297",
-      "retrieved_at": "2026-10-27",
+      "retrieved_at": "2026-11-02",
       "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
     },
     "assessed_owner_county": {
       "value": "WILLARD STREET PARTNERS 781 COUNTRY PLACE DR UNIT 1039 HOUSTON TX 77079 WILLARD ST LTS 297 & 298 BLK 20 EAST",
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0601130250297",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-11-02"
     },
     "appraised_value_county": {
       "value": 75000.0,
@@ -311,7 +311,7 @@
       ],
       "status": "inferred",
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'WILLARD STREET')",
-      "retrieved_at": "2026-10-27",
+      "retrieved_at": "2026-11-02",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
     },
     "rp_hits_grantor": {
@@ -322,7 +322,7 @@
       ],
       "status": "inferred",
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'WILLARD STREET')",
-      "retrieved_at": "2026-10-27",
+      "retrieved_at": "2026-11-02",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
     },
     "rp_type_counts": {
@@ -333,13 +333,13 @@
       },
       "status": "inferred",
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'WILLARD STREET')",
-      "retrieved_at": "2026-10-27"
+      "retrieved_at": "2026-11-02"
     },
     "rp_summary": {
       "value": "4 instruments as grantee, 3 as grantor (index, name 'WILLARD STREET')",
       "status": "inferred",
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'WILLARD STREET')",
-      "retrieved_at": "2026-10-27",
+      "retrieved_at": "2026-11-02",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
     },
     "vesting_deed": {
@@ -494,6 +494,11 @@
       "agent": "reviewer",
       "item": "Pedir a hctax/abogado fiscal que anios estan en la sentencia y el payoff (taxes_in_judgment ambiguo o desconocido)",
       "why": "la lista del condado es ambigua; cota superior en el modelo de costos"
+    },
+    {
+      "agent": "reviewer",
+      "item": "2-nov: el renglon 2020 de la cuenta 0601130250297 bajo $319.98; confirmar con hctax/abogado si hubo pago de sentencia y si la cuenta sigue en la venta del 3-nov",
+      "why": "no verificable sin consulta al condado el dia de la venta"
     }
   ],
   "valuation": {
@@ -501,42 +506,42 @@
       "value": 75000.0,
       "status": "inferred",
       "source": "HCAD real_acct.txt tot_mkt_val",
-      "retrieved_at": "2026-10-27",
+      "retrieved_at": "2026-11-02",
       "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
     },
     "value_low": {
       "value": null,
       "status": "unknown",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-27",
+      "retrieved_at": "2026-11-02",
       "note": "sin comparables no se inventa rango"
     },
     "value_high": {
       "value": null,
       "status": "unknown",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-27",
+      "retrieved_at": "2026-11-02",
       "note": "sin comparables no se inventa rango"
     },
     "comps": {
       "value": [],
       "status": "unknown",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-27",
+      "retrieved_at": "2026-11-02",
       "note": "no accesibles desde este entorno"
     },
     "expected_close_from_ratio": {
       "value": 38025.0,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-27",
+      "retrieved_at": "2026-11-02",
       "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
     },
     "expected_close_from_premium": {
       "value": 9302.33,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-27",
+      "retrieved_at": "2026-11-02",
       "note": "apertura x 1.088 (benchmark del playbook)"
     },
     "all_in_costs": {
@@ -549,58 +554,58 @@
       },
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-27",
+      "retrieved_at": "2026-11-02",
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
       "value": 47045.51,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-27"
+      "retrieved_at": "2026-11-02"
     },
     "bid_ceiling": {
       "value": 50602.17,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-27",
+      "retrieved_at": "2026-11-02",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
       "value": 0.594,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-27",
+      "retrieved_at": "2026-11-02",
       "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
     },
     "exit_strategy_used": {
       "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-10-27"
+      "retrieved_at": "2026-11-02"
     }
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Es la mejor del grupo: dueno es una entidad (sin herederos), vesting deed RP-2017-301570 coincide con la legal de HCAD, indice limpio de gravamenes, Zona X 100%, lote de ~10,000-12,500 sqft (~100 x 127 ft) en Houston sin zonificacion, ideal para duplex. Los dos hechos que la sostienen son el indice limpio y el lote grande, pero ese 'limpio' es solo un negativo del indice (sin imagenes) y el valor $75,000 es un 'Res Vacant Override' de HCAD sin comps. El techo de $45,801 es teorico (reventa al 100% de HCAD, 25% retorno, quiet title y cierre supuestos): con haircut de 20% bajaria a ~$34k. Legal esta bloqueado (demandados, citacion, bancarrota) asi que no puede ser COMPRA FUERTE; attorney review recommended.",
+    "rationale": "Lote baldio de ~10,000-12,500 sf en Houston, Zona X 100%, dueno entidad, indice del Clerk sin gravamenes sobre la legal (solo negativo de indice, sin imagenes), y apertura $8,549.94 contra HCAD $75,000. Hechos decisivos: (1) el renglon 2020 bajo de $799.93 a $479.95 (-$319.98) y el total adeudado de $10,012.85 a $9,692.87 entre el 27-oct y el 2-nov, es decir alguien esta pagando; un pago parcial no detiene por si solo una venta ordenada, pero un pago total de sentencia, costos incluidos, si podria retirar la cuenta (la lista del condado del 2-nov 15:25 UTC aun la trae con la misma apertura); (2) legal sigue bloqueado (demandados, citacion, bancarrota), por lo que no puede ser COMPRA FUERTE, y el valor $75,000 es un 'Res Vacant Override' de HCAD sin comps. El techo $50,602.17 es teorico (reventa al 100% de HCAD); con haircut de 20% bajaria a ~$37k. Attorney review recommended.",
     "bid_ceiling": 50602.17,
     "all_in_cost_estimate": 47045.51,
     "contradictions": [
-      "Area: HCAD 10,000 sqft ($75,000, 'Res Vacant Override') vs poligono GIS 12,508 sqft (+25%). El valor HCAD es un override manual cuyo origen se desconoce; el techo usa el valor HCAD, no el area GIS.",
-      "taxes_in_judgment=[2020,2024] se uso como dos anios sueltos: post_judgment $7,230.80 incluye 2021-2023 y 2025. Con sentencia de 03/16/2026 (cause 2025) lo mas probable es que 2020-2024 sea un rango, y el tail real seria ~2025+2026 (~$3.9k, no $8,824.73). El tail es COTA SUPERIOR, por lo que el techo $45,801 es conservativo en este punto (no confirmado).",
-      "Vesting deed marcado 'verified' solo por una fila del indice (sin imagen): verifica existencia del RP-2017-301570, no validez/ejecucion. HCAD fecha 07/05/2017 vs recording 07/06/2017 (benigno); deed previo 2014-0438808 no se encontro: cadena anterior a 2017 sin revisar.",
-      "Entidad 'WILLARD STREET PARTNERS': existencia/vigencia y agente registrado no revisados (title.owner_deceased_heirs lo dice 'not applicable' por ser entidad, inferred). Los hits 'Willard Street Estates/Landing/Grove' son otras entidades (Mazz). Direccion postal es un condo (Unit 1039): riesgo de citacion por publicacion/defectuosa, aun no verificable.",
-      "valuation.all_in_costs 'liens NO CUANTIFICADO' vs title 'None found' (status unknown): el modelo asume $0 de gravamenes que sobreviven con un negativo de indice de baja confianza (busqueda 'EAST' generica).",
-      "[2026-10-13] Cifras actualizadas tras corregir el calculo de anios en sentencia (rango 'a - b'): techo $45801.23 -> $50602.17; costo total $51990.48 -> $47045.51. El texto del revisor puede citar las cifras anteriores; la decision no cambio."
+      "Pago en cuenta en juicio: el renglon 2020 (anio en sentencia) bajo $319.98 entre el 27-oct y el 2-nov (penalidades no bajan solas). Alguien (dueno o tercero) pago parcialmente; eso contradice el supuesto de dueno inactivo y abre riesgo de pago total/retiro antes del 3-nov. La apertura $8,549.94 se fijo con saldos anteriores y no se ha recalculado en la lista.",
+      "Area: HCAD 10,000 sf ($75,000, 'Res Vacant Override') vs poligono GIS 12,508 sf (+25%). El techo usa el valor HCAD override cuyo origen se desconoce.",
+      "Vesting deed marcado 'verified' solo por una fila del indice (sin imagen): prueba existencia de RP-2017-301570, no validez. HCAD 07/05/2017 vs recording 07/06/2017 (benigno); deed previo 2014-0438808 no aparece en el indice: cadena previa a 2017 sin revisar.",
+      "Entidad WILLARD STREET PARTNERS: existencia/vigencia y agente registrado no revisados (title.owner_deceased_heirs 'not applicable' es inferred). Direccion postal es un condo (Unit 1039): riesgo de citacion defectuosa/por publicacion, no verificable (legal bloqueado).",
+      "valuation.all_in_costs 'liens NO CUANTIFICADO' vs title 'None found' (status unknown): el modelo asume $0 de gravamenes sobrevivientes con un negativo de indice de baja confianza (busqueda por legal generica 'EAST', hasta 8 paginas, restricciones no buscadas).",
+      "Texto previo del revisor citaba techo $45,801 y un tail de $8,824.73 por leer 2020-2024 como dos anios; reemplazado: con el rango 2020-2024 expandido, post-judgment = solo 2025 ($2,285.83) y tail $3,879.76 (incluye proxy 2026). Verificado el calculo: (75,000/1.25 - 3,879.76 - 4,000)/1.03 = 50,602.17.",
+      "[2026-11-02] Revision del refresh: total adeudado 10,012.85 -> 9,692.87 (suma de renglones cuadra); sin cambio en tail ni valuation (bid_ceiling 50,602.17 y costo 47,045.51 siguen consistentes)."
     ],
     "conditions_to_buy": [
-      "Con login: leer en hcdistrictclerk.com demandados y metodo de citacion del cause (si hubo citacion por publicacion, la ventana TRCP 329 sigue abierta); PACER por bancarrota del dueno y co-duenos",
-      "Verificar SOS Texas: existencia/vigencia de Willard Street Partners y socios/agente (para evaluar si la citacion fue valida)",
-      "Pedir title commitment o imagen de RP-2017-301570 y busqueda por legal (Lts 297-298 Blk 20 East) con variantes de nombre de subdivision",
-      "Pedir a hctax.net / abogado fiscal el desglose de anios incluidos en la sentencia (taxes_in_judgment es ambiguo) y un estado de cuenta/payoff actualizado; confirmar que impuestos hereda el comprador",
-      "Confirmar area real (HCAD 10,000 vs GIS 12,508) con plat/survey y por que HCAD pone override a $75,000; obtener comps de lotes baldios en 77048",
-      "Leer restricciones de la subdivision 'East' y visita al sitio (acceso, ocupantes, relleno)",
-      "Confirmar apertura final ($8,549.94) el dia de la venta; fijar techo propio con haircut sobre HCAD (no el teorico $45,801)",
-      "Attorney review recommended antes de pujar (tax deed, redencion, quiet title)"
+      "Antes de la venta (3-nov): re-bajar saledetail y confirmar que la cuenta sigue en la lista oficial con apertura $8,549.94; pedir a hctax/abogado fiscal el payoff de la sentencia y quien hizo el pago de ~$320 (si fue pago total de sentencia, se retira)",
+      "Con login (Miguel): demandados y metodo de citacion del cause 202553977 en hcdistrictclerk.com (si hubo citacion por publicacion, la ventana TRCP 329 sigue abierta hasta 2028-03-16); PACER por bancarrota",
+      "Verificar SOS Texas: existencia/vigencia de Willard Street Partners, socios y agente registrado",
+      "Title commitment o imagen de RP-2017-301570 y busqueda por legal (Lts 297-298 Blk 20 East) con variantes del nombre de subdivision",
+      "Confirmar area real (HCAD 10,000 vs GIS 12,508) con plat/survey, el origen del override $75,000 y comps de lotes baldios en 77048",
+      "Leer restricciones de la subdivision 'East' y visita al sitio (acceso, ocupantes, relleno); duplex no evaluado (zonificacion/costo de construccion)",
+      "Fijar techo propio con haircut sobre HCAD (no el teorico $50,602); attorney review recommended (tax deed, redencion, quiet title)"
     ]
   }
 }
