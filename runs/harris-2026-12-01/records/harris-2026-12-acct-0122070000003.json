@@ -132,5 +132,172 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2012,
+          "tax": 41.28,
+          "penalties_interest": 73.48,
+          "collection_penalty": 22.95,
+          "total": 137.71
+        },
+        {
+          "year": 2013,
+          "tax": 69.08,
+          "penalties_interest": 114.68,
+          "collection_penalty": 36.74,
+          "total": 220.5
+        },
+        {
+          "year": 2014,
+          "tax": 69.41,
+          "penalties_interest": 106.9,
+          "collection_penalty": 35.27,
+          "total": 211.58
+        },
+        {
+          "year": 2015,
+          "tax": 68.45,
+          "penalties_interest": 97.2,
+          "collection_penalty": 33.13,
+          "total": 198.78
+        },
+        {
+          "year": 2016,
+          "tax": 68.27,
+          "penalties_interest": 88.75,
+          "collection_penalty": 31.41,
+          "total": 188.43
+        },
+        {
+          "year": 2017,
+          "tax": 179.08,
+          "penalties_interest": 211.31,
+          "collection_penalty": 78.08,
+          "total": 468.47
+        },
+        {
+          "year": 2018,
+          "tax": 179.37,
+          "penalties_interest": 190.13,
+          "collection_penalty": 73.9,
+          "total": 443.4
+        },
+        {
+          "year": 2019,
+          "tax": 326.92,
+          "penalties_interest": 307.3,
+          "collection_penalty": 118.97,
+          "total": 753.19
+        },
+        {
+          "year": 2020,
+          "tax": 404.91,
+          "penalties_interest": 332.03,
+          "collection_penalty": 138.34,
+          "total": 875.28
+        },
+        {
+          "year": 2021,
+          "tax": 550.63,
+          "penalties_interest": 385.45,
+          "collection_penalty": 175.45,
+          "total": 1111.53
+        },
+        {
+          "year": 2022,
+          "tax": 891.77,
+          "penalties_interest": 517.22,
+          "collection_penalty": 264.66,
+          "total": 1673.65
+        },
+        {
+          "year": 2023,
+          "tax": 986.02,
+          "penalties_interest": 453.57,
+          "collection_penalty": 268.8,
+          "total": 1708.39
+        },
+        {
+          "year": 2024,
+          "tax": 1151.05,
+          "penalties_interest": 391.37,
+          "collection_penalty": 286.06,
+          "total": 1828.48
+        },
+        {
+          "year": 2025,
+          "tax": 1169.13,
+          "penalties_interest": 257.23,
+          "collection_penalty": 200.84,
+          "total": 1627.2
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 11446.59,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 1627.2,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 1169.13,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 2796.33,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "BROWN WALKER JR 6206 CRANE ST HOUSTON TX 77026 WEDGEFIELD ST LTS 3 & 4 BLK 34 EAST HOUSTON",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

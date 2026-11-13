@@ -132,5 +132,188 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2012,
+          "tax": 610.8,
+          "penalties_interest": 751.29,
+          "collection_penalty": 272.42,
+          "total": 1634.51
+        },
+        {
+          "year": 2013,
+          "tax": 618.0,
+          "penalties_interest": 760.14,
+          "collection_penalty": 275.64,
+          "total": 1653.78
+        },
+        {
+          "year": 2014,
+          "tax": 312.82,
+          "penalties_interest": 384.76,
+          "collection_penalty": 139.51,
+          "total": 837.09
+        },
+        {
+          "year": 2015,
+          "tax": 612.24,
+          "penalties_interest": 753.06,
+          "collection_penalty": 273.05,
+          "total": 1638.35
+        },
+        {
+          "year": 2016,
+          "tax": 610.65,
+          "penalties_interest": 751.1,
+          "collection_penalty": 272.35,
+          "total": 1634.1
+        },
+        {
+          "year": 2017,
+          "tax": 915.17,
+          "penalties_interest": 1079.91,
+          "collection_penalty": 399.01,
+          "total": 2394.09
+        },
+        {
+          "year": 2018,
+          "tax": 1222.21,
+          "penalties_interest": 1295.54,
+          "collection_penalty": 503.54,
+          "total": 3021.29
+        },
+        {
+          "year": 2019,
+          "tax": 1169.64,
+          "penalties_interest": 1099.45,
+          "collection_penalty": 425.66,
+          "total": 2694.75
+        },
+        {
+          "year": 2020,
+          "tax": 1641.78,
+          "penalties_interest": 1346.25,
+          "collection_penalty": 560.92,
+          "total": 3548.95
+        },
+        {
+          "year": 2021,
+          "tax": 2063.81,
+          "penalties_interest": 1444.66,
+          "collection_penalty": 657.57,
+          "total": 4166.04
+        },
+        {
+          "year": 2022,
+          "tax": 1949.78,
+          "penalties_interest": 1130.88,
+          "collection_penalty": 578.68,
+          "total": 3659.34
+        },
+        {
+          "year": 2023,
+          "tax": 1784.11,
+          "penalties_interest": 820.7,
+          "collection_penalty": 486.36,
+          "total": 3091.17
+        },
+        {
+          "year": 2024,
+          "tax": 2223.34,
+          "penalties_interest": 733.7,
+          "collection_penalty": 548.4,
+          "total": 3505.44
+        },
+        {
+          "year": 2025,
+          "tax": 2709.91,
+          "penalties_interest": 596.19,
+          "collection_penalty": 612.32,
+          "total": 3918.42
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0350080000019",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 37397.32,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0350080000019",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0350080000019",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 3918.42,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0350080000019",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 2709.91,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0350080000019",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 6628.33,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0350080000019",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "NEW FELLOWSHIP MISSIONARY BAPTIST CHURCH 3517 MARKET ST HOUSTON TX 77020 3517 MARKET ST TRS 3B 4A 5A 6B 7B & 8B BLK 4 TOM STUART",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0350080000019",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": 152950.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0350080000019",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

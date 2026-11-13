@@ -132,5 +132,117 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2019,
+          "tax": 12.23,
+          "penalties_interest": 11.5,
+          "collection_penalty": 4.36,
+          "total": 28.09
+        },
+        {
+          "year": 2020,
+          "tax": 1241.96,
+          "penalties_interest": 1018.41,
+          "collection_penalty": 413.75,
+          "total": 2674.12
+        },
+        {
+          "year": 2021,
+          "tax": 1396.59,
+          "penalties_interest": 977.62,
+          "collection_penalty": 435.19,
+          "total": 2809.4
+        },
+        {
+          "year": 2022,
+          "tax": 1511.46,
+          "penalties_interest": 876.65,
+          "collection_penalty": 435.79,
+          "total": 2823.9
+        },
+        {
+          "year": 2023,
+          "tax": 1827.36,
+          "penalties_interest": 840.58,
+          "collection_penalty": 487.37,
+          "total": 3155.31
+        },
+        {
+          "year": 2024,
+          "tax": 1886.11,
+          "penalties_interest": 641.29,
+          "collection_penalty": 459.64,
+          "total": 2987.04
+        },
+        {
+          "year": 2025,
+          "tax": 1837.79,
+          "penalties_interest": 404.32,
+          "collection_penalty": 407.46,
+          "total": 2649.57
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0771950030004",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 17127.43,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0771950030004",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0771950030004",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0771950030004",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 1837.79,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0771950030004",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 1837.79,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0771950030004",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "RANGEL EVARISTO CRUZ REYNA M 2510 5TH ST GALENA PARK TX 77547 2510 5TH ST LT 4 BLK 3 GALENA MANOR",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0771950030004",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0771950030004",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

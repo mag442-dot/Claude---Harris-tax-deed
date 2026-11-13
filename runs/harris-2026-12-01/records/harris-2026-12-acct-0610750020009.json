@@ -132,5 +132,75 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2023,
+          "tax": 81.23,
+          "penalties_interest": 37.36,
+          "collection_penalty": 17.79,
+          "total": 136.38
+        },
+        {
+          "year": 2024,
+          "tax": 491.2,
+          "penalties_interest": 167.02,
+          "collection_penalty": 98.74,
+          "total": 756.96
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0610750020009",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 893.34,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0610750020009",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0610750020009",
+      "retrieved_at": "2026-11-13",
+      "note": "el condado no lista los anios incluidos en la sentencia"
+    },
+    "post_judgment_taxes": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0610750020009",
+      "retrieved_at": "2026-11-13",
+      "note": "sin anios de sentencia no se puede separar"
+    },
+    "current_year_estimate": {
+      "value": 491.2,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0610750020009",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2024 as proxy for the 2025 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0610750020009",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "ESTRADA MARIA 302 N JONES ST BAYTOWN TX 77520 304 N JONES ST LTS 9 & 10 BLK 2 MARTIN (BAYTOWN)",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0610750020009",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0610750020009",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

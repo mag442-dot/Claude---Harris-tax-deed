@@ -132,5 +132,93 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2022,
+          "tax": 55.13,
+          "penalties_interest": 31.98,
+          "collection_penalty": 13.07,
+          "total": 100.18
+        },
+        {
+          "year": 2023,
+          "tax": 7628.05,
+          "penalties_interest": 3508.91,
+          "collection_penalty": 2005.09,
+          "total": 13142.05
+        },
+        {
+          "year": 2024,
+          "tax": 13773.74,
+          "penalties_interest": 4683.07,
+          "collection_penalty": 2617.51,
+          "total": 21074.32
+        },
+        {
+          "year": 2025,
+          "tax": 10765.4,
+          "penalties_interest": 2368.4,
+          "collection_penalty": 1849.41,
+          "total": 14983.21
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0670490060001",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 49299.76,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0670490060001",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0670490060001",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 36057.53,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0670490060001",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 10765.4,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0670490060001",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 46822.93,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0670490060001",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "BAINBRIDGE HOLDINGS LLC 1309 COFFEEN AVE STE 435 SHERIDAN WY 82801 747 W RITTENHOUSE RD TRS 1 2 & 3 BLK 6 MELROSE GARDENS",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0670490060001",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0670490060001",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

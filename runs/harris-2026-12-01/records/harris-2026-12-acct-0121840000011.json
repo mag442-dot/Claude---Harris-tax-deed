@@ -351,5 +351,70 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=0121840000011",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.274241,
+        "lat": 29.814108
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0121840000011)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 6794,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0121840000011)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~51 x 134 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0121840000011)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

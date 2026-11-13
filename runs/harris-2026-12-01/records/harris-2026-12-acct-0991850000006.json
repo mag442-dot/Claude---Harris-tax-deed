@@ -126,5 +126,94 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2022,
+          "tax": 92.79,
+          "penalties_interest": 53.83,
+          "collection_penalty": 25.98,
+          "total": 172.6
+        },
+        {
+          "year": 2023,
+          "tax": 193.93,
+          "penalties_interest": 89.2,
+          "collection_penalty": 50.1,
+          "total": 333.23
+        },
+        {
+          "year": 2024,
+          "tax": 206.22,
+          "penalties_interest": 70.12,
+          "collection_penalty": 48.46,
+          "total": 324.8
+        },
+        {
+          "year": 2025,
+          "tax": 209.32,
+          "penalties_interest": 46.06,
+          "collection_penalty": 44.69,
+          "total": 300.07
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0991850000006",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 1130.7,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0991850000006",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0991850000006",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0991850000006",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 209.32,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0991850000006",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 209.32,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0991850000006",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "VELASQUEZ OSCAR 8518 CARLISLE ST HOUSTON TX 77017 MIRABEAU DR LT 7 & S 1/2 OF LT 6 BLK 6 BELLEAU WOODS SEC 1 R/P",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0991850000006",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0991850000006",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

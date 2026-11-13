@@ -132,5 +132,157 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2014,
+          "tax": 80.85,
+          "penalties_interest": 124.51,
+          "collection_penalty": 41.07,
+          "total": 246.43
+        },
+        {
+          "year": 2015,
+          "tax": 79.91,
+          "penalties_interest": 113.48,
+          "collection_penalty": 38.68,
+          "total": 232.07
+        },
+        {
+          "year": 2016,
+          "tax": 80.47,
+          "penalties_interest": 104.61,
+          "collection_penalty": 37.01,
+          "total": 222.09
+        },
+        {
+          "year": 2017,
+          "tax": 80.46,
+          "penalties_interest": 94.94,
+          "collection_penalty": 35.08,
+          "total": 210.48
+        },
+        {
+          "year": 2018,
+          "tax": 111.92,
+          "penalties_interest": 118.63,
+          "collection_penalty": 46.13,
+          "total": 276.68
+        },
+        {
+          "year": 2019,
+          "tax": 109.38,
+          "penalties_interest": 102.82,
+          "collection_penalty": 34.89,
+          "total": 247.09
+        },
+        {
+          "year": 2020,
+          "tax": 106.62,
+          "penalties_interest": 87.43,
+          "collection_penalty": 31.87,
+          "total": 225.92
+        },
+        {
+          "year": 2021,
+          "tax": 115.71,
+          "penalties_interest": 80.99,
+          "collection_penalty": 32.16,
+          "total": 228.86
+        },
+        {
+          "year": 2022,
+          "tax": 119.92,
+          "penalties_interest": 69.56,
+          "collection_penalty": 31.07,
+          "total": 220.55
+        },
+        {
+          "year": 2023,
+          "tax": 261.92,
+          "penalties_interest": 120.49,
+          "collection_penalty": 62.43,
+          "total": 444.84
+        },
+        {
+          "year": 2024,
+          "tax": 292.6,
+          "penalties_interest": 99.48,
+          "collection_penalty": 63.75,
+          "total": 455.83
+        },
+        {
+          "year": 2025,
+          "tax": 299.78,
+          "penalties_interest": 65.95,
+          "collection_penalty": 59.36,
+          "total": 425.09
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0836200000021",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 3435.93,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0836200000021",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0836200000021",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0836200000021",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 299.78,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0836200000021",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 299.78,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0836200000021",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "RODRIQUEZ R F 7244 AVENUE J HOUSTON TX 77011 LAURELWOOD DR LT 21 BLK 1 FOREST RIVER ESTATES",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0836200000021",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0836200000021",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

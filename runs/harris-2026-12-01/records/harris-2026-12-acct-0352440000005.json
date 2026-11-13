@@ -126,5 +126,82 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2023,
+          "tax": 9044.98,
+          "penalties_interest": 4160.67,
+          "collection_penalty": 1939.7,
+          "total": 15145.35
+        },
+        {
+          "year": 2024,
+          "tax": 9457.04,
+          "penalties_interest": 3215.39,
+          "collection_penalty": 1797.18,
+          "total": 14469.61
+        },
+        {
+          "year": 2025,
+          "tax": 12644.11,
+          "penalties_interest": 2781.7,
+          "collection_penalty": 2172.15,
+          "total": 17597.96
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0352440000005",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 47212.92,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0352440000005",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0352440000005",
+      "retrieved_at": "2026-11-13",
+      "note": "el condado no lista los anios incluidos en la sentencia"
+    },
+    "post_judgment_taxes": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0352440000005",
+      "retrieved_at": "2026-11-13",
+      "note": "sin anios de sentencia no se puede separar"
+    },
+    "current_year_estimate": {
+      "value": 12644.11,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0352440000005",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0352440000005",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "LA MONARCA INV PLUS MANAGEMENT GROUP LLC 909 HIGH RIDGE DR FRIENDSWOOD TX 77546 1611 STEVENS ST 4 TRS 5 6 7 & 8A T & N O MACHINE SHOPS",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0352440000005",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": 610581.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0352440000005",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

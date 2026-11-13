@@ -132,5 +132,96 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2021,
+          "tax": 84.49,
+          "penalties_interest": 59.15,
+          "collection_penalty": 22.6,
+          "total": 166.24
+        },
+        {
+          "year": 2022,
+          "tax": 78.23,
+          "penalties_interest": 45.38,
+          "collection_penalty": 19.51,
+          "total": 143.12
+        },
+        {
+          "year": 2023,
+          "tax": 215.03,
+          "penalties_interest": 98.91,
+          "collection_penalty": 49.57,
+          "total": 363.51
+        },
+        {
+          "year": 2024,
+          "tax": 239.94,
+          "penalties_interest": 81.58,
+          "collection_penalty": 50.5,
+          "total": 372.02
+        },
+        {
+          "year": 2025,
+          "tax": 296.16,
+          "penalties_interest": 65.16,
+          "collection_penalty": 56.67,
+          "total": 417.99
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0591510010220",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 1462.88,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0591510010220",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0591510010220",
+      "retrieved_at": "2026-11-13",
+      "note": "el condado no lista los anios incluidos en la sentencia"
+    },
+    "post_judgment_taxes": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0591510010220",
+      "retrieved_at": "2026-11-13",
+      "note": "sin anios de sentencia no se puede separar"
+    },
+    "current_year_estimate": {
+      "value": 296.16,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0591510010220",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0591510010220",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "DURAN JOSHUA J 1404 COYOTE LN BAYTOWN TX 77521 MORELOS RD TR 29F BLK 23 HIGHLAND FARMS",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0591510010220",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0591510010220",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

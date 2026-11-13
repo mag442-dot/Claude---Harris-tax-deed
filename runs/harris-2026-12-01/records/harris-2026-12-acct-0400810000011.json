@@ -132,5 +132,103 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2020,
+          "tax": 5453.75,
+          "penalties_interest": 4472.09,
+          "collection_penalty": 1858.04,
+          "total": 11783.88
+        },
+        {
+          "year": 2021,
+          "tax": 3370.09,
+          "penalties_interest": 2359.06,
+          "collection_penalty": 1071.01,
+          "total": 6800.16
+        },
+        {
+          "year": 2022,
+          "tax": 452.33,
+          "penalties_interest": 262.35,
+          "collection_penalty": 133.74,
+          "total": 848.42
+        },
+        {
+          "year": 2023,
+          "tax": 594.51,
+          "penalties_interest": 273.47,
+          "collection_penalty": 160.53,
+          "total": 1028.51
+        },
+        {
+          "year": 2024,
+          "tax": 4936.47,
+          "penalties_interest": 1678.4,
+          "collection_penalty": 992.24,
+          "total": 7607.11
+        },
+        {
+          "year": 2025,
+          "tax": 9951.82,
+          "penalties_interest": 2189.39,
+          "collection_penalty": 2248.6,
+          "total": 14389.81
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0400810000011",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 42457.89,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0400810000011",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0400810000011",
+      "retrieved_at": "2026-11-13",
+      "note": "el condado no lista los anios incluidos en la sentencia"
+    },
+    "post_judgment_taxes": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0400810000011",
+      "retrieved_at": "2026-11-13",
+      "note": "sin anios de sentencia no se puede separar"
+    },
+    "current_year_estimate": {
+      "value": 9951.82,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0400810000011",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0400810000011",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "MENDIOLA SILVIA 307 LINK RD HOUSTON TX 77009 307 LINK RD TRS 5A 5B & 11A GERMANTOWN LINK RD TRACT ABST 1 J AUSTIN",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0400810000011",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": 489163.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0400810000011",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

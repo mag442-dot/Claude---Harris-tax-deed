@@ -132,5 +132,101 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2021,
+          "tax": 1994.83,
+          "penalties_interest": 1396.38,
+          "collection_penalty": 602.07,
+          "total": 3993.28
+        },
+        {
+          "year": 2022,
+          "tax": 1871.91,
+          "penalties_interest": 1085.69,
+          "collection_penalty": 526.85,
+          "total": 3484.45
+        },
+        {
+          "year": 2023,
+          "tax": 3669.71,
+          "penalties_interest": 1688.07,
+          "collection_penalty": 952.14,
+          "total": 6309.92
+        },
+        {
+          "year": 2024,
+          "tax": 3921.21,
+          "penalties_interest": 1333.21,
+          "collection_penalty": 926.22,
+          "total": 6180.64
+        },
+        {
+          "year": 2025,
+          "tax": 3982.3,
+          "penalties_interest": 876.11,
+          "collection_penalty": 854.4,
+          "total": 5712.81
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0612110000035",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 25681.1,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0612110000035",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0612110000035",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0612110000035",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 3982.3,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0612110000035",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 3982.3,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0612110000035",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "YEPEZ LEON ESTATE % MARIE PADILLA 7350 CAMINO VERDE DR HOUSTON TX 77083 818 GENOA RED BLUFF RD TR 21B BLK 2 ROSS J O",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0612110000035",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0612110000035",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

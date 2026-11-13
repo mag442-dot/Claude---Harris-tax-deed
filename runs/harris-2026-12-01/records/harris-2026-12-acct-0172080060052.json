@@ -132,5 +132,125 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2018,
+          "tax": 68.36,
+          "penalties_interest": 72.47,
+          "collection_penalty": 28.16,
+          "total": 168.99
+        },
+        {
+          "year": 2019,
+          "tax": 130.83,
+          "penalties_interest": 122.97,
+          "collection_penalty": 46.92,
+          "total": 300.72
+        },
+        {
+          "year": 2020,
+          "tax": 387.59,
+          "penalties_interest": 317.83,
+          "collection_penalty": 130.47,
+          "total": 835.89
+        },
+        {
+          "year": 2021,
+          "tax": 501.19,
+          "penalties_interest": 350.83,
+          "collection_penalty": 157.26,
+          "total": 1009.28
+        },
+        {
+          "year": 2022,
+          "tax": 470.48,
+          "penalties_interest": 272.86,
+          "collection_penalty": 137.51,
+          "total": 880.85
+        },
+        {
+          "year": 2023,
+          "tax": 636.48,
+          "penalties_interest": 292.77,
+          "collection_penalty": 170.41,
+          "total": 1099.66
+        },
+        {
+          "year": 2024,
+          "tax": 667.81,
+          "penalties_interest": 227.07,
+          "collection_penalty": 162.84,
+          "total": 1057.72
+        },
+        {
+          "year": 2025,
+          "tax": 681.07,
+          "penalties_interest": 149.83,
+          "collection_penalty": 151.02,
+          "total": 981.92
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0172080060052",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 6335.03,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0172080060052",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0172080060052",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0172080060052",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 681.07,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0172080060052",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 681.07,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0172080060052",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "AVILES GUILLERMINO AVILES SEVERO PO BOX 112088 HOUSTON TX 77293 E MOUNT HOUSTON RD TR 12D BLK 6 HOUSTON SUBURBAN HEIGHTS",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0172080060052",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0172080060052",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

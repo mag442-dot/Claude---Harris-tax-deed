@@ -126,5 +126,223 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2006,
+          "tax": 1090.73,
+          "penalties_interest": 2705.01,
+          "collection_penalty": 759.15,
+          "total": 4554.89
+        },
+        {
+          "year": 2007,
+          "tax": 1002.09,
+          "penalties_interest": 2384.97,
+          "collection_penalty": 677.41,
+          "total": 4064.47
+        },
+        {
+          "year": 2008,
+          "tax": 1000.09,
+          "penalties_interest": 2260.2,
+          "collection_penalty": 652.04,
+          "total": 3912.33
+        },
+        {
+          "year": 2009,
+          "tax": 1000.09,
+          "penalties_interest": 2140.2,
+          "collection_penalty": 628.06,
+          "total": 3768.35
+        },
+        {
+          "year": 2010,
+          "tax": 1000.3,
+          "penalties_interest": 2020.6,
+          "collection_penalty": 604.17,
+          "total": 3625.07
+        },
+        {
+          "year": 2011,
+          "tax": 1002.28,
+          "penalties_interest": 1904.35,
+          "collection_penalty": 581.33,
+          "total": 3487.96
+        },
+        {
+          "year": 2012,
+          "tax": 861.55,
+          "penalties_interest": 1533.57,
+          "collection_penalty": 479.02,
+          "total": 2874.14
+        },
+        {
+          "year": 2013,
+          "tax": 871.69,
+          "penalties_interest": 1447.01,
+          "collection_penalty": 463.73,
+          "total": 2782.43
+        },
+        {
+          "year": 2014,
+          "tax": 875.66,
+          "penalties_interest": 1348.51,
+          "collection_penalty": 444.83,
+          "total": 2669.0
+        },
+        {
+          "year": 2015,
+          "tax": 863.59,
+          "penalties_interest": 1226.3,
+          "collection_penalty": 417.99,
+          "total": 2507.88
+        },
+        {
+          "year": 2016,
+          "tax": 810.93,
+          "penalties_interest": 1054.21,
+          "collection_penalty": 373.02,
+          "total": 2238.16
+        },
+        {
+          "year": 2017,
+          "tax": 810.23,
+          "penalties_interest": 956.07,
+          "collection_penalty": 353.26,
+          "total": 2119.56
+        },
+        {
+          "year": 2018,
+          "tax": 811.54,
+          "penalties_interest": 860.22,
+          "collection_penalty": 334.35,
+          "total": 2006.11
+        },
+        {
+          "year": 2019,
+          "tax": 1002.3,
+          "penalties_interest": 942.17,
+          "collection_penalty": 364.76,
+          "total": 2309.23
+        },
+        {
+          "year": 2020,
+          "tax": 993.11,
+          "penalties_interest": 814.35,
+          "collection_penalty": 339.3,
+          "total": 2146.76
+        },
+        {
+          "year": 2021,
+          "tax": 1024.45,
+          "penalties_interest": 717.11,
+          "collection_penalty": 326.41,
+          "total": 2067.97
+        },
+        {
+          "year": 2022,
+          "tax": 649.22,
+          "penalties_interest": 376.55,
+          "collection_penalty": 192.68,
+          "total": 1218.45
+        },
+        {
+          "year": 2023,
+          "tax": 792.08,
+          "penalties_interest": 364.37,
+          "collection_penalty": 215.93,
+          "total": 1372.38
+        },
+        {
+          "year": 2024,
+          "tax": 987.04,
+          "penalties_interest": 335.6,
+          "collection_penalty": 245.28,
+          "total": 1567.92
+        },
+        {
+          "year": 2025,
+          "tax": 1058.26,
+          "penalties_interest": 232.82,
+          "collection_penalty": 239.11,
+          "total": 1530.19
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0402500020034",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 52823.25,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0402500020034",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0402500020034",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 26536.04,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0402500020034",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 1058.26,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0402500020034",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 27594.3,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0402500020034",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "BROWN EUGENE ADDRESS UNKNOWN UNKNOWN 0 8120 HIRSCH RD LT 34 WEAVER PLACE SEC 2 U/R ABST 32 HARRIS & WILSON",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0402500020034",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0402500020034",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

@@ -132,5 +132,21 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
-  }
+  },
+  "tax": {
+    "tax_statement": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1152970010029",
+      "retrieved_at": "2026-11-13",
+      "note": "El condado no produjo estado de cuenta (cuenta no certificada, inexistente o error)."
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "tax",
+      "item": "Pedir estado de cuenta de 1152970010029 al Tax Office (713-274-8120)",
+      "why": "statement no disponible en hctax.net"
+    }
+  ]
 }

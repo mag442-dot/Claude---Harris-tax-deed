@@ -132,5 +132,82 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2023,
+          "tax": 386.51,
+          "penalties_interest": 177.8,
+          "collection_penalty": 94.08,
+          "total": 658.39
+        },
+        {
+          "year": 2024,
+          "tax": 1745.06,
+          "penalties_interest": 593.32,
+          "collection_penalty": 384.34,
+          "total": 2722.72
+        },
+        {
+          "year": 2025,
+          "tax": 1734.57,
+          "penalties_interest": 381.61,
+          "collection_penalty": 317.44,
+          "total": 2433.62
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1268150010093",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 5814.73,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1268150010093",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1268150010093",
+      "retrieved_at": "2026-11-13",
+      "note": "el condado no lista los anios incluidos en la sentencia"
+    },
+    "post_judgment_taxes": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1268150010093",
+      "retrieved_at": "2026-11-13",
+      "note": "sin anios de sentencia no se puede separar"
+    },
+    "current_year_estimate": {
+      "value": 1734.57,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1268150010093",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1268150010093",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "ALMENDARES ADALID A GOMEZ ALVARADO D V REYES 21218 AMBERGRIS CT HUMBLE TX 77338 21218 AMBERGRIS CT LT 93 BLK 1 KENSWICK MEADOWS AMEND",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1268150010093",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1268150010093",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

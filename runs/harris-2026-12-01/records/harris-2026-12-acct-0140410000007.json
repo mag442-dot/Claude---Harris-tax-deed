@@ -132,5 +132,91 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2020,
+          "tax": 106.81,
+          "penalties_interest": 87.59,
+          "collection_penalty": 36.49,
+          "total": 230.89
+        },
+        {
+          "year": 2021,
+          "tax": 343.28,
+          "penalties_interest": 240.29,
+          "collection_penalty": 109.37,
+          "total": 692.94
+        },
+        {
+          "year": 2024,
+          "tax": 1090.58,
+          "penalties_interest": 370.8,
+          "collection_penalty": 207.24,
+          "total": 1668.62
+        },
+        {
+          "year": 2025,
+          "tax": 1107.71,
+          "penalties_interest": 243.68,
+          "collection_penalty": 190.3,
+          "total": 1541.69
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0140410000007",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 4134.14,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0140410000007",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2020,
+        2021
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0140410000007",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 3210.31,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0140410000007",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 1107.71,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0140410000007",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 4318.02,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0140410000007",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "JEFFERSON SEAN 3116 NANCE ST HOUSTON TX 77020 5301 LIBERTY RD LT 7 BLK 9 FAIRGROUNDS PARK",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0140410000007",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0140410000007",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

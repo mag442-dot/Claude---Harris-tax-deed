@@ -132,5 +132,84 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2023,
+          "tax": 2342.09,
+          "penalties_interest": 1077.37,
+          "collection_penalty": 564.67,
+          "total": 3984.13
+        },
+        {
+          "year": 2024,
+          "tax": 2236.99,
+          "penalties_interest": 760.57,
+          "collection_penalty": 492.51,
+          "total": 3490.07
+        },
+        {
+          "year": 2025,
+          "tax": 2252.88,
+          "penalties_interest": 495.62,
+          "collection_penalty": 153.69,
+          "total": 2902.19
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1241140020017",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 10376.39,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1241140020017",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2023,
+        2024
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1241140020017",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 2902.19,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1241140020017",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 2252.88,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1241140020017",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 5155.07,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1241140020017",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "INSTINCT INVESTMENTS LLC 110 SAN ANTONIO ST UNIT 938 AUSTIN TX 78701 622 REGAL HOLLOW LN LT 17 BLK 2 IMPERIAL RIDGE SEC 1",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1241140020017",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1241140020017",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

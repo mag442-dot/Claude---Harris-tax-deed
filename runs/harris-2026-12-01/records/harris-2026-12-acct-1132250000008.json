@@ -132,5 +132,192 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2006,
+          "tax": 867.48,
+          "penalties_interest": 1713.99,
+          "collection_penalty": 432.01,
+          "total": 3013.48
+        },
+        {
+          "year": 2007,
+          "tax": 583.08,
+          "penalties_interest": 1082.13,
+          "collection_penalty": 276.38,
+          "total": 1941.59
+        },
+        {
+          "year": 2008,
+          "tax": 825.14,
+          "penalties_interest": 1432.29,
+          "collection_penalty": 371.31,
+          "total": 2628.74
+        },
+        {
+          "year": 2009,
+          "tax": 807.72,
+          "penalties_interest": 1305.15,
+          "collection_penalty": 344.09,
+          "total": 2456.96
+        },
+        {
+          "year": 2010,
+          "tax": 807.89,
+          "penalties_interest": 1208.5,
+          "collection_penalty": 324.77,
+          "total": 2341.16
+        },
+        {
+          "year": 2011,
+          "tax": 593.25,
+          "penalties_interest": 816.21,
+          "collection_penalty": 224.25,
+          "total": 1633.71
+        },
+        {
+          "year": 2012,
+          "tax": 593.26,
+          "penalties_interest": 745.03,
+          "collection_penalty": 210.02,
+          "total": 1548.31
+        },
+        {
+          "year": 2013,
+          "tax": 760.18,
+          "penalties_interest": 863.43,
+          "collection_penalty": 250.86,
+          "total": 1874.47
+        },
+        {
+          "year": 2014,
+          "tax": 867.47,
+          "penalties_interest": 881.2,
+          "collection_penalty": 265.45,
+          "total": 2014.12
+        },
+        {
+          "year": 2019,
+          "tax": 1530.5,
+          "penalties_interest": 711.67,
+          "collection_penalty": 413.43,
+          "total": 2655.6
+        },
+        {
+          "year": 2020,
+          "tax": 1596.26,
+          "penalties_interest": 742.26,
+          "collection_penalty": 431.51,
+          "total": 2770.03
+        },
+        {
+          "year": 2021,
+          "tax": 1432.29,
+          "penalties_interest": 672.0,
+          "collection_penalty": 386.55,
+          "total": 2490.84
+        },
+        {
+          "year": 2022,
+          "tax": 1784.66,
+          "penalties_interest": 829.87,
+          "collection_penalty": 482.75,
+          "total": 3097.28
+        },
+        {
+          "year": 2023,
+          "tax": 1831.79,
+          "penalties_interest": 821.26,
+          "collection_penalty": 492.54,
+          "total": 3145.59
+        },
+        {
+          "year": 2024,
+          "tax": 1902.3,
+          "penalties_interest": 646.78,
+          "collection_penalty": 472.74,
+          "total": 3021.82
+        },
+        {
+          "year": 2025,
+          "tax": 1960.87,
+          "penalties_interest": 431.39,
+          "collection_penalty": 336.86,
+          "total": 2729.12
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1132250000008",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 39362.82,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1132250000008",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1132250000008",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 2729.12,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1132250000008",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 1960.87,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1132250000008",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 4689.99,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1132250000008",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "CALFAT STELLA M 2100 WILCREST DR APT 124 HOUSTON TX 77042 2100 WILCREST DR 124 UNIT 124 BLDG B .004400 INT COMMON LAND & ELE LAKECREST CONDO PH 1",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1132250000008",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": 76190.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=1132250000008",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

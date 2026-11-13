@@ -132,5 +132,253 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2002,
+          "tax": 16.17,
+          "penalties_interest": 48.2,
+          "collection_penalty": 12.86,
+          "total": 77.23
+        },
+        {
+          "year": 2003,
+          "tax": 16.28,
+          "penalties_interest": 46.57,
+          "collection_penalty": 12.56,
+          "total": 75.41
+        },
+        {
+          "year": 2004,
+          "tax": 16.23,
+          "penalties_interest": 44.47,
+          "collection_penalty": 12.14,
+          "total": 72.84
+        },
+        {
+          "year": 2005,
+          "tax": 16.2,
+          "penalties_interest": 41.8,
+          "collection_penalty": 11.6,
+          "total": 69.6
+        },
+        {
+          "year": 2006,
+          "tax": 16.13,
+          "penalties_interest": 40.0,
+          "collection_penalty": 11.22,
+          "total": 67.35
+        },
+        {
+          "year": 2007,
+          "tax": 23.95,
+          "penalties_interest": 57.0,
+          "collection_penalty": 16.2,
+          "total": 97.15
+        },
+        {
+          "year": 2008,
+          "tax": 23.78,
+          "penalties_interest": 53.75,
+          "collection_penalty": 15.51,
+          "total": 93.04
+        },
+        {
+          "year": 2009,
+          "tax": 23.78,
+          "penalties_interest": 50.88,
+          "collection_penalty": 14.93,
+          "total": 89.59
+        },
+        {
+          "year": 2010,
+          "tax": 23.92,
+          "penalties_interest": 48.32,
+          "collection_penalty": 14.45,
+          "total": 86.69
+        },
+        {
+          "year": 2011,
+          "tax": 23.98,
+          "penalties_interest": 45.56,
+          "collection_penalty": 13.91,
+          "total": 83.45
+        },
+        {
+          "year": 2012,
+          "tax": 23.97,
+          "penalties_interest": 42.68,
+          "collection_penalty": 13.34,
+          "total": 79.99
+        },
+        {
+          "year": 2013,
+          "tax": 23.89,
+          "penalties_interest": 39.65,
+          "collection_penalty": 12.71,
+          "total": 76.25
+        },
+        {
+          "year": 2014,
+          "tax": 118.17,
+          "penalties_interest": 181.98,
+          "collection_penalty": 60.02,
+          "total": 360.17
+        },
+        {
+          "year": 2015,
+          "tax": 115.52,
+          "penalties_interest": 164.04,
+          "collection_penalty": 55.92,
+          "total": 335.48
+        },
+        {
+          "year": 2016,
+          "tax": 114.23,
+          "penalties_interest": 148.52,
+          "collection_penalty": 52.55,
+          "total": 315.3
+        },
+        {
+          "year": 2017,
+          "tax": 76.01,
+          "penalties_interest": 89.68,
+          "collection_penalty": 33.14,
+          "total": 198.83
+        },
+        {
+          "year": 2018,
+          "tax": 76.26,
+          "penalties_interest": 80.84,
+          "collection_penalty": 31.41,
+          "total": 188.51
+        },
+        {
+          "year": 2019,
+          "tax": 74.03,
+          "penalties_interest": 69.58,
+          "collection_penalty": 25.38,
+          "total": 168.99
+        },
+        {
+          "year": 2020,
+          "tax": 72.97,
+          "penalties_interest": 59.85,
+          "collection_penalty": 23.5,
+          "total": 156.32
+        },
+        {
+          "year": 2021,
+          "tax": 71.31,
+          "penalties_interest": 49.91,
+          "collection_penalty": 21.4,
+          "total": 142.62
+        },
+        {
+          "year": 2022,
+          "tax": 67.42,
+          "penalties_interest": 39.11,
+          "collection_penalty": 18.89,
+          "total": 125.42
+        },
+        {
+          "year": 2023,
+          "tax": 66.55,
+          "penalties_interest": 30.6,
+          "collection_penalty": 17.19,
+          "total": 114.34
+        },
+        {
+          "year": 2024,
+          "tax": 70.76,
+          "penalties_interest": 24.05,
+          "collection_penalty": 16.63,
+          "total": 111.44
+        },
+        {
+          "year": 2025,
+          "tax": 79.79,
+          "penalties_interest": 17.55,
+          "collection_penalty": 17.27,
+          "total": 114.61
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0431760000310",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 3300.62,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0431760000310",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0431760000310",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0431760000310",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 79.79,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0431760000310",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 79.79,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0431760000310",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "ANDSZEI GEDYMIN ADDRESS UNKNOWN HOUSTON TX 77005 PINE BURR RD TR 28 ABST 510 S LEWIS",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0431760000310",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0431760000310",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

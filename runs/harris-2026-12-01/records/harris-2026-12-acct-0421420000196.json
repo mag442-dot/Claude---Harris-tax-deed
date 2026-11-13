@@ -132,5 +132,86 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2022,
+          "tax": 1898.51,
+          "penalties_interest": 1101.15,
+          "collection_penalty": 559.7,
+          "total": 3559.36
+        },
+        {
+          "year": 2023,
+          "tax": 14847.74,
+          "penalties_interest": 6829.96,
+          "collection_penalty": 4012.33,
+          "total": 25690.03
+        },
+        {
+          "year": 2024,
+          "tax": 7546.11,
+          "penalties_interest": 2565.67,
+          "collection_penalty": 1857.11,
+          "total": 11968.89
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0421420000196",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 41218.28,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0421420000196",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0421420000196",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0421420000196",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 7546.11,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0421420000196",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2024 as proxy for the 2025 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 7546.11,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0421420000196",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "CHAMBERS PROPERTIES 8903 HUFSMITH KUYKENDAHL RD TOMBALL TX 77375 5902 SPRING STUEBNER RD 17 TR 8A-1 A-1 ABST 280 L GOSLING",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0421420000196",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0421420000196",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

@@ -132,5 +132,119 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2020,
+          "tax": 244.49,
+          "penalties_interest": 200.49,
+          "collection_penalty": 74.58,
+          "total": 519.56
+        },
+        {
+          "year": 2021,
+          "tax": 399.3,
+          "penalties_interest": 279.52,
+          "collection_penalty": 113.36,
+          "total": 792.18
+        },
+        {
+          "year": 2022,
+          "tax": 461.97,
+          "penalties_interest": 267.94,
+          "collection_penalty": 121.01,
+          "total": 850.92
+        },
+        {
+          "year": 2023,
+          "tax": 542.64,
+          "penalties_interest": 249.62,
+          "collection_penalty": 132.77,
+          "total": 925.03
+        },
+        {
+          "year": 2024,
+          "tax": 556.36,
+          "penalties_interest": 189.16,
+          "collection_penalty": 123.9,
+          "total": 869.42
+        },
+        {
+          "year": 2025,
+          "tax": 710.47,
+          "penalties_interest": 156.31,
+          "collection_penalty": 143.72,
+          "total": 1010.5
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0780290130015",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 4967.61,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0780290130015",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0780290130015",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0780290130015",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 710.47,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0780290130015",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 710.47,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0780290130015",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "KIRK MARIE 5400 HERITAGE TREE LN APT 1003 CITRUS HEIGHTS CA 95610 2910 BERTRAND ST LT 15 BLK 13 MARY FRANCIS",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0780290130015",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0780290130015",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

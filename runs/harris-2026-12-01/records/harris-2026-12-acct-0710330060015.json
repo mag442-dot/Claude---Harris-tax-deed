@@ -132,5 +132,116 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2019,
+          "tax": 1054.63,
+          "penalties_interest": 991.35,
+          "collection_penalty": 383.81,
+          "total": 2429.79
+        },
+        {
+          "year": 2020,
+          "tax": 2399.39,
+          "penalties_interest": 1967.49,
+          "collection_penalty": 819.76,
+          "total": 5186.64
+        },
+        {
+          "year": 2021,
+          "tax": 2913.33,
+          "penalties_interest": 2039.33,
+          "collection_penalty": 928.23,
+          "total": 5880.89
+        },
+        {
+          "year": 2022,
+          "tax": 3082.65,
+          "penalties_interest": 1787.95,
+          "collection_penalty": 914.9,
+          "total": 5785.5
+        },
+        {
+          "year": 2023,
+          "tax": 3022.24,
+          "penalties_interest": 1390.23,
+          "collection_penalty": 823.92,
+          "total": 5236.39
+        },
+        {
+          "year": 2024,
+          "tax": 3138.56,
+          "penalties_interest": 1067.11,
+          "collection_penalty": 779.98,
+          "total": 4985.65
+        },
+        {
+          "year": 2025,
+          "tax": 3187.84,
+          "penalties_interest": 701.32,
+          "collection_penalty": 547.64,
+          "total": 4436.8
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710330060015",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 33941.66,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710330060015",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710330060015",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 4436.8,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710330060015",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 3187.84,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710330060015",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 7624.64,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710330060015",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "GAY EARL ESTATE C/O ANN NORSWORTHY-IND EXEC 16211 APRIL RIDGE DR HOUSTON TX 77083 8720 WINDSWEPT LN TR 15 BLK 6 BLOSSOM HEIGHTS",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710330060015",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0710330060015",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

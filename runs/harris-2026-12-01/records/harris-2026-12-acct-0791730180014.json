@@ -132,5 +132,123 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2018,
+          "tax": 221.45,
+          "penalties_interest": 234.75,
+          "collection_penalty": 91.23,
+          "total": 547.43
+        },
+        {
+          "year": 2019,
+          "tax": 711.33,
+          "penalties_interest": 668.65,
+          "collection_penalty": 258.88,
+          "total": 1638.86
+        },
+        {
+          "year": 2020,
+          "tax": 709.59,
+          "penalties_interest": 581.86,
+          "collection_penalty": 242.44,
+          "total": 1533.89
+        },
+        {
+          "year": 2021,
+          "tax": 880.75,
+          "penalties_interest": 616.53,
+          "collection_penalty": 280.61,
+          "total": 1777.89
+        },
+        {
+          "year": 2022,
+          "tax": 832.06,
+          "penalties_interest": 482.58,
+          "collection_penalty": 246.94,
+          "total": 1561.58
+        },
+        {
+          "year": 2023,
+          "tax": 1221.15,
+          "penalties_interest": 560.36,
+          "collection_penalty": 332.08,
+          "total": 2113.59
+        },
+        {
+          "year": 2024,
+          "tax": 1265.07,
+          "penalties_interest": 430.13,
+          "collection_penalty": 240.41,
+          "total": 1935.61
+        },
+        {
+          "year": 2025,
+          "tax": 1541.92,
+          "penalties_interest": 339.23,
+          "collection_penalty": 264.89,
+          "total": 2146.04
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0791730180014",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 13254.89,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0791730180014",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0791730180014",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 4081.65,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0791730180014",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 1541.92,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0791730180014",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 5623.57,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0791730180014",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "AMEZGUITA DORA Z 12132 ZAVALLA ST HOUSTON TX 77085 LOMALINDA AVE LT 14 BLK 18 SOUTH MAIN PLAZA",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0791730180014",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": 87064.0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0791730180014",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

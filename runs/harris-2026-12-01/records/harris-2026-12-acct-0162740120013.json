@@ -132,5 +132,171 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2011,
+          "tax": 138.14,
+          "penalties_interest": 262.47,
+          "collection_penalty": 80.12,
+          "total": 480.73
+        },
+        {
+          "year": 2012,
+          "tax": 151.76,
+          "penalties_interest": 270.14,
+          "collection_penalty": 84.38,
+          "total": 506.28
+        },
+        {
+          "year": 2015,
+          "tax": 152.12,
+          "penalties_interest": 216.01,
+          "collection_penalty": 73.62,
+          "total": 441.75
+        },
+        {
+          "year": 2016,
+          "tax": 151.72,
+          "penalties_interest": 197.24,
+          "collection_penalty": 69.79,
+          "total": 418.75
+        },
+        {
+          "year": 2017,
+          "tax": 151.58,
+          "penalties_interest": 178.87,
+          "collection_penalty": 66.09,
+          "total": 396.54
+        },
+        {
+          "year": 2018,
+          "tax": 151.82,
+          "penalties_interest": 160.93,
+          "collection_penalty": 62.55,
+          "total": 375.3
+        },
+        {
+          "year": 2019,
+          "tax": 145.3,
+          "penalties_interest": 136.58,
+          "collection_penalty": 52.89,
+          "total": 334.77
+        },
+        {
+          "year": 2020,
+          "tax": 359.92,
+          "penalties_interest": 295.14,
+          "collection_penalty": 122.97,
+          "total": 778.03
+        },
+        {
+          "year": 2021,
+          "tax": 576.85,
+          "penalties_interest": 403.79,
+          "collection_penalty": 183.79,
+          "total": 1164.43
+        },
+        {
+          "year": 2022,
+          "tax": 726.63,
+          "penalties_interest": 421.45,
+          "collection_penalty": 215.66,
+          "total": 1363.74
+        },
+        {
+          "year": 2023,
+          "tax": 906.66,
+          "penalties_interest": 417.06,
+          "collection_penalty": 247.17,
+          "total": 1570.89
+        },
+        {
+          "year": 2024,
+          "tax": 941.58,
+          "penalties_interest": 320.13,
+          "collection_penalty": 234.0,
+          "total": 1495.71
+        },
+        {
+          "year": 2025,
+          "tax": 956.36,
+          "penalties_interest": 210.4,
+          "collection_penalty": 216.1,
+          "total": 1382.86
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0162740120013",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 10709.78,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0162740120013",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0162740120013",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0162740120013",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 956.36,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0162740120013",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 956.36,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0162740120013",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "CHIRCA NICUSOR PO BOX 314 SEALY TX 77474 COUCH ST LT 13 BLK 12 HIGHLAND HEIGHTS",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0162740120013",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0162740120013",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

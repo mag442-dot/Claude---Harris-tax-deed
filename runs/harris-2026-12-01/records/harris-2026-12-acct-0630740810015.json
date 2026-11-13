@@ -132,5 +132,157 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2014,
+          "tax": 81.83,
+          "penalties_interest": 126.01,
+          "collection_penalty": 41.57,
+          "total": 249.41
+        },
+        {
+          "year": 2015,
+          "tax": 80.0,
+          "penalties_interest": 113.59,
+          "collection_penalty": 38.72,
+          "total": 232.31
+        },
+        {
+          "year": 2016,
+          "tax": 126.56,
+          "penalties_interest": 164.54,
+          "collection_penalty": 58.21,
+          "total": 349.31
+        },
+        {
+          "year": 2017,
+          "tax": 126.35,
+          "penalties_interest": 149.1,
+          "collection_penalty": 55.08,
+          "total": 330.53
+        },
+        {
+          "year": 2018,
+          "tax": 126.74,
+          "penalties_interest": 134.35,
+          "collection_penalty": 52.22,
+          "total": 313.31
+        },
+        {
+          "year": 2019,
+          "tax": 153.8,
+          "penalties_interest": 144.57,
+          "collection_penalty": 52.75,
+          "total": 351.12
+        },
+        {
+          "year": 2020,
+          "tax": 151.59,
+          "penalties_interest": 124.31,
+          "collection_penalty": 48.8,
+          "total": 324.7
+        },
+        {
+          "year": 2021,
+          "tax": 148.15,
+          "penalties_interest": 103.71,
+          "collection_penalty": 44.45,
+          "total": 296.31
+        },
+        {
+          "year": 2022,
+          "tax": 336.14,
+          "penalties_interest": 194.96,
+          "collection_penalty": 94.14,
+          "total": 625.24
+        },
+        {
+          "year": 2023,
+          "tax": 674.04,
+          "penalties_interest": 310.05,
+          "collection_penalty": 174.16,
+          "total": 1158.25
+        },
+        {
+          "year": 2024,
+          "tax": 772.96,
+          "penalties_interest": 262.82,
+          "collection_penalty": 181.63,
+          "total": 1217.41
+        },
+        {
+          "year": 2025,
+          "tax": 784.61,
+          "penalties_interest": 172.61,
+          "collection_penalty": 167.46,
+          "total": 1124.68
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0630740810015",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 6572.58,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0630740810015",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0630740810015",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 0,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0630740810015",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 784.61,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0630740810015",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 784.61,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0630740810015",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "WALKER C W & ODESSA ESTATE DANA V DREXLER ATTORNEY 1010 LAMAR ST STE 1220 HOUSTON TX 77002 1110 DE SOTO ST TR 9B BLK 5 HIGHLAND HEIGHTS ANNEX SEC 10",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0630740810015",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0630740810015",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

@@ -132,5 +132,140 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2016,
+          "tax": 165.75,
+          "penalties_interest": 215.48,
+          "collection_penalty": 76.24,
+          "total": 457.47
+        },
+        {
+          "year": 2017,
+          "tax": 165.17,
+          "penalties_interest": 194.9,
+          "collection_penalty": 72.02,
+          "total": 432.09
+        },
+        {
+          "year": 2018,
+          "tax": 56.87,
+          "penalties_interest": 60.29,
+          "collection_penalty": 23.42,
+          "total": 140.58
+        },
+        {
+          "year": 2019,
+          "tax": 55.44,
+          "penalties_interest": 52.12,
+          "collection_penalty": 16.81,
+          "total": 124.37
+        },
+        {
+          "year": 2020,
+          "tax": 54.32,
+          "penalties_interest": 44.54,
+          "collection_penalty": 15.44,
+          "total": 114.3
+        },
+        {
+          "year": 2021,
+          "tax": 52.87,
+          "penalties_interest": 37.02,
+          "collection_penalty": 13.94,
+          "total": 103.83
+        },
+        {
+          "year": 2022,
+          "tax": 48.59,
+          "penalties_interest": 28.18,
+          "collection_penalty": 11.93,
+          "total": 88.7
+        },
+        {
+          "year": 2023,
+          "tax": 99.47,
+          "penalties_interest": 45.76,
+          "collection_penalty": 21.78,
+          "total": 167.01
+        },
+        {
+          "year": 2024,
+          "tax": 111.36,
+          "penalties_interest": 37.87,
+          "collection_penalty": 23.25,
+          "total": 172.48
+        },
+        {
+          "year": 2025,
+          "tax": 114.01,
+          "penalties_interest": 25.08,
+          "collection_penalty": 3.0,
+          "total": 142.09
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0402170000131",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 1942.92,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0402170000131",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0402170000131",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 142.09,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0402170000131",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 114.01,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0402170000131",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 256.1,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0402170000131",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "LADUE BARBARA 14833 PARISH RD CROSBY TX 77532 METHVIN RD TR 4C-1 OF TR 13 PARTITION OF HARVEY ESTATE ABST 17 M DUNCAN",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0402170000131",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0402170000131",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }

@@ -132,5 +132,148 @@
       "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2015,
+          "tax": 151.85,
+          "penalties_interest": 215.64,
+          "collection_penalty": 73.49,
+          "total": 440.98
+        },
+        {
+          "year": 2016,
+          "tax": 151.46,
+          "penalties_interest": 196.9,
+          "collection_penalty": 69.67,
+          "total": 418.03
+        },
+        {
+          "year": 2017,
+          "tax": 151.33,
+          "penalties_interest": 178.59,
+          "collection_penalty": 65.99,
+          "total": 395.91
+        },
+        {
+          "year": 2018,
+          "tax": 151.57,
+          "penalties_interest": 160.66,
+          "collection_penalty": 62.45,
+          "total": 374.68
+        },
+        {
+          "year": 2019,
+          "tax": 145.06,
+          "penalties_interest": 136.35,
+          "collection_penalty": 52.8,
+          "total": 334.21
+        },
+        {
+          "year": 2020,
+          "tax": 143.72,
+          "penalties_interest": 117.84,
+          "collection_penalty": 49.1,
+          "total": 310.66
+        },
+        {
+          "year": 2021,
+          "tax": 139.61,
+          "penalties_interest": 97.73,
+          "collection_penalty": 44.49,
+          "total": 281.83
+        },
+        {
+          "year": 2022,
+          "tax": 263.78,
+          "penalties_interest": 152.99,
+          "collection_penalty": 78.29,
+          "total": 495.06
+        },
+        {
+          "year": 2023,
+          "tax": 241.34,
+          "penalties_interest": 111.01,
+          "collection_penalty": 65.78,
+          "total": 418.13
+        },
+        {
+          "year": 2024,
+          "tax": 250.63,
+          "penalties_interest": 85.21,
+          "collection_penalty": 62.29,
+          "total": 398.13
+        },
+        {
+          "year": 2025,
+          "tax": 254.58,
+          "penalties_interest": 56.01,
+          "collection_penalty": 43.73,
+          "total": 354.32
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0432160000232",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 4221.94,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0432160000232",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0432160000232",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 354.32,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0432160000232",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 254.58,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0432160000232",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 608.9,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0432160000232",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "VICKERS WILMA APPELT 3106 ASPEN LAKE DR MANVEL TX 77578 W 43RD ST .25 U/D INT IN TR 14 (0.25 AC) ABST 550 S MOORE",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0432160000232",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0432160000232",
+      "retrieved_at": "2026-11-13"
+    }
   }
 }
