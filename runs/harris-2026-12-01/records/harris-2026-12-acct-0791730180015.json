@@ -429,6 +429,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de AMEZGUITA DORA Z (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisar con abogado/titulo antes de pujar: Pedir a abogado/titulo confirmar efecto de los deeds RP-2026-384120/384119 (titular actual, plazo de redencion, impuestos que se heredan)",
+      "why": "requiere imagen del Clerk, login o criterio de abogado (modo barato: sin busquedas nuevas)"
     }
   ],
   "valuation": {
@@ -516,16 +521,19 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $64,671 >= cierre esperado $48,314. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote vacio C1 de $95k HCAD con apertura de $500 (RESALE), fuera de homestead, sin zona inundable (X, 0% SFHA) y en ciudad de Houston. Hechos decisivos: (1) el Clerk muestra dos DEED del 09/22/2026 del dueno a los taxing units (RP-2026-384120/384119) sobre este lote, es decir el predio ya fue adjudicado a los taxing units y se revende; la cola de $5,624 y quien es hoy el titular deben confirmarse con abogado; (2) el cierre esperado de $48k es 96 veces la apertura y sale solo de una razon de lotes vendidos, sin comps. Legal bloqueado: no COMPRA FUERTE. Attorney review recommended.",
     "bid_ceiling": 64671.49,
     "all_in_cost_estimate": 59387.05,
-    "contradictions": [],
+    "contradictions": [
+      "HCAD $95,294 vs valor del condado $87,064 (-9%): el techo $64,671 usa el mayor; con el menor baja ~$7k",
+      "Deeds RP-2026-384120/384119 (09/22/2026) a taxing units posteriores a la sentencia (01/29/2025) mientras HCAD aun lista al dueno: consistente con adjudicacion previa de RESALE, pero el modelo de costos hereda $5,624 de impuestos sin considerar ese cambio de titular",
+      "Cierre esperado $48,314 vs apertura $500 / premium $544: la razon 0.507 viene de lotes de otra venta, no de resales de $500; techo y costo son teoricos"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Pedir a abogado/titulo confirmar efecto de los deeds RP-2026-384120/384119 (titular actual, plazo de redencion, impuestos que se heredan)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Pedir estado de cuenta actualizado de impuestos (hctax) justo antes de pujar; confirmar apertura final el 2026-12-01",
+      "Leer en el Clerk, con imagen, cualquier LIEN/A/J/L/P que coincida con la descripcion legal HCAD (solo hay indice por nombre)"
     ]
   }
 }

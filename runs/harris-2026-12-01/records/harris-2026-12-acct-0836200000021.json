@@ -577,6 +577,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de RODRIQUEZ R F (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisar con abogado/titulo antes de pujar: Repetir busqueda en el Clerk por descripcion legal (LT 21 BLK 1 FOREST RIVER ESTATES) o pedir titulo",
+      "why": "requiere imagen del Clerk, login o criterio de abogado (modo barato: sin busquedas nuevas)"
     }
   ],
   "valuation": {
@@ -664,16 +669,18 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $29,346 >= cierre esperado $21,881. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote vacio C3 de ~7,193 sf en Channelview (no incorporado), zona X, valor HCAD $43,158, cola de impuestos minima ($300) y TRCP 329 abierta hasta 2028-04-28. Hechos decisivos: (1) la apertura de $11,860 es 3.5 veces el total adeudado ($3,436), asi que esta mal entendida o incluye otras cuentas/costos; (2) la busqueda del Clerk por 'RODRIQUEZ R' devolvio 109 instrumentos y ninguno coincide con FOREST RIVER ESTATES, asi que no hay informacion de titulo real. Legal bloqueado; attorney review recommended.",
     "bid_ceiling": 29346.23,
     "all_in_cost_estimate": 26837.32,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $11,860 vs total adeudado $3,436 (3.5x): sin explicacion en el registro",
+      "Titulo: 109 filas (incluye LIEN, A/J, T/L) de otras personas llamadas Rodriquez; ninguna con descripcion FOREST RIVER ESTATES: el estado de gravamenes del predio es desconocido, no limpio"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Repetir busqueda en el Clerk por descripcion legal (LT 21 BLK 1 FOREST RIVER ESTATES) o pedir titulo",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Pedir estado de cuenta actualizado de impuestos (hctax) justo antes de pujar; confirmar apertura final el 2026-12-01",
+      "Leer en el Clerk, con imagen, cualquier LIEN/A/J/L/P que coincida con la descripcion legal HCAD (solo hay indice por nombre)"
     ]
   }
 }

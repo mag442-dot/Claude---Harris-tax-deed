@@ -14,5 +14,8 @@ etapa_final,detalle,tipo,cantidad
 3 Filtro automatico,"NO PARA DUPLEX: lote chico (<4,000 sqft) o mayormente en zona de inundacion especial",CASA/OTRO,3
 3 Filtro automatico,"NO PARA DUPLEX: lote chico (<4,000 sqft) o mayormente en zona de inundacion especial",LOTE,10
 "4 Paso filtros, sin revision de agente","casa: no revisada (la revision de agentes se hizo solo en lotes vacios, que es tu estrategia)",CASA/OTRO,24
-"4 Paso filtros, sin revision de agente",lote que paso pero no entro a la lista corta,LOTE,21
+"4 Paso filtros, sin revision de agente",lote que paso pero no entro a la lista corta,LOTE,7
+5 Revisada por agente,DESCARTADA o no apta: SOLO CERCA DE LA APERTURA,LOTE,1
+5 Revisada por agente,EN ESPERA (falta informacion clave),LOTE,1
+5 Revisada por agente,PASO (condicional a verificar pendientes),LOTE,12
 TOTAL lista oficial,,,157

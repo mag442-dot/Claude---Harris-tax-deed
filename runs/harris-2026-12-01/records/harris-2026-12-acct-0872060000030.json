@@ -412,6 +412,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de KEITH NELL ROSE ESTATE OF (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisar con abogado/titulo antes de pujar: Leer la imagen del AFFT RP-2021-443408 (afidavit de herederos?) y confirmar que la sucesion/herederos fueron demandados",
+      "why": "requiere imagen del Clerk, login o criterio de abogado (modo barato: sin busquedas nuevas)"
     }
   ],
   "valuation": {
@@ -499,16 +504,18 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $34,555 >= cierre esperado $26,869. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote vacio C1 de ~8,142 sf en Houston, zona X, valor HCAD $52,997, apertura $10,822, sentencia 10/21/2024 y ventana TRCP 329 ya cerrada (2026-10-21), lo que reduce el riesgo de citacion por publicacion. Hechos decisivos: (1) el dueno HCAD es la sucesion de Nell Rose Keith (fallecida) y hay un AFFT 2021 (RP-2021-443408) sobre este lote: hay que saber si los herederos fueron demandados; (2) el cierre esperado deja casi sin holgura frente al techo ($34,481 de costo vs techo $34,555). Legal bloqueado; attorney review recommended.",
     "bid_ceiling": 34555.44,
     "all_in_cost_estimate": 34481.06,
-    "contradictions": [],
+    "contradictions": [
+      "Dueno es sucesion (fallecida) con affidavit RP-2021-443408 sobre el lote: demandados/herederos desconocidos sin verificar (legal bloqueado)",
+      "Apertura $10,822 mayor que el total adeudado $7,651 (+41%) y delinquent_by_year empieza en 2019 aunque la sentencia cubre 2015-2023: faltan anos o ya estaban pagados"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Leer la imagen del AFFT RP-2021-443408 (afidavit de herederos?) y confirmar que la sucesion/herederos fueron demandados",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Pedir estado de cuenta actualizado de impuestos (hctax) justo antes de pujar; confirmar apertura final el 2026-12-01",
+      "Leer en el Clerk, con imagen, cualquier LIEN/A/J/L/P que coincida con la descripcion legal HCAD (solo hay indice por nombre)"
     ]
   }
 }

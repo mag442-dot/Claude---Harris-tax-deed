@@ -515,6 +515,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de BROWN WALKER JR (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisar con abogado/titulo antes de pujar: Confirmar con estado de cuenta que la apertura final cubre costos y que el cierre previsto no pasa de $20,317",
+      "why": "requiere imagen del Clerk, login o criterio de abogado (modo barato: sin busquedas nuevas)"
     }
   ],
   "valuation": {
@@ -602,16 +607,18 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $20,317 >= cierre esperado $16,683. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote vacio C1 de 6,750 sf (~50x135 ft) en Houston, zona X, valor HCAD $32,906, apertura $8,430 y cola de impuestos de solo $1,398. Hechos decisivos: (1) sin filas del Clerk bajo el nombre (no es prueba de limpieza, solo indice) y (2) techo teorico $20,317 con $4,000 de quiet title que pesa 18% del costo, por lo que el margen depende de que el cierre se quede cerca de la apertura. Legal bloqueado; no COMPRA FUERTE. Attorney review recommended.",
     "bid_ceiling": 20317.11,
     "all_in_cost_estimate": 22582.02,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $8,430 mayor que el total adeudado $6,699 (+26%): componentes no identificados",
+      "all_in_cost_estimate $22,582 es mayor que bid_ceiling $20,317 (bases distintas: techo es solo la puja, el estimado es costo total al cierre esperado; aritmetica consistente, pero facil de malinterpretar)"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Confirmar con estado de cuenta que la apertura final cubre costos y que el cierre previsto no pasa de $20,317",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Pedir estado de cuenta actualizado de impuestos (hctax) justo antes de pujar; confirmar apertura final el 2026-12-01",
+      "Leer en el Clerk, con imagen, cualquier LIEN/A/J/L/P que coincida con la descripcion legal HCAD (solo hay indice por nombre)"
     ]
   }
 }

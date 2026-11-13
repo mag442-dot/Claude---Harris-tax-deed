@@ -418,6 +418,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de AVILES GUILLERMINO (1.0000%); AVILES SEV en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisar con abogado/titulo antes de pujar: Confirmar acceso, agua/septico y restricciones del lote en condado no incorporado (viabilidad dúplex)",
+      "why": "requiere imagen del Clerk, login o criterio de abogado (modo barato: sin busquedas nuevas)"
     }
   ],
   "valuation": {
@@ -505,16 +510,18 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $26,189 >= cierre esperado $20,062. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote vacio de 13,190 sf (0.30 ac) fuera de limites de ciudad, zona X, sin homestead, apertura $8,231 frente a valor HCAD $39,570; tamano apto para dúplex si las restricciones/servicios lo permiten. Hechos decisivos: (1) cola de impuestos baja ($681) y sin gravamenes en el indice por nombre (0 filas, que no es prueba); (2) dos co-duenos (Guillermino y Severo Aviles) con PO Box, sin valor del condado para cruzar y legal bloqueado. Dúplex no evaluado (condado no incorporado: sin zonificacion pero con posibles restricciones/septico/agua). Attorney review recommended.",
     "bid_ceiling": 26189.25,
     "all_in_cost_estimate": 25344.92,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $8,231 mayor que el total adeudado $6,335 (+30%): no se sabe que costos incluye; no usarla como costo total"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Confirmar acceso, agua/septico y restricciones del lote en condado no incorporado (viabilidad dúplex)",
+      "Confirmar si Severo Aviles (0%) vive o es sucesion: posible defecto de citacion",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Pedir estado de cuenta actualizado de impuestos (hctax) justo antes de pujar; confirmar apertura final el 2026-12-01",
+      "Leer en el Clerk, con imagen, cualquier LIEN/A/J/L/P que coincida con la descripcion legal HCAD (solo hay indice por nombre)"
     ]
   }
 }

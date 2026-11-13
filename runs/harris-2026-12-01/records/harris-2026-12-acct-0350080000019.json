@@ -486,6 +486,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de NEW FELLOWSHIP MISSIONARY BAPTIST CHURCH en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisar con abogado/titulo antes de pujar: Verificar con HCAD/abogado si el predio tiene o tuvo exencion religiosa o uso de culto, y la validez de la citacion a una iglesia",
+      "why": "requiere imagen del Clerk, login o criterio de abogado (modo barato: sin busquedas nuevas)"
     }
   ],
   "valuation": {
@@ -573,16 +578,20 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $108,477 >= cierre esperado $77,546. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Predio C2 de $152,950 HCAD con apertura de $5,000 (RESALE; 3% del valor), sin inundacion. Hechos decisivos: (1) el dueno es una iglesia (NEW FELLOWSHIP MISSIONARY BAPTIST CHURCH) sin exencion en el roll pese a 29 anos de impuestos en juicio (1996-2024), lo que invita a impugnacion por exencion religiosa o por citacion, y (2) hay un DEED del 09/22/2026 a los taxing units (RP-2026-384118) que implica venta previa fallida. El lote GIS (7,002 sf) es 13% menor que HCAD (8,050 sf), asi que el valor y el techo de $108k estan sobrestimados. Legal bloqueado; attorney review recommended.",
     "bid_ceiling": 108477.35,
     "all_in_cost_estimate": 90500.35,
-    "contradictions": [],
+    "contradictions": [
+      "Lote HCAD 8,050 sf vs GIS 7,002 sf (-13%): el valor base $152,950 y el techo $108,477 estan inflados proporcionalmente",
+      "Iglesia propietaria sin exencion en el roll con impuestos desde 1996: posible exencion 11.19/11.20 omitida o no solicitada; riesgo de nulidad/redencion no modelado",
+      "DEED RP-2026-384118 (09/22/2026) a taxing units tras sentencia 03/04/2026 con HCAD aun a nombre de la iglesia: confirma adjudicacion previa; cola de $6,628 y titular actual por confirmar"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Verificar con HCAD/abogado si el predio tiene o tuvo exencion religiosa o uso de culto, y la validez de la citacion a una iglesia",
+      "Medir lote real (GIS 7,002 sf vs HCAD 8,050 sf) y recalcular techo",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Pedir estado de cuenta actualizado de impuestos (hctax) justo antes de pujar; confirmar apertura final el 2026-12-01",
+      "Leer en el Clerk, con imagen, cualquier LIEN/A/J/L/P que coincida con la descripcion legal HCAD (solo hay indice por nombre)"
     ]
   }
 }

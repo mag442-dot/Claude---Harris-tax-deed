@@ -396,6 +396,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de CHARLES EARL E (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisar con abogado/titulo antes de pujar: Leer imagenes de RP-2025-84390/84388, RP-2025-3129, RP-2023-99621 y RP-2016-501560: saldo y si el cause incluyo a Propel/FNA VI como parte",
+      "why": "requiere imagen del Clerk, login o criterio de abogado (modo barato: sin busquedas nuevas)"
     }
   ],
   "valuation": {
@@ -482,17 +487,22 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $330,927 >= cierre esperado $224,516. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer), lien de mecanico. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Tracto C2 de 3.77 acres ($442,832 HCAD) con apertura de $14,572 (3% del valor) y un solo ano de impuestos en juicio (2025). Hechos decisivos: (1) el indice muestra la cadena de cesiones de gravamen fiscal a Propel Tax / FNA VI sobre Tract 55A-1 (ultimas RP-2025-84390/84388, 03/10/2025) y LIEN de la Ciudad de Houston (RP-2023-99621, RP-2016-501560 en Tract 55A): el modelo asume $0 de gravamenes sobrevivientes en una puja que podria pasar de $200k; (2) la direccion postal del dueno es la del predio y HCAD no lista construccion, asi que puede haber ocupante o estructura no registrada. No encaja con lote dúplex pequeno y el dueno activo (financiamiento de impuestos) puede redimir. Legal bloqueado; attorney review recommended.",
     "bid_ceiling": 330926.64,
     "all_in_cost_estimate": 244662.45,
-    "contradictions": [],
+    "contradictions": [
+      "Cesiones/LIEN de Propel Tax y FNA VI sobre WAVERLY GARDENS Tract 55A-1 (ult. 03/10/2025) y LIEN Ciudad de Houston (2016, 2023, Tract 55A): sobreviven o no es desconocido, pero el costo asume 'NO CUANTIFICADO'/$0",
+      "Direccion postal del dueno = direccion del predio (6426 S ACRES DR) con edificio 0 sf y sin homestead: posible ocupacion o mejoras no en el roll",
+      "Techo $330,927 y cierre esperado $224,516 vs apertura $14,572: razon 0.507 salio de lotes pequenos, aplicada a 3.77 acres; techo no confiable; cola $9,411 es estimacion del ano 2026"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Leer imagenes de RP-2025-84390/84388, RP-2025-3129, RP-2023-99621 y RP-2016-501560: saldo y si el cause incluyo a Propel/FNA VI como parte",
+      "Visita al sitio para confirmar ocupacion/estructuras y acceso",
+      "Evaluar si 3.77 acres sirve para dúplex (division/plat) y obtener comps reales",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Pedir estado de cuenta actualizado de impuestos (hctax) justo antes de pujar; confirmar apertura final el 2026-12-01",
+      "Leer en el Clerk, con imagen, cualquier LIEN/A/J/L/P que coincida con la descripcion legal HCAD (solo hay indice por nombre)"
     ]
   }
 }
