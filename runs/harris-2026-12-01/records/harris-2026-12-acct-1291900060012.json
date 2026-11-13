@@ -1,0 +1,130 @@
+{
+  "property_id": "harris-2026-12-acct-1291900060012",
+  "sale_id": "harris-2026-12-01",
+  "county": "Harris",
+  "address": "2731 STAR PEAK DR HOUSTON 77088",
+  "account_no": "1291900060012",
+  "cause_no": "202550591",
+  "intake": {
+    "scout_notes": {
+      "value": "Precinct 1; tipo EOS; sale# 3; sentencia 05/21/2025; anios_en_sentencia null - null; sin apertura publicada aun; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_site_address": {
+      "value": "2731 STAR PEAK DR, HOUSTON, 77088",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_owner": {
+      "value": "CHAVEZ LUCIANO (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_mailing_address": {
+      "value": "2731 STAR PEAK DR, HOUSTON, TX, 77088-3349",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_land_sqft": {
+      "value": "5060",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_acres": {
+      "value": "0.1162",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_building_sqft": {
+      "value": "1643",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_year_improved": {
+      "value": "2009",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_land_value": {
+      "value": "44804",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_building_value": {
+      "value": "185564",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_market_value": {
+      "value": "230368",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "224396",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_exemptions": {
+      "value": "RES (Residential Homestead)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "yes",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 5000.0000xSF $44750 | Res Improved Table Value 60.0000xSF $54",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 2101sf built 2009",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "08/05/2009 2009-0358980 | 08/05/2009 2009-0358981",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_legal": {
+      "value": "LT 12 BLK 6 MOUNT ROYAL VILLAGE SEC 2",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_owner_since": {
+      "value": "08/05/2009",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    }
+  }
+}

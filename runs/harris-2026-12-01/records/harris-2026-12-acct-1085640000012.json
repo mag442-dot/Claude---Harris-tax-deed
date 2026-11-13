@@ -1,0 +1,136 @@
+{
+  "property_id": "harris-2026-12-acct-1085640000012",
+  "sale_id": "harris-2026-12-01",
+  "county": "Harris",
+  "address": "15015 PEBBLE BEND DR HOUSTON 77068",
+  "account_no": "1085640000012",
+  "cause_no": "202379724",
+  "intake": {
+    "opening_bid": {
+      "value": 19561.64,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-11-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 4; tipo SALE; sale# 4; sentencia 06/11/2025; anios_en_sentencia 2020 - 2024; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_site_address": {
+      "value": "15015 PEBBLE BEND DR, HOUSTON, 77068",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_owner": {
+      "value": "ROBERTS LEIANNE (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_mailing_address": {
+      "value": "15015 PEBBLE BEND DR, HOUSTON, TX, 77068-2433",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_land_sqft": {
+      "value": "9000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_acres": {
+      "value": "0.2066",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_building_sqft": {
+      "value": "2801",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_year_improved": {
+      "value": "1980",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_land_value": {
+      "value": "58500",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_building_value": {
+      "value": "235608",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_market_value": {
+      "value": "298317",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "302255",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 9000.0000xSF $58500",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 3078sf built 1980",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "03/29/2011 2011-0129848 | 04/30/2019 2019-RP-2019-184636 | 05/05/2022 2022-RP-2022-240618",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_legal": {
+      "value": "LT 12 BLK 4 OLDE OAKS SEC 1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_owner_since": {
+      "value": "05/05/2022",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "property_id": "harris-2026-12-acct-1251080040041",
+  "sale_id": "harris-2026-12-01",
+  "county": "Harris",
+  "address": "13106 CANDLEWOOD GLEN LN, HOUSTON, 77014",
+  "account_no": "1251080040041",
+  "cause_no": "202585996",
+  "intake": {
+    "opening_bid": {
+      "value": 34465.04,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-11-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 4; tipo EOS; sale# 23; sentencia 12/15/2025; anios_en_sentencia -; sin direccion publicada aun; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_site_address": {
+      "value": "13106 CANDLEWOOD GLEN LN, HOUSTON, 77014",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_owner": {
+      "value": "WILLIAMS DEBRA A (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_mailing_address": {
+      "value": "13106 CANDLEWOOD GLEN LN, HOUSTON, TX, 77014-1941",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_state_class": {
+      "value": "A1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_land_sqft": {
+      "value": "6101",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_acres": {
+      "value": "0.1401",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_building_sqft": {
+      "value": "1900",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_year_improved": {
+      "value": "2004",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_land_value": {
+      "value": "51248",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_building_value": {
+      "value": "202325",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_market_value": {
+      "value": "253573",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "271244",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_exemptions": {
+      "value": "RES STX V14 (?)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Improved Table Value 6101.0000xSF $51248",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_buildings": {
+      "value": "Residential 2760sf built 2004",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "07/07/2005 2005-Y619540 | 10/04/2004 2004-X992798",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_legal": {
+      "value": "LT 41 BLK 4 SILVERGLEN NORTH SEC 5",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_owner_since": {
+      "value": "09/27/2013",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    }
+  }
+}

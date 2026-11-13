@@ -1,0 +1,136 @@
+{
+  "property_id": "harris-2026-12-acct-0591510010220",
+  "sale_id": "harris-2026-12-01",
+  "county": "Harris",
+  "address": "0 MORELOS RD. BAYTOWN 77521",
+  "account_no": "0591510010220",
+  "cause_no": "202385162",
+  "intake": {
+    "opening_bid": {
+      "value": 7669.67,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-11-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 8; tipo Sale; sale# 2; sentencia 04/24/2026; anios_en_sentencia null - null; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_site_address": {
+      "value": "0 MORELOS RD, BAYTOWN, 77521",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_owner": {
+      "value": "DURAN JOSHUA J (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_mailing_address": {
+      "value": "1404 COYOTE LN, BAYTOWN, TX, 77521-3512",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_state_class": {
+      "value": "C1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_land_sqft": {
+      "value": "43560",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_acres": {
+      "value": "1.0000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_building_sqft": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_year_improved": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_land_value": {
+      "value": "61560",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_building_value": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_market_value": {
+      "value": "61560",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "61560",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Vacant Table Value 18000.0000xSF $36000 | Res Vacant Table Value 25560.0000xSF $25560",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_buildings": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "10/27/2016 2017-RP-2017-39121",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_legal": {
+      "value": "TR 29F BLK 23 HIGHLAND FARMS",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_owner_since": {
+      "value": "01/01/2017",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    }
+  }
+}

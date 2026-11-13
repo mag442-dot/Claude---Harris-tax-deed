@@ -1,0 +1,136 @@
+{
+  "property_id": "harris-2026-12-acct-0140410000007",
+  "sale_id": "harris-2026-12-01",
+  "county": "Harris",
+  "address": "5301 LIBERTY RD HOUSTON 77026",
+  "account_no": "0140410000007",
+  "cause_no": "202430172",
+  "intake": {
+    "opening_bid": {
+      "value": 3125.18,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-11-13"
+    },
+    "scout_notes": {
+      "value": "Precinct 1; tipo SALE; sale# 4; sentencia 10/09/2024; anios_en_sentencia 2020 - 2021; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_site_address": {
+      "value": "5301 LIBERTY RD, HOUSTON, 77026",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_owner": {
+      "value": "JEFFERSON SEAN (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_mailing_address": {
+      "value": "3116 NANCE ST, HOUSTON, TX, 77020-6037",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_state_class": {
+      "value": "C1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_land_sqft": {
+      "value": "3650",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_acres": {
+      "value": "0.0838",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_building_sqft": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_year_improved": {
+      "value": "1940",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_land_value": {
+      "value": "52122",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_building_value": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_market_value": {
+      "value": "52122",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "52122",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Vacant Table Value 3650.0000xSF $52122",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_buildings": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "06/06/2007 2007-0362353 | 08/19/2005 2005-Y704261 | 11/04/2014 2014-0555811",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_legal": {
+      "value": "LT 7 BLK 9 FAIRGROUNDS PARK",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_owner_since": {
+      "value": "03/20/2020",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    }
+  }
+}

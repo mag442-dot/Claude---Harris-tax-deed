@@ -1,0 +1,16 @@
+{
+  "property_id": "harris-2026-12-acct-1442820050057",
+  "sale_id": "harris-2026-12-01",
+  "county": "Harris",
+  "address": "23410 WREXHAM ST SPRING 77373",
+  "account_no": "1442820050057",
+  "cause_no": "202514405",
+  "intake": {
+    "scout_notes": {
+      "value": "Precinct 4; tipo SALE; sale# 7; sentencia 08/01/2025; anios_en_sentencia 2022 - 2022; sin apertura publicada aun; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-11-13"
+    }
+  }
+}
