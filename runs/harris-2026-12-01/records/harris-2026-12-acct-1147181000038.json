@@ -219,5 +219,368 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=1147181000038",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.201928,
+        "lat": 29.798449
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=1147181000038)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 10912,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=1147181000038)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~103 x 111 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=1147181000038)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "X (0.2 PCT ANNUAL CHANCE FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (0.2 PCT ANNUAL CHANCE FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-251408 | 06/24/2026 | LIEN | Grantor: EASTPOINT COMMUNITY ASSOCIATION INC Grantee: CASTRO ROSAURA Grantee: JARAMILLO JUAN | Desc: EASTPOINT SUBDIVISION Sec: 1 Lot: 289",
+        "RP-2026-104633 | 03/19/2026 | W/D | Grantor: BLANTON CHAD Grantor: NOTT CHRISTINE Grantee: JARAMILLO JUAN | Desc: STONEYWAY VILLAGE REPLAT NO ONE Lot: 100 Block: 1",
+        "RP-2025-198456 | 05/27/2025 | NOTICE | Grantor: HABLINSKI ZACHARY S Grantor: JARAMILLO JUAN MANUEL Grantee: HABLINSKI ZACHARY S Grantee: JARAMILLO JUAN MANUEL | Desc: WOODWAY PINES CONDOMINIUM TOWNHOUSES Unit: 101 Related Docs",
+        "RP-2025-103900 | 03/24/2025 | D/T | Grantor: JARAMILLO JOSE PEDRO Grantor: RAMOS YESENIA Grantee: JARAMILLO JUAN M Grantee: JARAMILLO YOLANDA S Trustee: ALBRIGHT DENNIS J | Desc: PATTERSON SUBDIVISION Lot: 3-4 Block: 5 Related Docs",
+        "RP-2024-279494 | 08/01/2024 | LIEN | Grantor: EASTPOINT COMMUNITY ASSOCIATION INC Grantee: CASTRO ROSAURA Grantee: JARAMILLO JUAN | Desc: EASTPOINT SUBDIVISION Sec: 1 Lot: 289",
+        "RP-2024-192276 | 05/28/2024 | NOTICE | Grantor: HUANG SHANYUN Grantor: JARAMILLO CAROLINA Grantor: JARAMILLO JUAN Grantor: WANG JIN Grantee: HUANG SHANYUN Grantee: JARAMILLO CAROLINA Grantee: JARAMILLO JUAN Grantee: WANG JIN | Desc: EVERGREEN VILLAS Sec: 1 Lot: 8 Block: 2",
+        "RP-2024-190255 | 05/28/2024 | W/D | Grantor: HUANG SHANYUN Grantor: WANG JIN Grantee: JARAMILLO CAROLINA Grantee: JARAMILLO JUAN | Desc: EVERGREEN VILLAS Sec: 1 Lot: 8 Block: 2",
+        "RP-2024-122256 | 04/05/2024 | NOTICE | Grantor: JARAMILLO JUAN MANUEL Grantor: RIEDLE LEYDA Grantor: RIEDLE ROBERT F II Grantee: JARAMILLO JUAN MANUEL Grantee: RIEDLE LEYDA Grantee: RIEDLE ROBERT F II | Desc: THE KERRY GLEN CONDOMINIUMS II Unit: 6498 Related Docs",
+        "RP-2023-421039 | 11/02/2023 | W/D | Grantor: VILCHIS ESTEBAN MANUEL Grantee: JARAMILLO JUAN MANUEL SENCION | Desc: WOODFOREST Lot: 38 Block: 100",
+        "RP-2021-675542 | 11/23/2021 | REL | Grantor: BANK OF AMERICA N A Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: JARAMILLO JUAN M | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-675228 | 11/23/2021 | REL | Grantor: DHI MORTGAGE COMPANY LTD Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: JARAMILLO JUAN C | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-662665 | 11/17/2021 | REL | Grantor: COMMUNITYBANK OF TEXAS N A Grantee: JARAMILLO JUAN M | Desc: ROYALTON AT RIVER OAKS Unit: 1409 Related Docs",
+        "RP-2021-658466 | 11/16/2021 | NOTICE | Grantor: JARAMILLO JUAN M Grantor: PLATA LUIS ALEJANDRO Grantee: JARAMILLO JUAN M Grantee: PLATA LUIS ALEJANDRO | Desc: JACKSON PLACE CONDOMINIUMS Unit: 410 Related Docs",
+        "RP-2021-635707 | 11/03/2021 | NOTICE | Grantor: HOWARD CHRISTIAN K Grantor: JARAMILLO JUAN C Grantee: HOWARD CHRISTIAN K Grantee: JARAMILLO JUAN C | Desc: BALMORAL Sec: 1 Lot: 29 Block: 4",
+        "RP-2021-521782 | 09/13/2021 | NOTICE | Grantor: JARAMILLO JUAN M Grantor: WALSH JOHN EUGENE JR Grantee: JARAMILLO JUAN M Grantee: WALSH JOHN EUGENE JR | Desc: ROYALTON AT RIVER OAKS Unit: 1409 Related Docs",
+        "RP-2021-149817 | 03/23/2021 | REL | Grantor: GUILD MORTGAGE COMPANY Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: ARTHUR MARILUZ Grantee: JARAMILLO JUAN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-612575 | 12/14/2020 | NOTICE | Grantor: CALHOUN ANDREA J Grantor: CALHOUN WILLIAM M Grantor: JARAMILLO JUAN M Grantee: CALHOUN ANDREA J Grantee: CALHOUN WILLIAM M Grantee: JARAMILLO JUAN M | Desc: TIMBERGROVE MANOR Sec: 4 Lot: 2 Block: 18 Related Docs",
+        "RP-2020-612573 | 12/14/2020 | W/D | Grantor: CALHOUN ANDREA J Grantor: CALHOUN WILLIAM M Grantor: SNIDER ANDREA J Grantee: JARAMILLO JUAN M | Desc: TIMBERGROVE MANOR Sec: 4 Lot: 2 Block: 18",
+        "RP-2020-586298 | 12/01/2020 | NOTICE | Grantor: GONZAGA INVESTMENTS & ADVISORY LLC Grantor: JARAMILLO JUAN MANUEL Grantee: GONZAGA INVESTMENTS & ADVISORY LLC Grantee: JARAMILLO JUAN MANUEL | Desc: KERRY GLEN CONDOMINIUM II Unit: 6466 Related Docs",
+        "RP-2020-435274 | 09/16/2020 | NOTICE | Grantor: HERNANDEZ MARIANELA Grantor: JARAMILLO JUAN M Grantor: LEDEZMA SINECIO HONORIO Grantee: HERNANDEZ MARIANELA Grantee: JARAMILLO JUAN M Grantee: LEDEZMA SINECIO HONORIO | Desc: AUGUSTA VALLEY TOWNHOME CONDOMINIUM REGIME Unit: 5 Related Docs",
+        "RP-2020-400865 | 08/28/2020 | REL | Grantor: BARR MONICA Grantor: CORPORATION SERVICE COMPANY Grantor: NORTHERN TRUST COMPANY Grantor: NORTHERN TRUST N A Grantee: JARAMILLO JUAN MANUAL Grantee: JARAMILLO YOLANDA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-189398 | 05/06/2020 | REL | Grantor: INTERCONTINENTAL CAPITAL GROUP INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: JARAMILLO ERIKA P Grantee: JARAMILLO JUAN J Grantee: JARAMILLO SYLVIA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-501428 | 11/12/2019 | LIEN | Grantor: ATTORNEY GENERAL OFFICE Grantor: GONZALEZ LORENA Grantee: JARAMILLO JUAN JOSE | Comment: SEE INSTRUMENT",
+        "RP-2019-350585 | 08/12/2019 | CONT | Grantor: RITELL PAMELA Grantee: JARAMILLO JUAN DE DIOS Grantee: JARAMILLO SANTOS | Desc: SOUTH PARK Sec: 1 Lot: 4 Block: 16 Related Docs",
+        "RP-2018-425038 | 09/17/2018 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: JARAMILLO JUAN MANUEL | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-34036 | 01/26/2018 | NOTICE | Grantor: ARTHUR MARILUZ Grantor: GARRETT AMANDA E Grantor: GARRETT HOWARD Grantor: JARAMILLO JUAN Grantee: ARTHUR MARILUZ Grantee: GARRETT AMANDA E Grantee: GARRETT HOWARD Grantee: JARAMILLO JUAN | Desc: WINCHESTER COUNTRY Sec: 7 Lot: 16 Block: 14",
+        "RP-2018-34035 | 01/26/2018 | NOTICE | Grantor: ARTHUR MARILUZ Grantor: GARRETT AMANDA E Grantor: GARRETT HOWARD Grantor: JARAMILLO JUAN Grantee: ARTHUR MARILUZ Grantee: GARRETT AMANDA E Grantee: GARRETT HOWARD Grantee: JARAMILLO JUAN | Desc: WINCHESTER COUNTRY Sec: 7 Lot: 16 Block: 14 Related Docs",
+        "RP-2018-34033 | 01/26/2018 | W/D | Grantor: GARRETT AMANDA E Grantor: GARRETT HOWARD Grantee: ARTHUR MARILUZ Grantee: JARAMILLO JUAN | Desc: WINCHESTER COUNTRY Sec: 7 Lot: 16 Block: 14",
+        "RP-2017-545672 | 12/13/2017 | NOTICE | Grantor: D R HORTON TEXAS LTD Grantor: JARAMILLO JUAN C Grantee: D R HORTON TEXAS LTD Grantee: JARAMILLO JUAN C | Desc: BALMORAL Sec: 1 Lot: 29 Block: 4 Related Docs",
+        "RP-2017-545670 | 12/13/2017 | W/D | Grantor: D R HORTON INC Grantor: D R HORTON TEXAS LTD Grantee: JARAMILLO JUAN C | Desc: BALMORAL Sec: 1 Lot: 29 Block: 4",
+        "RP-2017-487022 | 11/03/2017 | W/D | Grantor: BROWN CHARLES RUSSELL Grantor: BROWN ROBERT BRADLEY Grantor: BROWN RODNEY EDWARD Grantee: JARAMILLO JUAN JOSE Grantee: JARAMILLO MARAGARITA | Desc: HAMPTON OAKS ADDITION Lot: 87 Block: 4",
+        "RP-2017-448312 | 10/12/2017 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: MORTGAGE RESEARCH CENTER LLC Grantor: VETERANS UNITED HOME LOANS Grantee: JARAMILLO JUAN C | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-283873 | 06/26/2017 | W/D | Grantor: BROWN CHARLES RUSSELL Grantor: BROWN ROBERT BRADLEY Grantor: BROWN RODNEY EDWARD JR Grantee: JARAMILLO JUAN JOSE Grantee: JARAMILLO MARGARITA | Desc: HAMPTON OAKS Sec: 1 Lot: 124-125 Block: 5 Related Docs",
+        "RP-2017-201327 | 05/09/2017 | REL | Grantor: SMITH LORA LYNN Grantee: JARAMILLO JUAN JOSE Grantee: JARAMILLO MARGARITA | Desc: RESERVIOR ACRES Lot: 15 Block: 4",
+        "RP-2017-189804 | 05/02/2017 | REL | Grantor: EASTPOINT COMMUNITY ASSOCIATION INC Grantee: CASTRO ROSAURA Grantee: JARAMILLO JUAN | Desc: EASTPOINT SUBDIVISION Sec: 1 Lot: 289 Related Docs",
+        "RP-2016-334134 | 08/01/2016 | NOTICE | Grantor: JARAMILLO FRANCISCA Grantor: JARAMILLO JUAN JOSE Grantor: WELLS ANNETTE G Grantor: WELLS CALVIN D Grantee: JARAMILLO FRANCISCA Grantee: JARAMILLO JUAN JOSE Grantee: WELLS ANNETTE G Grantee: WELLS CALVIN D | Desc: PINEMONT PLAZA Sec: 1 Lot: 69 Block: 2",
+        "RP-2016-332351 | 07/29/2016 | W/D | Grantor: WELLS ANNETTE G Grantor: WELLS CALVIN D Grantee: JARAMILLO FRANCISCA Grantee: JARAMILLO JUAN JOSE | Desc: PINEMONT PLAZA Sec: 1 Lot: 69 Block: 2",
+        "RP-2016-255955 | 06/15/2016 | REL | Grantor: COMPASS BANK Grantee: JARAMILLO JUAN M Grantee: JARAMILLO MARIA G | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-179942 | 04/29/2016 | NOTICE | Grantor: GARIS KIM GEORGE VARNA EST Grantor: JARAMILLO JUAN M Grantor: KUNTZ LESLEY ANN Grantee: GARIS KIM GEORGE VARNA EST Grantee: JARAMILLO JUAN M Grantee: KUNTZ LESLEY ANN | Desc: AUGUSTA VALLEY TOWNHOME CONDOMINIUM REGIME Unit: 5",
+        "RP-2016-179941 | 04/29/2016 | W/D | Grantor: GARIS KIM GEORGE VARNA EST Grantor: KUNTZ LESLEY ANN Grantee: JARAMILLO JUAN M | Desc: AUGUSTA VALLEY TOWNHOME CONDOMINIUM REGIME Unit: 5"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JARAMILLO JUAN')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-350273 | 08/27/2026 | W/D | Grantor: JARAMILLO JUAN MANUEL SENCION Grantee: OLMEDO WILLIAM | Desc: WOODFOREST Lot: 38 Block: 100",
+        "RP-2026-104634 | 03/19/2026 | D/T | Grantor: JARAMILLO JUAN Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: MORTGAGE RESEARCH CENTER LLC Grantee: VETERANS UNITED HOME LOANS Trustee: VALBY SCOTT R | Desc: STONEYWAY VILLAGE REPLAT NO ONE Lot: 100 Block: 1",
+        "RP-2025-198456 | 05/27/2025 | NOTICE | Grantor: HABLINSKI ZACHARY S Grantor: JARAMILLO JUAN MANUEL Grantee: HABLINSKI ZACHARY S Grantee: JARAMILLO JUAN MANUEL | Desc: WOODWAY PINES CONDOMINIUM TOWNHOUSES Unit: 101 Related Docs",
+        "RP-2025-198455 | 05/27/2025 | W/D | Grantor: JARAMILLO JUAN MANUEL Grantee: HABLINSKI ZACHARY S | Desc: WOODWAY PINES CONDOMINIUM TOWNHOUSES Unit: 101",
+        "RP-2025-103899 | 03/24/2025 | W/D | Grantor: JARAMILLO JUAN M Grantor: JARAMILLO YOLANDO S Grantee: RAMOS JOSE PREDRO Grantee: RAMOS YESENIA | Desc: PATTERSON SUBDIVISION Lot: 3-4 Block: 5",
+        "RP-2024-192276 | 05/28/2024 | NOTICE | Grantor: HUANG SHANYUN Grantor: JARAMILLO CAROLINA Grantor: JARAMILLO JUAN Grantor: WANG JIN Grantee: HUANG SHANYUN Grantee: JARAMILLO CAROLINA Grantee: JARAMILLO JUAN Grantee: WANG JIN | Desc: EVERGREEN VILLAS Sec: 1 Lot: 8 Block: 2",
+        "RP-2024-192275 | 05/28/2024 | D/T | Grantor: JARAMILLO CAROLINA Grantor: JARAMILLO JUAN Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: UMITED WHOLESALE MORTGAGE LLC Trustee: ROBERTSON ANSCHUTZ VETTERS LLC | Desc: EVERGREEN VILLAS Sec: 1 Lot: 8 Block: 2",
+        "RP-2024-122256 | 04/05/2024 | NOTICE | Grantor: JARAMILLO JUAN MANUEL Grantor: RIEDLE LEYDA Grantor: RIEDLE ROBERT F II Grantee: JARAMILLO JUAN MANUEL Grantee: RIEDLE LEYDA Grantee: RIEDLE ROBERT F II | Desc: THE KERRY GLEN CONDOMINIUMS II Unit: 6498 Related Docs",
+        "RP-2024-122255 | 04/05/2024 | W/D | Grantor: JARAMILLO JUAN MANUEL Grantee: RIEDLE LEYDA Grantee: RIEDLE ROBERT F II | Desc: THE KERRY GLEN CONDOMINIUMS II Unit: 6498",
+        "RP-2023-52924 | 02/15/2023 | W/D | Grantor: JARAMILLO JUAN A Grantee: JIMENEZ JOSE ALFREDO | Desc: WOODLAND ACRES ANNEX NO 1 Lot: 26 Block: 3",
+        "RP-2022-205290 | 04/19/2022 | AFFT | Grantor: JARAMILLO JUANITA M Grantor: JARAMILLO NICHOLAS G Grantor: MUNOZ PATRICIA CAVAZOS Grantee: CAVAZOS IRENE AURORA EST | Desc: ATASCOCITA TIMBERS Sec: 2 Lot: 16 Block: 3",
+        "RP-2021-658466 | 11/16/2021 | NOTICE | Grantor: JARAMILLO JUAN M Grantor: PLATA LUIS ALEJANDRO Grantee: JARAMILLO JUAN M Grantee: PLATA LUIS ALEJANDRO | Desc: JACKSON PLACE CONDOMINIUMS Unit: 410 Related Docs",
+        "RP-2021-658464 | 11/16/2021 | W/D | Grantor: JARAMILLO JUAN M Grantee: PLATA LUIS ALEJANDRO | Desc: JACKSON PLACE CONDOMINIUMS Unit: 410",
+        "RP-2021-635707 | 11/03/2021 | NOTICE | Grantor: HOWARD CHRISTIAN K Grantor: JARAMILLO JUAN C Grantee: HOWARD CHRISTIAN K Grantee: JARAMILLO JUAN C | Desc: BALMORAL Sec: 1 Lot: 29 Block: 4",
+        "RP-2021-635705 | 11/03/2021 | W/D | Grantor: JARAMILLO JUAN C Grantee: HOWARD CHRISTIAN KYTRINE | Desc: BALMORAL Sec: 1 Lot: 29 Block: 4",
+        "RP-2021-521782 | 09/13/2021 | NOTICE | Grantor: JARAMILLO JUAN M Grantor: WALSH JOHN EUGENE JR Grantee: JARAMILLO JUAN M Grantee: WALSH JOHN EUGENE JR | Desc: ROYALTON AT RIVER OAKS Unit: 1409 Related Docs",
+        "RP-2021-521780 | 09/13/2021 | W/D | Grantor: JARAMILLO JUAN M Grantee: WALSH JOHN EUGENE JR | Desc: ROYALTON AT RIVER OAKS AT CONDOMINIUM Unit: 1409",
+        "RP-2021-122467 | 03/10/2021 | D/T | Grantor: HERNANDEZ JUAN JOSE JARAMILLO Grantor: HERNANDEZ SAILLY YULIETTE ROJAS Grantor: JARAMILLO JUAN Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SECURITYNATIONAL MORTGAGE COMPANY Trustee: POLUNSKY ALLAN B | Desc: WINCHESTER COUNTRY Sec: 7 Lot: 16 Block: 14",
+        "RP-2021-122466 | 03/10/2021 | W/D | Grantor: ARTHUR MARILUZ Grantor: JARAMILLO JUAN Grantee: HERNANDEZ JUAN JOSE JARAMILLO Grantee: HERNANDEZ SAILLY YULIETTE ROJAS | Desc: WINCHESTER COUNTRY Sec: 7 Lot: 16 Block: 14",
+        "RP-2020-612575 | 12/14/2020 | NOTICE | Grantor: CALHOUN ANDREA J Grantor: CALHOUN WILLIAM M Grantor: JARAMILLO JUAN M Grantee: CALHOUN ANDREA J Grantee: CALHOUN WILLIAM M Grantee: JARAMILLO JUAN M | Desc: TIMBERGROVE MANOR Sec: 4 Lot: 2 Block: 18 Related Docs",
+        "RP-2020-612574 | 12/14/2020 | D/T | Grantor: JARAMILLO JUAN M Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: QUICKEN LOANS LLC Trustee: MAGERS ANDREA K | Desc: TIMBERGROVE MANOR Sec: 4 Lot: 2 Block: 18",
+        "RP-2020-586299 | 12/01/2020 | AFFT | Grantor: JARAMILLO JUAN MANUEL Grantee: SEE INSTRUMENT | Desc: KERRY GLEN CONDOMINIUM II Unit: 6466",
+        "RP-2020-586298 | 12/01/2020 | NOTICE | Grantor: GONZAGA INVESTMENTS & ADVISORY LLC Grantor: JARAMILLO JUAN MANUEL Grantee: GONZAGA INVESTMENTS & ADVISORY LLC Grantee: JARAMILLO JUAN MANUEL | Desc: KERRY GLEN CONDOMINIUM II Unit: 6466 Related Docs",
+        "RP-2020-586297 | 12/01/2020 | W/D | Grantor: JARAMILLO JUAN MANUEL Grantee: GONZAGA INVESTMENTS & ADVISORY LLC | Desc: KERRY GLEN CONDOMINIUMS Unit: 6466",
+        "RP-2020-435274 | 09/16/2020 | NOTICE | Grantor: HERNANDEZ MARIANELA Grantor: JARAMILLO JUAN M Grantor: LEDEZMA SINECIO HONORIO Grantee: HERNANDEZ MARIANELA Grantee: JARAMILLO JUAN M Grantee: LEDEZMA SINECIO HONORIO | Desc: AUGUSTA VALLEY TOWNHOME CONDOMINIUM REGIME Unit: 5 Related Docs",
+        "RP-2020-435272 | 09/16/2020 | W/D | Grantor: JARAMILLO JUAN M Grantee: LEDEZMA SINECIO HONORIO | Desc: AUGUSTA VALLEY TOWNHOME CONDOMINIUM REGIME Unit: 5 Related Docs",
+        "RP-2020-379241 | 08/18/2020 | W/D | Grantor: JARAMILLO JUAN M Grantor: JARAMILLO YOLANDA Grantee: FUENTES EMILIA ROXANA Grantee: FUENTES JOSE ALFREDO | Desc: SHADOWGLEN Sec: 1 Lot: 5 Block: 10",
+        "RP-2020-200910 | 05/13/2020 | MODIF | Grantor: JARAMILLO ANGELICA MARTINEZ Grantor: JARAMILLO JUAN C Grantee: WELLS FARGO BANK N A | Desc: CHANNELWOOD Sec: 2 Lot: 18 Block: 9 Related Docs",
+        "RP-2020-161498 | 04/15/2020 | AFFT | Grantor: JARAMILLO JUANA Grantor: MORENO-GARCIA NICOLAS Grantee: SEE INSTRUMENT | Desc: CHARTERWOOD Sec: 2 Lot: 43 Block: 14",
+        "RP-2020-161497 | 04/15/2020 | D/T | Grantor: JARAMILLO JUANA Grantor: MORENO-GARCIA NICOLAS Grantee: BANK OF AMERICA NA Trustee: FIRST AMERICAN TITLE INSURANCE COMPANY | Desc: CHARTERWOOD Sec: 2 Lot: 43 Block: 14",
+        "RP-2019-356517 | 08/14/2019 | DEED | Grantor: JARAMILLO JUAN A Grantor: JARAMILLO JUAN ALBERTO Grantor: JARAMILLO MARIA DEL CARMEN Grantee: JARAMILLO AILEEN DENISE | Desc: HOME OWNED ESTATES Sec: 2 Lot: 1012 Block: 33",
+        "RP-2018-34036 | 01/26/2018 | NOTICE | Grantor: ARTHUR MARILUZ Grantor: GARRETT AMANDA E Grantor: GARRETT HOWARD Grantor: JARAMILLO JUAN Grantee: ARTHUR MARILUZ Grantee: GARRETT AMANDA E Grantee: GARRETT HOWARD Grantee: JARAMILLO JUAN | Desc: WINCHESTER COUNTRY Sec: 7 Lot: 16 Block: 14",
+        "RP-2018-34035 | 01/26/2018 | NOTICE | Grantor: ARTHUR MARILUZ Grantor: GARRETT AMANDA E Grantor: GARRETT HOWARD Grantor: JARAMILLO JUAN Grantee: ARTHUR MARILUZ Grantee: GARRETT AMANDA E Grantee: GARRETT HOWARD Grantee: JARAMILLO JUAN | Desc: WINCHESTER COUNTRY Sec: 7 Lot: 16 Block: 14 Related Docs",
+        "RP-2018-34034 | 01/26/2018 | D/T | Grantor: ARTHUR MARILUZ Grantor: JARAMILLO JUAN Grantee: GUILD MORTGAGE COMPANY Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: PEIRSON CHRIS | Desc: WINCHESTER COUNTRY Sec: 7 Lot: 16 Block: 14 Related Docs",
+        "RP-2017-545672 | 12/13/2017 | NOTICE | Grantor: D R HORTON TEXAS LTD Grantor: JARAMILLO JUAN C Grantee: D R HORTON TEXAS LTD Grantee: JARAMILLO JUAN C | Desc: BALMORAL Sec: 1 Lot: 29 Block: 4 Related Docs",
+        "RP-2017-487023 | 11/03/2017 | D/T | Grantor: JARAMILLO JUAN JOSE Grantor: JARAMILLO MARAGARITA Grantee: BROWN CHARLES RUSSELL Grantee: BROWN ROBERT BRADLEY Grantee: BROWN RODNEY EDWARD JR Trustee: ALBRIGHT DENNIS J | Desc: HAMPTON OAKS ADDITION Lot: 87 Block: 4 Related Docs",
+        "RP-2017-423873 | 09/26/2017 | W/D | Grantor: JARAMILLO JUAN C Grantee: BLANKENSHIP-REEVES NICOLE Grantee: TODD MARSHA | Desc: VILLAGE GROVE EAST TOWNHOMES Lot: 11 Block: 1",
+        "RP-2017-283874 | 06/26/2017 | D/T | Grantor: JARAMILLO JUAN JOSE Grantor: JARAMILLO MARAGARITA Grantee: BROWN CHARLES RUSSELL Grantee: BROWN RODNEY EDWARD JR Trustee: ALBRIGHT DENNIS J | Desc: HAMPTON OAKS Sec: 1 Lot: 124-125 Block: 5 Related Docs",
+        "RP-2016-334134 | 08/01/2016 | NOTICE | Grantor: JARAMILLO FRANCISCA Grantor: JARAMILLO JUAN JOSE Grantor: WELLS ANNETTE G Grantor: WELLS CALVIN D Grantee: JARAMILLO FRANCISCA Grantee: JARAMILLO JUAN JOSE Grantee: WELLS ANNETTE G Grantee: WELLS CALVIN D | Desc: PINEMONT PLAZA Sec: 1 Lot: 69 Block: 2",
+        "RP-2016-332352 | 07/29/2016 | D/T | Grantor: JARAMILLO FRANCISCA Grantor: JARAMILLO JUAN JOSE Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: NATIONS RELIABLE LENDING LLC Trustee: GHEBREMICHAEL MEWAEL | Desc: PINEMONT PLAZA Sec: 1 Lot: 69 Block: 2",
+        "RP-2016-179942 | 04/29/2016 | NOTICE | Grantor: GARIS KIM GEORGE VARNA EST Grantor: JARAMILLO JUAN M Grantor: KUNTZ LESLEY ANN Grantee: GARIS KIM GEORGE VARNA EST Grantee: JARAMILLO JUAN M Grantee: KUNTZ LESLEY ANN | Desc: AUGUSTA VALLEY TOWNHOME CONDOMINIUM REGIME Unit: 5"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JARAMILLO JUAN')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "LIEN": 3,
+        "W/D": 23,
+        "NOTICE": 28,
+        "D/T": 10,
+        "REL": 11,
+        "CONT": 1,
+        "AFFT": 3,
+        "MODIF": 1,
+        "DEED": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JARAMILLO JUAN')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "40 instruments as grantee, 41 as grantor (index, name 'JARAMILLO JUAN')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JARAMILLO JUAN')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202477145",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "12/01/2025",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2027-12-01: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202477145 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de JARAMILLO JUAN MANUEL SENCION (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 356456.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 180723.19,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 43814.86,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 180723.19,
+        "impuestos_que_hereda": 7458.41,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 5421.7,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 197603.3,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 265734.36,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.804,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $265,734 >= cierre esperado $180,723. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 265734.36,
+    "all_in_cost_estimate": 197603.3,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
   }
 }

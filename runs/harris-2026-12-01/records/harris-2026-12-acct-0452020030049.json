@@ -204,5 +204,335 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=0452020030049",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.396044,
+        "lat": 29.910386
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0452020030049)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 110158,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0452020030049)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~211 x 526 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0452020030049)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2022-61067 | 02/02/2022 | RESTR | Grantor: IDV FAIRBANKS I LLC Grantor: IDV FAIRBANKS II LLC Grantor: IDV FAIRBANKS III LLC Grantee: FAIRBANKS INDUSTRIAL PARK Grantee: FAIRBANKS INDUSTRIAL PARK PROPERTY OWNERS ASSOCIATION INC | Desc: WILEY S POWELL ONE-THIRD LEAGUE Abstract: 622 Comment: 40.99 Related Docs",
+        "RP-2022-59872 | 02/02/2022 | NOTICE | Grantor: DHINGRA R K EST Grantor: DHINGRA RAKESH KUMAR EST Grantor: FAIRBANKS INDUSTRIAL LLC Grantor: KHANDUJA SANJAY Grantee: DHINGRA R K EST Grantee: DHINGRA RAKESH KUMAR EST Grantee: FAIRBANKS INDUSTRIAL LLC Grantee: KHANDUJA SANJAY | Desc: NORTHWEST PARK SUBDIVISION Block: 1 Reserve: A Related Docs",
+        "RP-2022-59871 | 02/02/2022 | W/D | Grantor: DHINGRA R K EST Grantor: DHINGRA RAKESH KUMAR EST Grantor: KHANDUJA SANJAY Grantee: FAIRBANKS INDUSTRIAL LLC | Desc: NORTHWEST PARK SUBDIVISION Sec: 15 Block: 1 Reserve: A Related Docs",
+        "RP-2022-506916 | 10/13/2022 | SUBORD | Grantor: BANK OF TEXAS Grantor: BOKF NA Grantee: FAIRBANKS INDUSTRIAL | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-506915 | 10/13/2022 | SUBORD | Grantor: BANK OF TEXAS Grantor: BOKF NA Grantee: FAIRBANKS INDUSTRIAL | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-506914 | 10/13/2022 | SUBORD | Grantor: BANK OF TEXAS Grantor: BOKF NA Grantee: FAIRBANKS INDUSTRIAL | Desc: S POWELL ONE-THIRD LEAGUE Abstract: 622 Comment: 87.97 Related Docs",
+        "RP-2022-348446 | 07/06/2022 | W/D | Grantor: BISHOP MARION ALAN EST Grantor: FRANK THOMAS C Grantee: FAIRBANKS INDUSTRIAL LLC | Desc: HOUSTON GARDENS Lot: 8 Related Docs",
+        "RP-2022-250114 | 05/12/2022 | REL | Grantor: ALLEGIANCE BANK Grantor: POST OAK BANK N A Grantee: FAIRBANKS INDUSTRIAL LLC | Desc: NORTH HOUSTON GARDENS Lot: 35 Related Docs",
+        "RP-2022-203891 | 04/19/2022 | W/D | Grantor: MIKE BABCOCK PROPERTIES LLC Grantee: FAIRBANKS INDUSTRIAL LLC | Comment: SEE INSTRUMENT",
+        "RP-2021-707575 | 12/10/2021 | NOTICE | Grantor: FAIRBANKS INDUSTRIAL LLC Grantor: GHI LLC Grantee: FAIRBANKS INDUSTRIAL LLC Grantee: GHI LLC | Desc: NORTHWEST PARK SUBDIVISION Block: 1 Reserve: A Related Docs",
+        "RP-2021-707574 | 12/10/2021 | NOTICE | Grantor: FAIRBANKS INDUSTRIAL LLC Grantor: GHI LLC Grantee: FAIRBANKS INDUSTRIAL LLC Grantee: GHI LLC | Desc: NORTHWEST PARK SUBDIVISION Block: 1 Reserve: A Related Docs",
+        "RP-2021-707573 | 12/10/2021 | W/D | Grantor: GHI LLC Grantee: FAIRBANKS INDUSTRIAL LLC | Desc: NORTHWEST PARK SUBDIVISION Block: 1 Reserve: A Related Docs",
+        "RP-2021-500579 | 09/01/2021 | W/D | Grantor: KICHLER ROBERT A Grantee: FAIRBANKS INDUSTRIAL LLC | Desc: W L HILL SUBDIVISION Lot: 3",
+        "RP-2021-443400 | 08/04/2021 | W/D | Grantor: BROWN TONIA JOANNA Grantor: ESTATE OF ELLIS CLEPPER Grantee: FAIRBANKS INDUSTRIAL LLC | Desc: HOUSTON GARDENS Lot: 8 Related Docs",
+        "RP-2020-620416 | 12/17/2020 | W/D | Grantor: HARGRAVE WILLIS J III Grantor: HARGRAVE WILLIS J JR Grantor: HILL SUZANNE R Grantor: PFOKAWI GROUP Grantee: FAIRBANKS INDUSTRIAL LLC | Desc: ALDINE GARDENS Sec: 1 Related Docs",
+        "RP-2020-249888 | 06/11/2020 | NOTICE | Grantor: DRUMMOND HUNTER R Grantor: DRUMMOND SPENCER M Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: DRUMMOND HUNTER R Grantee: DRUMMOND SPENCER M Grantee: FAIRBANKS INDUSTRIAL LLC | Desc: NORTH HOUSTON Lot: 15-16 Block: 9",
+        "RP-2020-249887 | 06/11/2020 | W/D | Grantor: DRUMMOND HUNTER R Grantor: DRUMMOND SPENCER M Grantee: FAIRBANKS INDUSTRIAL LLC | Desc: NORTH HOUSTON Lot: 15-16 Block: 9",
+        "RP-2017-475338 | 10/30/2017 | W/D | Grantor: FARAJI ALI REZA Grantee: FAIRBANKS INDUSTRIAL LLC | Desc: NORTH HOUSTON GARDENS NUMBER 2 Lot: 35"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FAIRBANKS INDUSTRIAL')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-41781 | 02/04/2026 | MODIF | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: STELLAR BANK | Desc: ALDINE GARDENS Sec: 1 Related Docs",
+        "RP-2026-394550 | 09/29/2026 | MODIF | Grantor: FAIRBANKS INDUSTRIAL LLC Grantor: FARAJI POOYAN Grantor: FARAJI POOYAN WILLIAM Grantor: SZLEZINGER PIOTR Grantee: ALLEGIANCE BANK Grantee: PROSPERITY BANK Grantee: STELLAR BANK | Desc: W L HILL SUBDIVISION Lot: 3 Related Docs",
+        "RP-2026-394526 | 09/29/2026 | MODIF | Grantor: FAIRBANKS INDUSTRIAL LLC Grantor: FARAJI POOYAN WILLIAM Grantor: SZLEZINGER PIOTR Grantee: ALLEGIANCE BANK Grantee: PROSPERITY BANK Grantee: STELLAR BANK | Desc: HOUSTON GARDENS Lot: 8 Related Docs",
+        "RP-2026-196813 | 05/20/2026 | D/T | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: HAMAN MEHRDAD Grantee: MOOSSAVI SOMAYEH Trustee: HAMAN MAHYAR | Desc: NORTH HOUSTON Lot: 15-16 Block: 9",
+        "RP-2024-24873 | 01/24/2024 | ASSGN | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: STELLAR BANK | Desc: ALDINE GARDENS Sec: 1",
+        "RP-2024-24872 | 01/24/2024 | D/T | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: STELLAR BANK Trustee: VITULLI RAMON A III | Desc: ALDINE GARDENS Sec: 1 Related Docs",
+        "RP-2023-348777 | 09/11/2023 | DEED | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: STATE OF TEXAS Grantee: TEXAS TRANSPORTATION COMMISSION | Desc: NORTHWEST PARK Sec: 15 Block: 1 Reserve: A",
+        "RP-2023-295508 | 08/04/2023 | AGMT | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: STATE OF TEXAS Grantee: TEXAS DEPARTMENT OF TRANSPORTATION | Desc: NORTHWEST PARK Sec: 15 Block: 1 Reserve: A Related Docs",
+        "RP-2022-67019 | 02/07/2022 | D/T | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: FROST BANK Trustee: GUARINO DAN J | Desc: NORTH HOUSTON GARDENS NUMBER 2 Lot: 35-36",
+        "RP-2022-59874 | 02/02/2022 | ASSGN | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: ALLEGIANCE BANK | Desc: NORTHWEST PARK SUBDIVISION Sec: 15 Block: 1 Reserve: A Related Docs",
+        "RP-2022-59873 | 02/02/2022 | D/T | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: ALLEGIANCE BANK Trustee: VITULLI RAMON A III | Desc: NORTHWEST PARK SUBDIVISION Block: 1 Reserve: A",
+        "RP-2022-59872 | 02/02/2022 | NOTICE | Grantor: DHINGRA R K EST Grantor: DHINGRA RAKESH KUMAR EST Grantor: FAIRBANKS INDUSTRIAL LLC Grantor: KHANDUJA SANJAY Grantee: DHINGRA R K EST Grantee: DHINGRA RAKESH KUMAR EST Grantee: FAIRBANKS INDUSTRIAL LLC Grantee: KHANDUJA SANJAY | Desc: NORTHWEST PARK SUBDIVISION Block: 1 Reserve: A Related Docs",
+        "RP-2022-506913 | 10/13/2022 | MAP | Grantor: FAIRBANKS INDUSTRIAL Grantee: WILEY S POWELL ONE-THIRD LEAGE A0622 | Desc: FAIRBANKS INDUSTRIAL",
+        "RP-2022-203893 | 04/19/2022 | ASSGN | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: MIKE BABCOCK PROPERTIES LLC | Comment: SEE INSTRUMENT",
+        "RP-2022-203892 | 04/19/2022 | D/T | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: MIKE BABCOCK PROPERTIES LLC Trustee: HOUSE JAMES L | Comment: SEE INSTRUMENT",
+        "RP-2021-707575 | 12/10/2021 | NOTICE | Grantor: FAIRBANKS INDUSTRIAL LLC Grantor: GHI LLC Grantee: FAIRBANKS INDUSTRIAL LLC Grantee: GHI LLC | Desc: NORTHWEST PARK SUBDIVISION Block: 1 Reserve: A Related Docs",
+        "RP-2021-707574 | 12/10/2021 | NOTICE | Grantor: FAIRBANKS INDUSTRIAL LLC Grantor: GHI LLC Grantee: FAIRBANKS INDUSTRIAL LLC Grantee: GHI LLC | Desc: NORTHWEST PARK SUBDIVISION Block: 1 Reserve: A Related Docs",
+        "RP-2021-516262 | 09/09/2021 | AFFT | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: SEE INSTRUMENT | Desc: W L HILL SUBDIVISION Lot: 3 Related Docs",
+        "RP-2021-500581 | 09/01/2021 | ASSGN | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: ALLEGIANCE BANK | Desc: W L HILL SUBDIVISION Lot: 3 Related Docs",
+        "RP-2021-500580 | 09/01/2021 | D/T | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: ALLEGIANCE BANK Trustee: VITULLI RAMON A III | Desc: W.L. HILL SUBDIVISION Lot: 3 Related Docs",
+        "RP-2021-443402 | 08/04/2021 | ASSGN | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: ALLEGIANCE BANK | Desc: HOUSTON GARDENS Lot: 8 Comment: 2.53 Related Docs",
+        "RP-2021-443401 | 08/04/2021 | D/T | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: ALLEGIANCE BANK Trustee: VITULLI RAMON A III | Desc: HOUSTON GARDENS Lot: 8 Related Docs",
+        "RP-2020-620419 | 12/17/2020 | ASSGN | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: ALLEGIANCE BANK | Desc: ALDINE GARDENS Sec: 1 Lot: 58 Related Docs",
+        "RP-2020-620418 | 12/17/2020 | D/T | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: ALLEGIANCE BANK Trustee: VITULLI RAMON A III | Desc: ALDINE GARDENS Sec: 1 Related Docs",
+        "RP-2020-249888 | 06/11/2020 | NOTICE | Grantor: DRUMMOND HUNTER R Grantor: DRUMMOND SPENCER M Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: DRUMMOND HUNTER R Grantee: DRUMMOND SPENCER M Grantee: FAIRBANKS INDUSTRIAL LLC | Desc: NORTH HOUSTON Lot: 15-16 Block: 9",
+        "RP-2017-475340 | 10/30/2017 | ASSGN | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: POST OAK BANK N A | Desc: NORTH HOUSTON GARDENS NUMBER 2 Lot: 35 Related Docs",
+        "RP-2017-475339 | 10/30/2017 | D/T | Grantor: FAIRBANKS INDUSTRIAL LLC Grantee: POST OAK BANK N A Trustee: CARMOUCHE CHARLES H | Desc: NORTH HOUSTON GARDENS NUMBER 2 Lot: 35 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FAIRBANKS INDUSTRIAL')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "RESTR": 1,
+        "NOTICE": 8,
+        "W/D": 9,
+        "SUBORD": 3,
+        "REL": 1,
+        "MODIF": 3,
+        "D/T": 9,
+        "ASSGN": 7,
+        "DEED": 1,
+        "AGMT": 1,
+        "MAP": 1,
+        "AFFT": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FAIRBANKS INDUSTRIAL')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "18 instruments as grantee, 27 as grantor (index, name 'FAIRBANKS INDUSTRIAL')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FAIRBANKS INDUSTRIAL')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202489814",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "07/01/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-07-01: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202489814 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de FAIRBANKS INDUSTRIAL LLC (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 534996.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 271242.97,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 41438.58,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 271242.97,
+        "impuestos_que_hereda": 5111.93,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 8137.29,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 288492.19,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 406684.34,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.854,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $406,684 >= cierre esperado $271,243. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 406684.34,
+    "all_in_cost_estimate": 288492.19,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
   }
 }

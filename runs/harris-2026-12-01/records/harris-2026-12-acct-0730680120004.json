@@ -223,5 +223,288 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=0730680120004",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.042302,
+        "lat": 29.774376
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0730680120004)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 29822,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0730680120004)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~151 x 279 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0730680120004)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "AE + otras",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "AE": 77.5,
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 22.5
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 77.5,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF BAYTOWN",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-190093 | 05/15/2026 | A/J | Grantor: PRIMEWAY FEDERAL CREDIT UNION Grantee: DUNFORD GARY CHARLES | Comment: SEE INSTRUMENT",
+        "RP-2025-324954 | 08/18/2025 | A/J | Grantor: CITY OF BAYTOWN Grantor: GOOSE CREEK CONSOLIDATED INDEPENDENT SCHOOL DISTRICT Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: LEE COLLEGE DISTRICT Grantor: PORT OF HOUSTON OF HARRIS COUNTY AUTHORITY Grantee: DUNFORD GARY C Grantee: DUNFORD TRACEY Grantee: PRIMEWAY FEDERAL CREDIT UNION Grantee: U S SMALL BUSINESS ADMINISTRATION | Comment: SEE INSTRUMENT",
+        "RP-2025-319264 | 08/13/2025 | REL | Grantor: FIT ACQUISITIONS LLC Grantee: DUNFORD GARY | Desc: LAKEWOOD Lot: 4 Block: 41 Related Docs",
+        "RP-2024-468913 | 12/17/2024 | LIEN | Grantor: CITY OF BAYTOWN Grantee: DUNFORD GARY C JR Grantee: DUNFORD TRACY Grantee: ESTATE OF CALVIN A MILLS Grantee: LAKEWOOD #1 Grantee: RIOS MARY E Grantee: SWANSON SHAWN V | Comment: SEE INSTRUMENT",
+        "RP-2024-342960 | 09/17/2024 | MEMO | Grantor: FIT ACQUISITIONS LLC Grantee: DUNFORD GARY | Desc: LAKEWOOD Sec: C Lot: 4 Block: 41 Related Docs",
+        "RP-2022-280642 | 05/27/2022 | REL | Grantor: CREDIT SUISSE FIRST BOSTON MORTGAGE SECURITIES CORP Grantor: HOME EQUITY ASSET TRUST 2005-5 Grantor: U.S. BANK NATIONAL ASSOCIATION TRE Grantor: WELLS FARGO BANK N.A Grantee: DUNFORD GARY CHARLES JR Grantee: DUNFORD TRACY LYNN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-63339 | 02/15/2019 | A/J | Grantor: CONN APPLIANCES INC Grantor: CONN'S Grantee: DUNFORD GARY | Comment: SEE INSTRUMENT",
+        "RP-2016-288114 | 07/01/2016 | A/J | Grantor: PRIMEWAY FEDERAL CREDIT UNION Grantee: DUNFORD GARY CHARLES | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DUNFORD GARY')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2025-234094 | 06/18/2025 | W/D | Grantor: DUNFORD GARY CHARLES SR EST Grantor: TURNER TINA LEN Grantee: DUNFORD WILMA LEN DENNY | Desc: COLLEGE PARK Sec: 2 Lot: 1 Block: 6",
+        "RP-2021-98548 | 02/26/2021 | LIEN | Grantor: DUNFORD GARY Grantee: STATE OF TEXAS | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DUNFORD GARY')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "A/J": 4,
+        "REL": 2,
+        "LIEN": 2,
+        "MEMO": 1,
+        "W/D": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DUNFORD GARY')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "8 instruments as grantee, 2 as grantor (index, name 'DUNFORD GARY')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DUNFORD GARY')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202382404",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "04/10/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-04-10: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202382404 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de DUNFORD GARY C JR & TRACY (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 52757.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 26747.8,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 22914.63,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 26747.8,
+        "impuestos_que_hereda": 3423.65,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 802.43,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: COTA SUPERIOR: total adeudado de todos los anios (el condado no separa anios de la sentencia); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 34973.88,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 33768.88,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.508,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "NO PARA DUPLEX",
+    "rationale": "Lote 29,822 sqft / 78% del predio en zona de inundacion especial (SFHA): heuristica contra la salida dúplex (no es un limite legal). Jurisdiccion: CITY OF BAYTOWN. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 33768.88,
+    "all_in_cost_estimate": 34973.88,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
   }
 }

@@ -205,5 +205,353 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=1156390080003",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.481383,
+        "lat": 29.629281
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=1156390080003)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 35849,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=1156390080003)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~152 x 241 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=1156390080003)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-60984 | 02/19/2026 | ORDER | Grantor: CITY OF HOUSTON Grantee: CAGE NANCY S Grantee: DOVE CLOTEAL Grantee: EPPERSON ANDREA Grantee: GARNER SHONDA Grantee: GRANT ALARICE Grantee: JACKSON RENEE Grantee: JOHNSON DENISE Grantee: JOYNER LINDA Grantee: LAVERGNE SHARON Grantee: LAVERGNE-KACHUR ERNESTINE Grantee: SAVOY HOMOZIELLE Grantee: SMITH ROBERT Grantee: STEWART ANDREW JR Grantee: STEWART CHARLES JR Grantee: STEWART CHARLES M Grantee: STEWART LYNN Grantee: THOMAS ELVA JEAN | Desc: RYON Lot: 10 Block: 41",
+        "RP-2026-453085 | 11/10/2026 | W/D | Grantor: SIMPSON GEORGE Grantee: SIMPSON GEORGE Grantee: STEWART ANDREAL Grantee: STEWART ONDREAL | Desc: TROPICANA VOLLAGE Lot: 9 Block: 10 Related Docs",
+        "RP-2026-40530 | 02/03/2026 | NOTICE | Grantor: CITY OF HOUSTON Grantee: CAGE NANCY S Grantee: DOVE CLOTEAL Grantee: EPPERSON ANDREA Grantee: GARNER SHONDA Grantee: GRANT ALARICE Grantee: JACKSON RENEE Grantee: JOHNSON DENISE Grantee: JOYNER LINDA Grantee: LAVERGNE SHARON Grantee: LAVERGNE-KACHUR ERNESTINE Grantee: SAVOY HOMOZIELLE Grantee: SMITH ROBERT Grantee: STEWART ANDREW JR Grantee: STEWART CHARLES JR Grantee: STEWART LYNN Grantee: THOMAS ELVA JEAN | Desc: RYON Lot: 10 Block: 41",
+        "RP-2026-263855 | 07/01/2026 | REL | Grantor: INTERNAL REVENUE SERVICE Grantee: STEWART ANDREA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-70641 | 02/27/2025 | A/J | Grantor: MIDLAND CREDIT MANAGEMENT INC Grantee: STEWART ANDREA | Comment: SEE INSTRUMENT",
+        "RP-2025-278601 | 07/17/2025 | MEMO | Grantor: PBD 85 LLC Grantee: STEWART AND MORROW COMPANY LLC | Desc: TWENTY FIVE BINGLE ROAD ONE THOUSAND FIVE HUNDRED Block: 1 Reserve: A",
+        "RP-2024-70412 | 02/29/2024 | W/D | Grantor: BEAZER HOMES TEXAS HOLDINGS INC Grantor: BEAZER HOMES TEXAS L P Grantor: BEAZER HOMES TEXAS LP Grantee: STEWART ANDREA L | Desc: GATHERINGS AT WESTVIEW CONDOMINIUMS Unit: 2305",
+        "RP-2024-271509 | 07/29/2024 | W/D | Grantor: BABIN DANIEL Grantor: BABIN DANIEL DAVID Grantor: BABIN KAITLYN Grantee: JOHNSON OLGA CONSUELO Grantee: JOHNSON STEWART LEE Grantee: STEWART AND OLGA JOHNSON LIVING TRUST | Desc: LAKES OF PINE FOREST Sec: 5 Lot: 10 Block: 3",
+        "RP-2024-144894 | 04/23/2024 | W/D | Grantor: JOHNSON OLGA CONSUELO Grantor: JOHNSON STEWART LEE Grantee: JOHNSON OLGA CONSUELO Grantee: JOHNSON STEWART LEE Grantee: STEWART AND OLGA JOHNSON LIVING TRUST | Desc: WINDSTONE COLONY Sec: 6 Lot: 66 Block: 1 Related Docs",
+        "RP-2023-36921 | 02/02/2023 | W/D | Grantor: KINGDOM BUILDERS CENTER OF HOUSTON TEXAS INC Grantee: STEWART AND STEWARTS DEVELOPMENT INC | Desc: SOUTHWEST CROSSING Sec: 7 Block: 8 Reserve: A Related Docs",
+        "RP-2022-327779 | 06/24/2022 | NOTICE | Grantor: BUBELA DANE Grantor: STEWART ANDREA Grantor: TALBOT CATHERINE R Grantor: TALBOT CATHERINE ROUNTREE Grantor: TALBOT DEAN Grantee: BUBELA DANE Grantee: STEWART ANDREA Grantee: TALBOT CATHERINE R Grantee: TALBOT CATHERINE ROUNTREE Grantee: TALBOT DEAN | Desc: COVE Sec: 10 Lot: 5 Block: 2 Related Docs",
+        "RP-2022-257783 | 05/17/2022 | W/D | Grantor: SIMPSON GEORGE L Grantor: SIMPSON STELLA Grantee: STEWART ANDREAL Grantee: STEWART ONDREAL | Desc: TROPICANA VILLAGE Lot: 9 Block: 10",
+        "RP-2022-257782 | 05/17/2022 | P/A | Grantor: SIMPSON GEORGE Grantee: STEWART ANDREAL Grantee: STEWART ONDREAL | Comment: SEE INSTRUMENT",
+        "RP-2022-257206 | 05/17/2022 | CORREC | Grantor: FRANKLIN CONNIE G Grantor: FRANKLIN GARY L SR Grantor: GREGORY CONNIE Grantee: EDWARDS MICHAEL D Grantee: STEWART ANDREA D | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-174775 | 04/01/2022 | W/D | Grantor: FRANKLIN CONNIE G Grantor: FRANKLIN GARY L SR Grantor: GREGORY CONNIE Grantee: EDWARDS MICHAEL D Grantee: STEWART ANDREA D | Desc: BOUDREAUX ESTATES Lot: 16 Related Docs",
+        "RP-2021-688466 | 12/02/2021 | REL | Grantor: HUNTINGTON NATIONAL BANK Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: STEWART ANDREA M Grantee: STEWART PAUL J | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-308077 | 06/03/2021 | W/D | Grantor: NAQVI ZAINAB R Grantee: STEWART ANDRINA Grantee: WILLIAMS BLAKE | Desc: POLK AVENUE TOWNHOMES Lot: 4 Block: 1",
+        "RP-2021-308076 | 06/03/2021 | NOTICE | Grantor: NAQVI ZAINAB R Grantor: STEWART ANDRINA Grantor: WILLIAMS BLAKE Grantee: NAQVI ZAINAB R Grantee: STEWART ANDRINA Grantee: WILLIAMS BLAKE | Desc: POLK AVENUE TOWNHOMES Lot: 4 Block: 1 Related Docs",
+        "RP-2020-443978 | 09/21/2020 | W/D | Grantor: GARCIA DEBORAH R Grantor: GARCIA DENNIS A Grantee: STEWART ANDREW ELLIS IV Grantee: STEWART TAMARA | Desc: CANYON LAKES WEST Sec: 4 Lot: 71 Block: 1 Related Docs",
+        "RP-2020-293926 | 07/06/2020 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: NEW PENN FINANCIAL LLC Grantee: BUBELA ANDREA Grantee: BUBELA DANE Grantee: STEWART ANDREA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-238283 | 06/06/2019 | REL | Grantor: CHASE HOME FINANCE LLC Grantor: CHASE MANHATTAN MORTGAGE CORPORATION Grantor: JPMORGAN CHASE BANK Grantee: STEWART ANDREA M | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-218207 | 05/24/2019 | NOTICE | Grantor: OPENDOOR PROPERTY D LLC Grantor: STEWART ANDREA M Grantee: OPENDOOR PROPERTY D LLC Grantee: STEWART ANDREA M | Desc: HEARTHSTONE Sec: 3 Lot: 21 Block: 10 Related Docs",
+        "RP-2019-218206 | 05/24/2019 | NOTICE | Grantor: OPENDOOR PROPERTY D LLC Grantor: STEWART ANDREA M Grantee: OPENDOOR PROPERTY D LLC Grantee: STEWART ANDREA M | Desc: HEARTHSTONE Sec: 3 Lot: 21 Block: 10",
+        "RP-2018-508934 | 11/08/2018 | REL | Grantor: LAW OFFICE OF BRADY T WYATT III Grantor: PLANTATION LAKES CIVIC IMPROVEMENT ASSOCIATION INC Grantor: PRINCIPAL MANAGEMENT GROUP OF HOUSTON Grantor: WYATT BRADY T III Grantee: STEWART ANDREW PAUL | Desc: PLANTATION LAKES Sec: 22 Lot: 18 Block: 1 Related Docs",
+        "RP-2018-292427 | 06/29/2018 | NOTICE | Grantor: SCHUBERT JACK J Grantor: SCHUBERT JANE M Grantor: STEWART ANDREA M Grantor: STEWART PAUL J Grantee: SCHUBERT JACK J Grantee: SCHUBERT JANE M Grantee: STEWART ANDREA M Grantee: STEWART PAUL J | Desc: RIVER OAKS Sec: 8 Lot: 23 Block: 69 Related Docs",
+        "RP-2018-292425 | 06/29/2018 | W/D | Grantor: SCHUBERT JACK J Grantor: SCHUBERT JANE M Grantee: STEWART ANDREA M Grantee: STEWART PAUL J | Desc: RIVER OAKS Sec: 8 Lot: 23 Block: 69",
+        "RP-2017-279389 | 06/23/2017 | LIEN | Grantor: PLANTATION LAKES IMPROVEMENT ASSOCIATION INC Grantee: STEWART ANDREW PAUL | Desc: PLANTATION LAKES Sec: 22 Lot: 18 Block: 1 Related Docs",
+        "RP-2017-151774 | 04/10/2017 | TRUST | Grantor: STEWART THOMAS EDWARD II Grantee: HEADS DEVIN Grantee: HEADS KEDRON Grantee: HOWARD NATHAN Grantee: LIVING TRUST OF THOMAS EDWARD STEWART II Grantee: STEWART ANDREA Grantee: STEWART KLIMISA Grantee: STEWART THOMAS EDWARD II TRE Grantee: STEWART THOMAS EDWARD III Grantee: STEWART THOMAS HARRISON | Comment: SEE INSTRUMENT",
+        "RP-2016-585432 | 12/30/2016 | NOTICE | Grantor: CARTER GREGORY J Grantor: CARTER KRISTEN Grantor: SMITH RUSSELL TYLER Grantor: STEWART ANDREA Grantee: CARTER GREGORY J Grantee: CARTER KRISTEN Grantee: SMITH RUSSELL TYLER Grantee: STEWART ANDREA | Desc: WESTMORELAND FARMS Block: 5",
+        "RP-2016-585430 | 12/30/2016 | W/D | Grantor: CARTER GREGORY J Grantor: CARTER KRISTEN Grantee: SMITH RUSSELL TYLER Grantee: STEWART ANDREA | Desc: WESTMORELAND FARMS Lot: 12 Block: 5",
+        "RP-2016-542761 | 12/05/2016 | NOTICE | Grantor: ALBUHSEIN ASAAD Grantor: APPEL SONDRA H Grantor: APPEL SONDRA H TRE Grantor: FALIH MAHA Grantor: FALIH MAHA ADNAN Grantor: MCLANE COLLEEN H Grantor: MCLANE COLLEEN H TRE Grantor: STEWART AND JACQUELYN HAYNES REVOCABLE LIVING TRUST Grantee: ALBUHSEIN ASAAD Grantee: APPEL SONDRA H Grantee: APPEL SONDRA H TRE Grantee: FALIH MAHA Grantee: FALIH MAHA ADNAN Grantee: MCLANE COLLEEN H Grantee: MCLANE COLLEEN H TRE Grantee: STEWART AND JACQUELYN HAYNES REVOCABLE LIVING TRUST | Desc: BRIARCROFT SUBDIVISION Lot: 1 Block: 4 Related Docs",
+        "RP-2016-480455 | 10/25/2016 | REL | Grantor: CHASE HOME FINANCE LLC Grantor: CHASE MANHATTAN MORTGAGE CORPORATION Grantor: JPMORGAN CHASE BANK N A Grantee: SHAWAREB MALEK S Grantee: STEWART ANDREA M | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-278204 | 06/28/2016 | REL | Grantor: CALIBER HOME LOANS INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: BUBELA DANE Grantee: STEWART ANDREA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-13093 | 01/12/2016 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: STEWART ANDREA N Grantee: STEWART RODNEY W | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'STEWART AND')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-283869 | 07/15/2026 | T/L | Grantor: STEWART ANDREA M Grantor: STEWART PAUL J Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2026-213079 | 06/01/2026 | D/T | Grantor: STEWART ANDREW PAUL Grantor: STEWART AYOKA Grantee: PNC BANK Grantee: PNC BANK N A Trustee: MARINOSCI LAW GROUP P C | Desc: PLANTATION LAKES Sec: 22 Lot: 18 Block: 1",
+        "RP-2024-70413 | 02/29/2024 | D/T | Grantor: STEWART ANDREA L Grantee: FAIRWAY INDEPENDENT MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: SORUM TINA | Desc: GATHERINS AT WESTVIEW Unit: 2305",
+        "RP-2024-431762 | 11/19/2024 | D/T | Grantor: STEWART AND STEWARTS DEVELOPMENT Grantee: U S SMALL BUSINESS ADMINISTRATION Trustee: ACOCK KELLE | Desc: SOUTHWEST CROSSING Sec: 7 Block: 8 Reserve: A Related Docs",
+        "RP-2024-242194 | 07/02/2024 | AFFT | Grantor: STEWART ANDREA M Grantor: STEWART PAUL J Grantee: SEE INSTRUMENT | Desc: RIVER OAKS Sec: 8 Lot: 23 Block: 59",
+        "RP-2024-242193 | 07/02/2024 | D/T | Grantor: STEWART ANDREA M Grantor: STEWART PAUL J Grantee: MAIN STREET MORTGAGE COMPANY Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK MANN & GRAHAM LLP | Desc: RIVER OAKS Sec: 8 Lot: 23 Block: 69",
+        "RP-2024-184922 | 05/22/2024 | W/D | Grantor: STEWART ANDREA CONDELL Grantor: STEWART SEYMOUR Grantee: WRIGHT NORMA Grantee: WRIGHT WILLIAM JR | Desc: WHEATSTONE ESTATES Sec: 1 Lot: 29 Block: 1",
+        "RP-2023-131094 | 04/13/2023 | QCD | Grantor: STEWART ANDRE P Grantee: AUSTIN KRYSTAL CLARINE | Desc: NORTHMORE Lot: 16 Block: 6",
+        "RP-2022-67709 | 02/07/2022 | LIEN | Grantor: STEWART AND 89TH L P Grantee: STATE OF TEXAS | Comment: SEE INSTRUMENT",
+        "RP-2022-565461 | 11/28/2022 | EASMT | Grantor: STEWART AND STEWART DEVELOPMENT INCORPORATED Grantee: CENTERPOINT ENERGY RESOURCES CORP Grantee: CENTERPOINT ENERGY TEXAS GAS OPERATIONS | Comment: SEE INSTRUMENT",
+        "RP-2022-548161 | 11/11/2022 | L AFFT | Grantor: HYDROLIFE POOL SERVICE Grantor: STEWART ANDREA Grantee: LEO MIKE | Desc: LAKEWOOD FOREST Sec: 10 Lot: 24 Block: 16 Related Docs",
+        "RP-2022-327779 | 06/24/2022 | NOTICE | Grantor: BUBELA DANE Grantor: STEWART ANDREA Grantor: TALBOT CATHERINE R Grantor: TALBOT CATHERINE ROUNTREE Grantor: TALBOT DEAN Grantee: BUBELA DANE Grantee: STEWART ANDREA Grantee: TALBOT CATHERINE R Grantee: TALBOT CATHERINE ROUNTREE Grantee: TALBOT DEAN | Desc: COVE Sec: 10 Lot: 5 Block: 2 Related Docs",
+        "RP-2022-327777 | 06/24/2022 | W/D | Grantor: BUBELA DANE Grantor: STEWART ANDREA Grantee: ROUNTREE TALBOT CATHERINE Grantee: TALBOT DEAN MICHAEL | Desc: COVE Sec: 10 Lot: 5 Block: 2",
+        "RP-2022-257207 | 05/17/2022 | AFFT | Grantor: EDWARDS MICHAEL D Grantor: INFINITY TITLE COMPANY Grantor: STEWART ANDREA D Grantee: FRANKLIN CONNIE G Grantee: FRANKLIN GARY L SR | Desc: BOUDREAUX ESTATES Sec: 1 Tract: 22 Related Docs",
+        "RP-2022-174776 | 04/01/2022 | D/T | Grantor: EDWARDS MICHAEL D Grantor: STEWART ANDREA D Grantee: FRANKLIN CONNIE G Grantee: FRANKLIN GARY L SR Trustee: CAVER J PAUL | Desc: BOUDREAUX ESTATES Lot: 16 Related Docs",
+        "RP-2021-705834 | 12/10/2021 | MEMO | Grantor: ADVENIR @ STONE PARK LLC Grantor: FORESI JOHN Grantor: STEPHEN L VECCHITTO REVOCABLE TRUST Grantor: STEWART ANDREW Grantor: STEWART D ANDREW Grantor: VECCHITTO STEPHEN L Grantor: VECCHITTO STEPHEN L TRE Grantor: VR STONE PARK GP LLC Grantor: VR STONE PARK LIMITED PARTNERSHIP Grantee: HOLLIDAY FENOGLIO FOWLER L P Grantee: J P MORGAN CHASE COMMERCIAL MORTGAGE SECURITIES CORP SERIES 2019-K735 Grantee: JLL REAL ESTATE CAPITAL LLC Grantee: WELLS FARGO BANK NATIONAL ASSOCIATION Grantee: WILMINGTON TRUST NATIONAL ASSOCIATION TRE | Desc: STONE PARK APARTMENTS Related Docs",
+        "RP-2021-658284 | 11/16/2021 | D/T | Grantor: STEWART ANDREA M Grantor: STEWART PAUL J Grantee: AMPLIFY CREDIT UNION Trustee: BAIRD MORTON W II | Desc: RIVER OAKS Sec: 8 Lot: 23 Block: 69",
+        "RP-2021-308078 | 06/03/2021 | D/T | Grantor: STEWART ANDRINA Grantor: WILLIAMS BLAKE Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: UNITED WHOLESALE MORTGAGE LLC Trustee: ROBERTSON ANSCHUTZ VETTERS LLC | Desc: POLK AVENUE TOWNHOMES Lot: 4 Block: 1",
+        "RP-2021-308076 | 06/03/2021 | NOTICE | Grantor: NAQVI ZAINAB R Grantor: STEWART ANDRINA Grantor: WILLIAMS BLAKE Grantee: NAQVI ZAINAB R Grantee: STEWART ANDRINA Grantee: WILLIAMS BLAKE | Desc: POLK AVENUE TOWNHOMES Lot: 4 Block: 1 Related Docs",
+        "RP-2020-443979 | 09/21/2020 | D/T | Grantor: STEWART ANDREW ELLIS IV Grantor: STEWART TAMARA Grantee: TEXAS DOW EMPLOYEES CREDIT UNION Trustee: BAIRD MICHAEL FRITZ | Desc: CANYON LAKES WEST Sec: 4 Lot: 71 Block: 1",
+        "RP-2019-218207 | 05/24/2019 | NOTICE | Grantor: OPENDOOR PROPERTY D LLC Grantor: STEWART ANDREA M Grantee: OPENDOOR PROPERTY D LLC Grantee: STEWART ANDREA M | Desc: HEARTHSTONE Sec: 3 Lot: 21 Block: 10 Related Docs",
+        "RP-2019-218206 | 05/24/2019 | NOTICE | Grantor: OPENDOOR PROPERTY D LLC Grantor: STEWART ANDREA M Grantee: OPENDOOR PROPERTY D LLC Grantee: STEWART ANDREA M | Desc: HEARTHSTONE Sec: 3 Lot: 21 Block: 10",
+        "RP-2019-218204 | 05/24/2019 | W/D | Grantor: SMITH RUSSELL TYLER Grantor: STEWART ANDREA M Grantee: OPENDOOR PROPERTY D LLC | Desc: HEARTHSTONE Sec: 3 Lot: 21 Block: 10",
+        "RP-2018-292427 | 06/29/2018 | NOTICE | Grantor: SCHUBERT JACK J Grantor: SCHUBERT JANE M Grantor: STEWART ANDREA M Grantor: STEWART PAUL J Grantee: SCHUBERT JACK J Grantee: SCHUBERT JANE M Grantee: STEWART ANDREA M Grantee: STEWART PAUL J | Desc: RIVER OAKS Sec: 8 Lot: 23 Block: 69 Related Docs",
+        "RP-2018-292426 | 06/29/2018 | D/T | Grantor: STEWART ANDREA M Grantor: STEWART PAUL J Grantee: HUNTINGTON NATIONAL BANK Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: VALBY SCOTT J | Desc: RIVER OAKS Sec: 8 Lot: 23 Block: 69 Related Docs",
+        "RP-2017-2170 | 01/03/2017 | W/D | Grantor: STEWART AND JANE MACCOLL REVOCABLE 2000 TRUST Grantor: STEWART MAECOLL TRE Grantee: PANNELL KATHERINE R | Desc: CANDLELIGHT HILLS Sec: 3 Lot: 32 Block: 3 Related Docs",
+        "RP-2016-585432 | 12/30/2016 | NOTICE | Grantor: CARTER GREGORY J Grantor: CARTER KRISTEN Grantor: SMITH RUSSELL TYLER Grantor: STEWART ANDREA Grantee: CARTER GREGORY J Grantee: CARTER KRISTEN Grantee: SMITH RUSSELL TYLER Grantee: STEWART ANDREA | Desc: WESTMORELAND FARMS Block: 5",
+        "RP-2016-585431 | 12/30/2016 | D/T | Grantor: SMITH RUSSELL TYLER Grantor: STEWART ANDREA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SOFI LENDING CORP Trustee: STEWART TITLE COMPANY | Desc: WESTMORELAND FARMS Lot: 12 Block: 5",
+        "RP-2016-542761 | 12/05/2016 | NOTICE | Grantor: ALBUHSEIN ASAAD Grantor: APPEL SONDRA H Grantor: APPEL SONDRA H TRE Grantor: FALIH MAHA Grantor: FALIH MAHA ADNAN Grantor: MCLANE COLLEEN H Grantor: MCLANE COLLEEN H TRE Grantor: STEWART AND JACQUELYN HAYNES REVOCABLE LIVING TRUST Grantee: ALBUHSEIN ASAAD Grantee: APPEL SONDRA H Grantee: APPEL SONDRA H TRE Grantee: FALIH MAHA Grantee: FALIH MAHA ADNAN Grantee: MCLANE COLLEEN H Grantee: MCLANE COLLEEN H TRE Grantee: STEWART AND JACQUELYN HAYNES REVOCABLE LIVING TRUST | Desc: BRIARCROFT SUBDIVISION Lot: 1 Block: 4 Related Docs",
+        "RP-2016-542760 | 12/05/2016 | W/D | Grantor: APPEL SONDRA H Grantor: APPEL SONDRA H TRE Grantor: MCLANE COLLEEN H Grantor: MCLANE COLLEEN H TRE Grantor: STEWART AND JACQUELYN HAYNES REVOCABLE LIVING TRUST Grantee: ALBUHSEIN ASAAD Grantee: FALIH MAHA ADNAN | Desc: BRIARCROFT SUBDIVISION Lot: 1 Block: 4",
+        "RP-2016-206831 | 05/17/2016 | D/T | Grantor: BUBELA ANDREA Grantor: BUBELA DANE Grantor: STEWART ANDREA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: NEW PENN FINANCIAL LLC Trustee: PEIRSON CHRIS | Desc: COVE SUBDIVISION Sec: 10 Lot: 5 Block: 2 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'STEWART AND')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "ORDER": 1,
+        "W/D": 16,
+        "NOTICE": 15,
+        "REL": 8,
+        "A/J": 1,
+        "MEMO": 2,
+        "P/A": 1,
+        "CORREC": 1,
+        "LIEN": 2,
+        "TRUST": 1,
+        "T/L": 1,
+        "D/T": 11,
+        "AFFT": 2,
+        "QCD": 1,
+        "EASMT": 1,
+        "L AFFT": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'STEWART AND')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "34 instruments as grantee, 31 as grantor (index, name 'STEWART AND')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'STEWART AND')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202510554",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "04/07/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-04-07: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202510554 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de STEWART AND STEWARTS DEVELOPMENT INC (1. en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 26781.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 13577.97,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 1804.69,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 13577.97,
+        "impuestos_que_hereda": 411.01,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 407.34,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 18396.32,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 16518.24,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.456,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $16,518 >= cierre esperado $13,578. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 16518.24,
+    "all_in_cost_estimate": 18396.32,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
   }
 }

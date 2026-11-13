@@ -367,5 +367,428 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=0710910040176",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.180946,
+        "lat": 29.697747
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0710910040176)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 6677,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0710910040176)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~60 x 112 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0710910040176)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF PASADENA",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-344516 | 08/25/2026 | LIEN | Grantor: CITY OF PASADENA Grantee: DEL CAMPO CARLOTTA | Desc: SATSUMA PLACE Sec: 4 Lot: 176",
+        "RP-2026-179804 | 05/08/2026 | W/D | Grantor: LANDAVERDE GLADIS D Grantee: DEL CAMPO RAFAEL MARTIN Grantee: ZAVALA MARTIN DEL CAMPO | Desc: GREENWOOD VILLAGE Sec: 2 Lot: 376 Block: 18 Related Docs",
+        "RP-2025-44128 | 02/06/2025 | LIEN | Grantor: CITY OF PASADENA Grantee: DEL CAMPO CAROLOTTA M | Desc: SATSUMA PLACE Sec: 4 Lot: 176",
+        "RP-2025-405806 | 10/13/2025 | W/D | Grantor: D R HORTON INC Grantor: D R HORTON- TEXAS LTD Grantee: DEL CAMPO LOBAINA YISEL SANCHEZ | Desc: LEGACY PARK ON NANES ROAD Sec: 4 Lot: 6 Block: 1",
+        "RP-2025-338736 | 08/27/2025 | LIEN | Grantor: CITY OF PASADENA Grantee: DEL CAMPO CARLOTTA M | Desc: SATSUMA PLACE Sec: 4 Lot: 176",
+        "RP-2025-178430 | 05/12/2025 | W/D | Grantor: CORTES GERARDO E Grantee: DEL CAMPO MARISOL | Desc: CRANE STREET GARDENS Lot: 239 Block: 9",
+        "RP-2024-90526 | 03/14/2024 | W/D | Grantor: SCRUGGINS CHAD Grantee: DEL CAMPO FRANCISCO J III | Desc: SPRINGFIELD ESTATES SUBDIVISION Sec: 3 Lot: 37",
+        "RP-2024-74982 | 03/04/2024 | W/D | Grantor: SHAW BILLY RAY Grantee: DEL CAMPO MARISOL | Desc: OAK PARK ADDITION Lot: 31-35 Block: 3",
+        "RP-2024-430883 | 11/19/2024 | LIEN | Grantor: CITY OF PASADENA Grantee: DEL CAMPO CARLOTTA M | Desc: SATSUMA PLACE Sec: 4 Lot: 176",
+        "RP-2024-410228 | 11/04/2024 | REL | Grantor: EVERBANK N A Grantor: LOANCARE LLC Grantor: TIAA FSB Grantee: DEL CAMPO JOHN M III Grantee: DEL CAMPO MARIA C | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-235837 | 06/28/2024 | NOTICE | Grantor: CONSTANTE ANTONIA Grantor: DEL CAMPO PETRA Grantor: GARCIA JUAN Grantor: GARCIA STEPHEN Grantor: ORTEGA ABRAHAM VICUNA Grantor: ORTIZ OLIVIA Grantee: CONSTANTE ANTONIA Grantee: DEL CAMPO PETRA Grantee: GARCIA JUAN Grantee: GARCIA STEPHEN Grantee: ORTEGA ABRAHAM VICUNA Grantee: ORTIZ OLIVIA | Desc: CENTRAL PARK SUBDIVISION Lot: 19-20 Block: 144",
+        "RP-2024-230195 | 06/25/2024 | REL | Grantor: PRESTON ANNIE L Grantee: DEL CAMPO BLANCA F | Desc: CRANE STREET WOODS Sec: 3 Lot: 7 Block: 1 Related Docs",
+        "RP-2024-169089 | 05/09/2024 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: DEL CAMPO DANIEL O Grantee: DEL CAMPO TARSHA S | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-469282 | 12/14/2023 | LIEN | Grantor: CITY OF PASADENA Grantee: DEL CAMPO CARLOTTA M | Desc: SATSUMA PLACE Sec: 4 Lot: 176",
+        "RP-2023-468918 | 12/13/2023 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: UNIVERSITY FEDERAL CREDIT UNION Grantee: DEL CAMPO MARK Grantee: KEIZMAN HEATHER | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-215196 | 06/12/2023 | W/D | Grantor: ALI AHMAD H Grantor: ALI AHMAD HUSSAIN Grantee: DEL CAMPO MARISOL | Desc: HUNTINGTON PLACE EXTENSION Lot: 5 Block: 4",
+        "RP-2022-94717 | 02/22/2022 | REL | Grantor: COMMUNITYBANK OF TEXAS N A Grantor: CROSBY STATE BANK Grantee: DEL CAMPO RAFAEL | Desc: CITY GARDENS Lot: 114 Block: 10 Related Docs",
+        "RP-2022-472659 | 09/21/2022 | W/D | Grantor: DEL CAMPO CUSTOMS LLC Grantee: DEL CAMPO FRANCISCO Grantee: DEL CAMPO TAMMY | Desc: WOODS ON THE BAY TOWNHOMES Sec: 1 Lot: 4 Block: 9",
+        "RP-2022-461304 | 09/13/2022 | REL | Grantor: COUNTRYWIDE HOME LOANS INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: DEL CAMPO JAMES M Grantee: MEZA CHRISTINE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-311849 | 06/15/2022 | LIEN | Grantor: CITY OF PASADENA Grantee: DEL CAMPO CARLOTTA | Desc: SATSUMA PLACE Sec: 4 Lot: 176",
+        "RP-2022-245286 | 05/10/2022 | REL | Grantor: FIRST SAVINGS BANK Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: BESERRA MARK ANTHONY Grantee: DEL CAMPO NATALIA NAOMI | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-219107 | 04/26/2022 | NOTICE | Grantor: BESERRA MARK ANTHONY Grantor: CRUZ-RAMIREZ ALICIA G Grantor: DEL CAMPO NATALIA NAOMI Grantee: BESERRA MARK ANTHONY Grantee: CRUZ-RAMIREZ ALICIA G Grantee: DEL CAMPO NATALIA NAOMI | Desc: WESTFIELD GLEN Lot: 62 Block: 6 Related Docs",
+        "RP-2022-219106 | 04/26/2022 | NOTICE | Grantor: BESERRA MARK ANTHONY Grantor: CRUZ-RAMIREZ ALICIA G Grantor: DEL CAMPO NATALIA NAOMI Grantee: BESERRA MARK ANTHONY Grantee: CRUZ-RAMIREZ ALICIA G Grantee: DEL CAMPO NATALIA NAOMI | Desc: WESTFIELD GLEN Lot: 62 Block: 6",
+        "RP-2022-209678 | 04/21/2022 | REL | Grantor: ENVOY MORTGAGE LTD Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: DEL CAMPO ERNESTO MARTIN Grantee: DEL CAMPO RAMONA M MARTIN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-152383 | 03/23/2022 | NOTICE | Grantor: DEL CAMPO RUIZ ALMA ANGELICA Grantor: GAMBOA CESAR DAVID AYALA Grantor: LENNAR HOMES OF TEXAS SALES AND MARKETING LTD Grantor: MOLINA SIDIA Grantor: U S HOME CORPORATION Grantee: DEL CAMPO RUIZ ALMA ANGELICA Grantee: GAMBOA CESAR DAVID AYALA Grantee: LENNAR HOMES OF TEXAS SALES AND MARKETING LTD Grantee: MOLINA SIDIA Grantee: U S HOME CORPORATION | Desc: BALMORAL Sec: 26 Lot: 38 Block: 5",
+        "RP-2021-9112 | 01/06/2021 | W/D | Grantor: CHISHOLM BARBARA LYNN Grantor: CHISHOLM DONALD ERNEST JR Grantor: CHISHOLM DUNCAN COLIN Grantor: CHISHOLM THOMAS ALEXANDER Grantee: DEL CAMPO CUSTOMS LLC | Desc: WOODS ON THE BAY TOWNHOMES Sec: 1 Lot: 4 Block: 9 Related Docs",
+        "RP-2021-690959 | 12/02/2021 | W/D | Grantor: WEISFIELD SHELDON Grantee: DEL CAMPO BLANCA Grantee: DEL CAMPO RAFAEL | Desc: CRANE STREET GARDENS Lot: 240 Block: 9",
+        "RP-2021-676828 | 11/24/2021 | ASSGN | Grantor: CORELOGIC SOLUTIONS LLC Grantor: GOLDMAN SACHS MORTGAGE COMPANY Grantee: DEL CAMPO ELIZABETH G Grantee: DEL CAMPO JOSEPH M | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-644478 | 11/08/2021 | NOTICE | Grantor: CASTRO ANA MARIA Grantor: DEL CAMPO JOAQUIN MARTINEZ Grantor: FRANCO RAMON PEDRO PERNAS Grantor: KING'S REAL ESTATE LLC Grantee: CASTRO ANA MARIA Grantee: DEL CAMPO JOAQUIN MARTINEZ Grantee: FRANCO RAMON PEDRO PERNAS Grantee: KING'S REAL ESTATE LLC | Desc: THE WOODLANDS VILLAGE OF CREEKSIDE PARK Sec: 19 Lot: 9 Block: 1",
+        "RP-2021-429931 | 07/29/2021 | ASSGN | Grantor: SIERRA LENDING GROUP LLC Grantee: DE LEON CLAUDIO JIMENEZ Grantee: DEL CAMPO PAULINA REYNA | Desc: THE WOODLANDS VILLAGE OF CREEKSIDE PARK Sec: 8 Lot: 17 Block: 1 Related Docs",
+        "RP-2021-345273 | 06/21/2021 | NOTICE | Grantor: DEL CAMPO JORGE RENE MARTIN Grantor: DEL CAMPO LUZ MARIA MARTIN Grantor: TAYLOR MORRISON OF TEXAS INC Grantee: DEL CAMPO JORGE RENE MARTIN Grantee: DEL CAMPO LUZ MARIA MARTIN Grantee: TAYLOR MORRISON OF TEXAS INC | Desc: BRIDGE CREEK Sec: 1 Lot: 1 Block: 7",
+        "RP-2021-345272 | 06/21/2021 | NOTICE | Grantor: DEL CAMPO JORGE RENE MARTIN Grantor: DEL CAMPO LUZ MARIA MARTIN Grantor: TAYLOR MORRISON OF TEXAS INC Grantee: DEL CAMPO JORGE RENE MARTIN Grantee: DEL CAMPO LUZ MARIA MARTIN Grantee: TAYLOR MORRISON OF TEXAS INC | Desc: BRIDGE CREEK Sec: 1 Lot: 1 Block: 7",
+        "RP-2021-345270 | 06/21/2021 | W/D | Grantor: TAYLOR MORRISON OF TEXAS INC Grantee: DEL CAMPO JORGE RENE MARTIN Grantee: DEL CAMPO LUZ MARIA MARTIN | Desc: BRIDGE CREEK Sec: 1 Lot: 1 Block: 7",
+        "RP-2021-186216 | 04/07/2021 | REL | Grantor: CRESTMARK MORTGAGE COMPANY LTD Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: DEL CAMPO DANIEL MARTIN Grantee: DEL CAMPO LESLEY E MARTIN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-647674 | 12/31/2020 | NOTICE | Grantor: DEL CAMPO LOPEZ JUAN JOSE Grantor: PERRY HOMES LLC Grantee: DEL CAMPO LOPEZ JUAN JOSE Grantee: PERRY HOMES LLC | Desc: ELYSON Sec: 20 Lot: 30 Block: 1",
+        "RP-2020-647672 | 12/31/2020 | W/D | Grantor: PERRY HOMES LLC Grantee: DEL CAMPO LOPEZ JUAN JOSE | Desc: ELYSON Sec: 20 Lot: 30 Block: 1",
+        "RP-2020-551703 | 11/11/2020 | W/D | Grantor: DEL CAMPO DANIEL MARTIN Grantee: DEL CAMPO LESLEY MARTIN | Desc: BRIDGELAND HIDDEN CREEK Sec: 20 Lot: 12 Block: 2",
+        "RP-2020-39708 | 01/28/2020 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: DEL CAMPO JOSE D TROYO Grantee: DEL CAMPO JOSE DANIEL TROYO | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-358396 | 08/06/2020 | D/T | Grantor: RED VOLCANO LLC Grantee: DEL CAMPO PAZ MARTIN Trustee: BARRERA DANIEL | Desc: ARON ADDITION Lot: 4-5 Block: 6",
+        "RP-2020-281762 | 06/29/2020 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: DARPI MONICA MACLOVIA Grantee: DEL CAMPO CHRISTOPHER SCOTT | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-230135 | 06/01/2020 | CONT | Grantor: CHAIN EARL H JR Grantee: DEL CAMPO CUSTOM HOMES LLC | Desc: SJOLANDER J P Abstract: 1644 Comment: 1.0508",
+        "RP-2020-110933 | 03/11/2020 | REL | Grantor: INTERNAL REVENUE SERVICE Grantee: DEL CAMPO ISRAEL MARTIN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-65172 | 02/19/2019 | NOTICE | Grantor: DEL CAMPO CARLOTA MARTIN Grantor: HARRIS COUNTY GUARDIANSHIP PROGRAM Grantor: MALONE JEFF Grantor: VASQUEZ LUCIO Grantee: DEL CAMPO CARLOTA MARTIN Grantee: HARRIS COUNTY GUARDIANSHIP PROGRAM Grantee: MALONE JEFF Grantee: VASQUEZ LUCIO | Desc: MAGNOLIA PARK Lot: 33-34 Block: 94",
+        "RP-2019-65171 | 02/19/2019 | AFFT | Grantor: BELCHER-ROBINSON MELISSA Grantor: DEL CAMPO ALFONSO Grantor: DEL CAMPO JUAN JR Grantor: DEL CAMPO JUAN MARTIN Grantor: DEL CAMPO MANUEL Grantor: DEL CAMPO MARIA DEL REFUGIO ROJAS MARTIN Grantor: ROBINSON MELISSA Grantee: DEL CAMPO CARLOTTA M | Desc: MAGNOLIA PARK Lot: 33-34 Block: 94 Related Docs",
+        "RP-2019-449856 | 10/09/2019 | REL | Grantor: WELLS FARGO BANK N.A. Grantee: DEL CAMPO ELIZABETH G Grantee: DEL CAMPO JOSEPH M | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-267392 | 06/24/2019 | REL | Grantor: BANK OF AMERICA N A Grantor: FIRST AMERICAN MORTGAGE SOLUTIONS LLC Grantee: DEL CAMPO JORGE RENE MARTINE Grantee: DEL CAMPO LUZ M MARTIN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-224058 | 05/29/2019 | L AFFT | Grantor: EXPRESS CONTRACTING Grantor: EXPRESS CONTRACTING SERVICES Grantor: EXPRESS PAINTING LLC Grantee: DEL CAMPO ANGELIQUE Grantee: GUAJARDO BRENDA Grantee: ROCCO REAL ESTATE | Comment: SEE INSTRUMENT",
+        "RP-2018-68023 | 02/19/2018 | NOTICE | Grantor: CAMPOS JOSE S Grantor: DEL CAMPOS LORENA Grantor: SIGALA LESLIE CORINA Grantee: CAMPOS JOSE S Grantee: DEL CAMPOS LORENA Grantee: SIGALA LESLIE CORINA | Desc: MOUNT ROYAL VILLAGE Sec: 2 Lot: 27 Block: 6 Related Docs",
+        "RP-2018-68022 | 02/19/2018 | NOTICE | Grantor: CAMPOS JOSE S Grantor: DEL CAMPOS LORENA Grantor: SIGALA LESLIE CORINA Grantee: CAMPOS JOSE S Grantee: DEL CAMPOS LORENA Grantee: SIGALA LESLIE CORINA | Desc: MOUNT ROYAL VILLAGE Sec: 2 Lot: 27 Block: 6",
+        "RP-2018-533597 | 11/28/2018 | REL | Grantor: ALLEGIANCE BANK Grantee: DEL CAMPO CUSTOMS LLC | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-45833 | 02/02/2018 | W/D | Grantor: HARRISON BETTY J Grantee: DEL CAMPO MARISOL | Desc: CRANE STREET WOODS Sec: 2 Block: 5",
+        "RP-2018-347419 | 08/01/2018 | REL | Grantor: BANK OF AMERICA NA Grantor: FIRST AMERICAN MORTGAGE SOLUTIONS LLC Grantee: DEL CAMPO ISRAEL MARTIN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-513324 | 11/21/2017 | NOTICE | Grantor: CHESMAR HOMES LLC Grantor: CHESMAR HOMES LTD Grantor: DEL CAMPO DANIEL O Grantor: DEL CAMPO TARSHA SHERICE Grantee: CHESMAR HOMES LLC Grantee: CHESMAR HOMES LTD Grantee: DEL CAMPO DANIEL O Grantee: DEL CAMPO TARSHA SHERICE | Desc: TOWNE LAKE GREENE Sec: 5 Lot: 24 Block: 1 Related Docs",
+        "RP-2017-513323 | 11/21/2017 | NOTICE | Grantor: CHESMAR HOMES LLC Grantor: CHESMAR HOMES LTD Grantor: DEL CAMPO DANIEL O Grantor: DEL CAMPO TARSHA SHERICE Grantee: CHESMAR HOMES LLC Grantee: CHESMAR HOMES LTD Grantee: DEL CAMPO DANIEL O Grantee: DEL CAMPO TARSHA SHERICE | Desc: TOWNE LAKE GREENE Sec: 5 Lot: 24 Block: 1",
+        "RP-2017-513321 | 11/21/2017 | W/D | Grantor: CHESMAR HOMES LTD Grantee: DEL CAMPO DANIEL O Grantee: DEL CAMPO TARSHA SHERICE | Desc: TOWNE LAKE GREENE Sec: 5 Lot: 24 Block: 1",
+        "RP-2017-438884 | 10/05/2017 | REL | Grantor: COUNTRYWIDE HOME LOANS INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: DEL CAMPO TARSHA S | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-381943 | 08/23/2017 | NOTICE | Grantor: DEL CAMPO DANIEL Grantor: DEL CAMPO TARSHA S Grantor: VALDEZ JESUS Grantee: DEL CAMPO DANIEL Grantee: DEL CAMPO TARSHA S Grantee: VALDEZ JESUS | Desc: PINE FOREST GREEN Sec: 1 Lot: 39 Block: 3",
+        "RP-2017-364962 | 08/14/2017 | W/D | Grantor: PRESTON ANNIE L Grantee: DEL CAMPO BLANCA F | Desc: CRANE STREET WOODS Sec: 3 Lot: 7 Block: 1",
+        "RP-2017-292490 | 06/30/2017 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: PROSPECT MORTGAGE LLC Grantee: DEL CAMPO AZUCENA MARTIN Grantee: DEL CAMPO KIMBERLY MARTIN Grantee: DEL CAMPO LUIS MARTIN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-250397 | 06/06/2017 | NOTICE | Grantor: DEL CAMPO AZUCENA MARTIN Grantor: DEL CAMPO KIMBERLY M Grantor: DEL CAMPO KIMBERLY MARTIN Grantor: DEL CAMPO LUIS MARTIN Grantor: YEPES JEREMY A Grantee: DEL CAMPO AZUCENA MARTIN Grantee: DEL CAMPO KIMBERLY M Grantee: DEL CAMPO KIMBERLY MARTIN Grantee: DEL CAMPO LUIS MARTIN Grantee: YEPES JEREMY A | Desc: MEADOWGREEN Sec: 1 Lot: 55 Block: 1",
+        "RP-2017-146054 | 04/05/2017 | W/D | Grantor: DEL CAMPO GLORIA L Grantor: DELCAMPO GLORIA LONGORIA Grantee: DEL CAMPO GLORIA L TRE Grantee: DEL CAMPO JUAN MARTIN JR TRE Grantee: JUAN AND GLORIA DEL CAMPO LIVING TRUST | Desc: SWOPE ADDITION Lot: 2-3 Block: 3",
+        "RP-2017-146053 | 04/05/2017 | W/D | Grantor: DEL CAMPO GLORIA L Grantor: DEL CAMPO GLORIA MARTIN Grantor: DEL CAMPO JUAN MARTIN JR Grantee: DEL CAMPO GLORIA L TRE Grantee: DEL CAMPO JUAN MARTIN JR TRE Grantee: THE JUAN AND GLORIA DEL CAMPO LIVING TRUST | Desc: SWOPE ADDITION Lot: 3 Block: 3",
+        "RP-2017-111845 | 03/16/2017 | NOTICE | Grantor: DEL CAMPO DANIEL MARTIN Grantor: DEL CAMPO LESLEY E MARTIN Grantor: PERRY HOMES LLC Grantee: DEL CAMPO DANIEL MARTIN Grantee: DEL CAMPO LESLEY E MARTIN Grantee: PERRY HOMES LLC | Desc: BRIDGELAND HIDDEN CREEK Sec: 20 Lot: 12 Block: 2",
+        "RP-2017-111844 | 03/16/2017 | NOTICE | Grantor: DEL CAMPO DANIEL MARTIN Grantor: DEL CAMPO LESLEY E MARTIN Grantor: PERRY HOMES LLC Grantee: DEL CAMPO DANIEL MARTIN Grantee: DEL CAMPO LESLEY E MARTIN Grantee: PERRY HOMES LLC | Desc: BRIDGELAND HIDDEN CREEK Sec: 20 Lot: 12 Block: 2",
+        "RP-2017-111842 | 03/16/2017 | W/D | Grantor: PERRY HOMES LLC Grantee: DEL CAMPO DANIEL MARTIN Grantee: DEL CAMPO LESLEY E MARTIN | Desc: BRIDGELAND HIDDEN CREEK Sec: 20 Lot: 12 Block: 2",
+        "RP-2016-275145 | 06/27/2016 | ORDER | Grantor: ESPARZA ROSENBER GLORIA Grantee: DEL CAMPO JOSE | Desc: BAY OAKS HARBOR Lot: 23 Block: 7",
+        "RP-2016-211572 | 05/19/2016 | REL | Grantor: CHASE HOME FINANCE LLC Grantor: CHASE MANHATTAN MORTGAGE CORPORATION Grantor: JPMORGAN CHASE BANK N A Grantee: DEL CAMPO ELIZABETH G Grantee: DEL CAMPO JOSEPH M | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DEL CAMPO')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-309067 | 07/30/2026 | W/D | Grantor: COPP CYNTHIA LOPEZ Grantor: DEL CAMPO JOSE RAMIREZ MARTIN Grantee: ESPINOSA RAFAEL SANCHEZ MUNIZ Grantee: HIGAREDA ENRIQUE DANIEL MARISCAL | Desc: THE WOODLANDS CREEKSIDE PARK WEST Sec: 4 Lot: 9 Block: 2",
+        "RP-2026-179801 | 05/08/2026 | D/T | Grantor: DEL CAMPO RAFAEL MARTIN Grantor: ZAVALA MARTIN DEL CAMPO Grantee: LANDAVERDE GLADIS D Trustee: GARCIA BERNARDO J | Desc: GREENWOOD VILLAGE Sec: 2 Lot: 376 Block: 18",
+        "RP-2026-133237 | 04/08/2026 | D/T | Grantor: DEL CAMPO DORISBEL ARANDA SANCHEZ Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: OBSIDIAN FINANCIAL SERVICES INC Trustee: GRIFFITHS DIANNA | Desc: J O ROSS SUBDIVISION Lot: 13 Block: 2 Related Docs",
+        "RP-2025-405807 | 10/13/2025 | D/T | Grantor: DEL CAMPO LOBAINA YISEL SANCHEZ Grantee: HOMEXPRESS MORTGAGE CORP Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: LEGACY PARK ON NANES ROAD Sec: 4 Lot: 6 Block: 1",
+        "RP-2025-178431 | 05/12/2025 | D/T | Grantor: DEL CAMPO MARISOL Grantee: CORTES GERARDO E Trustee: SHADDOCK WILLIAM C | Desc: CRANE STREET GARDENS Lot: 239 Block: 9",
+        "RP-2024-90527 | 03/14/2024 | D/T | Grantor: DEL CAMPO FRANCISCO J III Grantee: INTERLINC MORTGAGE SERVICES LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: SPRINGFIELD ESTATES SUBDIVISION Sec: 3 Lot: 37",
+        "RP-2024-82488 | 03/08/2024 | W/D | Grantor: DEL CAMPO FRANCISCO Grantor: DEL CAMPO TAMMY Grantee: CARRASCO JOHN JR Grantee: SMITH KATHERINE TAYLOR | Desc: WOODS ON THE BAY TOWNHOMES Sec: 1 Lot: 4 Block: 9",
+        "RP-2024-431056 | 11/19/2024 | FI STM | Grantor: DEL CAMPO MARIO PALMA MARTIN Grantor: PALMA MARIO EFRAIN Grantee: CREDIT HUMAN FEDERAL CREDIT UNION | Desc: MEADOW HILL RUN Lot: 124 Block: 2",
+        "RP-2024-297977 | 08/15/2024 | AFFT | Grantor: DEL CAMPO JUAN OLIVARES MARTIN Grantor: HERNANDEZ ESTEPHANY GUADALUPE Grantee: SEE INSTRUMENT | Desc: TAYLOR'S SUBDIVISION OF NORTH HOUSTON Lot: 1 Block: 24",
+        "RP-2024-297976 | 08/15/2024 | D/T | Grantor: DEL CAMPO JUAN OLIVARES MARTIN Grantor: HERNANDEZ ESTEPHANY GUADALUPE Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: ROCKET MORTGAGE LLC Trustee: GUTIERREZ ESTELLA | Desc: TAYLOR'S SUBDIVISION OF NORTH HOUSTON Lot: 1 Block: 24",
+        "RP-2024-235837 | 06/28/2024 | NOTICE | Grantor: CONSTANTE ANTONIA Grantor: DEL CAMPO PETRA Grantor: GARCIA JUAN Grantor: GARCIA STEPHEN Grantor: ORTEGA ABRAHAM VICUNA Grantor: ORTIZ OLIVIA Grantee: CONSTANTE ANTONIA Grantee: DEL CAMPO PETRA Grantee: GARCIA JUAN Grantee: GARCIA STEPHEN Grantee: ORTEGA ABRAHAM VICUNA Grantee: ORTIZ OLIVIA | Desc: CENTRAL PARK SUBDIVISION Lot: 19-20 Block: 144",
+        "RP-2024-235836 | 06/28/2024 | AFFT | Grantor: DEL CAMPO PETRA Grantee: SEE INSTRUMENT | Desc: CENTRAL PARK SUBDIVISION Lot: 19-20 Block: 144",
+        "RP-2024-235828 | 06/28/2024 | W/D | Grantor: CONSTANTE ANTONIA Grantor: DEL CAMPO PETRA GARCIA Grantor: GARCIA JUAN Grantor: GARCIA STEPHEN Grantor: ORTIZ OLIVIA Grantee: ORTEGA ABRAHAM VICUNA | Desc: CENTRAL PARK SUBDIVISION Lot: 19-20 Block: 144",
+        "RP-2024-20031 | 01/19/2024 | W/D | Grantor: ARANGO VANESSA Grantor: DEL CAMPO DONATHON Grantor: DEL CAMPO VANESSA Grantee: LAUREANO-RESENDIZ GLORIA Grantee: LOPEZ-GOMEZ ALEXANDRO | Desc: BARKER VILLAGE Sec: 1 Lot: 1 Block: 2",
+        "RP-2024-169056 | 05/09/2024 | AFFT | Grantor: DEL CAMPO DANIEL O Grantor: DEL CAMPO TARSHA SHERICE Grantee: SEE INSTRUMENT | Desc: TOWNE LAKE Sec: 5 Lot: 24 Block: 1",
+        "RP-2024-169055 | 05/09/2024 | D/T | Grantor: DEL CAMPO DANIEL O Grantor: DEL CAMPO TARSHA SHERICE Grantee: PRIMEWAY FEDERAL CREDIT UNION Trustee: MCGEE MICHAEL | Desc: TOWNE LAKE GREENE Sec: 5 Lot: 24 Block: 1",
+        "RP-2024-143067 | 04/22/2024 | W/D | Grantor: DE LEON CLAUDIO JIMENEZ Grantor: DEL CAMPO PAULINA REYNA Grantee: CERRI ALBERTO Grantee: YUNES SAMIRA COLLADO | Desc: THE WOODLANDS VILLAGE OF CREEKSIDE PARK Sec: 8 Lot: 17 Block: 1 Related Docs",
+        "RP-2023-215198 | 06/12/2023 | D/T | Grantor: DEL CAMPO MARISOL Grantee: ALI AHMAD H Trustee: ALI OMAR A | Desc: HUNTINGTON PLACE EXTENSION HOUSTON Lot: 5 Block: 4",
+        "RP-2023-215197 | 06/12/2023 | NOTE | Grantor: DEL CAMPO MARISOL Grantee: ALI AHMAD H | Comment: SEE INSTRUMENT",
+        "RP-2022-472659 | 09/21/2022 | W/D | Grantor: DEL CAMPO CUSTOMS LLC Grantee: DEL CAMPO FRANCISCO Grantee: DEL CAMPO TAMMY | Desc: WOODS ON THE BAY TOWNHOMES Sec: 1 Lot: 4 Block: 9",
+        "RP-2022-389979 | 07/29/2022 | W/D | Grantor: DEL CAMPO IRMA I MARTIN Grantor: INFANTE MARIA M EST Grantee: INFANTE DANIEL | Desc: HIGHLANDS TOWNSITE Block: 18",
+        "RP-2022-360974 | 07/13/2022 | W/D | Grantor: DE LOS A MARIA Grantor: DEL CAMPO SOPHIA JASMINE MARTIN Grantee: SANTOS JOSE ANTONIO SR | Desc: TIMBERHILLS Sec: 1 Lot: 1 Block: 7",
+        "RP-2022-360973 | 07/13/2022 | W/D | Grantor: DEL CAMPO SOPHIA JASMINE MARTIN Grantor: SANTOS JOSE ANTONIO Grantor: SANTOS MARIA Grantee: SANTOS JOSE ANTONIO JR | Desc: WESTFIELD TERRACE Lot: 76 Block: 3",
+        "RP-2022-360972 | 07/13/2022 | W/D | Grantor: DEL CAMPO SOPHIA JASMINE MARTIN Grantor: SANTOS JOSE ANTONIO Grantor: SANTOS MARIA DE LOS ANGELES Grantee: SANTOS JOSE ANTONIO JR | Desc: PECAN GROVE Tract: 55",
+        "RP-2022-316988 | 06/17/2022 | AFFT | Grantor: DEL CAMPO PETRA Grantor: GARCIA JUAN Grantee: MINOR CARMEN MORALES EST | Comment: SEE INSTRUMENT",
+        "RP-2022-219107 | 04/26/2022 | NOTICE | Grantor: BESERRA MARK ANTHONY Grantor: CRUZ-RAMIREZ ALICIA G Grantor: DEL CAMPO NATALIA NAOMI Grantee: BESERRA MARK ANTHONY Grantee: CRUZ-RAMIREZ ALICIA G Grantee: DEL CAMPO NATALIA NAOMI | Desc: WESTFIELD GLEN Lot: 62 Block: 6 Related Docs",
+        "RP-2022-219106 | 04/26/2022 | NOTICE | Grantor: BESERRA MARK ANTHONY Grantor: CRUZ-RAMIREZ ALICIA G Grantor: DEL CAMPO NATALIA NAOMI Grantee: BESERRA MARK ANTHONY Grantee: CRUZ-RAMIREZ ALICIA G Grantee: DEL CAMPO NATALIA NAOMI | Desc: WESTFIELD GLEN Lot: 62 Block: 6",
+        "RP-2022-219104 | 04/26/2022 | W/D | Grantor: BESERRA MARK ANTHONY Grantor: DEL CAMPO NATALIA NAOMI Grantee: CRUZ-RAMIREZ ALICIA | Desc: WESTFIELD GLEN Lot: 62 Block: 6",
+        "RP-2022-198506 | 04/14/2022 | W/D | Grantor: DEL CAMPO ELIZABETH G Grantor: SALAZAR CESAR R Grantor: SALAZAR ELIZABETH GALAVIZ Grantee: LANGSTON HEATHER LYNN Grantee: WHITE MICHAEL SHAWN | Desc: WOODLAND TRAILS NORTH Sec: 7 Lot: 77 Block: 10",
+        "RP-2022-198505 | 04/14/2022 | AFFT | Grantor: DEL CAMPO ELIZABETH G Grantor: SALAZAR ELIZABETH GALAVIZ Grantee: SEE INSTRUMENT | Comment: SEE INSTRUMENT",
+        "RP-2022-152383 | 03/23/2022 | NOTICE | Grantor: DEL CAMPO RUIZ ALMA ANGELICA Grantor: GAMBOA CESAR DAVID AYALA Grantor: LENNAR HOMES OF TEXAS SALES AND MARKETING LTD Grantor: MOLINA SIDIA Grantor: U S HOME CORPORATION Grantee: DEL CAMPO RUIZ ALMA ANGELICA Grantee: GAMBOA CESAR DAVID AYALA Grantee: LENNAR HOMES OF TEXAS SALES AND MARKETING LTD Grantee: MOLINA SIDIA Grantee: U S HOME CORPORATION | Desc: BALMORAL Sec: 26 Lot: 38 Block: 5",
+        "RP-2022-152382 | 03/23/2022 | D/T | Grantor: DEL CAMPO RUIZ ALMA ANGELICA Grantor: GAMBOA CESAR DAVID AYALA Grantee: LENNAR MORTGAGE LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: BLAMORAL Sec: 26 Lot: 38 Block: 5",
+        "RP-2022-152379 | 03/23/2022 | P/A | Grantor: DEL CAMPO RUIZ ALMA ANGELICA Grantee: GAMBOA CESAR DAVID AYALA | Desc: BALMORAL Sec: 26 Lot: 38 Block: 5",
+        "RP-2022-105533 | 02/28/2022 | AFFT | Grantor: DEL CAMPO DANIEL O Grantor: DEL CAMPO TARSHA S Grantor: DEL CAMPO TARSHA SHERICE Grantee: SEE INSTRUMENT | Desc: TOWNE LAKE GREENE Sec: 5 Lot: 24 Block: 1",
+        "RP-2022-105532 | 02/28/2022 | D/T | Grantor: DEL CAMPO DANIEL O Grantor: DEL CAMPO TARSHA S Grantor: DEL CAMPO TARSHA SHERICE Grantee: ASPIRE FINANCIAL INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: TEXASLENDING.COM Trustee: BURNS MICHAEL | Desc: TOWNE LAKE GREENE Sec: 5 Lot: 24 Block: 1 Related Docs",
+        "RP-2021-9115 | 01/06/2021 | AFFT | Grantor: DEL CAMPO FRANC Grantee: SEE INSTRUMENT | Desc: WOODS ON THE BAY TOWNHOUSES Sec: 1 Lot: 4 Block: 9",
+        "RP-2021-9114 | 01/06/2021 | ASSGN | Grantor: DEL CAMPO CUSTOMS LLC Grantee: ZEUSLENDING.COM | Comment: SEE INSTRUMENT",
+        "RP-2021-9113 | 01/06/2021 | D/T | Grantor: DEL CAMPO CUSTOMS LLC Grantee: ZEUSLENDING.COM Trustee: KAUFMAN STEVEN | Desc: WOODS ON THE BAY TOWNHOUSES Sec: 1 Lot: 4 Block: 9",
+        "RP-2021-644478 | 11/08/2021 | NOTICE | Grantor: CASTRO ANA MARIA Grantor: DEL CAMPO JOAQUIN MARTINEZ Grantor: FRANCO RAMON PEDRO PERNAS Grantor: KING'S REAL ESTATE LLC Grantee: CASTRO ANA MARIA Grantee: DEL CAMPO JOAQUIN MARTINEZ Grantee: FRANCO RAMON PEDRO PERNAS Grantee: KING'S REAL ESTATE LLC | Desc: THE WOODLANDS VILLAGE OF CREEKSIDE PARK Sec: 19 Lot: 9 Block: 1",
+        "RP-2021-390018 | 07/12/2021 | D/T | Grantor: DE LEON CLAUDIO JIMENEZ Grantor: DEL CAMPO PAULINA REYNA Grantee: SIERRA LENDING GROUP LLC Trustee: PATTERSON MICHAEL H | Desc: THE WOODLANDS VILLAGE OF CREEKSIDE PARK Sec: 8 Lot: 17 Block: 1",
+        "RP-2021-345273 | 06/21/2021 | NOTICE | Grantor: DEL CAMPO JORGE RENE MARTIN Grantor: DEL CAMPO LUZ MARIA MARTIN Grantor: TAYLOR MORRISON OF TEXAS INC Grantee: DEL CAMPO JORGE RENE MARTIN Grantee: DEL CAMPO LUZ MARIA MARTIN Grantee: TAYLOR MORRISON OF TEXAS INC | Desc: BRIDGE CREEK Sec: 1 Lot: 1 Block: 7",
+        "RP-2021-345272 | 06/21/2021 | NOTICE | Grantor: DEL CAMPO JORGE RENE MARTIN Grantor: DEL CAMPO LUZ MARIA MARTIN Grantor: TAYLOR MORRISON OF TEXAS INC Grantee: DEL CAMPO JORGE RENE MARTIN Grantee: DEL CAMPO LUZ MARIA MARTIN Grantee: TAYLOR MORRISON OF TEXAS INC | Desc: BRIDGE CREEK Sec: 1 Lot: 1 Block: 7",
+        "RP-2021-345271 | 06/21/2021 | D/T | Grantor: DEL CAMPO JORGE RENE MARTIN Grantor: DEL CAMPO LUZ MARIA MARTIN Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: TAYLOR MORRISON HOME FUNDING INC Trustee: GIBSON MALCOLM D | Desc: BRIDGE GREEN Sec: 1 Lot: 1 Block: 7",
+        "RP-2021-330734 | 06/14/2021 | W/D | Grantor: DEL CAMPO LESLEY MARTIN Grantor: MITCHELL LESLEY ELIZABETH Grantee: MITCHELL LESLEY ELIZABETH | Desc: BRIDGELAND HIDDEN CREEK Sec: 20 Lot: 12 Block: 2",
+        "RP-2021-272968 | 05/18/2021 | D/T | Grantor: DEL CAMPO ELIZABETH Grantor: JENSEN ADAM CAMERON Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: QUICKEN LOANS LLC Trustee: KENDALL GERRI L | Desc: ALBURY TRAILS ESTATES Sec: 4 Lot: 31 Block: 3",
+        "RP-2021-102645 | 03/01/2021 | W/D | Grantor: DEL CAMPO JORGE MARTIN Grantor: MARTIN DEL CAMPO LUZ M Grantee: CAMEROON INVESTMENT CLUB LLC | Desc: CYPRESS MEADOW Sec: 6 Lot: 34 Block: 3",
+        "RP-2020-647674 | 12/31/2020 | NOTICE | Grantor: DEL CAMPO LOPEZ JUAN JOSE Grantor: PERRY HOMES LLC Grantee: DEL CAMPO LOPEZ JUAN JOSE Grantee: PERRY HOMES LLC | Desc: ELYSON Sec: 20 Lot: 30 Block: 1",
+        "RP-2020-647673 | 12/31/2020 | D/T | Grantor: DEL CAMPO CARINA Grantor: DEL CAMPO LOPEZ JUAN JOSE Grantee: CRESTMARK MORTGAGE COMPANY LTD Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: VALBY SCOTT R | Desc: ELYSON Sec: 20 Lot: 30 Block: 1",
+        "RP-2020-551703 | 11/11/2020 | W/D | Grantor: DEL CAMPO DANIEL MARTIN Grantee: DEL CAMPO LESLEY MARTIN | Desc: BRIDGELAND HIDDEN CREEK Sec: 20 Lot: 12 Block: 2",
+        "RP-2019-65172 | 02/19/2019 | NOTICE | Grantor: DEL CAMPO CARLOTA MARTIN Grantor: HARRIS COUNTY GUARDIANSHIP PROGRAM Grantor: MALONE JEFF Grantor: VASQUEZ LUCIO Grantee: DEL CAMPO CARLOTA MARTIN Grantee: HARRIS COUNTY GUARDIANSHIP PROGRAM Grantee: MALONE JEFF Grantee: VASQUEZ LUCIO | Desc: MAGNOLIA PARK Lot: 33-34 Block: 94",
+        "RP-2019-65171 | 02/19/2019 | AFFT | Grantor: BELCHER-ROBINSON MELISSA Grantor: DEL CAMPO ALFONSO Grantor: DEL CAMPO JUAN JR Grantor: DEL CAMPO JUAN MARTIN Grantor: DEL CAMPO MANUEL Grantor: DEL CAMPO MARIA DEL REFUGIO ROJAS MARTIN Grantor: ROBINSON MELISSA Grantee: DEL CAMPO CARLOTTA M | Desc: MAGNOLIA PARK Lot: 33-34 Block: 94 Related Docs",
+        "RP-2019-65170 | 02/19/2019 | W/D | Grantor: DEL CAMPO CARLOTA EST Grantor: HARRIS COUNTY GUARDIANSHIP PROGRAM Grantor: MALONE JEFF Grantee: VASQUEZ LUCIO | Desc: MAGNOLIA PARK Lot: 33-34 Block: 94",
+        "RP-2019-335196 | 08/01/2019 | T/L | Grantor: DEL CAMPO ISRAEL MARTIN Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2019-144861 | 04/10/2019 | DEED | Grantor: DEL CAMPO WILFREDO Grantor: MAYERS STEPHEN Grantee: ROUNDPOINT MORTGAGE SERVICING CORPORATION | Desc: RIO VILLA Sec: 1 Lot: 56-57 Block: 1 Related Docs",
+        "RP-2018-68024 | 02/19/2018 | AFFT | Grantor: DEL CAMPOS LORENA Grantee: SEE INSTRUMENT | Desc: MOUNT ROYAL VILLAGE Sec: 2 Lot: 27 Block: 6",
+        "RP-2018-68023 | 02/19/2018 | NOTICE | Grantor: CAMPOS JOSE S Grantor: DEL CAMPOS LORENA Grantor: SIGALA LESLIE CORINA Grantee: CAMPOS JOSE S Grantee: DEL CAMPOS LORENA Grantee: SIGALA LESLIE CORINA | Desc: MOUNT ROYAL VILLAGE Sec: 2 Lot: 27 Block: 6 Related Docs",
+        "RP-2018-68022 | 02/19/2018 | NOTICE | Grantor: CAMPOS JOSE S Grantor: DEL CAMPOS LORENA Grantor: SIGALA LESLIE CORINA Grantee: CAMPOS JOSE S Grantee: DEL CAMPOS LORENA Grantee: SIGALA LESLIE CORINA | Desc: MOUNT ROYAL VILLAGE Sec: 2 Lot: 27 Block: 6",
+        "RP-2017-9993 | 01/09/2017 | DEED | Grantor: DEL CAMPO NIEVES Grantor: KESLER REX TRE Grantee: FANNIE MAE Grantee: FEDERAL NATIONAL MORTGAGE ASSOCIATION | Desc: PARKGATE Sec: 3 Lot: 19 Block: 13",
+        "RP-2017-513324 | 11/21/2017 | NOTICE | Grantor: CHESMAR HOMES LLC Grantor: CHESMAR HOMES LTD Grantor: DEL CAMPO DANIEL O Grantor: DEL CAMPO TARSHA SHERICE Grantee: CHESMAR HOMES LLC Grantee: CHESMAR HOMES LTD Grantee: DEL CAMPO DANIEL O Grantee: DEL CAMPO TARSHA SHERICE | Desc: TOWNE LAKE GREENE Sec: 5 Lot: 24 Block: 1 Related Docs",
+        "RP-2017-513323 | 11/21/2017 | NOTICE | Grantor: CHESMAR HOMES LLC Grantor: CHESMAR HOMES LTD Grantor: DEL CAMPO DANIEL O Grantor: DEL CAMPO TARSHA SHERICE Grantee: CHESMAR HOMES LLC Grantee: CHESMAR HOMES LTD Grantee: DEL CAMPO DANIEL O Grantee: DEL CAMPO TARSHA SHERICE | Desc: TOWNE LAKE GREENE Sec: 5 Lot: 24 Block: 1",
+        "RP-2017-513322 | 11/21/2017 | D/T | Grantor: DEL CAMPO DANIEL O Grantor: DEL CAMPO TARSHA SHERICE Grantee: CLM MORTGAGE LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: DON W LEDBETTER PLLC | Desc: TOWNE LAKE GREENE Sec: 5 Lot: 24 Block: 1 Related Docs",
+        "RP-2017-381943 | 08/23/2017 | NOTICE | Grantor: DEL CAMPO DANIEL Grantor: DEL CAMPO TARSHA S Grantor: VALDEZ JESUS Grantee: DEL CAMPO DANIEL Grantee: DEL CAMPO TARSHA S Grantee: VALDEZ JESUS | Desc: PINE FOREST GREEN Sec: 1 Lot: 39 Block: 3",
+        "RP-2017-381941 | 08/23/2017 | W/D | Grantor: DEL CAMPO DANIEL Grantor: DEL CAMPO TARSHA S Grantee: VALDEZ ESTHER Grantee: VALDEZ JESUS | Desc: PINE FOREST GREEN Sec: 1 Lot: 39 Block: 3",
+        "RP-2017-364964 | 08/14/2017 | AGMT | Grantor: DEL CAMPO RAFAEL M Grantee: PRESTON ANNIE L | Comment: SEE INSTRUMENT",
+        "RP-2017-364963 | 08/14/2017 | D/T | Grantor: DEL CAMPO BLANCA F Grantee: PRESTON ANNIE L Trustee: SMITH RONALD A | Desc: CRANE STREET WOODS Sec: 3 Lot: 7 Block: 1 Related Docs",
+        "RP-2017-250397 | 06/06/2017 | NOTICE | Grantor: DEL CAMPO AZUCENA MARTIN Grantor: DEL CAMPO KIMBERLY M Grantor: DEL CAMPO KIMBERLY MARTIN Grantor: DEL CAMPO LUIS MARTIN Grantor: YEPES JEREMY A Grantee: DEL CAMPO AZUCENA MARTIN Grantee: DEL CAMPO KIMBERLY M Grantee: DEL CAMPO KIMBERLY MARTIN Grantee: DEL CAMPO LUIS MARTIN Grantee: YEPES JEREMY A | Desc: MEADOWGREEN Sec: 1 Lot: 55 Block: 1",
+        "RP-2017-250395 | 06/06/2017 | W/D | Grantor: DEL CAMPO AZUCENA MARTIN Grantor: DEL CAMPO KIMBERLY MARTIN Grantor: DEL CAMPO LUIS MARTIN Grantor: YATES CHRISTOPHER Grantee: YEPES JEREMY A | Desc: MEADOWGREEN Sec: 1 Lot: 55 Block: 1",
+        "RP-2017-173775 | 04/24/2017 | W/D | Grantor: DEL CAMPO JOSE LUIS MARTIN Grantee: DOLL JACKIE LEE | Desc: BAY OAKS HARBOR Lot: 23 Block: 7",
+        "RP-2017-146054 | 04/05/2017 | W/D | Grantor: DEL CAMPO GLORIA L Grantor: DELCAMPO GLORIA LONGORIA Grantee: DEL CAMPO GLORIA L TRE Grantee: DEL CAMPO JUAN MARTIN JR TRE Grantee: JUAN AND GLORIA DEL CAMPO LIVING TRUST | Desc: SWOPE ADDITION Lot: 2-3 Block: 3",
+        "RP-2017-146053 | 04/05/2017 | W/D | Grantor: DEL CAMPO GLORIA L Grantor: DEL CAMPO GLORIA MARTIN Grantor: DEL CAMPO JUAN MARTIN JR Grantee: DEL CAMPO GLORIA L TRE Grantee: DEL CAMPO JUAN MARTIN JR TRE Grantee: THE JUAN AND GLORIA DEL CAMPO LIVING TRUST | Desc: SWOPE ADDITION Lot: 3 Block: 3",
+        "RP-2017-111845 | 03/16/2017 | NOTICE | Grantor: DEL CAMPO DANIEL MARTIN Grantor: DEL CAMPO LESLEY E MARTIN Grantor: PERRY HOMES LLC Grantee: DEL CAMPO DANIEL MARTIN Grantee: DEL CAMPO LESLEY E MARTIN Grantee: PERRY HOMES LLC | Desc: BRIDGELAND HIDDEN CREEK Sec: 20 Lot: 12 Block: 2",
+        "RP-2017-111844 | 03/16/2017 | NOTICE | Grantor: DEL CAMPO DANIEL MARTIN Grantor: DEL CAMPO LESLEY E MARTIN Grantor: PERRY HOMES LLC Grantee: DEL CAMPO DANIEL MARTIN Grantee: DEL CAMPO LESLEY E MARTIN Grantee: PERRY HOMES LLC | Desc: BRIDGELAND HIDDEN CREEK Sec: 20 Lot: 12 Block: 2",
+        "RP-2017-111843 | 03/16/2017 | D/T | Grantor: DEL CAMPO DANIEL MARTIN Grantor: DEL CAMPO LESLEY E MARTIN Grantee: CRESTMARK MORTGAGE COMPANY LTD Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: VALBY SCOTT R | Desc: BRIDGELAND HIDDEN CREEK Sec: 20 Lot: 12 Block: 2 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DEL CAMPO')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "LIEN": 6,
+        "W/D": 39,
+        "REL": 19,
+        "NOTICE": 34,
+        "ASSGN": 3,
+        "D/T": 19,
+        "CONT": 1,
+        "AFFT": 10,
+        "L AFFT": 1,
+        "ORDER": 1,
+        "FI STM": 1,
+        "NOTE": 1,
+        "P/A": 1,
+        "T/L": 1,
+        "DEED": 2,
+        "AGMT": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DEL CAMPO')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "67 instruments as grantee, 73 as grantor (index, name 'DEL CAMPO')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DEL CAMPO')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202382816",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "06/25/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-06-25: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202382816 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de DEL CAMPO CARLOTTA M (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 50544.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 25625.81,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 44134.12,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 44134.12,
+        "impuestos_que_hereda": 561.22,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 1324.02,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 50019.36,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 34829.11,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.01,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "BAJA",
+    "rationale": "Techo teorico $34,829 < apertura $40,564. Jurisdiccion: CITY OF PASADENA. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 34829.11,
+    "all_in_cost_estimate": 50019.36,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
   }
 }

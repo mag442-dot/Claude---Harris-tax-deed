@@ -213,5 +213,292 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=1076990000004",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.217284,
+        "lat": 30.050639
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=1076990000004)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 9511,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=1076990000004)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~79 x 122 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=1076990000004)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2025-327832 | 08/19/2025 | P/A | Grantor: BADOIAN ELAINE MARINA SAMPANES Grantee: BADOIAN ALEXIS SAMPANES Grantee: BADOIAN ANNA DEMETRA Grantee: BADOIAN ATHANASIA ELENY Grantee: BADOIAN RICHARD VARTAN Grantee: KRITICOS MARINA VICTORIA BADOIAN | Comment: SEE INSTRUMENT",
+        "RP-2025-327831 | 08/19/2025 | P/A | Grantor: BADOIAN RICHARD VARTAN Grantee: BADOIAN ALEXIS SAMPANES Grantee: BADOIAN ANNA DEMETRA Grantee: BADOIAN ATHANASIA ELENY Grantee: BADOIAN ELAINE MARINA SAMPANES Grantee: KRITICOS MARINA VICTORIA BADOIAN | Comment: SEE INSTRUMENT",
+        "RP-2018-226230 | 05/23/2018 | W/D | Grantor: BADOIAN ATHANASIA E Grantor: BADOIAN ELAINE M S Grantor: RADOIAN RICHARD V Grantee: BADOIAN ATHANASIA E Grantee: MILKOWSKI FORREST W JR | Desc: WOODLAND HILLS VILLAGE Sec: 6 Lot: 4 Block: 4",
+        "RP-2017-359149 | 08/10/2017 | REL | Grantor: MCLAIN MELISSA Grantor: SOUTH WOODLAND HILLS VILLAGE COMMUNITY ASSOCIATION Grantee: BADOIAN ATHANASIA E Grantee: BADOIAN ELAINE M S | Desc: WOODLAND HILLS VILLAGE Sec: 6 Lot: 4 Block: 4 Related Docs",
+        "RP-2017-100948 | 03/09/2017 | L/P | Grantor: SOUTH WOODLAND HILLS VILLAGE COMMUNITY ASSOCIATION Grantee: BADOIAN ATHANASIA E Grantee: BADOIAN ELAINE M S | Desc: WOODLAND HILLS VILLAGE Sec: 6 Lot: 4 Block: 4 Related Docs",
+        "RP-2016-106705 | 03/15/2016 | P/A | Grantor: BADOIAN ELAINE MARINA SAMPANES Grantee: BADOIAN ALEXIS SAMPANES Grantee: BADOIAN ANNA DEMETRA Grantee: BADOIAN ATHANASIA ELENY Grantee: BADOIAN MARINA VICTORIA Grantee: BADOIAN RICHARD VARTAN | Comment: SEE INSTRUMENT",
+        "RP-2016-106704 | 03/15/2016 | P/A | Grantor: BADOIAN RICHARD VARTAN Grantee: BADOIAN ALEXIS SAMPANES Grantee: BADOIAN ANNA DEMETRA Grantee: BADOIAN ATHANASIA ELENY Grantee: BADOIAN MARINA VICTORIA Grantee: SAMPANES BADOIAN ELAINE MARINA | Comment: SEE INSTRUMENT",
+        "RP-2016-106702 | 03/15/2016 | CERT | Grantor: BADOIAN ELAINE MARINA SAMPANES TRE Grantor: BADOIAN RICHARD VARTAN TRE Grantor: RICHARD AND ELAINE BADOIAN LIVING TRUST Grantee: BADOIAN ALEXIS SAMPANES Grantee: BADOIAN ANNA DEMETRA Grantee: BADOIAN ATHANASIA ELENY Grantee: BADOIAN MARINA VICTORIA Grantee: RICHARD AND ELAINE BADOIAN LIVING TRUST | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BADOIAN ATHANASIA')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2018-226230 | 05/23/2018 | W/D | Grantor: BADOIAN ATHANASIA E Grantor: BADOIAN ELAINE M S Grantor: RADOIAN RICHARD V Grantee: BADOIAN ATHANASIA E Grantee: MILKOWSKI FORREST W JR | Desc: WOODLAND HILLS VILLAGE Sec: 6 Lot: 4 Block: 4"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BADOIAN ATHANASIA')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "P/A": 4,
+        "W/D": 2,
+        "REL": 1,
+        "L/P": 1,
+        "CERT": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BADOIAN ATHANASIA')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "8 instruments as grantee, 1 as grantor (index, name 'BADOIAN ATHANASIA')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BADOIAN ATHANASIA')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202319785",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "03/04/2025",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2027-03-04: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202319785 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de BADOIAN ATHANASIA E (1.0000%); MILKOWSKI en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 287669.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 145848.18,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 26162.19,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 145848.18,
+        "impuestos_que_hereda": 8570.69,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 4375.45,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 162794.32,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 211227.68,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.767,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $211,228 >= cierre esperado $145,848. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lis pendens. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 211227.68,
+    "all_in_cost_estimate": 162794.32,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
   }
 }

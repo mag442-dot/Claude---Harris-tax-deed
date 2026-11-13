@@ -198,5 +198,329 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=0921790000016",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.132332,
+        "lat": 29.860679
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0921790000016)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 6591,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0921790000016)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~60 x 112 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0921790000016)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "X (0.2 PCT ANNUAL CHANCE FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (0.2 PCT ANNUAL CHANCE FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2025-149293 | 04/23/2025 | W/D | Grantor: MCINTOSH SUSAN A MORRIS Grantor: MORRIS RAMON Grantor: SCHULZE SARAH MORRIS Grantee: MOORE DIANE ELIZABETH Grantee: MORRIS RANKIN Grantee: MORRIS WILLIAM RANKIN III | Desc: WAUGH J Abstract: 831",
+        "RP-2025-1264 | 01/02/2025 | PROB | Grantor: DZIENIUS EDWARD EST Grantee: DZIENIUS MARYANN Grantee: FARRELL JACOB Grantee: FARRELL LORRAINE Grantee: MOORE DIANE Grantee: MOORE LEONARD Grantee: POWELL MAUREEN | Comment: SEE INSTRUMENT",
+        "RP-2025-102156 | 03/21/2025 | DEED | Grantor: MOORE BRIAN Grantor: MOORE BRIAN S Grantee: MOORE DIANE L Grantee: MOORE EVERETT V | Desc: SOUTH ACRES ESTATES Sec: 1 Lot: 15 Block: 6",
+        "RP-2024-276964 | 07/31/2024 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: MORTGAGE RESEARCH CENTER LLC Grantor: VETERANS UNITED HOME LOANS Grantee: MOORE DIANE L | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-274616 | 07/30/2024 | NOTICE | Grantor: BALLAYAN ROBIN Grantor: BALLAYAN TARNUE K Grantor: MOORE DIANE L Grantee: BALLAYAN ROBIN Grantee: BALLAYAN TARNUE K Grantee: MOORE DIANE L | Desc: ELLA CROSSING Sec: 3 Lot: 18 Block: 6",
+        "RP-2022-89004 | 02/18/2022 | REL | Grantor: COLONIAL NATIONAL MORTGAGE Grantor: COLONIAL SAVINGS F A Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: MOORE CLAYTON C Grantee: MOORE DIANE K | Desc: SOMMERALL WEST Sec: 1 Lot: 1 Block: 8 Related Docs",
+        "RP-2022-560379 | 11/22/2022 | REL | Grantor: COLDWELL BANKER MORTGAGE Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: MOORE DIANE B Grantee: MOORE TERRY K | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-263538 | 05/13/2021 | NOTICE | Grantor: MAHABIR MARIO Grantor: MOORE DIANE Grantee: MAHABIR MARIO Grantee: MOORE DIANE | Desc: STABLREWOOD FARMS Sec: 1 Lot: 12 Block: 2 Related Docs",
+        "RP-2021-263537 | 05/13/2021 | NOTICE | Grantor: MAHABIR MARIO Grantor: MOORE DIANE Grantee: MAHABIR MARIO Grantee: MOORE DIANE | Desc: STABLEWOOD FARMS Sec: 1 Lot: 12 Block: 2",
+        "RP-2021-247327 | 05/05/2021 | NOTICE | Grantor: CROWLEY WYNNDIE Grantor: MOORE DIANE Grantee: CROWLEY WYNNDIE Grantee: MOORE DIANE | Desc: HAYDEN LAKES Sec: 11 Lot: 8 Block: 3 Related Docs",
+        "RP-2021-247326 | 05/05/2021 | W/D | Grantor: CROWLEY WYNNDIE Grantee: MOORE DIANE | Desc: HAYDEN LAKES Sec: 11 Lot: 8 Block: 3",
+        "RP-2021-195690 | 04/13/2021 | A/J | Grantor: PORTFOLIO RECOVERY ASSOCIATES LLC Grantee: MOORE DIANE | Comment: SEE INSTRUMENT",
+        "RP-2020-63828 | 02/11/2020 | W/D | Grantor: MOORE LEONARD R JR Grantee: MOORE DIANE | Desc: STABLEWOOD FARMS Sec: 1 Lot: 12 Block: 2",
+        "RP-2019-8314 | 01/08/2019 | AFFT | Grantor: ALLUMS WILBERT Grantor: LENO ROLAND Grantor: NEAL ALFONZO Grantee: MOORE DIANE MARIE SIMS EST | Desc: HARLEM ADDITION OG HIGHLAND FARMS Lot: 65 Block: 57",
+        "RP-2019-417764 | 09/20/2019 | REL | Grantor: WELLS FARGO BANK N A Grantee: MOORE DIANE D Grantee: MOORE LEONARD R JR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-297865 | 07/05/2017 | REL | Grantor: PNC BANK NATIONAL ASSOCIATION Grantor: PNC MORTGAGE Grantee: MOORE CLAYTON C Grantee: MOORE DIANE K | Desc: SOMMERALL WEST Sec: 1 Lot: 1 Block: 8 Related Docs",
+        "RP-2016-450068 | 10/04/2016 | W/D | Grantor: MOORE BRIAN S Grantee: MOORE DIANE L Grantee: MOORE EVERETT VON | Desc: SOUTH ACRES ESTATES Sec: 1 Lot: 15 Block: 6",
+        "RP-2016-152886 | 04/13/2016 | NOTICE | Grantor: MOORE DIANE L Grantor: ROGERS CYNTHIA Grantee: MOORE DIANE L Grantee: ROGERS CYNTHIA | Desc: ELLA CROSSING Sec: 3 Lot: 18 Block: 6",
+        "RP-2016-152884 | 04/13/2016 | W/D | Grantor: ROGERS CYNTHIA Grantee: MOORE DIANE L | Desc: ELLA CROSSING Sec: 3 Lot: 18 Block: 6"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MOORE DIANE')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-89033 | 03/10/2026 | LIEN | Grantor: ATTORNEY GENERAL OFFICE Grantor: MOORE DIANE GRACE Grantee: OLVERA ALEXANDER JOSE | Comment: SEE INSTRUMENT",
+        "RP-2026-204060 | 05/26/2026 | AFFT | Grantor: MOORE DIANE MARIE EST Grantee: MOORE BROOKLYN Grantee: MOORE OWEN Grantee: MOORE THOMAS | Comment: SEE INSTRUMENT",
+        "RP-2024-274616 | 07/30/2024 | NOTICE | Grantor: BALLAYAN ROBIN Grantor: BALLAYAN TARNUE K Grantor: MOORE DIANE L Grantee: BALLAYAN ROBIN Grantee: BALLAYAN TARNUE K Grantee: MOORE DIANE L | Desc: ELLA CROSSING Sec: 3 Lot: 18 Block: 6",
+        "RP-2024-274614 | 07/30/2024 | W/D | Grantor: MOORE DIANE L Grantee: BALLAYAN ROBIN Grantee: BALLAYAN TARNUE K | Desc: ELLA CROSSING Sec: 3 Lot: 18 Block: 6",
+        "RP-2022-543492 | 11/09/2022 | W/D | Grantor: BADIA DIANE B EST Grantor: MOORE DIANE B EST Grantor: MOORE DIANE BARBARA EST Grantor: MOORE TERRY K Grantor: MOORE TERRY KEITH Grantee: GOLDWIRE CARL Grantee: GOLDWIRE FELICIA | Desc: WINDROSE WEST Sec: 13 Lot: 23 Block: 2",
+        "RP-2021-564087 | 09/30/2021 | W/D | Grantor: MOORE DIANE VALDEZ Grantee: MARTINEZ ANTHONY Grantee: MARTINEZ ELIDA V Grantee: MARTINEZ ELLIE | Desc: SETTLERS VILLAGE Sec: 3 Lot: 9 Block: 15",
+        "RP-2021-559508 | 09/29/2021 | AFFT | Grantor: MOORE CLAYTON C Grantor: MOORE DIANE K Grantee: SEE INSTRUMENT | Desc: SOMMERALL WEST Sec: 1 Lot: 1 Block: 8",
+        "RP-2021-559507 | 09/29/2021 | D/T | Grantor: MOORE CLAYTON C Grantor: MOORE DIANE K Grantee: COLONIAL NATIONAL MORTGAGE Grantee: COLONIAL SAVINGS F A Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: MAULSBY F ALLEN Trustee: MOTLEY J DAVID | Desc: SOMMERALL WEST Sec: 1 Lot: 1 Block: 8",
+        "RP-2021-263538 | 05/13/2021 | NOTICE | Grantor: MAHABIR MARIO Grantor: MOORE DIANE Grantee: MAHABIR MARIO Grantee: MOORE DIANE | Desc: STABLREWOOD FARMS Sec: 1 Lot: 12 Block: 2 Related Docs",
+        "RP-2021-263537 | 05/13/2021 | NOTICE | Grantor: MAHABIR MARIO Grantor: MOORE DIANE Grantee: MAHABIR MARIO Grantee: MOORE DIANE | Desc: STABLEWOOD FARMS Sec: 1 Lot: 12 Block: 2",
+        "RP-2021-263535 | 05/13/2021 | W/D | Grantor: MOORE DIANE Grantee: JUMAN SHALIMAR Grantee: MAHABIR MARIO | Desc: STABLEWOOD FARMS Sec: 1 Lot: 12 Block: 2",
+        "RP-2021-247327 | 05/05/2021 | NOTICE | Grantor: CROWLEY WYNNDIE Grantor: MOORE DIANE Grantee: CROWLEY WYNNDIE Grantee: MOORE DIANE | Desc: HAYDEN LAKES Sec: 11 Lot: 8 Block: 3 Related Docs",
+        "RP-2019-525022 | 11/26/2019 | DECREE | Grantor: MOORE DIANE Grantor: MOORE LEONARD R JR Grantee: MOORE LEONARD R JR | Comment: SEE INSTRUMENT",
+        "RP-2019-525021 | 11/26/2019 | DECREE | Grantor: MOORE DIANE Grantee: MOORE LEONARD R JR | Comment: SEE INSTRUMENT",
+        "RP-2019-312806 | 07/19/2019 | REL | Grantor: MOORE DIANE Grantee: MINIEL JOHNNY | Comment: SEE INSTRUMENT",
+        "RP-2018-248015 | 06/05/2018 | MODIF | Grantor: MOORE DIANE L Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: PENNYMAC LOAN SERVICES LLC | Desc: ELLA CROSSING Sec: 3 Lot: 18 Block: 6 Related Docs",
+        "RP-2017-239831 | 06/01/2017 | AFFT | Grantor: MOORE CLAYTON C Grantor: MOORE DIANE K Grantee: SEE INSTRUMENT | Desc: SOMMERALL WEST Sec: 1 Lot: 1 Block: 8",
+        "RP-2017-239830 | 06/01/2017 | D/T | Grantor: MOORE CLAYTON C Grantor: MOORE DIANE K Grantee: COLONIAL NATIONAL MORTGAGE Grantee: COLONIAL SAVINGS F A Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: MAULSBY F ALLEN Trustee: MOTLEY J DAVID | Desc: SOMMERALL WEST Sec: 1 Lot: 1 Block: 8",
+        "RP-2016-152886 | 04/13/2016 | NOTICE | Grantor: MOORE DIANE L Grantor: ROGERS CYNTHIA Grantee: MOORE DIANE L Grantee: ROGERS CYNTHIA | Desc: ELLA CROSSING Sec: 3 Lot: 18 Block: 6",
+        "RP-2016-152885 | 04/13/2016 | D/T | Grantor: MOORE DIANE L Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: MORTGAGE RESEARCH CENTER LLC Grantee: VETERANS UNITED HOME LOANS Trustee: VALBY SCOTT R | Desc: ELLA CROSSING Sec: 3 Lot: 18 Block: 6 Related Docs",
+        "RP-2016-122965 | 03/28/2016 | LIEN | Grantor: ATTORNEY GENERAL OF TEXAS Grantor: MOORE DIANE Grantee: MINIEL JOHNNY | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MOORE DIANE')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "W/D": 9,
+        "PROB": 1,
+        "DEED": 1,
+        "REL": 6,
+        "NOTICE": 10,
+        "A/J": 1,
+        "AFFT": 4,
+        "LIEN": 2,
+        "D/T": 3,
+        "DECREE": 2,
+        "MODIF": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MOORE DIANE')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "19 instruments as grantee, 21 as grantor (index, name 'MOORE DIANE')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MOORE DIANE')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202531111",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "07/13/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-07-13: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202531111 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de MOORE DIANE (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 103236.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 52340.65,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 20308.48,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 52340.65,
+        "impuestos_que_hereda": 968.37,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 1570.22,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 58879.24,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 75359.64,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.753,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $75,360 >= cierre esperado $52,341. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 75359.64,
+    "all_in_cost_estimate": 58879.24,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
   }
 }

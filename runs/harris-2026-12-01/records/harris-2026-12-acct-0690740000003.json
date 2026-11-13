@@ -207,5 +207,411 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=0690740000003",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.210215,
+        "lat": 29.701264
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0690740000003)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 6754,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0690740000003)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~50 x 135 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0690740000003)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF PASADENA",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-232903 | 06/12/2026 | REL | Grantor: SELECT PORTFOLIO SERVICING INC Grantor: TOWD POINT MORTGAGE TRUST 2018-5 Grantor: U S BANK NATIONAL ASSOCIATION Grantee: HERNANDEZ RAQUEL | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-99998 | 03/20/2025 | REL | Grantor: INDYMAC BANK F S B Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: HERNANDEZ ANGEL Grantee: HERNANDEZ RAQUEL | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-380033 | 09/24/2025 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: THRIVE MORTGAGE LLC Grantee: BAUTISTA JAVIER SOLIS Grantee: HERNANDEZ RAQUEL | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-230369 | 06/16/2025 | W/D | Grantor: TERRAZAS JOSE CRUZ Grantee: GARCIA DANIEL CHARLES Grantee: HERNANDEZ RAQUEL | Desc: SANTA ROSA Sec: 3 Lot: 34 Block: 13",
+        "RP-2025-118677 | 04/01/2025 | NOTICE | Grantor: HERNANDEZ JESSE Grantor: HERNANDEZ RAQUEL E Grantor: REESE BERENICE ELISABETH Grantor: REESE WILLIAM Grantee: HERNANDEZ JESSE Grantee: HERNANDEZ RAQUEL E Grantee: REESE BERENICE ELISABETH Grantee: REESE WILLIAM | Desc: WINDFERN FOREST Sec: 4 Lot: 25 Block: 4 Related Docs",
+        "RP-2025-118676 | 04/01/2025 | NOTICE | Grantor: HERNANDEZ JESSE Grantor: HERNANDEZ RAQUEL E Grantor: REESE BERENICE ELISABETH Grantor: REESE WILLIAM Grantee: HERNANDEZ JESSE Grantee: HERNANDEZ RAQUEL E Grantee: REESE BERENICE ELISABETH Grantee: REESE WILLIAM | Comment: SEE INSTRUMENT",
+        "RP-2025-118674 | 04/01/2025 | W/D | Grantor: REESE BERENICE ELISABETH Grantor: REESE WILLIAM OLAN Grantee: HERNANDEZ JESSE Grantee: HERNANDEZ RAQUEL E | Desc: WINDFERN FOREST Sec: 4 Lot: 25 Block: 4",
+        "RP-2025-110479 | 03/27/2025 | REL | Grantor: TEXAS BAY CREDIT UNION Grantee: HERNANDEZ RAQUEL Grantee: HERNANDEZ RIGOBERTO | Desc: OLD RIVER TERRACE Sec: 4 Lot: 10 Block: 12 Related Docs",
+        "RP-2024-366995 | 10/03/2024 | NOTICE | Grantor: CASTILLO JOSE DE JESUS Grantor: DONJUAN DAISY Grantor: GALICIA DANIEL EDGARDO DONJUAN Grantor: HERNANDEZ RAQUEL MONSIVAIS Grantor: MERITAGE HOMES OF TEXAS LLC Grantee: CASTILLO JOSE DE JESUS Grantee: DONJUAN DAISY Grantee: GALICIA DANIEL EDGARDO DONJUAN Grantee: HERNANDEZ RAQUEL MONSIVAIS Grantee: MERITAGE HOMES OF TEXAS LLC | Desc: SUNDANCE COVE Sec: 1 Lot: 28 Block: 4",
+        "RP-2024-366993 | 10/03/2024 | W/D | Grantor: MERITAGE HOMES OF TEXAS LLC Grantee: DONJUAN DAISY Grantee: GAICIA DANIEL EDGARDO DONJUAN Grantee: HERNANDEZ RAQUEL MONSIVAIS Grantee: RODRIGUEZ JOSE DE JESUS CASTILLO | Desc: SUNDANCE COVE Sec: 1 Lot: 28 Block: 4",
+        "RP-2024-162473 | 05/06/2024 | NOTICE | Grantor: D R HORTON - TEXAS LTD Grantor: D R HORTON INC Grantor: GODOY ALEXANDER BALDEMAR Grantor: HERNANDEZ RAQUEL Grantee: D R HORTON - TEXAS LTD Grantee: D R HORTON INC Grantee: GODOY ALEXANDER BALDEMAR Grantee: HERNANDEZ RAQUEL | Desc: BRECKENRIDGE EAST Sec: 2 Lot: 28 Block: 1",
+        "RP-2024-162472 | 05/06/2024 | NOTICE | Grantor: D R HORTON - TEXAS LTD Grantor: D R HORTON INC Grantor: GODOY ALEXANDER BALDEMAR Grantor: HERNANDEZ RAQUEL Grantee: D R HORTON - TEXAS LTD Grantee: D R HORTON INC Grantee: GODOY ALEXANDER BALDEMAR Grantee: HERNANDEZ RAQUEL | Desc: BRECKENRIDGE EAST Sec: 2 Lot: 28 Block: 1",
+        "RP-2024-162470 | 05/06/2024 | W/D | Grantor: D R HORTON - TEXAS LTD Grantor: D R HORTON INC Grantee: GODOY ALEXANDER BALDEMAR Grantee: HERNANDEZ RAQUEL | Desc: BRECKENRIDGE EAST Sec: 2 Lot: 28 Block: 1",
+        "RP-2023-7490 | 01/09/2023 | REL | Grantor: WELLS FARGO BANK N.A. Grantee: HERNANDEZ MARCO Grantee: HERNANDEZ RAQUEL | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-471439 | 12/15/2023 | NOTICE | Grantor: HERNANDEZ RAQUEL Grantor: KELSEY CHRISTINA ANN Grantor: KELSEY WILLIAM DAVID Grantee: HERNANDEZ RAQUEL Grantee: KELSEY CHRISTINA ANN Grantee: KELSEY WILLIAM DAVID | Desc: EL LAGO ESTATES Sec: 1 Lot: 10 Related Docs",
+        "RP-2023-471437 | 12/15/2023 | W/D | Grantor: KELSEY CHRISTINA ANN Grantor: KELSEY WILLIAM DAVID Grantee: HERNANDEZ RAQUEL | Desc: EL LAGO ESTATES Sec: 1",
+        "RP-2023-351853 | 09/13/2023 | W/D | Grantor: MENDOZA DAVID Grantor: MENDOZA LETICIA Grantee: HERNANDEZ JOSE Grantee: HERNANDEZ RAQUEL | Desc: CANYON GATE AT PARK LAKES Sec: 9 Lot: 53 Block: 1",
+        "RP-2023-270115 | 07/19/2023 | W/D | Grantor: WOTIPKA GREGORY BENET Grantee: HERNANDEZ JUAN SALVADOR Grantee: HERNANDEZ RAQUEL CARRILLO | Desc: HIGHLANDS TOWNSITE Lot: 1-A - 1-B Block: 19",
+        "RP-2023-244777 | 06/30/2023 | A/J | Grantor: CITIBANK NA Grantee: HERNANDEZ RAQUEL H | Comment: SEE INSTRUMENT",
+        "RP-2023-176727 | 05/16/2023 | NOTICE | Grantor: GARCIA JOSE D Grantor: GARCIA JOSE L Grantor: HERNANDEZ ANGEL TORRES Grantor: HERNANDEZ RAQUEL Grantee: GARCIA JOSE D Grantee: GARCIA JOSE L Grantee: HERNANDEZ ANGEL TORRES Grantee: HERNANDEZ RAQUEL | Desc: WESTCOTT GARDENS SUBDIVISION Lot: 3 Block: 10",
+        "RP-2022-65629 | 02/07/2022 | NOTICE | Grantor: BAUTISTA JAVIER SOLIS Grantor: CONNER CODY WAYNE Grantor: CONNER HOLLY MARIE Grantor: HERNANDEZ RAQUEL Grantee: BAUTISTA JAVIER SOLIS Grantee: CONNER CODY WAYNE Grantee: CONNER HOLLY MARIE Grantee: HERNANDEZ RAQUEL | Desc: STONE CREEK RANCH Sec: 8 Lot: 26 Block: 2",
+        "RP-2022-65627 | 02/07/2022 | W/D | Grantor: CONNER CODY WAYNE Grantor: CONNER HOLLY MARIE Grantor: KLEHN HOLLY MARIE Grantee: HERNANDEZ RAQUEL Grantee: SOLIS BAUTISTA JAVIER | Desc: STONE CREEK RANCH Sec: 8 Lot: 26 Block: 2",
+        "RP-2022-400995 | 08/04/2022 | REL | Grantor: HOUSTON FEDERAL CREDIT UNION Grantee: HERNANDEZ LUIS Grantee: HERNANDEZ RAQUEL | Desc: ERIN GLEN Sec: 8 Lot: 9 Block: 4 Related Docs",
+        "RP-2022-383576 | 07/26/2022 | REL | Grantor: INVESTMENT RETRIEVERS INC Grantee: HERNANDEZ MARIA R ROJAS Grantee: HERNANDEZ RAQUEL Grantee: ROJAS RAQUEL | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-24879 | 01/13/2022 | REL | Grantor: AMERICA'S CHOICE HOME LOANS LP Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: BAUTISTA JAVIER SOLIS Grantee: HERNANDEZ RAQUEL | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-622836 | 10/28/2021 | A/J | Grantor: SHELL FEDERAL CREDIT UNION Grantee: HERNANDEZ RAQUEL M | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-573249 | 10/05/2021 | REL | Grantor: BBVA USA Grantee: HERNANDEZ RAQUEL M | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-522646 | 09/13/2021 | A/J | Grantor: HARRIS COUNTY Grantee: HERNANDEZ RAQUEL GUADALUPE | Comment: SEE INSTRUMENT",
+        "RP-2021-500239 | 09/01/2021 | REL | Grantor: SHELL FEDERAL CREDIT UNION Grantee: HERNANDEZ MARTINEZ RAQUEL Grantee: HERNANDEZ RAQUEL M | Desc: SKYLARK TERRACE Lot: 5 Block: 1 Related Docs",
+        "RP-2021-442477 | 08/04/2021 | W/D | Grantor: PARRA JOSE Grantee: HERNANDEZ RAQUEL Grantee: HERNANDEZ- ALVAREZ RAFAEL | Desc: PARKGATE Sec: 4 Lot: 11 Block: 2",
+        "RP-2021-441606 | 08/04/2021 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: HERNANDEZ RAQUEL Grantee: HERNANDEZ-ALVAREZ RAFAEL Grantee: PARRA CRISTINA Grantee: PARRA JOSE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-423473 | 07/27/2021 | REL | Grantor: INDYMAC BANK F S B Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: HERNANDEZ ANGEL Grantee: HERNANDEZ RAQUEL | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-13283 | 01/08/2021 | W/D | Grantor: HALLSVILLE INVESTMENTS LLC Grantee: HERNANDEZ RAQUEL Grantee: TORRES ANGEL HERNANDEZ | Desc: BERRY ADDITION Related Docs",
+        "RP-2020-547946 | 11/10/2020 | REL | Grantor: DEUTSCHE BANK NATIONAL TRUST COMPANY TRE Grantor: LONG BEACH MORTGAGE LOAN TRUST SERIES 2006-4 Grantor: SELECT PORTFOLIO SERVICING INC Grantee: HERNANDEZ ANGEL Grantee: HERNANDEZ RAQUEL | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-490837 | 10/14/2020 | REL | Grantor: ABC BONDING COMPANY Grantor: SCHMIDT DAVID G Grantee: HERNANDEZ RAQUEL | Desc: CAMDEN PARK Sec: 3 Lot: 58 Block: 3 Related Docs",
+        "RP-2020-489601 | 10/13/2020 | REL | Grantor: ABC BONDING COMPANY Grantor: SCHMIDT DAVID G Grantee: HERNANDEZ RAQUEL | Desc: CAMDEN PARK Sec: 3 Lot: 58 Block: 3",
+        "RP-2020-453191 | 09/24/2020 | W/D | Grantor: HALMARI ILKKA Grantor: MOLINA CLAUDIA P Grantee: GODOY ALEXANDER Grantee: HERNANDEZ RAQUEL | Desc: RIVER STONE II Unit: 1032",
+        "RP-2020-445910 | 09/22/2020 | W/D | Grantor: FUENTES MIGUEL A Grantee: FUENTES MIGUEL A Grantee: HERNANDEZ RAQUEL | Desc: GLENSHIRE Sec: 3 Lot: 20 Block: 10",
+        "RP-2020-399613 | 08/28/2020 | REL | Grantor: AMCAP MORTGAGE LTD Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: HERNANDEZ JOSE A Grantee: HERNANDEZ RAQUEL Grantee: MENDOZA DAVID | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-310547 | 07/14/2020 | W/D | Grantor: LEVANT INC Grantee: HERNANDEZ RAQUEL CHAVEZ | Desc: BUENA VISTA Lot: 11 Block: 6",
+        "RP-2020-239669 | 06/05/2020 | REL | Grantor: BURKS ALLEN N Grantor: BURKS MARY R Grantee: HERNANDEZ FIDENCIO Grantee: HERNANDEZ RAQUEL | Desc: CHATWOOD PLACE Sec: 2 Lot: 268 Block: 10 Related Docs",
+        "RP-2020-230141 | 06/01/2020 | W/D | Grantor: HERNANDEZ FIDENCIO Grantee: HERNANDEZ RAQUEL | Desc: CHATWOOD PLACE Sec: 2 Lot: 268 Block: 10",
+        "RP-2019-89449 | 03/06/2019 | REL | Grantor: FEDERAL NATIONAL MORTGAGE ASSOCIATION Grantor: FIRST FRANKLIN FINANCIAL CORP Grantor: NATIONAL CITY BANK OF INDIANA Grantor: RUSHMORE LOAN MANAGEMENT SERVICES LLC Grantee: HERNANDEZ RAQUEL Grantee: HERNANDEZ ROBERTO | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-83091 | 03/01/2019 | REL | Grantor: INTERNAL REVENUE SERVICE Grantee: HERNANDEZ RAQUEL M | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-491077 | 11/05/2019 | NOTICE | Grantor: ANDRADE IGNACIO Grantor: HERNANDEZ ANGEL Grantor: HERNANDEZ RAQUEL Grantee: ANDRADE IGNACIO Grantee: HERNANDEZ ANGEL Grantee: HERNANDEZ RAQUEL | Desc: BELLMAR ADDITION Lot: 76 Block: 5 Related Docs",
+        "RP-2019-491074 | 11/05/2019 | REL | Grantor: MALAK MARCEIL Grantee: HERNANDEZ ANGEL Grantee: HERNANDEZ RAQUEL | Desc: BELLMAR ADDITION Lot: 76 Block: 5 Related Docs",
+        "RP-2019-464479 | 10/21/2019 | REL | Grantor: BANK OF AMERICA N A Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: HERNANDEZ RAQUEL Grantee: LOPEZ HECTOR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-36285 | 01/29/2019 | NOTICE | Grantor: CASTELLANOS EDUARDO Grantor: HERNANDEZ JOSE A Grantor: HERNANDEZ RAQUEL Grantor: PADRON-HERRERA CORAL Grantee: CASTELLANOS EDUARDO Grantee: HERNANDEZ JOSE A Grantee: HERNANDEZ RAQUEL Grantee: PADRON-HERRERA CORAL | Desc: KINGS LAKE FOREST Sec: 1 Lot: 15 Block: 11",
+        "RP-2019-326527 | 07/29/2019 | REL | Grantor: ECU MORTGAGE LLC Grantee: HERNANDEZ ALLAN Grantee: HERNANDEZ RAQUEL | Desc: KINGDOM COME PLACE Sec: 2 Lot: 6 Block: 2 Related Docs",
+        "RP-2019-273309 | 06/26/2019 | A/J | Grantor: PORTFOLIO RECOVERY ASSOCIATES LLC Grantee: HERNANDEZ RAQUEL | Comment: SEE INSTRUMENT",
+        "RP-2019-236740 | 06/05/2019 | AFFT | Grantor: ENRIQUEZ ROBERTO Grantor: HERNANDEZ ROBERTO Grantor: MALAGON ALFREDO Grantor: SANTIBANEZ MARIA JESUS Grantee: HERNANDEZ RAQUEL EST | Desc: BRAEWOOD GLEN Sec: 4 Lot: 14 Block: 9",
+        "RP-2018-481780 | 10/22/2018 | A/J | Grantor: SCIL TEXAS LLC Grantor: SPEEDY CASH Grantee: HERNANDEZ RAQUEL | Comment: SEE INSTRUMENT",
+        "RP-2018-366902 | 08/13/2018 | REL | Grantor: BANK ONE N A Grantor: JPMORGAN CHASE BANK Grantee: HERNANDEZ ARGELIO Grantee: HERNANDEZ RAQUEL | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-295995 | 07/02/2018 | W/D | Grantor: HOLEMAN MILDRED Grantee: HERNANDEZ ANGEL Grantee: HERNANDEZ RAQUEL | Desc: BELLMAR ADDITION Lot: 76 Block: 5",
+        "RP-2018-125716 | 03/26/2018 | NOTICE | Grantor: HERNANDEZ RAQUEL Grantor: HERNANDEZ-ALVAREZ RAFAEL Grantor: KENNEDY FAMILY LIVING TRUST Grantee: HERNANDEZ RAQUEL Grantee: HERNANDEZ-ALVAREZ RAFAEL Grantee: KENNEDY FAMILY LIVING TRUST | Desc: PARKGATE Sec: 4 Lot: 11 Block: 2",
+        "RP-2018-125714 | 03/26/2018 | W/D | Grantor: KENNEDY FAMILY LIVING TRUST Grantor: KENNEDY WILLIAM E Grantee: HERNANDEZ RAQUEL Grantee: HERNANDEZ-ALVAREZ RAFAEL Grantee: PARRA JOSE | Desc: PARKGATE Sec: 4 Lot: 11 Block: 2",
+        "RP-2018-125713 | 03/26/2018 | P/A | Grantor: PARRA JOSE Grantee: HERNANDEZ RAQUEL | Comment: SEE INSTRUMENT",
+        "RP-2017-35948 | 01/26/2017 | W/D | Grantor: BENAVIDEZ MARIA S Grantor: MONRREAL MARIA Grantee: HERNANDEZ RAQUEL | Desc: MCLEAN ADDITION Sec: 2 Lot: 3 Block: 7",
+        "RP-2016-379562 | 08/25/2016 | A/J | Grantor: INVESTMENT RETRIEVERS INC Grantee: HERNANDEZ MARIA R ROJAS Grantee: HERNANDEZ RAQUEL Grantee: ROJAS RAQUEL | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-356348 | 08/12/2016 | LIEN | Grantor: ATTORNEY GENERAL OF TEXAS Grantor: SIFUENTES LUZ Grantee: HERNANDEZ RAQUEL GUADALUPE | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HERNANDEZ RAQUEL')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-436762 | 10/29/2026 | DISCLM | Grantor: HERNANDEZ RAQUEL Grantee: SEE INSTRUMENT | Desc: WESTFIELD ESTATES Sec: 1 Lot: 163 Block: 5",
+        "RP-2026-433647 | 10/27/2026 | W/D | Grantor: HERNANDEZ ANGEL Grantor: HERNANDEZ RAQUEL Grantee: MOUNT NORTH TEXAS LLC | Desc: LOGAN SUBDIVISION Lot: 21",
+        "RP-2026-123837 | 04/01/2026 | AFFT | Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HERNANDEZ ANGEL TORRES Grantor: HERNANDEZ RAQUEL Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON INDEPENDENT SCHOOL DISTRICT Grantor: KESSLER CAROL L Grantor: MARINOSCI LAW GROUP P C Grantor: PEREZ EDUARDO A ARAUJO Grantor: ROSE ALAN CONST Grantee: CITY OF HOUSTON Grantee: FAIRWAY INDEPENDENT MORTGAGE CORPORATION Grantee: HARRIS COUNTY Grantee: HERNANDEZ ANGEL TORRES Grantee: HOUSTON COMMUNITY COLLEGE SYSTEM Grantee: HOUSTON INDEPENDENT SCHOOL DISTRICT Grantee: LAKEVIEW LOAN SERVICING LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: MUNDACA INVESTMENT CORPORATION Grantee: PEREZ EDUARDO A ARAUJO | Desc: WESTCOTT GARDENS SUBDIVISION NO 4 Lot: 6 Block: 7 Related Docs",
+        "RP-2025-87219 | 03/11/2025 | AFFT | Grantor: HERNANDEZ ANGEL Grantor: HERNANDEZ RAQUEL Grantee: SEE INSTRUMENT | Desc: SHERWOOD PLACE Sec: 1 Lot: 312 Block: 20",
+        "RP-2025-87218 | 03/11/2025 | D/T | Grantor: HERNANDEZ ANGEL Grantor: HERNANDEZ RAQUEL Grantee: AMERISAVE MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: VALBY SCOTT R | Desc: SHERWOOD PLACE Sec: 1 Lot: 312 Block: 20",
+        "RP-2025-230370 | 06/16/2025 | D/T | Grantor: GARCIA DANIEL CHARLES Grantor: HERNANDEZ RAQUEL Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: UNITED WHOLESALE MORTGAGE LLC Trustee: BLACK MANN & GRAHAM L L P | Desc: SANTA ROSA Sec: 3 Lot: 34 Block: 13",
+        "RP-2025-143480 | 04/21/2025 | AFFT | Grantor: HERNANDEZ RAQUEL Grantee: SEE INSTRUMENT | Desc: OAKWOOD EXTENSION NO 1 Lot: 12-13 Block: B",
+        "RP-2025-118677 | 04/01/2025 | NOTICE | Grantor: HERNANDEZ JESSE Grantor: HERNANDEZ RAQUEL E Grantor: REESE BERENICE ELISABETH Grantor: REESE WILLIAM Grantee: HERNANDEZ JESSE Grantee: HERNANDEZ RAQUEL E Grantee: REESE BERENICE ELISABETH Grantee: REESE WILLIAM | Desc: WINDFERN FOREST Sec: 4 Lot: 25 Block: 4 Related Docs",
+        "RP-2025-118676 | 04/01/2025 | NOTICE | Grantor: HERNANDEZ JESSE Grantor: HERNANDEZ RAQUEL E Grantor: REESE BERENICE ELISABETH Grantor: REESE WILLIAM Grantee: HERNANDEZ JESSE Grantee: HERNANDEZ RAQUEL E Grantee: REESE BERENICE ELISABETH Grantee: REESE WILLIAM | Comment: SEE INSTRUMENT",
+        "RP-2025-118675 | 04/01/2025 | D/T | Grantor: HERNANDEZ JESSE Grantor: HERNANDEZ RAQUEL E Grantee: GUARANTEED RATE INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: WINDFERN FOREST Sec: 4 Lot: 25 Block: 4",
+        "RP-2024-366995 | 10/03/2024 | NOTICE | Grantor: CASTILLO JOSE DE JESUS Grantor: DONJUAN DAISY Grantor: GALICIA DANIEL EDGARDO DONJUAN Grantor: HERNANDEZ RAQUEL MONSIVAIS Grantor: MERITAGE HOMES OF TEXAS LLC Grantee: CASTILLO JOSE DE JESUS Grantee: DONJUAN DAISY Grantee: GALICIA DANIEL EDGARDO DONJUAN Grantee: HERNANDEZ RAQUEL MONSIVAIS Grantee: MERITAGE HOMES OF TEXAS LLC | Desc: SUNDANCE COVE Sec: 1 Lot: 28 Block: 4",
+        "RP-2024-366994 | 10/03/2024 | D/T | Grantor: DONJUAN DAISY Grantor: GAICIA DANIEL EDGARDO DONJUAN Grantor: HERNANDEZ RAQUEL MONSIVAIS Grantor: RODRIGUEZ JOSE DE JESUS CASTILLO Grantee: FLAGSTAR BANK N A Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: GIBSON MALCOLM D | Desc: SUNDANCE COVE Sec: 1 Lot: 28 Block: 4",
+        "RP-2024-190778 | 05/28/2024 | FI STM | Grantor: HERNANDEZ RAQUEL Grantee: IMPERIAL WARE INC | Desc: CAMDEN PARK Sec: 3 Lot: 58 Block: 3 Related Docs",
+        "RP-2024-162473 | 05/06/2024 | NOTICE | Grantor: D R HORTON - TEXAS LTD Grantor: D R HORTON INC Grantor: GODOY ALEXANDER BALDEMAR Grantor: HERNANDEZ RAQUEL Grantee: D R HORTON - TEXAS LTD Grantee: D R HORTON INC Grantee: GODOY ALEXANDER BALDEMAR Grantee: HERNANDEZ RAQUEL | Desc: BRECKENRIDGE EAST Sec: 2 Lot: 28 Block: 1",
+        "RP-2024-162472 | 05/06/2024 | NOTICE | Grantor: D R HORTON - TEXAS LTD Grantor: D R HORTON INC Grantor: GODOY ALEXANDER BALDEMAR Grantor: HERNANDEZ RAQUEL Grantee: D R HORTON - TEXAS LTD Grantee: D R HORTON INC Grantee: GODOY ALEXANDER BALDEMAR Grantee: HERNANDEZ RAQUEL | Desc: BRECKENRIDGE EAST Sec: 2 Lot: 28 Block: 1",
+        "RP-2024-162471 | 05/06/2024 | D/T | Grantor: GODOY ALEXANDER BALDEMAR Grantor: HERNANDEZ RAQUEL Grantee: ACRA LENDING Grantee: CITADEL SERVICING CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: BRECKENRIDGE EAST Sec: 2 Lot: 28 Block: 1",
+        "RP-2023-471439 | 12/15/2023 | NOTICE | Grantor: HERNANDEZ RAQUEL Grantor: KELSEY CHRISTINA ANN Grantor: KELSEY WILLIAM DAVID Grantee: HERNANDEZ RAQUEL Grantee: KELSEY CHRISTINA ANN Grantee: KELSEY WILLIAM DAVID | Desc: EL LAGO ESTATES Sec: 1 Lot: 10 Related Docs",
+        "RP-2023-471438 | 12/15/2023 | D/T | Grantor: HERNANDEZ RAQUEL Grantee: INTEGRITY HOME MORTGAGE CORPORATION OF TX Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: EL LAGO ESTATES Sec: 1 Lot: 10",
+        "RP-2023-448327 | 11/28/2023 | W/D | Grantor: HERNANDEZ RAQUEL Grantee: CASTILLO URIEL HERNANDEZ | Desc: FOREST OAKS ADDITION Sec: 2 Lot: 10 Block: 4",
+        "RP-2023-351855 | 09/13/2023 | AFFT | Grantor: HERNANDEZ JOSE Grantor: HERNANDEZ RAQUEL Grantee: SEE INSTRUMENT | Desc: CANYON GATE AT PARK LAKES Sec: 9 Lot: 53 Block: 1",
+        "RP-2023-351854 | 09/13/2023 | D/T | Grantor: HERNANDEZ JOSE Grantor: HERNANDEZ RAQUEL Grantee: JPMORGAN CHASE BANK N A Trustee: POLUNSKY ALLAN B | Desc: CANYON GATE AT PARK LAKES Sec: 9 Lot: 53 Block: 1",
+        "RP-2023-351851 | 09/13/2023 | AFFT | Grantor: HERNANDEZ RAQUEL Grantee: SEE INSTRUMENT | Desc: CANYON GATE AT PARK LAKES Sec: 9 Lot: 53 Block: 1 Related Docs",
+        "RP-2023-270116 | 07/19/2023 | D/T | Grantor: HERNANDEZ JUAN SALVADOR Grantor: HERNANDEZ RAQUEL CARRILLO Grantee: SECURITY SERVICE FEDERAL CREDIT UNION Trustee: GARNER RUTH W | Desc: HIGHLANDS TOWNSITE Lot: 1-A-1-B Block: 19",
+        "RP-2023-176727 | 05/16/2023 | NOTICE | Grantor: GARCIA JOSE D Grantor: GARCIA JOSE L Grantor: HERNANDEZ ANGEL TORRES Grantor: HERNANDEZ RAQUEL Grantee: GARCIA JOSE D Grantee: GARCIA JOSE L Grantee: HERNANDEZ ANGEL TORRES Grantee: HERNANDEZ RAQUEL | Desc: WESTCOTT GARDENS SUBDIVISION Lot: 3 Block: 10",
+        "RP-2023-176726 | 05/16/2023 | W/D | Grantor: HERNANDEZ ANGEL TORRES Grantor: HERNANDEZ RAQUEL Grantee: GARCIA JOSE D Grantee: GARCIA JOSE L | Desc: WESTCOTT GARDENS SUBDIVISION NO FIVE Lot: 3 Block: 10",
+        "RP-2022-65629 | 02/07/2022 | NOTICE | Grantor: BAUTISTA JAVIER SOLIS Grantor: CONNER CODY WAYNE Grantor: CONNER HOLLY MARIE Grantor: HERNANDEZ RAQUEL Grantee: BAUTISTA JAVIER SOLIS Grantee: CONNER CODY WAYNE Grantee: CONNER HOLLY MARIE Grantee: HERNANDEZ RAQUEL | Desc: STONE CREEK RANCH Sec: 8 Lot: 26 Block: 2",
+        "RP-2022-65628 | 02/07/2022 | D/T | Grantor: HERNANDEZ RAQUEL Grantor: SOLIS BAUTISTA JAVIER Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: THRIVE MORTGAGE LLC Trustee: JONES BARBARA | Desc: STONE CREEK RANCH Sec: 8 Lot: 26 Block: 2 Related Docs",
+        "RP-2022-527915 | 10/28/2022 | W/D | Grantor: HERNANDEZ RAQUEL Grantee: PRESTIGE ASSETS LLC | Desc: SCENIC WOODS PLAZA Block: 5 Reserve: A",
+        "RP-2022-51779 | 01/28/2022 | W/D | Grantor: BAUTISTA JAVIER SOLIS Grantor: HERNANDEZ RAQUEL Grantee: WEISE THOMAS | Desc: FAIRFIELD INWOOD PARK Sec: 2 Lot: 9 Block: 2",
+        "RP-2021-500241 | 09/01/2021 | W/D | Grantor: HERNANDEZ RAQUEL Grantee: ESPINOZA NESTOR | Desc: SKYLARK TERRACE Lot: 5 Block: 1",
+        "RP-2021-445072 | 08/05/2021 | W/D | Grantor: HERNANDEZ ARGELIO Grantor: HERNANDEZ RAQUEL Grantee: CORONA VERONICA G | Desc: CLIFFISDE PLACE Sec: 2 Lot: 55 Block: 4",
+        "RP-2021-442476 | 08/04/2021 | D/T | Grantor: HERNANDEZ RAFAEL Grantor: HERNANDEZ RAQUEL Grantor: HERNANDEZ-ALVAREZ RAFAEL Grantee: TEXAS BAY CREDIT UNION Trustee: POLUNSKY ALLAN B | Desc: PARKGATE Sec: 4 Lot: 11 Block: 2",
+        "RP-2021-349617 | 06/22/2021 | W/D | Grantor: HERNANDEZ RAQUEL Grantor: HERNANEZ ANGEL TORRES Grantee: PEREZ EDUARDO A ARAUJO | Desc: WESTCOTT GARDENS SUBDIVISION NO 4 Lot: 6 Block: 7 Related Docs",
+        "RP-2021-342615 | 06/18/2021 | MTG | Grantor: HERNANDEZ RAQUEL Grantor: MORALES ALLAN NAHUN HERNANDEZ Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SEE INSTRUMENT | Desc: COPPER GROVE Sec: 7 Lot: 2 Block: 2",
+        "RP-2021-149448 | 03/23/2021 | AFFT | Grantor: HERNANDEZ LUIS Grantor: HERNANDEZ LUIS RAUL Grantor: HERNANDEZ RAQUEL Grantee: SEE INSTRUMENT | Desc: ERIN GLEN Sec: 8 Lot: 9 Block: 4",
+        "RP-2021-149447 | 03/23/2021 | D/T | Grantor: HERNANDEZ LUIS Grantor: HERNANDEZ LUIS RAUL Grantor: HERNANDEZ RAQUEL Grantee: SHELL FEDERAL CREDIT UNION Trustee: JOHNSON NANCY | Desc: ERIN GLEN Sec: 8 Lot: 9 Block: 4",
+        "RP-2021-13284 | 01/08/2021 | D/T | Grantor: HERNANDEZ RAQUEL Grantor: TORRES ANGEL HERNANDEZ Grantee: HALLSVILLE INVESTMENTS LLC Trustee: DRIEGERT ROBERT S | Desc: BERRY ADDITION Related Docs",
+        "RP-2020-453192 | 09/24/2020 | D/T | Grantor: GODOY ALEXANDER Grantor: HERNANDEZ RAQUEL Grantee: HALMARI ILKKA Grantee: MOLINA CLAUDIA P Trustee: RAMSEY STEPHEN P | Desc: RIVER STONE II Unit: 1032",
+        "RP-2020-445914 | 09/22/2020 | AFFT | Grantor: HERNANDEZ RAQUEL Grantee: SEE INSTRUMENT | Desc: GLENSHIRE Sec: 3 Lot: 20 Block: 10",
+        "RP-2020-445912 | 09/22/2020 | AFFT | Grantor: FUENTES MIGUEL A Grantor: HERNANDEZ RAQUEL Grantee: SEE INSTRUMENT | Desc: GLENSHIRE Sec: 3 Lot: 20 Block: 10",
+        "RP-2020-445911 | 09/22/2020 | D/T | Grantor: FUENTES MIGUEL A Grantor: HERNANDEZ RAQUEL Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: QUICKEN LOANS LLC Trustee: MAGERS ANDREA K | Desc: GLENSHIRE Sec: 3 Lot: 20 Block: 10",
+        "RP-2020-375690 | 08/17/2020 | W/D | Grantor: HERNANDEZ RAQUEL Grantee: UPADHYAYA JIGNESH | Desc: CHATWOOD PLACE Sec: 2 Lot: 268 Block: 10 Related Docs",
+        "RP-2020-310548 | 07/14/2020 | D/T | Grantor: HERNANDEZ RAQUEL CHAVEZ Grantee: CALIBER HOME LOANS INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK THOMAS E JR | Desc: BUENA VISTA Lot: 11 Block: 6",
+        "RP-2020-30865 | 01/22/2020 | D/T | Grantor: HERNANDEZ RAQUEL M Grantee: BBVA USA Trustee: FARNHAM DANIELLE | Desc: SKYLARK TERRACE Lot: 5 Block: 1 Related Docs",
+        "RP-2019-491077 | 11/05/2019 | NOTICE | Grantor: ANDRADE IGNACIO Grantor: HERNANDEZ ANGEL Grantor: HERNANDEZ RAQUEL Grantee: ANDRADE IGNACIO Grantee: HERNANDEZ ANGEL Grantee: HERNANDEZ RAQUEL | Desc: BELLMAR ADDITION Lot: 76 Block: 5 Related Docs",
+        "RP-2019-491075 | 11/05/2019 | W/D | Grantor: HERNANDEZ ANGEL Grantor: HERNANDEZ RAQUEL Grantee: ANDRADE IGNACIO | Desc: BELLMAR ADDITION Lot: 76 Block: 5",
+        "RP-2019-488847 | 11/04/2019 | LIEN | Grantor: ATTORNEY GENERAL Grantor: HERNANDEZ RAQUEL ESCANDON Grantee: MEJIA SATURNINO | Comment: SEE INSTRUMENT",
+        "RP-2019-428445 | 09/27/2019 | AFFT | Grantor: HERNANDEZ ALLEN Grantor: HERNANDEZ RAQUEL Grantor: PATTEN TITLE COMPANY Grantee: CRUZ ALVARO QUINTANILLA Grantee: CRUZ SOFIA A SANCHEZ Grantee: GONZALEZ SONIA A CRUZ | Desc: KINGDOM COME PLACE Sec: 2 Lot: 6 Block: 2 Related Docs",
+        "RP-2019-36285 | 01/29/2019 | NOTICE | Grantor: CASTELLANOS EDUARDO Grantor: HERNANDEZ JOSE A Grantor: HERNANDEZ RAQUEL Grantor: PADRON-HERRERA CORAL Grantee: CASTELLANOS EDUARDO Grantee: HERNANDEZ JOSE A Grantee: HERNANDEZ RAQUEL Grantee: PADRON-HERRERA CORAL | Desc: KINGS LAKE FOREST Sec: 1 Lot: 15 Block: 11",
+        "RP-2019-36284 | 01/29/2019 | W/D | Grantor: HERNANDEZ JOSE A Grantor: HERNANDEZ RAQUEL M Grantee: CASTELLANOS EDUARDO Grantee: PADRON-HERRERA CORAL | Desc: KINGS LAKE FOREST Sec: 1 Lot: 15 Block: 11",
+        "RP-2019-256636 | 06/18/2019 | D/T | Grantor: HERNANDEZ RAQUEL Grantor: MORALES ALLAN NAHUN HERNANDEZ Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: THRIVE MORTGAGE LLC Trustee: JONES BARBARA | Desc: COPPER GROVE Sec: 7 Lot: 2 Block: 2",
+        "RP-2019-256560 | 06/18/2019 | W/D | Grantor: HERNANDEZ ALLAN Grantor: HERNANDEZ RAQUEL Grantee: CRUZ ALVARO QUINTANILLA Grantee: CRUZ SOFIA A SANCHEZ Grantee: GONZALEZ SONIA A CRUZ | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-561121 | 12/17/2018 | AFFT | Grantor: HERNANDEZ RAQUEL Grantee: ROUTON ROGER DALE Grantee: SHULER BETTY | Comment: SEE INSTRUMENT",
+        "RP-2018-361451 | 08/08/2018 | FI STM | Grantor: HERNANDEZ RAQUEL Grantee: IMPERIAL WARE INC | Desc: CAMDEN PARK Sec: 3 Lot: 58 Block: 3 Related Docs",
+        "RP-2018-307712 | 07/09/2018 | D/T | Grantor: HERNANDEZ ANGEL Grantor: HERNANDEZ RAQUEL Grantee: STEPHENS FRANCES M Trustee: SEE INSTRUMENT | Desc: WESTCOTT GARDENS SUBDIVISION NO 3 Lot: 18 Block: 4",
+        "RP-2018-295996 | 07/02/2018 | D/T | Grantor: HERNANDEZ ANGEL Grantor: HERNANDEZ RAQUEL Grantee: MALAK MARCEIL Trustee: HOLEMAN GREG | Desc: BELLMAR ADDITION Lot: 76 Block: 5 Related Docs",
+        "RP-2018-125716 | 03/26/2018 | NOTICE | Grantor: HERNANDEZ RAQUEL Grantor: HERNANDEZ-ALVAREZ RAFAEL Grantor: KENNEDY FAMILY LIVING TRUST Grantee: HERNANDEZ RAQUEL Grantee: HERNANDEZ-ALVAREZ RAFAEL Grantee: KENNEDY FAMILY LIVING TRUST | Desc: PARKGATE Sec: 4 Lot: 11 Block: 2",
+        "RP-2018-125715 | 03/26/2018 | D/T | Grantor: HERNANDEZ RAQUEL Grantor: HERNANDEZ-ALVAREZ RAFAEL Grantor: PARRA CRISTINA Grantor: PARRA JOSE Grantee: JPMORGAN CHASE BANK N A Trustee: POLUNSKY ALLAN B | Desc: PARKGATE Sec: 4 Lot: 11 Block: 2 Related Docs",
+        "RP-2017-345532 | 08/01/2017 | T/L | Grantor: HERNANDEZ RAQUEL M Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-60263 | 02/12/2016 | D/T | Grantor: HERNANDEZ ALLAN Grantor: HERNANDEZ RAQUEL Grantee: ECU MORTGAGE LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: FOWLER ROBERT K | Desc: KINGDOM COME PLACE Sec: 2 Lot: 6 Block: 2 Related Docs",
+        "RP-2016-177000 | 04/28/2016 | D/T | Grantor: HERNANDEZ MARCO Grantor: HERNANDEZ RAQUEL Grantee: WELLS FARGO BANK N A Trustee: FOWLER ROBERT K | Desc: BERKSHIRE VILLAGE Sec: 2 Lot: 464 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HERNANDEZ RAQUEL')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "REL": 23,
+        "W/D": 29,
+        "NOTICE": 22,
+        "A/J": 6,
+        "AFFT": 11,
+        "P/A": 1,
+        "LIEN": 2,
+        "DISCLM": 1,
+        "D/T": 22,
+        "FI STM": 2,
+        "MTG": 1,
+        "T/L": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HERNANDEZ RAQUEL')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "60 instruments as grantee, 61 as grantor (index, name 'HERNANDEZ RAQUEL')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HERNANDEZ RAQUEL')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202514371",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "02/24/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-02-24: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202514371 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de HERNANDEZ RAQUEL (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 156620.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 79406.34,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 13679.75,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 79406.34,
+        "impuestos_que_hereda": 1915.52,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 2382.19,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 87704.05,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 115903.38,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.786,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $115,903 >= cierre esperado $79,406. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF PASADENA. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 115903.38,
+    "all_in_cost_estimate": 87704.05,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
   }
 }

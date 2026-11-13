@@ -223,5 +223,300 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=0591510010220",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.007568,
+        "lat": 29.79231
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0591510010220)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 42284,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0591510010220)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~179 x 239 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0591510010220)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "AE",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "AE": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 100.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-392869 | 09/28/2026 | REL | Grantor: DAUGHTRY & FARINE P C Grantor: FARINE TRISHA TAYLOR Grantor: HUNTERS CREEK BT HOMEOWNERS ASSOCIATION INC Grantee: DURAN JOSHUA J Grantee: TORRES JANNETH O | Desc: HUNTERS CREEK Sec: 7 Lot: 32 Block: 1 Related Docs",
+        "RP-2026-37222 | 02/02/2026 | A/J | Grantor: INTEGRAS CAPITAL RECOVERY LLC Grantee: DURAN JOSHUA | Comment: SEE INSTRUMENT",
+        "RP-2026-323348 | 08/10/2026 | W/D | Grantor: KB HOME LONE STAR INC Grantee: DURAN JOSHUA | Desc: BAUER MEADOWS Sec: 3 Lot: 5 Block: 1",
+        "RP-2026-266877 | 07/02/2026 | L/P | Grantor: HUNTERS CREEK BT HOMEOWNERS ASSOCIATION INC Grantee: DURAN JOSHUA JORDAN Grantee: TORRES JANNETH ORALIA | Desc: HUNTERS CREEK Sec: 7 Lot: 32 Block: 1 Related Docs",
+        "RP-2025-318699 | 08/13/2025 | NOTICE | Grantor: FARINE TRISHA TAYLOR Grantor: HUNTERS CREEK BT HOMEOWNERS ASSOCIATION INC Grantee: DURAN JOSHUA JORDAN Grantee: TORRES JANNETH ORALIA | Desc: HUNTERS CREEK Sec: 7 Lot: 32 Block: 1 Related Docs",
+        "RP-2024-252805 | 07/15/2024 | REL | Grantor: FREEDOM MORTGAGE CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: CEGIELSKI TAYLOR JEAN Grantee: DURAN JOSHUA JONATHAN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-54371 | 02/16/2023 | NOTICE | Grantor: DEBAUCHE MARY Grantor: DURAN JOSHUA LOUIS Grantor: EBER ALICIA ALEXANDRA Grantor: SHUFF PATRICK Grantee: DEBAUCHE MARY Grantee: DURAN JOSHUA LOUIS Grantee: EBER ALICIA ALEXANDRA Grantee: SHUFF PATRICK | Desc: WESTCHESTER VILLA TOWNHOUSES Tract: 1 Related Docs",
+        "RP-2023-54369 | 02/16/2023 | W/D | Grantor: DEBAUCHE MARY Grantor: SHUFF PATRICK Grantee: DURAN JOSHUA LOUIS Grantee: EBER ALICIA ALEXANDRA | Comment: SEE INSTRUMENT",
+        "RP-2023-34265 | 02/01/2023 | NOTICE | Grantor: ANGLIA HOMES L P Grantor: DURAN JOSHUA JORDAN Grantor: GG TWIN ASSETS GP LLC Grantor: TORRES JANNETH ORALIA Grantee: ANGLIA HOMES L P Grantee: DURAN JOSHUA JORDAN Grantee: GG TWIN ASSETS GP LLC Grantee: TORRES JANNETH ORALIA | Desc: HUNTERS CREEK Sec: 7 Lot: 32 Block: 1",
+        "RP-2023-34263 | 02/01/2023 | W/D | Grantor: ANGLIA HOMES LP Grantor: G G TWIN ASSETS GP LLC Grantee: DURAN JOSHUA JORDAN Grantee: TORRES JANNETH ORALIA | Desc: HUNTERS CREEK Sec: 7 Lot: 32 Block: 1 Related Docs",
+        "RP-2020-393706 | 08/25/2020 | W/D | Grantor: K HOVNANIAN HOUSTON MIDTOWN PARK I L.L.C. Grantee: CEGIELSKI TAYLOR JEAN Grantee: DURAN JOSHUA JONATHAN | Desc: MIDTOWN PARK Sec: 2 Lot: 15 Block: 4",
+        "RP-2017-39121 | 01/27/2017 | W/D | Grantor: DURAN NORA A Grantee: DURAN JOSHUA J | Desc: HIGHLANDS FARMS Lot: 29 Block: 23"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DURAN JOSHUA')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-323349 | 08/10/2026 | D/T | Grantor: DURAN JOSHUA Grantee: KBHS HOME LOANS LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: BAUER MEADOWS Sec: 3 Lot: 5 Block: 1",
+        "RP-2025-81915 | 03/07/2025 | D/T | Grantor: DURAN JOSHUA JORDAN Grantor: TORRES JANNETH ORALIA Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SANDLER LAW GROUP | Desc: HUNTERS CREEK Sec: 7 Lot: 32 Block: 1 Related Docs",
+        "RP-2024-215964 | 06/13/2024 | D/T | Grantor: DURAN JOSHUA JORDAN Grantor: TORRES JANNETH ORALIA Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SANDLER LAW GROUP | Desc: HUNTERS CREEK Sec: 7 Lot: 32 Block: 1 Related Docs",
+        "RP-2023-54371 | 02/16/2023 | NOTICE | Grantor: DEBAUCHE MARY Grantor: DURAN JOSHUA LOUIS Grantor: EBER ALICIA ALEXANDRA Grantor: SHUFF PATRICK Grantee: DEBAUCHE MARY Grantee: DURAN JOSHUA LOUIS Grantee: EBER ALICIA ALEXANDRA Grantee: SHUFF PATRICK | Desc: WESTCHESTER VILLA TOWNHOUSES Tract: 1 Related Docs",
+        "RP-2023-54370 | 02/16/2023 | D/T | Grantor: DURAN JOSHUA LOUIS Grantor: EBER ALICIA ALEXANDRA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: UNITED WHOLESALE MORTGAGE LLC Trustee: ROBERTSON ANSCHUTZ VETTERS LLC | Comment: SEE INSTRUMENT",
+        "RP-2023-34265 | 02/01/2023 | NOTICE | Grantor: ANGLIA HOMES L P Grantor: DURAN JOSHUA JORDAN Grantor: GG TWIN ASSETS GP LLC Grantor: TORRES JANNETH ORALIA Grantee: ANGLIA HOMES L P Grantee: DURAN JOSHUA JORDAN Grantee: GG TWIN ASSETS GP LLC Grantee: TORRES JANNETH ORALIA | Desc: HUNTERS CREEK Sec: 7 Lot: 32 Block: 1",
+        "RP-2023-34264 | 02/01/2023 | D/T | Grantor: DURAN JOSHUA JORDAN Grantor: TORRES JANNETH ORALIA Grantee: ARK-LA-TEX FINANCIAL SERVICES LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: SANDLER LAW GROUP | Desc: HUNTERS CREEK Sec: 7 Lot: 32 Block: 1 Related Docs",
+        "RP-2021-643291 | 11/08/2021 | AFFT | Grantor: ALAMO TITLE COMPANY Grantor: CEGIELSKI TAYLOR JEAN Grantor: DURAN JOSHUA JONATHAN Grantee: FREEDOM MORTGAGE CORPORATION | Desc: MIDTOWN PARK Sec: 2 Lot: 15 Block: 4 Related Docs",
+        "RP-2020-393707 | 08/25/2020 | D/T | Grantor: CEGIELSKI TAYLOR JEAN Grantor: DURAN JOSHUA JONATHAN Grantee: FREEDOM MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK MANN AND GRAHAM LLP | Comment: SEE INSTRUMENT Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DURAN JOSHUA')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "REL": 2,
+        "A/J": 1,
+        "W/D": 5,
+        "L/P": 1,
+        "NOTICE": 5,
+        "D/T": 6,
+        "AFFT": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DURAN JOSHUA')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "12 instruments as grantee, 9 as grantor (index, name 'DURAN JOSHUA')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'DURAN JOSHUA')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202385162",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "04/24/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-04-24: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202385162 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de DURAN JOSHUA J (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 61560.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 31210.92,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 8344.6,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 31210.92,
+        "impuestos_que_hereda": 1462.88,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 936.33,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: COTA SUPERIOR: total adeudado de todos los anios (el condado no separa anios de la sentencia); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 37610.13,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 42509.83,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.637,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "NO PARA DUPLEX",
+    "rationale": "Lote 42,284 sqft / 100% del predio en zona de inundacion especial (SFHA): heuristica contra la salida dúplex (no es un limite legal). Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 42509.83,
+    "all_in_cost_estimate": 37610.13,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
   }
 }

@@ -204,5 +204,359 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=0610570070021",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.016519,
+        "lat": 29.628526
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0610570070021)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 9767,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0610570070021)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~96 x 104 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0610570070021)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "AE",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "AE": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 100.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF LA PORTE",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-92134 | 03/11/2026 | NOTICE | Grantor: BOLDEN MORGAN Grantor: JOESHMO TEXAS LLC Grantor: LENNAR HOMES OF TEXAS LAND AND CONSTRUCTION LTD Grantor: U S HOME CORPORATION Grantor: U S HOME LLC Grantee: BOLDEN MORGAN Grantee: JOESHMO TEXAS LLC Grantee: LENNAR HOMES OF TEXAS LAND AND CONSTRUCTION LTD Grantee: U S HOME CORPORATION Grantee: U S HOME LLC | Desc: SILA Sec: 1 Lot: 5 Block: 3",
+        "RP-2026-92132 | 03/11/2026 | W/D | Grantor: FRIENDSWOOD DEVELOPMENT COMPANY Grantor: LENNAR HOMES OF TEXAS LAND AND CONSTRUCTION LTD Grantor: LONGO JASON Grantor: U S HOME CORPORATION Grantor: U S HOME LLC Grantee: JOESHMO TEXAS LLC | Desc: SILA Sec: 1 Lot: 5 Block: 3",
+        "RP-2025-473431 | 12/01/2025 | TRUST | Grantor: BENITEZ JAZMIN LUCERO ROMERO Grantor: REVOCABLE LIVING TRUST OF JAZMIN ROMERO BENITEZ Grantor: ROMERO JAZMIN Grantee: BENITEZ IVAN ROMERO Grantee: BENITEZ JAZMIN LUCERO ROMERO Grantee: COVARRUBIAS ADELA BENITEZ Grantee: JOESKY FAMILY TRUST Grantee: MALDONADO ERICK JOEN | Comment: SEE INSTRUMENT",
+        "RP-2024-53059 | 02/15/2024 | L AFFT | Grantor: CONSTRUCTION OUTLET INC Grantor: DISCOUNT BUILDING MATERIALS Grantee: JOES'S CONSTRUCTION LLC Grantee: TOPAZ VENTURES LLC | Desc: EDMUND ESTATES Lot: 3 Block: 1",
+        "RP-2024-53038 | 02/15/2024 | L AFFT | Grantor: CONSTRUCTION OUTLET INC Grantor: DISCOUNT BUILDING MATERIALS Grantee: JOES'S CONSTRUCTION LLC Grantee: TOPAZ VENTURES LLC | Desc: EDMUND POINT Lot: 1 Block: 1 Related Docs",
+        "RP-2024-53024 | 02/15/2024 | L AFFT | Grantor: CONSTRUCTION OUTLET INC Grantor: DISCOUNT BUILDING MATERIALS Grantee: JOES'S CONSTRUCTION LLC Grantee: TOPAZ VENTURES LLC | Desc: EDMUND POINT Lot: 3 Block: 1 Related Docs",
+        "RP-2024-53006 | 02/15/2024 | L AFFT | Grantor: CONSTRUCTION OUTLET INC Grantor: DISCOUNT BUILDING MATERIALS Grantee: JOES'S CONSTRUCTION LLC Grantee: TOPAZ VENTURES LLC | Desc: EDMUND POINT Lot: 4 Block: 1",
+        "RP-2024-52998 | 02/15/2024 | L AFFT | Grantor: CONSTRUCTION OUTLET INC Grantor: DISCOUNT BUILDING MATERIALS Grantee: JOES'S CONSTRUCTION LLC Grantee: TOPAZ VENTURES LLC | Desc: EDMUND POINT Lot: 5 Block: 1",
+        "RP-2024-52969 | 02/15/2024 | L AFFT | Grantor: CONSTRUCTION OUTLET INC Grantor: DISCOUNT BUILDING MATERIALS Grantee: JOES'S CONSTRUCTION LLC Grantee: TOPAZ VENTURES LLC | Desc: EDMUND POINT Lot: 6 Block: 1 Related Docs",
+        "RP-2024-52930 | 02/15/2024 | L AFFT | Grantor: CONSTRUCTION OUTLET INC Grantor: DISCOUNT BUILDING MATERIALS Grantee: JOES 'S CONSTRUCTION LLC Grantee: TOPAZ VENTURES LLC | Desc: EDMUND POINT Lot: 7 Block: 1",
+        "RP-2024-52905 | 02/15/2024 | L AFFT | Grantor: CONSTRUCTION OUTLET INC Grantor: DISCOUNT BUILDING MATERIALS Grantee: JOES'S CONSTRUCTION LLC Grantee: TOPAZ VENTURES LLC | Desc: EDMUND POINT Lot: 12 Block: 1 Related Docs",
+        "RP-2024-52904 | 02/15/2024 | L AFFT | Grantor: CONSTRUCTION OUTLET INC Grantor: DISCOUNT BUILDING MATERIALS Grantee: JOES'S CONSTRUCTION LLC Grantee: TOPAZ VENTURES LLC | Desc: EDMUND POINT Lot: 11 Block: 1 Related Docs",
+        "RP-2024-52896 | 02/15/2024 | L AFFT | Grantor: CONSTRUCTION OUTLET INC Grantor: DISCOUNT BUILDING MATERIALS Grantee: JOES'S CONSTRUCTION LLC Grantee: TOPAZ VENTURES LLC | Desc: EDMUND POINT Lot: 10 Block: 1 Related Docs",
+        "RP-2024-52883 | 02/15/2024 | L AFFT | Grantor: CONSTRUCTION QUTLET INC Grantor: DISCOUNT BUILDING MATERIALS Grantee: JOES'S CONSTRUCTION LLC Grantee: TOPAZ VENTURES LLC | Desc: EDMUND POINT Lot: 9 Block: 1",
+        "RP-2024-309371 | 08/23/2024 | W/D | Grantor: LOPEZ JESSE R Grantor: MILLER KEVIN Grantee: JOESHMO LLC | Desc: SPRING CREEK OAKS PHASE 1 Lot: 9 Block: 5",
+        "RP-2023-79052 | 03/07/2023 | NOTICE | Grantor: HUTCHINSON JAMES ALEXANDER Grantor: JOES CONSTRUCTION LLC Grantee: HUTCHINSON JAMES ALEXANDER Grantee: JOES CONSTRUCTION LLC | Desc: HYDE PARK MAIN ADDITION NO 3 Lot: 3 Block: 1 Related Docs",
+        "RP-2023-79050 | 03/07/2023 | REL | Grantor: ATANMO CHINEDU Grantee: JOES CONSTRUCTION | Desc: HYDE PARK MAIN ADDITION NO 3 Lot: 3 Block: 1 Related Docs",
+        "RP-2023-238552 | 06/27/2023 | W/D | Grantor: CALLAWAY JONELL B Grantor: CALLAWAY JONELL BROWN Grantor: CALLAWAY SUSAN Grantee: JOES & BROS REMODELING LLC | Desc: BAYSIDE TERRACE Lot: 3-4 Block: 7",
+        "RP-2022-512252 | 10/18/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantor: KALVERT MEGAN Grantee: ACME DEVELOPMENT Grantee: JOES CONSTRUCTION | Desc: SOUTHLAND TERRACE Lot: 1 Block: 1 Related Docs",
+        "RP-2022-512225 | 10/18/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION Grantee: TOPAZ VENTURES LLC | Desc: NORTH MODERNO Lot: 1-9 Block: 1",
+        "RP-2022-512200 | 10/18/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION Grantee: MODERNO AT INDEPENDENCE HEIGHTS | Desc: MODERNO AT INDEPENCE HEIGHTS Lot: 10 Block: 1",
+        "RP-2022-512149 | 10/18/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION Grantee: TOPAZ VENTURES LLC | Desc: NORTH MODERNO Lot: 1-9 Block: 1",
+        "RP-2022-505663 | 10/13/2022 | REL | Grantor: FIVE CONTRACTOR SERVICES LLC Grantor: KALVERT MEGAN Grantee: JOES CONSTRUCTION Grantee: TOPAZ VENTURES LLC | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-503294 | 10/11/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: KATHARANI TEJAS Grantee: TOPAZ VENTURES LLC | Desc: NORTH MODERNO Lot: 5 Block: 1",
+        "RP-2022-503293 | 10/11/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: KATHARANI TEJAS Grantee: TOPAZ VENTURES LLC | Desc: NORTH MODERNO Lot: 8 Block: 1",
+        "RP-2022-503292 | 10/11/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: MODERNO AT INDEPENDENCE HEIGHTS | Desc: MODERNO Lot: 8 Block: 1",
+        "RP-2022-503291 | 10/11/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: MODERNO AT INDEPENDENCE HEIGHTS | Desc: MODERNO Lot: 16 Block: 1",
+        "RP-2022-503290 | 10/11/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: KATHARANI TEJAS Grantee: TOPAZ VENTURES LLC | Desc: NORTH MODERNO Lot: 6 Block: 1",
+        "RP-2022-503289 | 10/11/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: KATHARANI TEJAS Grantee: TOPAZ VENTURES LLC | Desc: NORTH MODERNO Lot: 7 Block: 1",
+        "RP-2022-503288 | 10/11/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: KATHARANI TEJAS Grantee: TOPAZ VENTURES LLC | Desc: NORTH MODERNO Lot: 9 Block: 1",
+        "RP-2022-503287 | 10/11/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: MODERNO AT INDEPENDENCE HEIGHTS | Desc: MODERNO Lot: 10 Block: 1 Related Docs",
+        "RP-2022-503286 | 10/11/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: MODERNO AT INDEPENDENCE HEIGHTS | Desc: MODERNO Lot: 12 Block: 1",
+        "RP-2022-503285 | 10/11/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: KATHARANI TEJAS Grantee: TOPAZ VENTURES LLC | Desc: NORTH MODERNO Lot: 3 Block: 1",
+        "RP-2022-503284 | 10/11/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: KATHARANI TEJAS Grantee: TOPAZ VENTURES LLC | Desc: NORTH MODERNO Lot: 4 Block: 1",
+        "RP-2022-503283 | 10/11/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: KATHARANI TEJAS Grantee: TOPAZ VENTURES LLC | Desc: NORTH MODERNO Lot: 2 Block: 1",
+        "RP-2022-503282 | 10/11/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: KATHARANI TEJAS Grantee: TOPAZ VENTURES LLC | Desc: NORTH MODERNO Lot: 1 Block: 1",
+        "RP-2022-503281 | 10/11/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: MODERNO AT INDEPENDENCE HEIGHTS | Desc: MODERNO Lot: 15 Block: 1",
+        "RP-2022-503280 | 10/11/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: MODERNO AT INDEPENDENCE HEIGHTS | Desc: MODERNO Lot: 11 Block: 1",
+        "RP-2022-487513 | 09/30/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: ACME DEVELOPMENT LLC Grantee: JOES CONSTRUCTION LLC | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-487512 | 09/30/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: MODERNO AT INDEPENDENCE HEIGHTS | Desc: MODERNO Block: 1 Related Docs",
+        "RP-2022-487511 | 09/30/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC | Desc: NORTH MODERNO Lot: 1-9 Block: 1 Related Docs",
+        "RP-2022-487510 | 09/30/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: TSA 1 ENTERPRISES INC | Desc: ORANGE GROVE BRITTON Block: 5 Tract: 11 Related Docs",
+        "RP-2022-487509 | 09/30/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC | Desc: HYDE PARK MAIN PAR Lot: 3 Block: 1 Related Docs",
+        "RP-2022-487508 | 09/30/2022 | L AFFT | Grantor: FIVE CONTRACTOR SERVICES LLC Grantee: JOES CONSTRUCTION LLC Grantee: MARKET STREET DEVELOPMENT LLC | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-89581 | 02/22/2021 | W/D | Grantor: BRISTLEY DALE L Grantor: BRISTLEY JUDITH B Grantor: YOUNG JUDITH B Grantee: JOESBURY ALAN | Desc: NOTTINGHAM COUNTRY Sec: 2 Lot: 57 Block: 9",
+        "RP-2021-482139 | 08/24/2021 | NOTICE | Grantor: INDIANA STREET LLC Grantor: JOES CONSTRUCTION LLC Grantee: INDIANA STREET LLC Grantee: JOES CONSTRUCTION LLC | Desc: HYDE PARK MAIN ADDITION NO 3 Lot: 3 Block: 1 Related Docs",
+        "RP-2021-482137 | 08/24/2021 | W/D | Grantor: INDIANA STREET LLC Grantee: JOES CONSTRUCTION LLC | Desc: HYDE PARK MAIN ADDITION NO 3 Lot: 3 Block: 1",
+        "RP-2020-629189 | 12/22/2020 | PROB | Grantor: SIBLEY JOHNNY EST Grantee: JOES Grantee: OSBORNE JOSIE B | Comment: SEE INSTRUMENT",
+        "RP-2020-537042 | 11/04/2020 | LIEN | Grantor: CITY OF HOUSTON Grantee: JOESEF WATTS L SR | Desc: HIGHLAND ADDITION Lot: 9 Block: 13",
+        "RP-2019-17313 | 01/15/2019 | L/P | Grantor: LEE LANASTASIA Grantor: STATE OF TEXAS Grantee: ABILITY-ALL 4 KIDS LLC Grantee: ALL 4 KIDS PEDIATRIC THERAPY CLINIC Grantee: AMERICAN FIRST NATIONAL BANK Grantee: ATASCOCITA CHIROPRACTIC Grantee: ATASCOCITA COMMUNITY IMPROVEMENT ASSOCIATION Grantee: ATASCOCITA FAMILY DENTISTRY PLLC Grantee: BEARD JOHN WAYNE Grantee: BUI TINA T Grantee: COLIGADO EDWIN J Grantee: EASLEY STEPHANIE JERNIGAN Grantee: G & G NAILS SPA CORPORATION Grantee: JOES ALL SERVICE CARPENTRY Grantee: KUSICK JOSEPH Grantee: LAKE HOUSTON PHYSICAL THERAPY Grantee: MAKING IT CRAFTY RETAIL & SUPPLY LLC Grantee: MORTGAGE FINANCIAL SERVICES LLC Grantee: NAOMIS TAX & BOOKKEEPING SERVICES LLC Grantee: PRESCHOOL CONNECTION LLC Grantee: PRUITT MARKEITA SCHARONACHA Grantee: RDDRA LLC Grantee: RED DOOR REALTY & ASSOCIATES Grantee: STUDIO 29:11 SALON GALLERY Grantee: WELLS STONE DEVELOPMENT LLC Grantee: WESTSTAR MORTGAGE CORPORATION | Desc: PINES OF ATASCOCITA Sec: 3 Block: 1 Reserve: A",
+        "RP-2017-63337 | 02/14/2017 | REL | Grantor: CITIZENS BANK Grantee: JOES CONSTRUCTION LLC | Desc: ADAMS CLAYS ADDITION Lot: 1 Block: 6",
+        "RP-2017-549385 | 12/14/2017 | CONT | Grantor: GRAYSON BEVERLY J Grantor: GRAYSON BEVERLY JEAN Grantor: GRAYSON RICHARD O Grantee: JOE'S CABINET INSTALLATION Grantee: JOES CABINET INSTALLATION Grantee: SEE INSTRUMENT | Desc: PARK AT CYPRESSWOOD Lot: 15 Block: 2",
+        "RP-2016-237358 | 06/03/2016 | EASMT | Grantor: JOES CONSTRUCTION LLC Grantor: PEREZ JOE Grantee: JOES CONSTRUCTION LLC Grantee: PEREZ JOE | Desc: MODERN DEVELOPMENT Lot: 1-2 Block: 1",
+        "RP-2016-161236 | 04/19/2016 | REL | Grantor: CITIZENS BANK Grantee: JOES CONSTRUCTION LLC | Desc: HOUSTON HEIGHTS Lot: 42 Block: 42"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JOES')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-92134 | 03/11/2026 | NOTICE | Grantor: BOLDEN MORGAN Grantor: JOESHMO TEXAS LLC Grantor: LENNAR HOMES OF TEXAS LAND AND CONSTRUCTION LTD Grantor: U S HOME CORPORATION Grantor: U S HOME LLC Grantee: BOLDEN MORGAN Grantee: JOESHMO TEXAS LLC Grantee: LENNAR HOMES OF TEXAS LAND AND CONSTRUCTION LTD Grantee: U S HOME CORPORATION Grantee: U S HOME LLC | Desc: SILA Sec: 1 Lot: 5 Block: 3",
+        "RP-2026-92133 | 03/11/2026 | D/T | Grantor: JOESHMO TEXAS LLC Grantee: LENNAR MORTGAGE LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: SLLA Sec: 1 Lot: 5 Block: 3",
+        "RP-2024-309372 | 08/23/2024 | D/T | Grantor: JOESHMO LLC Grantee: DOMINION FINANCIAL SERVICES LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: KRAMSKY LES R ESQ | Desc: SPRING CREEK OAKS PHASE 1 Lot: 9 Block: 5 Related Docs",
+        "RP-2023-79052 | 03/07/2023 | NOTICE | Grantor: HUTCHINSON JAMES ALEXANDER Grantor: JOES CONSTRUCTION LLC Grantee: HUTCHINSON JAMES ALEXANDER Grantee: JOES CONSTRUCTION LLC | Desc: HYDE PARK MAIN ADDITION NO 3 Lot: 3 Block: 1 Related Docs",
+        "RP-2022-237924 | 05/05/2022 | D/T | Grantor: JOESBURY ALAN Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: RUHL RUTH ESQ | Desc: NOTTINGHAM COUNTRY Sec: 2 Lot: 57 Block: 9",
+        "RP-2021-89582 | 02/22/2021 | D/T | Grantor: JOESBURY ALAN Grantee: COLONIAL NATIONAL MORTGAGE Grantee: COLONIAL SAVINGS F A Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: MAULSBY F ALLEN Trustee: MOTLEY J DAVID | Desc: NOTTINGHAM COUNTRY Sec: 2 Lot: 57 Block: 9",
+        "RP-2021-77703 | 02/11/2021 | MAP | Grantor: JOES PLAZA Grantee: STANLEY JOHN L A0700 | Desc: JOES PLAZA",
+        "RP-2021-482139 | 08/24/2021 | NOTICE | Grantor: INDIANA STREET LLC Grantor: JOES CONSTRUCTION LLC Grantee: INDIANA STREET LLC Grantee: JOES CONSTRUCTION LLC | Desc: HYDE PARK MAIN ADDITION NO 3 Lot: 3 Block: 1 Related Docs",
+        "RP-2019-342459 | 08/06/2019 | D/T | Grantor: JOESPH TAMISHA DENISE Grantor: JOSEPH JERMONI A Grantee: ARK-LA-TEX FINANCIAL SERVICES LLC Grantee: BENCHMARK MORTGAGE Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BURNS MICHAEL | Desc: ADELAIDE Sec: 1 Lot: 12 Block: 13",
+        "RP-2016-36410 | 01/28/2016 | LIEN | Grantor: JOES DRIVE THRU INC Grantee: STATE OF TEXAS Grantee: TEXAS WORKFORCE COMMISSION | Comment: SEE INSTRUMENT",
+        "RP-2016-301907 | 07/12/2016 | W/D | Grantor: JOES CONSTRUCTION LLC Grantee: DIETER JEFFREY Grantee: FRENCH MARGARET | Desc: HOUSTON HEIGHTS Lot: 21 Block: 44",
+        "RP-2016-237358 | 06/03/2016 | EASMT | Grantor: JOES CONSTRUCTION LLC Grantor: PEREZ JOE Grantee: JOES CONSTRUCTION LLC Grantee: PEREZ JOE | Desc: MODERN DEVELOPMENT Lot: 1-2 Block: 1",
+        "RP-2016-143228 | 04/06/2016 | AFFT | Grantor: JOES CONSTRUCTION LLC Grantor: SANABRIA KELLY Grantor: SANCHEZ AURELIO JR Grantee: SEE INSTRUMENT | Desc: TURFWOOD ESTATES Lot: 8 Block: 1",
+        "RP-2016-108737 | 03/16/2016 | W/D | Grantor: JOES CONSTRUCTION LLC Grantee: DARBONNE AMY Grantee: DARBONNE EMERSON | Desc: HOUSTON HEIGHTS Lot: 43 Block: 42"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JOES')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "NOTICE": 6,
+        "W/D": 7,
+        "TRUST": 1,
+        "L AFFT": 36,
+        "REL": 4,
+        "PROB": 1,
+        "LIEN": 2,
+        "L/P": 1,
+        "CONT": 1,
+        "EASMT": 2,
+        "D/T": 5,
+        "MAP": 1,
+        "AFFT": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JOES')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "54 instruments as grantee, 14 as grantor (index, name 'JOES')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JOES')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202517460",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "02/24/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-02-24: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202517460 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de JOES & BROS REMODELING LLC (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 240825.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 122098.28,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 16180.04,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 122098.28,
+        "impuestos_que_hereda": 4506.26,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 3662.95,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 134267.49,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 178790.04,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.794,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "NO PARA DUPLEX",
+    "rationale": "Lote 9,767 sqft / 100% del predio en zona de inundacion especial (SFHA): heuristica contra la salida dúplex (no es un limite legal). Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF LA PORTE. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 178790.04,
+    "all_in_cost_estimate": 134267.49,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
   }
 }

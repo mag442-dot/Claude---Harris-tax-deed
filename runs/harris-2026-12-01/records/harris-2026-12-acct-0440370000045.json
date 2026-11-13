@@ -228,5 +228,304 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=0440370000045",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.330168,
+        "lat": 29.652557
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0440370000045)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 380142,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0440370000045)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~564 x 787 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0440370000045)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2025-435563 | 11/03/2025 | W/D | Grantor: MATHEWS LARNDELL Grantor: PORTER CLARISSE Grantee: ELL PROPERTIES LLC | Desc: BLUE BONNET ESTATES Lot: 20 Block: 5",
+        "RP-2024-459987 | 12/11/2024 | LIEN | Grantor: CITY OF HOUSTON Grantee: ELL PROPERTIES LLC | Desc: BLUE BONNET ESTATES Lot: 20 Block: 5 Related Docs",
+        "RP-2022-195042 | 04/13/2022 | LIEN | Grantor: CITY OF HOUSTON Grantee: ELL PROPERTIES LLC | Desc: BLUE BONNET ESTATES Lot: 20 Block: 5 Related Docs",
+        "RP-2021-421159 | 07/26/2021 | W/D | Grantor: MATHEWS ANNIE MAE Grantee: ELL PROPERTIES LLC | Desc: GRAND PARK Lot: 22 Block: 15 Related Docs",
+        "RP-2021-421158 | 07/26/2021 | W/D | Grantor: MATHEWS ANNIE MAE Grantee: ELL PROPERTIES LLC | Desc: ONERY J Abstract: 613 Tract: 6 Related Docs",
+        "RP-2021-421157 | 07/26/2021 | W/D | Grantor: MATHEWS ANNIE MAE Grantee: ELL PROPERTIES LLC | Desc: GRAND PARD ADDITION Block: 16 Related Docs",
+        "RP-2021-421156 | 07/26/2021 | W/D | Grantor: MATHEWS ANNIE MAE Grantee: ELL PROPERTIES LLC | Desc: HOLMAN Block: 6 Outlot: 36 Tract: 9",
+        "RP-2021-421155 | 07/26/2021 | W/D | Grantor: MATHEWS ANNIE MAE Grantee: ELL PROPERTIES LLC | Desc: GRAND PARK Lot: 8-9 Block: 22",
+        "RP-2021-421153 | 07/26/2021 | W/D | Grantor: MATHEWS ANNIE MAE Grantee: ELL PROPERTIES LLC | Desc: ALMEDA PLAZA DR Sec: 2 Lot: 600 Block: 24",
+        "RP-2021-421152 | 07/26/2021 | W/D | Grantor: MATHEWS ANNIE MAE Grantee: ELL PROPERTIES LLC | Desc: BLUE BONNET ESTATES Lot: 20 Block: 5",
+        "RP-2021-421151 | 07/26/2021 | W/D | Grantor: MATHEWS ANNIE MAE Grantee: ELL PROPERTIES LLC | Desc: CRESTMONT Sec: 2 Lot: 34 Block: 5",
+        "RP-2021-421150 | 07/26/2021 | W/D | Grantor: MATHEWS ANNIE MAE Grantee: ELL PROPERTIES LLC | Desc: FOSTER PLACE Lot: 14-15 Block: 25",
+        "RP-2021-421149 | 07/26/2021 | W/D | Grantor: MATHEWS ANNIE MAE Grantee: ELL PROPERTIES LLC | Desc: GRAND PARK Lot: 4 Block: 14",
+        "RP-2021-421148 | 07/26/2021 | W/D | Grantor: MATHEWS ANNIE MAE Grantee: ELL PROPERTIES LLC | Desc: FOSTER PLACE Lot: 9 Block: 30",
+        "RP-2021-421147 | 07/26/2021 | W/D | Grantor: MATHEWS ANNIE MAE Grantee: ELL PROPERTIES LLC | Desc: WILSEY SOUTH END Lot: 14 Block: 7",
+        "RP-2021-421146 | 07/26/2021 | W/D | Grantor: MATHEWS ANNIE MAE Grantee: ELL PROPERTIES LLC | Desc: WALDEN WOOKDS Lot: 138 Block: 9",
+        "RP-2021-421145 | 07/26/2021 | W/D | Grantor: MATHEWS ANNIE MAE Grantee: ELL PROPERTIES LLC | Desc: GRAND PARK Lot: 23-24 Block: 15",
+        "RP-2021-421143 | 07/26/2021 | W/D | Grantor: MATHEWS ANNIE MAE Grantee: ELL PROPERTIES LLC | Desc: SOUTH PARK ADDITION Lot: 5 Block: 23",
+        "RP-2021-421142 | 07/26/2021 | W/D | Grantor: MATHEWS ANNIE MAE Grantee: ELL PROPERTIES LLC | Desc: LEELAND PARK Lot: 4 Block: E"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ELL PROPERTIES')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2025-435564 | 11/03/2025 | W/D | Grantor: ELL PROPERTIES LLC Grantee: INVEST IN TEXAS NOW LLC | Desc: BLUE BONNET ESTATES Lot: 20 Block: 5",
+        "RP-2025-360923 | 09/11/2025 | W/D | Grantor: ELL PROPERTIES Grantee: MATHEWS LARNDELL | Desc: ALMEDA PLAZA DR Sec: 2 Lot: 600 Block: 24",
+        "RP-2025-360922 | 09/11/2025 | W/D | Grantor: ELL PROPERTIES Grantee: MATHEWS LARNDELL | Desc: GRAND PARD ADDITION",
+        "RP-2024-472723 | 12/19/2024 | W/D | Grantor: ELL PROPERTIES LLC Grantee: MATHEWS LARNDELL | Desc: GRAND PARK Lot: 4 Block: 14",
+        "RP-2024-461831 | 12/12/2024 | W/D | Grantor: ELL PROPERTIES LLC Grantee: ORIBIT INTERNATIONAL INC | Desc: FOSTER PLACE Lot: 9 Block: 30",
+        "RP-2024-437736 | 11/22/2024 | W/D | Grantor: ELL PROPERTIES LLC Grantee: MATHEWS LARNDELL | Desc: CRESTMONT ADDITION Sec: 2 Lot: 34 Block: 5",
+        "RP-2023-456852 | 12/05/2023 | W/D | Grantor: ELL PROPERTIES LLC Grantee: PHYSICIAN REAL ESTATE INVESTMENT NETWORK LLC Grantee: SINGH RAJPREET K | Desc: LEELAND PARK Lot: 4 Block: E",
+        "RP-2023-379740 | 10/03/2023 | ASSGN | Grantor: ELL PROPERTIES LLC Grantee: ADITI REALTY HOLDINGS LLC Grantee: CHASBO PROPERTIES LLC | Desc: GRAND PARK Lot: 4 Block: 14",
+        "RP-2023-379739 | 10/03/2023 | D/T | Grantor: ELL PROPERTIES LLC Grantee: ADIT REALTY HOLDINGS LLC Grantee: CHASBO PROPERTIES LLC Trustee: NEWSOM STEVEN S | Desc: GRAND PARK Lot: 4 Block: 14"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ELL PROPERTIES')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "W/D": 24,
+        "LIEN": 2,
+        "ASSGN": 1,
+        "D/T": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ELL PROPERTIES')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "19 instruments as grantee, 9 as grantor (index, name 'ELL PROPERTIES')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ELL PROPERTIES')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202231048",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "01/22/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-01-22: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202231048 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de ELL PROPERTIES LLC (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 113256.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 57420.79,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 18523.68,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 57420.79,
+        "impuestos_que_hereda": 4786.1,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 1722.62,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 67929.51,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 79435.63,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.667,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $79,436 >= cierre esperado $57,421. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 79435.63,
+    "all_in_cost_estimate": 67929.51,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
   }
 }

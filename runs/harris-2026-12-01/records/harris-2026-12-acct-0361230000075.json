@@ -196,5 +196,303 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=0361230000075",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.315139,
+        "lat": 29.64241
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0361230000075)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 163687,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0361230000075)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~270 x 615 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0361230000075)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-63616 | 02/20/2026 | W/D | Grantor: CHARLES INEZ Grantee: CHARLES EARL ENRICK | Desc: ANDOVER PLACE Sec: 3 Lot: 29 Block: 10",
+        "RP-2026-63615 | 02/20/2026 | W/D | Grantor: CHARLES INEZ Grantee: CHARLES EARL ENRICK | Desc: ANDOVER PLACE Sec: 2 Lot: 19 Block: 9",
+        "RP-2025-3108 | 01/03/2025 | ASSGN | Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I S D Grantor: PORT OF HOUSTON AUTHORITY Grantee: CHARLES EARL E | Desc: WAVERLY GARDENS Lot: 55 Tract: 55D",
+        "RP-2023-99621 | 03/22/2023 | LIEN | Grantor: CITY OF HOUSTON Grantee: CHARLES EARL E | Desc: WAVERLY GARDENS Tract: 55A",
+        "RP-2016-501560 | 11/04/2016 | LIEN | Grantor: CITY OF HOUSTON Grantee: CHARLES EARL E | Desc: WAVERLY GARDENS Tract: 55A"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CHARLES EARL')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2025-84390 | 03/10/2025 | ASSGN | Grantor: CHARLES EARL E Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I S D Grantor: PORT OF HOUSTON AUTHORITY Grantee: PROPEL TAX | Desc: WAVERLY GARDENS Tract: 55A-1",
+        "RP-2025-84388 | 03/10/2025 | ASSGN | Grantor: CHARLES EARL E Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I S D Grantor: PORT OF HOUSTON AUTHORITY Grantee: PROPEL TAX | Desc: WAVERLY GARDENS Tract: 55A-1",
+        "RP-2025-3129 | 01/03/2025 | LIEN | Grantor: CHARLES EARL E Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I S D Grantor: PORT OF HOUSTON AUTHORITY Grantee: PROPEL TAX | Desc: WAVERLY GARDENS Tract: 55A",
+        "RP-2025-3098 | 01/03/2025 | ASSGN | Grantor: CHARLES EARL E Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DUST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I S D Grantor: PORT OF HOUSTON AUTHORITY Grantee: PROPEL TAX | Desc: WAVERLY GARDENS Lot: 55 Tract: 55D",
+        "RP-2024-445525 | 11/27/2024 | CONT | Grantor: CHARLES EARL E Grantee: PROPEL TAX | Desc: WAVERLY GARDENS Lot: 55",
+        "RP-2023-267004 | 07/18/2023 | ASSGN | Grantor: CHARLES EARL E Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I S D Grantor: PORT OF HOUSTON AUTHORITY Grantee: FNA VI LLC | Desc: WAVERLY GARDENS Tract: 55A",
+        "RP-2023-266998 | 07/18/2023 | ASSGN | Grantor: CHARLES EARL E Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I S D Grantor: PORT OF HOUSTON AUTHORITY Grantee: FNA VI LLC | Desc: WAVERLY GARDENS Lot: 55 Tract: 55D",
+        "RP-2023-266995 | 07/18/2023 | ASSGN | Grantor: CHARLES EARL E Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I S D Grantor: PORT OF HOUSTON AUTHORITY Grantee: FNA VI LLC | Desc: WAVERLY GARDENS Tract: 55A-1",
+        "RP-2023-230716 | 06/22/2023 | CONT | Grantor: CHARLES EARL E Grantee: FNA VI LLC | Desc: WAVERLY GARDENS Lot: 55 Related Docs",
+        "RP-2020-626377 | 12/21/2020 | ASSGN | Grantor: CHARLES EARL E Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I.S.D. Grantor: PORT OF HOUSTON AUTHORITY Grantee: PROPEL TAX | Desc: WAVERLY GARDENS Lot: 55 Tract: 55D",
+        "RP-2020-626370 | 12/21/2020 | ASSGN | Grantor: CHARLES EARL E Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I S D Grantor: PORT OF HOUSTON AUTHORITY Grantee: PROPEL TAX | Desc: WAVERLY GARDENS Tract: 55A-1",
+        "RP-2020-626357 | 12/21/2020 | ASSGN | Grantor: CHARLES EARL E Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I S D Grantor: PORT OF HOUSTON AUTHORITY Grantee: PROPEL TAX | Desc: WAVERLY GARDENS Tract: 55A-1",
+        "RP-2020-626355 | 12/21/2020 | ASSGN | Grantor: CHARLES EARL E Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I S D Grantor: PORT OF HOUSTON AUTHORITY Grantee: PROPEL TAX | Desc: WAVERLY GARDENS Tract: 55A",
+        "RP-2020-595651 | 12/04/2020 | CONT | Grantor: CHARLES EARL E Grantee: PROPEL TAX | Desc: WAVERLY GARDENS Lot: 55",
+        "RP-2019-486991 | 11/01/2019 | ASSGN | Grantor: CHARLES EARL E Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I.S.D. Grantor: PORT OF HOUSTON AUTHORITY Grantee: PROPEL TAX | Desc: WAVERLY GARDENS Tract: 55A-1",
+        "RP-2019-486983 | 11/01/2019 | ASSGN | Grantor: CHARLES EARL E Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I S D Grantor: PORT OF HOUSTON AUTHORITY Grantee: PROPEL TAX | Desc: WAVERLY GARDENS Tract: 55A",
+        "RP-2019-486982 | 11/01/2019 | ASSGN | Grantor: CHARLES EARL E Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I S D Grantor: PORT OF HOUSTON AUTHORITY Grantee: PROPEL TAX | Desc: WAVERLY GARDENS Lot: 55 Tract: 55D",
+        "RP-2019-474255 | 10/25/2019 | CONT | Grantor: CHARLES EARL E Grantee: PROPEL TAX | Desc: WAVERLY GARDENS Lot: 55",
+        "RP-2016-77061 | 02/25/2016 | CONT | Grantor: CHARLES EARL E Grantee: PROPEL FINANCIAL SERVICES LLC | Desc: WAVERLY GARDENS Lot: 55 Related Docs",
+        "RP-2016-120111 | 03/23/2016 | ASSGN | Grantor: CHARLES EARL E Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I S D Grantee: PROPEL FINANCIAL SERVICES LLC | Desc: WAVERLY GARDENS Lot: 55",
+        "RP-2016-120100 | 03/23/2016 | ASSGN | Grantor: CHARLES EARL E Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I S D Grantor: PORT OF HOUSTON AUTHORITY Grantee: PROPEL FINANCIAL SERVICES LLC | Desc: WAVERLY GARDENS Tract: 55A",
+        "RP-2016-120097 | 03/23/2016 | ASSGN | Grantor: CHARLES EARL E Grantor: CITY OF HOUSTON Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: HOUSTON COMMUNITY COLLEGE SYSTEM Grantor: HOUSTON I S D Grantor: PORT OF HOUSTON AUTHORITY Grantee: PROPEL FINANCIAL SERVICES LLC | Desc: WAVERLY GARDENS Tract: 55"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CHARLES EARL')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "W/D": 2,
+        "ASSGN": 17,
+        "LIEN": 3,
+        "CONT": 5
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CHARLES EARL')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "5 instruments as grantee, 22 as grantor (index, name 'CHARLES EARL')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CHARLES EARL')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202458142",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "03/24/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-03-24: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202458142 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de CHARLES EARL E (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 442832.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 224515.82,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 15853.87,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 224515.82,
+        "impuestos_que_hereda": 9411.16,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 6735.47,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 244662.45,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 330926.64,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.81,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $330,927 >= cierre esperado $224,516. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer), lien de mecanico. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 330926.64,
+    "all_in_cost_estimate": 244662.45,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
   }
 }

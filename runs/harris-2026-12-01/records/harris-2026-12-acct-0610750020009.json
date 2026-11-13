@@ -202,5 +202,376 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=0610750020009",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -94.970238,
+        "lat": 29.735344
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0610750020009)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 4985,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0610750020009)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~50 x 100 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0610750020009)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF BAYTOWN",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "SFJV-2003-1 LLC ETAL",
+        "RP-2026-331303 | 08/14/2026 | FI STM | Grantor: SERVICE FINANCE COMPANY LLC Grantee: ESTRADA HENRY Grantee: ESTRADA MARIANA Grantee: ESTRADA VICTOR M | Desc: RAINTREE VILLAGE Sec: 4 Lot: 22 Block: 2",
+        "RP-2026-295208 | 07/22/2026 | DEED | Grantor: ESTRADA SHEILA GUADALUPE Grantor: FONSECA GLORIMAR Grantor: MORENO JADE YERITZA Grantee: ESTRADA MARIA GUADALUPE | Desc: GLEN LEE PLACE Sec: 2 Lot: 428 Block: 16",
+        "RP-2026-279268 | 07/13/2026 | W/D | Grantor: GALLIEN JOSEPH LEOREAN Grantee: ESTRADA MARIA D Grantee: ESTRADA MARIA DE LOS ANGELES | Desc: GLENBROOK TOWNHOUSES Unit: 4 Related Docs",
+        "RP-2026-192948 | 05/18/2026 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: ESTRADA MARIA A Grantee: HERRERA RODRIGO | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-151386 | 04/21/2026 | REL | Grantor: CITIBANK NA Grantor: MOSS MICHAEL A Grantee: ESTRADA MARIA N | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-478549 | 12/04/2025 | REL | Grantor: BANK OF AMERICA N A Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: ESTRADA JUAN A Grantee: ESTRADA MARIA E | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-28558 | 01/27/2025 | REL | Grantor: HOUSTON FEDERAL CREDIT UNION Grantee: ESTRADA MARIA Grantee: JIMENEZ MIGUEL Grantee: VAZQUEZ TRINIDAD | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-195159 | 05/22/2025 | W/D | Grantor: ESTRADA MARIA TERESA Grantor: JIMENEZ MIGUEL H JIMENEZ Grantor: VAZQUEZ TRINIDAD JIMENEZ Grantee: ESTRADA MARIA TERESA Grantee: VAZQUEZ JOSE JIMENEZ | Desc: 2600 SOUTH BRAESWOOD CONDOMINIUMS Unit: 802",
+        "RP-2025-13527 | 01/13/2025 | REL | Grantor: CARRINGTON MORTGAGE SERVICES LLC Grantee: ESTRADA JOSE LUIS Grantee: ESTRADA MARIA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-117425 | 04/01/2025 | W/D | Grantor: ASHTON HOUSTON RESIDENTIAL L L C Grantee: ESTRADA MARIA ESCOBAR Grantee: ESTRADA SEVERINO ESCOBAR | Desc: OAKWOOD ESTATES Sec: 2 Lot: 2 Block: 1",
+        "RP-2024-97024 | 03/20/2024 | DEED | Grantor: ESTRADA IBERIO Grantor: ESTRADA TERESA Grantee: ESTRADA GILBERTO Grantee: ESTRADA IBERIO Grantee: ESTRADA MARIA ISABEL Grantee: ESTRADA MAYRA Grantee: ESTRADA OMAR Grantee: ESTRADA SILVINO Grantee: ESTRADA TERESA | Desc: SPRING BRANCH ADDITION Sec: 3 Lot: 9 Block: 7",
+        "RP-2024-76899 | 03/05/2024 | W/D | Grantor: THE WESTBROOK 2013 REVOCABLE LIVING TRUST Grantor: WESTBROOK EDDIE TRE Grantor: WESTBROOK EDWIN LEE TRE Grantee: ESTRADA MARIA FERNANDA MOLINA Grantee: ZUNIGA NOE FERNANDO BANEGAS | Desc: SANDPIPER Sec: 1 Lot: 23 Block: 2",
+        "RP-2024-71212 | 02/29/2024 | REL | Grantor: LOANCARE LLC Grantor: TEXAS AFFORDABLE HOUSING CORPORATION Grantee: ESTRADA MARIA Grantee: ESTRADA VANESSA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-471982 | 12/19/2024 | W/D | Grantor: DELGADO SILVIA A RAMIREZ Grantor: RUBIO ROMEL Grantee: ESTRADA MARIA CRISTINA | Desc: DUMBARTON VILLAGE Lot: 10 Block: 10",
+        "RP-2024-464018 | 12/13/2024 | A/J | Grantor: CITY OF BAYTOWN Grantor: GOOSE CREEK CONSOLIDATED INDEPENDENT SCHOOL DISTRICT Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: LEE COLLEGE DISTRICT Grantor: PORT OF HOUSTON OF HARRIS COUNTY AUTHOIRTY Grantee: ESTRADA MARIA | Comment: SEE INSTRUMENT",
+        "RP-2024-456326 | 12/09/2024 | REL | Grantor: UNITED SHORE FINANCIAL SERVICES LLC Grantor: UNITED WHOLESALE MORTGAGE Grantee: ESTRADA MARIA LUCRECIA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-449823 | 12/03/2024 | NOTICE | Grantor: ARCHAMBAULT CHRIS Grantor: PORTER LAW FIRM Grantor: VENTANA LAKES COMMUNITY ASSOCIATION INC Grantee: ESTRADA MARIA C Grantee: ZARPATE CARLOS O | Desc: VENTANA LAKES EAST Sec: 5 Lot: 1 Block: 4 Related Docs",
+        "RP-2024-421948 | 11/12/2024 | LIEN | Grantor: ARCHER NOW LLC Grantor: FRY ROAD COMMUNITY ASSOCIATION INC Grantor: GOODWIN & COMPANY Grantor: HAYS CLINT Grantee: ESTRADA ALFRED Grantee: ESTRADA MARIA | Desc: SUNDOWN Sec: 2 Block: 4",
+        "RP-2024-387255 | 10/18/2024 | W/D | Grantor: JOY INVESTMENTS INC RETIREMENT PLAN Grantor: SIMONTON JAMES K Grantee: ESTRADA MARIA JUANITA Grantee: RODRIGUEZ ISAAC | Desc: W F WILLIAMS SUBDIVISION Lot: 19 Outlot: 22",
+        "RP-2024-376682 | 10/10/2024 | W/D | Grantor: ALVARDO NARCEDALIA Grantor: ALVARDO RAMON Grantee: ESTRADA MARIA D Grantee: ESTRADA PABLO RODRIGUEZ | Desc: WHITNEY PLACE Sec: 2 Lot: 11 Block: 27",
+        "RP-2024-363568 | 10/01/2024 | NOTICE | Grantor: ESTRADA MARIA LUCRECIA Grantor: OPENDOOR PROPERTY TRUST I Grantee: ESTRADA MARIA LUCRECIA Grantee: OPENDOOR PROPERTY TRUST I | Desc: SILVERMILL Sec: 2 Lot: 40 Block: 1",
+        "RP-2024-363565 | 10/01/2024 | W/D | Grantor: OPENDOOR PROPERTY TRUST I Grantee: ESTRADA MARIA LUCRECIA | Desc: SILVERMILL Sec: 2 Lot: 40 Block: 1",
+        "RP-2024-312506 | 08/27/2024 | REL | Grantor: SHELL FEDERAL CREDIT UNION Grantee: ESTRADA JESUS MANUEL Grantee: ESTRADA MARIA Grantee: ESTRADA MARIA G | Desc: PARKWOOD ESTATES Lot: 14 Block: 2 Related Docs",
+        "RP-2024-23125 | 01/23/2024 | REL | Grantor: BANK OF AMERICA N A Grantor: FIRST AMERICAN MORTGAGE SOLUTIONS LLC Grantee: ESTRADA FRANCISCO E Grantee: ESTRADA MARIA P | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-214110 | 06/12/2024 | FI STM | Grantor: MEDALLION BANK Grantee: ESTRADA MARIA DELCONSUELO | Desc: KENSWICK Sec: 2 Lot: 13 Block: 9 Related Docs",
+        "RP-2024-202783 | 06/04/2024 | W/D | Grantor: TREVINO ROSA Grantor: TREVINO RUBEN Grantee: ESTRADA ANTONIO Grantee: ESTRADA MARIA | Desc: INWOOD WEST Sec: 1 Lot: 5 Block: 11",
+        "RP-2024-134712 | 04/16/2024 | REL | Grantor: FIRST HORIZON HOME LOAN CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: DIAZ ABELINO M Grantee: ESTRADA MARIA S | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-488878 | 12/29/2023 | NOTICE | Grantor: ALANIZ ALICIA Grantor: ALANIZ VERONICA Grantor: CASTRO ELIZABETH E Grantor: CHABOLLA MARY M Grantor: ESTRADA CHRISTOPHER MICHAEL Grantor: ESTRADA FELICIANO JR Grantor: ESTRADA MARIA DEL CONSUELO Grantor: ESTRADA VICENTE Grantor: JJ VILLAREAL BUILDERS LLC Grantor: MARTINEZ GUADALUPE Grantor: MATA ROSE E Grantee: ALANIZ ALICIA Grantee: ALANIZ VERONICA Grantee: CASTRO ELIZABETH E Grantee: CHABOLLA MARY M Grantee: ESTRADA CHRISTOPHER MICHAEL Grantee: ESTRADA FELICIANO JR Grantee: ESTRADA MARIA DEL CONSUELO Grantee: ESTRADA VICENTE Grantee: JJ VILLAREAL BUILDERS LLC Grantee: MARTINEZ GUADALUPE Grantee: MATA ROSE E | Desc: CENTRAL PARK Lot: 16-18 Block: 115",
+        "RP-2023-469158 | 12/14/2023 | REL | Grantor: BRIARPOINT CONDOMINIUMS OWNERS' ASSOCIATION INC Grantor: SLAUGHTER KRISTI A Grantee: ESTRADA MARIA DEL CARMEN SANDOVAL | Desc: BRIARPOINT CONDOMINIUMS PHASE I Unit: 812 Related Docs",
+        "RP-2023-422242 | 11/03/2023 | W/D | Grantor: ALVARADO RAMON Grantor: ALVARADO RAMON TIZCARENO Grantee: ESTRADA MARIA D Grantee: ESTRADA PABLO RODRIGUEZ | Desc: HUNTINGTON PLACE Lot: 33 Block: 14",
+        "RP-2023-412226 | 10/27/2023 | REL | Grantor: CORNERSTONE MORTGAGE COMPANY Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: ESTRADA JOSUE M Grantee: ESTRADA MARIA A | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-36251 | 02/02/2023 | REL | Grantor: CHEUNG WINNIE Grantor: GLENCAIRN COMMUNITY IMPROVEMENT ASSOCIATION Grantee: ESTRADA EFRAIN Grantee: ESTRADA MARIA LUSIA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-36250 | 02/02/2023 | REL | Grantor: CHEUNG WINNIE Grantor: GLENCAIRN COMMUNITY IMPROVEMENT ASSOCIATION Grantee: ESTRADA EFRAIN Grantee: ESTRADA MARIA LUSIA | Desc: GLENCAIRN VILLAGE Block: 7 Related Docs",
+        "RP-2023-217061 | 06/13/2023 | DEED | Grantor: ESTRADA BELIBERTA Grantor: GARCIA BELIBERTA Grantor: MARTINEZ JUAN P Grantee: ESTRADA BELIBERTA Grantee: ESTRADA BESSY YAMILET Grantee: ESTRADA MARIAL Grantee: GARCIA BELIBERTA Grantee: MARTINEZ JUAN P | Desc: CROWN COLONY WEST Block: 3 Reserve: E Related Docs",
+        "RP-2023-212833 | 06/09/2023 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: REGIONS BANK Grantee: ESTRADA MARIA Grantee: ESTRADA MARVIN R | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-126763 | 04/11/2023 | REL | Grantor: CITIBANK N A Grantor: MOSS MICHAEL A Grantee: ESTRADA MARIA E | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-562490 | 11/23/2022 | W/D | Grantor: RS HOUSTON OWNER 2 L P Grantee: ESTRADA JESUS M Grantee: ESTRADA MARIA G | Desc: VINCE HEIGHTS ADDITION Sec: 1 Lot: 86",
+        "RP-2022-505859 | 10/13/2022 | NOTICE | Grantor: ESTRADA MARIA Grantor: MORALES PABLO E Grantor: MORALES RODOLFO Grantee: ESTRADA MARIA Grantee: MORALES PABLO E Grantee: MORALES RODOLFO | Desc: STUEBNER AIRLINE ROAD Lot: 30-32 Block: 1",
+        "RP-2022-495145 | 10/05/2022 | AFFT | Grantor: ESTRADA EUSEBIO P Grantor: LOPEZ EDNA G Grantor: MARTINEZ RUBEN G Grantee: ESTRADA EUSEBIO O EST Grantee: ESTRADA MARIA C EST | Desc: RUSHWOOD Sec: 3 Lot: 98 Block: 16",
+        "RP-2022-460384 | 09/13/2022 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: ESTRADA JOSE Grantee: ESTRADA MARIA LETCIA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-356384 | 07/11/2022 | REL | Grantor: LAW OFFICE OF BRADY T WYATT III Grantor: WYATT BRADY T III Grantee: ESTRADA MARIA GUADALUPE | Desc: CLEARWOOD CROSSING Sec: 4 Lot: 71 Block: 1 Related Docs",
+        "RP-2022-314961 | 06/16/2022 | W/D | Grantor: BERAN CHARLIE R Grantor: BERAN RUTH Grantee: ESTRADA MARIAN | Desc: SOUTH PASADENA PLAZA Lot: 286 Block: 9",
+        "RP-2022-281969 | 05/31/2022 | NOTICE | Grantor: ABREU ELIZABETH A Grantor: ENCARNACION GREGORIO A Grantor: ESTRADA MARIA D Grantor: JACINTO ALBERTO A Grantee: ABREU ELIZABETH A Grantee: ENCARNACION GREGORIO A Grantee: ESTRADA MARIA D Grantee: JACINTO ALBERTO A | Desc: CYPRESS MEADOW Sec: 2 Lot: 31 Block: 11 Related Docs",
+        "RP-2022-207663 | 04/20/2022 | NOTICE | Grantor: ESTRADA MARIA SABINA Grantor: OSINA JENNIFER SUZANNE Grantor: OSINA-WILSON JENNIFER SUZANNE Grantee: ESTRADA MARIA SABINA Grantee: OSINA JENNIFER SUZANNE Grantee: OSINA-WILSON JENNIFER SUZANNE | Desc: SETTLERS VILLAGE Sec: 1 Lot: 19 Block: 4 Related Docs",
+        "RP-2022-207662 | 04/20/2022 | NOTICE | Grantor: ESTRADA MARIA SABINA Grantor: OSINA JENNIFER SUZANNE Grantor: OSINA-WILSON JENNIFER SUZANNE Grantee: ESTRADA MARIA SABINA Grantee: OSINA JENNIFER SUZANNE Grantee: OSINA-WILSON JENNIFER SUZANNE | Desc: SETTLERS VILLAGE Sec: 1 Lot: 19 Block: 4",
+        "RP-2022-207660 | 04/20/2022 | W/D | Grantor: OSINA JENNIFER SUZANNE Grantor: OSINA-WILSON JENNIFER SUZANNE Grantee: ESTRADA MARIA SABINA | Desc: SETTLERS VILLAGE Sec: 1 Lot: 19 Block: 4",
+        "RP-2022-132115 | 03/11/2022 | REL | Grantor: CHERRY CREEK MORTGAGE CO INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: CHAPELLIN LUIS E Grantee: CHAPELLIN LUIS E TRE Grantee: CHAPELLIN MARIA I TRE Grantee: CHEST FAMILY TRUST Grantee: ESTRADA MARIA I | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-89813 | 02/23/2021 | REL | Grantor: WELLS FARGO FINANCIAL TEXAS INC Grantor: WELLS FARGO USA HOLDINGS INC Grantee: ESTRADA CONRADO Grantee: ESTRADA ESTHER Grantee: ESTRADA MARIA E | Comment: SEE INSTRUMENT",
+        "RP-2021-86551 | 02/22/2021 | NOTICE | Grantor: ESTRADA MARIA Grantor: GONZALEZ ROQUE E Grantor: OPENDOOR PROPERTY TRUST I Grantee: ESTRADA MARIA Grantee: GONZALEZ ROQUE E Grantee: OPENDOOR PROPERTY TRUST I | Desc: CRESCENT PARK VILLAGE Sec: 3 Lot: 18 Block: 5 Related Docs",
+        "RP-2021-86550 | 02/22/2021 | NOTICE | Grantor: ESTRADA MARIA Grantor: GONZALEZ ROQUE E Grantor: OPENDOOR PROPERTY TRUST I Grantee: ESTRADA MARIA Grantee: GONZALEZ ROQUE E Grantee: OPENDOOR PROPERTY TRUST I | Desc: CRESCENT PARK VILLAGE Sec: 3 Lot: 18 Block: 5",
+        "RP-2021-645555 | 11/09/2021 | A/J | Grantor: MIDLAND CREDIT MANAGEMENT INC Grantee: ESTRADA MARIA | Comment: SEE INSTRUMENT",
+        "RP-2021-634911 | 11/03/2021 | A/J | Grantor: GLENCAIRN COMMUNITY IMPROVEMENT ASSOCIATION Grantee: ESTRADA EFRAIN Grantee: ESTRADA MARIA LUSIA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-62683 | 02/04/2021 | W/D | Grantor: MORENO ISRAEL GUADALUPE RODRIGUEZ Grantee: ESTRADA MARIA ISABEL | Desc: JAMESTOWN COLONY Lot: 15 Block: 6",
+        "RP-2021-605842 | 10/20/2021 | AFFT | Grantor: ESTRADA ROBERTO EST Grantee: ESTRADA MARIA | Comment: SEE INSTRUMENT",
+        "RP-2021-429454 | 07/29/2021 | REL | Grantor: WELLS FARGO BANK N A Grantee: ESTRADA MARIA S Grantee: ESTRADA SEVERO V JR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-397813 | 07/15/2021 | NOTICE | Grantor: D R HORTON INC Grantor: D R HORTON-TEXAS LTD Grantor: ESTRADA MARIA C Grantor: ZARPATE CARLOS O Grantee: D R HORTON INC Grantee: D R HORTON-TEXAS LTD Grantee: ESTRADA MARIA C Grantee: ZARPATE CARLOS O | Desc: VENTANA LAKES EAST Sec: 5 Lot: 1 Block: 4",
+        "RP-2021-397810 | 07/15/2021 | W/D | Grantor: D R HORTON INC Grantor: D R HORTON-TEXAS LTD Grantee: ESTRADA MARIA C Grantee: ZARPATE CARLOS O | Desc: VENTANA LAKES EAST Sec: 5 Lot: 1 Block: 4",
+        "RP-2021-292719 | 05/26/2021 | W/D | Grantor: MENDOZA YOLANDA LIZETT Grantor: ROBLEDO ANTHONY Grantee: CASTRO JOSE G Grantee: ESTRADA MARIA DE LOS ANGELES VILLA | Desc: SONOMA RANCH Sec: 7 Lot: 16 Block: 4",
+        "RP-2021-286115 | 05/24/2021 | W/D | Grantor: EDGE PATRICK Grantee: ESTRADA MARIA GUADALUPE RODRIGUEZ | Desc: GLENWOOD VILLAGE CONDO",
+        "RP-2021-254202 | 05/10/2021 | W/D | Grantor: SIERRA VISTA REALTY LLC Grantee: ESTRADA MARIANITA Grantee: HERNANDEZ ISMAEL | Desc: HEARTHSTONE Sec: 7 Lot: 29 Block: 1",
+        "RP-2021-23607 | 01/14/2021 | W/D | Grantor: MENDOZA CELESTIA Grantee: ESTRADA JORGE Grantee: ESTRADA MARIA ISIDORA | Desc: PASADENA RIVER OAKS SUBDIVISION Lot: 1 Block: 1",
+        "RP-2021-223886 | 04/26/2021 | NOTICE | Grantor: ESTRADA MARIA DEL SOCORRO Grantor: MUNOZ DIANA Grantor: MUNOZ EDUARDO Grantee: ESTRADA MARIA DEL SOCORRO Grantee: MUNOZ DIANA Grantee: MUNOZ EDUARDO | Desc: ENFIELD ADDITION FKA PECAN PARK PLACE Sec: 2 Lot: 19 Block: G"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ESTRADA MARIA')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "SFJV-2003-1 LLC",
+        "RP-2026-93422 | 03/12/2026 | W/D | Grantor: ARRIAGA ROBERTO HERNANDEZ Grantor: BELTRAN MARIA Grantor: ESTRADA MARIA GUADALUPE BELTRAN Grantor: HERNANDEZ ROBERTO Grantee: HERNANDEZ ANDRES | Desc: WOODLAND OAKS Sec: 3 Lot: 735 Block: 19",
+        "RP-2026-59403 | 02/18/2026 | D/T | Grantor: ESTRADA MARIA Grantor: ESTRADA MARIA D Grantor: LEZAMA NOEL Grantor: LEZAMA NOEL J Grantee: RANDOLPH-BROOKS FEDERAL CREDIT UNION Trustee: WILLIAMS VICTOR | Desc: BINGLEWOOD Sec: 3 Lot: 350 Block: 21",
+        "RP-2026-456358 | 11/12/2026 | D/T | Grantor: ESTRADA JORGE Grantor: ESTRADA MARIA ISIDORA Grantee: MENDOZA CELESTIA Trustee: HANSZEN KENT M | Desc: PASADENA RIVER OAKS SUBDIVISION Lot: 1 Block: 1 Related Docs",
+        "RP-2026-325266 | 08/11/2026 | MODIF | Grantor: ESTRADA HECTOR JR Grantor: ESTRADA MARIA G Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: ROUNDPOINT MORTGAGE SERVICING LLC Grantee: TH MSR HOLDINGS LLC | Desc: GLEN MEADOWS Sec: 7 Lot: 36 Block: 9 Related Docs",
+        "RP-2026-163103 | 04/28/2026 | AFFT | Grantor: ESTRADA JOSE ALFREDO Grantor: ESTRADA MARIA L Grantee: SEE INSTRUMENT | Desc: SONGWOOD Sec: 2 Lot: 89 Block: 2",
+        "RP-2026-163102 | 04/28/2026 | D/T | Grantor: ESTRADA JOSE ALFREDO Grantor: ESTRADA MARIA L Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: UNITED WHOLESALE MORTGAGE LLC Trustee: BLACK MANN & GRAHAM L L P | Desc: SONGWOOD Sec: 2 Lot: 89 Block: 2",
+        "RP-2026-151597 | 04/21/2026 | FI STM | Grantor: ESTRADA DANIEL Grantor: ESTRADA MARIA Grantee: LOANPAL LLC | Desc: WILLOW RUN Sec: 6 Lot: 169 Block: 24",
+        "RP-2026-104957 | 03/20/2026 | W/D | Grantor: CLAROS MARIA E Grantor: CLAROS OSCAR A Grantor: ESTRADA MARIA E Grantee: SANTILLAN JESUS | Desc: RALSTON ADDITION Lot: 3 Block: 1",
+        "RP-2025-98728 | 03/19/2025 | W/D | Grantor: ESTRADA MARIA GUADALUPE RODRIGUEZ Grantee: RIVERA SADIA GABRIELA DEL ANGEL | Desc: GLENWOOD VILLAGE CONDO AMEND 1 Unit: D-2",
+        "RP-2025-452906 | 11/14/2025 | D/T | Grantor: ESTRADA LAWRENCE JR Grantor: ESTRADA MARIA DEL ROSARIO Grantee: GULF COAST EDUCATORS FEDERAL CREDIT UNION Trustee: BLACK MANN & GRAHAM LLP | Desc: FOREST OAKS Sec: 3 Lot: 10 Block: 2",
+        "RP-2025-376556 | 09/23/2025 | MODIF | Grantor: ESTRADA ALFRED Grantor: ESTRADA MARIA Grantee: NEWREZ LLC Grantee: SHELLPOINT MORTGAGE SERVICING | Desc: SUNDOWN Sec: 2 Lot: 33-34 Block: 4 Related Docs",
+        "RP-2025-326900 | 08/19/2025 | W/D | Grantor: ESTRADA CARMEN Grantor: ESTRADA MARIA D Grantor: RODRIGUEZ MARGARITO Grantee: RODRIGUEZ HERITAGE HOLDINGS LLC | Desc: CREEKSTONE Sec: 5 Lot: 9 Block: 1",
+        "RP-2025-242934 | 06/25/2025 | W/D | Grantor: DIAZ ABELINO M Grantor: ESTRADA MA S Grantor: ESTRADA MARIA S Grantee: DIAZ ABELINO M Grantee: ESTRADA MA S | Desc: BRENWOOD Sec: 7 Lot: 12 Block: 4",
+        "RP-2025-225626 | 06/12/2025 | DEED | Grantor: ESTRADA MARIA SANTANA DE Grantor: HERNANDEZ JUAN CARLOS RUIZ Grantor: MEYERS CARL Grantee: SBJK HOMES LLC | Desc: CHANNEL WOOD Sec: 2 Lot: 9 Block: 15",
+        "RP-2025-195159 | 05/22/2025 | W/D | Grantor: ESTRADA MARIA TERESA Grantor: JIMENEZ MIGUEL H JIMENEZ Grantor: VAZQUEZ TRINIDAD JIMENEZ Grantee: ESTRADA MARIA TERESA Grantee: VAZQUEZ JOSE JIMENEZ | Desc: 2600 SOUTH BRAESWOOD CONDOMINIUMS Unit: 802",
+        "RP-2025-129711 | 04/09/2025 | REL | Grantor: ESTRADA MARIA S Grantee: ESTRADA MANUEL | Comment: SEE INSTRUMENT",
+        "RP-2025-117426 | 04/01/2025 | D/T | Grantor: ESTRADA MARIA ESCOBAR Grantor: ESTRADA SEVERINO ESCOBAR Grantor: PINEDA RUTH Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: VELOCIO MORTGAGE L L C Trustee: VALBY SCOTT R | Desc: OAKWOOD ESTATES Sec: 2 Lot: 2 Block: 1",
+        "RP-2025-103247 | 03/24/2025 | REL | Grantor: ESTRADA MARIA S Grantee: ESTRADA MANUEL | Comment: SEE INSTRUMENT",
+        "RP-2024-93088 | 03/18/2024 | T/L | Grantor: ESTRADA ARMANDO M Grantor: ESTRADA MARIA I Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2024-69819 | 02/29/2024 | AFFT | Grantor: ESTRADA CARLOS Grantor: ESTRADA MARIA Grantee: SEE INSTRUMENT | Desc: WIMBLEDON ESTATES AND RACQUET CLUB Sec: 1 Lot: 9 Block: 9",
+        "RP-2024-69818 | 02/29/2024 | D/T | Grantor: ESTRADA CARLOS Grantor: ESTRADA MARIA Grantee: FIRST SERVICE CREDIT UNION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: HALSTEAD FRANK | Desc: WIMBLEDON ESTATES AND RACQUET CLUB Sec: 1 Lot: 9 Block: 9",
+        "RP-2024-387256 | 10/18/2024 | D/T | Grantor: ESTRADA MARIA JUANITA Grantor: RODRIGUEZ ISAAC Grantee: JOY INVESTMENTS INC RETIREMENT PLAN Trustee: ALBRIGHT DENNIS J | Desc: W F WILLIAMS SUBDIVISION Lot: 19 Block: A"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ESTRADA MARIA')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "?": 2,
+        "FI STM": 3,
+        "DEED": 4,
+        "W/D": 25,
+        "REL": 23,
+        "A/J": 3,
+        "NOTICE": 11,
+        "LIEN": 1,
+        "AFFT": 4,
+        "D/T": 7,
+        "MODIF": 2,
+        "T/L": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ESTRADA MARIA')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "63 instruments as grantee, 23 as grantor (index, name 'ESTRADA MARIA')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ESTRADA MARIA')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202283784",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "08/09/2024",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 cerro el 2026-08-09 (si hubo citacion por publicacion)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202283784 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de ESTRADA MARIA (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 138116.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 70024.81,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 5268.4,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 70024.81,
+        "impuestos_que_hereda": 893.34,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 2100.74,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: COTA SUPERIOR: total adeudado de todos los anios (el condado no separa anios de la sentencia); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 77018.89,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 102523.75,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.793,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $102,524 >= cierre esperado $70,025. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF BAYTOWN. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 102523.75,
+    "all_in_cost_estimate": 77018.89,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
   }
 }

@@ -252,5 +252,354 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=1145460020022",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.107837,
+        "lat": 29.809005
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=1145460020022)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 8949,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=1145460020022)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~53 x 172 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=1145460020022)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-394482 | 09/29/2026 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: GONZALEZ GUADALUPE R | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-90355 | 03/13/2025 | AFFT | Grantor: GONZALEZ JOSE E EST Grantor: ROBLEDO JOSE ELEUTERIO GONZALEZ EST Grantee: GONZALEZ GUADALUPE MADRAZO | Desc: BELMONT Sec: 2 Lot: 13 Block: 15",
+        "RP-2025-89057 | 03/12/2025 | AFFT | Grantor: GONZALEZ JOSE E EST Grantor: ROBLEDO JOSE ELEUTERIO GONZALEZ EST Grantee: GONZALEZ GUADALUPE MADRAZO | Desc: BELMONT Sec: 2 Lot: 13 Block: 15",
+        "RP-2025-65865 | 02/25/2025 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: ALVAREZ MARIO Grantee: GONZALEZ GUADALUPE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-50661 | 02/12/2025 | NOTICE | Grantor: ALVAREZ MARIO Grantor: GONE JOSE APOLINAR AGUILAR Grantor: GONZALEZ GUADALUPE Grantee: ALVAREZ MARIO Grantee: GONE JOSE APOLINAR AGUILAR Grantee: GONZALEZ GUADALUPE | Desc: HIGHLAND ADDITION Lot: 15-16 Block: 5 Related Docs",
+        "RP-2025-455886 | 11/17/2025 | DEED | Grantor: GONZALEZ ESMERALDA OLMOS Grantee: GONZALEZ ADAN RENE Grantee: GONZALEZ ESMERALDA OLMOS Grantee: GONZALEZ GUADALUPE LEAL | Desc: SOUTHBRIDGE SUBDIVISION Sec: 1 Lot: 431 Block: 11",
+        "RP-2025-455885 | 11/17/2025 | DEED | Grantor: GONZALEZ GUADALUPE LEAL Grantee: GONZALEZ ADAN RENE Grantee: GONZALEZ ESMERALDA OLMOS Grantee: GONZALEZ GUADALUPE LEAL | Desc: SOUTHBRIDGE SUBDIVISION Sec: 1 Lot: 431 Block: 11",
+        "RP-2025-439881 | 11/05/2025 | A/J | Grantor: CAPITAL ONE N A Grantor: DISCOVER BANK Grantee: GONZALEZ GUADALUPE | Comment: SEE INSTRUMENT",
+        "RP-2025-377836 | 09/23/2025 | REL | Grantor: CIT GROUP CONSUMER FINANCE INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GONZALEZ GUADALUPE JR Grantee: GONZALEZ MARIA V | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-342676 | 08/29/2025 | DEED | Grantor: GONZALEZ GUADALUPE Grantor: GONZALEZ VIRGINIA RIOS Grantee: GONZALEZ GEORGE BRETT Grantee: GONZALEZ GUADALUPE Grantee: GONZALEZ VIRGINIA RIOS | Desc: FOXWOOD Sec: 2 Lot: 27 Block: 3",
+        "RP-2025-303036 | 08/04/2025 | W/D | Grantor: KAWAKITA KUMIKO Grantor: SNIPE JAY ALLAN Grantee: GONZALEZ GUADALUPE Grantee: GONZALEZ VANESA | Desc: RUSHWOOD Sec: 2 Lot: 29 Block: 16",
+        "RP-2025-29625 | 01/28/2025 | REL | Grantor: CREDIT-BASED ASSET SERVICING AND SECURITIZATION LLC Grantor: FINANCIAL ASSET SECURITIES CORP Grantor: JPMORGAN CHASE BANK Grantor: JPMORGAN CHASE BANK N A Grantor: LITTON LOAN SERVICING LP Grantor: MORTGAGE LOAN ASSET-BACKED CERTIFICATES SERIES 2002-CB6 Grantee: GONZALEZ GUADALUPE R Grantee: GONZALEZ MARTIN R | Desc: BENBROOK Sec: 1 Lot: 20 Block: B Related Docs",
+        "RP-2025-259822 | 07/07/2025 | REL | Grantor: LOANCARE LLC Grantor: TEXAS STATE AFFORDABLE HOUSING CORPORATION Grantee: GONZALEZ GUADALUPE E Grantee: GONZALEZ ORLANDO | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-253201 | 07/01/2025 | P/A | Grantor: CFNA RECEIVABLES LLC Grantor: CITIMORTGAGE INC Grantee: BALCE ELIZABETH Grantee: BARNETT DEBRA Grantee: BHAVSAR AMI Grantee: CASTILLO EMILIA Grantee: CHOI ALBERT Grantee: CORRAL ELIZABETH Grantee: COVINGTON JUSTIN Grantee: COX BRIAN Grantee: DEARDEN KYLE Grantee: DO MICHAEL Grantee: DRUCE MONICA Grantee: EDWARDS KRISTA Grantee: FEGAN MARIO Grantee: FULCO DARREN Grantee: GILLIS JEFFREY Grantee: GONZALEZ GUADALUPE Grantee: GORDON CLAYTON Grantee: GRIM JONATHAN Grantee: HARMAN LOUIS Grantee: KOWALEWSKI JOSEPH Grantee: KRONFLE KIMBER Grantee: KWIATKOWSKI NICK Grantee: LECHTANSKI CHRIS Grantee: LOZANO JENNIFER Grantee: MACIA LETICIA Grantee: MCFARLAND JANINE Grantee: MICEK DENNIS Grantee: MONVILLE MELISSA Grantee: MURPHY KARIN Grantee: NIN ELIZABETH Grantee: OSTERHAGE LISA Grantee: OSTERMANN ELIZABETH Grantee: RUSSELL CANDACE Grantee: SOSA LETXY Grantee: TAFFET ANDREW Grantee: TORRES IRENE Grantee: TOUK KOMARITH Grantee: TRIANA CESAR Grantee: YANEZ JULIAN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-2319 | 01/03/2025 | REL | Grantor: NEWREZ LLC Grantor: SHELLPOINT MORTGAGE SERVICING Grantee: DE GONZALEZ TORRES ZORAYDA Grantee: GONZALEZ GUADALUPE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-187007 | 05/16/2025 | W/D | Grantor: THOMPSON JAMES Grantee: GONZALEZ GUADALUPE ARZATE Grantee: PEREZ DIOSELINA GARCIA | Desc: HEATHER RIDGE VILLAGE Sec: 1 Lot: 67 Block: 2",
+        "RP-2025-181411 | 05/14/2025 | REL | Grantor: GRAYSON SHANNON Grantor: INFORMATION SYSTEMS AND NETWORKS CORPORATION Grantor: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Grantee: GIL JUAN Grantee: GONZALEZ GUADALUPE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-181410 | 05/14/2025 | REL | Grantor: GRAYSON SHANNON Grantor: INFORMATION SYSTEMS AND NETWORKS CORPORATION Grantor: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Grantee: GIL JUAN Grantee: GONZALEZ GUADALUPE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-111413 | 03/27/2025 | NOTICE | Grantor: ESMAILI NAWROZ ALI Grantor: GIL JUAN Grantor: GONZALEZ GUADALUPE Grantee: ESMAILI NAWROZ ALI Grantee: GIL JUAN Grantee: GONZALEZ GUADALUPE | Desc: OAK PARK RIDGE Sec: 5 Lot: 7 Block: 2",
+        "RP-2025-111103 | 03/27/2025 | REL | Grantor: CARRINGTON MORTGAGE SERVICES LLC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GIL JUAN Grantee: GONZALEZ GUADALUPE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-479669 | 12/26/2024 | A/J | Grantor: CROSBY INDEPENDENT SCHOOL DISTRICT Grantee: GONZALEZ GUADALUPE | Comment: SEE INSTRUMENT",
+        "RP-2024-4647 | 01/04/2024 | REL | Grantor: KB HOME MORTGAGE LLC Grantee: GONZALEZ GUADALUPE Grantee: GONZALEZ RAMIRO | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-453289 | 12/05/2024 | D/T | Grantor: RAZO ANGELICA Grantor: TARIN ANTONIO CORDOVA Grantee: GONZALEZ GUADALUPE Grantee: GONZALEZ MARIBEL Grantee: VARGAS J GUADALUPE GONZALEZ Trustee: DAVIDSON VAUGHN W | Desc: LEE HEIGHTS Lot: 5-6 Block: 8",
+        "RP-2024-383208 | 10/16/2024 | NOTICE | Grantor: GONZALEZ BETTY J Grantor: GONZALEZ GUADALUPE Grantor: SPENCER JUSTIN Grantor: SPENCER ROBIN Grantee: GONZALEZ BETTY J Grantee: GONZALEZ GUADALUPE Grantee: SPENCER JUSTIN Grantee: SPENCER ROBIN | Desc: HERITAGE PARK Sec: 25 Lot: 28 Block: 2",
+        "RP-2024-383206 | 10/16/2024 | W/D | Grantor: SPENCER JUSTIN Grantor: SPENCER ROBIN Grantee: GONZALEZ BETTY J Grantee: GONZALEZ GUADALUPE | Desc: HERITAGE PARK Sec: 25 Lot: 28 Block: 2",
+        "RP-2024-372838 | 10/08/2024 | REL | Grantor: MIDLAND FUNDING LLC Grantor: SCHWAREZ PAMELA Grantee: GONZALEZ GUADALUPE SR | Comment: SEE INSTRUMENT",
+        "RP-2024-257508 | 07/17/2024 | REL | Grantor: REGIONS BANK Grantee: GARCIA ROEL JR Grantee: GONZALEZ GUADALUPE DICLARI Grantee: GONZALEZ LUPY D | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-257507 | 07/17/2024 | REL | Grantor: REGIONS BANK Grantee: GONZALEZ GUADALUPE DICLARI Grantee: GONZALEZ LUPY D Grantee: GRCIA ROEL JR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2024-236807 | 06/28/2024 | REL | Grantor: GULF COAST EDUCATORS FEDERAL CREDIT UNION Grantee: GARCIA ROEL Grantee: GONZALEZ GUADALUPE D | Desc: PARK PLACE Sec: 1 Lot: 3 Block: 1 Related Docs",
+        "RP-2024-125838 | 04/09/2024 | AFFT | Grantor: HERNANDEZ DAVID Grantor: HICKMAN CHRIS Grantor: TAYLOR TIM F Grantee: GONZALEZ GUADALUPE EST Grantee: GONZALEZ LUPE EST Grantee: GONZALEZ MARIA GUADALUPE EST Grantee: HERNANDEZ LUPE G EST Grantee: HERNANDEZ MANUEL G JR EST Grantee: HERNANDEZ MANUEL VALENCIA SR EST Grantee: VALDES ROSALINDA H EST | Desc: GOODMAN ADDITION Lot: 12 Block: 2",
+        "RP-2023-484822 | 12/27/2023 | DEED | Grantor: GONZALEZ GUADALUPE R Grantee: GONZALEZ GUADALUPE R Grantee: GONZALEZ GUADALUPE RAFAEL JR TRE Grantee: GUADALUPE RAFAEL GONZALEZ JR REVOCABLE TRUST | Desc: COTTAGE GROVE Lot: 813-814",
+        "RP-2023-47944 | 02/13/2023 | REL | Grantor: GUTIERREZ BETTY ELVIRA_FLO Grantee: GONZALEZ GUADALUPE | Comment: SEE INSTRUMENT",
+        "RP-2023-437805 | 11/16/2023 | DEED | Grantor: GARCIA FRANCES Grantee: GARCIA FRANCES Grantee: GOMEZ MARISELA Grantee: GONZALEZ GUADALUPE | Desc: PECAN PARK Lot: 13 Block: 19",
+        "RP-2023-31190 | 01/30/2023 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: GONZALEZ BLANCA Grantee: GONZALEZ GUADALUPE R | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-255765 | 07/10/2023 | W/D | Grantor: RAMIREZ ALFONSO Grantor: RAMIREZ NANCY P Grantee: GONZALEZ ESMERALDA O Grantee: GONZALEZ GUADALUPE L | Desc: SOUTHBRIDGE SUBDIVISION Lot: 431 Block: 11",
+        "RP-2023-128392 | 04/12/2023 | REL | Grantor: INVESTMENT RETRIEVERS INC Grantee: GARCIA MATILDE Grantee: GARCIA-GONZALEZ MATILDE Grantee: GONZALEZ GUADALUPE Grantee: GONZALEZ JOSE Grantee: GONZALEZ JOSE G Grantee: GONZALEZ JOSE GUADALUPE Grantee: GONZALEZ MATILDE Grantee: GONZALEZ MATILDE G Grantee: GONZALEZ MATILDE GARCIA Grantee: INVESTMENT RETRIEVERS INC | Comment: SEE INSTRUMENT",
+        "RP-2022-86788 | 02/17/2022 | A/J | Grantor: INVESTMENT RETRIEVERS INC Grantee: GARCIA MATILDE Grantee: GARCIA- GONZALEZ MATILDE Grantee: GONZALEZ GUADALUPE Grantee: GONZALEZ JOSE Grantee: GONZALEZ JOSE G Grantee: GONZALEZ JOSE GUADALUPE Grantee: GONZALEZ MATILDE Grantee: GONZALEZ MATILDE G Grantee: GONZALEZ MATILDE GARCIA | Comment: SEE INSTRUMENT",
+        "RP-2022-58438 | 02/01/2022 | L AFFT | Grantor: CANULETTE CLAIRE Grantor: HOUSTON RESTORE PROS Grantee: GONZALEZ CESAR Grantee: GONZALEZ CESAR R Grantee: GONZALEZ GUADALUPE | Desc: CIELO VISTA Lot: 40 Block: 4 Related Docs",
+        "RP-2022-558097 | 11/21/2022 | REL | Grantor: HOMECOMINGS FINANCIAL LLC Grantor: HOMECOMINGS FINANCIAL NETWORK INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GONZALEZ BLANCA Grantee: GONZALEZ GUADALUPE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-477929 | 09/26/2022 | REL | Grantor: HOMEBRIDGE FINANCIAL SERVICES INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: REAL ESTATE MORTGAGE NETWORK Grantee: GONZALEZ GUADALUPE Grantee: GONZALEZ ROGELIO | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-367343 | 07/18/2022 | REL | Grantor: MICHIGAN MUTUAL INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GONZALEZ FILIBERTO Grantee: GONZALEZ GUADALUPE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-361053 | 07/13/2022 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: NETWORK FUNDING LP Grantee: GONZALEZ GUADALUPE Grantee: GONZALEZ JANIE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-337308 | 06/29/2022 | AFFT | Grantor: ARELLANO-SMITH NINFA Grantor: RAYOS ISMAEL Grantor: RAYOS MARIA LUISA Grantee: ARELLANO VALDEMAR EST Grantee: ARELLANO VALDEMAR ISMAEL EST Grantee: GONZALEZ GUADALUPE EST Grantee: SIERRA LILLY EST | Desc: PASADENA GARDENS Lot: 1 Block: 17",
+        "RP-2022-326867 | 06/23/2022 | REL | Grantor: DHI MORTGAGE COMPANY LTD Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GONZALEZ GUADALUPE Grantee: MATA JUVENAL HERRERA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-313044 | 06/15/2022 | NOTICE | Grantor: GONZALEZ GUADALUPE Grantor: MATA JUVENAL HERRERA Grantor: PENA YORBY GONZALEZ Grantee: GONZALEZ GUADALUPE Grantee: MATA JUVENAL HERRERA Grantee: PENA YORBY GONZALEZ | Desc: RANCHO VERDE Sec: 12 Lot: 5 Block: 4",
+        "RP-2022-313043 | 06/15/2022 | NOTICE | Grantor: GONZALEZ GUADALUPE Grantor: MATA JUVENAL HERRERA Grantor: PENA YORBY GONZALEZ Grantee: GONZALEZ GUADALUPE Grantee: MATA JUVENAL HERRERA Grantee: PENA YORBY GONZALEZ | Desc: RANCHO VERDE Sec: 12 Lot: 5 Block: 4",
+        "RP-2022-301834 | 06/09/2022 | W/D | Grantor: BREWER MICHAEL Grantee: GONZALEZ GUADALUPE LUJANO Grantee: LUJANO LAURA | Desc: TIDWELL LAKES Sec: 1 Lot: 14 Block: 2",
+        "RP-2022-294984 | 06/06/2022 | NOTICE | Grantor: GONZALEZ GUADALUPE E Grantor: GONZALEZ ORLANDO Grantor: MARTINEZ LUIS J Grantor: SALDIVAR KRISTAL K Grantee: GONZALEZ GUADALUPE E Grantee: GONZALEZ ORLANDO Grantee: MARTINEZ LUIS J Grantee: SALDIVAR KRISTAL K | Desc: STERLING GREEN SOUTH Sec: 1 Lot: 34 Block: 2",
+        "RP-2022-294981 | 06/06/2022 | W/D | Grantor: MARTINEZ LUIS J Grantor: SALDIVAR KRISTAL K Grantee: GONZALEZ GUADALUPE ELIZABETH Grantee: GONZALEZ ORLANDO | Desc: STERLING GREEN SOUTH Sec: 1 Lot: 34 Block: 2",
+        "RP-2022-181670 | 04/06/2022 | REL | Grantor: HOUSTON RESTORE PROS Grantor: LANDRY JOHN Grantee: GONZALEZ CESAR Grantee: GONZALEZ CESAR R Grantee: GONZALEZ GUADALUPE | Desc: CIELO VISTA Lot: 40 Block: 4 Related Docs",
+        "RP-2021-97824 | 02/26/2021 | REL | Grantor: MOORING RECOVERY SERVICES INC Grantee: GONZALEZ GUADALUPE Grantee: GONZALEZ ROBERTO | Desc: OBEE PARK SUBDIVISION Lot: 2 Block: 1",
+        "RP-2021-81833 | 02/15/2021 | REL | Grantor: AMCAP MORTGAGE LTD Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GONZALEZ BEATRICE Grantee: GONZALEZ GUADALUPE C | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-663678 | 11/18/2021 | REL | Grantor: BANK OF AMERICA N A Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GONZALEZ GUADALUPE R Grantee: GONZALEZ MIRYAM | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-481826 | 08/24/2021 | NOTICE | Grantor: COLEMAN ELAINE Grantor: GONZALEZ GUADALUPE Grantor: KITTLEY DIANA Grantor: KOMAREK MICHAEL Grantor: MARTINEZ BRANDON JAHIR Grantee: COLEMAN ELAINE Grantee: GONZALEZ GUADALUPE Grantee: KITTLEY DIANA Grantee: KOMAREK MICHAEL Grantee: MARTINEZ BRANDON JAHIR | Desc: HERITAGE PARK Sec: 11 Lot: 2 Block: 12",
+        "RP-2021-383408 | 07/08/2021 | REL | Grantor: AMERIQUEST MORTGAGE SECURITIES INC SERIES 2004-FR1 Grantor: DEUTSCHE BANK NATIONAL TRUST COMPANY TRE Grantor: PHH MORTGAGE CORPORATION Grantee: GONZALEZ GUADALUPE D | Comment: SEE INSTRUMENT",
+        "RP-2021-307850 | 06/03/2021 | W/D | Grantor: BFD & D PROPERTIES LLC Grantee: GONZALEZ ABIGAIL Grantee: GONZALEZ GUADALUPE | Desc: HARVEST BEND THE VILLAGE Sec: 1 Lot: 42 Block: 5",
+        "RP-2021-266338 | 05/14/2021 | REL | Grantor: CARRINGTON MORTGAGE SERVICES LLC Grantee: GONZALEZ GUADALUPE Grantee: GONZALEZ MARIA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-26600 | 01/19/2021 | L AFFT | Grantor: MOORING RECOVERY SERVICES INC Grantee: GONZALEZ GUADALUPE Grantee: GONZALEZ ROBERTO | Desc: OBEE PARK Lot: 2 Block: 1",
+        "RP-2021-190347 | 04/09/2021 | REL | Grantor: INTERLINC MORTGAGE SERVICES LLC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GONZALEZ DIANA Grantee: GONZALEZ GUADALUPE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-174460 | 04/01/2021 | W/D | Grantor: PAGEL ROBERT Grantor: PAGEL SARA Grantee: GONZALEZ GUADALUPE A Grantee: GONZALEZ HILDA ISELA | Desc: HAPPY HIDE-A-WAY Sec: 1 Lot: 44 Related Docs",
+        "RP-2020-561316 | 11/17/2020 | A/J | Grantor: INVESTMENT RETRIEVERS INC Grantee: GONZALEZ GUADALUPE Grantee: NUNES GUADLAUPE Grantee: RODRIGUEZ GONZALEZ | Comment: SEE INSTRUMENT",
+        "RP-2020-550718 | 11/11/2020 | W/D | Grantor: NUNES ROBERT M Grantee: ANDRADE ANGELINA Grantee: ANDRADE CRISPIN Grantee: ANDRADE ISRAEL Grantee: GONZALEZ GUADALUPE | Desc: BRAEBURN VALLEY WEST Sec: 2 Lot: 17 Block: 27",
+        "RP-2020-438616 | 09/17/2020 | NOTICE | Grantor: DE RODRIGUEZ ALEJANDRA G GARZA Grantor: GALVAN CARLOS Grantor: GONZALEZ GUADALUPE RODRIGUEZ Grantee: GALVAN CARLOS Grantee: GARZA ALEJANDRA G GARZA Grantee: GONZALEZ GUADALUPE RODRIGUEZ | Desc: PARK VIEW MANOR Lot: 6 Block: 4",
+        "RP-2020-438614 | 09/17/2020 | W/D | Grantor: GALVAN CARLOS Grantee: DE RODRIGUEZ ALEJANDRA G GARZA Grantee: GONZALEZ GUADALUPE RODRIGUEZ | Desc: PARK VIEW MANOR Lot: 6 Block: 4",
+        "RP-2020-308044 | 07/13/2020 | W/D | Grantor: LUNA MICHAEL Grantee: GONZALEZ GUADALUPE | Desc: FARRINGTON PLACE Sec: 3 Lot: 237 Block: 16",
+        "RP-2020-288800 | 07/01/2020 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: QUICKEN LOANS INC Grantee: GONZALEZ EULALIO Grantee: GONZALEZ GUADALUPE | Desc: CATALINA SQUARE Sec: 1 Lot: 31 Block: 3 Related Docs",
+        "RP-2020-218314 | 05/26/2020 | NOTICE | Grantor: FARRELL SEAN Grantor: FARRELL SEAN MICHAEL Grantor: GONZALEZ GUADALUPE G Grantor: MILNER CHRISTIE ELIZABETH Grantee: FARRELL SEAN Grantee: FARRELL SEAN MICHAEL Grantee: GONZALEZ GUADALUPE G Grantee: MILNER CHRISTIE ELIZABETH | Desc: PARKWEST Sec: 2 Block: 167",
+        "RP-2020-218313 | 05/26/2020 | W/D | Grantor: FARRELL SEAN Grantor: FARRELL SEAN MICHAEL Grantor: MILNER CHRISTIE ELIZABETH Grantee: GONZALEZ GUADALUPE G | Desc: PARKWEST Sec: 2 Block: 167"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GONZALEZ GUADALUPE')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GONZALEZ GUADALUPE')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "REL": 30,
+        "AFFT": 4,
+        "NOTICE": 9,
+        "DEED": 5,
+        "A/J": 4,
+        "W/D": 12,
+        "P/A": 1,
+        "D/T": 1,
+        "L AFFT": 2
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GONZALEZ GUADALUPE')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "68 instruments as grantee, 0 as grantor (index, name 'GONZALEZ GUADALUPE')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GONZALEZ GUADALUPE')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202535483",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "05/07/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-05-07: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202535483 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de GONZALEZ GUADALUPE (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 41432.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 21006.02,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 9873.74,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 21006.02,
+        "impuestos_que_hereda": 345.36,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 630.18,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 25981.56,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 27961.4,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.595,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $27,961 >= cierre esperado $21,006. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 27961.4,
+    "all_in_cost_estimate": 25981.56,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
   }
 }

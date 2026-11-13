@@ -284,5 +284,396 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=0836200000021",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.10201,
+        "lat": 29.79789
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0836200000021)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 7114,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0836200000021)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~60 x 120 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0836200000021)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-446312 | 11/05/2026 | W/D | Grantor: FROST INVESTMENTS INC Grantee: ESTRADA MARJORIE DIANA MANCIA Grantee: RODRIQUEZ RICARDO TERRAZAS | Desc: ROSEWOOD ESTATES Sec: 2 Lot: 380",
+        "RP-2026-4259 | 01/06/2026 | REL | Grantor: CORNERSTONE MORTGAGE COMPANY Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: RODRIQUEZ MARIA TERESA Grantee: RODRIQUEZ REYNALDO CARLOS | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-365967 | 09/08/2026 | W/D | Grantor: RAICES ALLENDE PROPERTIES LLC Grantee: RODRIQUEZ ELIZABETH ANN Grantee: RODRIQUEZ RUBEN JR | Desc: BIRDSALL PLACE Lot: 1-2 Block: 6",
+        "RP-2026-30161 | 01/28/2026 | REL | Grantor: CACH LLC Grantee: RODRIQUEZ RODOLFO | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-226638 | 06/09/2026 | W/D | Grantor: LONG LAKE LTD Grantee: RODRIQUEZ REYNALDO H REYES | Desc: TELGE RANCH NORTH Sec: 2 Lot: 4 Block: 2",
+        "RP-2026-162160 | 04/28/2026 | NOTICE | Grantor: RODRIQUEZ RICARDO RAMON Grantor: ROMERO RAUL AMED Grantor: VALENCIA-RODRIGUEZ BEATRICE Grantee: RODRIQUEZ RICARDO RAMON Grantee: ROMERO RAUL AMED Grantee: VALENCIA-RODRIGUEZ BEATRICE | Desc: CYPRESSDALE Sec: 1 Lot: 12 Block: 4",
+        "RP-2025-64473 | 02/24/2025 | NOTICE | Grantor: CHAVEZ KASSANDRA Grantor: MANRIQUE AMY ARACELY Grantor: MANRIQUE ERNESTO JR Grantor: RODRIQUEZ ROMAEL SANTILLAN Grantee: CHAVEZ KASSANDRA Grantee: MANRIQUE AMY ARACELY Grantee: MANRIQUE ERNESTO JR Grantee: RODRIQUEZ ROMAEL SANTILLAN | Desc: PALMETTO VILLAGE Sec: 1 Lot: 8 Block: 1",
+        "RP-2025-320590 | 08/14/2025 | REL | Grantor: ARCHER NOW LLC Grantor: CHAPARRAL Grantor: HAYS CLINT Grantor: WEST RIATA HOMEOWNERS ASSOCIATION INC Grantee: RODRIQUEZ RUBEN | Desc: RIATA WEST AMEND Lot: 2 Block: 6 Related Docs",
+        "RP-2024-449281 | 12/03/2024 | W/D | Grantor: LI QIAN Grantor: RODRIQUEZ RAMON Grantee: RODRIQUEZ MARIA Grantee: RODRIQUEZ RAMON | Desc: BELLAVITTA AT GREEN TEA Sec: 1 Lot: 25 Block: 6",
+        "RP-2024-255108 | 07/16/2024 | LIEN | Grantor: ARCHER NOW LLC Grantor: CHAPARRAL Grantor: HAYS CLINT Grantor: WEST RIATA HOMEOWNERS ASSOCIATION INC Grantee: RODRIQUEZ RUBEN | Desc: RIATA WEST AMEND Lot: 2 Block: 6 Related Docs",
+        "RP-2023-8518 | 01/09/2023 | A/J | Grantor: DNF ASSOCIATES LLC Grantee: RODRIQUEZ RAQUEL | Comment: SEE INSTRUMENT",
+        "RP-2023-364123 | 09/21/2023 | AFFT | Grantor: FLORES RIGOBERTO Grantor: RODRIGUEZ DOLORES Grantor: RODRIQUEZ DELORES Grantor: WILHITE NICHOLAS Grantee: RODRIGUEZ RUBEN V EST Grantee: RODRIQUEZ RUBEN EST | Desc: TOWER OAKS MEADOWS Sec: 4 Lot: 7 Block: 18",
+        "RP-2023-328434 | 08/28/2023 | W/D | Grantor: C D L M GP LLC Grantor: C D L M INVESTMENTS LTD Grantee: RODRIQUEZ ROGELIO | Desc: NORTHWEST GREEN Lot: 7 Block: 4",
+        "RP-2023-277996 | 07/25/2023 | NOTICE | Grantor: CONYERS GARY B Grantor: RODRIGUEZ ROLANDO JOSE ARAUJO Grantor: RODRIQUEZ ROLDNDO JOSE ARAUJO Grantee: CONYERS GARY B Grantee: RODRIGUEZ ROLANDO JOSE ARAUJO Grantee: RODRIQUEZ ROLDNDO JOSE ARAUJO | Desc: PADDOCK Sec: 1 Lot: 11 Block: 1",
+        "RP-2023-247513 | 07/03/2023 | REL | Grantor: FAY SERVICING LLC Grantee: RODRIQUEZ ARTURO JOSE JR Grantee: RODRIQUEZ ROSA EDNA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-216318 | 06/13/2023 | REL | Grantor: CHURCHILL MORTGAGE CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: RODRIQUEZ KATHRYN Grantee: RODRIQUEZ RICHARD JR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-197296 | 05/31/2023 | FI STM | Grantor: SOLAR MOSAIC INC Grantee: RODRIQUEZ RUDY CALA | Desc: KATY OAKS Sec: 2 Lot: 11 Block: 1 Related Docs",
+        "RP-2023-165103 | 05/08/2023 | REL | Grantor: WELLS FARGO BANK N A Grantee: RODRIQUEZ MARIA EUGENIA Grantee: RODRIQUEZ RITO GONZALEZ | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-367121 | 07/18/2022 | REL | Grantor: BANK OF AMERICA N A Grantor: FIRST AMERICAN MORTGAGE SOLUTIONS LLC Grantee: RODRIQUEZ CHERYL D Grantee: RODRIQUEZ ROY D III | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-349449 | 07/06/2022 | W/D | Grantor: MOLINA JULIAN Grantor: MOLINA KARLA Grantee: RODRIGUEZ GEORGINA Grantee: RODRIQUEZ ROLAND | Desc: GLOVERDALE Lot: 135 Block: 5",
+        "RP-2022-303906 | 06/10/2022 | A/J | Grantor: CITY OF HOUSTON Grantor: PASADENA INDEPENDENT SCHOOL DISTRICT Grantee: ALVAREZ SANDRA Grantee: RODRIQUEZ RICARDO | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-220828 | 04/27/2022 | NOTICE | Grantor: OPENDOOR PROPERTY TRUST I Grantor: RODRIQUEZ RYAN Grantee: OPENDOOR PROPERTY TRUST I Grantee: RODRIQUEZ RYAN | Desc: RIVERSTONE RANCH Sec: 5 Lot: 19 Block: 3",
+        "RP-2021-86239 | 02/22/2021 | DEED | Grantor: ANDERSON GARRY Grantor: ANDERSON JERRY Grantee: RODRIQUEZ ROSEANNE | Desc: GREENSPOINT LANDING Unit: 58",
+        "RP-2021-348553 | 06/22/2021 | REL | Grantor: FREEDOM MORTGAGE CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GARCIA FELICIA ULLOA Grantee: RODRIQUEZ RAMON MOLINA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-217964 | 04/22/2021 | NOTICE | Grantor: CAMPOS MILAGRO R Grantor: JIMENEZ MARIO ANDRES Grantor: JIMENEZ MIKE ALONSO Grantor: RODRIGUEZ GILBERTO A Grantor: RODRIQUEZ ROSA MIRANDA Grantee: CAMPOS MILAGRO R Grantee: JIMENEZ MARIO ANDRES Grantee: JIMENEZ MIKE ALONSO Grantee: RODRIGUEZ GILBERTO A Grantee: RODRIQUEZ ROSA MIRANDA | Desc: FOREST CREEK FARMS Lot: 92 Block: 3",
+        "RP-2020-540980 | 11/05/2020 | LIEN | Grantor: ATTORNEY GENERAL OF TEXAS Grantor: ZELAYA FANNY Grantee: RODRIQUEZ ROBERTO ENRIQUE | Comment: SEE INSTRUMENT",
+        "RP-2020-52533 | 02/04/2020 | W/D | Grantor: PHAN TUNG NHAT Grantee: RODRIQUEZ RAFAEL CASTRO Grantee: VEGA IMILSIS REYES | Desc: SHARPSTOWN COUNTRY CLUB TERRACE Sec: 3 Lot: 23-24 Block: 70",
+        "RP-2020-513776 | 10/23/2020 | W/D | Grantor: KING LEONA DANNETTE Grantee: RODRIQUEZ RAFAELA MACHUCA | Desc: TRINITY GARDENS Sec: 3 Lot: 1034 Block: 11",
+        "RP-2020-350097 | 08/04/2020 | W/D | Grantor: LEIVA LIZABETH DEL MAR MATOS Grantee: RODRIQUEZ ROLANDO JOE ARAUJO | Desc: PADDOCK Sec: 1 Lot: 11 Block: 1",
+        "RP-2019-524331 | 11/26/2019 | LIEN | Grantor: ATTORNEY GENERAL OF TEXAS Grantor: JIMINEZ MUNDIE Grantee: RODRIQUEZ RAYMOND ANTHONY | Comment: SEE INSTRUMENT",
+        "RP-2019-509586 | 11/18/2019 | A/J | Grantor: DISCOVER BANK Grantee: RODRIQUEZ ROSA E | Comment: SEE INSTRUMENT",
+        "RP-2019-463076 | 10/18/2019 | DEED | Grantor: RODRIQUEZ NORMA Grantee: RODRIQUEZ ROBERT | Desc: BAYWOOD OAKS Sec: 4 Lot: 21 Block: 1",
+        "RP-2019-333116 | 08/01/2019 | W/D | Grantor: DUFFY SARAH L Grantor: DUFFY THOMAS E Grantee: IZZO CARMEN Grantee: RODRIQUEZ ROBERT | Desc: KATYLAND Sec: 2 Lot: 36 Block: C",
+        "RP-2019-249259 | 06/12/2019 | NOTICE | Grantor: RODRIQUEZ CASIE Grantor: RODRIQUEZ RYAN Grantor: TEEPE LAURA L Grantor: TEEPE RICHARD W Grantee: RODRIQUEZ CASIE Grantee: RODRIQUEZ RYAN Grantee: TEEPE LAURA L Grantee: TEEPE RICHARD W | Desc: GLEN MEADOWS Sec: 4A Lot: 23 Block: 22 Related Docs",
+        "RP-2019-249257 | 06/12/2019 | W/D | Grantor: TEEPE LAURA L Grantor: TEEPE RICHARD W Grantee: RODRIQUEZ CASIE Grantee: RODRIQUEZ RYAN | Desc: GLEN MEADOWS Sec: 4A Lot: 23 Block: 22",
+        "RP-2019-174068 | 04/29/2019 | REL | Grantor: COMPASS BANK Grantee: AYALA ALEJANDRO GARZA Grantee: RODRIQUEZ ROSALINA RAMOS | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-173884 | 04/29/2019 | NOTICE | Grantor: BIENVENU ANNE L Grantor: BIENVENU KEVIN E Grantor: RODRIQUEZ RICARDO Grantee: BIENVENU ANNE L Grantee: BIENVENU KEVIN E Grantee: RODRIQUEZ RICARDO | Desc: COPPERFIELD NORTHMEAD VILLAGE Sec: 3 Lot: 29 Block: 52",
+        "RP-2019-173883 | 04/29/2019 | NOTICE | Grantor: BIENVENU ANNE L Grantor: BIENVENU KEVIN E Grantor: RODRIQUEZ RICARDO Grantee: BIENVENU ANNE L Grantee: BIENVENU KEVIN E Grantee: RODRIQUEZ RICARDO | Desc: COPPERFIELD NORTHMEAD VILLAGE Sec: 3 Lot: 29 Block: 52",
+        "RP-2018-36713 | 01/29/2018 | NOTICE | Grantor: FOWLER JOELEY Grantor: REED RUSSELL DANIEL JR Grantor: RODRIQUEZ BRENDA Grantor: RODRIQUEZ ROBERTO Grantee: FOWLER JOELEY Grantee: REED RUSSELL DANIEL JR Grantee: RODRIQUEZ BRENDA Grantee: RODRIQUEZ ROBERTO | Desc: PEQUENO VILLAGE Lot: 10",
+        "RP-2018-349242 | 08/01/2018 | P/A | Grantor: FLORES VIRGINIA Grantee: RODRIQUEZ GUADALUPE GODOY Grantee: RODRIQUEZ RONY CESAR | Comment: SEE INSTRUMENT",
+        "RP-2018-33240 | 01/25/2018 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: RODRIQUEZ ROSALINDA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-223017 | 05/21/2018 | W/D | Grantor: DEANDA DEAN MARTIN Grantee: RODRIQUEZ RIGOBERTO | Desc: PRAIRIE VILLAGE Sec: 2 Lot: 17 Block: 17",
+        "RP-2018-202806 | 05/09/2018 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: RODRIGUEZ PATRICIA Grantee: RODRIGUEZ ROSENDO Grantee: RODRIQUEZ PATRICIA Grantee: RODRIQUEZ ROSENDO | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-455229 | 10/17/2017 | REL | Grantor: LAYTON ERNEST G SR Grantee: PENA JAIME Grantee: RODRIQUEZ REBECA | Desc: HILLEBRENNER SUBDIVISION Lot: 45 Block: 2 Related Docs",
+        "RP-2017-417855 | 09/22/2017 | REL | Grantor: TEXAS TAX SOLUTION II LLC Grantee: RODRIQUEZ AMPARO Grantee: RODRIQUEZ RODOLFO B | Desc: STERLING GREEN Sec: 2 Lot: 12 Block: 4 Related Docs",
+        "RP-2017-41658 | 01/30/2017 | REL | Grantor: BANK OF AMERICA N A Grantee: RODRIGUEZ ROSALVA Grantee: RODRIQUEZ GUADALUPE Grantee: RODRIQUEZ ROSALVA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-280506 | 06/23/2017 | REL | Grantor: WELLS FARGO BANK N A Grantee: RODRIQUEZ RYAN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-201993 | 05/09/2017 | REL | Grantor: AMEGY BANK Grantor: ZB N A Grantee: RODRIQUEZ REGINA R Grantee: ROSALES REGINA | Desc: DENVER ADDITION Lot: 16 Block: 4",
+        "RP-2017-129843 | 03/28/2017 | W/D | Grantor: RODRIQUEZ CHERYL D Grantor: RODRIQUEZ ROY G III Grantee: RODRIQUEZ CHERYL D TRE Grantee: RODRIQUEZ MANAGEMENT TRUST Grantee: RODRIQUEZ ROY G III TRE | Desc: CONCORD BRIDGE Sec: 5 Lot: 21 Block: 6",
+        "RP-2016-99762 | 03/10/2016 | CORREC | Grantor: RODRIGUEZ ROY G IV Grantor: RODRIQUEZ DENIA VELAZQUEZ Grantor: RODRIQUEZ ROY G IV Grantor: VELAZQUEZ DENIA B Grantee: RODRIQUEZ DENIA VELAZQUEZ Grantee: RODRIQUEZ ROY G IV | Desc: PARK CREEK Sec: 3 Lot: 16 Block: 1",
+        "RP-2016-574027 | 12/22/2016 | RESCND | Grantor: OCWEN LOAN SERVICING INC Grantor: REDER THOMAS E Grantor: SECURITIES CORPORATION HOME EQUITY LOAN TRUST SERIES NC 2006-HE2 Grantor: U S BANK NATIONAL ASSOCIATION TRE Grantee: GARCIA MICHELLE L Grantee: RODRIQUEZ RUDOLFO ROY | Desc: NORTHGLEN Sec: 1 Lot: 5 Block: 8",
+        "RP-2016-138703 | 04/04/2016 | W/D | Grantor: VTTASAYA INVESTMENTS LLC Grantee: RODRIGUEZ DEISSY GARCIA Grantee: RODRIQUEZ ROSARIO DANIEL | Desc: TARRYTOWN Sec: 3 Lot: 52",
+        "RP-2016-138702 | 04/04/2016 | NOTICE | Grantor: RODRIGUEZ DEISSY GARCIA Grantor: RODRIQUEZ ROSARIO DANIEL Grantor: VITASAYA INVESTMENTS LLC Grantee: RODRIGUEZ DEISSY GARCIA Grantee: RODRIQUEZ ROSARIO DANIEL Grantee: VITASAYA INVESTMENTS LLC | Desc: TARRYTOWN Sec: 3 Lot: 52"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RODRIQUEZ R')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-446313 | 11/05/2026 | D/T | Grantor: ESTRADA MARJORIE DIANA MANCIA Grantor: RODRIQUEZ RICARDO TERRAZAS Grantee: FROST INVESTMENTS INC Trustee: SHADDOCK WILLIAM C | Desc: ROSEWOOD ESTATES Sec: 2 Lot: 380",
+        "RP-2026-162160 | 04/28/2026 | NOTICE | Grantor: RODRIQUEZ RICARDO RAMON Grantor: ROMERO RAUL AMED Grantor: VALENCIA-RODRIGUEZ BEATRICE Grantee: RODRIQUEZ RICARDO RAMON Grantee: ROMERO RAUL AMED Grantee: VALENCIA-RODRIGUEZ BEATRICE | Desc: CYPRESSDALE Sec: 1 Lot: 12 Block: 4",
+        "RP-2026-162158 | 04/28/2026 | W/D | Grantor: RODRIQUEZ RICARDO RAMON Grantor: VALENCIA BEATRICE Grantor: VALENCIA-RODRIGUEZ BEATRICE Grantee: ROMERO BETZABE HERNANDEZ Grantee: ROMERO RAUL AMED | Desc: CYPRESSDALE Sec: 1 Lot: 12 Block: 4",
+        "RP-2025-64473 | 02/24/2025 | NOTICE | Grantor: CHAVEZ KASSANDRA Grantor: MANRIQUE AMY ARACELY Grantor: MANRIQUE ERNESTO JR Grantor: RODRIQUEZ ROMAEL SANTILLAN Grantee: CHAVEZ KASSANDRA Grantee: MANRIQUE AMY ARACELY Grantee: MANRIQUE ERNESTO JR Grantee: RODRIQUEZ ROMAEL SANTILLAN | Desc: PALMETTO VILLAGE Sec: 1 Lot: 8 Block: 1",
+        "RP-2025-64472 | 02/24/2025 | D/T | Grantor: CHAVEZ KASSANDRA Grantor: RODRIQUEZ ROMAEL SANTILLAN Grantee: EQUITY PRIME MORTGAGE LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: PALMETTO VILLAGE Sec: 1 Lot: 8 Block: 1",
+        "RP-2024-449281 | 12/03/2024 | W/D | Grantor: LI QIAN Grantor: RODRIQUEZ RAMON Grantee: RODRIQUEZ MARIA Grantee: RODRIQUEZ RAMON | Desc: BELLAVITTA AT GREEN TEA Sec: 1 Lot: 25 Block: 6",
+        "RP-2024-340590 | 09/16/2024 | AFFT | Grantor: LOWERY MARY Grantor: RODRIQUEZ ROBERT Grantor: RODRIQUEZ VICTORIA Grantee: AVILA EMILY EST Grantee: AVILA MIKE EST Grantee: AVILA REGINA EST | Comment: SEE INSTRUMENT",
+        "RP-2024-340589 | 09/16/2024 | AFFT | Grantor: LOWERY MARY Grantor: RODRIGUEZ ROBERT Grantor: RODRIGUEZ VICTORIA Grantor: RODRIQUEZ ROBERT Grantor: RODRIQUEZ VICTORIA Grantee: BUSS BRUCE EST Grantee: BUSS BRUCE WILLIAM JR EST Grantee: BUSS CAROLYN EST | Comment: SEE INSTRUMENT",
+        "RP-2024-297929 | 08/15/2024 | D/T | Grantor: RODRIQUEZ ERIC B Grantor: RODRIQUEZ ROSALI R Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: STITT M KEITH | Desc: SAGEMONT Sec: 9 Lot: 21 Block: 47",
+        "RP-2023-45864 | 02/10/2023 | MODIF | Grantor: RODRIQUEZ CASIE Grantor: RODRIQUEZ RYAN Grantee: LAKEVIEW LOAN SERVICING Grantee: LOANCARE LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC | Desc: GLEN MEADOWS Sec: 4A Lot: 23 Block: 22 Related Docs",
+        "RP-2023-453255 | 12/01/2023 | D/T | Grantor: RODRIQUEZ ERIC B Grantor: RODRIQUEZ ROSALI R Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: STITT M KEITH | Desc: SAGEMONT Sec: 9 Lot: 21 Block: 47",
+        "RP-2023-423090 | 11/03/2023 | D/T | Grantor: CARO JOAQUIN Grantor: RODRIQUEZ RAQUEL Grantee: WELLS FARGO BANK N A Trustee: POLASEK AARON | Desc: COUNTRY TERRACE Sec: 2 Lot: 25 Related Docs",
+        "RP-2023-28588 | 01/27/2023 | D/T | Grantor: CARO JOAQUIN Grantor: RODRIQUEZ RAQUEL Grantor: VENTURA JOAQUIN ALBERTO CARO Grantee: WELLS FARGO BANK N A Trustee: FOWLER ROBERT K | Desc: COUNTRY TERRACE Sec: 2 Lot: 25 Related Docs",
+        "RP-2023-277996 | 07/25/2023 | NOTICE | Grantor: CONYERS GARY B Grantor: RODRIGUEZ ROLANDO JOSE ARAUJO Grantor: RODRIQUEZ ROLDNDO JOSE ARAUJO Grantee: CONYERS GARY B Grantee: RODRIGUEZ ROLANDO JOSE ARAUJO Grantee: RODRIQUEZ ROLDNDO JOSE ARAUJO | Desc: PADDOCK Sec: 1 Lot: 11 Block: 1",
+        "RP-2023-277994 | 07/25/2023 | W/D | Grantor: RODRIGUEZ ROLANDO JOSE ARAUJO Grantor: RODRIQUEZ ROLANDO JOSE ARAUJO Grantee: CONYERS GARY B | Desc: PADDOCK Sec: 1 Lot: 11 Block: 1",
+        "RP-2022-349450 | 07/06/2022 | D/T | Grantor: RODRIGUEZ GEORGINA Grantor: RODRIQUEZ ROLAND Grantee: REGIONS BANK Grantee: REGIONS MORTGAGE Trustee: CONNELL EARL | Desc: GLOVERDALE Lot: 135 Block: 5",
+        "RP-2022-220828 | 04/27/2022 | NOTICE | Grantor: OPENDOOR PROPERTY TRUST I Grantor: RODRIQUEZ RYAN Grantee: OPENDOOR PROPERTY TRUST I Grantee: RODRIQUEZ RYAN | Desc: RIVERSTONE RANCH Sec: 5 Lot: 19 Block: 3",
+        "RP-2022-122437 | 03/08/2022 | W/D | Grantor: RODRIQUEZ PATRICIA Grantor: RODRIQUEZ ROSENDO Grantee: VINING DERRICK A Grantee: VINING VEATRICE | Desc: ATASCA WOODS Sec: 5 Lot: 46 Block: 1",
+        "RP-2022-101829 | 02/25/2022 | D/T | Grantor: RODRIQUEZ RAY Grantee: TEXAS DEPARTMENT HOUSING AND COMMUNITY AFFAIRS Trustee: WILKINSON ROBERT | Desc: TERRY PLACE VILLAS Lot: 3 Block: 1 Related Docs",
+        "RP-2021-715230 | 12/15/2021 | D/T | Grantor: FLORES JANICE Grantor: RODRIQUEZ RICARDO JR Grantee: TEXAS DEPARTMENT OF HOUSING AND COMMUNITY AFFAIRS Trustee: WILKINSON ROBERT | Desc: CLEAR LAKE CITY Sec: I Lot: 6 Block: 14 Related Docs",
+        "RP-2021-643031 | 11/08/2021 | MODIF | Grantor: RODRIQUEZ CASIE Grantor: RODRIQUEZ RYAN Grantee: LAKEVIEW LOAN SERVICING Grantee: LOANCARE LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC | Desc: GLEN MEADOWS Sec: 4A Lot: 23 Block: 22 Related Docs",
+        "RP-2021-609918 | 10/22/2021 | D/T | Grantor: RODRIQUEZ CASIE Grantor: RODRIQUEZ RYAN Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: PORTERFIELD CYNTHIA | Desc: GLEN MEADOWS Sec: 4A Lot: 23 Block: 22",
+        "RP-2021-496985 | 08/31/2021 | D/T | Grantor: RODRIGUEZ PABLO JR Grantor: RODRIQUEZ REBECCA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: QUICKEN LOANS LLC Grantee: ROCKET MORTGAGE LLC Trustee: KENDALL GERRI L | Desc: CLEAR LAKE FOREST Sec: 4 Lot: 2 Block: 20 Related Docs",
+        "RP-2021-493049 | 08/30/2021 | D/T | Grantor: MARTINEZ FIDEL Grantor: MARTINEZ LIDIA Grantor: RODRIGUEZ ROBERTO JR Grantor: RODRIQUEZ ROBERTO Grantee: TEXAS DEPARTMENT OF HOUSING AND COMMUNITY AFFAIRS Trustee: WILKINSON ROBERT | Desc: WESTLAKE PLACE Sec: 2 Lot: 18 Block: 4",
+        "RP-2021-384773 | 07/08/2021 | D/T | Grantor: FLORES-VILLANSENOR CINTHIA Grantor: RODRIQUEZ ROGELIO VALDEZ JR Grantee: TEXAS DEPARTMENT OF HOUSING AND COMMUNITY AFFAIRS Trustee: WILKINSON ROBERT | Desc: SUGAR VALLEY Lot: 21 Block: 14",
+        "RP-2021-257785 | 05/11/2021 | D/T | Grantor: RODRIQUEZ ERIC B Grantor: RODRIQUEZ ROSALI R Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: STITT M KEITH | Desc: SAGEMONT Sec: 9 Lot: 21 Block: 47",
+        "RP-2021-217964 | 04/22/2021 | NOTICE | Grantor: CAMPOS MILAGRO R Grantor: JIMENEZ MARIO ANDRES Grantor: JIMENEZ MIKE ALONSO Grantor: RODRIGUEZ GILBERTO A Grantor: RODRIQUEZ ROSA MIRANDA Grantee: CAMPOS MILAGRO R Grantee: JIMENEZ MARIO ANDRES Grantee: JIMENEZ MIKE ALONSO Grantee: RODRIGUEZ GILBERTO A Grantee: RODRIQUEZ ROSA MIRANDA | Desc: FOREST CREEK FARMS Lot: 92 Block: 3",
+        "RP-2020-95674 | 03/03/2020 | AFFT | Grantor: RODRIGUEZ TRINIDAD MORENO EST Grantor: RODRIQUEZ RODOLFO Grantee: SEE INSTRUMENT | Desc: APPLETON PLACE Lot: 3 Block: 1 Related Docs",
+        "RP-2020-95673 | 03/03/2020 | AFFT | Grantor: RODRIGUEZ MARIO EST Grantor: RODRIQUEZ RODOLFO Grantee: SEE INSTRUMENT | Desc: APPLETON PLACE Lot: 3 Block: 1 Related Docs",
+        "RP-2020-56285 | 02/06/2020 | ASSGN | Grantor: CHANNELVIEW ISD Grantor: RODRIQUEZ RODOLFO Grantee: TEXAS TAX SOLUTION LLC | Desc: STERLING GREEN Sec: 2 Lot: 12 Block: 4",
+        "RP-2020-431266 | 09/14/2020 | D/T | Grantor: RODRIQUEZ KATHRYN Grantor: RODRIQUEZ RICHARD JR Grantee: CHURCHILL MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: CLARKE MATTHEW C | Desc: VILLAGES OF SENTERRA LAKES Sec: 4 Lot: 9 Block: 1 Related Docs",
+        "RP-2020-387699 | 08/21/2020 | W/D | Grantor: LEO DOLORES R Grantor: RICHARTE FELICITAS R Grantor: RICHARTE RAQUEL Grantor: RODRIQUEZ RICHARTE ROSENDO Grantor: RODRIQUEZ RICHARTE VICENTE Grantee: LOPEZ MARIA ELENA Grantee: LOPEZ RAFAEL | Desc: EL DORADO Lot: 16 Block: 10",
+        "RP-2020-350098 | 08/04/2020 | D/T | Grantor: RODRIQUEZ ROLANDO JOSE ARAUJO Grantee: LEIVA LIZBETH DEL MAR MATOS Trustee: TAYLOR ELIZABETH | Desc: PADDOCK Sec: 1 Lot: 11 Block: 1",
+        "RP-2020-127090 | 03/19/2020 | ASSGN | Grantor: HARRIS COUNTY MUD #53 Grantor: RODRIQUEZ RODOLFO Grantee: TEXAS TAX SOLUTION LLC | Desc: STERLING GREN Sec: 2 Lot: 12 Block: 4",
+        "RP-2020-122444 | 03/17/2020 | ASSGN | Grantor: EMERGENCY SERV DIST #50-E.M.S./FIRE Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: PORT OF HOUSTON AUTHORITY Grantor: RODRIQUEZ RODOLFO Grantor: SAN JACINTO COLLEGE DISTRICT Grantee: TEXAS TAX SOLUTION II LLC | Desc: STERLING GREEN Sec: 2 Lot: 12 Block: 4",
+        "RP-2019-498988 | 11/11/2019 | W/D | Grantor: ATKINS TAMI Grantor: GOLF TERRACE PROPERTY OWNERS ASSOCIATION INC Grantor: KLEMCKE EARL Grantor: PAIGE BRIDGET Grantor: RAMPART PROPERTIES LLC Grantor: RODRIQUEZ DIANA Grantor: RODRIQUEZ ROMAN Grantor: YOUNG LYN Grantee: RAMPART HOLDING LLC | Desc: NEWPORT COUNTRY CLUB ESTATES Sec: 1 Reserve: A",
+        "RP-2019-333117 | 08/01/2019 | D/T | Grantor: IZZO CARMEN Grantor: RODRIQUEZ ROBERT Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: NETWORK FUNDING LP Trustee: GARNER RUTH W | Desc: KATYLAND Sec: 2 Lot: 36 Block: C",
+        "RP-2019-249259 | 06/12/2019 | NOTICE | Grantor: RODRIQUEZ CASIE Grantor: RODRIQUEZ RYAN Grantor: TEEPE LAURA L Grantor: TEEPE RICHARD W Grantee: RODRIQUEZ CASIE Grantee: RODRIQUEZ RYAN Grantee: TEEPE LAURA L Grantee: TEEPE RICHARD W | Desc: GLEN MEADOWS Sec: 4A Lot: 23 Block: 22 Related Docs",
+        "RP-2019-249258 | 06/12/2019 | D/T | Grantor: RODRIQUEZ CASIE Grantor: RODRIQUEZ RYAN Grantee: FAIRWAY INDEPENDENT MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: PORTERFIELD CYNTHIA | Desc: GLEN MEADOWS Sec: 4A Lot: 23 Block: 22 Related Docs",
+        "RP-2019-173884 | 04/29/2019 | NOTICE | Grantor: BIENVENU ANNE L Grantor: BIENVENU KEVIN E Grantor: RODRIQUEZ RICARDO Grantee: BIENVENU ANNE L Grantee: BIENVENU KEVIN E Grantee: RODRIQUEZ RICARDO | Desc: COPPERFIELD NORTHMEAD VILLAGE Sec: 3 Lot: 29 Block: 52",
+        "RP-2019-173883 | 04/29/2019 | NOTICE | Grantor: BIENVENU ANNE L Grantor: BIENVENU KEVIN E Grantor: RODRIQUEZ RICARDO Grantee: BIENVENU ANNE L Grantee: BIENVENU KEVIN E Grantee: RODRIQUEZ RICARDO | Desc: COPPERFIELD NORTHMEAD VILLAGE Sec: 3 Lot: 29 Block: 52",
+        "RP-2019-151721 | 04/16/2019 | ASSGN | Grantor: EMERGENCY SERV DIST #50-E M S/FIRE Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: PORT OF HOUSTON AUTHORITY Grantor: RODRIQUEZ RODOLFO Grantor: SAN JACINTO COLLEGE DISTRICT Grantee: TEXAS TAX SOLUTION II LLC | Desc: STERLING GREEN Sec: 2 Lot: 12 Block: 4",
+        "RP-2019-119089 | 03/26/2019 | ASSGN | Grantor: HARRIS COUNTY MUD #53 Grantor: RODRIQUEZ RODOLFO Grantee: TEXAS TAX SOLUTION LLC | Desc: STERLING GREEN Sec: 2 Lot: 12 Block: 4",
+        "RP-2019-115608 | 03/25/2019 | ASSGN | Grantor: CHANNELVIEW ISD Grantor: RODRIQUEZ RODOLFO Grantee: TEXAS TAX SOLUTION LLC | Desc: STERLING GREEN Sec: 2 Lot: 12 Block: 4",
+        "RP-2018-81691 | 02/27/2018 | ASSGN | Grantor: CHANNELVIEW ISD Grantor: RODRIQUEZ AMPARO Grantor: RODRIQUEZ RODOLFO Grantee: TEXAS TAX SOLUTION II LLC | Desc: STERLING GREEN Sec: 2 Lot: 12 Block: 4",
+        "RP-2018-81689 | 02/27/2018 | D/T | Grantor: RODRIQUEZ AMPARO Grantor: RODRIQUEZ RODOLFO Grantee: TEXAS TAX SOLUTION II LLC Trustee: STENHOLM CHRIS W | Desc: STERLING GREEN Sec: 2 Lot: 12 Block: 4",
+        "RP-2018-36713 | 01/29/2018 | NOTICE | Grantor: FOWLER JOELEY Grantor: REED RUSSELL DANIEL JR Grantor: RODRIQUEZ BRENDA Grantor: RODRIQUEZ ROBERTO Grantee: FOWLER JOELEY Grantee: REED RUSSELL DANIEL JR Grantee: RODRIQUEZ BRENDA Grantee: RODRIQUEZ ROBERTO | Desc: PEQUENO VILLAGE Lot: 10",
+        "RP-2018-121138 | 03/23/2018 | W/D | Grantor: RODRIQUEZ MARCELINO Grantor: RODRIQUEZ ROSA Grantee: C & K PROPERTY LLC | Desc: BELLAIRE WEST Sec: 1 Lot: 13 Block: 1",
+        "RP-2018-102577 | 03/12/2018 | ASSGN | Grantor: EMERGENCY SERV DIST #50-E M S /FIRE Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: PORT OF HOUSTON AUTHORITY Grantor: RODRIQUEZ RODOLFO Grantor: SAN JACINTO COLLEGE DISTRICT Grantee: TEXAS TAX SOLUTION II LLC | Desc: STERLING GREEN Sec: 2 Lot: 12 Block: 4",
+        "RP-2017-259706 | 06/12/2017 | W/D | Grantor: RODRIQUEZ CASIE Grantor: RODRIQUEZ RYAN Grantee: CORNELISON ANNA Grantee: CORNELISON CHRISTOPHER RYAN | Desc: NEWPORT Sec: 2 Lot: 12 Block: 14",
+        "RP-2017-129843 | 03/28/2017 | W/D | Grantor: RODRIQUEZ CHERYL D Grantor: RODRIQUEZ ROY G III Grantee: RODRIQUEZ CHERYL D TRE Grantee: RODRIQUEZ MANAGEMENT TRUST Grantee: RODRIQUEZ ROY G III TRE | Desc: CONCORD BRIDGE Sec: 5 Lot: 21 Block: 6",
+        "RP-2016-99763 | 03/10/2016 | D/T | Grantor: RODRIQUEZ DENIA VELAZQUEZ Grantor: RODRIQUEZ ROY G IV Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: PROVIDENT FUNDING ASSOCIATES L P Trustee: GRAHAM GREGORY S | Desc: PARK CREEK Sec: 3 Lot: 16 Block: 1",
+        "RP-2016-99762 | 03/10/2016 | CORREC | Grantor: RODRIGUEZ ROY G IV Grantor: RODRIQUEZ DENIA VELAZQUEZ Grantor: RODRIQUEZ ROY G IV Grantor: VELAZQUEZ DENIA B Grantee: RODRIQUEZ DENIA VELAZQUEZ Grantee: RODRIQUEZ ROY G IV | Desc: PARK CREEK Sec: 3 Lot: 16 Block: 1",
+        "RP-2016-422255 | 09/20/2016 | D/T | Grantor: GARCIA FELICIA ULLOA Grantor: RODRIQUEZ RAMON MOLINA Grantee: FREEDOM MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK MANN AND GRAHAM LLP | Desc: KIRKWOOD COUNTRY Sec: 1 Lot: 134-135 Block: 1 Related Docs",
+        "RP-2016-138702 | 04/04/2016 | NOTICE | Grantor: RODRIGUEZ DEISSY GARCIA Grantor: RODRIQUEZ ROSARIO DANIEL Grantor: VITASAYA INVESTMENTS LLC Grantee: RODRIGUEZ DEISSY GARCIA Grantee: RODRIQUEZ ROSARIO DANIEL Grantee: VITASAYA INVESTMENTS LLC | Desc: TARRYTOWN Sec: 3 Lot: 52",
+        "RP-2016-128414 | 03/29/2016 | T/L | Grantor: RODRIQUEZ ROGELIO Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RODRIQUEZ R')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "W/D": 23,
+        "REL": 16,
+        "NOTICE": 20,
+        "LIEN": 3,
+        "A/J": 3,
+        "AFFT": 5,
+        "FI STM": 1,
+        "DEED": 2,
+        "P/A": 1,
+        "CORREC": 2,
+        "RESCND": 1,
+        "D/T": 21,
+        "MODIF": 2,
+        "ASSGN": 8,
+        "T/L": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RODRIQUEZ R')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "53 instruments as grantee, 56 as grantor (index, name 'RODRIQUEZ R')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RODRIQUEZ R')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202533314",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "04/28/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-04-28: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202533314 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de RODRIQUEZ R F (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 43158.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 21881.11,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 12903.95,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 21881.11,
+        "impuestos_que_hereda": 299.78,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 656.43,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 26837.32,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 29346.23,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.608,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Techo teorico $29,346 >= cierre esperado $21,881. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 29346.23,
+    "all_in_cost_estimate": 26837.32,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
   }
 }

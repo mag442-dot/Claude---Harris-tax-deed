@@ -220,5 +220,297 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=0913790000007",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.335677,
+        "lat": 29.642075
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0913790000007)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 6667,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0913790000007)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~81 x 83 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0913790000007)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "AE + otras",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (0.2 PCT ANNUAL CHANCE FLOOD HAZARD)": 77.2,
+        "AE": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 100.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2024-228079 | 06/24/2024 | LIEN | Grantor: CITY OF HOUSTON Grantee: AIRE T3 GROUP LLC | Desc: CRESTMONT PARK Sec: 1 Lot: 7 Block: 6",
+        "RP-2024-159541 | 05/02/2024 | REL | Grantor: SANTEX BUILDING COMPANY LLC Grantor: SANTOS TARA L Grantee: AIRE T3 GROUP LLC | Desc: SUNNYSIDE COURTS ADDITION Lot: 18 Block: 1 Related Docs",
+        "RP-2023-284078 | 07/28/2023 | LIEN | Grantor: CITY OF HOUSTON Grantee: AIRE T3 GROUP LLC | Desc: CRESTMONT PARK Sec: 1 Lot: 8 Block: 6",
+        "RP-2023-284076 | 07/28/2023 | LIEN | Grantor: CITY OF HOUSTON Grantee: AIRE T3 GROUP LLC | Desc: CRESTMONT PARK Sec: 1 Lot: 7 Block: 6",
+        "RP-2022-416577 | 08/15/2022 | L AFFT | Grantor: SANTEX BUILDING COMPANY LLC Grantee: AIRE T3 GROUP LLC | Desc: SUNNYSIDE PLACE Lot: 22-23 Block: Q",
+        "RP-2022-416576 | 08/15/2022 | L AFFT | Grantor: SANTEX BUILDING COMPANY LLC Grantee: AIRE T3 GROUP LLC | Desc: CRESTMONT PARK Sec: 1 Lot: 7 Block: 6",
+        "RP-2022-416575 | 08/15/2022 | L AFFT | Grantor: SANTEX BUILDING COMPANY LLC Grantee: AIRE T3 GROUP LLC | Desc: FOSTER PLACE Lot: 6 Block: 57",
+        "RP-2022-416574 | 08/15/2022 | L AFFT | Grantor: SANTEX BUILDING COMPANY LLC Grantee: AIRE T3 GROUP LLC | Desc: SOUTH END SUNNYSIDE Lot: 24 Block: 20",
+        "RP-2022-416572 | 08/15/2022 | L AFFT | Grantor: SANTEX BUILDING COMPANY LLC Grantee: AIRE T3 GROUP LLC | Desc: SUNNYSIDE COURTS Lot: 18 Block: 1 Related Docs",
+        "RP-2022-416571 | 08/15/2022 | L AFFT | Grantor: SANTEX BUILDING COMPANY LLC Grantee: AIRE T3 GROUP LLC | Desc: GEORGE KULHMAN Lot: N Block: 7"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'AIRE T3')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-108926 | 03/24/2026 | DEED | Grantor: AIRE T3 GROUP Grantor: AIRE TIGHT OPERATIONS LLC Grantor: HEALTHLINE ATO LLC Grantee: HEALTHLINE ATO LLC | Desc: CANNON COURT Sec: 1 Lot: 1 Block: 1 Related Docs",
+        "RP-2025-200634 | 05/27/2025 | W/D | Grantor: AIRE T3 GROUP LLC Grantee: HEALTHLINE ATO | Desc: CANNON COURT Sec: 1 Lot: 1 Block: 1 Related Docs",
+        "RP-2024-296323 | 08/14/2024 | W/D | Grantor: AIRE T3 GROUP LLC Grantee: AFTAB KASHIF | Desc: CANNON COURT Lot: 2-4 Block: 1",
+        "RP-2024-115790 | 04/02/2024 | DEED | Grantor: AIRE T3 GROUP LLC Grantee: AFTAB KASHIF | Desc: CRESTMONT PARK Sec: 1 Lot: 8 Block: 6",
+        "RP-2024-115789 | 04/02/2024 | DEED | Grantor: AIRE T3 GROUP LLC Grantee: AFTAB KASHIF | Desc: CRESTMONT PARK Sec: 1 Lot: 7 Block: 6",
+        "RP-2023-57804 | 02/21/2023 | W/D | Grantor: AIRE T3 GROUP LLC Grantee: SMITH HARRY L JR | Desc: GEORGE KUHLMANS ADDITION Lot: N Block: 7",
+        "RP-2023-31989 | 01/30/2023 | W/D | Grantor: AIRE T3 GROUP LLC Grantee: SUMMERFIELD INVESTMENTS LLC | Desc: SUNNYSIDE COURTS Lot: 18 Block: 1",
+        "RP-2022-593160 | 12/19/2022 | W/D | Grantor: AIRE T3 GROUP LLC Grantee: HUMBLY REAL ESTATE DEVELOPERS LLC | Desc: FOSTER PLACE Lot: 1-2 Block: 1",
+        "RP-2022-587959 | 12/15/2022 | W/D | Grantor: AIRE T3 GROUP LLC Grantee: SUMMERFIELD INVESTMENTS LLC | Desc: GOODHOPE ESTATES Lot: 1-2 Block: 1"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'AIRE T3')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "LIEN": 3,
+        "REL": 1,
+        "L AFFT": 6,
+        "DEED": 3,
+        "W/D": 6
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'AIRE T3')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "10 instruments as grantee, 9 as grantor (index, name 'AIRE T3')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'AIRE T3')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202557928",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "04/10/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-04-10: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202557928 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de AIRE T3 GROUP LLC (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 56600.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 28696.2,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 13173.99,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 28696.2,
+        "impuestos_que_hereda": 1202.88,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 860.89,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 34759.97,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 38909.83,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.628,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "NO PARA DUPLEX",
+    "rationale": "Lote 6,667 sqft / 100% del predio en zona de inundacion especial (SFHA): heuristica contra la salida dúplex (no es un limite legal). Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 38909.83,
+    "all_in_cost_estimate": 34759.97,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
   }
 }

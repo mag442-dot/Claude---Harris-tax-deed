@@ -226,5 +226,326 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=0482360000118",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -94.95093,
+        "lat": 29.793515
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0482360000118)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 133596,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0482360000118)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~171 x 813 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0482360000118)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "AE",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "AE": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 100.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-186187 | 05/13/2026 | W/D | Grantor: HARRIS ANNIE MARIE Grantee: RIVERA LUCILA REYNA Grantee: VILLANUEVA DANIEL | Desc: RANCHO VERDE Sec: 9 Lot: 28 Block: 3",
+        "RP-2025-299539 | 07/31/2025 | LIEN | Grantor: HOUSTON COMMUNITY MANAGEMENT SERVICES INC Grantor: LAW OFFICE OF BRADY T WYATT III Grantor: RED CEDAR HOMEOWNERS ASSOCIATION INC Grantor: WYATT BRADY T Grantee: VILLANUEVA DANIEL | Desc: RED CEDAR SUBDIVISION Lot: 14 Block: 1",
+        "RP-2025-2736 | 01/03/2025 | CORREC | Grantor: MARTINEZ MARY G Grantor: VILLANUEVA IGNACIO R Grantor: VILLASANA MARISELA Grantee: VILLANUEVA ANTONIA EST Grantee: VILLANUEVA DANIEL JR EST | Desc: SHERWICK PLACE EXTENSION Lot: 121 Block: 6",
+        "RP-2025-2728 | 01/03/2025 | AFFT | Grantor: MARTINEZ MARY G Grantor: VILLANUEVA IGNACIO R Grantor: VILLASANA MARISELA Grantee: VILLANUEVA DANIEL III EST Grantee: VILLANUEVA DANIEL JR EST | Desc: SHERWICK PLACE EXTENSION Lot: 121 Block: 6",
+        "RP-2025-167715 | 05/05/2025 | W/D | Grantor: KHAN JUNAID Grantor: KHAN NAHEED REHMAT Grantee: VILLANUEVA DANIELLE Grantee: VILLANUEVA TOMAS | Desc: SAGEMONT Sec: 5 Lot: 14 Block: 21",
+        "RP-2024-313509 | 08/27/2024 | LIEN | Grantor: HOUSTON COMMUNITY MANAGEMENT SERVICES INC Grantor: LAW OFFICE OF BRADY T WYATT III Grantor: RED CEDAR HOMEOWNERS ASSOCIATION INC Grantor: WYATT BRADY T III Grantee: VILLANUEVA DANIEL | Desc: RED CEDAR SUBDIVISION Lot: 14 Block: 1",
+        "RP-2024-309313 | 08/23/2024 | LIEN | Grantor: HOUSTON COMMUNITY MANAGEMENT SERVICES INC Grantor: LAW OFFICE OF BRADY T WYATT III Grantor: RED CEDAR HOMEOWNERS ASSOCIATION INC Grantor: WYATT BRADY T III Grantee: VILLANUEVA DANIEL | Desc: RED CEDAR SUBDIVISION Lot: 14 Block: 1",
+        "RP-2024-302069 | 08/19/2024 | LIEN | Grantor: HOUSTON COMMUNITY MANAGEMENT SERVICES INC Grantor: LAW OFFICE OF BRADY T WYATT III Grantor: RED CEDAR HOMEOWNERS ASSOCIATION INC Grantor: WYATT BRADY T III Grantee: VILLANUEVA DANIEL | Desc: RED CEDAR SUBDIVISION Lot: 14 Block: 1",
+        "RP-2020-638690 | 12/29/2020 | A/J | Grantor: BRIDGECREST ACCEPTANCE CORP Grantor: DRIVETIME Grantee: VILLANUEVA DANIEL | Comment: SEE INSTRUMENT",
+        "RP-2020-114847 | 03/12/2020 | A/J | Grantor: CITY OF BAYTOWN Grantor: GOOSE CREEK CONSOLIDATED INDEPENDENT SCHOOL DISTRICT Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPARTMENT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DISTRICT Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: LEE COLLEGE DISTRICT Grantor: PORT OF HOUSTON OF HARRIS COUNTY AUTHORITY Grantee: VILLANUEVA DANIEL | Comment: SEE INSTRUMENT",
+        "RP-2020-114774 | 03/12/2020 | A/J | Grantor: CITY OF BAYTOWN Grantee: VILLANUEVA DANIEL | Comment: SEE INSTRUMENT",
+        "RP-2019-267044 | 06/24/2019 | REL | Grantor: WELLS FARGO BANK N A Grantee: HERRERA ROSALINDA Grantee: VILLANEUVA DANIEL A Grantee: VILLANUEVA DANIEL Grantee: VILLANUEVA ROSALINDA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-9439 | 01/08/2018 | REL | Grantor: WELLS FARGO FINANCIAL TEXAS INC Grantor: WELLS FARGO USA HOLDINGS INC Grantee: VILLANUEVA DANIEL Grantee: VILLANUEVA MYRNA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-84053 | 02/28/2018 | W/D | Grantor: VILLANUEVA JOSE L Grantor: VILLANUEVA MIRIAM Grantee: VILLANUEVA DANIEL | Desc: HIDDEN FOREST Sec: 1 Lot: 7 Block: 6",
+        "RP-2018-509136 | 11/08/2018 | W/D | Grantor: JUAREZ ELIZABETH A Grantor: JUAREZ ROBERT Grantee: VILLANUEVA DANIEL Grantee: VILLANUEVA LAURA | Desc: GUERINGER L A Abstract: 1699 Comment: 3.0764",
+        "RP-2018-413965 | 09/10/2018 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: SECURITYNATIONAL MORTGAGE COMPANY Grantee: VILLANUEVA DANIELLE K Grantee: VILLANUEVA JUAN E JR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2018-390313 | 08/27/2018 | AFFT | Grantor: MACEK SAN JUANA MARTINEZ Grantee: VILLANUEVA DANIEL Grantee: VILLANUEVA LINA | Comment: SEE INSTRUMENT",
+        "RP-2017-199091 | 05/08/2017 | W/D | Grantor: GASPIDI GHOLAM A Grantee: MARTINEZ MARIA G Grantee: VILLANUEVA DANIEL Grantee: VILLANUEVA VALENTIN | Desc: PINEWOOD VILLAGE Sec: 5 Lot: 8 Block: 18",
+        "RP-2016-450477 | 10/05/2016 | NOTICE | Grantor: HACIENDA SERVICES INC Grantor: VILLANUEVA DANIEL Grantor: VILLANUEVA MYRNA Grantee: HACIENDA SERVICES INC Grantee: VILLANUEVA DANIEL Grantee: VILLANUEVA MYRNA | Desc: NEWPORT Sec: 1 Lot: 7 Block: 19",
+        "RP-2016-450475 | 10/05/2016 | W/D | Grantor: HACIENDA SERVICES INC Grantee: VILLANUEVA DANIEL Grantee: VILLANUEVA MYRNA | Desc: NEWPORT Sec: 1 Lot: 7 Block: 19",
+        "RP-2016-408755 | 09/12/2016 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: VILLANUEVA DANIEL Grantee: VILLANUEVA HUMBERTA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-394839 | 09/02/2016 | NOTICE | Grantor: CAMPOS DIANA Grantor: CZAMECKI EDMUND Grantor: VILLANUEVA DANIEL Grantee: CAMPOS DIANA Grantee: CZAMECKI EDMUND Grantee: VILLANUEVA DANIEL | Desc: GLENCAIRN Sec: 5 Lot: 15 Block: 2",
+        "RP-2016-394837 | 09/02/2016 | W/D | Grantor: CZAENECKI EDMUND Grantor: CZARNECKI EDMUND Grantee: CAMPOS DIANA Grantee: VILLANUEVA DANIEL | Desc: GLENCAIRN Sec: 5 Lot: 15 Block: 2 Related Docs",
+        "RP-2016-367327 | 08/18/2016 | W/D | Grantor: VILLANUEVA JUAN E JR Grantee: VILLANUEVA DANIELLE K | Desc: WINDFERN FOREST Sec: 4 Lot: 24 Block: 4",
+        "RP-2016-315977 | 07/20/2016 | REL | Grantor: COUNTRYWIDE HOME LOANS INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: VILLANUEVA DANIEL Grantee: VILLANUEVA HUMBERTA P | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-315976 | 07/20/2016 | REL | Grantor: NATIONSTAR MORTGAGE LLC Grantee: VILLANUEVA DANIEL Grantee: VILLANUEVA HUMBERTA P | Comment: SEE INSTRUMENT"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VILLANUEVA DANIEL')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-186188 | 05/13/2026 | D/T | Grantor: RIVERA LUCILA REYNA Grantor: VILLANUEVA DANIEL Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: UNITED WHOLESALE MORTGAGE LLC Trustee: BLACK MANN & GRAHAM L L P | Desc: RANCHO VERDE Sec: 9 Lot: 28 Block: 3",
+        "RP-2025-167716 | 05/05/2025 | D/T | Grantor: VILLANUEVA DANIELLE Grantor: VILLANUEVA TOMAS Grantee: EVERSTREAM MORTGAGE Grantee: FILO MORTGAGE L L C Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: SANDLER LAW | Desc: SAGEMONT Sec: 5 Lot: 14 Block: 21",
+        "RP-2024-323853 | 09/04/2024 | AFFT | Grantor: DE LOS SANTOS SONIA Grantor: PENA MARIA SONIA Grantor: PENA SONIA Grantor: RODRIGUEZ INELDA Grantor: VILLANUEVA DANIEL Grantee: PENA JOSE M EST Grantee: PENA JOSE MARIA JR EST | Desc: WOODLAND TRAILS Sec: 1 Lot: 6 Block: 1",
+        "RP-2023-341758 | 09/06/2023 | W/D | Grantor: REYNA LUCILA Grantor: VILLANUEVA DANIEL Grantee: VILLANUEVA JOSE LUIS | Desc: HIDDEN FOREST Sec: 1 Lot: 7 Block: 6",
+        "RP-2020-168685 | 04/21/2020 | AFFT | Grantor: VILLANUEVA DANIEL A Grantor: VILLANUEVA ROSALINDA Grantee: SEE INSTRUMENT | Desc: WESTBANK Sec: 1 Lot: 4 Block: 6",
+        "RP-2020-168684 | 04/21/2020 | D/T | Grantor: HERRERA ROSALINDA Grantor: VILLANUEVA DANIEL A Grantor: VILLANUEVA ROSALINDA Grantee: JPMORGAN CHASE BANK N A Trustee: ROBERTSON JAMES L | Desc: WESTBANK Sec: 1 Lot: 4 Block: 6",
+        "RP-2020-104196 | 03/06/2020 | W/D | Grantor: VILLANUEVA DANIEL Grantor: VILLANUEVA LAURA Grantee: PERKINS MARVIN | Desc: BRONGER ESTATES Lot: 2-3 Block: 1",
+        "RP-2018-39032 | 01/30/2018 | AMEND | Grantor: CAMPOS DIANA Grantor: VILLANUEVA DANIEL Grantee: WEST HARRIS COUNTY REGIONAL WATER AUTHORITY | Desc: GLENCAIRN Sec: 5 Lot: 15 Block: 2 Related Docs",
+        "RP-2018-383069 | 08/21/2018 | W/D | Grantor: VILLANUEVA DANIEL Grantor: VILLANUEVA MYRNA Grantee: GUEVARA RUBEN Grantee: SERRANO FATIMA | Desc: INDUSTRIAL ADDITION Lot: 5-8 Block: 11",
+        "RP-2018-381199 | 08/21/2018 | AFFT | Grantor: VILLANUEVA DANIELLE K Grantor: VILLARREAL DANIELLE KELLY Grantor: VILLARREAL SANTIAGO C Grantee: SEE INSTRUMENT | Desc: WINDFERN FOREST Sec: 4 Lot: 24 Block: 4",
+        "RP-2018-381198 | 08/21/2018 | D/T | Grantor: VILLANUEVA DANIELLE K Grantor: VILLARREAL DANIELLE KELLY Grantor: VILLARREAL SANTIAGO C Grantee: MERIDIAN HOME MORTGAGE CORPORATION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: GIBSON MALCOLM D | Desc: WINDFERN FOREST Sec: 4 Lot: 24 Block: 4 Related Docs",
+        "RP-2018-381197 | 08/21/2018 | W/D | Grantor: VILLANUEVA DANIELLE K Grantor: VILLARREAL DANIELLE KELLY Grantee: VILLARREAL DANIELLE KELLY | Desc: WINDFERN FOREST Sec: 4 Lot: 24 Block: 4",
+        "RP-2017-199092 | 05/08/2017 | D/T | Grantor: MARTINEZ MARIA G Grantor: VILLANUEVA DANIEL Grantor: VILLANUEVA VALENTIN Grantee: GASPIDI GHOLAM A Trustee: KASBIDI MORTEZA | Desc: PINEWOOD VILLAGE Sec: 5 Lot: 8 Block: 18",
+        "RP-2016-450477 | 10/05/2016 | NOTICE | Grantor: HACIENDA SERVICES INC Grantor: VILLANUEVA DANIEL Grantor: VILLANUEVA MYRNA Grantee: HACIENDA SERVICES INC Grantee: VILLANUEVA DANIEL Grantee: VILLANUEVA MYRNA | Desc: NEWPORT Sec: 1 Lot: 7 Block: 19",
+        "RP-2016-450476 | 10/05/2016 | D/T | Grantor: VILLANUEVA DANIEL Grantor: VILLANUEVA MYRNA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: STEARNS LENDING LLC Trustee: GARNER RUTH W | Desc: NEWPORT Sec: 1 Lot: 7 Block: 19",
+        "RP-2016-394839 | 09/02/2016 | NOTICE | Grantor: CAMPOS DIANA Grantor: CZAMECKI EDMUND Grantor: VILLANUEVA DANIEL Grantee: CAMPOS DIANA Grantee: CZAMECKI EDMUND Grantee: VILLANUEVA DANIEL | Desc: GLENCAIRN Sec: 5 Lot: 15 Block: 2",
+        "RP-2016-394838 | 09/02/2016 | D/T | Grantor: CAMPOS DIANA Grantor: VILLANUEVA DANIEL Grantee: CZARNECKI EDMUND Trustee: LAIRD JEFFERY W | Desc: GLENCAIRN Sec: 5 Lot: 15 Block: 2",
+        "RP-2016-389356 | 08/31/2016 | W/D | Grantor: VILLANUEVA DANIEL Grantor: VILLANUEVA HUBERTA Grantee: SANCHEZ MARGARITA D | Desc: ROLLING GREEN Sec: 1 Lot: 173 Block: 6",
+        "RP-2016-279443 | 06/28/2016 | W/D | Grantor: VILLANUEVA DANIEL Grantor: VILLANUEVA HUMBERTA P Grantee: WARD JENNIFER DIANA Grantee: WARD SHAUN MICHAEL | Desc: PHILLIPS SUBDIVISION Lot: 3"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VILLANUEVA DANIEL')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "W/D": 14,
+        "LIEN": 4,
+        "CORREC": 1,
+        "AFFT": 5,
+        "A/J": 3,
+        "REL": 6,
+        "NOTICE": 4,
+        "D/T": 7,
+        "AMEND": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VILLANUEVA DANIEL')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "26 instruments as grantee, 19 as grantor (index, name 'VILLANUEVA DANIEL')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VILLANUEVA DANIEL')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202150066",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "07/29/2022",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 cerro el 2024-07-28 (si hubo citacion por publicacion)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202150066 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de VILLANUEVA DANIEL & LAURA (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 268016.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 135884.11,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 9106.32,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 135884.11,
+        "impuestos_que_hereda": 10533.34,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 4076.52,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 154493.97,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 194057.73,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.735,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "NO PARA DUPLEX",
+    "rationale": "Lote 133,596 sqft / 100% del predio en zona de inundacion especial (SFHA): heuristica contra la salida dúplex (no es un limite legal). Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 194057.73,
+    "all_in_cost_estimate": 154493.97,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
   }
 }

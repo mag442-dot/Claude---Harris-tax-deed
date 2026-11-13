@@ -221,5 +221,389 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=0991850000008",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.221059,
+        "lat": 30.020541
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0991850000008)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 13416,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0991850000008)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~86 x 188 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0991850000008)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "AE (FLOODWAY)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "AE (FLOODWAY)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 100.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "yes",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 100.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-68173 | 02/24/2026 | W/D | Grantor: VELASQUEZ OSCAR Grantee: VELASQUEZ OSCAR JR | Desc: HARBOR HOMESITE Lot: 31-32 Block: 29",
+        "RP-2026-395702 | 09/30/2026 | REL | Grantor: FARINE TRISHA TAYLOR Grantor: YAUPON RANCH HOMEOWNERS ASSOCIATION INC Grantee: JIMENEZ HILDA G Grantee: VELASQUEZ OSCAR ADAN | Desc: YAUPON RANCH Sec: 7 Lot: 35 Block: 1 Related Docs",
+        "RP-2026-395692 | 09/30/2026 | REL | Grantor: FARINE TRISHA TAYLOR Grantor: YAUPON RANCH HOMEOWNERS ASSOCIATION INC Grantee: JIMENEZ HELGA Grantee: VELASQUEZ OSCAR ADAN | Desc: YAUPON RANCH Sec: 7 Lot: 35 Block: 1 Related Docs",
+        "RP-2026-334712 | 08/18/2026 | LIEN | Grantor: BARSALOU W AUSTIN Grantor: BELLEAU WOOD CIVIC CLUB Grantee: VELASQUEZ OSCAR | Desc: BELLEAU WOOD Sec: 1 Lot: 9 Block: 6",
+        "RP-2026-334711 | 08/18/2026 | LIEN | Grantor: BARSALOU W AUSTIN Grantor: BELLEAU WOOD CIVIC CLUB Grantee: VELASQUEZ OSCAR | Desc: BELLEAU WOOD Sec: 1 Lot: 8 Block: 6",
+        "RP-2026-181326 | 05/11/2026 | REL | Grantor: FREMONT INVESTMENT & LOAN Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: HERNANDEZ LURIENE Grantee: VELASQUEZ OSCAR A | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-441480 | 11/06/2025 | REL | Grantor: HOMES DIRECT GP LLC Grantor: HOMES DIRECT LP Grantee: CONTRERAS ROSA LIDIA Grantee: VELASQUEZ OSCAR MENDEZ | Desc: HAHLAND ADDITION Lot: 21 Block: A Related Docs",
+        "RP-2025-294686 | 07/29/2025 | P/A | Grantor: CONTRERAS ROSA LIDIA Grantee: VELASQUEZ OSCAR MENDEZ | Comment: SEE INSTRUMENT",
+        "RP-2024-227917 | 06/24/2024 | W/D | Grantor: MATA ALLISON DUFOUR Grantor: MATA JESUS NOE Grantee: VELASQUEZ OSCAR I ALVARADO Grantee: VILLASENOR LAURA | Desc: BRENWOOD PARK Sec: 1 Lot: 40 Block: 5",
+        "RP-2023-543 | 01/03/2023 | REL | Grantor: IBERIABANK MORTGAGE COMPANY Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: VELASQUEZ OSCAR OMAR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-4573 | 01/05/2023 | REL | Grantor: COMMUNITY RESOURCE CREDIT UNION Grantee: VELASQUEZ OSCAR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-350751 | 09/12/2023 | NOTICE | Grantor: POST MECHELLE YVETTE Grantor: RICHTER JENNIFER Grantor: RICHTER WALTER III Grantor: VELASQUEZ OSCAR Grantee: POST MECHELLE YVETTE Grantee: RICHTER JENNIFER Grantee: RICHTER WALTER III Grantee: VELASQUEZ OSCAR | Desc: MORGAN'S LANDING Sec: 6 Lot: 5 Block: 2",
+        "RP-2023-350750 | 09/12/2023 | NOTICE | Grantor: POST MECHELLE YVETTE Grantor: RICHTER JENNIFER Grantor: RICHTER WALTER III Grantor: VELASQUEZ OSCAR Grantee: POST MECHELLE YVETTE Grantee: RICHTER JENNIFER Grantee: RICHTER WALTER III Grantee: VELASQUEZ OSCAR | Desc: MORGAN'S LANDING Sec: 6 Lot: 5 Block: 2 Related Docs",
+        "RP-2023-350748 | 09/12/2023 | W/D | Grantor: RICHTER JENNIFER Grantor: RICHTER WALTER III Grantee: POST MECHELLE YVETTE Grantee: VELASQUEZ OSCAR | Desc: MORGAN'S LANDING Sec: 6 Lot: 5 Block: 2 Related Docs",
+        "RP-2023-230944 | 06/22/2023 | LIEN | Grantor: BARSALOU W AUSTIN Grantor: YAUPON RANCH HOMEOWNERS ASSOCIATION INC Grantee: JIMENEZ HELGA Grantee: VELASQUEZ OSCAR ADAN | Desc: YAUPON RANCH Sec: 7 Lot: 35 Block: 1 Related Docs",
+        "RP-2023-167107 | 05/09/2023 | REL | Grantor: GREENPOINT MORTGAGE FUNDING INC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: VELASQUEZ LUCIA Grantee: VELASQUEZ OSCAR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-566219 | 11/29/2022 | NOTICE | Grantor: ALVARADO MARTHA GLADIS GONZALEZ Grantor: LENNAR HOMES OF TEXAS SALES AND MARKETING LTD Grantor: ORR ASHLEY Grantor: U S HOME CORPORATION Grantor: U S HOME LLC Grantor: VELASQUEZ OSCAR FIDEL ACOSTA Grantee: ALVARADO MARTHA GLADIS GONZALEZ Grantee: LENNAR HOMES OF TEXAS SALES AND MARKETING LTD Grantee: ORR ASHLEY Grantee: U S HOME CORPORATION Grantee: U S HOME LLC Grantee: VELASQUEZ OSCAR FIDEL ACOSTA | Desc: BECKER MEADOWS Sec: 4 Lot: 20 Block: 1",
+        "RP-2022-566217 | 11/29/2022 | W/D | Grantor: BAKER DEBRA Grantor: LENNAR HOMES OF TEXAS LAND AND CONSTRUCTION LTD Grantor: LENNAR HOMES OF TEXAS SALES AND MARKETING LTD Grantor: U S HOME CORPORATION Grantor: U S HOME LLC Grantee: ALVARADO MARTHA GLADIS GONZALEZ Grantee: VELASQUEZ OSCAR FIDEL ACOSTA | Desc: BECKER MEADOWS Sec: 4 Lot: 20 Block: 1",
+        "RP-2022-457601 | 09/12/2022 | AGMT | Grantor: GUERRERO EMIGDIA Grantor: GUERRERO MARIA Grantor: GUERRERO MARIA D Grantor: JAUREZ OSCAR Grantor: VELASQUEZ OSCAR M JAUREZ Grantee: GUERRERO EMIGDIA Grantee: GUERRERO MARIA Grantee: GUERRERO MARIA D Grantee: JAUREZ OSCAR Grantee: VELASQUEZ OSCAR M JAUREZ | Desc: GOLFVIEW MANOR Lot: 13 Block: 6",
+        "RP-2022-453102 | 09/07/2022 | LIEN | Grantor: BARSALOU W AUSTIN Grantor: YAUPON RANCH HOMEOWNERS ASSOCIATION INC Grantee: JIMENEZ HELGA Grantee: VELASQUEZ OSCAR ADAN | Desc: YAUPON RANCH Sec: 7 Lot: 35 Block: 1 Related Docs",
+        "RP-2022-177087 | 04/04/2022 | REL | Grantor: FIRST COMMUNITY CREDIT UNION Grantor: FIRST COMMUNITY CREDIT UNION OF HOUSTON Grantee: MARULANDA DIANA MARIA Grantee: VELASQUEZ OSCAR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-115436 | 03/03/2022 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: PROSPECT MORTGAGE LLC Grantee: CONTRERAS SANDRA Grantee: VELASQUEZ OSCAR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-549863 | 09/24/2021 | REL | Grantor: INTERNAL REVENUE SERVICE Grantee: VELASQUEZ OSCAR G | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-540943 | 09/21/2021 | NOTICE | Grantor: MIR RAMI Grantor: VELASQUEZ OSCAR JAVIER Grantee: MIR RAMI Grantee: VELASQUEZ OSCAR JAVIER | Desc: GREEN PARK Sec: 3 Lot: 2 Block: 1",
+        "RP-2021-540941 | 09/21/2021 | W/D | Grantor: MIR RAMI Grantee: VELASQUEZ OSCAR JAVIER | Desc: GREEN PARK Sec: 3 Lot: 2 Block: 1",
+        "RP-2021-414180 | 07/22/2021 | NOTICE | Grantor: TALLEY CHARLES L Grantor: VELASQUEZ OSCAR OMAR Grantee: TALLEY CHARLES L Grantee: VELASQUEZ OSCAR OMAR | Desc: SHADY RIVER Sec: 3 Block: 7 Related Docs",
+        "RP-2021-414178 | 07/22/2021 | W/D | Grantor: TALLEY CHARLES L Grantee: VELASQUEZ OSCAR | Desc: SHADY RIVER Sec: 3 Block: 7",
+        "RP-2021-379431 | 07/06/2021 | LIEN | Grantor: YAUPON RANCH HOMEOWNERS ASSOCIATION INC Grantee: JIMENEZ HELGA Grantee: VELASQUEZ OSCAR ADAN | Desc: YAUPON RANCH Sec: 7 Lot: 35 Block: 1 Related Docs",
+        "RP-2021-378451 | 07/06/2021 | REL | Grantor: WELLS FARGO BANK Grantee: VELASQUEZ OSCAR ENRIQUE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-364699 | 06/29/2021 | REL | Grantor: HAMMERSMITH FINANCIAL L P Grantor: U S BANK NATIONAL ASSOCIATION Grantee: MUNOZ YANET L Grantee: VELASQUEZ OSCAR D | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-312136 | 06/04/2021 | W/D | Grantor: VELASQUEZ OSCAR Grantor: VELASQUEZ RUBEN PEREZ Grantee: VELASQUEZ OSCAR | Desc: HARBOR HOMESITE Lot: 31-32 Block: 29",
+        "RP-2020-837 | 01/02/2020 | W/D | Grantor: MEDRANO ALEXANDRA Grantor: MEDRANO JAIME Grantee: VELASQUEZ OSCAR | Desc: BELLEAU WOOD Lot: 6-9 Block: 6",
+        "RP-2020-49340 | 02/03/2020 | NOTICE | Grantor: CONTRERAS ROSA LIDIA Grantor: SWE HOLDINGS GP LLC Grantor: SWE HOLDINGS LP Grantor: VELASQUEZ OSCAR MENDEZ Grantee: CONTRERAS ROSA LIDIA Grantee: SWE HOLDINGS GP LLC Grantee: SWE HOLDINGS LP Grantee: VELASQUEZ OSCAR MENDEZ | Desc: HAHLAND ADDITION Lot: 21 Block: A",
+        "RP-2020-49338 | 02/03/2020 | W/D | Grantor: SWE HOLDINGS GP LLC Grantor: SWE HOLDINGS LP Grantee: CONTRERAS ROSA LIDIA Grantee: VELASQUEZ OSCAR MENDEZ | Desc: HAHLAND ADDITION Lot: 21 Block: A",
+        "RP-2020-470244 | 10/02/2020 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: PRIMELENDING Grantee: VELASQUEZ OSCAR R | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-376810 | 08/17/2020 | LIEN | Grantor: BARSALOU W AUSTIN Grantor: YAUPON RANCH HOMEOWNERS ASSOCIATION INC Grantee: JIMENEZ HELGA Grantee: VELASQUEZ OSCAR ADAN | Desc: YAUPON RANCH Sec: 7 Lot: 35 Block: 1 Related Docs",
+        "RP-2020-315014 | 07/16/2020 | REL | Grantor: GREENPOINT MORTGAGE FUNDING INC. Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: VELASQUEZ LUCIA Grantee: VELASQUEZ OSCAR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-147052 | 04/02/2020 | NOTICE | Grantor: ANGLIA HOMES LP Grantor: GG TWIN ASSETS GP LLC Grantor: VELASQUEZ OSCAR A Grantee: ANGLIA HOMES LP Grantee: GG TWIN ASSETS GP LLC Grantee: VELASQUEZ OSCAR A | Desc: IMPERIAL TRACE Sec: 6 Lot: 11 Block: 1",
+        "RP-2020-147050 | 04/02/2020 | W/D | Grantor: ANGLIA HOMES LP Grantor: G G TWIN ASSETS GP LLC Grantee: VELASQUEZ OSCAR A | Desc: IMPERIAL TRACE Sec: 6 Lot: 11 Block: 1",
+        "RP-2019-457237 | 10/15/2019 | A/J | Grantor: CAPITAL ONE BANK NA Grantee: VELASQUEZ OSCAR A | Comment: SEE INSTRUMENT",
+        "RP-2019-223400 | 05/29/2019 | A/J | Grantor: CAPITAL ONE BANK N A Grantee: VELASQUEZ OSCAR A | Comment: SEE INSTRUMENT",
+        "RP-2019-197007 | 05/13/2019 | LIEN | Grantor: YAUPON RANCH HOMEOWNERS ASSOCIATION INC Grantee: JIMENEZ HELGA Grantee: VELASQUEZ OSCAR ADAN | Desc: YAUPON RANCH Sec: 7 Lot: 35 Block: 1 Related Docs",
+        "RP-2019-169300 | 04/26/2019 | REL | Grantor: OVATION SERVICES LLC Grantee: VELASQUEZ OSCAR | Desc: ALDINE FOREST Lot: 11 Block: 2 Related Docs",
+        "RP-2019-122056 | 03/28/2019 | A/J | Grantor: HARRIS COUNTY TEXAS Grantee: VELASQUEZ OSCAR | Comment: SEE INSTRUMENT",
+        "RP-2017-394454 | 09/06/2017 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: SOUTHWEST FUNDING LP Grantee: VELASQUEZ OSCAR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-384743 | 08/25/2017 | NOTICE | Grantor: MULUMBA GHISLAIN T Grantor: MULUMBA MAH S Grantor: VELASQUEZ OSCAR Grantee: MULUMBA GHISLAIN T Grantee: MULUMBA MAH S Grantee: VELASQUEZ OSCAR | Desc: RIATA WEST Lot: 9 Block: 7",
+        "RP-2017-166655 | 04/19/2017 | REL | Grantor: NAVY FEDERAL CREDIT UNION Grantee: GOMES YAZMIN CORDERO Grantee: VELASQUEZ OSCAR R | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-141869 | 04/04/2017 | NOTICE | Grantor: BLAKELY JOHN Grantor: BLAKELY WANDA Grantor: GOMES YAZMIN C Grantor: VELASQUEZ OSCAR R Grantor: VELASQUEZ YAZMIN C Grantee: BLAKELY JOHN Grantee: BLAKELY WANDA Grantee: GOMES YAZMIN C Grantee: VELASQUEZ OSCAR R Grantee: VELASQUEZ YAZMIN C | Desc: STONE GATE Sec: 6 Lot: 9 Block: 1 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VELASQUEZ OSCAR')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2026-68173 | 02/24/2026 | W/D | Grantor: VELASQUEZ OSCAR Grantee: VELASQUEZ OSCAR JR | Desc: HARBOR HOMESITE Lot: 31-32 Block: 29",
+        "RP-2026-135435 | 04/09/2026 | D/T | Grantor: POST MECHELLE YVETTE Grantor: VELASQUEZ OSCAR Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: MARINOSCI LAW GROUP P C | Desc: MORGAN'S LANDING Sec: 6 Lot: 5 Block: 2 Related Docs",
+        "RP-2025-294687 | 07/29/2025 | W/D | Grantor: CONTRERAS ROSA LIDIA Grantor: VELASQUEZ OSCAR MENDEZ Grantee: RIVERA WILFREDO | Desc: HAHLAND ADDITION Lot: 21 Block: A",
+        "RP-2025-263933 | 07/09/2025 | REL | Grantor: VELASQUEZ OSCAR R Grantee: VELASQUEZ CANDELARIA | Desc: BRAES WOODS CONDOMINIUMS Unit: 47 Related Docs",
+        "RP-2025-213270 | 06/04/2025 | D/T | Grantor: JIMENEZ HILDA G Grantor: VELASQUEZ OSCAR ADAN Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: FRAPPIER ROBERT F | Desc: YAUPON RANCH Sec: 7 Lot: 35 Block: 1",
+        "RP-2025-213269 | 06/04/2025 | MODIF | Grantor: JIMENEZ HILDA G Grantor: VELASQUEZ OSCAR ADAN Grantee: U S BANK NATIONAL ASSOCIATION | Desc: YAUPON RANCH Sec: 7 Lot: 35 Block: 1 Related Docs",
+        "RP-2025-195268 | 05/22/2025 | DEED | Grantor: VELASQUEZ MIRIAN CAROLINA Grantor: VELASQUEZ OSCAR R Grantee: PINEDA EDWIN ALEXANDER VILLANUEVA | Desc: BRAES WOOD CONDOMINIUM Unit: 14",
+        "RP-2025-189334 | 05/19/2025 | AFFT | Grantor: PINEDA EDWIN A VILLANUEVA Grantor: VELASQUEZ MIRIAM CAROLINA Grantor: VELASQUEZ OSCAR R Grantor: VILLANUEVA EDWIN ALEXANDER Grantee: SEE INSTRUMENT | Comment: SEE INSTRUMENT",
+        "RP-2024-227918 | 06/24/2024 | D/T | Grantor: VELASQUEZ OSCAR I ALVARADO Grantor: VILLASENOR LAURA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SWBC MORTGAGE CORP Trustee: KERSHNER EDWARD | Desc: BRENWOOD PARK Sec: 1 Lot: 40 Block: 5",
+        "RP-2024-168136 | 05/09/2024 | REINST | Grantor: CONTRERAS ROSA LIDIA Grantor: VELASQUEZ OSCAR MENDEZ Grantee: HOMES DIRECT GP LLC Grantee: HOMES DIRECT LP | Desc: HAHLAND ADDITION Lot: 21 Block: A Related Docs",
+        "RP-2023-350751 | 09/12/2023 | NOTICE | Grantor: POST MECHELLE YVETTE Grantor: RICHTER JENNIFER Grantor: RICHTER WALTER III Grantor: VELASQUEZ OSCAR Grantee: POST MECHELLE YVETTE Grantee: RICHTER JENNIFER Grantee: RICHTER WALTER III Grantee: VELASQUEZ OSCAR | Desc: MORGAN'S LANDING Sec: 6 Lot: 5 Block: 2",
+        "RP-2023-350750 | 09/12/2023 | NOTICE | Grantor: POST MECHELLE YVETTE Grantor: RICHTER JENNIFER Grantor: RICHTER WALTER III Grantor: VELASQUEZ OSCAR Grantee: POST MECHELLE YVETTE Grantee: RICHTER JENNIFER Grantee: RICHTER WALTER III Grantee: VELASQUEZ OSCAR | Desc: MORGAN'S LANDING Sec: 6 Lot: 5 Block: 2 Related Docs",
+        "RP-2023-350749 | 09/12/2023 | D/T | Grantor: POST MECHELLE YVETTE Grantor: VELASQUEZ OSCAR Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SECURITYNATIONAL MORTGAGE COMPANY Trustee: POLUNSKY ALLAN B | Desc: MORGAN'S LANDING Sec: 6 Lot: 5 Block: 2 Related Docs",
+        "RP-2023-317061 | 08/18/2023 | W/D | Grantor: CONTRERAS SANDRA Grantor: VELASQUEZ OSCAR Grantor: VELASQUEZ SANDRA D Grantee: VU TAM THI | Desc: CANYON LAKES VILLAGE Sec: 1 Lot: 11 Block: 6",
+        "RP-2023-289546 | 08/01/2023 | W/D | Grantor: VELASQUEZ OSCAR Grantor: VELASQUEZ OSCAR O Grantee: BOMER JOHN JR Grantee: BOMER TERRI | Desc: SHADY RIVER Sec: 3 Block: 7",
+        "RP-2023-159252 | 05/03/2023 | D/T | Grantor: VELASQUEZ ELIZABETH Grantor: VELASQUEZ OSCAR Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: BURNS MICHAEL | Desc: ATASCOCITA FOREST Sec: 25 Lot: 1 Block: 2",
+        "RP-2022-580218 | 12/08/2022 | W/D | Grantor: POST MECHELLE Grantor: VELASQUEZ OSCAR OMAR Grantee: TURNER DAVID JAY Grantee: TURNER HANNAH | Desc: LA PORTE TERRACE SUBDIVISION Sec: 1 Lot: 8 Block: 1A",
+        "RP-2022-580217 | 12/08/2022 | AFFT | Grantor: VELASQUEZ OSCAR OMAR Grantee: SEE INSTRUMENT | Desc: LA PORTE TERRACE SUBDIVISION Sec: 1 Lot: 8 Block: 1A",
+        "RP-2022-566219 | 11/29/2022 | NOTICE | Grantor: ALVARADO MARTHA GLADIS GONZALEZ Grantor: LENNAR HOMES OF TEXAS SALES AND MARKETING LTD Grantor: ORR ASHLEY Grantor: U S HOME CORPORATION Grantor: U S HOME LLC Grantor: VELASQUEZ OSCAR FIDEL ACOSTA Grantee: ALVARADO MARTHA GLADIS GONZALEZ Grantee: LENNAR HOMES OF TEXAS SALES AND MARKETING LTD Grantee: ORR ASHLEY Grantee: U S HOME CORPORATION Grantee: U S HOME LLC Grantee: VELASQUEZ OSCAR FIDEL ACOSTA | Desc: BECKER MEADOWS Sec: 4 Lot: 20 Block: 1",
+        "RP-2022-566218 | 11/29/2022 | D/T | Grantor: ALVARADO MARTHA GLADIS GONZALEZ Grantor: VELASQUEZ OSCAR FIDEL ACOSTA Grantee: MEMBERS CHOICE CREDIT UNION Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK THOMAS E JR | Desc: BECKER MEADOWS Sec: 4 Lot: 20 Block: 1",
+        "RP-2022-457601 | 09/12/2022 | AGMT | Grantor: GUERRERO EMIGDIA Grantor: GUERRERO MARIA Grantor: GUERRERO MARIA D Grantor: JAUREZ OSCAR Grantor: VELASQUEZ OSCAR M JAUREZ Grantee: GUERRERO EMIGDIA Grantee: GUERRERO MARIA Grantee: GUERRERO MARIA D Grantee: JAUREZ OSCAR Grantee: VELASQUEZ OSCAR M JAUREZ | Desc: GOLFVIEW MANOR Lot: 13 Block: 6",
+        "RP-2022-293763 | 06/06/2022 | D/T | Grantor: VELASQUEZ ELIZABETH Grantor: VELASQUEZ OSCAR Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: BURNS MICHAEL | Desc: ATASCOCITA FOREST Sec: 25 Lot: 1 Block: 2",
+        "RP-2022-172989 | 04/01/2022 | D/T | Grantor: JIMENEZ HILDA G Grantor: VELASQUEZ OSCAR A Grantor: VELASQUEZ OSCAR ADAN Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: FRAPPIER ROBERT F | Desc: YAUPON RANCH Sec: 7 Lot: 35 Block: 1",
+        "RP-2022-142283 | 03/17/2022 | W/D | Grantor: CONTRERAS SANDRA Grantor: VELASQUEZ OSCAR Grantee: RIOS BRIAN FERNANDO | Desc: CANYON LAKES AT STONEGATE Sec: 12 Lot: 2 Block: 1",
+        "RP-2021-707600 | 12/10/2021 | D/T | Grantor: VELASQUEZ OSCAR JR Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: MARINOSCI LAW GROUP P C | Desc: CANYON VILLAGE AT CYPRESS SPRINGS Sec: 9 Lot: 41 Block: 1",
+        "RP-2021-540943 | 09/21/2021 | NOTICE | Grantor: MIR RAMI Grantor: VELASQUEZ OSCAR JAVIER Grantee: MIR RAMI Grantee: VELASQUEZ OSCAR JAVIER | Desc: GREEN PARK Sec: 3 Lot: 2 Block: 1",
+        "RP-2021-540942 | 09/21/2021 | D/T | Grantor: VELASQUEZ OSCAR JAVIER Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: PROSPERITY BANK Trustee: ZALMAN DAVID | Desc: GREEN PARK Sec: 3 Lot: 2 Block: 1",
+        "RP-2021-414180 | 07/22/2021 | NOTICE | Grantor: TALLEY CHARLES L Grantor: VELASQUEZ OSCAR OMAR Grantee: TALLEY CHARLES L Grantee: VELASQUEZ OSCAR OMAR | Desc: SHADY RIVER Sec: 3 Block: 7 Related Docs",
+        "RP-2021-414179 | 07/22/2021 | D/T | Grantor: VELASQUEZ OSCAR Grantee: COMMUNITY RESOURCE CREDIT UNION Trustee: BENOIT BRANDON E | Desc: SHADY RIVER Sec: 3 Block: 7 Related Docs",
+        "RP-2021-358910 | 06/25/2021 | D/T | Grantor: VELASQUEZ OSCAR ENRIQUE Grantee: BBVA USA Trustee: THOMPSON KIMBERLEE | Desc: MASON LAKES Sec: 3 Lot: 24 Block: 2 Related Docs",
+        "RP-2021-312136 | 06/04/2021 | W/D | Grantor: VELASQUEZ OSCAR Grantor: VELASQUEZ RUBEN PEREZ Grantee: VELASQUEZ OSCAR | Desc: HARBOR HOMESITE Lot: 31-32 Block: 29",
+        "RP-2021-266684 | 05/14/2021 | MTG | Grantor: VELASQUEZ ELIZABETH Grantor: VELASQUEZ OSCAR Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SEE INSTRUMENT | Desc: ATASCOCITA FOREST Sec: 25 Lot: 1 Block: 2",
+        "RP-2021-168617 | 03/31/2021 | D/T | Grantor: VELASQUEZ OSCAR O MENDEZ Grantee: S&S TEXAS PROPERTIES LLC Trustee: LANE BRENT A | Desc: GARDEN CITY PARK Sec: 3 Lot: 218 Block: F",
+        "RP-2020-533765 | 11/03/2020 | MTG | Grantor: VELASQUEZ ELIZABETH Grantor: VELASQUEZ OSCAR Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SEE INSTRUMENT | Desc: ATASCOCITA FOREST Sec: 25 Lot: 1 Block: 2",
+        "RP-2020-49340 | 02/03/2020 | NOTICE | Grantor: CONTRERAS ROSA LIDIA Grantor: SWE HOLDINGS GP LLC Grantor: SWE HOLDINGS LP Grantor: VELASQUEZ OSCAR MENDEZ Grantee: CONTRERAS ROSA LIDIA Grantee: SWE HOLDINGS GP LLC Grantee: SWE HOLDINGS LP Grantee: VELASQUEZ OSCAR MENDEZ | Desc: HAHLAND ADDITION Lot: 21 Block: A",
+        "RP-2020-49339 | 02/03/2020 | D/T | Grantor: CONTRERAS ROSA LIDIA Grantor: VELASQUEZ OSCAR MENDEZ Grantee: SWE HOLDINGS LP Trustee: WIZIG SCOTT | Desc: HAHLAND ADDITION Lot: 21 Block: A Related Docs",
+        "RP-2020-22391 | 01/16/2020 | T/L | Grantor: VELASQUEZ OSCAR G Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-147052 | 04/02/2020 | NOTICE | Grantor: ANGLIA HOMES LP Grantor: GG TWIN ASSETS GP LLC Grantor: VELASQUEZ OSCAR A Grantee: ANGLIA HOMES LP Grantee: GG TWIN ASSETS GP LLC Grantee: VELASQUEZ OSCAR A | Desc: IMPERIAL TRACE Sec: 6 Lot: 11 Block: 1",
+        "RP-2020-147051 | 04/02/2020 | D/T | Grantor: LOPEZ SANDOVAL MIRNA ESTELA Grantor: VELASQUEZ OSCAR A Grantee: AMCAP MORTGAGE LTD Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: RAMIREZ RICHARD A | Desc: IMPERIAL TRACE Sec: 6 Lot: 11 Block: 1",
+        "RP-2018-489170 | 10/26/2018 | D/T | Grantor: VELASQUEZ OSCAR A Grantor: VELASQUEZ VERONICA P Grantee: CY-FAIR FEDERAL CREDIT UNION Trustee: WALKER JOHNETTE | Comment: SEE INSTRUMENT",
+        "RP-2018-459882 | 10/08/2018 | W/D | Grantor: GONZALEZ ORBELINA Grantor: VELASQUEZ ORBELINA G Grantor: VELASQUEZ OSCAR Grantee: RELENTLESS ACQUISITIONS LLC | Desc: ALDINE FOREST Lot: 11 Block: 2",
+        "RP-2018-396083 | 08/29/2018 | MODIF | Grantor: VELASQUEZ ELIZABETH Grantor: VELASQUEZ OSCAR Grantee: WELLS FARGO BANK N A | Desc: ATASCOCITA FOREST Sec: 25 Lot: 1 Block: 2 Related Docs",
+        "RP-2018-391977 | 08/27/2018 | ASSGN | Grantor: EMERGENCY SERVICE DIST #1 Grantor: EMERGENCY SERVICE DIST #25 Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: LONE STAR COLLEGE SYSTEM Grantor: PORT OF HOUSTON AUTHORITY Grantor: VELASQUEZ OSCAR Grantee: FGMS HOLDINGS LLC | Desc: ALDINE FOREST Lot: 11 Block: 2",
+        "RP-2018-370170 | 08/14/2018 | ASSGN | Grantor: ALDINE INDEPENDENT SCHOOL DISTRICT Grantor: ALDINE ISD Grantor: VELASQUEZ OSCAR Grantee: FGMS HOLDINGS LLC | Desc: ALDINE FOREST Lot: 11 Block: 2",
+        "RP-2018-342667 | 07/30/2018 | CONT | Grantor: VELASQUEZ OSCAR Grantee: FGMS HOLDINGS LLC | Desc: ALDINE FOREST SUBDIVISION Lot: 11 Block: 2",
+        "RP-2017-384743 | 08/25/2017 | NOTICE | Grantor: MULUMBA GHISLAIN T Grantor: MULUMBA MAH S Grantor: VELASQUEZ OSCAR Grantee: MULUMBA GHISLAIN T Grantee: MULUMBA MAH S Grantee: VELASQUEZ OSCAR | Desc: RIATA WEST Lot: 9 Block: 7",
+        "RP-2017-384741 | 08/25/2017 | W/D | Grantor: VELASQUEZ OSCAR Grantee: MULUMBA GHISLAIN T Grantee: MULUMBA MAH S | Desc: RIATA WEST Lot: 9 Block: 7",
+        "RP-2017-141869 | 04/04/2017 | NOTICE | Grantor: BLAKELY JOHN Grantor: BLAKELY WANDA Grantor: GOMES YAZMIN C Grantor: VELASQUEZ OSCAR R Grantor: VELASQUEZ YAZMIN C Grantee: BLAKELY JOHN Grantee: BLAKELY WANDA Grantee: GOMES YAZMIN C Grantee: VELASQUEZ OSCAR R Grantee: VELASQUEZ YAZMIN C | Desc: STONE GATE Sec: 6 Lot: 9 Block: 1 Related Docs",
+        "RP-2017-141867 | 04/04/2017 | W/D | Grantor: GOMES YASMIN C Grantor: VELASQUEZ OSCAR R Grantee: BLAKELY JOHN NEAL Grantee: BLAKELY WANDA LEE | Desc: STONE GATE Sec: 6 Lot: 9 Block: 1",
+        "RP-2017-141866 | 04/04/2017 | P/A | Grantor: VELASQUEZ OSCAR R Grantee: GOMES YAZMIN C | Desc: STONE GATE Sec: 6 Lot: 9 Block: 1",
+        "RP-2016-441640 | 09/30/2016 | ASSGN | Grantor: EMERGENCY SERVICE DIST #1 Grantor: EMERGENCY SERVICE DIST #25 Grantor: HARRIS COUNTY Grantor: HARRIS COUNTY DEPT OF EDUCATION Grantor: HARRIS COUNTY FLOOD CONTROL DIST Grantor: HARRIS COUNTY HOSPITAL DISTRICT Grantor: LONE STAR COLLEGE SYSTEM Grantor: PORT OF HOUSTON AUTHORITY Grantor: VELASQUEZ OSCAR Grantee: FGMS HOLDINGS LLC | Desc: ALDINE FOREST Lot: 11 Block: 2 Related Docs",
+        "RP-2016-427961 | 09/22/2016 | ASSGN | Grantor: ALDINE ISD Grantor: VELASQUEZ OSCAR Grantee: FGMS HOLDINGS LLC | Desc: ALDINE FOREST Lot: 11 Block: 2",
+        "RP-2016-398071 | 09/06/2016 | D/T | Grantor: GONZALEZ ORBELINA Grantor: VELASQUEZ OSCAR Grantee: FGMS HOLDINGS LLC Trustee: CREEL LAW GROUP | Desc: ALDINE FOREST SUBDIVISION Lot: 11 Block: 2"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VELASQUEZ OSCAR')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "W/D": 20,
+        "REL": 18,
+        "LIEN": 7,
+        "P/A": 2,
+        "NOTICE": 18,
+        "AGMT": 2,
+        "A/J": 3,
+        "D/T": 17,
+        "MODIF": 2,
+        "DEED": 1,
+        "AFFT": 2,
+        "REINST": 1,
+        "MTG": 2,
+        "T/L": 1,
+        "ASSGN": 4,
+        "CONT": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VELASQUEZ OSCAR')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "48 instruments as grantee, 53 as grantor (index, name 'VELASQUEZ OSCAR')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VELASQUEZ OSCAR')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202561769",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "04/20/2026",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-04-20: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202561769 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de VELASQUEZ OSCAR (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 16506.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 8368.54,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 5507.35,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 8368.54,
+        "impuestos_que_hereda": 207.01,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 251.06,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 12826.61,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 8735.72,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.287,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "DESCARTADA",
+    "rationale": "El predio cae en floodway (descarte automatico del playbook). 100% del predio en SFHA (FEMA efectivo). Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 8735.72,
+    "all_in_cost_estimate": 12826.61,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+    ]
   }
 }

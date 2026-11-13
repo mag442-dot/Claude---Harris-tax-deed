@@ -211,5 +211,412 @@
       "source": "https://www.hctax.net/property/listings/saledetail?account=0760590060007",
       "retrieved_at": "2026-11-13"
     }
+  },
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.130691,
+        "lat": 29.793255
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0760590060007)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 44195,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0760590060007)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~102 x 440 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0760590060007)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "AE + otras",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "AE": 27.9,
+        "X (0.2 PCT ANNUAL CHANCE FLOOD HAZARD)": 24.2,
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 23.5,
+        "A": 24.4
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 52.3,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "title": {
+    "rp_hits_grantee": {
+      "value": [
+        "RP-2026-353124 | 08/31/2026 | REL | Grantor: LOANCARE LLC Grantor: TEXAS STATE AFFORDABLE HOUSING CORPORATION Grantee: GARCIA MAYRA JEANETTE Grantee: NAJERA ARELY | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2026-172295 | 05/04/2026 | LIEN | Grantor: CYPRESS RIDGE HOMEOWNERS ASSOCIATION INC Grantor: TOLLETT LUKE P Grantee: GARCIA MAYRA GRACIELA | Desc: CYPRESS RIDGE Sec: 4 Lot: 10 Block: 03 Related Docs",
+        "RP-2026-120487 | 03/31/2026 | DECREE | Grantor: REYNA JOSE Grantee: GARCIA MAYRA AZENETH | Desc: EAGLE LANDING Sec: 1 Lot: 13 Block: 2",
+        "RP-2025-453687 | 11/14/2025 | ASSGN | Grantor: LAKEVIEW COMMUNITY CAPITAL LLC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: FLORES ANTHONY Grantee: GARCIA MAYRA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-325761 | 08/19/2025 | REL | Grantor: HOLZ CHAREA Grantor: HOLZ DANIEL Grantee: GARCIA MAYRA A | Desc: WEST ACRES Lot: 7 Block: 6 Related Docs",
+        "RP-2025-299832 | 07/31/2025 | LIEN | Grantor: HOUSTON COMMUNITY MANAGEMENT SERVICES INC Grantor: LAW OFFICE OF BRADY T WYATT III Grantor: SPRINGFIELD HOMEOWNERS ASSOCIATION INC Grantor: WYATT BRADY T III Grantee: GARCIA MAYRA Grantee: JOSHI KANAIYAL | Desc: SPRINGFIELD ESTATES SUBDIVISION Sec: 11 Lot: 7 Block: 1",
+        "RP-2025-227641 | 06/13/2025 | REL | Grantor: BANK OF AMERICA N A Grantor: FIRST AMERICAN MORTGAGE SOLUTIONS LLC Grantor: NATIONSBANC MORTGAGE CORPORATION Grantee: GARCIA JORGE O Grantee: GARCIA MAYRA A | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2025-12165 | 01/13/2025 | A/J | Grantor: MIDLAND CREDIT MANAGEMENT INC Grantee: GARCIA MAYRA A | Comment: SEE INSTRUMENT",
+        "RP-2024-63049 | 02/23/2024 | QCD | Grantor: GARCIA MAYRA Grantor: VELASCO GAMALIEL Grantee: GARCIA MAYRA | Desc: ELMWOOD Lot: 5 Block: 7",
+        "RP-2024-439960 | 11/25/2024 | NOTICE | Grantor: TEXAS DEPARTMENT OF HOUSING AND COMMUNITY AFFAIRS Grantee: GARCIA MAYRA | Comment: SEE INSTRUMENT",
+        "RP-2024-409919 | 11/04/2024 | W/D | Grantor: LEBRON GABRIEL E MONTERO Grantor: MONTERO DALILAH Grantor: PEREZNEGRON DALILAH Grantee: GARCIA MAYRA HERRERA Grantee: SALAZAR DAVID GARCIA SR | Desc: FORBES CROSSING Sec: 1 Lot: 46 Block: 1",
+        "RP-2024-373840 | 10/09/2024 | W/D | Grantor: MAXPRO REALTY PARTNERS LLC Grantor: RIVERA SAUL SR Grantee: DUBON DOMINGO MAYEN Grantee: GARCIA MAYRA ELIZABETH SANCHEZ | Desc: RALSTON SUBDIVISION Sec: 3 Lot: 8 Block: 7",
+        "RP-2024-350055 | 09/23/2024 | A/J | Grantor: CITIBANK Grantor: CITIBANK N A Grantee: GARCIA MAYRA | Comment: SEE INSTRUMENT",
+        "RP-2023-85648 | 03/13/2023 | A/J | Grantor: GOOSE CREEK CONSOLIDATED INDEPENDENT SCHOOL DISTRICT Grantor: HARRIS COUNTY Grantor: LEE COLLEGE DISTRICT Grantee: GARCIA MAYRA | Comment: SEE INSTRUMENT",
+        "RP-2023-76320 | 03/06/2023 | REL | Grantor: INTERLINC MORTGAGE SERVICES LLC Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GARCIA MAYRA DELGADO Grantee: MARES CLEMENTE PEREZ | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2023-393980 | 10/13/2023 | W/D | Grantor: MYERS JAMES B EST Grantor: MYERS JAMES BOYD EST Grantor: MYERS JAMES R Grantor: MYERS JAMES RAY Grantor: MYERS LORETTA P EST Grantor: MYERS LORETTA PICKETT EST Grantee: GARCIA MAYRA GOMEZ Grantee: GARCIA RUBEN MARROQUIN | Desc: EDGEWOOD ESTATES Lot: 5",
+        "RP-2023-315733 | 08/18/2023 | W/D | Grantor: CANTU JORGE A Grantee: GARCIA MAYRA JEANETTE Grantee: NAJERA ARELY | Desc: WOODLAND TRAILS NORTH Sec: 1 Lot: 4 Block: 2",
+        "RP-2023-19266 | 01/19/2023 | W/D | Grantor: GARCIA MARIA LUISA Grantor: GARCIA PANIFILO A Grantee: GARCIA ALFONSO MANUEL Grantee: GARCIA MAYRA | Desc: PINE VALLEY SUBDIVISION Lot: 1 Block: 2A",
+        "RP-2023-154743 | 05/01/2023 | NOTICE | Grantor: GARCIA EMANUEL Grantor: GARCIA MAYRA Grantor: GARCIA RODOLFO Grantor: SOUTHWEST WHOLESALE LLC Grantee: GARCIA EMANUEL Grantee: GARCIA MAYRA Grantee: GARCIA RODOLFO Grantee: SOUTHWEST WHOLESALE LLC | Desc: ONE MONTREAL CONDOMINIUMS Unit: 1602 Related Docs",
+        "RP-2023-154741 | 05/01/2023 | W/D | Grantor: SOUTHWEST WHOLESALE LLC Grantee: GARCIA EMANUEL Grantee: GARCIA MAYRA Grantee: GARCIA RODOLFO | Desc: ONE MONTREAL CONDOMINIUMS Unit: 1602",
+        "RP-2023-114560 | 03/31/2023 | W/D | Grantor: HOLZ CHAREA Grantor: HOLZ DANIEL Grantee: GARCIA MAYRA A | Desc: WEST ACRES Lot: 7 Block: 6 Related Docs",
+        "RP-2022-597896 | 12/22/2022 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: NATIONSTAR MORTGAGE LLC Grantee: GARCIA MAYRA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-543286 | 11/08/2022 | W/D | Grantor: CLAYTOR KATHERINE Grantor: SCHOVAJSA TYLER Grantee: GARCIA JOSE MANUEL Grantee: GARCIA MAYRA IDALIA | Desc: BRIDGES ON LAKE HOUSTON Sec: 3 Lot: 6 Block: 2",
+        "RP-2022-378125 | 07/22/2022 | REL | Grantor: COMERICA BANK Grantor: LESCH MARJORIE Grantee: GARCIA MAYRA Grantee: GARCIA RUBEN | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2022-344246 | 07/05/2022 | W/D | Grantor: DE ANDA JOYCE Grantor: DE ANDA ROBERTO Grantee: GARCIA MAYRA GRICELDA BARRERA Grantee: GONZALEZ EFREN JR | Desc: CHAMPNEY S Abstract: 790 Comment: 0.9994 Related Docs",
+        "RP-2022-301623 | 06/09/2022 | W/D | Grantor: YOUNG MICHAEL L Grantor: YOUNG SAMANTHA Grantee: APOLINAR JOSE M Grantee: GARCIA MAYRA A | Desc: SILVERMILL Sec: 2 Lot: 21 Block: 1",
+        "RP-2022-278634 | 05/26/2022 | W/D | Grantor: CHEN CHIALING CHARLENE Grantor: WU HSUEH LIEN Grantee: GARCIA MAYRA Grantee: GARCIA ROLANDO | Desc: STERLING KNOLL Sec: 1 Lot: 11 Block: 7",
+        "RP-2022-212432 | 04/22/2022 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: GARCIA AMERICO B Grantee: GARCIA MAYRA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-83204 | 02/18/2021 | REL | Grantor: WELLS FARGO BANK Grantee: GARCIA MAYRA | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-738882 | 12/28/2021 | A/J | Grantor: PASADENA INDEPENDENT SCHOOL DISTRICT Grantee: GARCIA MAYRA Grantee: PADILLA JOSE | Comment: SEE INSTRUMENT",
+        "RP-2020-627269 | 12/21/2020 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: GARCIA MAYRA Grantee: PADILLA ALEJANDRO JR | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-595965 | 12/04/2020 | NOTICE | Grantor: BHASIN HITEE Grantor: GARCIA MAYRA Grantor: PADILLA ALEJANDRO JR Grantor: PADILLA MAYRA Grantor: ROBERTSON CASEY Grantee: BHASIN HITEE Grantee: GARCIA MAYRA Grantee: PADILLA ALEJANDRO JR Grantee: PADILLA MAYRA Grantee: ROBERTSON CASEY | Desc: AMERICAS TOWNHOMES Sec: 1 Lot: 21 Block: 1 Related Docs",
+        "RP-2020-340883 | 07/30/2020 | REL | Grantor: CORNERSTONE MORTGAGE COMPANY Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GARCIA MAYRA E Grantee: HERNANDEZ EDGAR E | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2020-265809 | 06/19/2020 | W/D | Grantor: GARCIA GRACIELA Grantor: GARCIA ROGELIO Grantee: GARCIA MAYRA ALEJANDRA | Desc: HIGH MEADOWS Sec: 4 Lot: 157 Block: 22 Related Docs",
+        "RP-2019-428223 | 09/27/2019 | W/D | Grantor: HUEGEL LEA NICOLE Grantor: HUEGEL THOMAS M Grantee: DIAZ SERGIO ZAMUDIO Grantee: GARCIA MAYRA JUDITH ZAMUDIO | Desc: WOODLAND ACRES ANNEX NO 4 Sec: 4 Lot: 29 Block: 7",
+        "RP-2019-427699 | 09/26/2019 | REL | Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantor: UNIVERSAL AMERICAN MORTGAGE COMPANY LLC Grantee: GARCIA MAYRA Grantee: PADILLA ALEJANDRO | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2019-405875 | 09/12/2019 | W/D | Grantor: ASENCIO DINORA Grantor: ASENCIO JOSE A Grantee: ASENCIO DINORA Grantee: ASENCIO JOSE A Grantee: GARCIA MAYRA YANIRA ASCENCIO | Desc: GREENPARK Sec: 7 Lot: 34 Block: 1 Related Docs",
+        "RP-2019-265926 | 06/24/2019 | W/D | Grantor: LENZER DAVID AARON Grantee: GARCIA AMERICO B Grantee: GARCIA MAYRA | Desc: CROSS CREEK Sec: 1 Lot: 14 Block: 5",
+        "RP-2018-553526 | 12/11/2018 | W/D | Grantor: ALMAGRO HERNARDIS Grantor: TRUJILLO MISLEYDI Grantee: GARCIA MAYRA VETSAVET Grantee: HERNANDEZ MARIO A | Desc: HIGHLAND CREEK VILLAGE Sec: 1 Lot: 14 Block: 6",
+        "RP-2018-401526 | 08/31/2018 | W/D | Grantor: EVANS MARK A Grantor: EVANS MICHELLE A Grantee: GARCIA MAYRA DELGADO | Desc: STERLING GREEN SOUTH Sec: 4 Lot: 35 Block: 4",
+        "RP-2018-347854 | 08/01/2018 | A/J | Grantor: COMMUNITY RESOURCE CREDIT UNION Grantee: GARCIA EDUARDO Grantee: GARCIA MAYRA Grantee: ZAVALA MAYRA | Comment: SEE INSTRUMENT",
+        "RP-2018-107913 | 03/14/2018 | REL | Grantor: JPMORGAN CHASE BANK N A Grantee: GARCIA ALGER L Grantee: GARCIA MAYRA G | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2017-439485 | 10/05/2017 | REL | Grantor: EAGLE LANDING COMMUNITY ASSOCIATION INC Grantee: GARCIA MAYRA Grantee: REYNA JOSE | Desc: EAGLE LANDING Sec: 1 Lot: 13 Block: 2 Related Docs",
+        "RP-2017-154952 | 04/11/2017 | REL | Grantor: ACADEMY MORTGAGE CORPORATION Grantor: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: GARCIA MAYRA Grantee: LOPEZ JESUS I | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2016-565712 | 12/19/2016 | W/D | Grantor: PNP DEVELOPMENT INC Grantee: GARCIA MAYRA TRE Grantee: GARCIA RUBEN TRE Grantee: RUBEN GARCIA AND MAYRA GARCIA REVOCABLE LIVING TRUST | Desc: EVERGREEN WOODS Lot: 11-12 Block: 8",
+        "RP-2016-55774 | 02/10/2016 | W/D | Grantor: LONG LAKE LTD Grantee: GARCIA MAYRA Grantee: JOSHI KANAIYALAL | Desc: SPRINGFIELD ESTATES SUBDIVISION Sec: 11 Lot: 7 Block: 1",
+        "RP-2016-471918 | 10/19/2016 | W/D | Grantor: CHHUON VOUM Grantee: GARCIA MAYRA | Desc: J A HARRIS TRACT",
+        "RP-2016-320996 | 07/22/2016 | LIEN | Grantor: EAGLE LANDING COMMUNITY ASSOCIATION INC Grantee: GARCIA MAYRA Grantee: REYNA JOSE | Desc: EAGLE LANDING Sec: 1 Lot: 13 Block: 2 Related Docs",
+        "RP-2016-212583 | 05/19/2016 | NOTICE | Grantor: GARCIA MAYRA GUADALUPE Grantor: GARCIA PEDRO EDUARDO Grantor: MOLINA CLAUDIA Grantor: MOLINA JOSEPH R Grantee: GARCIA MAYRA GUADALUPE Grantee: GARCIA PEDRO EDUARDO Grantee: MOLINA CLAUDIA Grantee: MOLINA JOSEPH R | Desc: EAGLE RANCH WEST Sec: 3 Lot: 5 Block: 7 Related Docs",
+        "RP-2016-212582 | 05/19/2016 | W/D | Grantor: MOLINA CLAUDIA Grantor: MOLINA JOSEPH R Grantee: GARCIA MAYRA GUADALUPE Grantee: GARCIA PEDRO EDUARDO | Desc: EAGLE RANCH WEST Sec: 3 Lot: 5 Block: 7",
+        "RP-2016-118467 | 03/23/2016 | W/D | Grantor: BOOKER KENNETH Grantee: GARCIA MAYRA | Desc: STIMSON E Abstract: 702 Comment: 0.247935 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GARCIA MAYRA')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [
+        "RP-2025-470280 | 11/26/2025 | T/L | Grantor: CARDOZA OSBALDO Grantor: GARCIA MAYRA E Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2025-362373 | 09/12/2025 | D/T | Grantor: GARCIA MAYRA GRACIELA Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: BLACK MANN AND GRAHAM L L P | Desc: CYPRESS RIDGE Sec: 4 Lot: 10 Block: 3",
+        "RP-2025-239437 | 06/23/2025 | W/D | Grantor: BUENROSTRO MAYRA Grantor: GARCIA MAYRA Grantor: GARCIA MAYRA BUENROSTRO Grantee: MARTINEZ CHRISTOPHER Grantee: MARTINEZ DANIELA | Desc: NOWLINGSHIRE ESTATES Lot: 16 Block: 1",
+        "RP-2025-138436 | 04/15/2025 | AFFT | Grantor: GARCIA MAYRA VERONICA ESQUIVEL Grantor: PINA MIGUEL ANGEL BAZALDUA Grantee: SEE INSTRUMENT | Desc: RIVERSTONE RANCH Sec: 3 Lot: 1 Block: 1",
+        "RP-2025-138435 | 04/15/2025 | D/T | Grantor: GARCIA MAYRA VERONICA ESQUIVEL Grantor: PINA MIGUEL ANGEL BAZALDUA Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: UNITED WHOLESALE MORTGAGE LLC Trustee: BLACK MANN & GRAHAM L L P | Desc: RIVERSTONE RANCH Sec: 3 Lot: 1 Block: 1",
+        "RP-2024-63049 | 02/23/2024 | QCD | Grantor: GARCIA MAYRA Grantor: VELASCO GAMALIEL Grantee: GARCIA MAYRA | Desc: ELMWOOD Lot: 5 Block: 7",
+        "RP-2024-470808 | 12/18/2024 | AFFT | Grantor: GARCIA MAYRA A Grantor: GARCIA MAYRA ALEJANDRA Grantee: SEE INSTRUMENT | Desc: HIGH MEADOWS Sec: 4 Lot: 157 Block: 22",
+        "RP-2024-470807 | 12/18/2024 | D/T | Grantor: GARCIA MAYRA A Grantor: GARCIA MAYRA ALEJANDRA Grantee: JPMORGAN CHASE BANK N A Trustee: POLUNSKY ALLAN B | Desc: HIGH MEADOWS Sec: 4 Lot: 157 Block: 22 Related Docs",
+        "RP-2024-444951 | 11/27/2024 | DECREE | Grantor: BUENROSTRO MAYRA Grantor: GARCIA MAYRA BUENROSTRO Grantee: GARCIA BIBIANO | Comment: SEE INSTRUMENT",
+        "RP-2024-409920 | 11/04/2024 | D/T | Grantor: GARCIA MAYRA HERRERA Grantor: SALAZAR DAVID GARCIA SR Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: PARAMOUNT RESIDENTIAL MORTGAGE GROUP INC Trustee: GRAHAM GREGORY S | Desc: FORBES CROSSING Sec: 1 Lot: 46 Block: 1",
+        "RP-2024-373841 | 10/09/2024 | D/T | Grantor: DUBON DOMINGO MAYEN Grantor: GARCIA MAYRA ELIZABETH SANCHEZ Grantee: MAXPRO REALTY PARTNERS LLC Trustee: KASPER TRAVIS | Desc: RALSTON SUBDIVISION Sec: 3 Lot: 8 Block: 7",
+        "RP-2024-213640 | 06/12/2024 | T/L | Grantor: CARDOZA OSBALDO Grantor: GARCIA MAYRA Grantee: INTERNAL REVENUE SERVICE | Comment: SEE INSTRUMENT",
+        "RP-2023-409294 | 10/25/2023 | D/T | Grantor: GARCIA MAYRA Grantor: REYNA JOSE Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: VALBY SCOTT R | Desc: EAGLE LANDING Sec: 1 Lot: 13 Block: 2",
+        "RP-2023-393983 | 10/13/2023 | AFFT | Grantor: GARCIA MAYRA GOMEZ Grantor: GARCIA RUBEN MARROQUIN Grantee: SEE INSTRUMENT | Desc: EDGEWOOD ESTATES Lot: 5",
+        "RP-2023-393982 | 10/13/2023 | ASSGN | Grantor: GARCIA MAYRA GOMEZ Grantor: GARCIA RUBEN MARROQUIN Grantee: CHASEWOOD BANK | Desc: EDGEWOOD ESTATES Lot: 5",
+        "RP-2023-393981 | 10/13/2023 | D/T | Grantor: GARCIA MAYRA GOMEZ Grantor: GARCIA RUBEN MARROQUIN Grantee: CHASEWOOD BANK Trustee: TYER BOB | Desc: EDGEWOOD ESTATES Lot: 5",
+        "RP-2023-36193 | 02/02/2023 | D/T | Grantor: GARCIA MAYRA L IZAGUIRRE Grantor: VILLA JESUS ANTONIO Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: BLACK THOMAS E JR | Desc: LIBERTY LAKES Sec: 1 Lot: 11 Block: 3",
+        "RP-2023-315735 | 08/18/2023 | D/T | Grantor: GARCIA MAYRA JEANETTE Grantor: NAJERA ARELY Grantee: TEXAS STATE AFFORDABLE HOUSING CORPORATION Trustee: LONG DAVID | Desc: WOODLAND TRAILS NORTH Sec: 1 Lot: 4 Block: 2 Related Docs",
+        "RP-2023-315734 | 08/18/2023 | D/T | Grantor: GARCIA MAYRA JEANETTE Grantor: NAJERA ARELY Grantee: EVERETT FINANCIAL INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SUPREME LENDING Trustee: EVERETT SCOTT | Desc: WOODLAND TRAILS NORTH Sec: 1 Lot: 4 Block: 2",
+        "RP-2023-154743 | 05/01/2023 | NOTICE | Grantor: GARCIA EMANUEL Grantor: GARCIA MAYRA Grantor: GARCIA RODOLFO Grantor: SOUTHWEST WHOLESALE LLC Grantee: GARCIA EMANUEL Grantee: GARCIA MAYRA Grantee: GARCIA RODOLFO Grantee: SOUTHWEST WHOLESALE LLC | Desc: ONE MONTREAL CONDOMINIUMS Unit: 1602 Related Docs",
+        "RP-2023-154742 | 05/01/2023 | D/T | Grantor: GARCIA EMANUEL Grantor: GARCIA MAYRA Grantor: GARCIA RODOLFO Grantee: WELLS FARGO BANK N A Trustee: FOWLER ROBERT K | Desc: ONE MONTREAL CONDOMINIUM Unit: 1602",
+        "RP-2023-114561 | 03/31/2023 | D/T | Grantor: GARCIA MAYRA A Grantee: HOLZ CHAREA Grantee: HOLZ DANIEL Trustee: ROCKAFELLOW TYLER | Desc: WEST ACRES Lot: 7 Block: 6 Related Docs",
+        "RP-2022-543287 | 11/08/2022 | D/T | Grantor: GARCIA JOSE MANUEL Grantor: GARCIA MAYRA IDALIA Grantee: CORNERSTONE CAPITAL BANK SSB Grantee: CORNERSTONE HOME LENDING Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: VALBY SCOTT R | Desc: BRIDGES ON LAKE HOUSTON Sec: 3 Lot: 6 Block: 2",
+        "RP-2022-500503 | 10/10/2022 | QCD | Grantor: GARCIA MAYRA E Grantee: GARCIA ANA E Grantee: GARCIA ANA ESPERANZA | Desc: CAMDEN PARK Sec: 4 Lot: 13 Block: 9",
+        "RP-2022-495188 | 10/05/2022 | AFFT | Grantor: GARCIA BENJAMIN Grantor: GARCIA MAYRA Grantee: SEE INSTRUMENT | Desc: GWENETTE COURT SECOND SUBDIVISION Lot: 1-2 Block: 5",
+        "RP-2022-495187 | 10/05/2022 | D/T | Grantor: GARCIA BENJAMIN Grantor: GARCIA MAYRA Grantee: COMMUNITY RESOURCE CREDIT UNION Trustee: BLACK MANN & GRAHAM L L P | Desc: GWENETTE COURT Lot: 1-2 Block: 5",
+        "RP-2022-427816 | 08/22/2022 | D/T | Grantor: GARCIA ERICK DOLORES GUZMAN Grantor: GARCIA MAYRA ELISA GUZMAN Grantor: MIRANDA MIGUEL ANTONIO MANZANO Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: TOWN SQUARE MORTGAGE Grantee: TOWN SQUARE MORTGAGE AND INVESTMENTS LLC Trustee: TROY D PHILLIPS P C | Desc: MOUNT ROYAL VILLAGE Sec: 2 Lot: 15 Block: 7",
+        "RP-2022-344248 | 07/05/2022 | AFFT | Grantor: GARCIA MAYRA GRICELDA BARRERA Grantor: GONZALEZ EFREN JR Grantee: SEE INSTRUMENT | Desc: S T CHAMPNEY SURVEY Abstract: 790 Comment: 0.9994",
+        "RP-2022-344247 | 07/05/2022 | D/T | Grantor: GARCIA MAYRA GRICELDA BARRERA Grantor: GONZALEZ EFREN JR Grantee: AMCAP MORTGAGE LTD Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: RAMIREZ RICHARD A | Desc: CHAMPNEY S Abstract: 790 Comment: 0.9994 Related Docs",
+        "RP-2022-301624 | 06/09/2022 | D/T | Grantor: APOLINAR JOSE M Grantor: GARCIA MAYRA A Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: REPUBLIC STATE MORTGAGE CO Trustee: WAGNON ROBERT | Desc: SILVERMILL Sec: 2 Lot: 21 Block: 1",
+        "RP-2022-278635 | 05/26/2022 | D/T | Grantor: GARCIA MAYRA Grantor: GARCIA ROLANDO Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: PRIMELENDING Trustee: POLUNSKY ALLAN B | Desc: STERLING KNOLL Sec: 1 Lot: 11 Block: 7",
+        "RP-2022-197772 | 04/14/2022 | AFFT | Grantor: GARCIA CONNIE Grantor: GARCIA MAYRA Grantor: LOPEZ VICTOR Grantee: LOPEZ MARIA ROSA EST | Desc: LE JARDIN TOWNHOMES Unit: 19",
+        "RP-2022-195103 | 04/13/2022 | AFFT | Grantor: GARCIA AMERICO B Grantor: GARCIA MAYRA Grantee: SEE INSTRUMENT | Desc: CROSS CREEK Sec: 1 Lot: 14 Block: 5",
+        "RP-2022-195102 | 04/13/2022 | D/T | Grantor: GARCIA AMERICO B Grantor: GARCIA MAYRA Grantee: CAKE MORTGAGE CORP Grantee: MILLENNIAL HOME LENDING Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: MARCHLINSKI HEATHER | Desc: CROSS CREEK Sec: 1 Lot: 14 Block: 5",
+        "RP-2022-18352 | 01/11/2022 | MODIF | Grantor: GARCIA MAYRA TRE Grantor: GARCIA RUBEN TRE Grantor: RUBEN GARCIA AND MAYRA GARCIA REVOCABLE LIVING TRUST Grantee: CHASEWOOD BANK | Comment: SEE INSTRUMENT Related Docs",
+        "RP-2021-80969 | 02/12/2021 | W/D | Grantor: GARCIA MAYRA Grantor: MEZA MAYRA Grantor: MEZA RICARDO Grantee: BUI KHIEM L Grantee: DUONG MAI H | Desc: BRENWOOD Sec: 7 Lot: 19 Block: 6",
+        "RP-2021-528936 | 09/15/2021 | W/D | Grantor: GARCIA ISRAEL Grantor: GARCIA MAYRA DE LEON Grantee: OPEN HOUSE TEXAS REALTY & INVESTMENTS LLC | Desc: WOODSPRING FOREST Sec: 2 Lot: 27 Block: 2",
+        "RP-2021-527231 | 09/14/2021 | D/T | Grantor: GARCIA MAYRA GRACIELA Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: BLACK MANN AND GRAHAM L L P | Desc: CYPRESS RIDGE Sec: 4 Lot: 10 Block: 3",
+        "RP-2021-514127 | 09/08/2021 | D/T | Grantor: GARCIA CHRISTIAN Grantor: GARCIA MAYRA Grantee: TEXAS DEPARTMENT OF HOUSING AND COMMUNITY AFFAIRS Trustee: WILKINSON ROBERT | Desc: JASMINE HEIGHTS Sec: 17 Lot: 52 Block: 1",
+        "RP-2021-514126 | 09/08/2021 | D/T | Grantor: GARCIA CHRISTIAN Grantor: GARCIA MAYRA Grantee: DHI MORTGAGE COMPANY LTD Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: HERNANDEZ ANGELA R | Desc: JASMINE HEIGHTS Sec: 17 Lot: 52 Block: 1",
+        "RP-2021-434292 | 08/02/2021 | D/T | Grantor: FLORES ANTHONY Grantor: GARCIA MAYRA Grantee: LAKEVIEW COMMUNITY CAPITAL LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK THOMAS E JR | Desc: WESTADOR Sec: 4 Lot: 178 Block: 11 Related Docs",
+        "RP-2021-271330 | 05/17/2021 | W/D | Grantor: BAZALDUA MIGUEL A Grantor: GARCIA MAYRA V ESQUIVEL Grantee: APARICIO JOSE ALFREDO FUENTES Grantee: MANRIQUEZ MARICELA | Desc: KIRKWOOD SOUTH Sec: 1 Lot: 15 Block: 1",
+        "RP-2021-163373 | 03/29/2021 | W/D | Grantor: GARCIA MAYRA Grantor: MENDOZA ELISA MUNGUIA Grantor: TORRES MARIA Grantee: LAGUNAS ELENA Grantee: LAGUNAS MIGUEL | Desc: PLUMWOOD Sec: 1 Lot: 5 Block: 3",
+        "RP-2021-163372 | 03/29/2021 | REL | Grantor: GARCIA MAYRA Grantor: MENDOZA ELISA MUNGUIA Grantor: TORRES MARIA Grantee: LAGUNAS ELENA Grantee: LAGUNAS MIGUEL | Desc: PLUMWOOD Sec: 1 Lot: 5 Block: 3 Related Docs",
+        "RP-2021-12415 | 01/08/2021 | MTG | Grantor: GARCIA JORGE G Grantor: GARCIA MAYRA Grantee: SECRETARY OF HOUSING AND URBAN DEVELOPMENT Trustee: SEE INSTRUMENT | Desc: LAKES OF BRIDGEWATER Sec: 9 Lot: 47 Block: 2",
+        "RP-2020-595965 | 12/04/2020 | NOTICE | Grantor: BHASIN HITEE Grantor: GARCIA MAYRA Grantor: PADILLA ALEJANDRO JR Grantor: PADILLA MAYRA Grantor: ROBERTSON CASEY Grantee: BHASIN HITEE Grantee: GARCIA MAYRA Grantee: PADILLA ALEJANDRO JR Grantee: PADILLA MAYRA Grantee: ROBERTSON CASEY | Desc: AMERICAS TOWNHOMES Sec: 1 Lot: 21 Block: 1 Related Docs",
+        "RP-2020-595963 | 12/04/2020 | W/D | Grantor: GARCIA MAYRA Grantor: PADILLA ALEJANDRO Grantor: PADILLA MAYRA Grantee: BHASIN HITEE Grantee: ROBERTSON CASEY | Desc: AMERICAS TOWNHOMES Sec: 1 Lot: 21 Block: 1",
+        "RP-2020-547028 | 11/09/2020 | AFFT | Grantor: BARRAGAN GINA Grantor: ESTRADA ARTURO C Grantor: GARCIA MAYRA Grantee: ESTRADA SOFIA C EST | Desc: HOUSTON MANOR Lot: 9 Block: 31",
+        "RP-2020-420164 | 09/08/2020 | DECREE | Grantor: GARCIA MAYRA ALEJANDRA Grantor: HEREBIA MAYRA ALEJANDRA Grantee: HEREBIA ALFONZO | Desc: SHELDON RIDGE Sec: 2 Lot: 28 Block: 4",
+        "RP-2020-292214 | 07/02/2020 | D/T | Grantor: GARCIA MAYRA E Grantor: HERNANDEZ EDGAR E Grantor: RIVERA EDGAR ERNESTO HERNANDEZ Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SECURITYNATIONAL MORTGAGE COMPANY Trustee: DOUGLAS JOHN A | Desc: MORTON CREEK RANCH Sec: 3 Lot: 2 Block: 1",
+        "RP-2020-214148 | 05/20/2020 | D/T | Grantor: GARCIA MAYRA L IZAGUIRRE Grantor: VILLA JESUS ANTONIO Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: UNION HOME MORTGAGE CORP Trustee: BLACK THOMAS E JR | Desc: LIBERTY LAKES Sec: 1 Lot: 11 Block: 3",
+        "RP-2019-429366 | 09/27/2019 | D/T | Grantor: GARCIA HECTOR ELIUD SR Grantor: GARCIA MAYRA E VARGAS Grantee: HOMEBRIDGE FINANCIAL SERVICES INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: BLACK THOMAS E JR | Desc: ALBER GROVE Sec: 1 Lot: 37 Block: C",
+        "RP-2019-428224 | 09/27/2019 | D/T | Grantor: DIAZ SERGIO ZAMUDIO Grantor: GARCIA MAYRA JUDITH ZAMUDIO Grantee: INTERLINC MORTGAGE SERVICES LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Comment: SEE INSTRUMENT",
+        "RP-2019-335945 | 08/02/2019 | D/T | Grantor: AGUILAR JOAQUIN GARCIA Grantor: GARCIA MAYRA YESENIA Grantee: AMCAP MORTGAGE LTD Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: RAMIREZ RICHARD A | Desc: MEMORIAL SPRINGS Sec: 1 Lot: 4 Block: 1 Related Docs",
+        "RP-2019-265927 | 06/24/2019 | D/T | Grantor: GARCIA AMERICO B Grantor: GARCIA MAYRA Grantee: JPMORGAN CHASE BANK N A Trustee: POLUNSKY ALLAN B | Desc: CROSS CREEK Sec: 1 Lot: 14 Block: 5 Related Docs",
+        "RP-2019-199573 | 05/14/2019 | REL | Grantor: GARCIA MAYRA B Grantee: TRINH ROGER K | Comment: SEE INSTRUMENT",
+        "RP-2018-94082 | 03/06/2018 | AFFT | Grantor: GARCIA ALGER L Grantor: GARCIA MAYRA G Grantee: SEE INSTRUMENT | Desc: TIERRA GLEN Sec: 3 Lot: 23 Block: 1",
+        "RP-2018-94081 | 03/06/2018 | D/T | Grantor: GARCIA ALGER L Grantor: GARCIA MAYRA G Grantee: AMOCO FEDERAL CREDIT UNION Trustee: BLACK MANN & GRAHAM LLP | Desc: TIERRA GLEN Sec: 3 Lot: 23 Block: 1",
+        "RP-2018-553527 | 12/11/2018 | D/T | Grantor: GARCIA MAYRA VETSAVET Grantor: HERNANDEZ MARIO A Grantee: EVERETT FINANCIAL INC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: SUPREME LENDING Trustee: EVERETT SCOTT | Desc: HIGHLAND CREEK VILLAGE Sec: 1 Lot: 14 Block: 6",
+        "RP-2018-401527 | 08/31/2018 | D/T | Grantor: GARCIA MAYRA DELGADO Grantor: MARES CLEMENTE PEREZ Grantee: INTERLINC MORTGAGE SERVICES LLC Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: POLUNSKY ALLAN B | Desc: STERLING GREEN SOUTH Sec: 4 Lot: 35 Block: 4 Related Docs",
+        "RP-2018-344573 | 07/31/2018 | REL | Grantor: GARCIA MAYRA B Grantee: TRINH ROGER K | Comment: SEE INSTRUMENT",
+        "RP-2017-128933 | 03/28/2017 | D/T | Grantor: GARCIA MAYRA Grantor: LOPEZ JESUS I Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Grantee: QUICKEN LOANS INC Trustee: TITLE SOURCE INC | Desc: SAGEMONT Sec: 7 Lot: 27 Block: 38 Related Docs",
+        "RP-2016-565714 | 12/19/2016 | ASSGN | Grantor: GARCIA MAYRA TRE Grantor: GARCIA RUBEN TRE Grantor: RUBEN GARCIA AND MAYRA GARCIA REVOCABLE LIVING TRUST Grantee: CHASEWOOD BANK | Desc: EVERGREEN WOODS Lot: 11-12 Block: 8 Related Docs",
+        "RP-2016-565713 | 12/19/2016 | D/T | Grantor: GARCIA MAYRA TRE Grantor: GARCIA RUBEN TRE Grantor: RUBEN GARCIA AND MAYRA GARCIA REVOCABLE LIVING TRUST Grantee: CHASEWOOD BANK Trustee: TYER BOB | Desc: EVERGREEN WOODS Lot: 11-12 Block: 8 Related Docs",
+        "RP-2016-55775 | 02/10/2016 | D/T | Grantor: GARCIA MAYRA Grantor: JOSHI KANAIYALAL Grantee: FIRST CALIFORNIA MORTGAGE COMPANY Grantee: MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC Trustee: PEIRSON CHRIS A | Desc: SPRINGFIELD ESTATES SUBDIVISION Sec: 11 Lot: 7 Block: 1",
+        "RP-2016-228281 | 05/31/2016 | LIEN | Grantor: ATTORNEY GENERAL OFFICE Grantor: GARCIA MAYRA Grantee: TRINH ROGER | Comment: SEE INSTRUMENT",
+        "RP-2016-212583 | 05/19/2016 | NOTICE | Grantor: GARCIA MAYRA GUADALUPE Grantor: GARCIA PEDRO EDUARDO Grantor: MOLINA CLAUDIA Grantor: MOLINA JOSEPH R Grantee: GARCIA MAYRA GUADALUPE Grantee: GARCIA PEDRO EDUARDO Grantee: MOLINA CLAUDIA Grantee: MOLINA JOSEPH R | Desc: EAGLE RANCH WEST Sec: 3 Lot: 5 Block: 7 Related Docs"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GARCIA MAYRA')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {
+        "REL": 17,
+        "LIEN": 4,
+        "DECREE": 3,
+        "ASSGN": 3,
+        "A/J": 5,
+        "QCD": 3,
+        "NOTICE": 7,
+        "W/D": 28,
+        "T/L": 2,
+        "D/T": 35,
+        "AFFT": 9,
+        "MODIF": 1,
+        "MTG": 1
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GARCIA MAYRA')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "51 instruments as grantee, 67 as grantor (index, name 'GARCIA MAYRA')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GARCIA MAYRA')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    }
+  },
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202528027",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "12/04/2025",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2027-12-04: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://pacer.uscourts.gov",
+      "retrieved_at": "2026-11-13",
+      "note": "PACER requiere cuenta"
+    },
+    "legal_summary": {
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "status": "inferred",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202528027 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de GARCIA MAYRA A (1.0000%) en PACER",
+      "why": "requiere login/cuenta"
+    }
+  ],
+  "valuation": {
+    "value_base": {
+      "value": 615467.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 312041.77,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 28102.39,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 312041.77,
+        "impuestos_que_hereda": 11793.37,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 9361.25,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 337196.39,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 462699.25,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.825,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "improved_warning": {
+      "value": "Propiedad con mejoras: el valor HCAD no refleja deterioro/ocupacion; revender al valor HCAD es optimista sin inspeccion.",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "NO PARA DUPLEX",
+    "rationale": "Lote 44,195 sqft / 52% del predio en zona de inundacion especial (SFHA): heuristica contra la salida dúplex (no es un limite legal). Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "bid_ceiling": 462699.25,
+    "all_in_cost_estimate": 337196.39,
+    "contradictions": [],
+    "conditions_to_buy": [
+      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
+      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
+      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
+      "Visita al sitio: ocupacion y estado"
+    ]
   }
 }
