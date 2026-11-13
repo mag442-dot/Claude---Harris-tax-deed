@@ -597,16 +597,20 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $76,374 >= cierre esperado $55,390. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote C2 vacio de 5,750 sf en City of Houston, FEMA X, HCAD $109,250; RESALE con apertura $5,000 (4.6%). Hechos decisivos: dos escrituras del 09/22/2026 (RP-2026-384117/384118) de la iglesia duena y muchos demandados/herederos (Trombatore, etc.) a los entes de impuestos (probable strike-off), y deuda de 1979-2024 con $28,663 adeudados vs cola modelada de $4,735. Legal bloqueado y cadena de titulo complicada: el quiet title supuesto de $4,000 probablemente es bajo. Attorney review recommended.",
     "bid_ceiling": 76374.25,
     "all_in_cost_estimate": 65785.96,
-    "contradictions": [],
+    "contradictions": [
+      "Escrituras 09/22/2026 a los entes de impuestos vs HCAD que aun lista a NEW FELLOWSHIP MISS BAPT (direccion desconocida, desde 1988 que es fecha por defecto): venta RESALE de strike-off; estado real del titulo no confirmado.",
+      "Cola de impuestos $4,735 vs deuda total $28,663 (sentencia 1979-2024): el modelo supone que casi todo se extingue; no verificado.",
+      "Dueno es iglesia (posible exencion religiosa/entidad inactiva) y el titulo muestra multiples partes (Trombatore, Harrison, Sackville): quiet title de $4,000 probablemente subestimado y citacion por publicacion probable.",
+      "Apertura $5,000 (4.6% del valor, <5%) vs cierre esperado $55,390: la apertura no refleja el precio; lote GIS 5,927 vs HCAD 5,750 (+3%)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com/PACER (login: Miguel); attorney review recommended",
+      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar apertura final el dia de la venta (2026-12-01)",
+      "Leer RP-2026-384117 y 384118 (imagen)",
+      "Cotizar quiet title real con abogado dada la cadena (iglesia + herederos)"
     ]
   }
 }

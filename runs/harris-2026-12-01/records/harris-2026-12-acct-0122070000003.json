@@ -552,16 +552,19 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $44,518 >= cierre esperado $33,367. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote C1 doble (lotes 3 y 4, 13,500 sf, East Houston, City of Houston), FEMA X, HCAD $65,812: el mas viable para dúplex del grupo por tamano. Hechos decisivos: techo teorico $44,518 sobre costo total $41,164 y cierre esperado $33,367 con margen razonable, pero legal bloqueado (demandados/citacion/bancarrota) y sin filas del Clerk para validar liens (0 hits por nombre 'BROWN WALKER'). Apertura $12,391 > total adeudado $11,447. Attorney review recommended.",
     "bid_ceiling": 44517.74,
     "all_in_cost_estimate": 41164.01,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $12,391 > total adeudado $11,447: incluye costas no desglosadas.",
+      "Clerk sin ninguna fila (0 hits por nombre): ausencia de liens no es evidencia (nombre comun/ruidoso); modelo asume liens $0 por defecto.",
+      "Dueno 'BROWN WALKER JR' con fecha 01/02/1988 (por defecto HCAD): posible fallecido/sucesion; sentencia 2012-2024 sugiere citacion dificil (TRCP 329 hasta 2028-01-12)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com/PACER (login: Miguel); attorney review recommended",
+      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar apertura final el dia de la venta (2026-12-01)",
+      "Busqueda del Clerk por legal EAST HOUSTON Lts 3-4 Blk 34",
+      "Verificar si el dueno vive (sucesion) y restricciones/zonificacion para dúplex en 13,500 sf"
     ]
   }
 }

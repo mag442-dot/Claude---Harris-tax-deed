@@ -542,16 +542,19 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $16,518 >= cierre esperado $13,578. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Reserva A2 de 0.70 acre (C2, vacio), FEMA X, HCAD $26,781, opening $1,659 (6.2%). Hechos decisivos: el dueno es una corporacion y legal esta bloqueado (demandados/citacion no leidos), y el area GIS (35,849 sf) es 16% mayor que HCAD (30,766 sf) con clase C2/'Reserve' que no garantiza uso residencial/duplex. Techo teorico $16,518 cubre el cierre esperado $13,578 pero con colchon pequeno tras $4,000 de quiet title. Attorney review recommended.",
     "bid_ceiling": 16518.24,
     "all_in_cost_estimate": 18396.32,
-    "contradictions": [],
+    "contradictions": [
+      "Lote HCAD 30,766 sf vs GIS 35,849 sf (+16.5%): confirmar area real con plat/survey.",
+      "Impuestos en mora solo 2023 y 2025 aunque la sentencia cubre 2023-2025: falta 2024 (pagado o dato incompleto); cola $411 es muy baja y no verificada.",
+      "Filas del Clerk de 'title' no coinciden con la legal HCAD (SOUTHWEST CROSSING SEC 7): ninguna pertenece al predio; liens sin cuantificar (modelo los supone 0). Clase C2/Reserve vs estrategia duplex: restricciones del plat no evaluadas."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com/PACER (login: Miguel); attorney review recommended",
+      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar apertura final el dia de la venta (2026-12-01)",
+      "Leer plat/restricciones de Southwest Crossing Sec 7 (uso Reserve A2, permite duplex?)",
+      "Busqueda del Clerk por legal/subdivision (no por nombre) para liens"
     ]
   }
 }

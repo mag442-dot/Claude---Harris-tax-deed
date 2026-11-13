@@ -614,16 +614,19 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $20,317 >= cierre esperado $16,683. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote C1 de 6,750 sf (East Houston, City of Houston), FEMA X, HCAD $32,906, buen tamano para un lote de dúplex. Hechos decisivos: duena ausente (Carmichael, CA) con sentencia 2002-2024, lo que sube el riesgo de citacion por publicacion (TRCP 329 hasta 2027-09-12) y legal esta bloqueado; apertura $9,402 supera el total adeudado $6,699 (incluye costas). Techo $20,317 cubre cierre esperado $16,683 pero el costo total $22,582 ya excede el techo. Attorney review recommended.",
     "bid_ceiling": 20317.11,
     "all_in_cost_estimate": 22582.02,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $9,402 > total adeudado $6,699: incluye costas/honorarios no desglosados.",
+      "all_in_cost_at_expected_close $22,582 > bid_ceiling $20,317: el techo solo funciona si el cierre real es menor que el esperado (cierre por ratio $16,683 vs por prima $10,229).",
+      "Dueno 'TAYLOR BUD' ausente en CA, desde 01/02/1988 (fecha por defecto HCAD); filas del Clerk (ALDEN WOODS) no son del predio (EAST HOUSTON): liens del predio sin verificar."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com/PACER (login: Miguel); attorney review recommended",
+      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar apertura final el dia de la venta (2026-12-01)",
+      "Busqueda del Clerk por legal EAST HOUSTON Lt 11 Blk 11",
+      "Confirmar si el demandado fue citado por publicacion"
     ]
   }
 }

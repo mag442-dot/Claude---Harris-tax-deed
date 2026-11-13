@@ -507,16 +507,19 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $45,446 >= cierre esperado $33,079. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote C1 de 6,549 sf (Inwood Terrace, City of Houston), FEMA X, HCAD $65,245, tail de impuestos bajo ($1,387). Hechos decisivos: HCAD muestra al dueno con solo 0.5000% de participacion (otro propietario del 50% no identificado, riesgo de citacion/titulo) y legal bloqueado; ademas el nombre de la escritura 2021 'NICHOLSONS' difiere del dueno 'NICHOLSON' y las filas del Clerk son ruido de Colliers. Techo $45,446 cubre cierre esperado $33,079. Attorney review recommended.",
     "bid_ceiling": 45446.01,
     "all_in_cost_estimate": 39458.21,
-    "contradictions": [],
+    "contradictions": [
+      "Dueno HCAD con 0.5000% (otro 50% sin nombre): ¿fue demandado/citado el co-propietario? Posible defecto de citacion.",
+      "Dueno desde 01/14/2022 vs escrituras HCAD 2004/2005 y escritura 2021 a 'COLLIERS & NICHOLSONS INVESTMENTS INC' (nombre distinto, otra legal): cadena de titulo y nombre del demandado sin confirmar; filas del Clerk no son del predio (INWOOD TERRACE).",
+      "Lote HCAD 6,549 sf vs GIS 6,337 (-3.2%); apertura $11,671 vs total adeudado $8,878: incluye costas no desglosadas."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com/PACER (login: Miguel); attorney review recommended",
+      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar apertura final el dia de la venta (2026-12-01)",
+      "Identificar al otro 50% de propietario en HCAD/escritura y confirmar que fue citado",
+      "Leer escritura 2022 (adquisicion) y busqueda del Clerk por legal INWOOD TERRACE Sec 4 Lt 13 Blk 31"
     ]
   }
 }

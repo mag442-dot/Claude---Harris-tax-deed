@@ -508,16 +508,19 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $64,671 >= cierre esperado $48,314. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote vacio C1 en City of Houston, FEMA X, HCAD $95,294, sin homestead. Hechos decisivos: es RESALE con apertura de solo $500 (0.5% del valor) y el indice del Clerk muestra una escritura del 09/22/2026 (RP-2026-384119, lote 14 bloque 18) de la duena a los entes de impuestos, es decir probable strike-off; por eso el modelo de costos (cola $5,624 y cierre esperado $48,314) es incierto. Legal esta bloqueado, asi que no puede ser COMPRA FUERTE. Attorney review recommended.",
     "bid_ceiling": 64671.49,
     "all_in_cost_estimate": 59387.05,
-    "contradictions": [],
+    "contradictions": [
+      "Escritura del 09/22/2026 (RP-2026-384119, lote 14) de la duena a los entes de impuestos vs HCAD que aun muestra a Amezguita como duena (desde 2012): probable strike-off aun no reflejado; la venta es RESALE.",
+      "Apertura $500 (0.5% del valor HCAD, <5%) vs cierre esperado $48,314 del modelo (50.7% del valor): la apertura no dice cual sera el precio real; el techo $64,671 es teorico.",
+      "buyer_tax_tail $5,624 (2024-2026) vs total adeudado $13,255: supone que 2018-2023 (en sentencia) se extinguen; no verificado, y en RESALE el tratamiento de impuestos posteriores debe confirmarse. Ademas RP-2026-384120 es el lote 15 (no es de este predio)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com/PACER (login: Miguel); attorney review recommended",
+      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar apertura final el dia de la venta (2026-12-01)",
+      "Leer RP-2026-384119 (imagen) para ver quien transfiere a quien y confirmar que el comprador recibe titulo libre de impuestos 2018-2023",
+      "Confirmar con el condado/abogado impuestos que sobreviven en una RESALE"
     ]
   }
 }

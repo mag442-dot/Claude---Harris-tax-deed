@@ -520,16 +520,19 @@
   },
   "review": {
     "decision": "SOLO CERCA DE LA APERTURA",
-    "rationale": "Techo $8,427 cubre la apertura ($8,382) pero no la prima tipica (1.088x). Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote C3 de 8,085 sf en Crosby (no incorporado), HCAD $16,170, FEMA X sombreado (0.2%). Hechos decisivos: apertura $8,382 (52% del valor y 4.3x los $1,943 adeudados) deja el techo teorico $8,427 apenas sobre la apertura, por debajo del cierre esperado $9,120; y el costo total $13,650 con quiet title $4,000 da margen de solo 18.5%, bajo el objetivo 25%. Solo tiene sentido a la apertura exacta. Legal bloqueado; attorney review recommended.",
     "bid_ceiling": 8427.09,
     "all_in_cost_estimate": 13649.84,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $8,382 vs total adeudado $1,943 (4.3x): la apertura incluye costas/honorarios no desglosados; no es solo impuestos.",
+      "Cierre esperado por prima $9,120 > bid_ceiling $8,427; costo total $13,650 con margen 18.5% < 25% objetivo: el 'techo' no cubre un cierre tipico.",
+      "Quiet title supuesto $4,000 = 25% del valor HCAD $16,170: en lote tan barato domina el costo; valor HCAD es 'Override' sin comparables."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com/PACER (login: Miguel); attorney review recommended",
+      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar apertura final el dia de la venta (2026-12-01)",
+      "Solo pujar a la apertura (<= $8,427) y nunca con prima",
+      "Confirmar acceso legal/fisico (Methvin Rd) y restricciones del lote"
     ]
   }
 }
