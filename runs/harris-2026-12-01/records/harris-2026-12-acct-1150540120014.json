@@ -7,10 +7,10 @@
   "cause_no": "202379906",
   "intake": {
     "opening_bid": {
-      "value": 62567.34,
+      "value": 87979.94,
       "status": "verified",
       "source": "candidatos.csv (scout)",
-      "retrieved_at": "2026-11-13"
+      "retrieved_at": "2026-11-14"
     },
     "scout_notes": {
       "value": "Precinct 3; tipo SALE; sale# 1; sentencia 06/26/2026; anios_en_sentencia -; fuente https://www.hctax.net/Property/listings/taxsalelisting",
