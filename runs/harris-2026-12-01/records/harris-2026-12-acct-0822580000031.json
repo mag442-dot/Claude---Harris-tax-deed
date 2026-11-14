@@ -475,17 +475,26 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $410,088 >= cierre esperado $277,600. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Lote vacio de ~42,118 sf (GIS 41,534), Houston, FEMA X, sin homestead; HCAD $547,534, apertura $53,739 (~10%). Hechos decisivos: el indice muestra un LIEN de City of Houston (RP-2019-287551, Blueridge Sec 1 Blk 1 Res B8) que coincide con el predio y que el modelo trata como costo cero, y el dueno aparece como fallecido ('LIPSCOMB CLAUDELL EST' desde 2019) mientras la demanda se presento en 2024: posible defecto de citacion. Cierre esperado $277,600 es capital alto con ambos riesgos sin resolver; vigilar. Attorney review recommended.",
     "bid_ceiling": 410088.25,
     "all_in_cost_estimate": 301564.03,
-    "contradictions": [],
+    "contradictions": [
+      "LIEN City of Houston RP-2019-287551 coincide con la Desc del predio; valuation.liens_que_sobreviven = 'NO CUANTIFICADO' y todo-in costs no lo incluye (c).",
+      "Dueno HCAD 'LIPSCOMB CLAUDELL' pero el indice lo lista como EST en 2019 (AFFT RP-2019-247007) y 2025 (W/D): posible demandado fallecido, la sentencia (2026-03-06) puede tener defecto de citacion.",
+      "JUDGE Unifund CCR LLC (RP-2024-185447) contra el dueno: banderas de lien judicial a revisar con abogado.",
+      "Valor HCAD $547,534 ($13/sf) es muy alto vs apertura; sin comparables; techo $410,088 supone reventa a valor HCAD (sin haircut).",
+      "Tipo C2/Reserve en Blueridge: uso para duplex no confirmado (zonificacion/deed restrictions)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Leer lien RP-2019-287551 (tipo, monto, si sobrevive) y JUDGE RP-2024-185447",
+      "Confirmar si el cause 202476209 cito a herederos/sucesion del dueno",
+      "Pedir comparables y viabilidad de duplex en reserva comercial",
+      "Leer demandados, tipo de citacion (personal vs publicacion) y sentencia del cause en hcdistrictclerk.com (login de Miguel)",
+      "Confirmar sin bancarrota en PACER",
+      "Pedir estado de cuenta de impuestos actualizado (incluye 2026) y apertura final antes de pujar",
+      "Attorney review recommended: plazo/prima de redencion y riesgo TRCP 329 antes de pujar",
+      "Verificar acceso legal/fisico, linderos, zonificacion/deed restrictions para duplex (no evaluado)"
     ]
   }
 }

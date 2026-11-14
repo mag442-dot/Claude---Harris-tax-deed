@@ -385,6 +385,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de SUMACEL INC (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Verificar con abogado/Clerk con imagen los puntos de conditions_to_buy antes de pujar",
+      "why": "el modo barato solo leyo el indice crudo; sin imagenes ni login"
     }
   ],
   "valuation": {
@@ -478,16 +483,20 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $210,636 >= cierre esperado $141,459. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de 1999 con valor HCAD $279k, dueno entidad (SUMACEL INC, direccion de correo en Magnolia, probable renta) y techo teorico $210.6k contra cierre esperado $141.5k; con descuento 20-30% el margen antes de rehab es ~$43-71k. Pero el lote es de solo 4,400 sf y SUMACEL aparece como prestamista/vendedor en muchos instrumentos del indice, asi que un deed of trust o financiamiento sobre este lote no se puede descartar. Fuera de la estrategia de lotes para duplex: se juzga solo como reventa/rehab. Attorney review recommended.",
     "bid_ceiling": 210636.21,
     "all_in_cost_estimate": 151955.84,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $17,560 es 5.5x lo adeudado ($3,194): composicion desconocida",
+      "title: las filas con WESTBOURNE son de otros lotes (Lot 3 Blk 2 Sec 3, Sec 1); ninguna es LT 4 BLK 2 SEC 3, pero el patron de NOTICE/D-T de Sumacel con compradores sugiere financiamiento propio: liens=$0 en el modelo no esta respaldado",
+      "Dueno entidad: citacion probable al agente registrado, ventana TRCP 329 abierta hasta 2028-04-23 y posible ocupante/inquilino sin verificar"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com y PACER (login de Miguel); attorney review recommended (confirmar que SUMACEL INC siga activa en SOS)",
+      "Leer con imagen los instrumentos del Clerk que coincidan con el predio (tipo, acreedor, si sobreviven la venta) (buscar D/T sobre LT 4 BLK 2 WESTBOURNE SEC 3)",
+      "Confirmar con abogado el plazo y mecanica de redencion para propiedad sin homestead (180 dias tras la escritura, segun entendimiento general) y reflejarlo en el flujo de caja",
+      "Confirmar ocupacion/inquilino por visita al sitio",
+      "Confirmar apertura final y que la cuenta sigue en la lista el 2026-12-01 (T-1)"
     ]
   }
 }

@@ -485,6 +485,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de COUNTY OF HARRIS ET AL (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Verificar con abogado/Clerk con imagen los puntos de conditions_to_buy antes de pujar",
+      "why": "el modo barato solo leyo el indice crudo; sin imagenes ni login"
     }
   ],
   "valuation": {
@@ -577,17 +582,23 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $50,740 >= cierre esperado $38,628. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Es una REVENTA (resale) de un condominio de 780 sf: HCAD ya muestra como dueno al COUNTY OF HARRIS ET AL desde 2026-08-04, o sea fue adjudicada al condado en la venta anterior, y puede seguir corriendo el plazo de redencion del dueno anterior. La deuda en sentencia es de $39k (2006-2024) contra apertura $15k y no hay costo de cuotas de condominio en el modelo, con margen estrecho (~$5-12k a 70-80% del valor HCAD). Fuera de la estrategia de lotes para duplex: se juzga solo como reventa/rehab. Attorney review recommended.",
     "bid_ceiling": 50739.82,
     "all_in_cost_estimate": 48477.17,
-    "contradictions": [],
+    "contradictions": [
+      "hcad_owner = COUNTY OF HARRIS ET AL (desde 2026-08-04) vs tax.assessed_owner_county = CALFAT STELLA M: titularidad actual y plazo de redencion sin resolver",
+      "Apertura $15,000 vs total adeudado $39,363: la resventa no se explica solo por impuestos; all_in_costs hereda solo $4,690",
+      "Condominio: land 0 y lot_sqft_gis = 104,942 (todo el complejo), no es un lote; cuotas de la asociacion (lien) no estan en el modelo y no hay filas de title del predio",
+      "Etiqueta 'casa' en la pre-revision vs unidad de condominio clase Z3"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Attorney review: efecto de la venta previa/struck-off al condado y plazo de redencion antes de pujar",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com y PACER (login de Miguel); attorney review recommended",
+      "Pedir a la asociacion de Lakecrest Condo carta de saldo de cuotas y estado de la unidad",
+      "Confirmar en el condado condiciones de reventa (pago, escritura)",
+      "Visita al sitio (desde fuera): ocupacion, estado y si la construccion coincide con HCAD",
+      "Confirmar apertura final y que la cuenta sigue en la lista el 2026-12-01 (T-1)"
     ]
   }
 }

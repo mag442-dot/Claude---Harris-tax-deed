@@ -497,16 +497,22 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $47,857 >= cierre esperado $36,066. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote vacio de 5,700 sf (GIS 5,532) en ciudad de Houston, FEMA X 0% SFHA, sin homestead, sin lien visible en el indice (0 filas, solo por nombre). Hechos decisivos: apertura $16,080 vs valor HCAD $71,136 (23%) con cola de impuestos de ~$3,616, y legal bloqueado (demandados/citacion) con TRCP 329 abierta hasta 2027-09-12. Techo teorico $47,857 sobre cierre esperado $36,066; sin comparables. Candidato razonable pero no COMPRA FUERTE; attorney review recommended.",
     "bid_ceiling": 47857.18,
     "all_in_cost_estimate": 44763.83,
-    "contradictions": [],
+    "contradictions": [
+      "hcad_year_improved=1950 con building_sqft=0 y valor solo de terreno: dato de mejora obsoleto, no afecta el costo.",
+      "Apertura ($16,080) mayor que total adeudado ($14,031): no se sabe que costos incluye la apertura; el modelo usa max(apertura*1.088, 0.507*valor).",
+      "Titulo con 0 filas para un dueno desde 1988: el indice por nombre puede no cubrir antes de ~1990 o el nombre no coincide; 'sin gravamenes' es debil (inferred).",
+      "GIS 5,532 sf vs HCAD 5,700 sf (-3%), menor; confirmar frente (~59 ft) para duplex."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Obtener imagen/lista de gravamenes del Clerk por legal (LT 12 BLK 8 MACGREGOR PALMS SEC 1) y no solo por nombre",
+      "Leer demandados, tipo de citacion (personal vs publicacion) y sentencia del cause en hcdistrictclerk.com (login de Miguel)",
+      "Confirmar sin bancarrota en PACER",
+      "Pedir estado de cuenta de impuestos actualizado (incluye 2026) y apertura final antes de pujar",
+      "Attorney review recommended: plazo/prima de redencion y riesgo TRCP 329 antes de pujar",
+      "Verificar acceso legal/fisico, linderos, zonificacion/deed restrictions para duplex (no evaluado)"
     ]
   }
 }

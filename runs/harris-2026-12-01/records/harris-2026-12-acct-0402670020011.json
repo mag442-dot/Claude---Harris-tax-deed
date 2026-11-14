@@ -497,17 +497,26 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $98,530 >= cierre esperado $67,581. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Tramo vacio sin homestead fuera de limites de ciudad (probable condado no incorporado), FEMA X. Hechos decisivos: apertura $27,154 es 3.8 veces el total adeudado ($7,161), sin explicacion, y el tipo de venta es desconocido; ademas hay un A/J de Discover Bank (2024) contra la dueña que podria sobrevivir si no fue parte. Sentencia de 2026-08-07 (apenas 3 meses), TRCP 329 abierta hasta 2028-08-07. Evidencia insuficiente; esperar a aclarar apertura/tipo de venta y abogado.",
     "bid_ceiling": 98529.83,
     "all_in_cost_estimate": 74759.57,
-    "contradictions": [],
+    "contradictions": [
+      "legal.sale_type=unknown: el condado no lo trae; puede ser re-venta o estructura distinta.",
+      "Apertura $27,154 vs total adeudado $7,161 (379%): que incluye? el modelo no lo explica.",
+      "GIS 15,690 sf vs HCAD 22,216 sf (-29%): valor HCAD ($133,296) sobrevalora si el area real es menor.",
+      "A/J Discover Bank vs BENFORD KRISTIE (RP-2024-202165) sin Desc: posible lien judicial sobre el predio; valuation.liens_que_sobreviven = 'NO CUANTIFICADO' (costo 0 en el modelo).",
+      "Escritura de 2018: HCAD dice 02/06/2018 con RP-2018-089696 y el indice la fecha 03/02/2018 (diferencia de fecha). Otras filas (Gibbons, Langham Creek) son otros predios."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Aclarar sale_type y que incluye la apertura (llamar/confirmar con Harris County Tax Office)",
+      "Leer A/J RP-2024-202165 y determinar si Discover Bank fue parte de la demanda de impuestos",
+      "Confirmar area real del lote (GIS 15,690 vs HCAD 22,216) y viabilidad de septico/acceso en area no incorporada",
+      "Leer demandados, tipo de citacion (personal vs publicacion) y sentencia del cause en hcdistrictclerk.com (login de Miguel)",
+      "Confirmar sin bancarrota en PACER",
+      "Pedir estado de cuenta de impuestos actualizado (incluye 2026) y apertura final antes de pujar",
+      "Attorney review recommended: plazo/prima de redencion y riesgo TRCP 329 antes de pujar",
+      "Verificar acceso legal/fisico, linderos, zonificacion/deed restrictions para duplex (no evaluado)"
     ]
   }
 }

@@ -418,6 +418,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de MOORE DIANE (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Verificar con abogado/Clerk con imagen los puntos de conditions_to_buy antes de pujar",
+      "why": "el modo barato solo leyo el indice crudo; sin imagenes ni login"
     }
   ],
   "valuation": {
@@ -511,16 +516,21 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $75,360 >= cierre esperado $52,341. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Deuda baja ($1,376, cola ~$968) y sentencia reciente (2026-07-13), casa de 949 sf de 1963 con valor HCAD $103k y techo teorico $75.4k contra cierre esperado $52.3k; fuera de zona SFHA (0.2% anual, sin floodway). La apertura de $18,666 es 13.6x lo adeudado, lo que indica costas/honorarios no explicados y el margen real tras rehab es ajustado (~$13-24k a 70-80% del valor). Fuera de la estrategia de lotes para duplex: se juzga solo como reventa/rehab. Attorney review recommended.",
     "bid_ceiling": 75359.64,
     "all_in_cost_estimate": 58879.24,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $18,665.88 vs total adeudado $1,376.30 (13.6x): no cuadra con tres anios de impuestos; confirmar que incluye",
+      "hcad_deeds_recorded vacio aunque hcad_owner_since = 08/19/2020: falta la escritura de adquisicion; dueno MOORE DIANE (nombre comun, direccion de correo en Crosby)",
+      "title: 0 filas coinciden con LT 16 BLK 3 SHELDON WOODS SEC 1: liens desconocidos aunque el modelo los pone en $0"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com y PACER (login de Miguel); attorney review recommended; ventana TRCP 329 abierta hasta 2028-07-13",
+      "Leer con imagen los instrumentos del Clerk que coincidan con el predio (tipo, acreedor, si sobreviven la venta) (buscar por nombre completo y legal SHELDON WOODS)",
+      "Confirmar con abogado el plazo y mecanica de redencion para propiedad sin homestead (180 dias tras la escritura, segun entendimiento general) y reflejarlo en el flujo de caja",
+      "Preguntar al condado que incluye la apertura de $18,666",
+      "Visita al sitio (desde fuera): ocupacion, estado y si la construccion coincide con HCAD",
+      "Confirmar apertura final y que la cuenta sigue en la lista el 2026-12-01 (T-1)"
     ]
   }
 }

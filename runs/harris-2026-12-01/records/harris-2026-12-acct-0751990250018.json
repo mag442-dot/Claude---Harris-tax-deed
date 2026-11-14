@@ -504,16 +504,23 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $67,136 >= cierre esperado $51,714. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Lote vacio 12,400 sf (GIS 12,352), Houston, FEMA X, sin homestead; la ventana TRCP 329 ya cerro el 2026-06-05 (sentencia 2024-06-05), lo que reduce el riesgo de citacion por publicacion. Hechos decisivos: apertura $16,180 vs HCAD $102,000 y cola de impuestos de ~$8,450 (post-sentencia $6,282); legal sigue bloqueado y el dueno es una corporacion (posible entidad inactiva). Mejor perfil del lote pero requiere verificar demandados; attorney review recommended.",
     "bid_ceiling": 67135.78,
     "all_in_cost_estimate": 65715.57,
-    "contradictions": [],
+    "contradictions": [
+      "Dueno entidad (GAYTAN CREW CONSTRUCTION CO INC) con direccion de apartamento: confirmar estatus en Texas SOS/Comptroller (forfeited/dissolved) para citacion y redencion.",
+      "Terreno HCAD en dos segmentos (8,000+4,400 sf) y 3 escrituras (2014/2015) para un solo 'LT 18': confirmar que es un lote unico y no dos predios.",
+      "Titulo con 0 filas (solo por nombre) pese a 3 escrituras recientes en HCAD: indice por nombre no confiable; gravamenes sin descartar.",
+      "Cola de impuestos $8,450 depende de post-sentencia $6,282; revisar si 2026 ya esta incluido."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Confirmar estatus de la entidad en Texas SOS",
+      "Leer indice del Clerk por legal LT 18 BLK 25 SUNNYSIDE GARDENS (escrituras 2015-0079625, 2014-0420365, 2015-0010358)",
+      "Leer demandados, tipo de citacion (personal vs publicacion) y sentencia del cause en hcdistrictclerk.com (login de Miguel)",
+      "Confirmar sin bancarrota en PACER",
+      "Pedir estado de cuenta de impuestos actualizado (incluye 2026) y apertura final antes de pujar",
+      "Attorney review recommended: plazo/prima de redencion y riesgo TRCP 329 antes de pujar",
+      "Verificar acceso legal/fisico, linderos, zonificacion/deed restrictions para duplex (no evaluado)"
     ]
   }
 }

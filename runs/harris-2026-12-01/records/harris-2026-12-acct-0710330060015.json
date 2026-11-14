@@ -499,17 +499,25 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $105,219 >= cierre esperado $76,050. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Lote vacio de 5,000 sf (GIS 5,156), Houston, FEMA X, sin homestead, pero el dueno es una sucesion (GAY EARL ESTATE, c/o ejecutor) con muchos herederos en un affidavit de 2018. Hechos decisivos: dueno fallecido con herederos multiples implica alto riesgo de citacion por publicacion con TRCP 329 abierta hasta 2027-07-17 y un quiet title mas caro que los $4,000 supuestos; deuda total $33,942 (cola $7,625) casi igual a la apertura $35,354. Valor HCAD $150,000 para 5,000 sf (30 $/sf) es redondo y sin comparables. Vigilar; attorney review recommended.",
     "bid_ceiling": 105218.8,
     "all_in_cost_estimate": 89956.14,
-    "contradictions": [],
+    "contradictions": [
+      "Dueno fallecido/sucesion: quiet title con herederos (affidavit RP-2018-548544) probablemente excede los $4,000 supuestos en valuation.",
+      "Valor HCAD $150,000 redondo ($30/sf) para 5,000 sf: sin comparables; techo $105,219 y cierre esperado $76,050 dependen de eso.",
+      "Apertura $35,354 vs total adeudado $33,942: apertura > deuda por $1,412; que incluye?",
+      "Titulo: 1 fila (AFFT 2018) por nombre; no hay lectura de imagen y la Desc no esta confirmada contra TR 15 BLK 6 BLOSSOM HEIGHTS."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Leer affidavit RP-2018-548544 y confirmar si el ejecutor (Ann Norsworthy) fue citado personalmente",
+      "Presupuesto de quiet title con herederos de un abogado",
+      "Confirmar comparables de lotes en Blossom Heights",
+      "Leer demandados, tipo de citacion (personal vs publicacion) y sentencia del cause en hcdistrictclerk.com (login de Miguel)",
+      "Confirmar sin bancarrota en PACER",
+      "Pedir estado de cuenta de impuestos actualizado (incluye 2026) y apertura final antes de pujar",
+      "Attorney review recommended: plazo/prima de redencion y riesgo TRCP 329 antes de pujar",
+      "Verificar acceso legal/fisico, linderos, zonificacion/deed restrictions para duplex (no evaluado)"
     ]
   }
 }

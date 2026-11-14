@@ -480,17 +480,25 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $229,678 >= cierre esperado $154,984. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Tramo vacio de ~1.17 acres (GIS 52,703 sf vs HCAD 50,948), Houston, FEMA X, sin homestead; dueno es una sucesion (YEPEZ LEON ESTATE c/o Marie Padilla). Hechos decisivos: apertura $57,121 es 2.2 veces el total adeudado ($25,681) sin explicacion, y la sentencia es muy reciente (2026-08-03) con TRCP 329 abierta hasta 2028-08-03 y heredero identificable con interes en redimir/impugnar. Titulo sin filas (solo por nombre, debil). Vigilar hasta aclarar apertura y citacion; attorney review recommended.",
     "bid_ceiling": 229677.77,
     "all_in_cost_estimate": 167615.63,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $57,121 vs total adeudado $25,681 (222%): no se sabe que incluye.",
+      "Dueno sucesion (desde 1988) con 0 filas en el indice por nombre: titulo/heredero no investigado; quiet title con herederos probablemente > $4,000 supuestos.",
+      "GIS 52,703 sf vs HCAD 50,948 sf (+3%): menor, sin impacto.",
+      "hcad_year_improved=1950 con building_sqft=0: dato de mejora obsoleto."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Confirmar con Tax Office que incluye la apertura $57,121",
+      "Verificar si Marie Padilla/herederos fueron citados y si hay redencion pendiente",
+      "Presupuesto de quiet title con sucesion",
+      "Leer demandados, tipo de citacion (personal vs publicacion) y sentencia del cause en hcdistrictclerk.com (login de Miguel)",
+      "Confirmar sin bancarrota en PACER",
+      "Pedir estado de cuenta de impuestos actualizado (incluye 2026) y apertura final antes de pujar",
+      "Attorney review recommended: plazo/prima de redencion y riesgo TRCP 329 antes de pujar",
+      "Verificar acceso legal/fisico, linderos, zonificacion/deed restrictions para duplex (no evaluado)"
     ]
   }
 }

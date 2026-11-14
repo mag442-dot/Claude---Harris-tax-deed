@@ -509,6 +509,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de HERNANDEZ RAQUEL (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Verificar con abogado/Clerk con imagen los puntos de conditions_to_buy antes de pujar",
+      "why": "el modo barato solo leyo el indice crudo; sin imagenes ni login"
     }
   ],
   "valuation": {
@@ -602,16 +607,21 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $115,903 >= cierre esperado $79,406. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF PASADENA. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Sentencia reciente (2026-02-24) cubre 2021-2025, asi que la cola heredada es solo ~$1.9k; casa de 1944 con valor HCAD $156k y techo teorico $115.9k contra cierre esperado $79.4k. Con descuento de 20-30% por estado queda margen de ~$22-38k antes de rehab, pero la ventana TRCP 329 sigue abierta hasta 2028-02-24 y legal esta bloqueado. Fuera de la estrategia de lotes para duplex: se juzga solo como reventa/rehab. Attorney review recommended.",
     "bid_ceiling": 115903.38,
     "all_in_cost_estimate": 87704.05,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $12,573 es 2.2x el total adeudado ($5,781): no se sabe que incluye",
+      "buyer_tax_tail_estimate $1,915.52 es menor que total_due $5,781 con post_judgment 0: consistente solo si todo lo demas esta en sentencia; confirmar",
+      "hcad_deeds_recorded lista 2006/2007 y 2017 (RP-2017-35948 a HERNANDEZ RAQUEL) pero el unico hit del title es esa escritura de 2017; nombre comun HERNANDEZ RAQUEL truncado, liens no leidos"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com y PACER (login de Miguel); attorney review recommended; ventana TRCP 329 abierta hasta 2028-02-24",
+      "Leer con imagen los instrumentos del Clerk que coincidan con el predio (tipo, acreedor, si sobreviven la venta) (nombre completo + MCLEAN SEC 2 LT 3 BLK 7)",
+      "Confirmar con abogado el plazo y mecanica de redencion para propiedad sin homestead (180 dias tras la escritura, segun entendimiento general) y reflejarlo en el flujo de caja",
+      "Pedir estado de cuenta actualizado (2026)",
+      "Visita al sitio (desde fuera): ocupacion, estado y si la construccion coincide con HCAD",
+      "Confirmar apertura final y que la cuenta sigue en la lista el 2026-12-01 (T-1)"
     ]
   }
 }

@@ -516,16 +516,23 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $79,436 >= cierre esperado $57,421. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Tramo vacio de 6.5 acres (HCAD 283,140 sf; GIS 380,142 sf), Houston, FEMA X, sin homestead; apertura $17,025 vs valor HCAD $113,256. Hechos decisivos: el area GIS es 34% mayor que la HCAD (hay que saber que se compra realmente) y legal bloqueado con TRCP 329 abierta hasta 2028-01-22 (sentencia 2026-01-22). Los liens de City of Houston del indice son de Blue Bonnet Estates Lot 20 (otro predio), no de este tramo; techo $79,436 es teorico. Attorney review recommended.",
     "bid_ceiling": 79435.63,
     "all_in_cost_estimate": 67929.51,
-    "contradictions": [],
+    "contradictions": [
+      "Area de lote GIS 380,142 sf vs HCAD 283,140 sf (+34%): discrepancia material para valor y densidad.",
+      "Dueno desde 09/27/2012 (hcad_owner_since) pero la escritura listada es RP-2021-421158 registrada 07/26/2021 (de Mathews Annie Mae): fecha vs instrumento no cuadran; revisar cadena de titulo (posible correccion/escritura tardia).",
+      "Filas LIEN de City of Houston (RP-2022-195042, RP-2024-459987) tienen Desc Blue Bonnet Estates Lot 20, no coinciden con 'TR 6 ABST 613 J ONERY': no pertenecen al predio, pero el dueno es un inversionista con muchas propiedades (28 filas) y el indice no esta leido por imagen.",
+      "Techo $79,436 (70% del valor) y cierre esperado $57,421 suponen valor HCAD de 6.5 acres sin comparables; tail $4,786 es inferred."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Verificar acceso legal/fisico, linderos y restricciones del lote"
+      "Obtener levantamiento/GIS confirmado del tramo (acreage real) y acceso por Wenda Way",
+      "Leer escritura RP-2021-421158 y resolver la fecha 2012 vs 2021",
+      "Leer demandados, tipo de citacion (personal vs publicacion) y sentencia del cause en hcdistrictclerk.com (login de Miguel)",
+      "Confirmar sin bancarrota en PACER",
+      "Pedir estado de cuenta de impuestos actualizado (incluye 2026) y apertura final antes de pujar",
+      "Attorney review recommended: plazo/prima de redencion y riesgo TRCP 329 antes de pujar",
+      "Verificar acceso legal/fisico, linderos, zonificacion/deed restrictions para duplex (no evaluado)"
     ]
   }
 }

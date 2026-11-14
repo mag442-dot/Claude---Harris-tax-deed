@@ -469,6 +469,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de ESTRADA MARIA (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Verificar con abogado/Clerk con imagen los puntos de conditions_to_buy antes de pujar",
+      "why": "el modo barato solo leyo el indice crudo; sin imagenes ni login"
     }
   ],
   "valuation": {
@@ -562,16 +567,22 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $102,524 >= cierre esperado $70,025. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF BAYTOWN. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Deuda de impuestos baja ($893 en 2 anios) y la ventana TRCP 329 ya cerro el 2026-08-09 si hubo publicacion; sin homestead en HCAD. El techo teorico de $102.5k supone reventa al 100% del valor HCAD; con 20-30% de descuento por estado el margen antes de rehab baja a ~$20-33k sobre un costo de $77k. Legal bloqueado y sin gravamenes del lote leidos: nunca COMPRA FUERTE sin esa revision. Fuera de la estrategia de lotes para duplex: se juzga solo como reventa/rehab. Attorney review recommended.",
     "bid_ceiling": 102523.75,
     "all_in_cost_estimate": 77018.89,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $4,842 es 5.4x lo adeudado ($893): no se sabe que incluye (costas/honorarios); no es costo total",
+      "Area construida HCAD 1376 sf (hcad_building_sqft) vs 1516 sf en hcad_buildings: elegir cual es correcta antes de valorar",
+      "Taxes: solo aparecen 2023-2024 con saldo y tax_in_judgment desconocido; falta ver 2025 (pagado o en cola) vs valuation.all_in_costs que hereda $893",
+      "Filas de title no pertenecen al predio (ninguna Desc coincide con MARTIN/BAYTOWN LTS 9&10 BLK 2): el modelo supone liens=0 sin evidencia, nombre comun ESTRADA MARIA"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com y PACER (login de Miguel); attorney review recommended",
+      "Leer con imagen los instrumentos del Clerk que coincidan con el predio (tipo, acreedor, si sobreviven la venta) (busqueda por nombre comun truncada: repetir con nombre completo y legal MARTIN LTS 9&10 BLK 2)",
+      "Confirmar con abogado el plazo y mecanica de redencion para propiedad sin homestead (180 dias tras la escritura, segun entendimiento general) y reflejarlo en el flujo de caja",
+      "Pedir estado de cuenta de impuestos actualizado incluyendo 2025",
+      "Visita al sitio (desde fuera): ocupacion, estado y si la construccion coincide con HCAD",
+      "Confirmar apertura final y que la cuenta sigue en la lista el 2026-12-01 (T-1)"
     ]
   }
 }

@@ -382,6 +382,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de STROHMANN HAROLD E (0.5000%); MARQUEZ JE en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Verificar con abogado/Clerk con imagen los puntos de conditions_to_buy antes de pujar",
+      "why": "el modo barato solo leyo el indice crudo; sin imagenes ni login"
     }
   ],
   "valuation": {
@@ -475,16 +480,23 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $239,269 >= cierre esperado $163,330. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Hay un deed of trust de 2020 (RP-2020-105082, a favor de HUYNH DIEN, fiduciario PHAM KHANH T) sobre el mismo lote sin liberacion visible: si el acreedor no fue demandado puede sobrevivir y el modelo lo costea en $0 sobre una casa de $322k. Ademas hay un NOTICE de la asociacion ATASCOCITA CIA de 2026-07 (posible lien de cuotas). Techo $239k contra cierre esperado $163k parece holgado pero depende de ese gravamen. Fuera de la estrategia de lotes para duplex: se juzga solo como reventa/rehab. Attorney review recommended.",
     "bid_ceiling": 239269.21,
     "all_in_cost_estimate": 179501.34,
-    "contradictions": [],
+    "contradictions": [
+      "valuation.all_in_costs liens_que_sobreviven = no cuantificado, pero title muestra D/T 2020 (RP-2020-105082) sin release visible en el indice: el costo real podria ser el saldo de la hipoteca",
+      "tax: post_judgment_taxes = $5,131.66 = total_due_all_years, aunque taxes_in_judgment lista 2021-2023 y la sentencia es 10/29/2024: no cuadra que toda la deuda sea post-sentencia; la cola de $7,272 es poco fiable",
+      "Sin homestead en HCAD en una casa A1 de 2,935 sf con dos dueños 50/50 (posible renta/ocupante) y ventana TRCP 329 cerrada el 2026-10-28 solo si hubo publicacion",
+      "NOTICE de ATASCOCITA COMMUNITY IMPROVEMENT ASSOCIATION (RP-2026-273399) no esta en el modelo de costos"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer RP-2020-105082 y buscar release o cesion del D/T; determinar con abogado si el acreedor fue parte de la demanda y si el lien sobrevive",
+      "Leer RP-2026-273399 y pedir carta de saldo a la asociacion (cuotas pendientes)",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com y PACER (login de Miguel); attorney review recommended",
+      "Confirmar con abogado el plazo y mecanica de redencion para propiedad sin homestead (180 dias tras la escritura, segun entendimiento general) y reflejarlo en el flujo de caja",
+      "Recalcular cola de impuestos con estado de cuenta actualizado",
+      "Visita al sitio (desde fuera): ocupacion, estado y si la construccion coincide con HCAD",
+      "Confirmar apertura final y que la cuenta sigue en la lista el 2026-12-01 (T-1)"
     ]
   }
 }

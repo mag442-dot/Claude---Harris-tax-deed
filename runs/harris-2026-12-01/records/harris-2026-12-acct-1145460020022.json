@@ -497,6 +497,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de GONZALEZ GUADALUPE (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Verificar con abogado/Clerk con imagen los puntos de conditions_to_buy antes de pujar",
+      "why": "el modo barato solo leyo el indice crudo; sin imagenes ni login"
     }
   ],
   "valuation": {
@@ -589,17 +594,24 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $27,961 >= cierre esperado $21,006. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "El valor HCAD de $41,432 es igual al del anio previo (no actualizado) para una casa de 1,120 sf; con 20-30% de descuento y cierre esperado $21k el margen tras quiet title y rehab es casi nulo (~$3-7k). El dueno lleva desde 1996 sin homestead y con 8 anios en sentencia (2018-2025), perfil de sucesion/ausente; la busqueda del Clerk por GONZALEZ GUADALUPE no devolvio filas del predio y no prueba nada. Fuera de la estrategia de lotes para duplex: se juzga solo como reventa/rehab. Attorney review recommended.",
     "bid_ceiling": 27961.4,
     "all_in_cost_estimate": 25981.56,
-    "contradictions": [],
+    "contradictions": [
+      "Apertura $9,075 es 2.8x el total adeudado ($3,274): composicion desconocida",
+      "hcad_market_value = hcad_prior_market_value = $41,432 y 'hcad_deeds_recorded' vacio con dueno desde 1996: valor posiblemente obsoleto y sin cadena de escrituras",
+      "title: 0 filas coinciden con LT 22 LORI LANE U/R; apellido comun truncado, liens desconocidos aunque el modelo los pone en $0",
+      "Margen del techo ($27,961) sobre cierre esperado ($21,006) = $7k, menor que el quiet title + rehab realistas"
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Verificar si el dueno esta fallecido/sucesion (probate) y quien ocupa",
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com y PACER (login de Miguel); attorney review recommended",
+      "Leer con imagen los instrumentos del Clerk que coincidan con el predio (tipo, acreedor, si sobreviven la venta) (buscar por nombre completo y legal LORI LANE)",
+      "Obtener comparables de venta reales (HCAD no refleja estado)",
+      "Confirmar con abogado el plazo y mecanica de redencion para propiedad sin homestead (180 dias tras la escritura, segun entendimiento general) y reflejarlo en el flujo de caja",
+      "Visita al sitio (desde fuera): ocupacion, estado y si la construccion coincide con HCAD",
+      "Confirmar apertura final y que la cuenta sigue en la lista el 2026-12-01 (T-1)"
     ]
   }
 }
