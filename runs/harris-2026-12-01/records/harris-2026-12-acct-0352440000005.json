@@ -154,54 +154,54 @@
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0352440000005",
-      "retrieved_at": "2026-11-14",
+      "retrieved_at": "2026-11-15",
       "note": "statement as of 11/14/2026"
     },
     "total_due_all_years": {
       "value": 47212.92,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0352440000005",
-      "retrieved_at": "2026-11-14"
+      "retrieved_at": "2026-11-15"
     },
     "taxes_in_judgment": {
       "value": null,
       "status": "unknown",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0352440000005",
-      "retrieved_at": "2026-11-14",
+      "retrieved_at": "2026-11-15",
       "note": "el condado no lista los anios incluidos en la sentencia"
     },
     "post_judgment_taxes": {
       "value": null,
       "status": "unknown",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0352440000005",
-      "retrieved_at": "2026-11-14",
+      "retrieved_at": "2026-11-15",
       "note": "sin anios de sentencia no se puede separar"
     },
     "current_year_estimate": {
       "value": 12644.11,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0352440000005",
-      "retrieved_at": "2026-11-14",
+      "retrieved_at": "2026-11-15",
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
       "value": null,
       "status": "unknown",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0352440000005",
-      "retrieved_at": "2026-11-14",
+      "retrieved_at": "2026-11-15",
       "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
     },
     "assessed_owner_county": {
       "value": "LA MONARCA INV PLUS MANAGEMENT GROUP LLC 909 HIGH RIDGE DR FRIENDSWOOD TX 77546 1611 STEVENS ST 4 TRS 5 6 7 & 8A T & N O MACHINE SHOPS",
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0352440000005",
-      "retrieved_at": "2026-11-14"
+      "retrieved_at": "2026-11-15"
     },
     "appraised_value_county": {
       "value": 610581.0,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0352440000005",
-      "retrieved_at": "2026-11-14"
+      "retrieved_at": "2026-11-15"
     }
   },
   "physical": {
