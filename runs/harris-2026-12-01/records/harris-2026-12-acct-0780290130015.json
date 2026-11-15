@@ -412,6 +412,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de KIRK MARIE (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Leer imagenes del Clerk y confirmar citacion/titular actual antes de pujar: Verificar si KIRK MARIE esta viva (probate/obituario) y herederos",
+      "why": "el revisor barato solo lee el indice; attorney review recommended"
     }
   ],
   "valuation": {
@@ -505,16 +510,22 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $76,886 >= cierre esperado $53,174. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de 1947 de 708 sf, dueno ausente (mail en California, dueno desde 1988): riesgo de dueno fallecido/herederos y de citacion por publicacion (TRCP 329 abierta hasta 2028-06-26). Hechos decisivos: apertura de $28.5k vs deuda de $5.0k sin explicar y 0 filas del Clerk, es decir sin cobertura de titulo. Es una casa de reventa/rehab: queda fuera de la estrategia de lotes baldios para duplex. COMPRA FUERTE no esta permitido porque `legal` esta bloqueado (demandados, citacion y bancarrota sin leer). Attorney review recommended.",
     "bid_ceiling": 76886.15,
     "all_in_cost_estimate": 59479.33,
-    "contradictions": [],
+    "contradictions": [
+      "'Tax Years in Judgement' lista 2010-2025 (16 anios) pero solo hay saldo de 2020-2025: la sentencia incluye anios sin deuda visible.",
+      "Apertura $28,478.83 es 5.7x el total adeudado ($4,967.61) y 27% del valor HCAD: no se sabe que incluye.",
+      "El indice del Clerk devolvio 0 filas (grantee y grantor) para un dueno desde 1988 con direccion postal en California: probable busqueda fallida o falta de cobertura, no ausencia de gravamenes.",
+      "Casa 708sf (HCAD building_sqft 676 vs 708sf)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Verificar si KIRK MARIE esta viva (probate/obituario) y herederos",
+      "Re-buscar en el Clerk por legal MARY FRANCIS L15 B13 y variantes del nombre",
+      "Aclarar que incluye la apertura de $28,478.83 y el rango 2010-2025",
+      "Leer demandados y citacion en hcdistrictclerk.com (login de Miguel) y bancarrota en PACER",
+      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar la apertura final el dia de la venta 2026-12-01",
+      "Visita al sitio: ocupacion y estado real (el valor HCAD ignora deterioro); aplicar descuento 20-30% al techo teorico"
     ]
   }
 }

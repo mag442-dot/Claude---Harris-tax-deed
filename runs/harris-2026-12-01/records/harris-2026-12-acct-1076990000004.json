@@ -396,6 +396,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de BADOIAN ATHANASIA E (1.0000%); MILKOWSKI en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Visita al sitio (ocupación/estado) y lectura de imágenes del Clerk del lote antes de pujar; attorney review recommended",
+      "why": "requiere humano/abogado; la revisión barata no abre imágenes"
     }
   ],
   "valuation": {
@@ -489,16 +494,22 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $211,228 >= cierre esperado $145,848. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Indice del Clerk (misma subdivision): lis pendens. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de $288k HCAD en Woodland Hills (Kingwood/Humble), reventa/rehab y fuera de la estrategia de lotes para dúplex. Hechos decisivos: la sentencia es de 03/04/2025 y en 08/2025 se registraron poderes (P/A) entre miembros de la familia BADOIAN, es decir después de la sentencia, lo que apunta a un dueño de edad avanzada o sucesión y a posible defecto de citación (TRCP 329 abierta hasta 03/2027); además el techo $211k baja a ~$144k con descuento, bajo el cierre esperado de $146k. COMPRA FUERTE no está permitido porque `legal` está bloqueado. Attorney review recommended.",
     "bid_ceiling": 211227.68,
     "all_in_cost_estimate": 162794.32,
-    "contradictions": [],
+    "contradictions": [
+      "title: P/A RP-2025-327831/327832 (08/19/2025) posteriores a la sentencia del 03/04/2025 vs. legal sin demandados leídos: posible defecto de citación o dueño incapaz.",
+      "HCAD lista a MILKOWSKI FORREST W JR con 0% de propiedad; no está claro si es copropietario o gravamen y debió ser demandado.",
+      "Ciudad: dirección HCAD 'HUMBLE', correo 'KINGWOOD', parcel_city 'CITY OF HOUSTON': jurisdicción y escuela inconsistentes.",
+      "intake.hcad_building_sqft 2387 vs. hcad_buildings 'Residential 2483sf'.",
+      "Cola de impuestos $8,571 en el modelo incluye $4,911 posteriores a la sentencia; apertura $24,046 vs. total adeudado $16,378."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer RP-2025-327831/327832 (P/A) y confirmar quién tiene capacidad sobre el predio y si se citó a todos los dueños",
+      "Confirmar demandados y citación en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Pedir estado de cuenta de impuestos actualizado y confirmar la apertura final antes de pujar",
+      "Verificar ocupación y estado por visita al sitio; el valor HCAD no refleja condición (descuento de 20-30%)",
+      "Leer las imágenes del Clerk filtradas por descripción legal para confirmar que no hay liens sobrevivientes"
     ]
   }
 }

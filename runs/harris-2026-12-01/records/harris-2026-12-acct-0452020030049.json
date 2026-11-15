@@ -430,6 +430,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de FAIRBANKS INDUSTRIAL LLC (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Leer imagenes del Clerk y confirmar citacion/titular actual antes de pujar: Leer RP-2022-506914 y RP-2022-61067 (imagenes) y confirmar si afectan el predio ABST 898",
+      "why": "el revisor barato solo lee el indice; attorney review recommended"
     }
   ],
   "valuation": {
@@ -523,16 +528,22 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $406,684 >= cierre esperado $271,243. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Parcela grande (2.66 ac) con dos casas antiguas (1942/1947), dueno LLC, fuera de ciudad, zona X minima; techo teorico $406.7k vs cierre esperado $271k. Hechos decisivos: posible deuda hipotecaria (Bank of Texas) que no se puede atribuir ni descartar sin leer imagenes, y apertura de $38k contra $15k de deuda. Es una casa de reventa/rehab: queda fuera de la estrategia de lotes baldios para duplex. COMPRA FUERTE no esta permitido porque `legal` esta bloqueado (demandados, citacion y bancarrota sin leer). Attorney review recommended.",
     "bid_ceiling": 406684.34,
     "all_in_cost_estimate": 288492.19,
-    "contradictions": [],
+    "contradictions": [
+      "Edificios HCAD 2445 sqft vs suma 1388+1325 = 2713; lote 115,869 vs GIS 110,158 (-4.9%).",
+      "Filas del Clerk RESTR (RP-2022-61067) y SUBORD de Bank of Texas (RP-2022-506914) tienen Desc 'POWELL ONE-THIRD LEAGUE Abstract 622', distinto del legal HCAD (ABST 898 WCRR): no se puede asumir que pertenecen al predio, ni que no.",
+      "Apertura $38,086.93 es 2.5x el total adeudado ($15,091.63).",
+      "Clase A1 residencial en 2.66 acres en zona industrial (Fairbanks), dueno entidad LLC: posible zonificacion/uso comercial y estado de la entidad; 'liens_que_sobreviven' sin cuantificar."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer RP-2022-506914 y RP-2022-61067 (imagenes) y confirmar si afectan el predio ABST 898",
+      "Verificar estado de la LLC (Texas SOS) y que fue citada (agente registrado)",
+      "Confirmar uso/ocupacion y restricciones de Fairbanks Industrial Park",
+      "Leer demandados y citacion en hcdistrictclerk.com (login de Miguel) y bancarrota en PACER",
+      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar la apertura final el dia de la venta 2026-12-01",
+      "Visita al sitio: ocupacion y estado real (el valor HCAD ignora deterioro); aplicar descuento 20-30% al techo teorico"
     ]
   }
 }

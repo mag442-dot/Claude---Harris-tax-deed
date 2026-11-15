@@ -385,6 +385,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de ROBERTS LEIANNE (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Visita al sitio (ocupación/estado) y lectura de imágenes del Clerk del lote antes de pujar; attorney review recommended",
+      "why": "requiere humano/abogado; la revisión barata no abre imágenes"
     }
   ],
   "valuation": {
@@ -477,17 +482,24 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $225,380 >= cierre esperado $151,247. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Indice del Clerk (misma subdivision): lis pendens. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Casa de $298k HCAD en Olde Oaks, en reventa/rehab y fuera de la estrategia de lotes para dúplex. Hechos decisivos: hay un lis pendens de la asociación (OLDE OAKS CIA, RP-2026-60402, 02/18/2026) sobre este lote, posterior a la sentencia, que puede ser una ejecución de HOA rival o un lien que no se extingue y que el modelo de costos asume en cero; y el techo de $225k baja a unos $156k con 30% de descuento por condición, apenas sobre el cierre esperado de $151k. COMPRA FUERTE no está permitido porque `legal` está bloqueado. Attorney review recommended.",
     "bid_ceiling": 225379.89,
     "all_in_cost_estimate": 162296.43,
-    "contradictions": [],
+    "contradictions": [
+      "Techo teórico $225,380 y costo $162,296 se calculan al valor HCAD pleno; con descuento de 20-30% el techo queda en ~$156k-$179k, margen mínimo frente al cierre esperado $151k.",
+      "title: L/P RP-2026-60402 (HOA, 02/18/2026, misma descripción legal) posterior a la sentencia del 06/11/2025 vs. valuation.all_in_costs.liens_que_sobreviven 'no cuantificado': el modelo implícitamente lo supone cero.",
+      "intake.hcad_building_sqft 2801 vs. hcad_buildings 'Residential 3078sf': el área construida no coincide.",
+      "scout_notes: años en sentencia 2020-2024, pero tax.delinquent_by_year solo trae 2023-2024; falta explicar qué pasó con 2020-2022. Apertura $19,562 vs. total adeudado $5,619: no se sabe qué incluye la apertura.",
+      "Dueño HCAD desde 05/05/2022, anterior a la sentencia (consistente con el demandado), pero RP-2022-240619/240620 NOTICE con otros nombres (DIEROLF, WARREN) en la misma descripción: copropiedad o interés de terceros no aclarado."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer RP-2026-60402 (imagen): ¿lis pendens de ejecución de HOA o aviso? Cuantificar y ver si sobrevive la venta",
+      "Obtener carta de saldo/estado de cuenta de la asociación Olde Oaks CIA",
+      "Confirmar demandados y citación en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Pedir estado de cuenta de impuestos actualizado y confirmar la apertura final antes de pujar",
+      "Verificar ocupación y estado por visita al sitio; el valor HCAD no refleja condición (descuento de 20-30%)",
+      "Leer las imágenes del Clerk filtradas por descripción legal para confirmar que no hay liens sobrevivientes"
     ]
   }
 }

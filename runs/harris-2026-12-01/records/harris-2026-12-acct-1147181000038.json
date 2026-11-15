@@ -478,6 +478,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de JARAMILLO JUAN MANUEL SENCION (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Leer imagenes del Clerk y confirmar citacion/titular actual antes de pujar: Leer RP-2026-350273 y RP-2023-421039/421029 (imagenes) y confirmar el titular actual",
+      "why": "el revisor barato solo lee el indice; attorney review recommended"
     }
   ],
   "valuation": {
@@ -570,17 +575,23 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $265,734 >= cierre esperado $180,723. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Casa de 1993 con sentencia del 2025-12-01 (TRCP 329 abierta hasta 2027-12-01). Hechos decisivos: el dueno vendio el predio por W/D el 2026-08-27, despues de la sentencia, asi que el comprador actual podria no haber sido citado, y las fechas de adquisicion no cuadran. Se deja en VIGILAR hasta que un abogado aclare la situacion. Es una casa de reventa/rehab: queda fuera de la estrategia de lotes baldios para duplex. COMPRA FUERTE no esta permitido porque `legal` esta bloqueado (demandados, citacion y bancarrota sin leer). Attorney review recommended.",
     "bid_ceiling": 265734.36,
     "all_in_cost_estimate": 197603.3,
-    "contradictions": [],
+    "contradictions": [
+      "Escritura posterior a la sentencia: RP-2026-350273 (2026-08-27, W/D) de JARAMILLO a OLMEDO WILLIAM sobre Woodforest L38 B100, pero la sentencia es del 2025-12-01 y HCAD aun muestra a Jaramillo: el dueno de registro ya no es el demandado (posible defecto de citacion/parte faltante).",
+      "HCAD owner_since 04/11/2022 vs W/D de Vilchis a Jaramillo RP-2023-421039 del 2023-11-02 (y HCAD cita 2023-RP-2023-421029): fecha de adquisicion inconsistente; los anios 2022 en sentencia son anteriores a su compra segun el Clerk.",
+      "Edificio HCAD 3997 vs 'Residential 4499sf'; lote 11,997 vs GIS 10,912 (-9%).",
+      "Apertura $40,271.01 vs deuda $21,274.01 (1.9x); los LIEN de Eastpoint son de otro lote (Eastpoint Sec 1 L289)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer RP-2026-350273 y RP-2023-421039/421029 (imagenes) y confirmar el titular actual",
+      "Attorney review: efecto de la venta posterior a la sentencia y citacion al nuevo titular",
+      "Confirmar que el condado no retire la propiedad de la lista",
+      "Leer demandados y citacion en hcdistrictclerk.com (login de Miguel) y bancarrota en PACER",
+      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar la apertura final el dia de la venta 2026-12-01",
+      "Visita al sitio: ocupacion y estado real (el valor HCAD ignora deterioro); aplicar descuento 20-30% al techo teorico"
     ]
   }
 }

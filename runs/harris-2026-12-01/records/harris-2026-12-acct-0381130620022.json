@@ -410,6 +410,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de CALVA CANDIDO (0.5000%); PEREZ MARIA DE  en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Visita al sitio (ocupación/estado) y lectura de imágenes del Clerk del lote antes de pujar; attorney review recommended",
+      "why": "requiere humano/abogado; la revisión barata no abre imágenes"
     }
   ],
   "valuation": {
@@ -502,17 +507,22 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $50,522 >= cierre esperado $36,276. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF GALENA PARK. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Casa de 520 sf de 1950 con valor HCAD $71.5k (75% es terreno), reventa/rehab y fuera de la estrategia de lotes para dúplex. Hechos decisivos: con 30% de descuento el techo cae a ~$34k, por debajo del cierre esperado de $36.3k; y los dos dueños (CALVA CANDIDO / PEREZ MARIA DE LA LUZ) son del 2004 sin escrituras recientes, con búsqueda en el Clerk vacía (solo un nombre buscado), lo que no descarta herederos u ocupantes. COMPRA FUERTE no está permitido porque `legal` está bloqueado. Attorney review recommended.",
     "bid_ceiling": 50522.5,
     "all_in_cost_estimate": 42565.96,
-    "contradictions": [],
+    "contradictions": [
+      "Techo $50,523 vs. cierre esperado $36,276: margen teórico del 68% desaparece con descuento de 30% (~$34k) y es mínimo con 20% (~$39k).",
+      "Sentencia 06/29/2026 con años 2019-2025 (7 años): la cola de impuestos del comprador ($1,202) parece baja si ya hay 2026 en curso; falta confirmar.",
+      "title: búsqueda de índice vacía solo por 'CALVA CANDIDO' (inferred); no se buscó PEREZ MARIA DE LA LUZ; ausencia no implica ausencia de liens.",
+      "Apertura $20,425 vs. total adeudado $11,108; apertura = 29% del valor HCAD: qué incluye es desconocido.",
+      "intake.hcad_deeds_recorded vacío, dueños desde 04/15/2004: posible sucesión o dueños fallecidos no verificados (citación por publicación)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Confirmar demandados y citación en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Pedir estado de cuenta de impuestos actualizado y confirmar la apertura final antes de pujar",
+      "Verificar ocupación y estado por visita al sitio; el valor HCAD no refleja condición (descuento de 20-30%)",
+      "Leer las imágenes del Clerk filtradas por descripción legal para confirmar que no hay liens sobrevivientes"
     ]
   }
 }

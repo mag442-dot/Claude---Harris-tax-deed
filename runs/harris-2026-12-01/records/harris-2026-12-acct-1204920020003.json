@@ -392,6 +392,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de SUMACEL INC (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Visita al sitio (ocupación/estado) y lectura de imágenes del Clerk del lote antes de pujar; attorney review recommended",
+      "why": "requiere humano/abogado; la revisión barata no abre imágenes"
     }
   ],
   "valuation": {
@@ -485,16 +490,21 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $202,036 >= cierre esperado $135,787. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de $268k HCAD en Westbourne (Tomball), reventa/rehab y fuera de la estrategia de lotes para dúplex. Hechos decisivos: no hay gravámenes visibles sobre este lote en el índice, y el techo teórico de $202k sigue por encima del cierre esperado de $136k aun con 30% de descuento (~$140k, margen delgado); el dueño es una entidad (SUMACEL INC) que compra a nivel inversionista, así que ocupación e inquilinos son la incógnita. COMPRA FUERTE no está permitido porque `legal` está bloqueado. Attorney review recommended.",
     "bid_ceiling": 202035.76,
     "all_in_cost_estimate": 146022.74,
-    "contradictions": [],
+    "contradictions": [
+      "intake.hcad_building_sqft 1307 vs. hcad_buildings 'Residential 1991sf': el área construida no coincide.",
+      "legal.sale_type es unknown, pero scout_notes dice 'Sale' (verificado por el condado): no hay conflicto real, falta copiar el dato.",
+      "Apertura $19,587 vs. total adeudado $5,729 (~3.4x): la apertura incluye algo no desglosado; no usarla como costo total.",
+      "Dueño actual SUMACEL INC desde 09/14/2023 y sentencia 04/23/2026: es entidad de inversión con múltiples lotes; riesgo de inquilinos u ocupación y de bancarrota no verificado (PACER bloqueado).",
+      "El techo $202,036 se basa en valor HCAD pleno; con descuento de 20-30% queda en ~$140k-$160k."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Confirmar demandados y citación en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Pedir estado de cuenta de impuestos actualizado y confirmar la apertura final antes de pujar",
+      "Verificar ocupación y estado por visita al sitio; el valor HCAD no refleja condición (descuento de 20-30%)",
+      "Leer las imágenes del Clerk filtradas por descripción legal para confirmar que no hay liens sobrevivientes"
     ]
   }
 }

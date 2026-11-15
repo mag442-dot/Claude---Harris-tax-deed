@@ -427,6 +427,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de RANGEL EVARISTO (1.0000%); CRUZ REYNA M  en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Leer imagenes del Clerk y confirmar citacion/titular actual antes de pujar: Medir el lote real (HCAD 4,323 vs GIS 6,028)",
+      "why": "el revisor barato solo lee el indice; attorney review recommended"
     }
   ],
   "valuation": {
@@ -520,16 +525,22 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $78,523 >= cierre esperado $54,957. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF GALENA PARK. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa 1951 en Galena Park, zona X minima, techo teorico $78.5k vs cierre esperado $55.0k (margen modelo 74%, optimista). Hechos decisivos: lote con area inconsistente (HCAD vs GIS) y sin filas propias del predio en el Clerk; los duenos tienen un D/T 2025 sobre otro lote, lo que sugiere endeudamiento activo. Es una casa de reventa/rehab: queda fuera de la estrategia de lotes baldios para duplex. COMPRA FUERTE no esta permitido porque `legal` esta bloqueado (demandados, citacion y bancarrota sin leer). Attorney review recommended.",
     "bid_ceiling": 78523.31,
     "all_in_cost_estimate": 62443.26,
-    "contradictions": [],
+    "contradictions": [
+      "Lote HCAD 4,323 sqft vs GIS 6,028 (+39%): discrepancia grande.",
+      "Edificio HCAD 1267 vs 'Residential 1498sf'.",
+      "Las 4 filas del Clerk con Desc GALENA MANOR son Lot 6 Blk 4 y Lot 2 Blk 17, NO el predio (Lot 4 Blk 3): el D/T 2025 (RP-2025-162874/5, Sierra Vista Realty) es de otro lote de los mismos duenos; no hay filas propias del predio.",
+      "Sentencia incluye 2019 con solo $28.09 de saldo; apertura $32,073.54 vs deuda $17,127.43 (1.9x)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Medir el lote real (HCAD 4,323 vs GIS 6,028)",
+      "Buscar por legal GALENA MANOR L4 B3 en el Clerk",
+      "Confirmar que el D/T de Sierra Vista Realty no cubre este predio (RP-2025-162874)",
+      "Leer demandados y citacion en hcdistrictclerk.com (login de Miguel) y bancarrota en PACER",
+      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar la apertura final el dia de la venta 2026-12-01",
+      "Visita al sitio: ocupacion y estado real (el valor HCAD ignora deterioro); aplicar descuento 20-30% al techo teorico"
     ]
   }
 }

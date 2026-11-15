@@ -377,6 +377,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de JF HARRIS LLC (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Visita al sitio (ocupación/estado) y lectura de imágenes del Clerk del lote antes de pujar; attorney review recommended",
+      "why": "requiere humano/abogado; la revisión barata no abre imágenes"
     }
   ],
   "valuation": {
@@ -470,16 +475,22 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $171,951 >= cierre esperado $125,489. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF PASADENA. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de $248k HCAD (bajó desde $295k) en Pasadena, reventa/rehab y fuera de la estrategia de lotes para dúplex. Hechos decisivos: la cola de impuestos que hereda el comprador es alta ($16.9k, con $9.9k posteriores a la sentencia) y el techo de $172k baja a ~$114k-$134k con descuento de 20-30%, por debajo o cerca del cierre esperado de $125k; el dueño es una LLC (JF HARRIS LLC) con posible ocupación por inquilinos. COMPRA FUERTE no está permitido porque `legal` está bloqueado. Attorney review recommended.",
     "bid_ceiling": 171951.39,
     "all_in_cost_estimate": 150152.91,
-    "contradictions": [],
+    "contradictions": [
+      "intake.hcad_building_sqft 2136 vs. hcad_buildings 'Residential 3254sf': diferencia grande en el área construida.",
+      "Valor HCAD cayó de $294,900 a $247,512 (-16%): valuation usa $247,512; revisar si la caída refleja condición.",
+      "Cola de impuestos $16,900 incluida en all_in_costs, pero la apertura $21,616 es menor que el total adeudado $28,790: la apertura no cubre las cuentas posteriores a la sentencia.",
+      "Con 30% de descuento, techo ~$114k < cierre esperado $125k: el modelo teórico sobrestima la ganancia.",
+      "title: búsquedas por 'JF HARRIS' devuelven vacío, pero el índice es solo por nombre y puede perder otros; liens no cuantificados en costos."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Confirmar con el condado el saldo de 2025-2026 que hereda el comprador (no extinguido por la sentencia)",
+      "Confirmar demandados y citación en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Pedir estado de cuenta de impuestos actualizado y confirmar la apertura final antes de pujar",
+      "Verificar ocupación y estado por visita al sitio; el valor HCAD no refleja condición (descuento de 20-30%)",
+      "Leer las imágenes del Clerk filtradas por descripción legal para confirmar que no hay liens sobrevivientes"
     ]
   }
 }

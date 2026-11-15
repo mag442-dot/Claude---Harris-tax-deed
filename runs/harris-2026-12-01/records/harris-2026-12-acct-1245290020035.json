@@ -429,6 +429,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de HOLMES GRACE L (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Leer imagenes del Clerk y confirmar citacion/titular actual antes de pujar: Leer RP-2016-173483 (imagen) y buscar probate de Grace L. Holmes en Probate Courts",
+      "why": "el revisor barato solo lee el indice; attorney review recommended"
     }
   ],
   "valuation": {
@@ -521,17 +526,23 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $173,970 >= cierre esperado $123,831. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Casa 2006 en zona X minima, techo teorico $174k vs cierre esperado $124k. Hechos decisivos: un affidavit del 2016 en el indice (mismo lote) nombra a la duena como sucesion, lo que implica herederos no citados/posible nulidad (TRCP 329 abierta hasta 2028-05-26) y ocupacion por herederos; ademas $10k de impuestos 2018-2021 fuera de la sentencia. Es una casa de reventa/rehab: queda fuera de la estrategia de lotes baldios para duplex. COMPRA FUERTE no esta permitido porque `legal` esta bloqueado (demandados, citacion y bancarrota sin leer). Attorney review recommended.",
     "bid_ceiling": 173969.69,
     "all_in_cost_estimate": 143750.43,
-    "contradictions": [],
+    "contradictions": [
+      "Clerk: AFFT RP-2016-173483 (2016-04-26) con Desc BRECKENRIDGE FOREST Sec 5 L35 B2 nombra 'HOLMES GRACE LA SHAN EST' (sucesion): sugiere que la duena fallecio; la demanda y HCAD siguen con 'HOLMES GRACE L' como duena viva (desde 2011).",
+      "Deuda 2018-2021 ($10,072.58) atrasada pero fuera de 'Tax Years in Judgement' (2022-2025); el modelo la hereda en la cola ($12,204.82) sin saber si sobrevive.",
+      "Edificio HCAD 1745 vs 'Residential 2266sf'; HCAD deeds incluye instrumento '207-0039748' malformado.",
+      "Apertura $42,134.76 vs deuda $22,923.38 (1.8x)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer RP-2016-173483 (imagen) y buscar probate de Grace L. Holmes en Probate Courts",
+      "Confirmar si los herederos fueron citados (cause 202527815)",
+      "Aclarar por que 2018-2021 no estan en la sentencia",
+      "Leer demandados y citacion en hcdistrictclerk.com (login de Miguel) y bancarrota en PACER",
+      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar la apertura final el dia de la venta 2026-12-01",
+      "Visita al sitio: ocupacion y estado real (el valor HCAD ignora deterioro); aplicar descuento 20-30% al techo teorico"
     ]
   }
 }

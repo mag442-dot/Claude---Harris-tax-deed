@@ -383,6 +383,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de OUTLAND AMPARO BANDA (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Visita al sitio (ocupación/estado) y lectura de imágenes del Clerk del lote antes de pujar; attorney review recommended",
+      "why": "requiere humano/abogado; la revisión barata no abre imágenes"
     }
   ],
   "valuation": {
@@ -476,16 +481,21 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $107,779 >= cierre esperado $74,223. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF SOUTH HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de 1939 con valor HCAD $146k (68% es terreno) en South Houston, reventa/rehab y fuera de la estrategia de lotes para dúplex. Hechos decisivos: el índice del Clerk solo muestra la escritura de 2018 y ningún lien en esa descripción, y el techo teórico $108k baja a ~$74k-$85k con descuento, igual o apenas sobre el cierre esperado de $74k; el dueño vive al lado (510 Avenue B), por lo que la ocupación es incierta. COMPRA FUERTE no está permitido porque `legal` está bloqueado. Attorney review recommended.",
     "bid_ceiling": 107778.7,
     "all_in_cost_estimate": 82554.19,
-    "contradictions": [],
+    "contradictions": [
+      "intake.hcad_building_sqft 2202 vs. hcad_buildings 'Residential 2226sf': diferencia pequeña.",
+      "Con 30% de descuento el techo (~$73.7k) queda bajo el cierre esperado ($74.2k): sin margen real.",
+      "Años en sentencia 2022-2025 vs. delinquent_by_year 2023-2025: falta explicar 2022 (¿pagado?). Apertura $23,112 vs. total adeudado $9,592.",
+      "Dueño y dirección de correo en 510 Avenue B (contigua) y sentencia 04/14/2026: posible ocupación por el dueño o familia aunque no haya homestead en el roll.",
+      "Zona FEMA X sombreada (0.2%): riesgo de inundación moderado no reflejado en valuation."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Confirmar demandados y citación en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Pedir estado de cuenta de impuestos actualizado y confirmar la apertura final antes de pujar",
+      "Verificar ocupación y estado por visita al sitio; el valor HCAD no refleja condición (descuento de 20-30%)",
+      "Leer las imágenes del Clerk filtradas por descripción legal para confirmar que no hay liens sobrevivientes"
     ]
   }
 }

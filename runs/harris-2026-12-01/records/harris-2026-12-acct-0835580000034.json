@@ -608,6 +608,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de RIVERA JORGE L (0.5000%); VILLARREAL ELI en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Leer imagenes del Clerk y confirmar citacion/titular actual antes de pujar: Pedir payoff/estado de Propel Tax y leer RP-2023-266983 (imagen)",
+      "why": "el revisor barato solo lee el indice; attorney review recommended"
     }
   ],
   "valuation": {
@@ -701,16 +706,22 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $286,336 >= cierre esperado $198,674. Es casa (HCAD): valor de reventa y ocupacion sin verificar. 34% del predio en SFHA (FEMA efectivo). Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Techo teorico $286k vs cierre esperado $199k, pero 33.7% del predio esta en SFHA (no floodway) y hay un posible prestamo de impuestos (Propel Tax) sin leer. Hechos decisivos: cola de impuestos de $14.6k con 2021-2022 fuera de la sentencia, y SFHA parcial que afecta seguro y reventa. Es una casa de reventa/rehab: queda fuera de la estrategia de lotes baldios para duplex. COMPRA FUERTE no esta permitido porque `legal` esta bloqueado (demandados, citacion y bancarrota sin leer). Attorney review recommended.",
     "bid_ceiling": 286336.39,
     "all_in_cost_estimate": 223196.06,
-    "contradictions": [],
+    "contradictions": [
+      "Deuda: 2021 y 2022 estan atrasados ($6,930) pero no estan en 'Tax Years in Judgement' (2023-2024); el modelo los hereda en la cola ($14,562) y no se sabe si esos anios sobreviven la venta o son otra demanda.",
+      "Edificio HCAD 1824 sqft vs 'Residential 3318sf'; lote HCAD 14,475 vs GIS 15,790 (+9%).",
+      "Escritura 2016 (RP-2016-337679) cubre Lots 34-35 Blk 6 pero HCAD solo lista LT 34: el lote 35 no esta explicado.",
+      "Clerk indice: ASSGN 2023-266983 de entes de impuestos a PROPEL TAX con RIVERA JORGE sin Desc (podria ser un prestamo de impuestos sobre este predio = gravamen a priorizar); los LIEN/A/J restantes parecen de otros predios/personas (nombre comun)."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Pedir payoff/estado de Propel Tax y leer RP-2023-266983 (imagen)",
+      "Aclarar por que 2021-2022 no estan en la sentencia y si sobreviven",
+      "Revisar lote 35 y la escritura 2016 con el legal; cotizar seguro de inundacion (33.7% SFHA)",
+      "Leer demandados y citacion en hcdistrictclerk.com (login de Miguel) y bancarrota en PACER",
+      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar la apertura final el dia de la venta 2026-12-01",
+      "Visita al sitio: ocupacion y estado real (el valor HCAD ignora deterioro); aplicar descuento 20-30% al techo teorico"
     ]
   }
 }

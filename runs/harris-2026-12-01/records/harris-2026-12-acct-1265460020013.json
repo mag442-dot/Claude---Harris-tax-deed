@@ -400,6 +400,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de VU KELLY KHANH (0.5000%); PHAM TUAN ANH  en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Leer imagenes del Clerk y confirmar citacion/titular actual antes de pujar: Confirmar que incluye la apertura (deuda $11,479 vs $27,734)",
+      "why": "el revisor barato solo lee el indice; attorney review recommended"
     }
   ],
   "valuation": {
@@ -493,16 +498,21 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $215,146 >= cierre esperado $145,353. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Techo teorico alto y sin lien visible del predio, casa 2006 en zona X al 100%, pero el techo es optimista (reventa al valor HCAD $286,692 sin comps). Hechos decisivos: apertura de $27.7k vs deuda de $11.5k sin explicar, y no hay lectura de imagenes del Clerk ni de la citacion. Es una casa de reventa/rehab: queda fuera de la estrategia de lotes baldios para duplex. COMPRA FUERTE no esta permitido porque `legal` esta bloqueado (demandados, citacion y bancarrota sin leer). Attorney review recommended.",
     "bid_ceiling": 215146.27,
     "all_in_cost_estimate": 157466.37,
-    "contradictions": [],
+    "contradictions": [
+      "Edificio HCAD: building_sqft 2238 vs hcad_buildings 'Residential 3667sf'; el tamano real de la casa es incierto.",
+      "Apertura $27,734.57 es 2.4x el total adeudado ($11,479.39): no se sabe que incluye (costas/honorarios).",
+      "Busqueda del Clerk solo por 'VU KELLY' (no por PHAM TUAN ANH); ningun D/T del lote Clearwood Crossing L13 B2 aparece: hipoteca ausente o no capturada; 'liens_que_sobreviven' sigue sin cuantificar."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Confirmar que incluye la apertura (deuda $11,479 vs $27,734)",
+      "Buscar en el Clerk por legal CLEARWOOD CROSSING Sec 3 L13 B2 y por PHAM TUAN ANH: hipoteca/HOA y si sobreviven",
+      "Confirmar sqft real de la casa (2238 vs 3667)",
+      "Leer demandados y citacion en hcdistrictclerk.com (login de Miguel) y bancarrota en PACER",
+      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar la apertura final el dia de la venta 2026-12-01",
+      "Visita al sitio: ocupacion y estado real (el valor HCAD ignora deterioro); aplicar descuento 20-30% al techo teorico"
     ]
   }
 }

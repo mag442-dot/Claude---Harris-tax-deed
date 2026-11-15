@@ -387,6 +387,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de INSTINCT INVESTMENTS LLC (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Visita al sitio (ocupación/estado) y lectura de imágenes del Clerk del lote antes de pujar; attorney review recommended",
+      "why": "requiere humano/abogado; la revisión barata no abre imágenes"
     }
   ],
   "valuation": {
@@ -479,17 +484,23 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $182,196 >= cierre esperado $124,733. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: fuera de limites de ciudad en HCAD_Cities (probable condado no incorporado). Indice del Clerk (misma subdivision): lien (tipo exacto por leer). Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Casa de $246k HCAD en Imperial Ridge, reventa/rehab y fuera de la estrategia de lotes para dúplex. Hechos decisivos: hay un LIEN de la asociación (IMPERIAL RIDGE HOA, con ARCHER NOW LLC y GOODWIN & COMPANY, RP-2026-327306, 08/12/2026) registrado después de la sentencia del 12/02/2025, por lo que podría sobrevivir y no está en el modelo; y con 30% de descuento el techo (~$125k) apenas iguala el cierre esperado ($125k). COMPRA FUERTE no está permitido porque `legal` está bloqueado. Attorney review recommended.",
     "bid_ceiling": 182195.85,
     "all_in_cost_estimate": 137629.7,
-    "contradictions": [],
+    "contradictions": [
+      "title: LIEN RP-2026-327306 (HOA, 08/12/2026) posterior a la sentencia vs. valuation.all_in_costs.liens_que_sobreviven 'no cuantificado': el modelo lo asume cero.",
+      "intake.hcad_building_sqft 2293 vs. hcad_buildings 'Residential 2728sf'.",
+      "Años en sentencia 2023-2024 con sentencia 12/02/2025; la cola ($5,155) incluye $2,902 posteriores. Apertura $25,290 vs. total adeudado $10,376 (2.4x).",
+      "Dueño LLC con domicilio en Austin (INSTINCT INVESTMENTS): posible casa en alquiler con inquilinos; no verificado.",
+      "El techo $182k con descuento de 30% (~$125k) iguala el cierre esperado $124.7k: sin margen."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer RP-2026-327306 (imagen) y pedir carta de saldo a la HOA Imperial Ridge (monto y si sobrevive)",
+      "Confirmar demandados y citación en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Pedir estado de cuenta de impuestos actualizado y confirmar la apertura final antes de pujar",
+      "Verificar ocupación y estado por visita al sitio; el valor HCAD no refleja condición (descuento de 20-30%)",
+      "Leer las imágenes del Clerk filtradas por descripción legal para confirmar que no hay liens sobrevivientes"
     ]
   }
 }
