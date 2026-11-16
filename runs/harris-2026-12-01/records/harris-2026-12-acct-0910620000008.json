@@ -406,6 +406,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de CLUTTER LINDA (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Leer imagen de A/J RP-2026-368055 (Capital One/Discover vs Clutter Linda M) y confirmar si sobrevive la venta",
+      "why": "requiere leer imagenes del Clerk / abogado (revision en modo barato, sin busquedas nuevas)"
     }
   ],
   "valuation": {
@@ -499,16 +504,23 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $153,512 >= cierre esperado $103,811. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF PASADENA. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de reventa/rehab en Pasadena (A1, 1963, FEMA X al 100%, sin floodway): queda FUERA de la estrategia de lotes para duplex. COMPRA FUERTE no esta permitido porque `legal` esta bloqueado (demandados, citacion y bancarrota sin leer). Los dos hechos decisivos: un A/J (abstract of judgment) de CAPITAL ONE/DISCOVER contra CLUTTER LINDA M (RP-2026-09-10, posterior a la sentencia del 07/22/2026) puede sobrevivir y no esta en el costo, y la apertura de $43,011 es 2.8x el total adeudado ($15,546) sin saber que incluye. El techo teorico de $153,512 asume reventa a $204,755 (HCAD); con descuento de 20-30% por estado/ocupacion el valor seria ~$143k-$164k. CONDICIONAL; attorney review recommended.",
     "bid_ceiling": 153512.11,
     "all_in_cost_estimate": 112611.64,
-    "contradictions": [],
+    "contradictions": [
+      "scout: anios en sentencia 2020 - 2025, pero el estado de cuenta solo trae 2021-2024 (2020 y 2025 ausentes: pagados o fuera de la cuenta?); post_judgment_taxes = 0 y la cola $1,686.53 es solo la proxy del ano corriente.",
+      "title: A/J RP-2026-368055 (09/10/2026, CAPITAL ONE N A / DISCOVER BANK vs CLUTTER LINDA M) sin Desc, por nombre, identidad no confirmada; si es la duena, el abstract adjunta al predio y puede sobrevivir; all_in_costs.liens_que_sobreviven = NO CUANTIFICADO y el techo lo asume cero. Las filas INWOOD FOREST (Lot 22 Blk 1) no corresponden al predio (Tanglebriar Sec 4 Lt 8 Blk 22).",
+      "Apertura $43,011.31 = 2.8x el total adeudado $15,545.88 y 21% del valor HCAD: que incluye (costas, otras jurisdicciones) es desconocido; no usarla como costo total.",
+      "hcad_building_sqft = 1482 vs hcad_buildings 1542 sf; lote HCAD 7,590 sf vs GIS 7,299 sf (-3.8%).",
+      "Direccion postal = direccion del predio, sin homestead en el roll: si vive ahi sin exencion, el 'plazo corto' de redencion (inferido) podria ser optimista; la duena (Linda M) aparece en 2017 junto a RAYMOND D CLUTTER EST (posible co-propietario fallecido/herederos): confirmar ocupacion y titularidad con abogado."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer imagen de A/J RP-2026-368055 y confirmar identidad del deudor (Linda M Clutter) y si adjunta al predio y sobrevive la venta",
+      "Confirmar con estado de cuenta si 2020 y 2025 estan pagados y que cubre la apertura de $43,011.31",
+      "Visita al sitio: ocupacion (dueña/herederos/inquilinos) y estado de la casa; confirmar si hay homestead no registrado",
+      "Confirmar demandados y citacion (incl. si el metodo fue publicacion) en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Pedir estado de cuenta actualizado de impuestos y desglose de lo que incluye la apertura antes de pujar",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)"
     ]
   }
 }

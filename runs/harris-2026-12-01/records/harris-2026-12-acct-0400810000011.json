@@ -403,6 +403,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de MENDIOLA SILVIA (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Leer imagenes del Clerk: LIEN RP-2026-408989 (Ciudad de Houston) y CONT RP-2020-51013 (FGMS HOLDINGS LLC); confirmar si sobreviven la venta",
+      "why": "requiere leer imagenes del Clerk / abogado (revision en modo barato, sin busquedas nuevas)"
     }
   ],
   "valuation": {
@@ -496,16 +501,24 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $334,828 >= cierre esperado $248,006. Es casa (HCAD): valor de reventa y ocupacion sin verificar. Jurisdiccion: CITY OF HOUSTON. Legal bloqueado (demandados/citacion/bancarrota): nunca COMPRA FUERTE sin esa revision. Attorney review recommended.",
+    "rationale": "Casa de reventa/rehab (A1, dos viviendas, terreno ~19,600 sf = 77% del valor HCAD): queda FUERA de la estrategia de lotes para duplex. COMPRA FUERTE no esta permitido porque `legal` esta bloqueado (demandados, citacion y bancarrota sin leer) y ademas hay un LIEN de la Ciudad de Houston (RP-2026-408989, 10/08/2026) posterior a la sentencia, sin precio en el modelo de costos. Los dos hechos decisivos: el techo teorico de $334,828 asume reventa al valor HCAD ($489k) sin inspeccion (con descuento de 20-30% el valor seria ~$342k-$391k, y el techo cae en proporcion) y una CONT 2020 de la misma duena a FGMS HOLDINGS LLC sobre ~0.4579 acres sugiere un posible comprador/tercero con interes no citado. Evidencia delgada: CONDICIONAL; attorney review recommended.",
     "bid_ceiling": 334827.68,
     "all_in_cost_estimate": 301903.7,
-    "contradictions": [],
+    "contradictions": [
+      "hcad_building_sqft = 1873 pero hcad_buildings lista 1430 sf (1945) + 1250 sf (1996) = 2,680 sf; ademas hcad_year_improved = 1945 ignora la segunda casa de 1996. Ocupacion/numero de unidades sin verificar.",
+      "RP-2020-51013 (CONT, 02/04/2020) Grantor MENDIOLA SILVIA a FGMS HOLDINGS LLC, Desc JOHN AUSTIN GRANT Abs 1, 0.4579 ac (~el predio de 0.45 ac), pero HCAD sigue mostrando a la duena desde 2006 y el demandado puede no incluir a FGMS: posible interes de tercero / defecto de citacion (indice, inferido; attorney review recommended).",
+      "title: LIEN CITY OF HOUSTON RP-2026-408989 (10/08/2026, Desc AUSTIN J Abs 1 coincide con el legal HCAD) es posterior a la sentencia del 02/02/2026 y puede sobrevivir; valuation.all_in_costs.liens_que_sobreviven = NO CUANTIFICADO y el techo $334,828 lo asume cero.",
+      "Apertura $67,381.54 es mayor que el total adeudado $42,457.89 (+59%) y es solo 13.8% del valor HCAD: no se sabe que incluye (costas, otras jurisdicciones). tax.taxes_in_judgment es desconocido (scout: 'null - null'), asi que buyer_tax_tail_estimate es null mientras all_in_costs usa el total adeudado como cota superior.",
+      "Direccion postal = direccion del predio y sin homestead en el roll: si la duena vive ahi sin haber pedido la exencion, el redemption_note ('plazo corto', inferido de HCAD) podria ser optimista; confirmar ocupacion y plazo con abogado.",
+      "Techo $334,828 vs cierre esperado $248,006 (ratio 0.507 de lotes baldios del 04/08) aplicado a una casa con mejoras; valor HCAD 489k vs 501k del ano previo: el margen del 62% es teorico, sin comparables."
+    ],
     "conditions_to_buy": [
-      "Leer los gravamenes del Clerk con imagen (tipo, acreedor, si sobreviven la venta)",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER",
-      "Pedir estado de cuenta actualizado de impuestos antes de pujar (crece con penalidades)",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)",
-      "Visita al sitio: ocupacion y estado"
+      "Leer imagen de RP-2026-408989 (LIEN Ciudad de Houston): tipo (demolicion/limpieza/otro), monto y si sobrevive la venta; payoff letter",
+      "Leer imagen de RP-2020-51013 (CONT a FGMS HOLDINGS LLC) y confirmar si FGMS fue demandado/citado en cause 202211671",
+      "Visita al sitio: ocupacion (dueña o inquilinos), estado de las dos viviendas y cuantas unidades hay",
+      "Confirmar demandados y citacion (incl. si el metodo fue publicacion) en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Pedir estado de cuenta actualizado de impuestos y desglose de lo que incluye la apertura antes de pujar",
+      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)"
     ]
   }
 }
