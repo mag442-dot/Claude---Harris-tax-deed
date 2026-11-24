@@ -507,11 +507,6 @@
       "why": "requiere login/cuenta"
     },
     {
-      "agent": "reviewer",
-      "item": "Verificar con abogado/Clerk con imagen los puntos de conditions_to_buy antes de pujar",
-      "why": "el modo barato solo leyo el indice crudo; sin imagenes ni login"
-    },
-    {
       "agent": "title",
       "item": "Identidad del dueno: imagen de S635796 (vesting 1997 a Wanda Diane Guillory/Jimmy D Moore) y averiguar si Diane Moore (HCAD) es Wanda Diane y estado de Jimmy D Moore (heredero/probate)",
       "why": "imagenes del Clerk requieren login; probate/hcdistrictclerk requiere login"
@@ -520,6 +515,16 @@
       "agent": "title",
       "item": "Confirmar que el LIEN AG RP-2026-89033 ('Moore Diane Grace') y A/J RP-2021-195690 NO son de la duena",
       "why": "apellido comun; sin imagen"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Imagen de S635796 y probate/heirship de Wanda Diane Guillory y Jimmy D Moore",
+      "why": "imagenes y probate requieren login/compra"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Confirmar que LIEN AG RP-2026-89033 y A/J RP-2021-195690 no son de la duena",
+      "why": "imagenes del Clerk requieren login/compra; apellido comun"
     }
   ],
   "valuation": {
@@ -612,22 +617,28 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Deuda baja ($1,376, cola ~$968) y sentencia reciente (2026-07-13), casa de 949 sf de 1963 con valor HCAD $103k y techo teorico $75.4k contra cierre esperado $52.3k; fuera de zona SFHA (0.2% anual, sin floodway). La apertura de $18,666 es 13.6x lo adeudado, lo que indica costas/honorarios no explicados y el margen real tras rehab es ajustado (~$13-24k a 70-80% del valor). Fuera de la estrategia de lotes para duplex: se juzga solo como reventa/rehab. Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Casa de 1963 (HCAD $103k), fuera de la estrategia de lotes de Miguel: se juzgaria solo como reventa/rehab, pero el titulo no esta resuelto. Hecho decisivo 1: la ultima escritura indexada (S635796, 1997) es a Wanda Diane Guillory y Jimmy D Moore, y HCAD dice solo 'MOORE DIANE' con propietaria desde 2020 sin ninguna escritura registrada; la participacion de Jimmy D Moore y posibles herederos quedan sin explicar, y si no fueron demandados un tax deed podria no extinguirlos (quiet title probablemente mayor que los $4,000 supuestos). Hecho decisivo 2: apertura $18,666 contra $1,376 adeudado y legal bloqueado, con un LIEN AG 2026 y A/J 2021 de homonimos que no se atribuyen pero tampoco se descartan sin imagen. Se vigila hasta resolver identidad. Attorney review recommended.",
     "bid_ceiling": 75359.64,
     "all_in_cost_estimate": 58879.24,
     "contradictions": [
-      "Apertura $18,665.88 vs total adeudado $1,376.30 (13.6x): no cuadra con tres anios de impuestos; confirmar que incluye",
-      "hcad_deeds_recorded vacio aunque hcad_owner_since = 08/19/2020: falta la escritura de adquisicion; dueno MOORE DIANE (nombre comun, direccion de correo en Crosby)",
-      "title: 0 filas coinciden con LT 16 BLK 3 SHELDON WOODS SEC 1: liens desconocidos aunque el modelo los pone en $0"
+      "intake.hcad_owner_since 08/19/2020 y hcad_deeds_recorded vacio vs title.vesting_deed: no hay ninguna escritura indexada despues de 1997; HCAD y Clerk no se reconcilian (posible herencia, transferencia no registrada o error de identidad)",
+      "valuation.all_in_costs.liens_que_sobreviven = 'NO CUANTIFICADO' (suma $0 al total de $58,879): title no confirma D/T ni lien atribuido (LIEN AG 2026 'Diane Grace' y A/J 2021 son de homonimos, NO hechos), pero el costo de quiet title de $4,000 no refleja el riesgo de coheredero (Jimmy D Moore) ni de titulo ALTO",
+      "Apertura $18,666 = 13.6x el total adeudado ($1,376, solo 2025); taxes_in_judgment 2023-2025 pero delinquent_by_year solo 2025: confirmar que cubre la apertura y si 2023-2024 ya se pagaron",
+      "valuation: expected_close_from_ratio $52,341 vs expected_close_from_premium $20,308; el ratio viene de lotes baldios y la apertura ya es 18% del valor HCAD, asi que el cierre real probablemente se acerca al premium",
+      "intake: hcad_building_sqft 949 vs hcad_buildings 'Residential 1882sf' (casi 2x); physical: lote GIS 6,591 vs HCAD 5,876 (12% de diferencia): confirmar el lote real",
+      "physical: zona FEMA X sombreada (0.2%) sin floodway: no bloquea, pero no hay MAAPnext/borrador en el registro para esta cuenta",
+      "title: NOTICE W539513 (2003) trae 'Lot 16 Block 3' sin seccion: inferred que es mal indexado, falta imagen"
     ],
     "conditions_to_buy": [
-      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com y PACER (login de Miguel); attorney review recommended; ventana TRCP 329 abierta hasta 2028-07-13",
-      "Leer con imagen los instrumentos del Clerk que coincidan con el predio (tipo, acreedor, si sobreviven la venta) (buscar por nombre completo y legal SHELDON WOODS)",
-      "Confirmar con abogado el plazo y mecanica de redencion para propiedad sin homestead (180 dias tras la escritura, segun entendimiento general) y reflejarlo en el flujo de caja",
-      "Preguntar al condado que incluye la apertura de $18,666",
-      "Visita al sitio (desde fuera): ocupacion, estado y si la construccion coincide con HCAD",
-      "Confirmar apertura final y que la cuenta sigue en la lista el 2026-12-01 (T-1)"
+      "Leer la imagen de S635796 (1997) y buscar probate/heirship de Wanda Diane Guillory/Moore y Jimmy D Moore; confirmar que 'Diane Moore' de HCAD es Wanda Diane y quien posee la otra mitad",
+      "Confirmar en hcdistrictclerk.com (login de Miguel) los demandados y el metodo de citacion del cause 202531111, y en PACER la bancarrota del dueno; attorney review recommended; verificar si Jimmy D Moore o herederos fueron demandados",
+      "Confirmar con la imagen y la middle name que el LIEN AG RP-2026-89033 ('Diane Grace'), el LIEN RP-2016-122965 y el A/J RP-2021-195690 NO son de la duena",
+      "Re-estimar quiet title con abogado (el supuesto de $4,000 no cubre una herencia sin resolver)",
+      "Confirmar con abogado el plazo y la prima de redencion (180 dias es solo el entendimiento general para no homestead) y si el dueno puede reclamar uso como vivienda aunque no haya exencion en HCAD",
+      "Visita al sitio desde fuera: ocupacion (dueno o inquilino), estado, y si la construccion coincide con HCAD",
+      "Medir el lote real (GIS 6,591 vs HCAD 5,876) y leer restricciones/servidumbre de cable H187110",
+      "Confirmar apertura final y que la cuenta sigue en la lista el 2026-12-01 (T-1); preguntar a la Tax Office si los anios de la sentencia ya se pagaron y la venta sigue vigente"
     ]
   }
 }

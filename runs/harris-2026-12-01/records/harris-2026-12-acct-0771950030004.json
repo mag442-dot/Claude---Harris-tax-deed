@@ -521,6 +521,11 @@
       "agent": "title",
       "item": "Leer imagenes RP-2019-457896 (deed) y RP-2025-162874 (D/T) y reconciliar Lot 4 Blk 3 (HCAD) vs Lot 6 Blk 4 (deed) para 2510 5th St, Galena Park",
       "why": "imagenes del Clerk requieren compra/descarga; indice no basta; posible error de legal o de parcela"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Reconciliar Lot 4 Blk 3 (HCAD) vs Lot 6 Blk 4 (deed/D-T): leer imagenes RP-2019-457896, RP-2025-162874 y 2008-0595441; attorney/title company",
+      "why": "revision profunda: el indice del Clerk no basta; requiere imagenes/abogado"
     }
   ],
   "valuation": {
@@ -614,22 +619,23 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Casa 1951 en Galena Park, zona X minima, techo teorico $78.5k vs cierre esperado $55.0k (margen modelo 74%, optimista). Hechos decisivos: lote con area inconsistente (HCAD vs GIS) y sin filas propias del predio en el Clerk; los duenos tienen un D/T 2025 sobre otro lote, lo que sugiere endeudamiento activo. Es una casa de reventa/rehab: queda fuera de la estrategia de lotes baldios para duplex. COMPRA FUERTE no esta permitido porque `legal` esta bloqueado (demandados, citacion y bancarrota sin leer). Attorney review recommended.",
+    "rationale": "Casa de 1951 (1,267 sf HCAD) en Galena Park, zona X 100%, sin floodway, valor HCAD $108,396: es reventa/rehab y queda fuera de la estrategia de lotes baldios para duplex de Miguel. Hecho 1: la unica escritura de los duenos demandados (RP-2019-457896) describe Lot 6 Blk 4, no el Lot 4 Blk 3 de HCAD, asi que el titulo del predio subastado no esta confirmado. Hecho 2: el D/T de 2025 a Sierra Vista Realty (RP-2025-162874, sin liberacion, monto desconocido) esta indexado sobre Lot 6 Blk 4; solo seria un gravamen de este predio si resulta ser el mismo lote, por lo que es bandera y no hecho, y el techo teorico de $78,523 no lo precia. `legal` sigue bloqueado (demandados, citacion, bancarrota), asi que COMPRA FUERTE no esta permitido. CONDICIONAL; attorney review recommended.",
     "bid_ceiling": 78523.31,
     "all_in_cost_estimate": 62443.26,
     "contradictions": [
-      "Lote HCAD 4,323 sqft vs GIS 6,028 (+39%): discrepancia grande.",
-      "Edificio HCAD 1267 vs 'Residential 1498sf'.",
-      "Las 4 filas del Clerk con Desc GALENA MANOR son Lot 6 Blk 4 y Lot 2 Blk 17, NO el predio (Lot 4 Blk 3): el D/T 2025 (RP-2025-162874/5, Sierra Vista Realty) es de otro lote de los mismos duenos; no hay filas propias del predio.",
-      "Sentencia incluye 2019 con solo $28.09 de saldo; apertura $32,073.54 vs deuda $17,127.43 (1.9x)."
+      "Legal HCAD 'LT 4 BLK 3 GALENA MANOR' vs unica escritura de los duenos (RP-2019-457896, 2019) 'Lot 6 Block 4'; ademas HCAD dice duenos desde 11/26/2008 (2008-0595441) y esa escritura de 2008 no aparece en el indice del Clerk. Titulo del predio no verificado.",
+      "Los D/T/ASSGN de 2025 (RP-2025-162874/5, Sierra Vista Realty) tienen Desc Lot 6 Blk 4: no atribuibles al predio por la descripcion; no tratarlos ni como gravamen confirmado ni como ajeno hasta resolver el punto 1 (inferred, solo indice).",
+      "valuation.all_in_costs.liens_que_sobreviven = 'NO CUANTIFICADO' y bid_ceiling $78,523.31 / all_in $62,443.26 no incluyen ningun gravamen, aunque title encontro un D/T abierto sobre un lote de los mismos duenos; ademas el techo es 72% del valor HCAD y el cierre por prima ($34,896) es 36% menor que el por ratio de lotes ($54,957): el margen 74% es teorico.",
+      "Lote HCAD 4,323 sf vs GIS 6,028 sf (+39%); edificio HCAD 1,267 sf vs 'Residential 1498sf' en hcad_buildings.",
+      "Apertura $32,073.54 es 1.9x el total adeudado ($17,127.43) y 2019 pesa solo $28.09: que incluye la apertura es desconocido; no usarla como costo total."
     ],
     "conditions_to_buy": [
-      "Medir el lote real (HCAD 4,323 vs GIS 6,028)",
-      "Buscar por legal GALENA MANOR L4 B3 en el Clerk",
-      "Confirmar que el D/T de Sierra Vista Realty no cubre este predio (RP-2025-162874)",
-      "Leer demandados y citacion en hcdistrictclerk.com (login de Miguel) y bancarrota en PACER",
-      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar la apertura final el dia de la venta 2026-12-01",
-      "Visita al sitio: ocupacion y estado real (el valor HCAD ignora deterioro); aplicar descuento 20-30% al techo teorico"
+      "Leer imagenes de RP-2019-457896 y del instrumento HCAD 2008-0595441 y confirmar si 2510 5th St es Lot 4 Blk 3 o Lot 6 Blk 4 (plat/GIS/title company)",
+      "Leer imagen de RP-2025-162874: monto, si cubre este predio y si Sierra Vista Realty fue parte en cause 202562112; pedir payoff si cubre el predio",
+      "Leer demandados y metodo de citacion de cause 202562112 en hcdistrictclerk.com (login de Miguel) y bancarrota de Rangel Evaristo / Cruz Reyna M en PACER; attorney review recommended",
+      "Medir lote real (HCAD 4,323 vs GIS 6,028) y confirmar area construida (1,267 vs 1,498 sf)",
+      "Visita al sitio: ocupacion y estado; aplicar descuento 20-30% al valor HCAD para reventa/rehab",
+      "Estado de cuenta de impuestos actualizado (2026) y confirmar apertura final el 2026-12-01"
     ]
   }
 }

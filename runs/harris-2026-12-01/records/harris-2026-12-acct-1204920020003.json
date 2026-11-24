@@ -474,11 +474,6 @@
       "why": "requiere login/cuenta"
     },
     {
-      "agent": "reviewer",
-      "item": "Visita al sitio (ocupación/estado) y lectura de imágenes del Clerk del lote antes de pujar; attorney review recommended",
-      "why": "requiere humano/abogado; la revisión barata no abre imágenes"
-    },
-    {
       "agent": "title",
       "item": "Imagen de RP-2023-356818 (NOTICE Pena/Sumacel 09/18/2023) y de RP-2023-372752 (release Quicken)",
       "why": "imagenes del Clerk requieren login/compra"
@@ -487,6 +482,16 @@
       "agent": "title",
       "item": "Verificar estado de Sumacel Inc en Texas SOS/Comptroller",
       "why": "fuente fuera del Clerk"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Imagen de RP-2023-356818 y RP-2023-372752; estatus de Sumacel Inc en SOS",
+      "why": "imagenes del Clerk requieren login/compra"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Visita al sitio: ocupacion/inquilino y estado",
+      "why": "requiere presencia fisica"
     }
   ],
   "valuation": {
@@ -580,21 +585,25 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Casa de $268k HCAD en Westbourne (Tomball), reventa/rehab y fuera de la estrategia de lotes para dúplex. Hechos decisivos: no hay gravámenes visibles sobre este lote en el índice, y el techo teórico de $202k sigue por encima del cierre esperado de $136k aun con 30% de descuento (~$140k, margen delgado); el dueño es una entidad (SUMACEL INC) que compra a nivel inversionista, así que ocupación e inquilinos son la incógnita. COMPRA FUERTE no está permitido porque `legal` está bloqueado. Attorney review recommended.",
+    "rationale": "Casa de 2000 (HCAD $267.8k), fuera de la estrategia de lotes de Miguel: se juzga solo como reventa/rehab, con techo teorico de $202k contra cierre esperado de $135.8k y reventa al valor HCAD no probada. Hecho decisivo 1: el titulo es el mas limpio del grupo, con escritura 2023 a SUMACEL INC que coincide con HCAD, todos los D/T previos emparejados con releases en el indice (el de Quicken 2019 liberado 10 dias despues de la compra) y sin liens federales/HOA/ciudad. Hecho decisivo 2: legal bloqueado y comparte cause con el lote vecino ...0004 (dueno entidad con direccion comercial en FM 249, probable renta), con un NOTICE del 2023-09-18 sin leer. Attorney review recommended.",
     "bid_ceiling": 202035.76,
     "all_in_cost_estimate": 146022.74,
     "contradictions": [
-      "intake.hcad_building_sqft 1307 vs. hcad_buildings 'Residential 1991sf': el área construida no coincide.",
-      "legal.sale_type es unknown, pero scout_notes dice 'Sale' (verificado por el condado): no hay conflicto real, falta copiar el dato.",
-      "Apertura $19,587 vs. total adeudado $5,729 (~3.4x): la apertura incluye algo no desglosado; no usarla como costo total.",
-      "Dueño actual SUMACEL INC desde 09/14/2023 y sentencia 04/23/2026: es entidad de inversión con múltiples lotes; riesgo de inquilinos u ocupación y de bancarrota no verificado (PACER bloqueado).",
-      "El techo $202,036 se basa en valor HCAD pleno; con descuento de 20-30% queda en ~$140k-$160k."
+      "valuation.all_in_costs.liens_que_sobreviven = 'NO CUANTIFICADO' (efecto $0): title no muestra D/T abierto, asi que es consistente, pero los releases estan emparejados por fecha/acreedor sin imagen (inferred), asi que 'sin lien' no esta verificado",
+      "Apertura $19,587 = 3.4x el total adeudado ($5,729, 2024+2025); confirmar que incluye costos de sentencia. Aqui taxes_in_judgment (2024-2025) = todo lo adeudado, y la cola heredada $2,162 es solo el proxy 2026",
+      "intake.hcad_owner_since 09/14/2023 vs escritura RP-2023-356817 filed 09/18/2023: diferencia de fecha entre HCAD y Clerk (probable fecha de escritura vs registro), sin efecto en la decision",
+      "legal.sale_type = unknown mientras scout_notes dice 'tipo Sale'; mismo cause 202590320 que la cuenta ...0004 (sale# 15 y 16)",
+      "valuation: expected_close_from_ratio $135,787 vs premium $21,310; ratio de lotes baldios aplicado a una casa; margin_at_expected_close (83.4%) optimista",
+      "intake: hcad_building_sqft 1,307 vs hcad_buildings 'Residential 1991sf'"
     ],
     "conditions_to_buy": [
-      "Confirmar demandados y citación en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
-      "Pedir estado de cuenta de impuestos actualizado y confirmar la apertura final antes de pujar",
-      "Verificar ocupación y estado por visita al sitio; el valor HCAD no refleja condición (descuento de 20-30%)",
-      "Leer las imágenes del Clerk filtradas por descripción legal para confirmar que no hay liens sobrevivientes"
+      "Confirmar en hcdistrictclerk.com (login de Miguel) los demandados y el metodo de citacion del cause 202590320, y en PACER la bancarrota del dueno; attorney review recommended; ventana TRCP 329 abierta hasta 2028-04-23",
+      "Leer las imagenes de RP-2023-356818 (NOTICE misma fecha que la escritura) y RP-2023-372752 (release Quicken) para confirmar que no hay opcion, financiamiento del vendedor ni saldo abierto",
+      "Verificar estatus de Sumacel Inc en Texas SOS/Comptroller",
+      "Confirmar con abogado el plazo y la prima de redencion (180 dias es solo el entendimiento general para no homestead) y si el dueno puede reclamar uso como vivienda aunque no haya exencion en HCAD",
+      "Visita al sitio desde fuera: ocupacion (dueno o inquilino), estado, y si la construccion coincide con HCAD y confirmar si hay inquilino",
+      "Leer restricciones de Westbourne Sec 3 y estimar rehab",
+      "Confirmar apertura final y que la cuenta sigue en la lista el 2026-12-01 (T-1); preguntar a la Tax Office si los anios de la sentencia ya se pagaron y la venta sigue vigente"
     ]
   }
 }

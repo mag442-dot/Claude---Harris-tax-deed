@@ -528,6 +528,11 @@
       "agent": "title",
       "item": "Leer imagen de A/J RP-2017-192604 (Aldine ISD) para ver direccion/identificadores de PHAM TUAN ANH y confirmar si es el dueno de 9214 Wolcott Park Ln; leer TRSALE 20130410176/20130470236",
       "why": "imagenes del Clerk requieren cuenta/pago; confirmacion de identidad y survivorship requiere abogado"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisión profunda: Leer imagen de A/J RP-2017-192604 (identificadores de Pham Tuan Anh) y confirmar si es el dueño de 9214 Wolcott Park Ln; si lo es, pedir payoff a Aldine ISD y descontarlo del techo; attorney review recommended",
+      "why": "requiere login/abogado; el revisor no hace búsquedas nuevas"
     }
   ],
   "valuation": {
@@ -621,21 +626,24 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico alto y sin lien visible del predio, casa 2006 en zona X al 100%, pero el techo es optimista (reventa al valor HCAD $286,692 sin comps). Hechos decisivos: apertura de $27.7k vs deuda de $11.5k sin explicar, y no hay lectura de imagenes del Clerk ni de la citacion. Es una casa de reventa/rehab: queda fuera de la estrategia de lotes baldios para duplex. COMPRA FUERTE no esta permitido porque `legal` esta bloqueado (demandados, citacion y bancarrota sin leer). Attorney review recommended.",
+    "rationale": "Casa de 2006 en Clearwood Crossing (HCAD $287k, zona X 100%); Es una casa: fuera de la estrategia de lotes baldíos para dúplex; se juzga como reventa/rehab. Hecho 1: el índice muestra un A/J de Aldine ISD (RP-2017-192604, 05/03/2017, sin release visible) contra un grupo que incluye 'PHAM TUAN ANH', un nombre común sin identidad confirmada: si es el mismo dueño, el lien judicial podría adherirse a su mitad y sobrevivir a la venta; es una bandera para abogado, no un hecho, y no está en el modelo de costos. Hecho 2: el techo $215k cae a ~$171k (-20%) y ~$148k (-30%) frente a un cierre esperado de $145k, margen casi nulo con descuento, y la cadena tiene una irregularidad de 2013 (dos TRSALE). `legal` sigue bloqueado, así que COMPRA FUERTE no es posible. Attorney review recommended.",
     "bid_ceiling": 215146.27,
     "all_in_cost_estimate": 157466.37,
     "contradictions": [
-      "Edificio HCAD: building_sqft 2238 vs hcad_buildings 'Residential 3667sf'; el tamano real de la casa es incierto.",
-      "Apertura $27,734.57 es 2.4x el total adeudado ($11,479.39): no se sabe que incluye (costas/honorarios).",
-      "Busqueda del Clerk solo por 'VU KELLY' (no por PHAM TUAN ANH); ningun D/T del lote Clearwood Crossing L13 B2 aparece: hipoteca ausente o no capturada; 'liens_que_sobreviven' sigue sin cuantificar."
+      "Valuation vs. título: all_in_costs trae 'liens_que_sobreviven: NO CUANTIFICADO' y ni el techo $215,146 ni el all-in $157,466 reservan nada, pero title encontró A/J de Aldine ISD RP-2017-192604 (y 20070366176, S731290) y LIEN del Estado de TX contra 'PHAM TUAN ANH' sin release visible. Atribución al dueño NO confirmada (sin legal, dirección ni segundo nombre; nombre común, 30+ hits): bandera, no hecho; vigencia ~05/2027 si el A/J 2017 no se renueva.",
+      "Título: D/T 2006 Z197491 (Option One, deudor Avila) sin REL; se supone extinguido por TRSALE 20130470236 (09/2013), pero existe un TRSALE previo 20130410176 (08/2013) y APPT 20130450133: irregularidad de cadena sin leer imágenes (inferred).",
+      "Edificio HCAD: hcad_building_sqft 2238 vs. hcad_buildings 'Residential 3667sf'; el valor $287k depende de cuál sea correcta.",
+      "Apertura $27,735 es 2.4x el total adeudado ($11,479): no se sabe qué incluye.",
+      "Sentencia 05/06/2026 y cause 202572388 (2025) incluyen 2025 como año en sentencia; revisar que el año fiscal 2025 esté efectivamente en la demanda.",
+      "Los titulares tienen actividad de compraventa intensa en 2025-2026 en otros inmuebles (D/T, W/D); esos instrumentos tienen otra descripción y NO se atribuyen a este lote, pero sugieren inversionistas y posible inquilino/ocupación.",
+      "Techo teórico $215k vs. cierre esperado $145k: aplicar descuento por condición deja ~$148k, sin margen."
     ],
     "conditions_to_buy": [
-      "Confirmar que incluye la apertura (deuda $11,479 vs $27,734)",
-      "Buscar en el Clerk por legal CLEARWOOD CROSSING Sec 3 L13 B2 y por PHAM TUAN ANH: hipoteca/HOA y si sobreviven",
-      "Confirmar sqft real de la casa (2238 vs 3667)",
-      "Leer demandados y citacion en hcdistrictclerk.com (login de Miguel) y bancarrota en PACER",
-      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar la apertura final el dia de la venta 2026-12-01",
-      "Visita al sitio: ocupacion y estado real (el valor HCAD ignora deterioro); aplicar descuento 20-30% al techo teorico"
+      "Leer imagen de A/J RP-2017-192604 (identificadores de Pham Tuan Anh) y confirmar si es el dueño de 9214 Wolcott Park Ln; si lo es, pedir payoff a Aldine ISD y descontarlo del techo; attorney review recommended",
+      "Leer imágenes TRSALE 20130410176 y 20130470236 (validez de la venta de trustee de 2013) o pedir opinión de title company",
+      "Leer demandados y citación del cause 202572388 en hcdistrictclerk.com (login) y bancarrota de Vu Kelly Khanh y Pham Tuan Anh en PACER",
+      "Confirmar sqft real de la casa (2238 vs. 3667) y qué incluye la apertura de $27,735",
+      "Visita al sitio: ocupación/inquilino y estado; confirmar HOA/restricciones de Clearwood Crossing Sec 3"
     ]
   }
 }

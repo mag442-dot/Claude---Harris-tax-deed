@@ -495,6 +495,11 @@
       "agent": "title",
       "item": "Leer imagenes de liberaciones RP-2020-310618 y RP-2023-35122 (D/T Windmill / Jet Lending) para pasar de inferred a verified",
       "why": "imagenes del Clerk"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Confirmar con imagen RP-2024-113042 si el titular registral antes de la sentencia era NTN West Gosling LLC (posible demandado equivocado); attorney review",
+      "why": "revision profunda: el indice del Clerk no basta; requiere imagenes/abogado"
     }
   ],
   "valuation": {
@@ -582,25 +587,24 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "No es casa: es terreno comercial F1 de 2.93 acres (127,718 sf, building_sqft 0) en zona no incorporada, con 166 x 766 ft aprox. y 30,652 sf de drainage easement; encaja mejor con la estrategia de lotes que las otras dos, pero el uso dúplex NO esta evaluado (zonificacion/restricciones, acceso). COMPRA FUERTE no esta permitido porque `legal` esta bloqueado (demandados, citacion y bancarrota sin leer). Los dos hechos decisivos: la apertura de $42,537 es solo 4.7% del valor HCAD ($903k), lo que indica competencia fuerte y un cierre esperado de ~$458k, y el saldo 2023 de $25,690 es anomalo frente a 2022 ($3,559) y 2024 ($11,969). El techo teorico $690,394 supone reventa al valor HCAD sin comparables; attorney review recommended.",
+    "rationale": "Terreno F1 de 2.93 acres (sin edificio en HCAD), unincorporado, zona X 100%, valor HCAD $903,315 contra apertura de $42,537 (4.7%): encaja mas con la estrategia de lotes, pero duplex no esta evaluado (lote de ~166 x 766 ft, servidumbres CenterPoint, sin zonificacion/restricciones leidas) y una apertura tan baja sugiere puja fuerte. Hecho 1: una W/D de abril 2024 de CHAMBERS PROPERTIES a NTN West Gosling LLC (RP-2024-113042, Landmark at Auburn Lakes) en la misma zona de Abst 280, anterior a la sentencia de 07/2025, no se pudo descartar como transferencia de este tracto; si lo fuera, el demandado no era titular (no confirmado). Hecho 2: la cola de impuestos es incierta (estado solo con 2022-2024, salto 2023 $25,690, sin 2021/2025/2026), y el techo $690,394 no precia servidumbres ni gravamenes. `legal` bloqueado: COMPRA FUERTE no permitido. CONDICIONAL; attorney review recommended.",
     "bid_ceiling": 690394.07,
     "all_in_cost_estimate": 483266.24,
     "contradictions": [
-      "Se describio como casa, pero HCAD la clasifica F1 (comercial), building_sqft = 0, sin edificios, aunque hcad_year_improved = 1983 (mejoras menores/desaparecidas?). Fuera del 'casa' pero sin evaluar uso dúplex.",
-      "scout: anios en sentencia 2021 - 2024, pero el estado solo trae 2022-2024 (2021 ausente) y no hay 2025 ni 2026; post_judgment_taxes = 0 y tail $7,546.11 es proxy: la cola real puede ser mayor.",
-      "Saldo 2023 $25,690.03 vs 2022 $3,559.36 y 2024 $11,968.89: salto no explicado (posible valoracion cambiada/rollback); confirmar con el condado.",
-      "Apertura $42,537.10 = 4.7% del valor HCAD (<5%) y mayor al total adeudado $41,218.28 por poco: que incluye es desconocido; el cierre esperado $457,981 (ratio 0.507) es ~10.8x la apertura.",
-      "title: CONSNT de CENTERPOINT ENERGY (RP-2023-97832, RP-2023-145764, 2.67 ac, Desc GOSLING L Abs 280) y desagüe: posibles servidumbres no cuantificadas, mientras all_in_costs.liens_que_sobreviven = NO CUANTIFICADO. Tambien: escritura RP-2019-232557 dice 'Abstract 80'/'GODLING' vs 280, HCAD owner_since 05/31/2019 vs registro 06/04/2019; demandado/duena aparece como 'CHAMBERS PROPERTIES' vs 'CHAMBERS PROPERTIES LLC' (riesgo de nombre en la citacion); la duena vendio otro predio en 2024 (NTN WEST GOSLING, Landmark at Auburn Lakes).",
-      "Lote HCAD 127,718 sf vs GIS 127,261 sf (-0.4%): aceptable; 166 ft de frente x 766 ft de fondo es poco apto para dúplex multiple sin ver acceso."
+      "HCAD y tax muestran a CHAMBERS PROPERTIES como dueno desde 2019, pero RP-2024-113042 (04/01/2024, W/D Chambers Properties -> NTN West Gosling LLC, legal Landmark at Auburn Lakes Blk 1 Res A) pudo transferir todo o parte del tracto antes de la sentencia (07/18/2025): posible demandado equivocado. Solo indice, inferred; no tratarlo como hecho.",
+      "Cola de impuestos: scout 'anios en sentencia 2021 - 2024' pero el estado solo trae 2022-2024; no hay 2025 ni 2026 y el proxy usa base 2024 como 'bill 2025' aunque la venta es dic-2026: buyer_tax_tail $7,546.11 puede estar subestimada. Saldo 2023 $25,690.03 vs 2022 $3,559.36 y 2024 $11,968.89 sin explicar.",
+      "valuation.all_in_costs.liens_que_sobreviven = 'NO CUANTIFICADO' aunque title lista servidumbres CenterPoint (RP-2023-97832, RP-2023-145764) que sobreviven la venta; techo $690,394 y cierre esperado $457,981 son ~10.8x la apertura/cierre por prima ($46,280) (ratio calibrado en lotes baldios).",
+      "A/J Klein ISD vs CHAMBERS JUDY A (RP-2026-148432): deudor es persona, no la entidad dueña; sin legal; no atribuible al predio. No contarlo como gravamen ni como inexistente.",
+      "Escritura RP-2019-232557 dice 'Abstract 80'/'GODLING' vs 280; grantee 'CHAMBERS PROPERTIES' sin LLC vs releases 'CHAMBERS PROPERTIES LLC' (riesgo de nombre en la citacion); HCAD owner_since 05/31/2019 vs recording 06/04/2019; year_improved 1983 con building 0 sf.",
+      "Los D/T Windmill y Jet Lending aparecen liberados solo en el indice (inferred); no hay D/T abierto, pero sin imagen no esta verified."
     ],
     "conditions_to_buy": [
-      "Leer imagenes de CONSNT RP-2023-97832 y RP-2023-145764 (CenterPoint) y ubicar la servidumbre en el predio",
-      "Confirmar con el condado por que el saldo 2023 es $25,690.03 y si 2021 y 2025 estan pagados",
-      "Verificar acceso/frente a Spring Stuebner Rd, restricciones de escritura, zonificacion/uso permitido y viabilidad de dúplex (attorney review recommended)",
-      "Confirmar entidad demandada exacta (CHAMBERS PROPERTIES vs CHAMBERS PROPERTIES LLC) en la citacion",
-      "Confirmar demandados y citacion (incl. si el metodo fue publicacion) en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
-      "Pedir estado de cuenta actualizado de impuestos y desglose de lo que incluye la apertura antes de pujar",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)"
+      "Leer imagen de RP-2024-113042: legal exacto vs 2.9328 ac / Tr 8A-1 y quien era titular registral en 07/2025",
+      "Pedir al condado estado de cuenta completo (2021, 2025, 2026) y explicacion del salto 2023",
+      "Leer demandados, nombre exacto (con/sin LLC) y metodo de citacion de cause 202216648 en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Leer imagenes de CONSNT CenterPoint y ubicar la servidumbre; verificar acceso a Spring Stuebner Rd, zonificacion/restricciones y viabilidad de duplex",
+      "Leer imagenes de liberaciones RP-2020-310618 y RP-2023-35122",
+      "Confirmar apertura final el 2026-12-01 y desglose de lo que incluye"
     ]
   }
 }

@@ -468,11 +468,6 @@
       "why": "requiere login/cuenta"
     },
     {
-      "agent": "reviewer",
-      "item": "Verificar con abogado/Clerk con imagen los puntos de conditions_to_buy antes de pujar",
-      "why": "el modo barato solo leyo el indice crudo; sin imagenes ni login"
-    },
-    {
       "agent": "title",
       "item": "Imagenes de D/T 20100297172 (M&T Funding) y 20100325786 (Interlinc/MERS) y releases 20150465532/20120384503 para saber si quedan abiertos",
       "why": "imagenes del Clerk requieren login/compra"
@@ -481,6 +476,16 @@
       "agent": "title",
       "item": "Verificar estado de Sumacel Inc en Texas SOS/Comptroller",
       "why": "fuente fuera del Clerk"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Imagen de D/T 20100297172 y releases; verificar estatus de Sumacel Inc en SOS",
+      "why": "imagenes del Clerk requieren login/compra; SOS fuera del Clerk"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Visita al sitio: ocupacion/inquilino y estado",
+      "why": "requiere presencia fisica"
     }
   ],
   "valuation": {
@@ -574,20 +579,26 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Casa de 1999 con valor HCAD $279k, dueno entidad (SUMACEL INC, direccion de correo en Magnolia, probable renta) y techo teorico $210.6k contra cierre esperado $141.5k; con descuento 20-30% el margen antes de rehab es ~$43-71k. Pero el lote es de solo 4,400 sf y SUMACEL aparece como prestamista/vendedor en muchos instrumentos del indice, asi que un deed of trust o financiamiento sobre este lote no se puede descartar. Fuera de la estrategia de lotes para duplex: se juzga solo como reventa/rehab. Attorney review recommended.",
+    "rationale": "Casa de 1999 en lote de 4,400 sf (HCAD $279k), fuera de la estrategia de lotes de Miguel: se juzga solo como reventa/rehab, con techo teorico de $210.6k contra cierre esperado de $141.5k que supone reventa al valor HCAD y probable ocupacion por inquilino (dueno es una entidad con direccion en Magnolia). Hecho decisivo 1: el titulo vesting (2015, SUMACEL INC) coincide con HCAD y no hay liens federales/HOA/ciudad; solo queda un D/T de 2010 (M&T Funding, 20100297172) sin release en el indice, probablemente pagado en la venta de 2015 pero no probado. Hecho decisivo 2: legal bloqueado (demandados, citacion, bancarrota; estatus de Sumacel Inc en SOS sin ver) y el mismo cause incluye el lote vecino 1204920020003, asi que una redencion o defecto de citacion afectaria a ambos. Attorney review recommended.",
     "bid_ceiling": 210636.21,
     "all_in_cost_estimate": 151955.84,
     "contradictions": [
-      "Apertura $17,560 es 5.5x lo adeudado ($3,194): composicion desconocida",
-      "title: las filas con WESTBOURNE son de otros lotes (Lot 3 Blk 2 Sec 3, Sec 1); ninguna es LT 4 BLK 2 SEC 3, pero el patron de NOTICE/D-T de Sumacel con compradores sugiere financiamiento propio: liens=$0 en el modelo no esta respaldado",
-      "Dueno entidad: citacion probable al agente registrado, ventana TRCP 329 abierta hasta 2028-04-23 y posible ocupante/inquilino sin verificar"
+      "valuation.all_in_costs.liens_que_sobreviven = 'NO CUANTIFICADO' y el total ($151,956) lo deja en $0, pero title muestra el D/T 20100297172 (M&T Funding) sin release en el indice; es inferred que se pago en 2015, no verificado; el D/T Interlinc/MERS tiene release solo por emparejamiento de fecha",
+      "Apertura $17,560 = 5.5x el total adeudado ($3,194, solo 2025); taxes_in_judgment 2024-2025 pero delinquent_by_year solo muestra 2025: confirmar que incluye la apertura (costos de sentencia) y si 2024 ya se pago",
+      "legal.sale_type = unknown mientras intake.scout_notes dice 'tipo Sale': el tipo de venta no esta verificado en legal; ademas misma causa 202590320 con la cuenta ...0003 (sale# 15 y 16): pujar por ambas duplica exposicion",
+      "title.vesting_deed marcado verified pero es solo indice (sin imagenes); se acepta por tener fuente (cclerk RP) y coincidir nombre y legal, pero los releases son inferred",
+      "valuation: expected_close_from_ratio $141,459 vs expected_close_from_premium $19,105; el ratio sale de lotes baldios, asi que margin_at_expected_close (83.6%) es optimista; physical lote GIS 4,386 vs HCAD 4,400 (ok)",
+      "intake: hcad_building_sqft 1,690 vs hcad_buildings 'Residential 2135sf'",
+      "title.restrictions desconocidas y lote de 4,400 sf: la reventa/duplex depende de restricciones del subdivision (Westbourne Sec 3) que no se leyeron"
     ],
     "conditions_to_buy": [
-      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com y PACER (login de Miguel); attorney review recommended (confirmar que SUMACEL INC siga activa en SOS)",
-      "Leer con imagen los instrumentos del Clerk que coincidan con el predio (tipo, acreedor, si sobreviven la venta) (buscar D/T sobre LT 4 BLK 2 WESTBOURNE SEC 3)",
-      "Confirmar con abogado el plazo y mecanica de redencion para propiedad sin homestead (180 dias tras la escritura, segun entendimiento general) y reflejarlo en el flujo de caja",
-      "Confirmar ocupacion/inquilino por visita al sitio",
-      "Confirmar apertura final y que la cuenta sigue en la lista el 2026-12-01 (T-1)"
+      "Confirmar en hcdistrictclerk.com (login de Miguel) los demandados y el metodo de citacion del cause 202590320, y en PACER la bancarrota del dueno; attorney review recommended; ventana TRCP 329 abierta hasta 2028-04-23",
+      "Leer imagen del D/T 20100297172 (M&T Funding) y los releases 20150465532/20120384503 para confirmar si queda algun saldo abierto; con abogado, ver si el 2015 sale cerro ese prestamo",
+      "Verificar estatus de Sumacel Inc en Texas SOS/Comptroller (si esta forfeited cambia la citacion y la redencion)",
+      "Confirmar con abogado el plazo y la prima de redencion (180 dias es solo el entendimiento general para no homestead) y si el dueno puede reclamar uso como vivienda aunque no haya exencion en HCAD",
+      "Visita al sitio desde fuera: ocupacion (dueno o inquilino), estado, y si la construccion coincide con HCAD y confirmar si hay inquilino con contrato (la ocupacion por inquilino exige desalojo)",
+      "Leer restricciones/HOA de Westbourne Sec 3 y estimar rehab; sin eso el techo de $210.6k no es utilizable",
+      "Confirmar apertura final y que la cuenta sigue en la lista el 2026-12-01 (T-1); preguntar a la Tax Office si los anios de la sentencia ya se pagaron y la venta sigue vigente"
     ]
   }
 }

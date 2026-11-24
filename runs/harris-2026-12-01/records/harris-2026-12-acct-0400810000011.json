@@ -496,6 +496,11 @@
       "agent": "title",
       "item": "Leer imagen RP-2026-408989 (lien Ciudad de Houston): tipo y monto, y si afecta este tracto",
       "why": "imagen del Clerk"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Leer imagenes RP-2020-51013 (CONT a FGMS Holdings LLC) y RP-2026-408989 (lien Ciudad de Houston) y verificar vesting 2006-Z241046; attorney/title company",
+      "why": "revision profunda: el indice del Clerk no basta; requiere imagenes/abogado"
     }
   ],
   "valuation": {
@@ -589,24 +594,25 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Casa de reventa/rehab (A1, dos viviendas, terreno ~19,600 sf = 77% del valor HCAD): queda FUERA de la estrategia de lotes para duplex. COMPRA FUERTE no esta permitido porque `legal` esta bloqueado (demandados, citacion y bancarrota sin leer) y ademas hay un LIEN de la Ciudad de Houston (RP-2026-408989, 10/08/2026) posterior a la sentencia, sin precio en el modelo de costos. Los dos hechos decisivos: el techo teorico de $334,828 asume reventa al valor HCAD ($489k) sin inspeccion (con descuento de 20-30% el valor seria ~$342k-$391k, y el techo cae en proporcion) y una CONT 2020 de la misma duena a FGMS HOLDINGS LLC sobre ~0.4579 acres sugiere un posible comprador/tercero con interes no citado. Evidencia delgada: CONDICIONAL; attorney review recommended.",
+    "rationale": "Dos casas (1945 y 1996; 1,873 sf en HCAD) en 19,600 sf, valor HCAD $489,163 contra apertura de $67,382 (13.8%): es reventa/rehab, fuera de la estrategia de lotes de Miguel (duplex no evaluado). Hecho 1: RP-2020-51013 (CONT, 02/2020) de Mendiola Silvia a FGMS Holdings LLC por 0.4579 ac, casi el tamano del predio, sin cancelacion en el indice, mas ninguna escritura a la duena hallada por nombre: posible interes de un tercero no citado (inferred, imagen necesaria). Hecho 2: LIEN de la Ciudad de Houston RP-2026-408989 (10/08/2026, sin monto ni tract) posterior a la sentencia de 02/02/2026, y los anos de sentencia son desconocidos, por lo que la cola de impuestos es solo cota superior ($42,458). El techo $334,828 no precia el lien. `legal` sigue bloqueado: COMPRA FUERTE no permitido. CONDICIONAL con riesgo de titulo alto; attorney review recommended.",
     "bid_ceiling": 334827.68,
     "all_in_cost_estimate": 301903.7,
     "contradictions": [
-      "hcad_building_sqft = 1873 pero hcad_buildings lista 1430 sf (1945) + 1250 sf (1996) = 2,680 sf; ademas hcad_year_improved = 1945 ignora la segunda casa de 1996. Ocupacion/numero de unidades sin verificar.",
-      "RP-2020-51013 (CONT, 02/04/2020) Grantor MENDIOLA SILVIA a FGMS HOLDINGS LLC, Desc JOHN AUSTIN GRANT Abs 1, 0.4579 ac (~el predio de 0.45 ac), pero HCAD sigue mostrando a la duena desde 2006 y el demandado puede no incluir a FGMS: posible interes de tercero / defecto de citacion (indice, inferido; attorney review recommended).",
-      "title: LIEN CITY OF HOUSTON RP-2026-408989 (10/08/2026, Desc AUSTIN J Abs 1 coincide con el legal HCAD) es posterior a la sentencia del 02/02/2026 y puede sobrevivir; valuation.all_in_costs.liens_que_sobreviven = NO CUANTIFICADO y el techo $334,828 lo asume cero.",
-      "Apertura $67,381.54 es mayor que el total adeudado $42,457.89 (+59%) y es solo 13.8% del valor HCAD: no se sabe que incluye (costas, otras jurisdicciones). tax.taxes_in_judgment es desconocido (scout: 'null - null'), asi que buyer_tax_tail_estimate es null mientras all_in_costs usa el total adeudado como cota superior.",
-      "Direccion postal = direccion del predio y sin homestead en el roll: si la duena vive ahi sin haber pedido la exencion, el redemption_note ('plazo corto', inferido de HCAD) podria ser optimista; confirmar ocupacion y plazo con abogado.",
-      "Techo $334,828 vs cierre esperado $248,006 (ratio 0.507 de lotes baldios del 04/08) aplicado a una casa con mejoras; valor HCAD 489k vs 501k del ano previo: el margen del 62% es teorico, sin comparables."
+      "HCAD lista escritura 2006-Z241046 (01/31/2006) a la duena, pero el indice por nombre/legal no muestra escritura a Mendiola Silvia (instrumento de codigo de pelicula Z no buscable por nombre): vesting no verificado; ademas CONT RP-2020-51013 de ella a FGMS Holdings LLC (0.4579 ac vs 0.45 ac del predio) sin cancelacion visible: posible tercero con interes no demandado (inferred; la busqueda de FGMS toco el tope de 200 filas).",
+      "LIEN City of Houston RP-2026-408989 (Desc AUSTIN J Abst 1, sin tract, solo por nombre) vs valuation.all_in_costs.liens_que_sobreviven = 'NO CUANTIFICADO': techo $334,828 y all_in $301,904 no incluyen nada por el; tipo y monto desconocidos.",
+      "tax.taxes_in_judgment desconocido (scout 'null - null'), buyer_tax_tail_estimate = null mientras all_in_costs usa el total adeudado $42,457.89 como cota superior (consistente pero sin separar anios post-sentencia; 2025 $14,389.81 pudo vencer despues de la sentencia).",
+      "Apertura $67,381.54 es 1.59x el total adeudado y 13.8% del valor HCAD; cierre esperado por ratio de lotes $248,006 vs por prima $73,311 (3.4x): margen 62% teorico.",
+      "hcad_building_sqft 1,873 vs hcad_buildings 1,430+1,250 = 2,680 sf; year_improved 1945 ignora la casa de 1996; direccion postal = predio sin homestead; legal.sale_type unknown vs scout 'Sale'; cause 2022 con sentencia 2026.",
+      "L/P, A/J y NOTICE de 2016-2021 sobre Tract 5A-5B (Cardenas Auto Sales / Jackson Law Firm) no tienen relacion probada con la duena y estan indexados como liberados: no atribuibles, no tratarlos como hechos."
     ],
     "conditions_to_buy": [
-      "Leer imagen de RP-2026-408989 (LIEN Ciudad de Houston): tipo (demolicion/limpieza/otro), monto y si sobrevive la venta; payoff letter",
-      "Leer imagen de RP-2020-51013 (CONT a FGMS HOLDINGS LLC) y confirmar si FGMS fue demandado/citado en cause 202211671",
-      "Visita al sitio: ocupacion (dueña o inquilinos), estado de las dos viviendas y cuantas unidades hay",
-      "Confirmar demandados y citacion (incl. si el metodo fue publicacion) en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
-      "Pedir estado de cuenta actualizado de impuestos y desglose de lo que incluye la apertura antes de pujar",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)"
+      "Leer imagen de RP-2020-51013 (tipo, legal, si transfirio titulo) y confirmar si FGMS Holdings LLC fue demandado/citado en cause 202211671",
+      "Leer imagen de RP-2026-408989: tipo, monto y payoff con la Ciudad de Houston; con abogado, si sobrevive la venta",
+      "Imagen/title company de la escritura 2006-Z241046 para verificar vesting",
+      "Pedir al condado los anos de la sentencia y estado de cuenta por ano; desglose de la apertura",
+      "Leer demandados y metodo de citacion en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Visita al sitio: ocupacion y cuantas unidades hay en realidad; descuento 20-30% al valor HCAD",
+      "Confirmar apertura final el 2026-12-01"
     ]
   }
 }

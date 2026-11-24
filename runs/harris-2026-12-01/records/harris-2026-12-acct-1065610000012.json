@@ -466,11 +466,6 @@
       "why": "requiere login/cuenta"
     },
     {
-      "agent": "reviewer",
-      "item": "Verificar con abogado/Clerk con imagen los puntos de conditions_to_buy antes de pujar",
-      "why": "el modo barato solo leyo el indice crudo; sin imagenes ni login"
-    },
-    {
       "agent": "title",
       "item": "Leer imagen de RP-2026-273399 (NOTICE de Atascocita Community Improvement Association, 07/08/2026) para saber si es lien/cobro HOA y monto",
       "why": "imagenes del Clerk requieren login/compra"
@@ -479,6 +474,21 @@
       "agent": "title",
       "item": "Leer imagen de RP-2020-105082 (D/T a Huynh Dien) y confirmar con Huynh Dien/abogado si sigue abierto y si fue demandado en la ejecucion fiscal",
       "why": "imagenes del Clerk requieren login/compra; la lista de demandados exige login"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Leer imagen de RP-2020-105082 (D/T Huynh Dien) y RP-2026-273399 (NOTICE HOA) y pedir cartas de saldo",
+      "why": "imagenes del Clerk requieren login/compra; el saldo solo lo da el acreedor"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Abogado: revisar demandados/citacion del cause 202228694 y si Huynh Dien fue joined",
+      "why": "hcdistrictclerk.com requiere login; opinion legal"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Visita al sitio: ocupacion y estado",
+      "why": "requiere presencia fisica"
     }
   ],
   "valuation": {
@@ -572,23 +582,27 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Hay un deed of trust de 2020 (RP-2020-105082, a favor de HUYNH DIEN, fiduciario PHAM KHANH T) sobre el mismo lote sin liberacion visible: si el acreedor no fue demandado puede sobrevivir y el modelo lo costea en $0 sobre una casa de $322k. Ademas hay un NOTICE de la asociacion ATASCOCITA CIA de 2026-07 (posible lien de cuotas). Techo $239k contra cierre esperado $163k parece holgado pero depende de ese gravamen. Fuera de la estrategia de lotes para duplex: se juzga solo como reventa/rehab. Attorney review recommended.",
+    "rationale": "Casa de 2,935 sf (HCAD $322k) con apertura de solo $4,850 (1.5% del valor): fuera de la estrategia de lotes de Miguel, se juzga solo como reventa/rehab y el techo teorico de $239k supone reventa al valor HCAD sin descuento por estado. Hecho decisivo 1: el D/T de 2020 a favor de Huynh Dien (RP-2020-105082) tiene nombres y legal que coinciden con el predio, no muestra release en el indice y el modelo lo deja sin cuantificar (suma $0 al costo total); si el acreedor no fue demandado, el saldo pasa al comprador. Hecho decisivo 2: demandados, citacion y bancarrota siguen bloqueados y el NOTICE del HOA de 2026-07 no se ha leido, asi que no puede subir de CONDICIONAL. Attorney review recommended.",
     "bid_ceiling": 239269.21,
     "all_in_cost_estimate": 179501.34,
     "contradictions": [
-      "valuation.all_in_costs liens_que_sobreviven = no cuantificado, pero title muestra D/T 2020 (RP-2020-105082) sin release visible en el indice: el costo real podria ser el saldo de la hipoteca",
-      "tax: post_judgment_taxes = $5,131.66 = total_due_all_years, aunque taxes_in_judgment lista 2021-2023 y la sentencia es 10/29/2024: no cuadra que toda la deuda sea post-sentencia; la cola de $7,272 es poco fiable",
-      "Sin homestead en HCAD en una casa A1 de 2,935 sf con dos dueños 50/50 (posible renta/ocupante) y ventana TRCP 329 cerrada el 2026-10-28 solo si hubo publicacion",
-      "NOTICE de ATASCOCITA COMMUNITY IMPROVEMENT ASSOCIATION (RP-2026-273399) no esta en el modelo de costos"
+      "valuation.all_in_costs.liens_que_sobreviven = 'NO CUANTIFICADO', pero title tiene un D/T 2020 atribuible (grantor = los dos duenos HCAD, legal = hcad_legal) sin release en el indice; all_in_cost_at_expected_close ($179,501) y bid_ceiling ($239,269) lo omiten, es decir lo tratan como $0 aunque el saldo podria ser grande",
+      "NOTICE RP-2026-273399 de ATASCOCITA COMMUNITY IMPROVEMENT ASSOCIATION (legal coincide con el predio) no esta en all_in_costs; su contenido es solo inferido (podria ser cobro de cuotas o solo un aviso)",
+      "valuation: expected_close_from_ratio $163,330 (50.7% del valor HCAD, ratio tomado de 14 lotes baldios) vs expected_close_from_premium $5,277; la proporcion de lotes no aplica a una casa y la brecha de 31x hace poco fiable margin_at_expected_close (79.5%)",
+      "tax: delinquent_by_year solo lista 2024 y 2025 (post-judgment $5,132 = total_due), mientras taxes_in_judgment es 2021-2023: cuadra con la sentencia 10/29/2024, pero implica que 2021-2023 ya no aparecen como deuda; confirmar si el monto de la sentencia sigue pendiente o si la venta puede retirarse antes del 2026-12-01",
+      "intake: hcad_mailing_address = direccion del predio (posible ocupacion por los duenos) y 'sin exencion' en HCAD es solo ausencia de exencion, no prueba de que no sea vivienda; la redencion y el desalojo no estan en el modelo",
+      "intake: hcad_building_sqft 2,935 vs hcad_buildings 'Residential 3185sf'; physical: lote GIS 11,014 vs HCAD 11,050 (diferencia menor)",
+      "title.rp_hits son busquedas por nombre ('STROHMANN HAROLD'); la ausencia de liens federales/A/J se apoya en busqueda parcial (Marquez Jesus E con 19 hits de homonimos): inferred, no prueba de ausencia"
     ],
     "conditions_to_buy": [
-      "Leer RP-2020-105082 y buscar release o cesion del D/T; determinar con abogado si el acreedor fue parte de la demanda y si el lien sobrevive",
-      "Leer RP-2026-273399 y pedir carta de saldo a la asociacion (cuotas pendientes)",
-      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com y PACER (login de Miguel); attorney review recommended",
-      "Confirmar con abogado el plazo y mecanica de redencion para propiedad sin homestead (180 dias tras la escritura, segun entendimiento general) y reflejarlo en el flujo de caja",
-      "Recalcular cola de impuestos con estado de cuenta actualizado",
-      "Visita al sitio (desde fuera): ocupacion, estado y si la construccion coincide con HCAD",
-      "Confirmar apertura final y que la cuenta sigue en la lista el 2026-12-01 (T-1)"
+      "Leer la imagen de RP-2020-105082 y pedir carta de saldo a Huynh Dien; con abogado, determinar si fue parte de la demanda 202228694 (si no, el D/T sobrevive y su saldo se suma al costo; si el saldo + puja supera ~70-80% del valor HCAD, no pujar)",
+      "Leer la imagen de RP-2026-273399 y pedir estado de cuenta/carta de saldo a Atascocita Community Improvement Association",
+      "Confirmar en hcdistrictclerk.com (login de Miguel) los demandados y el metodo de citacion del cause 202228694, y en PACER la bancarrota del dueno; attorney review recommended",
+      "Confirmar con abogado el plazo y la prima de redencion (180 dias es solo el entendimiento general para no homestead) y si el dueno puede reclamar uso como vivienda aunque no haya exencion en HCAD",
+      "Pedir estado de cuenta actualizado al Tax Office y recalcular la cola (2024, 2025 y proxy 2026: $7,272 es inferido)",
+      "Estimar rehab y descuento 20-30% sobre el valor HCAD con una inspeccion exterior; sin eso el techo de $239k no es utilizable",
+      "Visita al sitio desde fuera: ocupacion (dueno o inquilino), estado, y si la construccion coincide con HCAD",
+      "Confirmar apertura final y que la cuenta sigue en la lista el 2026-12-01 (T-1); preguntar a la Tax Office si los anios de la sentencia ya se pagaron y la venta sigue vigente"
     ]
   }
 }

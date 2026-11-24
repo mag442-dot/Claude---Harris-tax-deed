@@ -516,6 +516,11 @@
       "agent": "title",
       "item": "Pedir cadena de dominio/escritura vigente de 231 Hambrick Rd (Abst 898 Tr 8C-2/8F) a title company o leer imagenes de los D/T de Fairbanks Industrial",
       "why": "indice no contiene escritura para este tracto; hace falta imagen o title company"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Titulo no atribuible por indice: pedir a title company cadena de dominio de Abst 898 Tr 8C-2/8F y leer imagenes de D/T de Fairbanks Industrial",
+      "why": "revision profunda: el indice del Clerk no basta; requiere imagenes/abogado"
     }
   ],
   "valuation": {
@@ -609,22 +614,23 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Parcela grande (2.66 ac) con dos casas antiguas (1942/1947), dueno LLC, fuera de ciudad, zona X minima; techo teorico $406.7k vs cierre esperado $271k. Hechos decisivos: posible deuda hipotecaria (Bank of Texas) que no se puede atribuir ni descartar sin leer imagenes, y apertura de $38k contra $15k de deuda. Es una casa de reventa/rehab: queda fuera de la estrategia de lotes baldios para duplex. COMPRA FUERTE no esta permitido porque `legal` esta bloqueado (demandados, citacion y bancarrota sin leer). Attorney review recommended.",
+    "rationale": "Dos casas antiguas (1942/1947, 2,445 sf en HCAD) en 2.66 acres, dueno LLC, fuera de ciudad, zona X 100%, valor HCAD $534,996 contra apertura de $38,087 (7%): es reventa/rehab o terreno, fuera de la estrategia de lotes de Miguel (duplex no evaluado). Hecho 1: no hay ninguna escritura indexada para el tracto (Abst 898, Tr 8C-2/8F; 0 instrumentos) y la escritura que HCAD cita (RP-2022-348446) es de Houston Gardens Lot 8, asi que el titulo de Fairbanks Industrial LLC sobre este predio no esta verificado. Hecho 2: la LLC tiene 9 D/T con bancos sobre otros predios y no se puede descartar uno blanket; ninguna fila es atribuible al predio, por lo que son banderas y no hechos, y el techo teorico $406,684 no precia gravamenes. `legal` sigue bloqueado: COMPRA FUERTE no permitido. CONDICIONAL; attorney review recommended.",
     "bid_ceiling": 406684.34,
     "all_in_cost_estimate": 288492.19,
     "contradictions": [
-      "Edificios HCAD 2445 sqft vs suma 1388+1325 = 2713; lote 115,869 vs GIS 110,158 (-4.9%).",
-      "Filas del Clerk RESTR (RP-2022-61067) y SUBORD de Bank of Texas (RP-2022-506914) tienen Desc 'POWELL ONE-THIRD LEAGUE Abstract 622', distinto del legal HCAD (ABST 898 WCRR): no se puede asumir que pertenecen al predio, ni que no.",
-      "Apertura $38,086.93 es 2.5x el total adeudado ($15,091.63).",
-      "Clase A1 residencial en 2.66 acres en zona industrial (Fairbanks), dueno entidad LLC: posible zonificacion/uso comercial y estado de la entidad; 'liens_que_sobreviven' sin cuantificar."
+      "HCAD cita como escritura vigente 2022-RP-2022-348446 (07/2022), pero en el indice esa W/D (Bishop -> Fairbanks) es de HOUSTON GARDENS Lot 8, otro legal; la escritura anterior de HCAD (2006-Z197146, 11/16/2005) no es buscable por nombre. Vesting del tracto no verificado.",
+      "Gravamenes de Fairbanks (D/T Allegiance/Stellar/Frost/Post Oak, SUBORD Bank of Texas, RESTR Fairbanks Industrial Park POA) son de otros legales o de Abst 622, no de Abst 898: no atribuibles; un D/T blanket no esta descartado. valuation.all_in_costs.liens_que_sobreviven = 'NO CUANTIFICADO' y el techo no lo incluye.",
+      "Valuation: techo $406,684 y cierre esperado $271,243 (ratio de lotes baldios 0.507) son 6.6x el cierre por prima ($41,439) y 7x la apertura; aplicado a casas con mejoras y sin comps es optimista.",
+      "Edificios HCAD 2,445 sf vs 1,388+1,325 = 2,713 sf; lote HCAD 115,869 sf vs GIS 110,158 sf (-4.9%).",
+      "Apertura $38,086.93 es 2.5x el total adeudado ($15,091.63, solo 2024-2025); scout dice 'Sale' pero legal.sale_type = unknown; clase A1 residencial en zona industrial con POA cercana: uso/zonificacion y ocupacion sin verificar."
     ],
     "conditions_to_buy": [
-      "Leer RP-2022-506914 y RP-2022-61067 (imagenes) y confirmar si afectan el predio ABST 898",
-      "Verificar estado de la LLC (Texas SOS) y que fue citada (agente registrado)",
-      "Confirmar uso/ocupacion y restricciones de Fairbanks Industrial Park",
-      "Leer demandados y citacion en hcdistrictclerk.com (login de Miguel) y bancarrota en PACER",
-      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar la apertura final el dia de la venta 2026-12-01",
-      "Visita al sitio: ocupacion y estado real (el valor HCAD ignora deterioro); aplicar descuento 20-30% al techo teorico"
+      "Leer imagenes de los D/T de Fairbanks Industrial (Stellar RP-2024-24872, Allegiance, Frost, Bank of Texas SUBORD) y confirmar que ninguno cubre Abst 898 Tr 8C-2/8F",
+      "Obtener cadena de dominio del tracto (title company): imagen de 2006-Z197146 y de RP-2022-348446",
+      "Verificar estado de la LLC en Texas SOS y agente registrado; leer demandados y citacion de cause 202489814 en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Leer RP-2022-61067 (RESTR) y confirmar si el POA Fairbanks Industrial Park cubre 231 Hambrick (Abst 622 vs 898)",
+      "Visita al sitio: ocupacion de las dos casas, acceso, uso permitido; descuento 20-30% al valor HCAD",
+      "Estado de cuenta actualizado de impuestos y confirmar apertura final el 2026-12-01"
     ]
   }
 }

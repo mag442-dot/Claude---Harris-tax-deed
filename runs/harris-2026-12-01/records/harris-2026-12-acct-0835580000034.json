@@ -693,6 +693,11 @@
       "agent": "title",
       "item": "Leer imagen de RP-2016-337679/337680 (Lots 34-35, vendedor 'Barnett EST') y verificar probate/heirship de Edna Inez Barnett y si el lote 35 es cuenta separada",
       "why": "imagenes del Clerk requieren cuenta/pago; probate requiere Probate Court index/abogado"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisión profunda: Confirmar en el estado de cuenta del condado que 2021-2022 no se extinguen con la venta y sumar su costo; pedir estado actualizado y apertura final",
+      "why": "requiere login/abogado; el revisor no hace búsquedas nuevas"
     }
   ],
   "valuation": {
@@ -786,22 +791,25 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Techo teorico $286k vs cierre esperado $199k, pero 33.7% del predio esta en SFHA (no floodway) y hay un posible prestamo de impuestos (Propel Tax) sin leer. Hechos decisivos: cola de impuestos de $14.6k con 2021-2022 fuera de la sentencia, y SFHA parcial que afecta seguro y reventa. Es una casa de reventa/rehab: queda fuera de la estrategia de lotes baldios para duplex. COMPRA FUERTE no esta permitido porque `legal` esta bloqueado (demandados, citacion y bancarrota sin leer). Attorney review recommended.",
+    "rationale": "Casa de 1975 en Humble Road Place (HCAD $392k, fuera de límites de ciudad); Es una casa: fuera de la estrategia de lotes baldíos para dúplex; se juzga como reventa/rehab. Hecho 1: 33.7% del predio está en zona AE (SFHA, sin floodway) y la cola de impuestos que hereda el comprador es $14.6k porque 2021-2022 no están en la sentencia (solo 2023-2024) y siguen debiéndose. Hecho 2: el título por legal está limpio (solo escritura y NOTICE de 2016), pero la escritura cubre Lotes 34-35 y HCAD lista solo el 34, y el vendedor fue una sucesión (Barnett EST) sin probate visible. El techo $286k (~$225k con -20%, ~$195k con -30%) queda alrededor del cierre esperado $199k. `legal` sigue bloqueado, así que COMPRA FUERTE no es posible. Attorney review recommended.",
     "bid_ceiling": 286336.39,
     "all_in_cost_estimate": 223196.06,
     "contradictions": [
-      "Deuda: 2021 y 2022 estan atrasados ($6,930) pero no estan en 'Tax Years in Judgement' (2023-2024); el modelo los hereda en la cola ($14,562) y no se sabe si esos anios sobreviven la venta o son otra demanda.",
-      "Edificio HCAD 1824 sqft vs 'Residential 3318sf'; lote HCAD 14,475 vs GIS 15,790 (+9%).",
-      "Escritura 2016 (RP-2016-337679) cubre Lots 34-35 Blk 6 pero HCAD solo lista LT 34: el lote 35 no esta explicado.",
-      "Clerk indice: ASSGN 2023-266983 de entes de impuestos a PROPEL TAX con RIVERA JORGE sin Desc (podria ser un prestamo de impuestos sobre este predio = gravamen a priorizar); los LIEN/A/J restantes parecen de otros predios/personas (nombre comun)."
+      "Valuation vs. título: liens_que_sobreviven 'NO CUANTIFICADO' está desactualizado; title no halló D/T ni A/J/LIEN atribuibles al lote (solo 2 instrumentos por legal). Los hits de LIEN/A/J/FI STM por 'Rivera Jorge' son de personas con otro segundo nombre y NO se atribuyen.",
+      "Corrección a pre-revisión: el ASSGN RP-2023-266983 a PROPEL TAX describe REEVES A Abstract 60 Tract 2M, no este lote; no se trata como préstamo de impuestos sobre esta cuenta (solo se pide confirmar con Propel/tax office).",
+      "tax.post_judgment_taxes $11,412 incluye 2021 y 2022 ($6,930), que son años ANTERIORES a la sentencia y no están en 'Tax Years in Judgement' (2023-2024); solo 2025 ($4,481) es post-sentencia. El costo ($14,562) los incluye, pero no se sabe si esos años están en otra demanda o se heredan; penalidades de 2026 no incluidas.",
+      "Escritura 2016 cubre Lots 34-35 Blk 6; HCAD solo LT 34 con 14,475 sqft (GIS 15,790, +9%): ¿el lote 35 es otra cuenta o la cuenta cubre ambos? Afecta qué se vende y el valor.",
+      "Zona FEMA: 33.7% AE (SFHA) según NFHL efectivo, aunque fema_effective_zone muestre 'X ... + otras'; no se sabe si la casa queda dentro del AE; valuation no refleja seguro/revaluación.",
+      "Cadena 2016: vendedores 'BARNETT EDNA INEZ EST' vía Teague Sandra Kay sin heirship visible: riesgo de cadena (inferred, imagen no leída).",
+      "Carga impositiva baja: 2025 $3,151 = 0.8% del valor HCAD (zona no incorporada), muy por debajo de lo normal; posible exención histórica o estado de cuenta parcial (inferred); si era homestead al presentarse la demanda, redención de 2 años (attorney review recommended).",
+      "hcad_building_sqft 1824 vs. hcad_buildings 'Residential 3318sf'; hcad_owner_since 07/21/2016 vs. registro 08/02/2016."
     ],
     "conditions_to_buy": [
-      "Pedir payoff/estado de Propel Tax y leer RP-2023-266983 (imagen)",
-      "Aclarar por que 2021-2022 no estan en la sentencia y si sobreviven",
-      "Revisar lote 35 y la escritura 2016 con el legal; cotizar seguro de inundacion (33.7% SFHA)",
-      "Leer demandados y citacion en hcdistrictclerk.com (login de Miguel) y bancarrota en PACER",
-      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar la apertura final el dia de la venta 2026-12-01",
-      "Visita al sitio: ocupacion y estado real (el valor HCAD ignora deterioro); aplicar descuento 20-30% al techo teorico"
+      "Confirmar en el estado de cuenta del condado que 2021-2022 no se extinguen con la venta y sumar su costo; pedir estado actualizado y apertura final",
+      "Leer demandados y citación del cause 202519980 en hcdistrictclerk.com (login) y bancarrota de Rivera Jorge L y Villarreal Elisa I en PACER; attorney review recommended",
+      "Leer imagen de RP-2016-337679/337680 y confirmar probate/heirship de la sucesión Barnett y si el lote 35 es otra cuenta",
+      "Verificar con el mapa FEMA/MAAPnext si la casa cae en el AE y cotizar seguro de inundación",
+      "Visita al sitio: ocupación y estado; descuento 20-30% sobre valor HCAD"
     ]
   }
 }

@@ -458,14 +458,19 @@
       "why": "requiere login/cuenta"
     },
     {
-      "agent": "reviewer",
-      "item": "Visita al sitio (ocupación/estado) y lectura de imágenes del Clerk del lote antes de pujar; attorney review recommended",
-      "why": "requiere humano/abogado; la revisión barata no abre imágenes"
-    },
-    {
       "agent": "title",
       "item": "Verificar probate/heirship de Joseph Folwell Harris Jr (autoridad de Jaime A Harris para vender en RP-2022-548455) y imagenes de RELs RP-2020-532994/535658 vs D/T 20080000542",
       "why": "probate/imagenes requieren login/compra"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Probate/heirship de Joseph Folwell Harris Jr y imagenes RP-2020-532994/535658",
+      "why": "probate e imagenes requieren login/compra"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Visita al sitio: ocupacion/inquilino y estado",
+      "why": "requiere presencia fisica"
     }
   ],
   "valuation": {
@@ -559,22 +564,27 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Casa de $248k HCAD (bajó desde $295k) en Pasadena, reventa/rehab y fuera de la estrategia de lotes para dúplex. Hechos decisivos: la cola de impuestos que hereda el comprador es alta ($16.9k, con $9.9k posteriores a la sentencia) y el techo de $172k baja a ~$114k-$134k con descuento de 20-30%, por debajo o cerca del cierre esperado de $125k; el dueño es una LLC (JF HARRIS LLC) con posible ocupación por inquilinos. COMPRA FUERTE no está permitido porque `legal` está bloqueado. Attorney review recommended.",
+    "rationale": "Casa de 2004 (HCAD $247.5k), fuera de la estrategia de lotes de Miguel: se juzga solo como reventa/rehab, con techo teorico de $172k contra cierre esperado de $125.5k y el margen mas bajo del grupo (64.8%). Hecho decisivo 1: la cola de impuestos heredada es la mas pesada ($16.9k: 2025 post-sentencia $9,857 mas proxy 2026 $7,042), y la apertura de $21.6k ya es 8.7% del valor. Hecho decisivo 2: el dueno es J F HARRIS LLC, que adquirio en 2022 de Jaime A Harris y del estado de Joseph Folwell Harris Jr (fallecido) sin probate ni heirship visibles, y legal esta bloqueado. Sin liens en el indice, pero los D/T 2008 tienen release solo inferido. Attorney review recommended.",
     "bid_ceiling": 171951.39,
     "all_in_cost_estimate": 150152.91,
     "contradictions": [
-      "intake.hcad_building_sqft 2136 vs. hcad_buildings 'Residential 3254sf': diferencia grande en el área construida.",
-      "Valor HCAD cayó de $294,900 a $247,512 (-16%): valuation usa $247,512; revisar si la caída refleja condición.",
-      "Cola de impuestos $16,900 incluida en all_in_costs, pero la apertura $21,616 es menor que el total adeudado $28,790: la apertura no cubre las cuentas posteriores a la sentencia.",
-      "Con 30% de descuento, techo ~$114k < cierre esperado $125k: el modelo teórico sobrestima la ganancia.",
-      "title: búsquedas por 'JF HARRIS' devuelven vacío, pero el índice es solo por nombre y puede perder otros; liens no cuantificados en costos."
+      "valuation.all_in_costs.liens_que_sobreviven = 'NO CUANTIFICADO' (efecto $0 en $150,153): title no encontro D/T abierto atribuible a la LLC; el D/T 20080000542 (Action Mortgage/MERS) tiene release probable RP-2020-532994/535658 sin imagen (inferred)",
+      "title.rp_hits_grantee/grantor y rp_summary muestran 0 instrumentos para 'JF HARRIS', mientras vesting_deed indica que 'J F HARRIS' devuelve 4 escrituras: los campos rp_hits estan vacios por variante de nombre, asi que 'sin liens contra la LLC' se apoya en una busqueda con otro formato y es inferred",
+      "intake.hcad_owner_since 10/28/2022 vs escritura RP-2022-548455 filed 11/14/2022: diferencia de fecha entre HCAD y Clerk, sin efecto en la decision",
+      "tax: taxes_in_judgment 2023-2024; 2025 es post-sentencia ($9,857) y entra en la cola ($16,900 = 9,857 + proxy 2026 7,042): consistente, pero la apertura $21,616 vs adeudado 2023-2024 ($18,933) debe confirmarse y los 2026 y penalidades posteriores no estan incluidos",
+      "title: Joseph Folwell Harris Jr fallecido (EST) sin probate indexado; la escritura 2022 a la LLC podria ser defectuosa, lo que afectaria la reventa mas que la validez del tax deed contra la LLC demandada",
+      "valuation: expected_close_from_ratio $125,489 vs expected_close_from_premium $23,518; ratio de lotes baldios aplicado a una casa; margin_at_expected_close (64.8%) optimista",
+      "intake: hcad_building_sqft 2,136 vs hcad_buildings 'Residential 3254sf'"
     ],
     "conditions_to_buy": [
-      "Confirmar con el condado el saldo de 2025-2026 que hereda el comprador (no extinguido por la sentencia)",
-      "Confirmar demandados y citación en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
-      "Pedir estado de cuenta de impuestos actualizado y confirmar la apertura final antes de pujar",
-      "Verificar ocupación y estado por visita al sitio; el valor HCAD no refleja condición (descuento de 20-30%)",
-      "Leer las imágenes del Clerk filtradas por descripción legal para confirmar que no hay liens sobrevivientes"
+      "Confirmar en hcdistrictclerk.com (login de Miguel) los demandados y el metodo de citacion del cause 202462528, y en PACER la bancarrota del dueno; attorney review recommended; ventana TRCP 329 abierta hasta 2027-09-11",
+      "Pedir estado de cuenta actualizado (2025 y 2026, penalidades) y recalcular la cola de $16.9k; confirmar que la apertura cubre solo 2023-2024",
+      "Buscar probate/heirship de Joseph Folwell Harris Jr y autoridad de Jaime A Harris en RP-2022-548455; attorney review recommended",
+      "Leer imagenes de RP-2020-532994/535658 y del D/T 20080000542 para confirmar release",
+      "Repetir la busqueda de liens contra 'J F HARRIS LLC' con todas las variantes del nombre",
+      "Confirmar con abogado el plazo y la prima de redencion (180 dias es solo el entendimiento general para no homestead) y si el dueno puede reclamar uso como vivienda aunque no haya exencion en HCAD (dueno es entidad, no aplica homestead)",
+      "Visita al sitio desde fuera: ocupacion (dueno o inquilino), estado, y si la construccion coincide con HCAD y confirmar si hay inquilino",
+      "Confirmar apertura final y que la cuenta sigue en la lista el 2026-12-01 (T-1); preguntar a la Tax Office si los anios de la sentencia ya se pagaron y la venta sigue vigente"
     ]
   }
 }

@@ -491,6 +491,11 @@
       "agent": "title",
       "item": "Confirmar en hcdistrictclerk (cause 202319785) que FORREST W MILKOWSKI JR fue demandado/citado (co-titular de record RP-2018-226230) y leer imagen del REL RP-2017-359149",
       "why": "hcdistrictclerk requiere login; imagenes del Clerk requieren cuenta"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisión profunda: Confirmar en hcdistrictclerk.com (cause 202319785) que Milkowski Forrest W Jr y Badoian Athanasia E fueron demandados y citados, y el método de citación; bancarrota de ambos en PACER; attorney review recommended",
+      "why": "requiere login/abogado; el revisor no hace búsquedas nuevas"
     }
   ],
   "valuation": {
@@ -584,22 +589,24 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Casa de $288k HCAD en Woodland Hills (Kingwood/Humble), reventa/rehab y fuera de la estrategia de lotes para dúplex. Hechos decisivos: la sentencia es de 03/04/2025 y en 08/2025 se registraron poderes (P/A) entre miembros de la familia BADOIAN, es decir después de la sentencia, lo que apunta a un dueño de edad avanzada o sucesión y a posible defecto de citación (TRCP 329 abierta hasta 03/2027); además el techo $211k baja a ~$144k con descuento, bajo el cierre esperado de $146k. COMPRA FUERTE no está permitido porque `legal` está bloqueado. Attorney review recommended.",
+    "rationale": "Casa de 1974 en Woodland Hills (Kingwood, HCAD $288k); Es una casa: fuera de la estrategia de lotes baldíos para dúplex; se juzga como reventa/rehab. Hecho 1: el vesting RP-2018-226230 pone como titulares de record a Badoian Athanasia E y a Milkowski Forrest W Jr (HCAD solo grava a Badoian), y no se sabe si Milkowski fue demandado o citado: si no, su interés sobrevive. Hecho 2: el techo teórico $211k cae a ~$167k (-20%) y ~$144k (-30%), contra un cierre esperado de $146k, y la HOA sigue activa (L/P 2017 liberado solo en el índice). `legal` sigue bloqueado, así que COMPRA FUERTE no es posible. Los P/A de 2016 y 2025 son de los padres a los hijos (Athanasia es apoderada) y no se tratan como transferencia del dueño. Attorney review recommended.",
     "bid_ceiling": 211227.68,
     "all_in_cost_estimate": 162794.32,
     "contradictions": [
-      "title: P/A RP-2025-327831/327832 (08/19/2025) posteriores a la sentencia del 03/04/2025 vs. legal sin demandados leídos: posible defecto de citación o dueño incapaz.",
-      "HCAD lista a MILKOWSKI FORREST W JR con 0% de propiedad; no está claro si es copropietario o gravamen y debió ser demandado.",
-      "Ciudad: dirección HCAD 'HUMBLE', correo 'KINGWOOD', parcel_city 'CITY OF HOUSTON': jurisdicción y escuela inconsistentes.",
-      "intake.hcad_building_sqft 2387 vs. hcad_buildings 'Residential 2483sf'.",
-      "Cola de impuestos $8,571 en el modelo incluye $4,911 posteriores a la sentencia; apertura $24,046 vs. total adeudado $16,378."
+      "Valuation vs. título: liens_que_sobreviven 'NO CUANTIFICADO' no refleja lo hallado: L/P de la HOA RP-2017-100948 con REL RP-2017-359149 (liberación solo en índice = inferred) y HOA activa que puede reclamar cuotas; no hay D/T ni A/J abiertos sobre el lote. Cuotas/atrasos HOA no entran en all_in_costs.",
+      "Titular de record vs. demanda: vesting a Badoian Athanasia E + Milkowski Forrest W Jr, pero HCAD lista a Milkowski con 0% y tax.assessed_owner_county incluye a ambos; si legal confirma que no fue citado, hay defecto de citación sobre su interés (legal bloqueado).",
+      "Corrección a pre-revisión: los P/A RP-2025-327831/327832 (08/2025) y RP-2016-106704/106705 otorgan poder de los padres Richard y Elaine Badoian a sus hijos; no son transferencias del dueño demandado posteriores a la sentencia (03/04/2025). Atribución a Athanasia Eleny vs. 'Athanasia E' (HCAD) sin confirmar por imagen.",
+      "Años en sentencia 2021-2024 vs. saldos solo 2023-2025: 2021 y 2022 sin deuda (¿pagados?). 2025 ($4,911) es el único post-sentencia; apertura $24,046 vs. total adeudado $16,378.",
+      "Techo $211k vs. cierre esperado $146k: con -30% por condición el techo es ~$144k, bajo el cierre esperado.",
+      "hcad_building_sqft 2387 vs. hcad_buildings 'Residential 2483sf'; sitio 'HUMBLE', correo 'KINGWOOD', parcel_city 'CITY OF HOUSTON' (jurisdicción a confirmar).",
+      "Restricciones/HOA vigentes (L/P 2017) no leídas: relevantes para cualquier uso distinto de reventa."
     ],
     "conditions_to_buy": [
-      "Leer RP-2025-327831/327832 (P/A) y confirmar quién tiene capacidad sobre el predio y si se citó a todos los dueños",
-      "Confirmar demandados y citación en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
-      "Pedir estado de cuenta de impuestos actualizado y confirmar la apertura final antes de pujar",
-      "Verificar ocupación y estado por visita al sitio; el valor HCAD no refleja condición (descuento de 20-30%)",
-      "Leer las imágenes del Clerk filtradas por descripción legal para confirmar que no hay liens sobrevivientes"
+      "Confirmar en hcdistrictclerk.com (cause 202319785) que Milkowski Forrest W Jr y Badoian Athanasia E fueron demandados y citados, y el método de citación; bancarrota de ambos en PACER; attorney review recommended",
+      "Pedir estado de cuenta/carta de saldo a South Woodland Hills Village Community Association y leer imagen del REL RP-2017-359149",
+      "Leer imagen de RP-2018-226230 y confirmar capacidad/estado de los dueños (no hay probate visible)",
+      "Estado de cuenta de impuestos actualizado y confirmar apertura final antes de pujar",
+      "Visita al sitio: ocupación y estado real; descuento 20-30% sobre valor HCAD"
     ]
   }
 }

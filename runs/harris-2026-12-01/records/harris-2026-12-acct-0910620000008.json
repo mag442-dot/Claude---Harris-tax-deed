@@ -593,23 +593,23 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Casa de reventa/rehab en Pasadena (A1, 1963, FEMA X al 100%, sin floodway): queda FUERA de la estrategia de lotes para duplex. COMPRA FUERTE no esta permitido porque `legal` esta bloqueado (demandados, citacion y bancarrota sin leer). Los dos hechos decisivos: un A/J (abstract of judgment) de CAPITAL ONE/DISCOVER contra CLUTTER LINDA M (RP-2026-09-10, posterior a la sentencia del 07/22/2026) puede sobrevivir y no esta en el costo, y la apertura de $43,011 es 2.8x el total adeudado ($15,546) sin saber que incluye. El techo teorico de $153,512 asume reventa a $204,755 (HCAD); con descuento de 20-30% por estado/ocupacion el valor seria ~$143k-$164k. CONDICIONAL; attorney review recommended.",
+    "rationale": "Casa de 1963 (1,482 sf) en Pasadena, zona X 100%, sin floodway, valor HCAD $204,755 y apertura $43,011: es reventa/rehab y queda fuera de la estrategia de lotes para duplex de Miguel. Hecho 1: es la cadena de titulo mas limpia de las cinco en el indice (REO Holdings -> Clutter Linda 2017, legal igual a HCAD, D/T Quicken liberado solo en indice). Hecho 2: un A/J de Capital One/Discover contra CLUTTER LINDA M (RP-2026-368055, 09/10/2026, posterior a la sentencia del 07/22/2026, sin monto ni legal, identidad parcial) puede o no sobrevivir (depende de la joinder; abogado) y el techo teorico $153,512 no lo precia. `legal` sigue bloqueado: COMPRA FUERTE no permitido. CONDICIONAL; attorney review recommended.",
     "bid_ceiling": 153512.11,
     "all_in_cost_estimate": 112611.64,
     "contradictions": [
-      "scout: anios en sentencia 2020 - 2025, pero el estado de cuenta solo trae 2021-2024 (2020 y 2025 ausentes: pagados o fuera de la cuenta?); post_judgment_taxes = 0 y la cola $1,686.53 es solo la proxy del ano corriente.",
-      "title: A/J RP-2026-368055 (09/10/2026, CAPITAL ONE N A / DISCOVER BANK vs CLUTTER LINDA M) sin Desc, por nombre, identidad no confirmada; si es la duena, el abstract adjunta al predio y puede sobrevivir; all_in_costs.liens_que_sobreviven = NO CUANTIFICADO y el techo lo asume cero. Las filas INWOOD FOREST (Lot 22 Blk 1) no corresponden al predio (Tanglebriar Sec 4 Lt 8 Blk 22).",
-      "Apertura $43,011.31 = 2.8x el total adeudado $15,545.88 y 21% del valor HCAD: que incluye (costas, otras jurisdicciones) es desconocido; no usarla como costo total.",
-      "hcad_building_sqft = 1482 vs hcad_buildings 1542 sf; lote HCAD 7,590 sf vs GIS 7,299 sf (-3.8%).",
-      "Direccion postal = direccion del predio, sin homestead en el roll: si vive ahi sin exencion, el 'plazo corto' de redencion (inferido) podria ser optimista; la duena (Linda M) aparece en 2017 junto a RAYMOND D CLUTTER EST (posible co-propietario fallecido/herederos): confirmar ocupacion y titularidad con abogado."
+      "Cola de impuestos: scout 'anios en sentencia 2020 - 2025' pero el estado solo trae 2021-2024 (2020 y 2025 ausentes) y el proxy usa base 2024 como 'bill 2025' siendo la venta dic-2026: la cola $1,686.53 puede estar subestimada (2025 y 2026 sin contabilizar).",
+      "A/J RP-2026-368055 (identidad por nombre, 'Linda M') sin liberar vs valuation.all_in_costs.liens_que_sobreviven = 'NO CUANTIFICADO': el techo $153,512 y all_in $112,612 no incluyen nada por el; monto desconocido.",
+      "Apertura $43,011.31 es 2.8x el total adeudado ($15,545.88) y 21% del valor HCAD; cierre esperado por ratio de lotes $103,811 vs por prima $46,796: el margen 82% es teorico y optimista para una casa sin inspeccion.",
+      "Edificio HCAD 1,482 sf vs hcad_buildings 1,542 sf; lote 7,590 sf vs GIS 7,299 sf (-3.8%).",
+      "Filas Inwood Forest (Lot 22 Blk 1, Raymond Clutter EST) son de otro inmueble: no atribuibles. Nombre 'CLUTTER LINDA' (HCAD) vs 'LINDA M'; direccion postal = predio sin homestead: ocupacion (duena, herederos, inquilino) sin verificar."
     ],
     "conditions_to_buy": [
-      "Leer imagen de A/J RP-2026-368055 y confirmar identidad del deudor (Linda M Clutter) y si adjunta al predio y sobrevive la venta",
-      "Confirmar con estado de cuenta si 2020 y 2025 estan pagados y que cubre la apertura de $43,011.31",
-      "Visita al sitio: ocupacion (dueña/herederos/inquilinos) y estado de la casa; confirmar si hay homestead no registrado",
-      "Confirmar demandados y citacion (incl. si el metodo fue publicacion) en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
-      "Pedir estado de cuenta actualizado de impuestos y desglose de lo que incluye la apertura antes de pujar",
-      "Confirmar apertura final el dia de la venta (el condado puede retirar o cambiar propiedades)"
+      "Leer imagen de A/J RP-2026-368055: monto, domicilio del deudor, y confirmar identidad con Linda M Clutter; con abogado, si sobrevive la venta (joinder en cause 202221795)",
+      "Pedir estado de cuenta completo (2020, 2025, 2026) y desglose de la apertura",
+      "Leer demandados y metodo de citacion de cause 202221795 en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
+      "Visita al sitio: ocupacion y estado; descuento 20-30% al valor HCAD",
+      "Imagen de RP-2017-295538 para pasar la liberacion Quicken a verified (opcional)",
+      "Confirmar apertura final el 2026-12-01"
     ]
   }
 }

@@ -507,6 +507,11 @@
       "agent": "title",
       "item": "Verificar si KIRK MARIE (dueno desde 1984) vive o fallecio y herederos (Harris County Probate Courts, obituario); leer imagenes J347582, K650600 y N090063",
       "why": "probate/imagenes requieren cuenta; confirmacion de identidad y herederos requiere abogado"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revisión profunda: Verificar si Kirk Marie está viva (Harris County Probate, obituario) y quiénes son los herederos; ver si se citó por publicación (cause 202462519 en hcdistrictclerk.com con login) y bancarrota en PACER",
+      "why": "requiere login/abogado; el revisor no hace búsquedas nuevas"
     }
   ],
   "valuation": {
@@ -599,23 +604,25 @@
     }
   },
   "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Casa de 1947 de 708 sf, dueno ausente (mail en California, dueno desde 1988): riesgo de dueno fallecido/herederos y de citacion por publicacion (TRCP 329 abierta hasta 2028-06-26). Hechos decisivos: apertura de $28.5k vs deuda de $5.0k sin explicar y 0 filas del Clerk, es decir sin cobertura de titulo. Es una casa de reventa/rehab: queda fuera de la estrategia de lotes baldios para duplex. COMPRA FUERTE no esta permitido porque `legal` esta bloqueado (demandados, citacion y bancarrota sin leer). Attorney review recommended.",
+    "decision": "VIGILAR",
+    "rationale": "Casa de 1947 de ~700 sf en Mary Francis (HCAD $105k, 55% terreno, fuera de límites de ciudad); Es una casa: fuera de la estrategia de lotes baldíos para dúplex; se juzga como reventa/rehab. Hecho 1: dueña de record desde 1984 (vesting J347582) con dirección postal en California y 16 años en sentencia (2010-2025): riesgo alto de fallecimiento o herederos no citados, TRCP 329 abierta hasta 06/2028 si hubo citación por publicación; probate sin verificar. Hecho 2: la apertura de $28.5k es 5.7x el total adeudado ($4,968) sin explicar, y con -30% el techo ($76.9k a ~$52k) queda al nivel del cierre esperado ($53.2k). El título por legal es limpio (solo un contrato de mejoras 1986 con release 1991, inferred). `legal` sigue bloqueado, así que COMPRA FUERTE no es posible. Attorney review recommended.",
     "bid_ceiling": 76886.15,
     "all_in_cost_estimate": 59479.33,
     "contradictions": [
-      "'Tax Years in Judgement' lista 2010-2025 (16 anios) pero solo hay saldo de 2020-2025: la sentencia incluye anios sin deuda visible.",
-      "Apertura $28,478.83 es 5.7x el total adeudado ($4,967.61) y 27% del valor HCAD: no se sabe que incluye.",
-      "El indice del Clerk devolvio 0 filas (grantee y grantor) para un dueno desde 1988 con direccion postal en California: probable busqueda fallida o falta de cobertura, no ausencia de gravamenes.",
-      "Casa 708sf (HCAD building_sqft 676 vs 708sf)."
+      "Valuation vs. título: liens_que_sobreviven 'NO CUANTIFICADO' está desactualizado; title ya leyó el índice por legal y solo hay el contrato de mejoras K650600 (1986) con REL N090063 (1991, solo índice = inferred). Los D/T de Fleetwood Village Lot 13 (Kirk Frank Morris / Kirk Marie Beavers) son de otro inmueble y no se atribuyen. Sin D/T ni A/J abiertos que modelar.",
+      "HCAD hcad_owner_since 01/02/1988 vs. escritura de vesting J347582 del 01/30/1984; hcad_deeds_recorded vacío: fecha o cadena inconsistente.",
+      "'Tax Years in Judgement' lista 2010-2025 (16 años) pero solo hay saldos 2020-2025; apertura $28,479 (5.7x la deuda $4,968, 27% del valor): contenido desconocido; valuation.expected_close $53k (ratio de lotes) vs. $31k (apertura x 1.088) difieren 70%.",
+      "intake.scout_notes dice tipo 'Sale' pero legal.sale_type es null/unknown.",
+      "Dueña de record desde 1984 con correo en Citrus Heights, CA: posible sucesión/ausente; hay otras 'Kirk Marie' (Estelle, Disman) sin identidad confirmada. Sin probate visible en el índice (no concluyente).",
+      "Impuesto base 2020 $244 vs. $710 en 2025 (0.9% del valor HCAD, bajo para zona sin exención): posible exención histórica (inferred); si era homestead al presentarse la demanda, la redención sería de 2 años (attorney review recommended).",
+      "hcad_building_sqft 676 vs. hcad_buildings 708sf."
     ],
     "conditions_to_buy": [
-      "Verificar si KIRK MARIE esta viva (probate/obituario) y herederos",
-      "Re-buscar en el Clerk por legal MARY FRANCIS L15 B13 y variantes del nombre",
-      "Aclarar que incluye la apertura de $28,478.83 y el rango 2010-2025",
-      "Leer demandados y citacion en hcdistrictclerk.com (login de Miguel) y bancarrota en PACER",
-      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar la apertura final el dia de la venta 2026-12-01",
-      "Visita al sitio: ocupacion y estado real (el valor HCAD ignora deterioro); aplicar descuento 20-30% al techo teorico"
+      "Verificar si Kirk Marie está viva (Harris County Probate, obituario) y quiénes son los herederos; ver si se citó por publicación (cause 202462519 en hcdistrictclerk.com con login) y bancarrota en PACER",
+      "Leer imágenes de J347582, K650600 y N090063",
+      "Obtener el desglose de la apertura de $28,479 (costas/otros años 2010-2019) y confirmar que no hay deuda de ciudad/condado (estado de liens de demolición/limpieza)",
+      "Visita al sitio: vacante/ocupación, estado y si conviene demolición; descuento 20-30% sobre valor HCAD",
+      "Subir a CONDICIONAL solo si la dueña está viva y citada personalmente o hay herederos identificados"
     ]
   }
 }
