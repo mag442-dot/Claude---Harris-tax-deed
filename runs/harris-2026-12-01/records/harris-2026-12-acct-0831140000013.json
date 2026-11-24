@@ -477,28 +477,28 @@
       "value": null,
       "status": "blocked",
       "source": "https://www.hcdistrictclerk.com",
-      "retrieved_at": "2026-11-13",
-      "note": "hcdistrictclerk.com requiere login"
+      "retrieved_at": "2026-11-24",
+      "note": "hcdistrictclerk.com requiere login; Busqueda web publica 2026-11-24 (causa en buscador, avisos Houston Chronicle legals, CourtListener 403 via proxy); sin resultados para esta causa"
     },
     "service_method": {
       "value": null,
       "status": "blocked",
       "source": "https://www.hcdistrictclerk.com",
-      "retrieved_at": "2026-11-13",
-      "note": "hcdistrictclerk.com requiere login"
+      "retrieved_at": "2026-11-24",
+      "note": "No hay aviso publico hallado; no se afirma metodo. Busqueda web publica 2026-11-24 (causa en buscador, avisos Houston Chronicle legals, CourtListener 403 via proxy); sin resultados"
     },
     "bankruptcy": {
       "value": null,
       "status": "blocked",
       "source": "https://pacer.uscourts.gov",
-      "retrieved_at": "2026-11-13",
-      "note": "PACER requiere cuenta"
+      "retrieved_at": "2026-11-24",
+      "note": "PACER requiere cuenta; busqueda web publica sin hallazgos de bancarrota del dueno (ausencia en web NO es verificacion); CourtListener/RECAP bloqueado (403) en este entorno."
     },
     "legal_summary": {
-      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "value": "Sentencia/tipo de venta leidos de la lista del condado. Demandados, metodo de citacion y bancarrota NO verificados (login Clerk/PACER); busqueda publica sin hallazgos. Dueno es corporacion (Colliers & Nicholson Investments Inc): estatus corporativo SOS no verificado; si fue citada via agente registrado/SOS, no es publicacion. Flag for attorney review.",
       "status": "inferred",
-      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
-      "retrieved_at": "2026-11-13"
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting; Busqueda web publica 2026-11-24 (causa en buscador, avisos Houston Chronicle legals, CourtListener 403 via proxy); sin resultados",
+      "retrieved_at": "2026-11-24"
     }
   },
   "human_blockers": [

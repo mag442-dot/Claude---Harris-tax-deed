@@ -548,20 +548,20 @@
       "status": "blocked",
       "source": "https://www.hcdistrictclerk.com",
       "retrieved_at": "2026-11-13",
-      "note": "hcdistrictclerk.com requiere login"
+      "note": "hcdistrictclerk.com requiere login. Busqueda web publica 2026-11-24 (topics.txcourts.gov, Daily Court Review, trellis) no hallo citacion por publicacion con esta causa; ausencia no prueba metodo de citacion."
     },
     "bankruptcy": {
       "value": null,
-      "status": "blocked",
-      "source": "https://pacer.uscourts.gov",
-      "retrieved_at": "2026-11-13",
-      "note": "PACER requiere cuenta"
+      "status": "unknown",
+      "source": "Busqueda web publica 2026-11-24 (web search; inforuptcy/Law360 indices); PACER bloqueado",
+      "retrieved_at": "2026-11-24",
+      "note": "Sin coincidencias publicas para 'NEW FELLOWSHIP MISSIONARY BAPTIST CHURCH (1.0000%)' en indices abiertos; CourtListener/RECAP API exige autenticacion y la busqueda web no es exhaustiva. Ausencia de resultados NO es verificacion: requiere PACER (human blocker). Flag for attorney review."
     },
     "legal_summary": {
-      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
+      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review. Busqueda publica adicional (2026-11-24) de causa/dueno en avisos y bancarrota: sin hallazgos; sigue bloqueado (Clerk/PACER).",
       "status": "inferred",
       "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
-      "retrieved_at": "2026-11-13"
+      "retrieved_at": "2026-11-24"
     }
   },
   "human_blockers": [

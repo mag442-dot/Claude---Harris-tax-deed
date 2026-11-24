@@ -1,682 +1,694 @@
 {
-  "property_id": "harris-2026-12-acct-0122070000003",
-  "sale_id": "harris-2026-12-01",
-  "county": "Harris",
-  "address": "0 WEDGEFIELD ST HOUSTON 77028",
-  "account_no": "0122070000003",
-  "cause_no": "202249482",
-  "intake": {
-    "opening_bid": {
-      "value": 12391.16,
-      "status": "verified",
-      "source": "candidatos.csv (scout)",
-      "retrieved_at": "2026-11-13"
-    },
-    "scout_notes": {
-      "value": "Precinct 3; tipo SALE; sale# 2; sentencia 01/12/2026; anios_en_sentencia 2012 - 2024; fuente https://www.hctax.net/Property/listings/taxsalelisting",
-      "status": "verified",
-      "source": "candidatos.csv (scout)",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_site_address": {
-      "value": "0 WEDGEFIELD ST, HOUSTON, 77028",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_owner": {
-      "value": "BROWN WALKER JR (1.0000%)",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_mailing_address": {
-      "value": "6206 CRANE ST, HOUSTON, TX, 77026-4206",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_state_class": {
-      "value": "C1",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_land_sqft": {
-      "value": "13500",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_acres": {
-      "value": "0.3100",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_building_sqft": {
-      "value": "0",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_year_improved": {
-      "value": "",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_land_value": {
-      "value": "65812",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_building_value": {
-      "value": "0",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_market_value": {
-      "value": "65812",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_prior_market_value": {
-      "value": "55012",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_exemptions": {
-      "value": "none on roll",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_homestead_on_roll": {
-      "value": "no",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_land_detail": {
-      "value": "Res Vacant Table Value 6750.0000xSF $32906 | Res Vacant Table Value 6750.0000xSF $32906",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_buildings": {
-      "value": "",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_deeds_recorded": {
-      "value": "",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_legal": {
-      "value": "LTS 3 & 4 BLK 34 EAST HOUSTON",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    },
-    "hcad_owner_since": {
-      "value": "01/02/1988",
-      "status": "verified",
-      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-      "retrieved_at": "2026-11-13"
-    }
+ "property_id": "harris-2026-12-acct-0122070000003",
+ "sale_id": "harris-2026-12-01",
+ "county": "Harris",
+ "address": "0 WEDGEFIELD ST HOUSTON 77028",
+ "account_no": "0122070000003",
+ "cause_no": "202249482",
+ "intake": {
+  "opening_bid": {
+   "value": 12391.16,
+   "status": "verified",
+   "source": "candidatos.csv (scout)",
+   "retrieved_at": "2026-11-13"
   },
-  "tax": {
-    "delinquent_by_year": {
-      "value": [
-        {
-          "year": 2012,
-          "tax": 41.28,
-          "penalties_interest": 73.48,
-          "collection_penalty": 22.95,
-          "total": 137.71
-        },
-        {
-          "year": 2013,
-          "tax": 69.08,
-          "penalties_interest": 114.68,
-          "collection_penalty": 36.74,
-          "total": 220.5
-        },
-        {
-          "year": 2014,
-          "tax": 69.41,
-          "penalties_interest": 106.9,
-          "collection_penalty": 35.27,
-          "total": 211.58
-        },
-        {
-          "year": 2015,
-          "tax": 68.45,
-          "penalties_interest": 97.2,
-          "collection_penalty": 33.13,
-          "total": 198.78
-        },
-        {
-          "year": 2016,
-          "tax": 68.27,
-          "penalties_interest": 88.75,
-          "collection_penalty": 31.41,
-          "total": 188.43
-        },
-        {
-          "year": 2017,
-          "tax": 179.08,
-          "penalties_interest": 211.31,
-          "collection_penalty": 78.08,
-          "total": 468.47
-        },
-        {
-          "year": 2018,
-          "tax": 179.37,
-          "penalties_interest": 190.13,
-          "collection_penalty": 73.9,
-          "total": 443.4
-        },
-        {
-          "year": 2019,
-          "tax": 326.92,
-          "penalties_interest": 307.3,
-          "collection_penalty": 118.97,
-          "total": 753.19
-        },
-        {
-          "year": 2020,
-          "tax": 404.91,
-          "penalties_interest": 332.03,
-          "collection_penalty": 138.34,
-          "total": 875.28
-        },
-        {
-          "year": 2021,
-          "tax": 550.63,
-          "penalties_interest": 385.45,
-          "collection_penalty": 175.45,
-          "total": 1111.53
-        },
-        {
-          "year": 2022,
-          "tax": 891.77,
-          "penalties_interest": 517.22,
-          "collection_penalty": 264.66,
-          "total": 1673.65
-        },
-        {
-          "year": 2023,
-          "tax": 986.02,
-          "penalties_interest": 453.57,
-          "collection_penalty": 268.8,
-          "total": 1708.39
-        },
-        {
-          "year": 2024,
-          "tax": 1151.05,
-          "penalties_interest": 391.37,
-          "collection_penalty": 286.06,
-          "total": 1828.48
-        },
-        {
-          "year": 2025,
-          "tax": 1169.13,
-          "penalties_interest": 257.23,
-          "collection_penalty": 200.84,
-          "total": 1627.2
-        }
-      ],
-      "status": "verified",
-      "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
-      "retrieved_at": "2026-11-13",
-      "note": "statement as of 11/13/2026"
-    },
-    "total_due_all_years": {
-      "value": 11446.59,
-      "status": "verified",
-      "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
-      "retrieved_at": "2026-11-13"
-    },
-    "taxes_in_judgment": {
-      "value": [
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024
-      ],
-      "status": "verified",
-      "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
-      "retrieved_at": "2026-11-13",
-      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
-    },
-    "post_judgment_taxes": {
-      "value": 1627.2,
-      "status": "verified",
-      "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
-      "retrieved_at": "2026-11-13"
-    },
-    "current_year_estimate": {
-      "value": 1169.13,
-      "status": "inferred",
-      "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
-      "retrieved_at": "2026-11-13",
-      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
-    },
-    "buyer_tax_tail_estimate": {
-      "value": 2796.33,
-      "status": "inferred",
-      "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
-      "retrieved_at": "2026-11-13",
-      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
-    },
-    "assessed_owner_county": {
-      "value": "BROWN WALKER JR 6206 CRANE ST HOUSTON TX 77026 WEDGEFIELD ST LTS 3 & 4 BLK 34 EAST HOUSTON",
-      "status": "verified",
-      "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
-      "retrieved_at": "2026-11-13"
-    },
-    "appraised_value_county": {
-      "value": null,
-      "status": "unknown",
-      "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
-      "retrieved_at": "2026-11-13"
-    }
+  "scout_notes": {
+   "value": "Precinct 3; tipo SALE; sale# 2; sentencia 01/12/2026; anios_en_sentencia 2012 - 2024; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+   "status": "verified",
+   "source": "candidatos.csv (scout)",
+   "retrieved_at": "2026-11-13"
   },
-  "title": {
-    "rp_hits_grantee": {
-      "value": [],
-      "status": "inferred",
-      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BROWN WALKER')",
-      "retrieved_at": "2026-11-13",
-      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
-    },
-    "rp_hits_grantor": {
-      "value": [],
-      "status": "inferred",
-      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BROWN WALKER')",
-      "retrieved_at": "2026-11-13",
-      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
-    },
-    "rp_type_counts": {
-      "value": {},
-      "status": "inferred",
-      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BROWN WALKER')",
-      "retrieved_at": "2026-11-13"
-    },
-    "rp_summary": {
-      "value": "0 instruments as grantee, 0 as grantor (index, name 'BROWN WALKER')",
-      "status": "inferred",
-      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BROWN WALKER')",
-      "retrieved_at": "2026-11-13",
-      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
-    },
-    "title_search_method": {
-      "value": "Legal-description searches (EAST HOUSTON / E HOUSTON / EAST HOUSTON ADDITION; Lots 3, 4, 3-4; Block 34; also Block 34 only = 15 rows) plus name search BROWN WALKER, BROWN WALKER JR (grantee and grantor)",
-      "status": "verified",
-      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
-      "retrieved_at": "2026-11-24",
-      "note": "Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
-    },
-    "vesting_deed": {
-      "value": null,
-      "status": "unknown",
-      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc EAST HOUSTON Lot 3/4 Block 34)",
-      "retrieved_at": "2026-11-24",
-      "note": "No instrument indexed for Lots 3 & 4, Block 34, East Houston. Block 34 search shows only OTHER lots (7, 8, 12, 15) and untied-lot tax deeds (see excluded rows). Vesting deed for Walker Brown Jr not found in index; likely pre-computer index (before ~1960s-70s) or mis-indexed. Human/title company needed."
-    },
-    "legal_desc_rows_belonging_to_parcel": {
-      "value": [],
-      "status": "inferred",
-      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc)",
-      "retrieved_at": "2026-11-24",
-      "note": "0 rows confirmed for Lts 3&4 Blk 34."
-    },
-    "legal_desc_rows_excluded_as_noise": {
-      "value": [
-        "20150246814 | 06/08/2015 | MEMO | Martinez -> Ballard Exploration | EAST HOUSTON Lot 133 Block 134 (different lot/block)",
-        "Z521344 08/11/2006, Z267042 05/02/2006, 20060020068 09/05/2006 | DEED | tax deeds to Land Assemblage Redevelopment Authority | EAST HOUSTON Block 34 with NO lot shown; grantors Harper / Collis / Collins (not Brown) - lot unknown, cannot rule in/out Lots 3-4 without images",
-        "Y849411 (L12), 20090135466 (L7), 20070356257 (L8), RP-2016-527611 (L15) | Block 34 other lots"
-      ],
-      "status": "verified",
-      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc Block 34)",
-      "retrieved_at": "2026-11-24",
-      "note": "Block 34 has several tax-deed/LARA transactions; the lot-less ones are a flag, though grantors are not the taxed owner."
-    },
-    "name_search_result": {
-      "value": "BROWN WALKER: 10 grantee rows, 0 grantor rows; BROWN WALKER JR: 7 grantee, 0 grantor. Rows are City of Houston liens/State of TX A/J & releases on OTHER properties (Trinity Gdn, Highland Hts, East Houston Lot 1 Block 174, Bayou Estates Lot 4 Block B) from 1974-2006. None reference Lots 3-4 Block 34.",
-      "status": "verified",
-      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name BROWN WALKER / BROWN WALKER JR)",
-      "retrieved_at": "2026-11-24",
-      "note": "Identity NOT confirmed (no address/middle name in index); same-name risk. Not attributed to this parcel."
-    },
-    "mortgages": {
-      "value": [],
-      "status": "unknown",
-      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc+name)",
-      "retrieved_at": "2026-11-24",
-      "note": "No deed of trust found for the parcel."
-    },
-    "liens_federal": {
-      "value": [],
-      "status": "unknown",
-      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name BROWN WALKER)",
-      "retrieved_at": "2026-11-24",
-      "note": "No IRS/DOJ rows. Absence in a name-only search is not proof."
-    },
-    "liens_city_county": {
-      "value": [
-        "20060135696 | 10/19/2006 | LIEN | City of Houston -> BROWN WALKER | EAST HOUSTON Lot 1 Block 174 (different lot/block) - no release seen",
-        "20060028460 | 09/07/2006 | LIEN | City of Houston -> BROWN WALKER JR | BAYOU ESTATES Lot 4 Block B000A (other property)",
-        "S355932 | 03/11/1997 | LIEN | City of HO -> Brown Barbara L etal / Brown Walker etal | TRINITY GDN Block 5 Tract 183 (other)",
-        "E267857 | 09/30/1974 | LIEN | City of HO -> Brown Walker Jr | HIGHLAND HTS ANX 7 Lot T011B Block 59 (other)"
-      ],
-      "status": "inferred",
-      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name BROWN WALKER)",
-      "retrieved_at": "2026-11-24",
-      "note": "These attach to OTHER legal descriptions (same-name; may or may not be this owner). None tied to Lots 3-4 Block 34. Listed for awareness only; do NOT count as encumbrances on this parcel."
-    },
-    "liens_hoa_lispendens": {
-      "value": "none found; also A/J rows G447002 (03/03/1980, Electronic Rlty/Liberty Rlty -> Brown Walker etal) and E158405 (05/20/1974, State of Tex) have no legal description in index and are 40+ years old; not tied to parcel",
-      "status": "inferred",
-      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
-      "retrieved_at": "2026-11-24",
-      "note": "No LIEN/L-P/A-J row tied to the legal description other than those listed. Index only."
-    },
-    "child_support_liens": {
-      "value": "not found in index search (no child-support/OAG lien types appear in rows read); index does not always label them",
-      "status": "unknown",
-      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
-      "retrieved_at": "2026-11-24",
-      "note": "Child-support liens are often filed as LIEN/ABSTRACT without subtype; verify on images if shortlisted. Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
-    },
-    "restrictions": {
-      "value": "not checked: plat restrictions / recorded covenants not located in index search",
-      "status": "unknown",
-      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
-      "retrieved_at": "2026-11-24",
-      "note": "Need plat + restriction instruments (images) to evaluate duplex use."
-    },
-    "tdhca_status": {
-      "value": "Vacant land per HCAD (building sqft 0, Res Vacant land table); no manufactured-home title search run (TDHCA mhweb not queried)",
-      "status": "inferred",
-      "source": "https://www.tdhca.state.tx.us/mhweb (not queried); HCAD intake.hcad_building_sqft=0",
-      "retrieved_at": "2026-11-24",
-      "note": "Low relevance for raw land; confirm no mobile home on site visit."
-    },
-    "owner_deceased_heirs": {
-      "value": "No heirship affidavit found by name or legal; no EST suffix on 'BROWN WALKER JR' rows",
-      "status": "inferred",
-      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search)",
-      "retrieved_at": "2026-11-24",
-      "note": "Owner 'Jr' on 13,500 sf parcel with 40+ year old record trail; deceased status plausible but unconfirmed."
-    },
-    "title_summary": {
-      "value": "Record owner NOT located: no deed indexed for Lts 3&4 Blk 34 East Houston. Name hits are other-property City liens (same-name unconfirmed). Nothing identified that survives, but the chain is unverified; Block 34 shows multiple tax deeds to Land Assemblage Redevelopment Authority without lot numbers.",
-      "status": "inferred",
-      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
-      "retrieved_at": "2026-11-24",
-      "note": "Title commitment needed before bidding."
-    }
+  "hcad_site_address": {
+   "value": "0 WEDGEFIELD ST, HOUSTON, 77028",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
   },
-  "physical": {
-    "parcel_centroid": {
-      "value": {
-        "lon": -95.273578,
-        "lat": 29.811949
-      },
-      "status": "verified",
-      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0122070000003)",
-      "retrieved_at": "2026-11-13"
-    },
-    "lot_sqft_gis": {
-      "value": 13642,
-      "status": "verified",
-      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0122070000003)",
-      "retrieved_at": "2026-11-13",
-      "note": "area del poligono (aprox.); compara con HCAD land_ar"
-    },
-    "lot_dimensions_est": {
-      "value": "~102 x 135 ft (rectangulo minimo rotado)",
-      "status": "inferred",
-      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0122070000003)",
-      "retrieved_at": "2026-11-13",
-      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
-    },
-    "fema_effective_zone": {
-      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
-      "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
-      "retrieved_at": "2026-11-13",
-      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
-    },
-    "fema_zone_shares": {
-      "value": {
-        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
-      },
-      "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
-      "retrieved_at": "2026-11-13",
-      "note": "% del area del predio por zona"
-    },
-    "fema_sfha_pct": {
-      "value": 0.0,
-      "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
-      "retrieved_at": "2026-11-13"
-    },
-    "floodway": {
-      "value": "no",
-      "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
-      "retrieved_at": "2026-11-13"
-    },
-    "floodway_pct": {
-      "value": 0.0,
-      "status": "verified",
-      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
-      "retrieved_at": "2026-11-13"
-    },
-    "parcel_city": {
-      "value": "CITY OF HOUSTON",
-      "status": "verified",
-      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
-      "retrieved_at": "2026-11-13"
-    }
+  "hcad_owner": {
+   "value": "BROWN WALKER JR (1.0000%)",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
   },
-  "legal": {
-    "sale_type": {
-      "value": "SALE",
-      "status": "verified",
-      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
-      "retrieved_at": "2026-11-13"
-    },
-    "cause_no": {
-      "value": "202249482",
-      "status": "verified",
-      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
-      "retrieved_at": "2026-11-13"
-    },
-    "judgment_date": {
-      "value": "01/12/2026",
-      "status": "verified",
-      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
-      "retrieved_at": "2026-11-13"
-    },
-    "redemption_or_new_trial_risk": {
-      "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-01-12: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
-      "status": "inferred",
-      "source": "calculo propio sobre lista oficial",
-      "retrieved_at": "2026-11-13",
-      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
-    },
-    "redemption_note": {
-      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
-      "status": "inferred",
-      "source": "inferido de HCAD jur_exempt",
-      "retrieved_at": "2026-11-13",
-      "note": "No es asesoria legal: attorney review recommended"
-    },
-    "tax_suit_defendants": {
-      "value": null,
-      "status": "blocked",
-      "source": "https://www.hcdistrictclerk.com",
-      "retrieved_at": "2026-11-13",
-      "note": "hcdistrictclerk.com requiere login"
-    },
-    "service_method": {
-      "value": null,
-      "status": "blocked",
-      "source": "https://www.hcdistrictclerk.com",
-      "retrieved_at": "2026-11-13",
-      "note": "hcdistrictclerk.com requiere login"
-    },
-    "bankruptcy": {
-      "value": null,
-      "status": "blocked",
-      "source": "https://pacer.uscourts.gov",
-      "retrieved_at": "2026-11-13",
-      "note": "PACER requiere cuenta"
-    },
-    "legal_summary": {
-      "value": "Sentencia y tipo de venta leidos del condado; demandados, citacion y bancarrota NO verificados (bloqueados). Flag for attorney review.",
-      "status": "inferred",
-      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
-      "retrieved_at": "2026-11-13"
-    }
+  "hcad_mailing_address": {
+   "value": "6206 CRANE ST, HOUSTON, TX, 77026-4206",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
   },
-  "human_blockers": [
-    {
-      "agent": "legal",
-      "item": "Leer demandados y citacion del cause 202249482 en hcdistrictclerk.com (login)",
-      "why": "requiere login/cuenta"
-    },
-    {
-      "agent": "legal",
-      "item": "Buscar bancarrota de BROWN WALKER JR (1.0000%) en PACER",
-      "why": "requiere login/cuenta"
-    },
-    {
-      "agent": "title",
-      "item": "Pedir cadena de titulo de LTS 3&4 BLK 34 EAST HOUSTON (sin escritura indexada); revisar imagenes de tax deeds a Land Assemblage Redevelopment Authority 2005-2009 en Block 34 sin numero de lote (Z521344, Z267042, 20060020068) para descartar que incluyan lotes 3-4",
-      "why": "requiere imagenes del Clerk / title company"
-    }
-  ],
-  "valuation": {
-    "value_base": {
-      "value": 65812.0,
-      "status": "inferred",
-      "source": "HCAD real_acct.txt tot_mkt_val",
-      "retrieved_at": "2026-11-13",
-      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
-    },
-    "value_low": {
-      "value": null,
-      "status": "unknown",
-      "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13",
-      "note": "sin comparables no se inventa rango"
-    },
-    "value_high": {
-      "value": null,
-      "status": "unknown",
-      "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13",
-      "note": "sin comparables no se inventa rango"
-    },
-    "comps": {
-      "value": [],
-      "status": "unknown",
-      "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13",
-      "note": "no accesibles desde este entorno"
-    },
-    "expected_close_from_ratio": {
-      "value": 33366.68,
-      "status": "inferred",
-      "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13",
-      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
-    },
-    "expected_close_from_premium": {
-      "value": 13481.58,
-      "status": "inferred",
-      "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13",
-      "note": "apertura x 1.088 (benchmark del playbook)"
-    },
-    "all_in_costs": {
-      "value": {
-        "puja_esperada": 33366.68,
-        "impuestos_que_hereda": 2796.33,
-        "quiet_title_supuesto": 4000,
-        "cierre_supuesto": 1001.0,
-        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
-      },
-      "status": "inferred",
-      "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13",
-      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
-    },
-    "all_in_cost_at_expected_close": {
-      "value": 41164.01,
-      "status": "inferred",
-      "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13"
-    },
-    "bid_ceiling": {
-      "value": 44517.74,
-      "status": "inferred",
-      "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13",
-      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
-    },
-    "margin_at_expected_close": {
-      "value": 0.599,
-      "status": "inferred",
-      "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13",
-      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
-    },
-    "exit_strategy_used": {
-      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
-      "status": "inferred",
-      "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13"
-    }
+  "hcad_state_class": {
+   "value": "C1",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
   },
-  "review": {
-    "decision": "CONDICIONAL",
-    "rationale": "Lote C1 doble (lotes 3 y 4, 13,500 sf, East Houston, City of Houston), FEMA X, HCAD $65,812: el mas viable para dúplex del grupo por tamano. Hechos decisivos: techo teorico $44,518 sobre costo total $41,164 y cierre esperado $33,367 con margen razonable, pero legal bloqueado (demandados/citacion/bancarrota) y sin filas del Clerk para validar liens (0 hits por nombre 'BROWN WALKER'). Apertura $12,391 > total adeudado $11,447. Attorney review recommended.",
-    "bid_ceiling": 44517.74,
-    "all_in_cost_estimate": 41164.01,
-    "contradictions": [
-      "Apertura $12,391 > total adeudado $11,447: incluye costas no desglosadas.",
-      "Clerk sin ninguna fila (0 hits por nombre): ausencia de liens no es evidencia (nombre comun/ruidoso); modelo asume liens $0 por defecto.",
-      "Dueno 'BROWN WALKER JR' con fecha 01/02/1988 (por defecto HCAD): posible fallecido/sucesion; sentencia 2012-2024 sugiere citacion dificil (TRCP 329 hasta 2028-01-12)."
-    ],
-    "conditions_to_buy": [
-      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com/PACER (login: Miguel); attorney review recommended",
-      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar apertura final el dia de la venta (2026-12-01)",
-      "Busqueda del Clerk por legal EAST HOUSTON Lts 3-4 Blk 34",
-      "Verificar si el dueno vive (sucesion) y restricciones/zonificacion para dúplex en 13,500 sf"
-    ]
+  "hcad_land_sqft": {
+   "value": "13500",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
+  },
+  "hcad_acres": {
+   "value": "0.3100",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
+  },
+  "hcad_building_sqft": {
+   "value": "0",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
+  },
+  "hcad_year_improved": {
+   "value": "",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
+  },
+  "hcad_land_value": {
+   "value": "65812",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
+  },
+  "hcad_building_value": {
+   "value": "0",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
+  },
+  "hcad_market_value": {
+   "value": "65812",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
+  },
+  "hcad_prior_market_value": {
+   "value": "55012",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
+  },
+  "hcad_exemptions": {
+   "value": "none on roll",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
+  },
+  "hcad_homestead_on_roll": {
+   "value": "no",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
+  },
+  "hcad_land_detail": {
+   "value": "Res Vacant Table Value 6750.0000xSF $32906 | Res Vacant Table Value 6750.0000xSF $32906",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
+  },
+  "hcad_buildings": {
+   "value": "",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
+  },
+  "hcad_deeds_recorded": {
+   "value": "",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
+  },
+  "hcad_legal": {
+   "value": "LTS 3 & 4 BLK 34 EAST HOUSTON",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
+  },
+  "hcad_owner_since": {
+   "value": "01/02/1988",
+   "status": "verified",
+   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+   "retrieved_at": "2026-11-13"
   }
+ },
+ "tax": {
+  "delinquent_by_year": {
+   "value": [
+    {
+     "year": 2012,
+     "tax": 41.28,
+     "penalties_interest": 73.48,
+     "collection_penalty": 22.95,
+     "total": 137.71
+    },
+    {
+     "year": 2013,
+     "tax": 69.08,
+     "penalties_interest": 114.68,
+     "collection_penalty": 36.74,
+     "total": 220.5
+    },
+    {
+     "year": 2014,
+     "tax": 69.41,
+     "penalties_interest": 106.9,
+     "collection_penalty": 35.27,
+     "total": 211.58
+    },
+    {
+     "year": 2015,
+     "tax": 68.45,
+     "penalties_interest": 97.2,
+     "collection_penalty": 33.13,
+     "total": 198.78
+    },
+    {
+     "year": 2016,
+     "tax": 68.27,
+     "penalties_interest": 88.75,
+     "collection_penalty": 31.41,
+     "total": 188.43
+    },
+    {
+     "year": 2017,
+     "tax": 179.08,
+     "penalties_interest": 211.31,
+     "collection_penalty": 78.08,
+     "total": 468.47
+    },
+    {
+     "year": 2018,
+     "tax": 179.37,
+     "penalties_interest": 190.13,
+     "collection_penalty": 73.9,
+     "total": 443.4
+    },
+    {
+     "year": 2019,
+     "tax": 326.92,
+     "penalties_interest": 307.3,
+     "collection_penalty": 118.97,
+     "total": 753.19
+    },
+    {
+     "year": 2020,
+     "tax": 404.91,
+     "penalties_interest": 332.03,
+     "collection_penalty": 138.34,
+     "total": 875.28
+    },
+    {
+     "year": 2021,
+     "tax": 550.63,
+     "penalties_interest": 385.45,
+     "collection_penalty": 175.45,
+     "total": 1111.53
+    },
+    {
+     "year": 2022,
+     "tax": 891.77,
+     "penalties_interest": 517.22,
+     "collection_penalty": 264.66,
+     "total": 1673.65
+    },
+    {
+     "year": 2023,
+     "tax": 986.02,
+     "penalties_interest": 453.57,
+     "collection_penalty": 268.8,
+     "total": 1708.39
+    },
+    {
+     "year": 2024,
+     "tax": 1151.05,
+     "penalties_interest": 391.37,
+     "collection_penalty": 286.06,
+     "total": 1828.48
+    },
+    {
+     "year": 2025,
+     "tax": 1169.13,
+     "penalties_interest": 257.23,
+     "collection_penalty": 200.84,
+     "total": 1627.2
+    }
+   ],
+   "status": "verified",
+   "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
+   "retrieved_at": "2026-11-13",
+   "note": "statement as of 11/13/2026"
+  },
+  "total_due_all_years": {
+   "value": 11446.59,
+   "status": "verified",
+   "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
+   "retrieved_at": "2026-11-13"
+  },
+  "taxes_in_judgment": {
+   "value": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "status": "verified",
+   "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
+   "retrieved_at": "2026-11-13",
+   "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+  },
+  "post_judgment_taxes": {
+   "value": 1627.2,
+   "status": "verified",
+   "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
+   "retrieved_at": "2026-11-13"
+  },
+  "current_year_estimate": {
+   "value": 1169.13,
+   "status": "inferred",
+   "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
+   "retrieved_at": "2026-11-13",
+   "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+  },
+  "buyer_tax_tail_estimate": {
+   "value": 2796.33,
+   "status": "inferred",
+   "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
+   "retrieved_at": "2026-11-13",
+   "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+  },
+  "assessed_owner_county": {
+   "value": "BROWN WALKER JR 6206 CRANE ST HOUSTON TX 77026 WEDGEFIELD ST LTS 3 & 4 BLK 34 EAST HOUSTON",
+   "status": "verified",
+   "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
+   "retrieved_at": "2026-11-13"
+  },
+  "appraised_value_county": {
+   "value": null,
+   "status": "unknown",
+   "source": "https://www.hctax.net/property/listings/saledetail?account=0122070000003",
+   "retrieved_at": "2026-11-13"
+  }
+ },
+ "title": {
+  "rp_hits_grantee": {
+   "value": [],
+   "status": "inferred",
+   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BROWN WALKER')",
+   "retrieved_at": "2026-11-13",
+   "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+  },
+  "rp_hits_grantor": {
+   "value": [],
+   "status": "inferred",
+   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BROWN WALKER')",
+   "retrieved_at": "2026-11-13",
+   "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+  },
+  "rp_type_counts": {
+   "value": {},
+   "status": "inferred",
+   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BROWN WALKER')",
+   "retrieved_at": "2026-11-13"
+  },
+  "rp_summary": {
+   "value": "0 instruments as grantee, 0 as grantor (index, name 'BROWN WALKER')",
+   "status": "inferred",
+   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BROWN WALKER')",
+   "retrieved_at": "2026-11-13",
+   "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+  },
+  "title_search_method": {
+   "value": "Legal-description searches (EAST HOUSTON / E HOUSTON / EAST HOUSTON ADDITION; Lots 3, 4, 3-4; Block 34; also Block 34 only = 15 rows) plus name search BROWN WALKER, BROWN WALKER JR (grantee and grantor)",
+   "status": "verified",
+   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+   "retrieved_at": "2026-11-24",
+   "note": "Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
+  },
+  "vesting_deed": {
+   "value": null,
+   "status": "unknown",
+   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc EAST HOUSTON Lot 3/4 Block 34)",
+   "retrieved_at": "2026-11-24",
+   "note": "No instrument indexed for Lots 3 & 4, Block 34, East Houston. Block 34 search shows only OTHER lots (7, 8, 12, 15) and untied-lot tax deeds (see excluded rows). Vesting deed for Walker Brown Jr not found in index; likely pre-computer index (before ~1960s-70s) or mis-indexed. Human/title company needed."
+  },
+  "legal_desc_rows_belonging_to_parcel": {
+   "value": [],
+   "status": "inferred",
+   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc)",
+   "retrieved_at": "2026-11-24",
+   "note": "0 rows confirmed for Lts 3&4 Blk 34."
+  },
+  "legal_desc_rows_excluded_as_noise": {
+   "value": [
+    "20150246814 | 06/08/2015 | MEMO | Martinez -> Ballard Exploration | EAST HOUSTON Lot 133 Block 134 (different lot/block)",
+    "Z521344 08/11/2006, Z267042 05/02/2006, 20060020068 09/05/2006 | DEED | tax deeds to Land Assemblage Redevelopment Authority | EAST HOUSTON Block 34 with NO lot shown; grantors Harper / Collis / Collins (not Brown) - lot unknown, cannot rule in/out Lots 3-4 without images",
+    "Y849411 (L12), 20090135466 (L7), 20070356257 (L8), RP-2016-527611 (L15) | Block 34 other lots"
+   ],
+   "status": "verified",
+   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc Block 34)",
+   "retrieved_at": "2026-11-24",
+   "note": "Block 34 has several tax-deed/LARA transactions; the lot-less ones are a flag, though grantors are not the taxed owner."
+  },
+  "name_search_result": {
+   "value": "BROWN WALKER: 10 grantee rows, 0 grantor rows; BROWN WALKER JR: 7 grantee, 0 grantor. Rows are City of Houston liens/State of TX A/J & releases on OTHER properties (Trinity Gdn, Highland Hts, East Houston Lot 1 Block 174, Bayou Estates Lot 4 Block B) from 1974-2006. None reference Lots 3-4 Block 34.",
+   "status": "verified",
+   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name BROWN WALKER / BROWN WALKER JR)",
+   "retrieved_at": "2026-11-24",
+   "note": "Identity NOT confirmed (no address/middle name in index); same-name risk. Not attributed to this parcel."
+  },
+  "mortgages": {
+   "value": [],
+   "status": "unknown",
+   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc+name)",
+   "retrieved_at": "2026-11-24",
+   "note": "No deed of trust found for the parcel."
+  },
+  "liens_federal": {
+   "value": [],
+   "status": "unknown",
+   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name BROWN WALKER)",
+   "retrieved_at": "2026-11-24",
+   "note": "No IRS/DOJ rows. Absence in a name-only search is not proof."
+  },
+  "liens_city_county": {
+   "value": [
+    "20060135696 | 10/19/2006 | LIEN | City of Houston -> BROWN WALKER | EAST HOUSTON Lot 1 Block 174 (different lot/block) - no release seen",
+    "20060028460 | 09/07/2006 | LIEN | City of Houston -> BROWN WALKER JR | BAYOU ESTATES Lot 4 Block B000A (other property)",
+    "S355932 | 03/11/1997 | LIEN | City of HO -> Brown Barbara L etal / Brown Walker etal | TRINITY GDN Block 5 Tract 183 (other)",
+    "E267857 | 09/30/1974 | LIEN | City of HO -> Brown Walker Jr | HIGHLAND HTS ANX 7 Lot T011B Block 59 (other)"
+   ],
+   "status": "inferred",
+   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name BROWN WALKER)",
+   "retrieved_at": "2026-11-24",
+   "note": "These attach to OTHER legal descriptions (same-name; may or may not be this owner). None tied to Lots 3-4 Block 34. Listed for awareness only; do NOT count as encumbrances on this parcel."
+  },
+  "liens_hoa_lispendens": {
+   "value": "none found; also A/J rows G447002 (03/03/1980, Electronic Rlty/Liberty Rlty -> Brown Walker etal) and E158405 (05/20/1974, State of Tex) have no legal description in index and are 40+ years old; not tied to parcel",
+   "status": "inferred",
+   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+   "retrieved_at": "2026-11-24",
+   "note": "No LIEN/L-P/A-J row tied to the legal description other than those listed. Index only."
+  },
+  "child_support_liens": {
+   "value": "not found in index search (no child-support/OAG lien types appear in rows read); index does not always label them",
+   "status": "unknown",
+   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+   "retrieved_at": "2026-11-24",
+   "note": "Child-support liens are often filed as LIEN/ABSTRACT without subtype; verify on images if shortlisted. Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
+  },
+  "restrictions": {
+   "value": "not checked: plat restrictions / recorded covenants not located in index search",
+   "status": "unknown",
+   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+   "retrieved_at": "2026-11-24",
+   "note": "Need plat + restriction instruments (images) to evaluate duplex use."
+  },
+  "tdhca_status": {
+   "value": "Vacant land per HCAD (building sqft 0, Res Vacant land table); no manufactured-home title search run (TDHCA mhweb not queried)",
+   "status": "inferred",
+   "source": "https://www.tdhca.state.tx.us/mhweb (not queried); HCAD intake.hcad_building_sqft=0",
+   "retrieved_at": "2026-11-24",
+   "note": "Low relevance for raw land; confirm no mobile home on site visit."
+  },
+  "owner_deceased_heirs": {
+   "value": "No heirship affidavit found by name or legal; no EST suffix on 'BROWN WALKER JR' rows",
+   "status": "inferred",
+   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search)",
+   "retrieved_at": "2026-11-24",
+   "note": "Owner 'Jr' on 13,500 sf parcel with 40+ year old record trail; deceased status plausible but unconfirmed."
+  },
+  "title_summary": {
+   "value": "Record owner NOT located: no deed indexed for Lts 3&4 Blk 34 East Houston. Name hits are other-property City liens (same-name unconfirmed). Nothing identified that survives, but the chain is unverified; Block 34 shows multiple tax deeds to Land Assemblage Redevelopment Authority without lot numbers.",
+   "status": "inferred",
+   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+   "retrieved_at": "2026-11-24",
+   "note": "Title commitment needed before bidding."
+  }
+ },
+ "physical": {
+  "parcel_centroid": {
+   "value": {
+    "lon": -95.273578,
+    "lat": 29.811949
+   },
+   "status": "verified",
+   "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0122070000003)",
+   "retrieved_at": "2026-11-13"
+  },
+  "lot_sqft_gis": {
+   "value": 13642,
+   "status": "verified",
+   "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0122070000003)",
+   "retrieved_at": "2026-11-13",
+   "note": "area del poligono (aprox.); compara con HCAD land_ar"
+  },
+  "lot_dimensions_est": {
+   "value": "~102 x 135 ft (rectangulo minimo rotado)",
+   "status": "inferred",
+   "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0122070000003)",
+   "retrieved_at": "2026-11-13",
+   "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+  },
+  "fema_effective_zone": {
+   "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+   "status": "verified",
+   "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+   "retrieved_at": "2026-11-13",
+   "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+  },
+  "fema_zone_shares": {
+   "value": {
+    "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+   },
+   "status": "verified",
+   "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+   "retrieved_at": "2026-11-13",
+   "note": "% del area del predio por zona"
+  },
+  "fema_sfha_pct": {
+   "value": 0.0,
+   "status": "verified",
+   "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+   "retrieved_at": "2026-11-13"
+  },
+  "floodway": {
+   "value": "no",
+   "status": "verified",
+   "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+   "retrieved_at": "2026-11-13"
+  },
+  "floodway_pct": {
+   "value": 0.0,
+   "status": "verified",
+   "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+   "retrieved_at": "2026-11-13"
+  },
+  "parcel_city": {
+   "value": "CITY OF HOUSTON",
+   "status": "verified",
+   "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+   "retrieved_at": "2026-11-13"
+  }
+ },
+ "legal": {
+  "sale_type": {
+   "value": "SALE",
+   "status": "verified",
+   "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+   "retrieved_at": "2026-11-13"
+  },
+  "cause_no": {
+   "value": "202249482",
+   "status": "verified",
+   "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+   "retrieved_at": "2026-11-13"
+  },
+  "judgment_date": {
+   "value": "01/12/2026",
+   "status": "verified",
+   "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+   "retrieved_at": "2026-11-13"
+  },
+  "redemption_or_new_trial_risk": {
+   "value": "Ventana TRCP 329 (2 anios desde la sentencia) sigue abierta hasta 2028-01-12: aplica SOLO si algun demandado fue citado por publicacion (no verificado)",
+   "status": "inferred",
+   "source": "calculo propio sobre lista oficial",
+   "retrieved_at": "2026-11-13",
+   "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+  },
+  "redemption_note": {
+   "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+   "status": "inferred",
+   "source": "inferido de HCAD jur_exempt",
+   "retrieved_at": "2026-11-13",
+   "note": "No es asesoria legal: attorney review recommended"
+  },
+  "tax_suit_defendants": {
+   "value": null,
+   "status": "blocked",
+   "source": "https://www.hcdistrictclerk.com",
+   "retrieved_at": "2026-11-13",
+   "note": "hcdistrictclerk.com requiere login"
+  },
+  "service_method": {
+   "value": null,
+   "status": "blocked",
+   "source": "https://www.hcdistrictclerk.com",
+   "retrieved_at": "2026-11-13",
+   "note": "hcdistrictclerk.com requiere login"
+  },
+  "bankruptcy": {
+   "value": null,
+   "status": "unknown",
+   "source": "busqueda web publica (inforuptcy/pacermonitor/CourtListener sin login) por nombre del dueno HCAD; CourtListener API devolvio 401",
+   "retrieved_at": "2026-11-24",
+   "note": "Sin coincidencia publica para WALKER BROWN JR; no es busqueda autoritativa (indices terceros incompletos, nombre solo parcial). Confirmar en PACER (cuenta de Miguel)."
+  },
+  "legal_summary": {
+   "value": "Causa 202249482: sentencia y tipo de venta leidos del condado. Demandados y metodo de citacion siguen bloqueados (hcdistrictclerk.com requiere login); busqueda publica de avisos y de bancarrota de WALKER BROWN JR no encontro nada (no concluyente). Ventana TRCP 329 por fechas: ver redemption_or_new_trial_risk. Flag for attorney review.",
+   "status": "inferred",
+   "source": "lista oficial hctax + busquedas publicas sin login",
+   "retrieved_at": "2026-11-24"
+  },
+  "public_notice_search": {
+   "value": "Sin aviso de citacion por publicacion encontrado para la causa ni el dueno (topics.txcourts.gov CitationsPublic, Houston Chronicle legals, busqueda web)",
+   "status": "unknown",
+   "source": "https://topics.txcourts.gov/CitationsPublic ; busqueda web",
+   "retrieved_at": "2026-11-24",
+   "note": "Ausencia en buscador web NO prueba citacion personal; el metodo de citacion sigue sin verificar. Nota: TRCP 117a limita la citacion por publicacion si el dueno registrado rindio la propiedad en los ultimos 5 anios; flag for attorney review."
+  }
+ },
+ "human_blockers": [
+  {
+   "agent": "legal",
+   "item": "Leer demandados y citacion del cause 202249482 en hcdistrictclerk.com (login)",
+   "why": "requiere login/cuenta"
+  },
+  {
+   "agent": "legal",
+   "item": "Buscar bancarrota de BROWN WALKER JR (1.0000%) en PACER",
+   "why": "requiere login/cuenta"
+  },
+  {
+   "agent": "title",
+   "item": "Pedir cadena de titulo de LTS 3&4 BLK 34 EAST HOUSTON (sin escritura indexada); revisar imagenes de tax deeds a Land Assemblage Redevelopment Authority 2005-2009 en Block 34 sin numero de lote (Z521344, Z267042, 20060020068) para descartar que incluyan lotes 3-4",
+   "why": "requiere imagenes del Clerk / title company"
+  },
+  {
+   "agent": "legal",
+   "item": "Confirmar en PACER bancarrota de WALKER BROWN JR y en hcdistrictclerk.com demandados/citacion de causa 202249482",
+   "why": "busqueda publica sin resultados concluyentes; requiere login (txcourts)"
+  }
+ ],
+ "valuation": {
+  "value_base": {
+   "value": 65812.0,
+   "status": "inferred",
+   "source": "HCAD real_acct.txt tot_mkt_val",
+   "retrieved_at": "2026-11-13",
+   "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+  },
+  "value_low": {
+   "value": null,
+   "status": "unknown",
+   "source": "calculo propio (scripts/valuation.py)",
+   "retrieved_at": "2026-11-13",
+   "note": "sin comparables no se inventa rango"
+  },
+  "value_high": {
+   "value": null,
+   "status": "unknown",
+   "source": "calculo propio (scripts/valuation.py)",
+   "retrieved_at": "2026-11-13",
+   "note": "sin comparables no se inventa rango"
+  },
+  "comps": {
+   "value": [],
+   "status": "unknown",
+   "source": "calculo propio (scripts/valuation.py)",
+   "retrieved_at": "2026-11-13",
+   "note": "no accesibles desde este entorno"
+  },
+  "expected_close_from_ratio": {
+   "value": 33366.68,
+   "status": "inferred",
+   "source": "calculo propio (scripts/valuation.py)",
+   "retrieved_at": "2026-11-13",
+   "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+  },
+  "expected_close_from_premium": {
+   "value": 13481.58,
+   "status": "inferred",
+   "source": "calculo propio (scripts/valuation.py)",
+   "retrieved_at": "2026-11-13",
+   "note": "apertura x 1.088 (benchmark del playbook)"
+  },
+  "all_in_costs": {
+   "value": {
+    "puja_esperada": 33366.68,
+    "impuestos_que_hereda": 2796.33,
+    "quiet_title_supuesto": 4000,
+    "cierre_supuesto": 1001.0,
+    "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+   },
+   "status": "inferred",
+   "source": "calculo propio (scripts/valuation.py)",
+   "retrieved_at": "2026-11-13",
+   "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+  },
+  "all_in_cost_at_expected_close": {
+   "value": 41164.01,
+   "status": "inferred",
+   "source": "calculo propio (scripts/valuation.py)",
+   "retrieved_at": "2026-11-13"
+  },
+  "bid_ceiling": {
+   "value": 44517.74,
+   "status": "inferred",
+   "source": "calculo propio (scripts/valuation.py)",
+   "retrieved_at": "2026-11-13",
+   "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+  },
+  "margin_at_expected_close": {
+   "value": 0.599,
+   "status": "inferred",
+   "source": "calculo propio (scripts/valuation.py)",
+   "retrieved_at": "2026-11-13",
+   "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+  },
+  "exit_strategy_used": {
+   "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+   "status": "inferred",
+   "source": "calculo propio (scripts/valuation.py)",
+   "retrieved_at": "2026-11-13"
+  }
+ },
+ "review": {
+  "decision": "CONDICIONAL",
+  "rationale": "Lote C1 doble (lotes 3 y 4, 13,500 sf, East Houston, City of Houston), FEMA X, HCAD $65,812: el mas viable para dúplex del grupo por tamano. Hechos decisivos: techo teorico $44,518 sobre costo total $41,164 y cierre esperado $33,367 con margen razonable, pero legal bloqueado (demandados/citacion/bancarrota) y sin filas del Clerk para validar liens (0 hits por nombre 'BROWN WALKER'). Apertura $12,391 > total adeudado $11,447. Attorney review recommended.",
+  "bid_ceiling": 44517.74,
+  "all_in_cost_estimate": 41164.01,
+  "contradictions": [
+   "Apertura $12,391 > total adeudado $11,447: incluye costas no desglosadas.",
+   "Clerk sin ninguna fila (0 hits por nombre): ausencia de liens no es evidencia (nombre comun/ruidoso); modelo asume liens $0 por defecto.",
+   "Dueno 'BROWN WALKER JR' con fecha 01/02/1988 (por defecto HCAD): posible fallecido/sucesion; sentencia 2012-2024 sugiere citacion dificil (TRCP 329 hasta 2028-01-12)."
+  ],
+  "conditions_to_buy": [
+   "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com/PACER (login: Miguel); attorney review recommended",
+   "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar apertura final el dia de la venta (2026-12-01)",
+   "Busqueda del Clerk por legal EAST HOUSTON Lts 3-4 Blk 34",
+   "Verificar si el dueno vive (sucesion) y restricciones/zonificacion para dúplex en 13,500 sf"
+  ]
+ }
 }
