@@ -304,6 +304,78 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'JF HARRIS')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2022-548455, W/D filed 11/14/2022: Harris Jaime A (Jaime Antonio) & Harris Jr Joseph Folwell EST (Estate) to J F HARRIS LLC. Legal LAURYNNBROOK PARK Lot 9 Blk 2 = HCAD 'LT 9 BLK 2 LAURYNNBROOK PARK'. Same-day RP-2022-548453/54/56 convey other Harris Jr lots to J F Harris LLC. Prior vesting: 20080000540 W/D 01/02/2008 HUD to Harris Joseph F Jr (indexed 'LAURYNBROOK').",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx RP-2022-548455",
+      "retrieved_at": "2026-11-24",
+      "note": "Name 'J F HARRIS LLC' = HCAD 'JF HARRIS LLC' (name search 'JF HARRIS' returns 0, 'J F HARRIS' returns the 4 deeds). Grantors: Joseph Folwell Harris Jr (deceased, 'EST') and Jaime A Harris (apparently heir/representative) - authority to convey for the estate and other heirs not verified."
+    },
+    "mortgages": {
+      "value": [
+        "20080000542 D/T filed 01/02/2008 (14 pgs): Harris Joseph F Jr to Action Mortgage LLC / MERS, trustee Black Thomas E Jr. Probable release: RP-2020-532994 (11/03/2020) or RP-2020-535658 (11/04/2020), both REL MERS to Harris Joseph F Jr (no legal desc; the other likely releases his 07/2008 Copperfield D/T 20080377300) -> inferred, unmatched without images.",
+        "No D/T by J F HARRIS LLC on the lot. Earlier chain: Y237661 D/T 02/03/2005 Torres to National City Bank/Mtg -> 20070554211 DEED 09/10/2007 (foreclosure, trustee Follis) -> 20070639462 W/D National City to HUD -> 20080000540 HUD to Harris Jr; Y424428 PT REL Comerica 2005 (builder Royce Homes)."
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal search: LAURYNNBROOK PARK Lot 9 Blk 2 incl. 2005-2008 spellings LAURYNBROOK; names J F HARRIS, JF HARRIS, HARRIS JOSEPH F JR, HARRIS JOSEPH FOLWELL)",
+      "retrieved_at": "2026-11-24",
+      "note": "Releases index-only (no images) -> inferred."
+    },
+    "liens_federal": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names)",
+      "retrieved_at": "2026-11-24",
+      "note": "No IRS/federal lien on J F HARRIS LLC or Harris Joseph F Jr / Joseph Folwell in results (IRS search by those names returned none)."
+    },
+    "liens_city_county": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal + names)",
+      "retrieved_at": "2026-11-24",
+      "note": "No city/county/state lien or A/J found on the lot legal or on J F HARRIS LLC (0 direct hits). Harris Joseph F Jr hits are conveyances/D/T/RELs on other lots (Sommerall, Forest Hill, Buckingham Terrace, Copperfield, David Harris League)."
+    },
+    "liens_hoa_lispendens": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal search)",
+      "retrieved_at": "2026-11-24",
+      "note": "No HOA lien or lis pendens on Lot 9 Blk 2 Laurynnbrook Park."
+    },
+    "child_support_liens": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names)",
+      "retrieved_at": "2026-11-24",
+      "note": "No AG child-support lien against J F HARRIS LLC or Harris Joseph F Jr."
+    },
+    "restrictions": {
+      "value": "Not located (subdivision-level restrictions for Laurynnbrook Park not found by lot-level search).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Verify restrictions; HCAD lot 7,320 sf, improved 2004."
+    },
+    "tdhca_status": {
+      "value": "No indication of a manufactured home: HCAD state class A1 (single-family real property), year improved 2004. TDHCA mhweb not queried (no mobile-home class on roll).",
+      "status": "inferred",
+      "source": "HCAD Real_acct_owner (intake.hcad_state_class); TDHCA mhweb not searched",
+      "retrieved_at": "2026-11-24",
+      "note": "If a mobile home sits on the lot, check mhweb by serial/owner and whether a real property election (Sec. 1201.2055 Occ. Code) was recorded; flag human."
+    },
+    "owner_deceased_heirs": {
+      "value": "Prior owner JOSEPH FOLWELL HARRIS JR is deceased (grantor shown as 'EST' on RP-2022-548455/53/54/56; he was alive 04/28/2021 per RP-2021-231503). No PROB/heirship affidavit or letters indexed under Harris Joseph F Jr / Joseph Folwell. J F Harris LLC took title from Jaime A Harris (Jaime Antonio) + the estate in 11/2022. Entity owner, not deceased.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names, RP-2022-548455, RP-2021-231503)",
+      "retrieved_at": "2026-11-24",
+      "note": "Chain risk: if other heirs existed who did not sign, the 2022 deed may be defective (possible later cloud/quiet title). Probate case search (hcdistrictclerk/county clerk probate) needs human."
+    },
+    "title_summary": {
+      "value": "Vesting RP-2022-548455 (11/14/2022) a J F HARRIS LLC = dueno HCAD, firmado por Jaime A Harris y el estado del fallecido Joseph Folwell Harris Jr. D/T 2008 (20080000542) con release probable (MERS 11/2020, sin imagen). Sin liens federales/HOA/ciudad. Riesgo: autoridad/herederos del estado.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (resumen de la busqueda profunda 2026-11-24)",
+      "retrieved_at": "2026-11-24"
     }
   },
   "legal": {
@@ -389,6 +461,11 @@
       "agent": "reviewer",
       "item": "Visita al sitio (ocupación/estado) y lectura de imágenes del Clerk del lote antes de pujar; attorney review recommended",
       "why": "requiere humano/abogado; la revisión barata no abre imágenes"
+    },
+    {
+      "agent": "title",
+      "item": "Verificar probate/heirship de Joseph Folwell Harris Jr (autoridad de Jaime A Harris para vender en RP-2022-548455) y imagenes de RELs RP-2020-532994/535658 vs D/T 20080000542",
+      "why": "probate/imagenes requieren login/compra"
     }
   ],
   "valuation": {

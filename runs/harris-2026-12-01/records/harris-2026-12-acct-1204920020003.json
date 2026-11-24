@@ -319,6 +319,79 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SUMACEL INC')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2023-356817, W/D filed 09/18/2023: Pena Ana M & Pena Thomas to SUMACEL INC. Legal WESTBOURNE Sec 3 Lot 3 Blk 2 = HCAD 'LT 3 BLK 2 WESTBOURNE SEC 3'. Same day RP-2023-356818 NOTICE (Pena Ana Maria, Pena Thomas, Sumacel Inc). Prior: U757365 W/D 11/30/2000 JMC Homes to Pena Ana M & Thomas.",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx RP-2023-356817",
+      "retrieved_at": "2026-11-24",
+      "note": "Record title matches taxed owner SUMACEL INC (HCAD mailing 14090 FM 249 Ste G-557 Tomball). The same-day NOTICE content unknown (could be a rescission/notice of sale, option or seller-finance disclosure); image needed."
+    },
+    "mortgages": {
+      "value": [
+        "RP-2019-340561 D/T 08/05/2019 (27 pgs): Pena to MERS/Quicken Loans. Probable release RP-2023-372752 REL filed 09/28/2023 (MERS/Quicken to Pena; 10 days after the sale to Sumacel) = likely paid off at sale (index only).",
+        "RP-2018-179015 D/T 04/26/2018 (Quicken) -> REL RP-2019-367525 08/21/2019 (carries the lot legal). RP-2016-261960 D/T 06/17/2016 (Quicken) -> REL RP-2018-196848 05/07/2018 (carries legal). 20130220494 D/T 05/08/2013 (Paramount Residential/MERS) -> REL RP-2016-303155 07/13/2016 (MERS/Paramount). X284124 D/T 12/24/2003 (Citicorp Trust Bank) -> REL 20130310271 06/24/2013 (Citibank). U757364 D/T 11/30/2000 (JMC Mtg Co/MERS) -> REL X331951 01/16/2004 (MERS) - all pairings by date/creditor, inferred.",
+        "No D/T by SUMACEL INC on the lot (searched legal + Sumacel names)."
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal search: WESTBOURNE Sec 3 Lot 3 Blk 2 incl. pre-2008 film-code; names SUMACEL, PENA THOMAS, PENA ANA M)",
+      "retrieved_at": "2026-11-24",
+      "note": "All releases index-only and matched by date/lender (no images) -> inferred. No open mortgage visible."
+    },
+    "liens_federal": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (SUMACEL; Pena)",
+      "retrieved_at": "2026-11-24",
+      "note": "No federal lien on Sumacel Inc. Older IRS RELs against 'Pena Thomas A / Rhonda' (R280979, R486646 in 1995) are a different Thomas A Pena and pre-date; not attributed."
+    },
+    "liens_city_county": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal + names)",
+      "retrieved_at": "2026-11-24",
+      "note": "No city/county lien or A/J recorded on the lot legal or against Sumacel. Pena-name A/Js (State of TX 1987/1992, UT 1997) are old and not tied to this lot."
+    },
+    "liens_hoa_lispendens": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal search)",
+      "retrieved_at": "2026-11-24",
+      "note": "No HOA lien or lis pendens on Lot 3 Blk 2. AFFT RP-2016-261961/2, RP-2018-179016/7, RP-2019-340563 are mortgage-related affidavits (grantor Pena)."
+    },
+    "child_support_liens": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "No AG LIEN against Sumacel Inc or on the lot legal."
+    },
+    "restrictions": {
+      "value": "Not located (subdivision-level declaration not found by lot-level search).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Need Westbourne Sec 3 restrictions/HOA; HCAD lot 4,400 sf."
+    },
+    "tdhca_status": {
+      "value": "No indication of a manufactured home: HCAD state class A1 (single-family real property), year improved 2000. TDHCA mhweb not queried (no mobile-home class on roll).",
+      "status": "inferred",
+      "source": "HCAD Real_acct_owner (intake.hcad_state_class); TDHCA mhweb not searched",
+      "retrieved_at": "2026-11-24",
+      "note": "If a mobile home sits on the lot, check mhweb by serial/owner and whether a real property election (Sec. 1201.2055 Occ. Code) was recorded; flag human."
+    },
+    "owner_deceased_heirs": {
+      "value": "Owner is an entity (SUMACEL INC); no deceased-owner issue. Prior owners Pena Ana M / Thomas sold 09/2023 (living at that time). SOS status of Sumacel Inc not checked.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Check SOS/Comptroller status of Sumacel Inc (also owns adjacent lot 4)."
+    },
+    "title_summary": {
+      "value": "Vesting RP-2023-356817 (09/18/2023) Pena a SUMACEL INC = dueno HCAD. D/T Quicken 2019 con release probable RP-2023-372752 (09/28/2023); demas D/T con releases pareados (indice). NOTICE misma fecha RP-2023-356818 sin leer. Sin liens federales/HOA/ciudad.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (resumen de la busqueda profunda 2026-11-24)",
+      "retrieved_at": "2026-11-24"
     }
   },
   "legal": {
@@ -404,6 +477,16 @@
       "agent": "reviewer",
       "item": "Visita al sitio (ocupación/estado) y lectura de imágenes del Clerk del lote antes de pujar; attorney review recommended",
       "why": "requiere humano/abogado; la revisión barata no abre imágenes"
+    },
+    {
+      "agent": "title",
+      "item": "Imagen de RP-2023-356818 (NOTICE Pena/Sumacel 09/18/2023) y de RP-2023-372752 (release Quicken)",
+      "why": "imagenes del Clerk requieren login/compra"
+    },
+    {
+      "agent": "title",
+      "item": "Verificar estado de Sumacel Inc en Texas SOS/Comptroller",
+      "why": "fuente fuera del Clerk"
     }
   ],
   "valuation": {

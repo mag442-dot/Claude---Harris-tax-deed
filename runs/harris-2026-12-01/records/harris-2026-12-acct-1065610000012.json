@@ -309,6 +309,81 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'STROHMANN HAROLD')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2020-105081, W/D filed 03/06/2020: Evans John Charles & Evans Mary Anne to Marquez Jesus Earnesto Melgar & Strohmann Harold Eric. Legal PINEHURST OF ATTASCOCITA Sec 2 Lot 12 Blk 12 matches HCAD 'LT 12 BLK 12 PINEHURST OF ATASCOCITA SEC 2'. Companion RP-2020-105083 (NOTICE) and AFFT RP-2020-105452 (03/09/2020).",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx RP-2020-105081",
+      "retrieved_at": "2026-11-24",
+      "note": "Index only (no images read; Clerk images need login/purchase). Names match HCAD owners (Harold E Strohmann / Jesus E Marquez, 50% each); legal matches."
+    },
+    "mortgages": {
+      "value": [
+        "RP-2020-105082 D/T filed 03/06/2020, 9 pgs: Marquez Jesus Earnesto Melgar & Strohmann Harold Eric to HUYNH DIEN (lender), Trustee Pham Khanh T. NO release, assignment or foreclosure found in index (searched Huynh Dien as grantor 130 hits and grantee, capped at 200 -> not exhaustive). Age ~6.7 yrs: presumed OPEN private/hard-money lien. Huynh Dien has other 2025 D/T/ASSGN (Atascocita Shores lot 19) = active lender.",
+        "Older, same lot, no release visible in index: U425515 D/T 06/05/2000 (Evans to PNC Mtg Corp Amer, 12 pgs); W836781 D/T 07/15/2003 (Evans to Countrywide/MERS, 16 pgs). Both ~23-26 yrs old; probably paid off at the 2020 sale (Evans sold) but releases not in index -> likely stale; confirm on images.",
+        "Pre-2020 chain (all released or superseded in index): K039118 D/T 1985 (Bob Hale Inc/First Fed S&L) REL K211133 09/19/1985; K198166 D/T 1985 (McArthur/Union Bank) REL K497666 04/17/1986; L858000 D/T 1988 (Maness/US Mtg) and N286471 D/T 1991 (Gust/Norwest) REL P808347 04/18/1994; P750437 D/T 1994 (Gust/Atlantic Fed) ASSGN P750438, S250691 D/T 1996 (Hyman/Home Tr Co) ASSGN S370507 - no explicit release in index (old, superseded by 2000 sale)."
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal search: Desc PINEHURST OF ATASCOCITA/ATTASCOCITA Sec 2 Lot 12 Blk 12, incl. pre-2008 film-code instruments; names STROHMANN, MARQUEZ JESUS E/EARNESTO, HUYNH DIEN)",
+      "retrieved_at": "2026-11-24",
+      "note": "Lien survival after the tax sale depends on whether Huynh Dien was joined/served in the tax suit (legal agent: cause 202228694 defendants list needs hcdistrictclerk login). Not concluded."
+    },
+    "liens_federal": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names STROHMANN, MARQUEZ JESUS E/EARNESTO MELGAR)",
+      "retrieved_at": "2026-11-24",
+      "note": "No federal/IRS lien (T/L, F/L, LIEN) found on either owner. Searched 'MARQUEZ JESUS E' (19 hits) - many different Jesus Marquez; only hits tied to this lot (RP-2020-105081/105083, RP-2026-273399) were attributed. 'STROHMANN' (6 hits) is a rare surname, only Harold Eric tied to the lot."
+    },
+    "liens_city_county": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal + name searches)",
+      "retrieved_at": "2026-11-24",
+      "note": "No city/county/state lien, A/J, or Harris County instrument found on the lot legal or on either owner. Note Marquez 'A/J' hits (2002 State of TX, 2010 Betco Scaffolds) are different Jesus Marquez (different middle/desc): not attributed."
+    },
+    "liens_hoa_lispendens": {
+      "value": [
+        "RP-2026-273399 NOTICE filed 07/08/2026 (2 pgs): Grantor ATASCOCITA COMMUNITY IMPROVEMENT ASSOCIATION -> Grantees Marquez Jesus Earnesto Melgar & Strohmann Harold Eric; legal Lot 12 Blk 12 Sec 2. Type is only 'NOTICE': probably HOA notice of delinquent assessments/lien (about 4.5 months old) but the content is NOT confirmed. No release in index. No lis pendens found on the lot legal."
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx RP-2026-273399",
+      "retrieved_at": "2026-11-24",
+      "note": "HOA assessment liens are generally junior to the tax lien, but confirm on the image whether it is a recorded assessment lien and the amount; a buyer may inherit HOA claims for post-sale assessments."
+    },
+    "child_support_liens": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names)",
+      "retrieved_at": "2026-11-24",
+      "note": "No Attorney General / child-support LIEN found against either owner."
+    },
+    "restrictions": {
+      "value": "Subdivision restrictions/declaration not located: index search by description gave only lot-level instruments. Lot lies in Pinehurst of Atascocita Sec 2, governed by Atascocita Community Improvement Association (ACIA) per RP-2026-273399.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Need declaration/restrictions (use, setbacks, duplex prohibition likely in single-family subdivisions) from ACIA / Clerk images. Critical for the duplex strategy."
+    },
+    "tdhca_status": {
+      "value": "No indication of a manufactured home: HCAD state class A1 (single-family real property), year improved 1985. TDHCA mhweb not queried (no mobile-home class on roll).",
+      "status": "inferred",
+      "source": "HCAD Real_acct_owner (intake.hcad_state_class); TDHCA mhweb not searched",
+      "retrieved_at": "2026-11-24",
+      "note": "If a mobile home sits on the lot, check mhweb by serial/owner and whether a real property election (Sec. 1201.2055 Occ. Code) was recorded; flag human."
+    },
+    "owner_deceased_heirs": {
+      "value": "No heirship affidavit, PROB, or estate (EST) indexed against Strohmann Harold Eric or Marquez Jesus Earnesto Melgar. Record title (Strohmann + Marquez, 2020 deed) matches the HCAD owners (50%/50%).",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name searches)",
+      "retrieved_at": "2026-11-24",
+      "note": "Absence in index does not prove they are living; PACER/probate not searched."
+    },
+    "title_summary": {
+      "value": "Vesting RP-2020-105081 (03/06/2020) a Strohmann/Marquez = HCAD owners. OPEN D/T RP-2020-105082 (03/06/2020) a Huynh Dien (prestamista privado), sin release en indice; NOTICE de HOA ACIA RP-2026-273399 (07/08/2026) sin leer. Sin liens federales/estatales. Restricciones no ubicadas. Sobrevivencia del D/T depende de si Huynh Dien fue demandado.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (resumen de la busqueda profunda 2026-11-24)",
+      "retrieved_at": "2026-11-24"
     }
   },
   "legal": {
@@ -394,6 +469,16 @@
       "agent": "reviewer",
       "item": "Verificar con abogado/Clerk con imagen los puntos de conditions_to_buy antes de pujar",
       "why": "el modo barato solo leyo el indice crudo; sin imagenes ni login"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen de RP-2026-273399 (NOTICE de Atascocita Community Improvement Association, 07/08/2026) para saber si es lien/cobro HOA y monto",
+      "why": "imagenes del Clerk requieren login/compra"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen de RP-2020-105082 (D/T a Huynh Dien) y confirmar con Huynh Dien/abogado si sigue abierto y si fue demandado en la ejecucion fiscal",
+      "why": "imagenes del Clerk requieren login/compra; la lista de demandados exige login"
     }
   ],
   "valuation": {

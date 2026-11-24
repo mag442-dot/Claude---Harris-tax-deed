@@ -312,6 +312,80 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'SUMACEL INC')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "20150040801, W/D filed 01/30/2015: Johnson Amy W, Johnson Eric D & Johnson Eric to SUMACEL INC. Legal WESTBOURNE Sec 3 Lot 4 Blk 2 = HCAD 'LT 4 BLK 2 WESTBOURNE SEC 3'. Companion 20150040802/20150040803 (NOTICE) and 20150040800 (AFFT, Johnson).",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx 20150040801",
+      "retrieved_at": "2026-11-24",
+      "note": "Index only (no images read; Clerk images need login/purchase). Record title matches taxed owner SUMACEL INC. Prior: 20100286873 W/D 07/07/2010 Fannie Mae to Johnson Eric; 20100141536 DEED 04/12/2010 (foreclosure) Herrera to Fannie Mae; Z049702 W/D 01/25/2006 Sommers to Herrera Nicolas; X778367 2004, V407751 2001, U567044 W/D 08/15/2000 JMC Homes to Cochener."
+    },
+    "mortgages": {
+      "value": [
+        "20100297172 D/T 07/13/2010 (23 pgs): Johnson Amy W & Eric D to M & T Funding, trustee Yardas Joe. No release found by legal or by Johnson names (searched Johnson Eric D 76 hits, Amy W 16) - unreleased in index. ~16.4 yrs old; likely paid at the 01/2015 sale but not proven.",
+        "20100325786 D/T 08/02/2010 (19 pgs): Johnson Eric to Interlinc Mortgage / MERS, trustee Robert J Adam. Probable release 20150465532 REL 10/12/2015 (MERS to Johnson Amy W & Eric D; no legal desc) or 20120384503 REL 08/22/2012 (MERS): unmatched without images.",
+        "No D/T by Sumacel Inc on the lot (Sumacel's own 2017 D/T 20170233571 is on Westbourne Sec 1 Lot 30, a different lot).",
+        "Earlier chain: U567045 D/T 2000 Cochener/World Sav Bank; 2004 deed to Cochener; L/P 2002 (V661738, V811196); 20100022037 ASSGN Chase 2010; 20100141536 foreclosure deed to Fannie Mae. Pre-2010 liens superseded by the foreclosure."
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal search: WESTBOURNE Sec 3 Lot 4 Blk 2 incl. pre-2008; names SUMACEL, JOHNSON ERIC D / AMY W)",
+      "retrieved_at": "2026-11-24",
+      "note": "Releases/mapping index-only. Lienholder survival depends on whether M&T Funding / Interlinc were joined in the tax suit (legal agent)."
+    },
+    "liens_federal": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names SUMACEL, Johnson)",
+      "retrieved_at": "2026-11-24",
+      "note": "No IRS/federal lien on SUMACEL INC (9 grantor / 6 grantee hits, all conveyances/notices). Only IRS item in Johnson results: 20080169911 REL 04/07/2008 (IRS to Johnson Eric D) - different person/era, pre-dates Sumacel's title, not attributed."
+    },
+    "liens_city_county": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal + names)",
+      "retrieved_at": "2026-11-24",
+      "note": "No city/county/state lien, A/J or tax lien instrument recorded under the lot legal after 01/30/2015 or against SUMACEL INC. Johnson Eric D A/J (Harris County 2011, Leasecomm 2005, Shell FCU 2023) are a common name and pre/post-date Johnson's ownership: not attributed to this lot."
+    },
+    "liens_hoa_lispendens": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal search)",
+      "retrieved_at": "2026-11-24",
+      "note": "No HOA lien, notice of assessments or lis pendens indexed on Lot 4 Blk 2 after 2015. Johnson-name LIEN hits (Clearview Village, Townhouse Manor) are other properties. Subdivision HOA existence not confirmed."
+    },
+    "child_support_liens": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names)",
+      "retrieved_at": "2026-11-24",
+      "note": "No AG child-support lien against SUMACEL INC (entity). Johnson Eric D AG liens (2006, 2010) are 'Eric Demond/others' on other cases, pre-dates; not attributed."
+    },
+    "restrictions": {
+      "value": "Not located (subdivision-level declaration for Westbourne Sec 3 not found by lot-level search). Note 20150040802/03 NOTICEs recorded with the 2015 deed.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Need Westbourne restrictions/HOA from Clerk; minimum lot 4,400 sf (HCAD) is small: check duplex feasibility."
+    },
+    "tdhca_status": {
+      "value": "No indication of a manufactured home: HCAD state class A1 (single-family real property), year improved 1999. TDHCA mhweb not queried (no mobile-home class on roll).",
+      "status": "inferred",
+      "source": "HCAD Real_acct_owner (intake.hcad_state_class); TDHCA mhweb not searched",
+      "retrieved_at": "2026-11-24",
+      "note": "If a mobile home sits on the lot, check mhweb by serial/owner and whether a real property election (Sec. 1201.2055 Occ. Code) was recorded; flag human."
+    },
+    "owner_deceased_heirs": {
+      "value": "Owner is an entity (SUMACEL INC); no deceased-owner issue. No dissolution/forfeiture checked (SOS not searched). Sumacel Inc also owns the adjacent lot 3 (acct 1204920020003).",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Check Texas SOS/Comptroller status of Sumacel Inc: forfeited corporation affects service/redemption."
+    },
+    "title_summary": {
+      "value": "Vesting 20150040801 (01/30/2015) a SUMACEL INC = dueno HCAD. D/T 2010 de M&T Funding (20100297172) sin release en indice (~16 anos, probablemente pagado en la venta de 2015, no probado); D/T Interlinc/MERS 20100325786 con release probable. Sin liens federales/HOA/ciudad.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (resumen de la busqueda profunda 2026-11-24)",
+      "retrieved_at": "2026-11-24"
     }
   },
   "legal": {
@@ -397,6 +471,16 @@
       "agent": "reviewer",
       "item": "Verificar con abogado/Clerk con imagen los puntos de conditions_to_buy antes de pujar",
       "why": "el modo barato solo leyo el indice crudo; sin imagenes ni login"
+    },
+    {
+      "agent": "title",
+      "item": "Imagenes de D/T 20100297172 (M&T Funding) y 20100325786 (Interlinc/MERS) y releases 20150465532/20120384503 para saber si quedan abiertos",
+      "why": "imagenes del Clerk requieren login/compra"
+    },
+    {
+      "agent": "title",
+      "item": "Verificar estado de Sumacel Inc en Texas SOS/Comptroller",
+      "why": "fuente fuera del Clerk"
     }
   ],
   "valuation": {

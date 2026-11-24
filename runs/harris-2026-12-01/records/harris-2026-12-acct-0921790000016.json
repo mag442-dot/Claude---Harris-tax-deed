@@ -345,6 +345,86 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MOORE DIANE')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "LAST RECORDED CONVEYANCE: S635796 DEED filed 09/12/1997 (5 pgs): Bosse Fred M, Trustee (foreclosure of L032663 D/T) to GUILLORY WANDA DIANE ETAL & MOORE JIMMY D ETAL. Legal SHELDON WOODS Sec 1 Lot 16 Blk 3 = HCAD 'LT 16 BLK 3 SHELDON WOODS SEC 1'. No deed, probate or conveyance indexed on this legal from 1997 to 11/2026. Earlier: K872433 W/D 12/10/1986 Farber to Guillory/Moore; L032662 W/D 03/23/1987 Guillory/Moore to Craig Charles R.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx S635796",
+      "retrieved_at": "2026-11-24",
+      "note": "HCAD owner 'MOORE DIANE' (mailing 4400 Sherri Ln, Crosby) is presumably Wanda Diane (Guillory) Moore, but this is NOT confirmed: record title is in TWO grantees (Wanda Diane Guillory/Moore + Jimmy D Moore). Jimmy D Moore's half interest (living? divorced? estate?) is unaccounted for. Title match to taxed owner = partial/unknown."
+    },
+    "mortgages": {
+      "value": [
+        "No D/T of record after 1997. Last: L032663 D/T 03/23/1987 Craig Charles R to Guillory/Moore (vendor lien) - foreclosed by trustee deed S635796 (1997). 1984 D/T J684197 (Farber to Guillory/Moore, 6 pgs) and G901080 D/T 1981 (Guillory/Moore to Johnny Louis Guillory, REL J688966 09/10/1984).",
+        "Very old, no release in index: D808087 D/T 02/19/1973 (Guillory to Ryan Mtg Co; ASSGN D898250 to Seamens Bank for Sav 1973); 1960s FHA chain (B755065, B996650, C896951; RELs C917715 1969 etc.). All 40-60 yrs old; presumed barred/superseded but not verified."
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal search: SHELDON WOODS Sec 1 Lot 16 Blk 3 incl. 1963-2007 film-code instruments; names MOORE DIANE, GUILLORY WANDA, MOORE JIMMY D)",
+      "retrieved_at": "2026-11-24",
+      "note": "Index only. Property appears unencumbered by a current mortgage of record (no D/T since 1987)."
+    },
+    "liens_federal": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names MOORE DIANE, GUILLORY WANDA, MOORE JIMMY D)",
+      "retrieved_at": "2026-11-24",
+      "note": "No IRS/federal tax lien found on Guillory Wanda Diane / Moore Jimmy D / Moore Diane variants within results that can be tied to this owner. 'MOORE DIANE' search (19 grantee/21 grantor) is a very common name."
+    },
+    "liens_city_county": {
+      "value": [
+        "RP-2021-195690 A/J filed 04/13/2021: Portfolio Recovery Associates LLC vs 'MOORE DIANE' (creditor judgment; ~5.6 yrs; judgment liens last 10 yrs if renewed/abstract recorded) - no release seen.",
+        "Mentioned in the names search but NOT linked: RP-2021-263538 NOTICE (Mahabir Mario / Moore Diane, Stablewood Farms Sec 1 Lot 12 Blk 2) and RP-2024-274616 (Ella Crossing) - different properties."
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx RP-2021-195690",
+      "retrieved_at": "2026-11-24",
+      "note": "SAME-NAME RISK: instrument has no middle name, address or legal; cannot be attributed to the HCAD owner. At least five different Diane Moore are in the index (Diane L, Diane K, Diane B, Diane Elizabeth, Diane Grace). Confirm from the hcdistrictclerk judgment (login) or image."
+    },
+    "liens_hoa_lispendens": {
+      "value": [
+        "W539513 NOTICE 03/31/2003 (Martinez Rosa B / Pacheco Juan Carlos) carries 'SHELDON WOODS Lot 16 Block 3' (no section) but its companion instruments W539511/W539514/W539512 describe SHELDON WOODS Sec 3 Lot 16 Block 8 -> likely a mis-indexed legal; not a cloud on Sec 1 Lot 16 Blk 3 (inferred)."
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx W539513, W539511, W539514",
+      "retrieved_at": "2026-11-24",
+      "note": "No HOA lien or lis pendens on the correct legal. Need image to confirm W539513 is Sec 3 Blk 8."
+    },
+    "child_support_liens": {
+      "value": [
+        "RP-2026-89033 LIEN filed 03/10/2026 (4 pgs): Attorney General Office -> debtor 'MOORE DIANE GRACE', obligee Olvera Alexander Jose. ~8.5 months old, no release.",
+        "RP-2016-122965 LIEN filed 03/28/2016: Attorney General of Texas, debtor 'MOORE DIANE', obligee Miniel Johnny. No release seen (the 2016 lien is 10+ yrs old)."
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx RP-2026-89033, RP-2016-122965",
+      "retrieved_at": "2026-11-24",
+      "note": "SAME-NAME RISK: middle name 'Grace' in 2026 lien; HCAD owner 'Moore Diane' and the record grantee 'Wanda Diane' do NOT match 'Diane Grace'. NOT attributed; 2016 lien has no middle name. If attributable, child-support liens attach to the obligor's Texas real property; their survival after a tax sale depends on the lienholder being joined."
+    },
+    "restrictions": {
+      "value": "Not located. Subdivision Sheldon Woods Sec 1 (1963 plat); no declaration found by lot-level search. Easement EASMT H187110 (10/16/1981) Guillory Wanda D to Cable TV Harris County is recorded on the lot.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx H187110",
+      "retrieved_at": "2026-11-24",
+      "note": "Verify deed restrictions/civic club (duplex prohibition) and the cable easement location."
+    },
+    "tdhca_status": {
+      "value": "No indication of a manufactured home: HCAD state class A1 (single-family real property), year improved 1963. TDHCA mhweb not queried (no mobile-home class on roll).",
+      "status": "inferred",
+      "source": "HCAD Real_acct_owner (intake.hcad_state_class); TDHCA mhweb not searched",
+      "retrieved_at": "2026-11-24",
+      "note": "If a mobile home sits on the lot, check mhweb by serial/owner and whether a real property election (Sec. 1201.2055 Occ. Code) was recorded; flag human."
+    },
+    "owner_deceased_heirs": {
+      "value": "Possible heirship problem: record title is held by 'Guillory Wanda Diane et al' and 'Moore Jimmy D et al' since 1997 with no later conveyance, while HCAD shows only 'MOORE DIANE'. No heirship affidavit/PROB on this legal. Unrelated hits: RP-2026-204060 AFFT 05/26/2026 'Moore Diane Marie EST' (different person) and RP-2025-1264 PROB (Dzienius estate, heir 'Moore Diane').",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Cannot confirm who Diane Moore is or whether Jimmy D Moore is alive. Flag for legal/heirship review."
+    },
+    "title_summary": {
+      "value": "Ultimo traspaso indexado: S635796 (09/12/1997) a Wanda Diane Guillory y Jimmy D Moore; nada despues. HCAD dice 'MOORE DIANE': coincidencia no confirmada y posible heredero/co-dueno (Jimmy D Moore). Sin D/T desde 1987. LIEN AG 2026 'Diane Grace' y A/J 2021 no atribuibles (nombre comun). Riesgo de titulo ALTO por identidad/herencia.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (resumen de la busqueda profunda 2026-11-24)",
+      "retrieved_at": "2026-11-24"
     }
   },
   "legal": {
@@ -430,6 +510,16 @@
       "agent": "reviewer",
       "item": "Verificar con abogado/Clerk con imagen los puntos de conditions_to_buy antes de pujar",
       "why": "el modo barato solo leyo el indice crudo; sin imagenes ni login"
+    },
+    {
+      "agent": "title",
+      "item": "Identidad del dueno: imagen de S635796 (vesting 1997 a Wanda Diane Guillory/Jimmy D Moore) y averiguar si Diane Moore (HCAD) es Wanda Diane y estado de Jimmy D Moore (heredero/probate)",
+      "why": "imagenes del Clerk requieren login; probate/hcdistrictclerk requiere login"
+    },
+    {
+      "agent": "title",
+      "item": "Confirmar que el LIEN AG RP-2026-89033 ('Moore Diane Grace') y A/J RP-2021-195690 NO son de la duena",
+      "why": "apellido comun; sin imagen"
     }
   ],
   "valuation": {

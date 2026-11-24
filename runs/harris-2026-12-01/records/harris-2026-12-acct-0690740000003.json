@@ -436,6 +436,86 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HERNANDEZ RAQUEL')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2017-35948, W/D filed 01/26/2017: Benavidez Maria S & Monrreal Maria to HERNANDEZ RAQUEL. Index legal 'MCLEAN ADDITION Sec 2 Lot 3 Block 7' vs HCAD 'LT 3 MCLEAN SEC 2' (no block on HCAD). Prior chain: 20070218621 W/D 04/11/2007 SWE Homes to Benavidez Maria S (MCLEAN Sec 2 Lot 3).",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx RP-2017-35948",
+      "retrieved_at": "2026-11-24",
+      "note": "Same lot/sec and grantor chain continuous (Benavidez is grantee 2007 and grantor 2017) but the 'Block 7' vs no-block difference and grantee without middle name mean the match to 705 Munger St needs the deed image/address. Common name: Raquel Hernandez."
+    },
+    "mortgages": {
+      "value": [
+        "No D/T by Hernandez Raquel found under the McLean Sec 2 Lot 3 legal after the 01/26/2017 deed (legal search returned 0 post-2017 mortgage instruments) -> property appears free of purchase-money D/T of record (possible cash purchase).",
+        "20070218620 D/T 04/11/2007 (Benavidez to SWE Homes LP, 5 pgs, trustee Wizig) - REL RP-2021-607096 filed 10/21/2021 (SWE Homes GP/LP to Benavidez, 'Related Docs') = probable release (index only).",
+        "Earlier chain, all superseded: V060753 D/T 2001 Ochoa to Indymac -> TRSALE W066630/W150210 (2002) -> DEED W218000 to Freddie Mac -> W407852 to SWE Homes 2003; W921490 D/T 08/12/2003 Hernandez Jose L & Miosotis to SWE Homes -> DEED 20070218619 (trustee Wizig to SWE Homes 04/11/2007) = foreclosure; C270916 REL 1966 (Freeman)."
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal search: Desc MCLEAN Sec 2 Lot 3 / MCLEAN ADDITION; names HERNANDEZ RAQUEL, HERNANDEZ RAQUEL M)",
+      "retrieved_at": "2026-11-24",
+      "note": "Index only (no images read; Clerk images need login/purchase). Releases inferred from index only."
+    },
+    "liens_federal": {
+      "value": [
+        "RP-2017-345532 T/L filed 08/01/2017 (2 pgs, 'Related Docs'): Grantor HERNANDEZ RAQUEL M -> Grantee INTERNAL REVENUE SERVICE (federal tax lien, ~9.3 yrs old). Probable release: RP-2019-83091 REL filed 03/01/2019 (IRS to Hernandez Raquel M).",
+        "IDENTITY NOT CONFIRMED: debtor is 'Raquel M' (middle initial M; other Raquel M Hernandez records tie to Skylark Terrace lot 5, Shell FCU); no address/legal on the instruments. HCAD owner and vesting-deed grantee are 'Raquel Hernandez' without middle name. Not attributed to this property."
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx RP-2017-345532, RP-2019-83091",
+      "retrieved_at": "2026-11-24",
+      "note": "Release is index-only (no image) -> inferred. Even if the same person, NFTL filed 2017 and apparently released 2019; civil 10-yr collection period (26 USC 6502) could otherwise run to ~2027 but cannot be concluded expired. Confirm identity (middle name/address) and release image before bidding."
+    },
+    "liens_city_county": {
+      "value": [
+        "Possible A/J (abstract of judgment) hits against 'Hernandez Raquel' variants: RP-2019-273309 06/26/2019 Portfolio Recovery Associates; RP-2018-481780 10/22/2018 Scil Texas/Speedy Cash; RP-2023-244777 06/30/2023 Citibank vs Raquel H; RP-2021-622836 10/28/2021 Shell FCU vs Raquel M; RP-2021-522646 09/13/2021 HARRIS COUNTY vs Raquel Guadalupe; RP-2016-379562 08/25/2016 Investment Retrievers vs Maria R Rojas/Raquel Hernandez/Raquel Rojas. 10-yr judgment liens attach to real property of the debtor in the county only if same person."
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search 'HERNANDEZ RAQUEL' 60 grantee / 61 grantor rows; 'HERNANDEZ RAQUEL M' 16/23; below the 200 cap)",
+      "retrieved_at": "2026-11-24",
+      "note": "SAME-NAME RISK: very common name; none of these instruments carries the McLean legal, an address or a middle name matching the vesting deed. NOT attributed to the owner. Note the 2025 A/J-style hits and multiple properties (Westfield Estates, Sherwood Place, Santa Rosa, Windfern) show several Raquel Hernandez in the county."
+    },
+    "liens_hoa_lispendens": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal search McLean Sec 2 Lot 3)",
+      "retrieved_at": "2026-11-24",
+      "note": "No HOA lien or lis pendens recorded on the McLean Sec 2 Lot 3 legal. (Lot-level search only; HOA presence in an old Pasadena subdivision unlikely.)"
+    },
+    "child_support_liens": {
+      "value": [
+        "RP-2016-356348 LIEN 08/12/2016 Attorney General of Texas / Sifuentes Luz vs HERNANDEZ RAQUEL GUADALUPE; RP-2019-488847 LIEN 11/04/2019 Attorney General / Mejia Saturnino vs HERNANDEZ RAQUEL ESCANDON. Both name different middle names; no release seen."
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx RP-2016-356348, RP-2019-488847",
+      "retrieved_at": "2026-11-24",
+      "note": "Different middle names (Guadalupe, Escandon) vs HCAD 'Raquel' (no middle). Not attributed; identity unconfirmed. Child-support liens attach to the obligor's real property in the county: confirm middle name from the vesting-deed image."
+    },
+    "restrictions": {
+      "value": "Not located. Index search for recorded restrictions/deed restrictions for MCLEAN Sec 2 found none. Likely an older Pasadena subdivision (improved 1944) with no HOA.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Verify subdivision plat restrictions with City of Pasadena/Clerk."
+    },
+    "tdhca_status": {
+      "value": "No indication of a manufactured home: HCAD state class A1 (single-family real property), year improved 1944. TDHCA mhweb not queried (no mobile-home class on roll).",
+      "status": "inferred",
+      "source": "HCAD Real_acct_owner (intake.hcad_state_class); TDHCA mhweb not searched",
+      "retrieved_at": "2026-11-24",
+      "note": "If a mobile home sits on the lot, check mhweb by serial/owner and whether a real property election (Sec. 1201.2055 Occ. Code) was recorded; flag human."
+    },
+    "owner_deceased_heirs": {
+      "value": "No heirship affidavit or estate against Hernandez Raquel on this lot. RP-2026-436762 DISCLM 10/29/2026 (Hernandez Raquel, Westfield Estates Lot 163 Blk 5) and RP-2026-433647 W/D 10/27/2026 (Hernandez Angel & Raquel to Mount North Texas LLC, Logan Subdivision lot 21) show a Raquel Hernandez active in Oct 2026 but not tied to this lot.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Not confirmed living; common name."
+    },
+    "title_summary": {
+      "value": "Vesting RP-2017-35948 (01/26/2017) a Raquel Hernandez (legal Block 7 vs HCAD sin block: confirmar). Sin D/T posterior a 2017. T/L IRS RP-2017-345532 contra 'Raquel M' (release RP-2019-83091 indice) NO atribuido (nombre comun, 2o inicial). Lien AG y A/J de otros 'Raquel Hernandez' no atribuidos.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (resumen de la busqueda profunda 2026-11-24)",
+      "retrieved_at": "2026-11-24"
     }
   },
   "legal": {
@@ -521,6 +601,11 @@
       "agent": "reviewer",
       "item": "Verificar con abogado/Clerk con imagen los puntos de conditions_to_buy antes de pujar",
       "why": "el modo barato solo leyo el indice crudo; sin imagenes ni login"
+    },
+    {
+      "agent": "title",
+      "item": "Confirmar identidad: imagen de RP-2017-35948 (direccion/ lote Block 7 vs HCAD) y de RP-2017-345532 (IRS T/L 'Raquel M') y RP-2019-83091 (release)",
+      "why": "imagenes del Clerk requieren login/compra; apellido comun"
     }
   ],
   "valuation": {
