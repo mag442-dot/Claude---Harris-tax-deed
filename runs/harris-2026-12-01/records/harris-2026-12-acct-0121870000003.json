@@ -601,14 +601,14 @@
       "why": "requiere login/cuenta"
     },
     {
-      "agent": "reviewer",
-      "item": "Revisar con abogado/titulo antes de pujar: Confirmar con estado de cuenta que la apertura final cubre costos y que el cierre previsto no pasa de $20,317",
-      "why": "requiere imagen del Clerk, login o criterio de abogado (modo barato: sin busquedas nuevas)"
-    },
-    {
       "agent": "title",
       "item": "Confirmar escritura de Brown Walker Jr (1988) y ausencia de gravamenes con abstractor; indice de nombre/legal vacio",
       "why": "requiere imagen del Clerk (el indice RP publico no muestra el documento sin cuenta/pago)"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Attorney review recommended antes de pujar: demandados/citacion/bancarrota (login Clerk/PACER) y lectura de imagenes del Clerk segun conditions_to_buy",
+      "why": "legal bloqueado; revision profunda sin busquedas nuevas"
     }
   ],
   "valuation": {
@@ -696,18 +696,24 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Lote vacio C1 de 6,750 sf (~50x135 ft) en Houston, zona X, valor HCAD $32,906, apertura $8,430 y cola de impuestos de solo $1,398. Hechos decisivos: (1) sin filas del Clerk bajo el nombre (no es prueba de limpieza, solo indice) y (2) techo teorico $20,317 con $4,000 de quiet title que pesa 18% del costo, por lo que el margen depende de que el cierre se quede cerca de la apertura. Legal bloqueado; no COMPRA FUERTE. Attorney review recommended.",
+    "rationale": "COMPRA FUERTE no esta permitido porque legal esta bloqueado (demandados, citacion y bancarrota requieren login del District Clerk/PACER). Lote vacio de 6,750 sf (~50x135) en Houston, zona X, apertura $8,430 contra HCAD $32,906 y cola de impuestos de $1,398; sin descartes automaticos. Hechos decisivos: (1) 0 filas del Clerk por legal (Lt 3 Blk 14 East Houston) y por nombre: sin hipoteca, lien, L/P ni HOA, pero tambien sin escritura indexada (dueno desde 1988); (2) el techo teorico $20,317 contra cierre esperado $16,683 deja holgura, aunque el quiet title de $4,000 pesa mucho. Se mantiene CONDICIONAL; es la ficha con mejor limpieza de indice del grupo, no un COMPRA FUERTE. Attorney review recommended; no es asesoria legal.",
     "bid_ceiling": 20317.11,
     "all_in_cost_estimate": 22582.02,
     "contradictions": [
-      "Apertura $8,430 mayor que el total adeudado $6,699 (+26%): componentes no identificados",
-      "all_in_cost_estimate $22,582 es mayor que bid_ceiling $20,317 (bases distintas: techo es solo la puja, el estimado es costo total al cierre esperado; aritmetica consistente, pero facil de malinterpretar)"
+      "tax: taxes_in_judgment lista 2004-2024 (21 anos) pero delinquent_by_year solo trae 2006-2025 (20 filas, incluye 2025 post-judgment): 2004 y 2005 no tienen saldo; no esta claro si fueron pagados/ajustados o si el rango de sentencia esta mal. Si hay saldo en esos anos la apertura/costas cambian.",
+      "total_due_all_years ($6,698.55) y post_judgment ($813.61) son identicos al centavo a los de 0121840000011 (Wedgefield), aunque los rangos de sentencia difieren (2004 vs 2002): coincide solo si ambos lotes tienen el mismo valor HCAD, pero conviene reconfirmar en hctax cada cuenta.",
+      "title_summary 'indice limpio' contradice la nota de que no hay escritura indexada y vesting desconocido: la 'limpieza' es ausencia de datos (valuation lo trata como NO CUANTIFICADO).",
+      "Dueno 'Brown Walker Jr' desde 1988 con direccion en Houston: probable edad avanzada o fallecimiento; sin AFFT/herederos en indice. Si fallecido, la sentencia pudo dirigirse a un demandado muerto (riesgo de citacion).",
+      "Apertura $8,430 vs total adeudado $6,699 (+$1,731 costas no desglosadas) y cola del comprador $1,398 (inferred: $813.61 post-judgment + $584.57 2026 estimado): confirmar si la apertura ya incluye post-judgment.",
+      "Lote HCAD 6,750 sf vs GIS 6,713 (-0.5%): consistente. Dúplex en 50 ft de frente dentro de Houston: no evaluado (setbacks, restricciones, lote minimo)."
     ],
     "conditions_to_buy": [
-      "Confirmar con estado de cuenta que la apertura final cubre costos y que el cierre previsto no pasa de $20,317",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
-      "Pedir estado de cuenta actualizado de impuestos (hctax) justo antes de pujar; confirmar apertura final el 2026-12-01",
-      "Leer en el Clerk, con imagen, cualquier LIEN/A/J/L/P que coincida con la descripcion legal HCAD (solo hay indice por nombre)"
+      "Miguel (login): leer demandados y citacion del cause 202249482 en hcdistrictclerk.com; confirmar si Brown Walker Jr fue citado personalmente o por publicacion y si estaba vivo; attorney review recommended",
+      "PACER: bancarrota de Brown Walker Jr (cuidado con homonimos Jr/Sr)",
+      "Abstractor: confirmar escritura vigente (dueno 1988) y ausencia de City/IRS/HOA liens por imagen del Clerk para Lt 3 Blk 14 East Houston",
+      "Aclarar en hctax por que 2004-2005 estan en el juicio sin saldo y que incluye exactamente la apertura de $8,430",
+      "Revisar restricciones de deed y reglas de lote minimo/setbacks de Houston para dúplex en lote de ~50 ft",
+      "Visita al sitio: ocupacion, acceso, servicios; no superar el techo $20,317 menos cualquier lien/costo hallado"
     ]
   }
 }

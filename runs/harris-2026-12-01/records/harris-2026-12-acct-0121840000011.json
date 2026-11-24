@@ -616,6 +616,11 @@
       "agent": "title",
       "item": "Confirmar escritura vigente (dueno Taylor Bud desde 1988) y ausencia de gravamenes con abstractor",
       "why": "requiere imagen del Clerk (el indice RP publico no muestra el documento sin cuenta/pago)"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Attorney review recommended antes de pujar: demandados/citacion/bancarrota (login Clerk/PACER) y lectura de imagenes del Clerk segun conditions_to_buy",
+      "why": "legal bloqueado; revision profunda sin busquedas nuevas"
     }
   ],
   "valuation": {
@@ -703,19 +708,24 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Lote C1 de 6,750 sf (East Houston, City of Houston), FEMA X, HCAD $32,906, buen tamano para un lote de dúplex. Hechos decisivos: duena ausente (Carmichael, CA) con sentencia 2002-2024, lo que sube el riesgo de citacion por publicacion (TRCP 329 hasta 2027-09-12) y legal esta bloqueado; apertura $9,402 supera el total adeudado $6,699 (incluye costas). Techo $20,317 cubre cierre esperado $16,683 pero el costo total $22,582 ya excede el techo. Attorney review recommended.",
+    "rationale": "COMPRA FUERTE no esta permitido porque legal esta bloqueado (demandados, citacion y bancarrota requieren login del District Clerk/PACER). Lote vacio de 6,750 sf (East Houston, City of Houston), zona X, apertura $9,402 contra HCAD $32,906, cola de impuestos de $1,398; sin descartes automaticos. Hechos decisivos: (1) el dueno HCAD tiene direccion postal en Carmichael, CA, y el juicio abarca 2002-2024, lo que exige confirmar el metodo de citacion (TRCP 329 sigue abierta hasta 2027-09-12 si fue por publicacion); (2) el indice no tiene filas propias del predio y las 4 de 'Taylor Buddy' (Alden Woods 2016) son de otro inmueble con identidad no confirmada. Se mantiene CONDICIONAL; techo $20,317 cubre el cierre esperado $16,683. Attorney review recommended; no es asesoria legal.",
     "bid_ceiling": 20317.11,
     "all_in_cost_estimate": 22582.02,
     "contradictions": [
-      "Apertura $9,402 > total adeudado $6,699: incluye costas/honorarios no desglosados.",
-      "all_in_cost_at_expected_close $22,582 > bid_ceiling $20,317: el techo solo funciona si el cierre real es menor que el esperado (cierre por ratio $16,683 vs por prima $10,229).",
-      "Dueno 'TAYLOR BUD' ausente en CA, desde 01/02/1988 (fecha por defecto HCAD); filas del Clerk (ALDEN WOODS) no son del predio (EAST HOUSTON): liens del predio sin verificar."
+      "tax: taxes_in_judgment 2002-2024 pero delinquent_by_year solo desde 2006: 2002-2005 sin saldo (pagados o rango erroneo); mismos totales exactos que 0121870000003 ($6,698.55 / $813.61) pese a rango distinto.",
+      "legal_summary infiere 'mayor probabilidad de publicacion' por el domicilio en California, pero HCAD si tiene una direccion postal completa (6350 Madison Ave Apt 9): con direccion conocida la citacion personal/certificada es posible; ambas cosas siguen sin verificar.",
+      "title: filas RP-2016-324301/2/3 a nombre 'Taylor Buddy' (Alden Woods Lot 14 Blk 3, D/T a MERS/Taylor Morrison) descartadas como ruido, pero la identidad con 'Taylor Bud' (dueno 1988, CA) no esta descartada: si es la misma persona, la D/T no es de este lote y no afecta, pero tampoco acredita domicilio.",
+      "title_summary 'sin gravamen visible' vs 0 filas del predio y vesting desconocido: ausencia de datos, no limpieza; valuation lo trata como NO CUANTIFICADO.",
+      "Comparacion mal planteada en la revision anterior: 'costo total $22,582 excede el techo $20,317' mezcla costo total con puja maxima; el techo es la puja maxima (puja + cola + quiet title + cierre = ~$26,300 a ese techo, igual al valor/1.25). No hay contradiccion en valuation.",
+      "Apertura $9,402 vs total adeudado $6,699 (+$2,703 de costas no desglosadas, la mayor del grupo): confirmar composicion."
     ],
     "conditions_to_buy": [
-      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com/PACER (login: Miguel); attorney review recommended",
-      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar apertura final el dia de la venta (2026-12-01)",
-      "Busqueda del Clerk por legal EAST HOUSTON Lt 11 Blk 11",
-      "Confirmar si el demandado fue citado por publicacion"
+      "Miguel (login): leer demandados y citacion del cause 202276175 en hcdistrictclerk.com; confirmar citacion personal/certificada a Carmichael CA vs publicacion y fecha de la sentencia (09/12/2025); attorney review recommended",
+      "PACER: bancarrota de Taylor Bud / Buddy Taylor",
+      "Abstractor: confirmar escritura vigente (1988) de Lt 11 Blk 11 East Houston y ausencia de liens; aclarar si 'Taylor Buddy' de Alden Woods es la misma persona",
+      "Aclarar en hctax anos 2002-2005 y la composicion de la apertura $9,402 (costas $2,703)",
+      "Revisar restricciones y reglas de Houston (lote ~50x134 ft) para dúplex",
+      "Visita al sitio: ocupacion, acceso, servicios; no superar el techo $20,317 menos cualquier lien/costo hallado"
     ]
   }
 }

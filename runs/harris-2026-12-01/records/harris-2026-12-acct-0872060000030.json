@@ -501,14 +501,14 @@
       "why": "requiere login/cuenta"
     },
     {
-      "agent": "reviewer",
-      "item": "Revisar con abogado/titulo antes de pujar: Leer la imagen del AFFT RP-2021-443408 (afidavit de herederos?) y confirmar que la sucesion/herederos fueron demandados",
-      "why": "requiere imagen del Clerk, login o criterio de abogado (modo barato: sin busquedas nuevas)"
-    },
-    {
       "agent": "title",
       "item": "Leer imagen de AFFT RP-2021-443408 (herederos/fallecimiento) y REL City RP-2019-429045 para confirmar herederos y que no queda lien de ciudad",
       "why": "requiere imagen del Clerk (el indice RP publico no muestra el documento sin cuenta/pago)"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Attorney review recommended antes de pujar: demandados/citacion/bancarrota (login Clerk/PACER) y lectura de imagenes del Clerk segun conditions_to_buy",
+      "why": "legal bloqueado; revision profunda sin busquedas nuevas"
     }
   ],
   "valuation": {
@@ -596,18 +596,26 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Lote vacio C1 de ~8,142 sf en Houston, zona X, valor HCAD $52,997, apertura $10,822, sentencia 10/21/2024 y ventana TRCP 329 ya cerrada (2026-10-21), lo que reduce el riesgo de citacion por publicacion. Hechos decisivos: (1) el dueno HCAD es la sucesion de Nell Rose Keith (fallecida) y hay un AFFT 2021 (RP-2021-443408) sobre este lote: hay que saber si los herederos fueron demandados; (2) el cierre esperado deja casi sin holgura frente al techo ($34,481 de costo vs techo $34,555). Legal bloqueado; attorney review recommended.",
+    "rationale": "COMPRA FUERTE no esta permitido porque legal esta bloqueado (demandados, citacion y bancarrota requieren login del District Clerk/PACER). Lote vacio de 8,142 sf en Houston, zona X, apertura $10,822 contra HCAD $52,997, techo $34,555 contra cierre esperado $26,869 (holgura de ~$7,700); sin descartes automaticos. Hechos decisivos: (1) el dueno HCAD es 'Estate of Keith Nell Rose' y solo hay un AFFT 2021 (RP-2021-443408) sin escritura ni sucesion: hay que verificar si los herederos desconocidos fueron demandados/citados antes de la sentencia de 10/21/2024; (2) el unico lien de City visto (RP-2019-429045) es una liberacion, y la ventana TRCP 329 calculada ya cerro el 2026-10-21, lo que reduce pero no elimina el riesgo. Se mantiene CONDICIONAL; el quiet title de $4,000 puede quedarse corto si hay heirship. Attorney review recommended; no es asesoria legal.",
     "bid_ceiling": 34555.44,
     "all_in_cost_estimate": 34481.06,
     "contradictions": [
-      "Dueno es sucesion (fallecida) con affidavit RP-2021-443408 sobre el lote: demandados/herederos desconocidos sin verificar (legal bloqueado)",
-      "Apertura $10,822 mayor que el total adeudado $7,651 (+41%) y delinquent_by_year empieza en 2019 aunque la sentencia cubre 2015-2023: faltan anos o ya estaban pagados"
+      "Revision anterior comparo 'costo $34,481 vs techo $34,555' como si fueran lo mismo: el techo es puja maxima y el costo total a ese techo seria ~$42,400 (= valor/1.25). La holgura real es techo $34,555 menos cierre esperado $26,869, no ~$74.",
+      "tax: taxes_in_judgment 2015-2023 pero delinquent_by_year solo desde 2019 (2015-2018 sin saldo) y no hay fila 2025 (tras la sentencia de 2024 debio devengar 2025): o fueron pagados o el saldo esta incompleto; post_judgment_taxes $1,696.62 corresponde solo a 2024.",
+      "owner_deceased_heirs es 'inferred' (estate + AFFT) pero el AFFT RP-2021-443408 es de Lynds Janice a nombre 'Keith Nell Rose Est': su contenido (heredero, parentesco, lote) no se leyo; no es prueba de herederos ni de sucesion.",
+      "Liberacion de City RP-2019-429045: solo fila de indice (inferred); no se vio el lien original ni su monto, asi que 'sin liens de ciudad sin liberar' no es concluyente.",
+      "TRCP 329 'cerro 2026-10-21' es calculo por fechas y presume citacion por publicacion; una falla de debido proceso contra herederos no citados puede alegarse fuera de esa ventana (attorney review).",
+      "Direccion postal del estate en Alvin (County Road 143) vs lote en 77087: posible heredero fuera del lote; ocupacion actual no verificada (casa demolida? HCAD building 0).",
+      "Cola del comprador $2,805 = post-judgment $1,696.62 + 2026 estimado $1,108.88 (inferred): si 2025 no esta pagado, falta."
     ],
     "conditions_to_buy": [
-      "Leer la imagen del AFFT RP-2021-443408 (afidavit de herederos?) y confirmar que la sucesion/herederos fueron demandados",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
-      "Pedir estado de cuenta actualizado de impuestos (hctax) justo antes de pujar; confirmar apertura final el 2026-12-01",
-      "Leer en el Clerk, con imagen, cualquier LIEN/A/J/L/P que coincida con la descripcion legal HCAD (solo hay indice por nombre)"
+      "Miguel (login): leer demandados y citacion del cause 202227255 en hcdistrictclerk.com: confirmar que se demando al estate/herederos desconocidos y si hubo publicacion; attorney review recommended",
+      "Leer la imagen del AFFT RP-2021-443408 y buscar sucesion (probate) de Keith Nell Rose en Harris County Probate Court",
+      "PACER: bancarrota de herederos si se identifican",
+      "Pedir a hctax estado de cuenta actualizado: confirmar anos 2015-2018 y 2025 y si la apertura $10,822 incluye post-judgment",
+      "Abstractor: confirmar que el REL RP-2019-429045 liberaba el lien de City de este lote y que no hay otros",
+      "Presupuestar quiet title/heirship con abogado (>$4,000 probable); no superar el techo $34,555 menos esos costos",
+      "Visita al sitio: ocupacion, acceso y servicios; restricciones de Andover Place Sec 3"
     ]
   }
 }

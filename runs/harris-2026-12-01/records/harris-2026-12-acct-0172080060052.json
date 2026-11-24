@@ -504,14 +504,14 @@
       "why": "requiere login/cuenta"
     },
     {
-      "agent": "reviewer",
-      "item": "Revisar con abogado/titulo antes de pujar: Confirmar acceso, agua/septico y restricciones del lote en condado no incorporado (viabilidad dúplex)",
-      "why": "requiere imagen del Clerk, login o criterio de abogado (modo barato: sin busquedas nuevas)"
-    },
-    {
       "agent": "title",
       "item": "Localizar escritura vigente de TR 12D BLK 6 Houston Suburban Heights (Aviles Guillermino/Severo) por imagen del Clerk o abstractor; no aparece indexada por legal",
       "why": "requiere imagen del Clerk (el indice RP publico no muestra el documento sin cuenta/pago)"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Attorney review recommended antes de pujar: demandados/citacion/bancarrota (login Clerk/PACER) y lectura de imagenes del Clerk segun conditions_to_buy",
+      "why": "legal bloqueado; revision profunda sin busquedas nuevas"
     }
   ],
   "valuation": {
@@ -599,18 +599,24 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Lote vacio de 13,190 sf (0.30 ac) fuera de limites de ciudad, zona X, sin homestead, apertura $8,231 frente a valor HCAD $39,570; tamano apto para dúplex si las restricciones/servicios lo permiten. Hechos decisivos: (1) cola de impuestos baja ($681) y sin gravamenes en el indice por nombre (0 filas, que no es prueba); (2) dos co-duenos (Guillermino y Severo Aviles) con PO Box, sin valor del condado para cruzar y legal bloqueado. Dúplex no evaluado (condado no incorporado: sin zonificacion pero con posibles restricciones/septico/agua). Attorney review recommended.",
+    "rationale": "COMPRA FUERTE no esta permitido porque legal esta bloqueado (demandados, citacion y bancarrota requieren login del District Clerk/PACER). Lote vacio de 13,190 sf (0.30 ac), zona X, fuera de ciudad, sin homestead, cola de impuestos de $681 y apertura $8,231 contra HCAD $39,570; ningun descarte automatico aplica. Hechos decisivos: (1) el predio no aparece en el indice del Clerk ni por legal ni por nombre, asi que no hay cadena de titulo ni vesting (HCAD solo asigna 2005 a Guillermino 1% / Severo 0%); (2) legal bloqueado con dos co-duenos que pudieron no ser ambos demandados. Se mantiene CONDICIONAL: la ausencia de gravamenes es falta de datos, no limpieza. Attorney review recommended; no es asesoria legal.",
     "bid_ceiling": 26189.25,
     "all_in_cost_estimate": 25344.92,
     "contradictions": [
-      "Apertura $8,231 mayor que el total adeudado $6,335 (+30%): no se sabe que costos incluye; no usarla como costo total"
+      "title_summary dice 'sin gravamen visible' pero el mismo registro admite 0 escrituras indexadas y vesting desconocido: la ausencia de filas no es evidencia de titulo limpio (y valuation lo cuenta como liens=NO CUANTIFICADO, no como cero).",
+      "HCAD lista dos duenos (Aviles Guillermino 1.0000% / Aviles Severo 0.0000%) con dueno desde 01/01/2005 sin escritura: porcentajes incoherentes; el 0% sugiere asignacion administrativa, no titulo. Riesgo de que no ambos fueran demandados/citados.",
+      "state_class HCAD C2 (los otros 4 lotes son predios residenciales vacios): clase distinta, uso/clasificacion para dúplex no confirmado (inferred, verificar definicion de C2 en HCAD).",
+      "Lote HCAD 13,190 sf vs GIS 12,925 (-2.0%): menor, aceptable.",
+      "all_in_costs usa buyer_tax_tail 2026 estimado $681 (inferred) y total adeudado $6,335 vs apertura $8,231: la diferencia ($1,896) son costas/gastos no desglosados; confirmar que la apertura no suma impuestos 2026.",
+      "valuation: exit_strategy 'resale'; dúplex no evaluado, y en condado no incorporado faltan agua/septico/acceso y restricciones, que afectan el tope de $26,189."
     ],
     "conditions_to_buy": [
-      "Confirmar acceso, agua/septico y restricciones del lote en condado no incorporado (viabilidad dúplex)",
-      "Confirmar si Severo Aviles (0%) vive o es sucesion: posible defecto de citacion",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
-      "Pedir estado de cuenta actualizado de impuestos (hctax) justo antes de pujar; confirmar apertura final el 2026-12-01",
-      "Leer en el Clerk, con imagen, cualquier LIEN/A/J/L/P que coincida con la descripcion legal HCAD (solo hay indice por nombre)"
+      "Miguel (login): leer demandados y metodo de citacion del cause 202437723 en hcdistrictclerk.com y confirmar que fueron citados Guillermino Y Severo Aviles (o sus herederos) y que no hubo citacion por publicacion; attorney review recommended",
+      "Consulta PACER por bancarrota de Aviles Guillermino y Aviles Severo",
+      "Encargar abstracto/lectura de imagenes: localizar escritura vigente de TR 12D BLK 6 Houston Suburban Heights (RP o Clerk por numero de HCAD/ abstracto) y confirmar vesting y ausencia de liens",
+      "Confirmar con HCAD (search.hcad.org, captcha: Miguel) la clase C2, los porcentajes de propiedad y el historial de escrituras",
+      "Visita al sitio: acceso legal (frente a E Mount Houston Rd), agua/septico, ocupacion y relleno; revisar restricciones de deed",
+      "Pedir estado de cuenta actualizado de hctax el dia previo a la venta (2026-12-01) y no superar el techo $26,189 menos cualquier lien/costo hallado"
     ]
   }
 }

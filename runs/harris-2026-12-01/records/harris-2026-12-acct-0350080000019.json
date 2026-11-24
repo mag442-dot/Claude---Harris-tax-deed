@@ -594,6 +594,11 @@
       "agent": "title",
       "item": "Ver imagen de City LIEN RP-2025-403774 (Citywide, Tract 6 & 7A Blk 4) y RELs sin tracto (RP-2025-482803, RP-2020-16240, RP-2019-526535) para descartar que toquen este predio",
       "why": "imagen del Clerk"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revision profunda: abogado/titulo debe revisar imagenes del Clerk y el cause en hcdistrictclerk antes de pujar (CONDICIONAL)",
+      "why": "imagen del Clerk, login o criterio de abogado"
     }
   ],
   "valuation": {
@@ -681,20 +686,23 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Predio C2 de $152,950 HCAD con apertura de $5,000 (RESALE; 3% del valor), sin inundacion. Hechos decisivos: (1) el dueno es una iglesia (NEW FELLOWSHIP MISSIONARY BAPTIST CHURCH) sin exencion en el roll pese a 29 anos de impuestos en juicio (1996-2024), lo que invita a impugnacion por exencion religiosa o por citacion, y (2) hay un DEED del 09/22/2026 a los taxing units (RP-2026-384118) que implica venta previa fallida. El lote GIS (7,002 sf) es 13% menor que HCAD (8,050 sf), asi que el valor y el techo de $108k estan sobrestimados. Legal bloqueado; attorney review recommended.",
+    "rationale": "Predio C2 vacio, 3517 Market St, HCAD $152,950 sobre 8,050 sf, FEMA X, City of Houston, RESALE con apertura $5,000. Hecho decisivo 1: la dueña es una iglesia con 1996-2024 en sentencia y el unico rastro en el indice son dos deeds del 09/22/2026 (RP-2026-384117/384118) de la iglesia, herederos/dueños previos (Trombatore, Sackville, Harrison) y el constable a los taxing units; no hay deed hacia la iglesia ni hipoteca ni lien federal, pero la cadena es compleja y el indice no lee imagenes. Hecho decisivo 2: el area GIS (7,002 sf) es 13% menor que HCAD (8,050 sf), asi que el techo $108,477 esta inflado, y el quiet title de $4,000 probablemente se queda corto. COMPRA FUERTE no esta permitido porque legal esta bloqueado (demandados, citacion y bancarrota sin leer). Attorney review recommended. Se mantiene CONDICIONAL por evidencia delgada, no por solidez; si la imagen de los deeds no aclara tractos o la medida real es menor, bajaria a VIGILAR.",
     "bid_ceiling": 108477.35,
     "all_in_cost_estimate": 90500.35,
     "contradictions": [
-      "Lote HCAD 8,050 sf vs GIS 7,002 sf (-13%): el valor base $152,950 y el techo $108,477 estan inflados proporcionalmente",
-      "Iglesia propietaria sin exencion en el roll con impuestos desde 1996: posible exencion 11.19/11.20 omitida o no solicitada; riesgo de nulidad/redencion no modelado",
-      "DEED RP-2026-384118 (09/22/2026) a taxing units tras sentencia 03/04/2026 con HCAD aun a nombre de la iglesia: confirma adjudicacion previa; cola de $6,628 y titular actual por confirmar"
+      "Lote HCAD 8,050 sf vs GIS 7,002 sf (-13%): valor base $152,950 y techo $108,477 se sobreestiman; el techo no se ha recalculado.",
+      "Los dos deeds RP-2026-384117/384118 cubren 'Lots/Tracts 3-8 Block 4' y 'Block 4, sin tracto', y la cuenta vecina 0350080000003 (tracts 3, 4 y 5) comparte los mismos deeds: las tracts 3B/4A/5A de esta cuenta se solapan con las tracts 3-5 de la otra; riesgo de cuentas duplicadas o descripcion ambigua.",
+      "HCAD sin exencion para una iglesia con 29 anos de impuestos en sentencia: posible exencion religiosa omitida o uso no cultual; riesgo de nulidad no modelado. HCAD dice dueno desde 01/02/1988 (fecha por defecto) y el indice no tiene deed hacia la iglesia.",
+      "valuation 'liens_que_sobreviven: NO CUANTIFICADO (indice sin leer)' vs title (inferred): no hay liens atribuibles, pero quedan sin atribuir el City LIEN RP-2025-403774 (tract 6 & 7A, Citywide) y tres RELs sin tracto; el 0 del modelo no es verificado.",
+      "Cola de impuestos $6,628 vs total adeudado $37,397 (2012-2025): supone que 1996-2024 se extinguen; la causa 202367297 con anios desde 1996 es atipica (HANDOFF punto 2: taxes_in_judgment poco fiable). Apertura $5,000 (3.3%) vs cierre esperado $77,546."
     ],
     "conditions_to_buy": [
-      "Verificar con HCAD/abogado si el predio tiene o tuvo exencion religiosa o uso de culto, y la validez de la citacion a una iglesia",
-      "Medir lote real (GIS 7,002 sf vs HCAD 8,050 sf) y recalcular techo",
-      "Confirmar demandados y citacion en hcdistrictclerk.com (login) y bancarrota en PACER; attorney review recommended",
-      "Pedir estado de cuenta actualizado de impuestos (hctax) justo antes de pujar; confirmar apertura final el 2026-12-01",
-      "Leer en el Clerk, con imagen, cualquier LIEN/A/J/L/P que coincida con la descripcion legal HCAD (solo hay indice por nombre)"
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com y PACER (login: Miguel); attorney review recommended; atencion especial a citacion a una iglesia y a herederos (Trombatore, Sackville, Harrison)",
+      "Leer imagenes de RP-2026-384117 y RP-2026-384118: que tractos cubre cada una y si incluyen 3B 4A 5A 6B 7B 8B; pedir title commitment",
+      "Verificar con HCAD/abogado si el predio tuvo exencion religiosa o uso de culto",
+      "Medir el lote real (GIS 7,002 sf vs HCAD 8,050 sf) y recalcular el techo; cotizar quiet title real",
+      "Ver imagen del City LIEN RP-2025-403774 y de los RELs RP-2025-482803, RP-2020-16240, RP-2019-526535 para descartar que toquen este predio",
+      "Pedir estado de cuenta de impuestos actualizado (hctax) antes de pujar y confirmar la apertura final el 2026-12-01"
     ]
   }
 }

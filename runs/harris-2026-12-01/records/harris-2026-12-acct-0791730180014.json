@@ -527,6 +527,11 @@
       "agent": "title",
       "item": "Buscar escritura hacia Dora Zuniga Amezquita para Lot 14 Blk 18 (pre-2016 o variante de nombre) para completar la cadena",
       "why": "no aparece en indice online; requiere busqueda de titulo/imagen"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Revision profunda: abogado/titulo debe revisar imagenes del Clerk y el cause en hcdistrictclerk antes de pujar (CONDICIONAL)",
+      "why": "imagen del Clerk, login o criterio de abogado"
     }
   ],
   "valuation": {
@@ -614,19 +619,22 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Lote vacio C1 en City of Houston, FEMA X, HCAD $95,294, sin homestead. Hechos decisivos: es RESALE con apertura de solo $500 (0.5% del valor) y el indice del Clerk muestra una escritura del 09/22/2026 (RP-2026-384119, lote 14 bloque 18) de la duena a los entes de impuestos, es decir probable strike-off; por eso el modelo de costos (cola $5,624 y cierre esperado $48,314) es incierto. Legal esta bloqueado, asi que no puede ser COMPRA FUERTE. Attorney review recommended.",
+    "rationale": "Lote baldio C1 de 6,572 sf (HCAD $95,294), City of Houston, FEMA X 0% SFHA, sin homestead, apertura $500 (RESALE). Hecho decisivo 1: el indice del Clerk muestra solo la escritura RP-2026-384119 (09/22/2026) de la duena, el constable y los entes de impuestos a los taxing units (strike-off), sin hipoteca, lien federal, HOA, A/J ni L/P sobre el lote 14 bloque 18; es evidencia de indice, sin imagenes. Hecho decisivo 2: el techo $64,671 y la cola de $5,624 son teoricos (cierre esperado $48,314 por razon de lotes vendidos, contra apertura de $500) y no se sabe que impuestos sobreviven en una reventa tras strike-off. COMPRA FUERTE no esta permitido porque legal esta bloqueado (demandados, citacion y bancarrota sin leer). Attorney review recommended. Mantiene CONDICIONAL (igual que la revision barata): la seccion title no encontro nada que sobreviva, pero la evidencia es de indice.",
     "bid_ceiling": 64671.49,
     "all_in_cost_estimate": 59387.05,
     "contradictions": [
-      "Escritura del 09/22/2026 (RP-2026-384119, lote 14) de la duena a los entes de impuestos vs HCAD que aun muestra a Amezguita como duena (desde 2012): probable strike-off aun no reflejado; la venta es RESALE.",
-      "Apertura $500 (0.5% del valor HCAD, <5%) vs cierre esperado $48,314 del modelo (50.7% del valor): la apertura no dice cual sera el precio real; el techo $64,671 es teorico.",
-      "buyer_tax_tail $5,624 (2024-2026) vs total adeudado $13,255: supone que 2018-2023 (en sentencia) se extinguen; no verificado, y en RESALE el tratamiento de impuestos posteriores debe confirmarse. Ademas RP-2026-384120 es el lote 15 (no es de este predio)."
+      "HCAD (verified) dice dueno desde 02/17/2012 (2012-0161474) pero el indice no muestra escritura hacia la duena en este lote (title inferred): hueco de cadena o diferencia de nombre; HCAD aun lista a Amezguita pese a RP-2026-384119 (09/22/2026), posterior a la sentencia del 01/29/2025.",
+      "valuation.all_in_costs dice 'liens_que_sobreviven: NO CUANTIFICADO (indice sin leer)' pero title ya leyo el indice por descripcion legal y no hallo ninguno: el texto de valuation quedo desactualizado (no es un 0 verificado).",
+      "buyer_tax_tail $5,624 (2024-2026) vs total adeudado $13,255: supone que 2018-2023 (en sentencia) se extinguen y que los taxes de 2024-2026 se heredan; en una RESALE tras strike-off el tratamiento no esta verificado.",
+      "Apertura $500 (0.5% del valor) vs cierre esperado $48,314 (50.7%): la razon sale de lotes de otra venta; el techo $64,671 y el margen 60.5% son teoricos y sin comps. HCAD $95,294 vs valor del condado $87,064 (-9%).",
+      "Las filas rp_hits_grantor de este lote incluyen RP-2026-384120, que pertenece al lote 15 (cuenta vecina), no a este predio."
     ],
     "conditions_to_buy": [
-      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com/PACER (login: Miguel); attorney review recommended",
-      "Pedir estado de cuenta de impuestos actualizado antes de pujar y confirmar apertura final el dia de la venta (2026-12-01)",
-      "Leer RP-2026-384119 (imagen) para ver quien transfiere a quien y confirmar que el comprador recibe titulo libre de impuestos 2018-2023",
-      "Confirmar con el condado/abogado impuestos que sobreviven en una RESALE"
+      "Confirmar demandados, citacion (personal vs publicacion) y bancarrota en hcdistrictclerk.com y PACER (login: Miguel); attorney review recommended",
+      "Leer la imagen de RP-2026-384119 (lote 14 bloque 18): confirmar que es escritura de strike-off a los taxing units y quien es titular registrado hoy",
+      "Pedir a abogado/titulo confirmar plazo de redencion o accion TRCP 329 (ventana abierta hasta 2027-01-28 si hubo citacion por publicacion) y que impuestos 2018-2026 se heredan en esta RESALE",
+      "Pedir estado de cuenta de impuestos actualizado (hctax) antes de pujar y confirmar la apertura final el 2026-12-01",
+      "Buscar la escritura hacia Dora Zuniga Amezquita (2012-0161474) para cerrar la cadena y revisar restricciones de South Main Plaza (Houston no tiene zonificacion; las deed restrictions pueden limitar un duplex)"
     ]
   }
 }

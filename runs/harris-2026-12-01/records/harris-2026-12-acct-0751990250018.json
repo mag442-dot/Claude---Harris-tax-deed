@@ -1,632 +1,637 @@
 {
- "property_id": "harris-2026-12-acct-0751990250018",
- "sale_id": "harris-2026-12-01",
- "county": "Harris",
- "address": "9113 NOEL ST HOUSTON 77033-3913",
- "account_no": "0751990250018",
- "cause_no": "202163448",
- "intake": {
-  "opening_bid": {
-   "value": 16179.52,
-   "status": "verified",
-   "source": "candidatos.csv (scout)",
-   "retrieved_at": "2026-11-13"
-  },
-  "scout_notes": {
-   "value": "Precinct 7; tipo SALE; sale# 1; sentencia 06/05/2024; anios_en_sentencia 2017 - 2023; fuente https://www.hctax.net/Property/listings/taxsalelisting",
-   "status": "verified",
-   "source": "candidatos.csv (scout)",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_site_address": {
-   "value": "9113 NOEL ST, HOUSTON, 77033",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_owner": {
-   "value": "GAYTAN CREW CONSTRUCTION CO INC (1.0000%)",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_mailing_address": {
-   "value": "9505 BEECHNUT ST APT 1213, HOUSTON, TX, 77036-",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_state_class": {
-   "value": "C1",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_land_sqft": {
-   "value": "12400",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_acres": {
-   "value": "0.2847",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_building_sqft": {
-   "value": "0",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_year_improved": {
-   "value": "1940",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_land_value": {
-   "value": "102000",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_building_value": {
-   "value": "0",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_market_value": {
-   "value": "102000",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_prior_market_value": {
-   "value": "102000",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_exemptions": {
-   "value": "none on roll",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_homestead_on_roll": {
-   "value": "no",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_land_detail": {
-   "value": "Res Vacant Table Value 8000.0000xSF $80000 | Res Vacant Table Value 4400.0000xSF $22000",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_buildings": {
-   "value": "",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_deeds_recorded": {
-   "value": "02/25/2015 2015-0079625 | 09/02/2014 2014-0420365 | 12/02/2014 2015-0010358",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_legal": {
-   "value": "LT 18 BLK 25 SUNNYSIDE GARDENS",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  },
-  "hcad_owner_since": {
-   "value": "02/25/2015",
-   "status": "verified",
-   "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
-   "retrieved_at": "2026-11-13"
-  }
- },
- "tax": {
-  "delinquent_by_year": {
-   "value": [
-    {
-     "year": 2018,
-     "tax": 133.95,
-     "penalties_interest": 141.99,
-     "collection_penalty": 55.19,
-     "total": 331.13
+  "property_id": "harris-2026-12-acct-0751990250018",
+  "sale_id": "harris-2026-12-01",
+  "county": "Harris",
+  "address": "9113 NOEL ST HOUSTON 77033-3913",
+  "account_no": "0751990250018",
+  "cause_no": "202163448",
+  "intake": {
+    "opening_bid": {
+      "value": 16179.52,
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-11-13"
     },
-    {
-     "year": 2019,
-     "tax": 617.52,
-     "penalties_interest": 580.47,
-     "collection_penalty": 224.73,
-     "total": 1422.72
+    "scout_notes": {
+      "value": "Precinct 7; tipo SALE; sale# 1; sentencia 06/05/2024; anios_en_sentencia 2017 - 2023; fuente https://www.hctax.net/Property/listings/taxsalelisting",
+      "status": "verified",
+      "source": "candidatos.csv (scout)",
+      "retrieved_at": "2026-11-13"
     },
-    {
-     "year": 2020,
-     "tax": 795.41,
-     "penalties_interest": 652.24,
-     "collection_penalty": 271.76,
-     "total": 1719.41
+    "hcad_site_address": {
+      "value": "9113 NOEL ST, HOUSTON, 77033",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
     },
-    {
-     "year": 2021,
-     "tax": 1129.21,
-     "penalties_interest": 790.44,
-     "collection_penalty": 359.79,
-     "total": 2279.44
+    "hcad_owner": {
+      "value": "GAYTAN CREW CONSTRUCTION CO INC (1.0000%)",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
     },
-    {
-     "year": 2022,
-     "tax": 1796.74,
-     "penalties_interest": 1042.11,
-     "collection_penalty": 533.25,
-     "total": 3372.1
+    "hcad_mailing_address": {
+      "value": "9505 BEECHNUT ST APT 1213, HOUSTON, TX, 77036-",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
     },
-    {
-     "year": 2023,
-     "tax": 2055.11,
-     "penalties_interest": 945.35,
-     "collection_penalty": 560.25,
-     "total": 3560.71
+    "hcad_state_class": {
+      "value": "C1",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
     },
-    {
-     "year": 2024,
-     "tax": 2134.21,
-     "penalties_interest": 725.63,
-     "collection_penalty": 405.57,
-     "total": 3265.41
+    "hcad_land_sqft": {
+      "value": "12400",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
     },
-    {
-     "year": 2025,
-     "tax": 2167.72,
-     "penalties_interest": 476.9,
-     "collection_penalty": 372.4,
-     "total": 3017.02
+    "hcad_acres": {
+      "value": "0.2847",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_building_sqft": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_year_improved": {
+      "value": "1940",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_land_value": {
+      "value": "102000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_building_value": {
+      "value": "0",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_market_value": {
+      "value": "102000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_prior_market_value": {
+      "value": "102000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_exemptions": {
+      "value": "none on roll",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_homestead_on_roll": {
+      "value": "no",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_land_detail": {
+      "value": "Res Vacant Table Value 8000.0000xSF $80000 | Res Vacant Table Value 4400.0000xSF $22000",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_buildings": {
+      "value": "",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_deeds_recorded": {
+      "value": "02/25/2015 2015-0079625 | 09/02/2014 2014-0420365 | 12/02/2014 2015-0010358",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_legal": {
+      "value": "LT 18 BLK 25 SUNNYSIDE GARDENS",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
+    },
+    "hcad_owner_since": {
+      "value": "02/25/2015",
+      "status": "verified",
+      "source": "https://download.hcad.org/data/CAMA/2026/Real_acct_owner.zip#real_acct.txt",
+      "retrieved_at": "2026-11-13"
     }
-   ],
-   "status": "verified",
-   "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
-   "retrieved_at": "2026-11-13",
-   "note": "statement as of 11/13/2026"
   },
-  "total_due_all_years": {
-   "value": 18967.94,
-   "status": "verified",
-   "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
-   "retrieved_at": "2026-11-13"
+  "tax": {
+    "delinquent_by_year": {
+      "value": [
+        {
+          "year": 2018,
+          "tax": 133.95,
+          "penalties_interest": 141.99,
+          "collection_penalty": 55.19,
+          "total": 331.13
+        },
+        {
+          "year": 2019,
+          "tax": 617.52,
+          "penalties_interest": 580.47,
+          "collection_penalty": 224.73,
+          "total": 1422.72
+        },
+        {
+          "year": 2020,
+          "tax": 795.41,
+          "penalties_interest": 652.24,
+          "collection_penalty": 271.76,
+          "total": 1719.41
+        },
+        {
+          "year": 2021,
+          "tax": 1129.21,
+          "penalties_interest": 790.44,
+          "collection_penalty": 359.79,
+          "total": 2279.44
+        },
+        {
+          "year": 2022,
+          "tax": 1796.74,
+          "penalties_interest": 1042.11,
+          "collection_penalty": 533.25,
+          "total": 3372.1
+        },
+        {
+          "year": 2023,
+          "tax": 2055.11,
+          "penalties_interest": 945.35,
+          "collection_penalty": 560.25,
+          "total": 3560.71
+        },
+        {
+          "year": 2024,
+          "tax": 2134.21,
+          "penalties_interest": 725.63,
+          "collection_penalty": 405.57,
+          "total": 3265.41
+        },
+        {
+          "year": 2025,
+          "tax": 2167.72,
+          "penalties_interest": 476.9,
+          "collection_penalty": 372.4,
+          "total": 3017.02
+        }
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
+      "retrieved_at": "2026-11-13",
+      "note": "statement as of 11/13/2026"
+    },
+    "total_due_all_years": {
+      "value": 18967.94,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
+      "retrieved_at": "2026-11-13"
+    },
+    "taxes_in_judgment": {
+      "value": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
+      "retrieved_at": "2026-11-13",
+      "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+    },
+    "post_judgment_taxes": {
+      "value": 6282.43,
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
+      "retrieved_at": "2026-11-13"
+    },
+    "current_year_estimate": {
+      "value": 2167.72,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
+      "retrieved_at": "2026-11-13",
+      "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+    },
+    "buyer_tax_tail_estimate": {
+      "value": 8450.15,
+      "status": "inferred",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
+      "retrieved_at": "2026-11-13",
+      "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
+    },
+    "assessed_owner_county": {
+      "value": "GAYTAN CREW CONSTRUCTION CO INC 9505 BEECHNUT ST APT 1213 HOUSTON TX 77036 9113 NOEL ST LT 18 BLK 25 SUNNYSIDE GARDENS",
+      "status": "verified",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
+      "retrieved_at": "2026-11-13"
+    },
+    "appraised_value_county": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
+      "retrieved_at": "2026-11-13"
+    }
   },
-  "taxes_in_judgment": {
-   "value": [
-    2017,
-    2018,
-    2019,
-    2020,
-    2021,
-    2022,
-    2023
-   ],
-   "status": "verified",
-   "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
-   "retrieved_at": "2026-11-13",
-   "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
+  "physical": {
+    "parcel_centroid": {
+      "value": {
+        "lon": -95.343849,
+        "lat": 29.659273
+      },
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0751990250018)",
+      "retrieved_at": "2026-11-13"
+    },
+    "lot_sqft_gis": {
+      "value": 12352,
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0751990250018)",
+      "retrieved_at": "2026-11-13",
+      "note": "area del poligono (aprox.); compara con HCAD land_ar"
+    },
+    "lot_dimensions_est": {
+      "value": "~62 x 199 ft (rectangulo minimo rotado)",
+      "status": "inferred",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0751990250018)",
+      "retrieved_at": "2026-11-13",
+      "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
+    },
+    "fema_effective_zone": {
+      "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "zona con mayor area dentro del predio (NFHL efectivo)"
+    },
+    "fema_zone_shares": {
+      "value": {
+        "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
+      },
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13",
+      "note": "% del area del predio por zona"
+    },
+    "fema_sfha_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway": {
+      "value": "no",
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "floodway_pct": {
+      "value": 0.0,
+      "status": "verified",
+      "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
+      "retrieved_at": "2026-11-13"
+    },
+    "parcel_city": {
+      "value": "CITY OF HOUSTON",
+      "status": "verified",
+      "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
+      "retrieved_at": "2026-11-13"
+    }
   },
-  "post_judgment_taxes": {
-   "value": 6282.43,
-   "status": "verified",
-   "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
-   "retrieved_at": "2026-11-13"
+  "title": {
+    "rp_hits_grantee": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GAYTAN CREW')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_hits_grantor": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GAYTAN CREW')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_type_counts": {
+      "value": {},
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GAYTAN CREW')",
+      "retrieved_at": "2026-11-13"
+    },
+    "rp_summary": {
+      "value": "0 instruments as grantee, 0 as grantor (index, name 'GAYTAN CREW')",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GAYTAN CREW')",
+      "retrieved_at": "2026-11-13",
+      "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "title_search_method": {
+      "value": "Legal-description search SUNNYSIDE GARDENS Lot 18 Block 25 (8 rows; 0 rows after 03/01/2015) + name GAYTAN CREW (grantee 1 row, grantor 0)",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
+    },
+    "vesting_deed": {
+      "value": "W/D 20150079625, 02/27/2015 (film RP094100302), ORTEGA RAMIRO MENDEZ -> GAYTAN CREW CONSTRUCTION CO INC; SUNNYSIDE GARDENS Lot 18 Block 25",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc SUNNYSIDE GARDENS L18 B25 + grantee GAYTAN CREW)",
+      "retrieved_at": "2026-11-24",
+      "note": "Index row only. Taxed owner (HCAD 'GAYTAN CREW CONSTRUCTION CO INC') = record grantee. Grantor name appears as 'MENDEZ-ORTEGA RAMIRO' on the prior deed (name order variance, inferred same person)."
+    },
+    "chain_prior": {
+      "value": [
+        "20150010358 | 01/08/2015 | DEED | City of Houston/Harris County/HCC/HISD etal (Sandling heirs, Walker May Const) -> MENDEZ-ORTEGA RAMIRO | same legal (film RP093701387) = tax-resale deed from taxing units",
+        "20140420365 | 09/18/2014 | DEED | Sandling heirs etal / taxing units -> City of Houston etal (struck-off tax deed) | same legal (film RP092752082)"
+      ],
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc)",
+      "retrieved_at": "2026-11-24",
+      "note": "Chain starts with a 2014 constable tax-sale deed to taxing units and a 2015 resale: the pre-2014 Sandling-era liens were cut by that tax deed (inferred)."
+    },
+    "mortgages": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc post-2015 + grantor GAYTAN CREW)",
+      "retrieved_at": "2026-11-24",
+      "note": "No D/T by Gaytan Crew or anyone after 02/27/2015 found under the legal; grantor-side name search = 0 rows. Index only."
+    },
+    "liens_federal": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee GAYTAN CREW)",
+      "retrieved_at": "2026-11-24",
+      "note": "None found (entity name; name search returns only the 2015 deed). Also check variants 'GAYTAN CREW CONSTRUCTION' (0 rows as grantor)."
+    },
+    "liens_city_county": {
+      "value": [
+        "20110137477 | 04/06/2011 LIEN, 20100522579 | 12/09/2010 LIEN, 20100372132 | 08/31/2010 NOTICE, 20090399521 | 09/02/2009 ORDER, 20090371318 | 08/17/2009 NOTICE | City of Houston -> Sandling heirs (Sandling Ester B EST / Willie L Jr / Dolores Laverne), same legal"
+      ],
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc)",
+      "retrieved_at": "2026-11-24",
+      "note": "Pre-date the 2014 tax deed and 2015 resale -> debtors are the former owners (Sandling), not Gaytan Crew. No release seen but likely extinguished by the 2014 tax deed (inferred; weight: City was a grantor on that deed). Not a lien on Gaytan Crew."
+    },
+    "liens_hoa_lispendens": {
+      "value": "none found under legal",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "No LIEN/L-P/A-J row tied to the legal description other than those listed. Index only."
+    },
+    "child_support_liens": {
+      "value": "not found in index search (no child-support/OAG lien types appear in rows read); index does not always label them",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Child-support liens are often filed as LIEN/ABSTRACT without subtype; verify on images if shortlisted. Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
+    },
+    "restrictions": {
+      "value": "not checked: plat restrictions / recorded covenants not located in index search",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Need plat + restriction instruments (images) to evaluate duplex use."
+    },
+    "tdhca_status": {
+      "value": "Vacant land per HCAD (building sqft 0, Res Vacant land table); no manufactured-home title search run (TDHCA mhweb not queried)",
+      "status": "inferred",
+      "source": "https://www.tdhca.state.tx.us/mhweb (not queried); HCAD intake.hcad_building_sqft=0",
+      "retrieved_at": "2026-11-24",
+      "note": "Low relevance for raw land; confirm no mobile home on site visit."
+    },
+    "owner_deceased_heirs": {
+      "value": "N/A entity. Entity status (SOS forfeiture/dissolution) not checked",
+      "status": "unknown",
+      "source": "https://mycpa.cpa.state.tx.us / SOS (not queried)",
+      "retrieved_at": "2026-11-24",
+      "note": "Mailing address is an apartment (9505 Beechnut Apt 1213) - consider whether entity is active; a forfeited/dissolved entity affects service in the suit."
+    },
+    "title_summary": {
+      "value": "Clean index chain: 2014 tax deed -> 2015 resale to R. Mendez-Ortega -> 02/27/2015 W/D to Gaytan Crew Construction Co Inc (taxed owner = record owner). No mortgage, federal, HOA or L/P found after 2015. Pre-2014 City liens on prior owners (Sandling) no release but likely extinguished by the 2014 tax deed. Nothing identified that survives; risk is entity status/service and unseen images.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Lowest title risk of the five by index. Judgment 06/05/2024 -> TRCP 329 window runs to ~06/2026 (already past by date)."
+    }
   },
-  "current_year_estimate": {
-   "value": 2167.72,
-   "status": "inferred",
-   "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
-   "retrieved_at": "2026-11-13",
-   "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
+  "legal": {
+    "sale_type": {
+      "value": "SALE",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "cause_no": {
+      "value": "202163448",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "judgment_date": {
+      "value": "06/05/2024",
+      "status": "verified",
+      "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
+      "retrieved_at": "2026-11-13"
+    },
+    "redemption_or_new_trial_risk": {
+      "value": "Ventana TRCP 329 cerro el 2026-06-05 (si hubo citacion por publicacion)",
+      "status": "inferred",
+      "source": "calculo propio sobre lista oficial",
+      "retrieved_at": "2026-11-13",
+      "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
+    },
+    "redemption_note": {
+      "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
+      "status": "inferred",
+      "source": "inferido de HCAD jur_exempt",
+      "retrieved_at": "2026-11-13",
+      "note": "No es asesoria legal: attorney review recommended"
+    },
+    "tax_suit_defendants": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "service_method": {
+      "value": null,
+      "status": "blocked",
+      "source": "https://www.hcdistrictclerk.com",
+      "retrieved_at": "2026-11-13",
+      "note": "hcdistrictclerk.com requiere login"
+    },
+    "bankruptcy": {
+      "value": null,
+      "status": "unknown",
+      "source": "busqueda web publica (inforuptcy/pacermonitor/CourtListener sin login) por nombre del dueno HCAD; CourtListener API devolvio 401",
+      "retrieved_at": "2026-11-24",
+      "note": "Sin coincidencia publica para GAYTAN CREW CONSTRUCTION CO INC; no es busqueda autoritativa (indices terceros incompletos, nombre solo parcial). Confirmar en PACER (cuenta de Miguel)."
+    },
+    "legal_summary": {
+      "value": "Causa 202163448: sentencia y tipo de venta leidos del condado. Demandados y metodo de citacion siguen bloqueados (hcdistrictclerk.com requiere login); busqueda publica de avisos y de bancarrota de GAYTAN CREW CONSTRUCTION CO INC no encontro nada (no concluyente). Ventana TRCP 329 por fechas: ver redemption_or_new_trial_risk. Flag for attorney review.",
+      "status": "inferred",
+      "source": "lista oficial hctax + busquedas publicas sin login",
+      "retrieved_at": "2026-11-24"
+    },
+    "public_notice_search": {
+      "value": "Sin aviso de citacion por publicacion encontrado para la causa ni el dueno (topics.txcourts.gov CitationsPublic, Houston Chronicle legals, busqueda web)",
+      "status": "unknown",
+      "source": "https://topics.txcourts.gov/CitationsPublic ; busqueda web",
+      "retrieved_at": "2026-11-24",
+      "note": "Ausencia en buscador web NO prueba citacion personal; el metodo de citacion sigue sin verificar. Nota: TRCP 117a limita la citacion por publicacion si el dueno registrado rindio la propiedad en los ultimos 5 anios; flag for attorney review."
+    }
   },
-  "buyer_tax_tail_estimate": {
-   "value": 8450.15,
-   "status": "inferred",
-   "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
-   "retrieved_at": "2026-11-13",
-   "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
-  },
-  "assessed_owner_county": {
-   "value": "GAYTAN CREW CONSTRUCTION CO INC 9505 BEECHNUT ST APT 1213 HOUSTON TX 77036 9113 NOEL ST LT 18 BLK 25 SUNNYSIDE GARDENS",
-   "status": "verified",
-   "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
-   "retrieved_at": "2026-11-13"
-  },
-  "appraised_value_county": {
-   "value": null,
-   "status": "unknown",
-   "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
-   "retrieved_at": "2026-11-13"
-  }
- },
- "physical": {
-  "parcel_centroid": {
-   "value": {
-    "lon": -95.343849,
-    "lat": 29.659273
-   },
-   "status": "verified",
-   "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0751990250018)",
-   "retrieved_at": "2026-11-13"
-  },
-  "lot_sqft_gis": {
-   "value": 12352,
-   "status": "verified",
-   "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0751990250018)",
-   "retrieved_at": "2026-11-13",
-   "note": "area del poligono (aprox.); compara con HCAD land_ar"
-  },
-  "lot_dimensions_est": {
-   "value": "~62 x 199 ft (rectangulo minimo rotado)",
-   "status": "inferred",
-   "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0 (HCAD_NUM=0751990250018)",
-   "retrieved_at": "2026-11-13",
-   "note": "aproximacion geometrica, NO es un levantamiento topografico; forma irregular puede engañar"
-  },
-  "fema_effective_zone": {
-   "value": "X (AREA OF MINIMAL FLOOD HAZARD)",
-   "status": "verified",
-   "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
-   "retrieved_at": "2026-11-13",
-   "note": "zona con mayor area dentro del predio (NFHL efectivo)"
-  },
-  "fema_zone_shares": {
-   "value": {
-    "X (AREA OF MINIMAL FLOOD HAZARD)": 100.0
-   },
-   "status": "verified",
-   "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
-   "retrieved_at": "2026-11-13",
-   "note": "% del area del predio por zona"
-  },
-  "fema_sfha_pct": {
-   "value": 0.0,
-   "status": "verified",
-   "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
-   "retrieved_at": "2026-11-13"
-  },
-  "floodway": {
-   "value": "no",
-   "status": "verified",
-   "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
-   "retrieved_at": "2026-11-13"
-  },
-  "floodway_pct": {
-   "value": 0.0,
-   "status": "verified",
-   "source": "FEMA NFHL MapServer layer 28 (hazards.fema.gov)",
-   "retrieved_at": "2026-11-13"
-  },
-  "parcel_city": {
-   "value": "CITY OF HOUSTON",
-   "status": "verified",
-   "source": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/HCAD_Cities/MapServer/0",
-   "retrieved_at": "2026-11-13"
-  }
- },
- "title": {
-  "rp_hits_grantee": {
-   "value": [],
-   "status": "inferred",
-   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GAYTAN CREW')",
-   "retrieved_at": "2026-11-13",
-   "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
-  },
-  "rp_hits_grantor": {
-   "value": [],
-   "status": "inferred",
-   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GAYTAN CREW')",
-   "retrieved_at": "2026-11-13",
-   "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
-  },
-  "rp_type_counts": {
-   "value": {},
-   "status": "inferred",
-   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GAYTAN CREW')",
-   "retrieved_at": "2026-11-13"
-  },
-  "rp_summary": {
-   "value": "0 instruments as grantee, 0 as grantor (index, name 'GAYTAN CREW')",
-   "status": "inferred",
-   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GAYTAN CREW')",
-   "retrieved_at": "2026-11-13",
-   "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
-  },
-  "title_search_method": {
-   "value": "Legal-description search SUNNYSIDE GARDENS Lot 18 Block 25 (8 rows; 0 rows after 03/01/2015) + name GAYTAN CREW (grantee 1 row, grantor 0)",
-   "status": "verified",
-   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
-   "retrieved_at": "2026-11-24",
-   "note": "Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
-  },
-  "vesting_deed": {
-   "value": "W/D 20150079625, 02/27/2015 (film RP094100302), ORTEGA RAMIRO MENDEZ -> GAYTAN CREW CONSTRUCTION CO INC; SUNNYSIDE GARDENS Lot 18 Block 25",
-   "status": "verified",
-   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc SUNNYSIDE GARDENS L18 B25 + grantee GAYTAN CREW)",
-   "retrieved_at": "2026-11-24",
-   "note": "Index row only. Taxed owner (HCAD 'GAYTAN CREW CONSTRUCTION CO INC') = record grantee. Grantor name appears as 'MENDEZ-ORTEGA RAMIRO' on the prior deed (name order variance, inferred same person)."
-  },
-  "chain_prior": {
-   "value": [
-    "20150010358 | 01/08/2015 | DEED | City of Houston/Harris County/HCC/HISD etal (Sandling heirs, Walker May Const) -> MENDEZ-ORTEGA RAMIRO | same legal (film RP093701387) = tax-resale deed from taxing units",
-    "20140420365 | 09/18/2014 | DEED | Sandling heirs etal / taxing units -> City of Houston etal (struck-off tax deed) | same legal (film RP092752082)"
-   ],
-   "status": "verified",
-   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc)",
-   "retrieved_at": "2026-11-24",
-   "note": "Chain starts with a 2014 constable tax-sale deed to taxing units and a 2015 resale: the pre-2014 Sandling-era liens were cut by that tax deed (inferred)."
-  },
-  "mortgages": {
-   "value": [],
-   "status": "inferred",
-   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc post-2015 + grantor GAYTAN CREW)",
-   "retrieved_at": "2026-11-24",
-   "note": "No D/T by Gaytan Crew or anyone after 02/27/2015 found under the legal; grantor-side name search = 0 rows. Index only."
-  },
-  "liens_federal": {
-   "value": [],
-   "status": "inferred",
-   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee GAYTAN CREW)",
-   "retrieved_at": "2026-11-24",
-   "note": "None found (entity name; name search returns only the 2015 deed). Also check variants 'GAYTAN CREW CONSTRUCTION' (0 rows as grantor)."
-  },
-  "liens_city_county": {
-   "value": [
-    "20110137477 | 04/06/2011 LIEN, 20100522579 | 12/09/2010 LIEN, 20100372132 | 08/31/2010 NOTICE, 20090399521 | 09/02/2009 ORDER, 20090371318 | 08/17/2009 NOTICE | City of Houston -> Sandling heirs (Sandling Ester B EST / Willie L Jr / Dolores Laverne), same legal"
-   ],
-   "status": "verified",
-   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc)",
-   "retrieved_at": "2026-11-24",
-   "note": "Pre-date the 2014 tax deed and 2015 resale -> debtors are the former owners (Sandling), not Gaytan Crew. No release seen but likely extinguished by the 2014 tax deed (inferred; weight: City was a grantor on that deed). Not a lien on Gaytan Crew."
-  },
-  "liens_hoa_lispendens": {
-   "value": "none found under legal",
-   "status": "inferred",
-   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
-   "retrieved_at": "2026-11-24",
-   "note": "No LIEN/L-P/A-J row tied to the legal description other than those listed. Index only."
-  },
-  "child_support_liens": {
-   "value": "not found in index search (no child-support/OAG lien types appear in rows read); index does not always label them",
-   "status": "unknown",
-   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
-   "retrieved_at": "2026-11-24",
-   "note": "Child-support liens are often filed as LIEN/ABSTRACT without subtype; verify on images if shortlisted. Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
-  },
-  "restrictions": {
-   "value": "not checked: plat restrictions / recorded covenants not located in index search",
-   "status": "unknown",
-   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
-   "retrieved_at": "2026-11-24",
-   "note": "Need plat + restriction instruments (images) to evaluate duplex use."
-  },
-  "tdhca_status": {
-   "value": "Vacant land per HCAD (building sqft 0, Res Vacant land table); no manufactured-home title search run (TDHCA mhweb not queried)",
-   "status": "inferred",
-   "source": "https://www.tdhca.state.tx.us/mhweb (not queried); HCAD intake.hcad_building_sqft=0",
-   "retrieved_at": "2026-11-24",
-   "note": "Low relevance for raw land; confirm no mobile home on site visit."
-  },
-  "owner_deceased_heirs": {
-   "value": "N/A entity. Entity status (SOS forfeiture/dissolution) not checked",
-   "status": "unknown",
-   "source": "https://mycpa.cpa.state.tx.us / SOS (not queried)",
-   "retrieved_at": "2026-11-24",
-   "note": "Mailing address is an apartment (9505 Beechnut Apt 1213) - consider whether entity is active; a forfeited/dissolved entity affects service in the suit."
-  },
-  "title_summary": {
-   "value": "Clean index chain: 2014 tax deed -> 2015 resale to R. Mendez-Ortega -> 02/27/2015 W/D to Gaytan Crew Construction Co Inc (taxed owner = record owner). No mortgage, federal, HOA or L/P found after 2015. Pre-2014 City liens on prior owners (Sandling) no release but likely extinguished by the 2014 tax deed. Nothing identified that survives; risk is entity status/service and unseen images.",
-   "status": "inferred",
-   "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
-   "retrieved_at": "2026-11-24",
-   "note": "Lowest title risk of the five by index. Judgment 06/05/2024 -> TRCP 329 window runs to ~06/2026 (already past by date)."
-  }
- },
- "legal": {
-  "sale_type": {
-   "value": "SALE",
-   "status": "verified",
-   "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
-   "retrieved_at": "2026-11-13"
-  },
-  "cause_no": {
-   "value": "202163448",
-   "status": "verified",
-   "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
-   "retrieved_at": "2026-11-13"
-  },
-  "judgment_date": {
-   "value": "06/05/2024",
-   "status": "verified",
-   "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
-   "retrieved_at": "2026-11-13"
-  },
-  "redemption_or_new_trial_risk": {
-   "value": "Ventana TRCP 329 cerro el 2026-06-05 (si hubo citacion por publicacion)",
-   "status": "inferred",
-   "source": "calculo propio sobre lista oficial",
-   "retrieved_at": "2026-11-13",
-   "note": "calculo de fechas; el metodo de citacion esta bloqueado (District Clerk requiere login). Revisar con abogado."
-  },
-  "redemption_note": {
-   "value": "Sin homestead en el roll de HCAD: normalmente el plazo de redencion es corto (confirmar plazo y prima con abogado); si el dueno fuera de edad avanzada/exento por otra via, revisar.",
-   "status": "inferred",
-   "source": "inferido de HCAD jur_exempt",
-   "retrieved_at": "2026-11-13",
-   "note": "No es asesoria legal: attorney review recommended"
-  },
-  "tax_suit_defendants": {
-   "value": null,
-   "status": "blocked",
-   "source": "https://www.hcdistrictclerk.com",
-   "retrieved_at": "2026-11-13",
-   "note": "hcdistrictclerk.com requiere login"
-  },
-  "service_method": {
-   "value": null,
-   "status": "blocked",
-   "source": "https://www.hcdistrictclerk.com",
-   "retrieved_at": "2026-11-13",
-   "note": "hcdistrictclerk.com requiere login"
-  },
-  "bankruptcy": {
-   "value": null,
-   "status": "unknown",
-   "source": "busqueda web publica (inforuptcy/pacermonitor/CourtListener sin login) por nombre del dueno HCAD; CourtListener API devolvio 401",
-   "retrieved_at": "2026-11-24",
-   "note": "Sin coincidencia publica para GAYTAN CREW CONSTRUCTION CO INC; no es busqueda autoritativa (indices terceros incompletos, nombre solo parcial). Confirmar en PACER (cuenta de Miguel)."
-  },
-  "legal_summary": {
-   "value": "Causa 202163448: sentencia y tipo de venta leidos del condado. Demandados y metodo de citacion siguen bloqueados (hcdistrictclerk.com requiere login); busqueda publica de avisos y de bancarrota de GAYTAN CREW CONSTRUCTION CO INC no encontro nada (no concluyente). Ventana TRCP 329 por fechas: ver redemption_or_new_trial_risk. Flag for attorney review.",
-   "status": "inferred",
-   "source": "lista oficial hctax + busquedas publicas sin login",
-   "retrieved_at": "2026-11-24"
-  },
-  "public_notice_search": {
-   "value": "Sin aviso de citacion por publicacion encontrado para la causa ni el dueno (topics.txcourts.gov CitationsPublic, Houston Chronicle legals, busqueda web)",
-   "status": "unknown",
-   "source": "https://topics.txcourts.gov/CitationsPublic ; busqueda web",
-   "retrieved_at": "2026-11-24",
-   "note": "Ausencia en buscador web NO prueba citacion personal; el metodo de citacion sigue sin verificar. Nota: TRCP 117a limita la citacion por publicacion si el dueno registrado rindio la propiedad en los ultimos 5 anios; flag for attorney review."
-  }
- },
- "human_blockers": [
-  {
-   "agent": "legal",
-   "item": "Leer demandados y citacion del cause 202163448 en hcdistrictclerk.com (login)",
-   "why": "requiere login/cuenta"
-  },
-  {
-   "agent": "legal",
-   "item": "Buscar bancarrota de GAYTAN CREW CONSTRUCTION CO INC (1.0000% en PACER",
-   "why": "requiere login/cuenta"
-  },
-  {
-   "agent": "title",
-   "item": "Confirmar estatus activo de GAYTAN CREW CONSTRUCTION CO INC (SOS/Comptroller) y si fue citada (cause 202163448)",
-   "why": "hcdistrictclerk requiere login; SOS no consultado"
-  },
-  {
-   "agent": "legal",
-   "item": "Confirmar en PACER bancarrota de GAYTAN CREW CONSTRUCTION CO INC y en hcdistrictclerk.com demandados/citacion de causa 202163448",
-   "why": "busqueda publica sin resultados concluyentes; requiere login (txcourts)"
-  }
- ],
- "valuation": {
-  "value_base": {
-   "value": 102000.0,
-   "status": "inferred",
-   "source": "HCAD real_acct.txt tot_mkt_val",
-   "retrieved_at": "2026-11-13",
-   "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
-  },
-  "value_low": {
-   "value": null,
-   "status": "unknown",
-   "source": "calculo propio (scripts/valuation.py)",
-   "retrieved_at": "2026-11-13",
-   "note": "sin comparables no se inventa rango"
-  },
-  "value_high": {
-   "value": null,
-   "status": "unknown",
-   "source": "calculo propio (scripts/valuation.py)",
-   "retrieved_at": "2026-11-13",
-   "note": "sin comparables no se inventa rango"
-  },
-  "comps": {
-   "value": [],
-   "status": "unknown",
-   "source": "calculo propio (scripts/valuation.py)",
-   "retrieved_at": "2026-11-13",
-   "note": "no accesibles desde este entorno"
-  },
-  "expected_close_from_ratio": {
-   "value": 51714.0,
-   "status": "inferred",
-   "source": "calculo propio (scripts/valuation.py)",
-   "retrieved_at": "2026-11-13",
-   "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
-  },
-  "expected_close_from_premium": {
-   "value": 17603.32,
-   "status": "inferred",
-   "source": "calculo propio (scripts/valuation.py)",
-   "retrieved_at": "2026-11-13",
-   "note": "apertura x 1.088 (benchmark del playbook)"
-  },
-  "all_in_costs": {
-   "value": {
-    "puja_esperada": 51714.0,
-    "impuestos_que_hereda": 8450.15,
-    "quiet_title_supuesto": 4000,
-    "cierre_supuesto": 1551.42,
-    "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
-   },
-   "status": "inferred",
-   "source": "calculo propio (scripts/valuation.py)",
-   "retrieved_at": "2026-11-13",
-   "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
-  },
-  "all_in_cost_at_expected_close": {
-   "value": 65715.57,
-   "status": "inferred",
-   "source": "calculo propio (scripts/valuation.py)",
-   "retrieved_at": "2026-11-13"
-  },
-  "bid_ceiling": {
-   "value": 67135.78,
-   "status": "inferred",
-   "source": "calculo propio (scripts/valuation.py)",
-   "retrieved_at": "2026-11-13",
-   "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
-  },
-  "margin_at_expected_close": {
-   "value": 0.552,
-   "status": "inferred",
-   "source": "calculo propio (scripts/valuation.py)",
-   "retrieved_at": "2026-11-13",
-   "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
-  },
-  "exit_strategy_used": {
-   "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
-   "status": "inferred",
-   "source": "calculo propio (scripts/valuation.py)",
-   "retrieved_at": "2026-11-13"
-  }
- },
- "review": {
-  "decision": "CONDICIONAL",
-  "rationale": "Lote vacio 12,400 sf (GIS 12,352), Houston, FEMA X, sin homestead; la ventana TRCP 329 ya cerro el 2026-06-05 (sentencia 2024-06-05), lo que reduce el riesgo de citacion por publicacion. Hechos decisivos: apertura $16,180 vs HCAD $102,000 y cola de impuestos de ~$8,450 (post-sentencia $6,282); legal sigue bloqueado y el dueno es una corporacion (posible entidad inactiva). Mejor perfil del lote pero requiere verificar demandados; attorney review recommended.",
-  "bid_ceiling": 67135.78,
-  "all_in_cost_estimate": 65715.57,
-  "contradictions": [
-   "Dueno entidad (GAYTAN CREW CONSTRUCTION CO INC) con direccion de apartamento: confirmar estatus en Texas SOS/Comptroller (forfeited/dissolved) para citacion y redencion.",
-   "Terreno HCAD en dos segmentos (8,000+4,400 sf) y 3 escrituras (2014/2015) para un solo 'LT 18': confirmar que es un lote unico y no dos predios.",
-   "Titulo con 0 filas (solo por nombre) pese a 3 escrituras recientes en HCAD: indice por nombre no confiable; gravamenes sin descartar.",
-   "Cola de impuestos $8,450 depende de post-sentencia $6,282; revisar si 2026 ya esta incluido."
+  "human_blockers": [
+    {
+      "agent": "legal",
+      "item": "Leer demandados y citacion del cause 202163448 en hcdistrictclerk.com (login)",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "legal",
+      "item": "Buscar bancarrota de GAYTAN CREW CONSTRUCTION CO INC (1.0000% en PACER",
+      "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Confirmar estatus activo de GAYTAN CREW CONSTRUCTION CO INC (SOS/Comptroller) y si fue citada (cause 202163448)",
+      "why": "hcdistrictclerk requiere login; SOS no consultado"
+    },
+    {
+      "agent": "legal",
+      "item": "Confirmar en PACER bancarrota de GAYTAN CREW CONSTRUCTION CO INC y en hcdistrictclerk.com demandados/citacion de causa 202163448",
+      "why": "busqueda publica sin resultados concluyentes; requiere login (txcourts)"
+    },
+    {
+      "agent": "reviewer",
+      "item": "Confirmar estatus SOS de GAYTAN CREW CONSTRUCTION CO INC y ver imagenes 20150079625/20150010358/20140420365",
+      "why": "SOS no consultado; imagenes del Clerk"
+    }
   ],
-  "conditions_to_buy": [
-   "Confirmar estatus de la entidad en Texas SOS",
-   "Leer indice del Clerk por legal LT 18 BLK 25 SUNNYSIDE GARDENS (escrituras 2015-0079625, 2014-0420365, 2015-0010358)",
-   "Leer demandados, tipo de citacion (personal vs publicacion) y sentencia del cause en hcdistrictclerk.com (login de Miguel)",
-   "Confirmar sin bancarrota en PACER",
-   "Pedir estado de cuenta de impuestos actualizado (incluye 2026) y apertura final antes de pujar",
-   "Attorney review recommended: plazo/prima de redencion y riesgo TRCP 329 antes de pujar",
-   "Verificar acceso legal/fisico, linderos, zonificacion/deed restrictions para duplex (no evaluado)"
-  ]
- }
+  "valuation": {
+    "value_base": {
+      "value": 102000.0,
+      "status": "inferred",
+      "source": "HCAD real_acct.txt tot_mkt_val",
+      "retrieved_at": "2026-11-13",
+      "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
+    },
+    "value_low": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "value_high": {
+      "value": null,
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "sin comparables no se inventa rango"
+    },
+    "comps": {
+      "value": [],
+      "status": "unknown",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "no accesibles desde este entorno"
+    },
+    "expected_close_from_ratio": {
+      "value": 51714.0,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
+    },
+    "expected_close_from_premium": {
+      "value": 17603.32,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "apertura x 1.088 (benchmark del playbook)"
+    },
+    "all_in_costs": {
+      "value": {
+        "puja_esperada": 51714.0,
+        "impuestos_que_hereda": 8450.15,
+        "quiet_title_supuesto": 4000,
+        "cierre_supuesto": 1551.42,
+        "liens_que_sobreviven": "NO CUANTIFICADO (indice del Clerk sin leer)"
+      },
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
+    },
+    "all_in_cost_at_expected_close": {
+      "value": 65715.57,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    },
+    "bid_ceiling": {
+      "value": 67135.78,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
+    },
+    "margin_at_expected_close": {
+      "value": 0.552,
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13",
+      "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
+    },
+    "exit_strategy_used": {
+      "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
+      "status": "inferred",
+      "source": "calculo propio (scripts/valuation.py)",
+      "retrieved_at": "2026-11-13"
+    }
+  },
+  "review": {
+    "decision": "CONDICIONAL",
+    "rationale": "Lote vacio de 12,400 sf (GIS 12,352, ~62x199 ft) en City of Houston, FEMA X, HCAD $102,000: el de cadena de titulo mas limpia del grupo. Hechos decisivos: (1) el indice por legal muestra cadena 2014 tax deed a unidades fiscales -> reventa 2015 -> W/D 02/27/2015 a Gaytan Crew Construction (20150079625) = dueno taxed, sin hipoteca, federal, HOA ni L/P posteriores a 2015 (los liens City 2009-2011 son de los Sandling, previos al tax deed); (2) legal bloqueado y la entidad dueña (direccion de apartamento) podria estar inactiva/forfeited, lo que afecta citacion; la ventana TRCP 329 (sentencia 2024-06-05) cerro por fecha el 2026-06-05, aplicable solo si hubo publicacion. COMPRA FUERTE no esta permitido porque legal esta bloqueado. Se mantiene CONDICIONAL con mejor soporte que en la revision barata; attorney review recommended.",
+    "bid_ceiling": 67135.78,
+    "all_in_cost_estimate": 65715.57,
+    "contradictions": [
+      "Revision barata marcaba 'titulo con 0 filas' y duda sobre 3 escrituras HCAD (2014/2015): el title profundo las resuelve (tax deed 2014, resale 2015, W/D a Gaytan Crew), por lo que esas contradicciones quedan cerradas; solo es indice, sin imagenes (vesting 'verified' sobre fila de indice).",
+      "hcad_owner_since 02/25/2015 vs W/D 02/27/2015 (film RP094100302): desfase de 2 dias, probablemente fecha de registro vs fecha del instrumento; sin impacto.",
+      "Liens City of Houston 2009-2011 (20090371318...20110137477) sin liberacion: contra los Sandling, anteriores al tax deed de 2014; extincion es inferida. Si no se extinguieron, el modelo los tiene en $0 (liens_que_sobreviven='NO CUANTIFICADO').",
+      "Cola de impuestos $8,450 (post-sentencia $6,282 + estimado 2026 $2,168) es la mayor del grupo; apertura $16,180 < total adeudado $18,968, es decir la apertura excluye los impuestos post-sentencia; el comprador los hereda: consistente con all_in_costs, pero verificar que 2025/2026 esten al dia en el estado de cuenta.",
+      "Terreno HCAD en dos segmentos (8,000 + 4,400 sf) para un solo LT 18: confirmar que es un unico lote para duplex; entidad dueña con direccion de apartamento: estatus SOS no verificado.",
+      "Cierre esperado $51,714 (ratio 0.507) vs techo $67,136: el techo es teorico, sin comps."
+    ],
+    "conditions_to_buy": [
+      "Confirmar estatus de Gaytan Crew Construction Co Inc en Texas SOS/Comptroller y leer en hcdistrictclerk.com (login de Miguel) demandados/citacion de la causa 202163448; attorney review recommended",
+      "PACER: bancarrota de la entidad",
+      "Ver imagenes 20150079625, 20150010358 y 20140420365 para confirmar que el tax deed 2014 y la reventa 2015 cortan los liens City 2009-2011 contra Sandling",
+      "Estado de cuenta de impuestos actualizado (incluye 2026) y apertura final del 2026-12-01",
+      "Confirmar un solo lote (8,000+4,400 sf), zonificacion/restricciones y dimensiones (~62x199 ft) para duplex; visita al sitio"
+    ]
+  }
 }
