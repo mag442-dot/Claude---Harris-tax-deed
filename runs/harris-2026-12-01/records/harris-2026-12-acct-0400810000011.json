@@ -330,6 +330,77 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'MENDIOLA SILVIA')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "NOT FOUND: no deed to MENDIOLA SILVIA in the index (0 grantee deeds; only grantee hit is the 2026 City lien). Legal searches on Abst 1 Tracts 5A, 5B, 11A returned no vesting deed.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal AUSTIN J Abst 1 Tracts 5A/5B/11A + names MENDIOLA SILVIA, FGMS HOLDINGS LLC, CARDENAS AUTO SALES/LARA ANA MARIA, 2026-11-24) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "Probably pre-dates indexed formats or is recorded under a different name; check older vol/page / film code images or title company."
+    },
+    "mortgages": {
+      "value": "No D/T found under MENDIOLA SILVIA or on tracts 5A/5B/11A. But RP-2020-51013 | 02/04/2020 | CONT (contract) | MENDIOLA SILVIA -> FGMS HOLDINGS LLC | JOHN AUSTIN GRANT Abst 1, 0.4579 ac (HCAD acreage 0.4500 / 19,600 sf) - a contract of sale / possible contract for deed; no release or cancellation seen.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal AUSTIN J Abst 1 Tracts 5A/5B/11A + names MENDIOLA SILVIA, FGMS HOLDINGS LLC, CARDENAS AUTO SALES/LARA ANA MARIA, 2026-11-24) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "FGMS HOLDINGS LLC grantor/grantee searches hit the 200-row cap (common prefix) so completeness not guaranteed; the date-restricted search (02/2020) did surface the CONT. Equitable title/vendor's lien interest of FGMS could survive; need image."
+    },
+    "liens_federal": {
+      "value": "none found under MENDIOLA SILVIA (only 2 index rows total)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "Common name 'MENDIOLA SILVIA' (no middle name): 'MENDIOLA SILV' prefix returned the same 2 rows, under the 200 cap."
+    },
+    "liens_city_county": {
+      "value": "RP-2026-408989 | 10/08/2026 | LIEN | CITY OF HOUSTON vs MENDIOLA SILVIA | AUSTIN J Abst 1 (no tract/lot) | no release | ~47 days old. Lien type (nuisance/ weeds/ demolition/ paving) unknown. Identity: name only; desc Abst 1 consistent with HCAD but tract not stated.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee MENDIOLA SILVIA) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "Recorded after suit 202211671. City liens may or may not be cut off depending on joinder; treat as possibly surviving and obtain amount from image/ City of Houston."
+    },
+    "liens_hoa_lispendens": {
+      "value": "Possible prior cloud (not tied to Mendiola by name): L/P RP-2016-131873 (03/31/2016, Sanchez Jose v. Cardenas Auto Sales / Lara Ana Maria, AUSTIN J Abst 1 Tract 5A-5B); L/P RP-2018-500580 (11/02/2018, Jackson Law Firm); A/J RP-2019-206266 (05/17/2019 Jackson Law Firm vs Cardenas/Lara); NOTICE RP-2019-8538; RELs/CANCEL RP-2021-39239, 39240, 39241 (PT REL), 303398 (2021). All indexed as released/cancelled in 2021 (index only).",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal AUSTIN J Abst 1 Tracts 5A/5B/11A + names MENDIOLA SILVIA, FGMS HOLDINGS LLC, CARDENAS AUTO SALES/LARA ANA MARIA, 2026-11-24) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "Tract 5A-5B overlaps HCAD tract 5A 5B & 11A, but nothing links these parties to Silvia Mendiola; identity/relevance unconfirmed. Image review needed."
+    },
+    "child_support_liens": {
+      "value": "none found under MENDIOLA SILVIA",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name)",
+      "retrieved_at": "2026-11-24"
+    },
+    "restrictions": {
+      "value": "not located; unplatted abstract tract (no subdivision restrictions indexed)",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal AUSTIN J Abst 1 Tracts 5A/5B/11A + names MENDIOLA SILVIA, FGMS HOLDINGS LLC, CARDENAS AUTO SALES/LARA ANA MARIA, 2026-11-24)",
+      "retrieved_at": "2026-11-24"
+    },
+    "tdhca_status": {
+      "value": "Not a manufactured-home record by HCAD class (A1, 1,873 sf, 1945). mhweb not queried.",
+      "status": "inferred",
+      "source": "HCAD Real_acct_owner",
+      "retrieved_at": "2026-11-24"
+    },
+    "owner_deceased_heirs": {
+      "value": "No heirship affidavit under MENDIOLA SILVIA; indications none",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name)",
+      "retrieved_at": "2026-11-24"
+    },
+    "title_summary": {
+      "value": "Record title UNVERIFIED: no deed to Silvia Mendiola found, and RP-2020-51013 shows her as grantor on a 0.4579-ac CONT to FGMS Holdings LLC (02/04/2020), matching this tract's size - FGMS may hold equitable/legal title or a contract interest not released. City of Houston lien RP-2026-408989 (10/08/2026) unreleased. A cluster of earlier L/P / A/J / releases on tracts 5A-5B (Cardenas Auto Sales) was cleared in 2021 per index. High title risk; attorney/image review before bidding.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal AUSTIN J Abst 1 Tracts 5A/5B/11A + names MENDIOLA SILVIA, FGMS HOLDINGS LLC, CARDENAS AUTO SALES/LARA ANA MARIA, 2026-11-24)",
+      "retrieved_at": "2026-11-24"
+    },
+    "clerk_search_scope": {
+      "value": "Deep search 2026-11-24: owner name (grantor+grantee, incl. variants/co-owners) and legal fields (desc/lot/block/section/abstract/tract); date-restricted (<=2012) name searches returned no rows, so pre-2008 volume/page instruments are NOT covered by name search; images not read.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24"
     }
   },
   "legal": {
@@ -415,6 +486,16 @@
       "agent": "reviewer",
       "item": "Leer imagenes del Clerk: LIEN RP-2026-408989 (Ciudad de Houston) y CONT RP-2020-51013 (FGMS HOLDINGS LLC); confirmar si sobreviven la venta",
       "why": "requiere leer imagenes del Clerk / abogado (revision en modo barato, sin busquedas nuevas)"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen RP-2020-51013 (CONT Mendiola -> FGMS Holdings LLC): tipo de contrato, legal, si transfirio titulo",
+      "why": "imagen del Clerk; puede significar que el dueno registral/equitable no es el demandado de impuestos"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen RP-2026-408989 (lien Ciudad de Houston): tipo y monto, y si afecta este tracto",
+      "why": "imagen del Clerk"
     }
   ],
   "valuation": {

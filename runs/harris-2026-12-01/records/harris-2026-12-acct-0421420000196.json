@@ -326,6 +326,80 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CHAMBERS PROPERTIES')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2019-232557 | 06/04/2019 | W/D | CHAMBERS JUDY -> CHAMBERS PROPERTIES | GOSLING L Abst '80' (typo for 280) 2.9328 ac",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal GOSLING L Abst 280 Tract 8A-1/8A + names CHAMBERS PROPERTIES(LLC), CHAMBERS JUDY(A), NTN WEST GOSLING, 2026-11-24) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "Acreage 2.9328 = HCAD 2.9320 ac, supports the match. Grantee recorded without 'LLC'; later release names 'CHAMBERS PROPERTIES LLC'. HCAD owner 'CHAMBERS PROPERTIES' but see RP-2024-113042."
+    },
+    "mortgages": {
+      "value": [
+        "RP-2019-232558 | 06/04/2019 | D/T CHAMBERS PROPERTIES -> WINDMILL RESOURCES LLC (tr WILSON MARK D), GODLING [sic] L Abst 80 2.9328 | RELEASED RP-2020-310618 07/14/2020 (index only)",
+        "RP-2020-310619 | 07/14/2020 | D/T CHAMBERS PROPERTIES -> JET LENDING LLC (tr HARMON CLIFFORD D), GOSLING L Abst 280 2.9328 | ASSGN RP-2020-310620 | RELEASED RP-2023-35122 02/01/2023 JET LENDING -> CHAMBERS PROPERTIES LLC (index only)",
+        "Pre-vesting (grantor Judy A Chambers): RELs RP-2019-332608, RP-2019-332593 (FNA DZ LLC, Tract 8A-1), RP-2019-332627 (AVT Lending/Homefront Tax Loans re FI STM RP-2016-20996), all 07/31/2019 (index only)"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal GOSLING L Abst 280 Tract 8A-1/8A + names CHAMBERS PROPERTIES(LLC), CHAMBERS JUDY(A), NTN WEST GOSLING, 2026-11-24) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "Releases seen only in index -> inferred. No open D/T found after 02/01/2023. Assignment RP-2020-310620 is indexed grantor=Chambers Properties (odd direction); confirm assignee/holder on image."
+    },
+    "liens_federal": {
+      "value": "none found under CHAMBERS PROPERTIES / CHAMBERS JUDY(A)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "Same-name risk: Judy A Chambers also appears with other properties (Suburban Ranches, Cricket Hill Estates)."
+    },
+    "liens_city_county": {
+      "value": "RP-2026-148432 | 04/20/2026 | A/J | KLEIN INDEPENDENT SCHOOL DISTRICT vs CHAMBERS JUDY A (comment SEE INSTRUMENT) - debtor is individual Judy A Chambers, not the vested entity CHAMBERS PROPERTIES; no desc. Not attributed to the parcel; unverified whether it is a tax judgment.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee CHAMBERS JUDY) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "Identity unconfirmed (no middle name/address on index row); Judy sold this tract to the entity in 2019, so a lien on her would not reach it except via prior recorded abstracts - none found before 2019 other than released ones."
+    },
+    "liens_hoa_lispendens": {
+      "value": "none found on Abst 280 / Tract 8A-1 (no L/P or HOA rows). Easements: RP-2023-97832 (03/21/2023, 2.67 ac) and RP-2023-145764 (04/25/2023) CONSNT CenterPoint Energy Houston Electric LLC / consent to Chambers Judy & Chambers Properties - encumbrance of utility easement that would survive a tax sale.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal + names) (index only, no images)",
+      "retrieved_at": "2026-11-24"
+    },
+    "child_support_liens": {
+      "value": "none found",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names)",
+      "retrieved_at": "2026-11-24"
+    },
+    "restrictions": {
+      "value": "Easement/consent instruments RP-2023-97832, RP-2023-145764 (CenterPoint). No subdivision restrictions (unplatted acreage, 'TR 8A-1 ABST 280 L GOSLING').",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal) (index only, no images)",
+      "retrieved_at": "2026-11-24"
+    },
+    "tdhca_status": {
+      "value": "N/A: HCAD class F1 (commercial/ vacant land, 0 sf building), not a manufactured home",
+      "status": "inferred",
+      "source": "HCAD Real_acct_owner",
+      "retrieved_at": "2026-11-24"
+    },
+    "owner_deceased_heirs": {
+      "value": "Entity owner; no heirship issue. Prior owner Judy A Chambers alive per 2026 A/J; no affidavits found.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names)",
+      "retrieved_at": "2026-11-24"
+    },
+    "title_summary": {
+      "value": "CRITICAL: RP-2024-113042 (04/01/2024) W/D CHAMBERS PROPERTIES -> NTN WEST GOSLING LLC for Landmark at Auburn Lakes Blk 1 Reserve A sits in the same Gosling Abst 280 area (NTN also bought 1.693 and 1.988 ac the same day). Not confirmed whether it conveyed the taxed 2.932 ac; if so record owner is NTN West Gosling LLC, not the taxed owner. All Chambers mortgages (Windmill, Jet Lending) show released in index only (inferred). CenterPoint easements survive. Klein ISD A/J 2026 vs Judy A Chambers is not attributed to the parcel.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal GOSLING L Abst 280 Tract 8A-1/8A + names CHAMBERS PROPERTIES(LLC), CHAMBERS JUDY(A), NTN WEST GOSLING, 2026-11-24)",
+      "retrieved_at": "2026-11-24"
+    },
+    "clerk_search_scope": {
+      "value": "Deep search 2026-11-24: owner name (grantor+grantee, incl. variants/co-owners) and legal fields (desc/lot/block/section/abstract/tract); date-restricted (<=2012) name searches returned no rows, so pre-2008 volume/page instruments are NOT covered by name search; images not read.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24"
     }
   },
   "legal": {
@@ -411,6 +485,16 @@
       "agent": "reviewer",
       "item": "Leer imagenes de CONSNT CenterPoint RP-2023-97832 / RP-2023-145764 y confirmar servidumbres y entidad demandada exacta",
       "why": "requiere leer imagenes del Clerk / abogado (revision en modo barato, sin busquedas nuevas)"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen de RP-2024-113042 (W/D a NTN West Gosling LLC) y comparar legal vs 2.9328 ac / Tr 8A-1; confirmar si el titular registral es NTN y si fue demandado",
+      "why": "puede cambiar el dueño de registro; solo imagen del Clerk lo aclara"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagenes de liberaciones RP-2020-310618 y RP-2023-35122 (D/T Windmill / Jet Lending) para pasar de inferred a verified",
+      "why": "imagenes del Clerk"
     }
   ],
   "valuation": {

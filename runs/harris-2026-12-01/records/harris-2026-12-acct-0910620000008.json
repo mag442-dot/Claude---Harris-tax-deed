@@ -333,6 +333,78 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'CLUTTER LINDA')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2017-113718 | 03/17/2017 | W/D | REO HOLDINGS LTD -> CLUTTER LINDA | TANGLEBRIAR Sec 4 Lot 8 Blk 22",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal TANGLEBRIAR Sec 4 Lot 8 Blk 22 + names CLUTTER LINDA(M), CLUTTER RAYMOND, 2026-11-24) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "Matches HCAD legal LT 8 BLK 22 TANGLEBRIAR SEC 4. Chain: RP-2016-387786 (08/30/2016) W/D Ford Roger W Est/Hawkins Diane -> REO Holdings Ltd; AFFTs RP-2016-387788/89 (heirship style). Image not read."
+    },
+    "mortgages": {
+      "value": [
+        "RP-2017-113719 | 03/17/2017 | D/T CLUTTER LINDA M -> MERS / QUICKEN LOANS INC (trustee SILVA JASON), no legal in index | RELEASED RP-2017-295538 07/03/2017 MERS/Quicken -> CLUTTER LINDA, Tanglebriar Sec 4 Lot 8 Blk 22 (index only)"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal TANGLEBRIAR Sec 4 Lot 8 Blk 22 + names CLUTTER LINDA(M), CLUTTER RAYMOND, 2026-11-24) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "Pairing D/T-to-release is by lender and date, not by cross-reference; no later D/T found. Prior Chase release RP-2017-88167 (03/02/2017, Linda M & Raymond D Clutter) relates to Inwood Forest Sec 2 Lot 22 Blk 1 (sold 02/13/2017), a different property."
+    },
+    "liens_federal": {
+      "value": "none found (no IRS CERT / DOJ rows under CLUTTER LINDA/LINDA M/RAYMOND)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names) (index only, no images)",
+      "retrieved_at": "2026-11-24"
+    },
+    "liens_city_county": {
+      "value": "RP-2026-368055 | 09/10/2026 | A/J (abstract of judgment) CAPITAL ONE N A & DISCOVER BANK v. CLUTTER LINDA M, amount/cause not in index | no release | ~75 days old. Not a city/county lien; recorded after tax suit cause 202221795 (2022).",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee CLUTTER LINDA) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "Identity partially matched: 'LINDA M' same as the 2017 D/T grantor; no address/legal on index row. Likely consumer-credit judgment; attaches to non-exempt real property of debtor. Whether it survives the tax sale depends on joinder (cause 202221795) - legal/attorney."
+    },
+    "liens_hoa_lispendens": {
+      "value": "none found on Tanglebriar Sec 4 Lot 8 Blk 22 (no HOA, L/P or mechanic's lien rows)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal TANGLEBRIAR Sec 4 Lot 8 Blk 22 + names CLUTTER LINDA(M), CLUTTER RAYMOND, 2026-11-24) (index only, no images)",
+      "retrieved_at": "2026-11-24"
+    },
+    "child_support_liens": {
+      "value": "none found",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names)",
+      "retrieved_at": "2026-11-24"
+    },
+    "restrictions": {
+      "value": "not located: no RESTR instrument surfaced for Tanglebriar Sec 4",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal TANGLEBRIAR Sec 4 Lot 8 Blk 22 + names CLUTTER LINDA(M), CLUTTER RAYMOND, 2026-11-24)",
+      "retrieved_at": "2026-11-24",
+      "note": "Check plat/ deed restrictions on image; Tanglebriar (Pasadena)."
+    },
+    "tdhca_status": {
+      "value": "Not a manufactured-home record: HCAD class A1, 1,482 sf, 1963. mhweb not queried.",
+      "status": "inferred",
+      "source": "HCAD Real_acct_owner",
+      "retrieved_at": "2026-11-24"
+    },
+    "owner_deceased_heirs": {
+      "value": "Linda M Clutter appears alive in 2026 (A/J names her as debtor). Raymond Duane Clutter is deceased per RP-2017-62566 AFFT (EST) on a different property (Inwood Forest) and is not on current title.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names) (index only, no images)",
+      "retrieved_at": "2026-11-24"
+    },
+    "title_summary": {
+      "value": "Vesting chain consistent (REO Holdings -> Clutter Linda, 03/17/2017). The 2017 Quicken D/T shows released 07/03/2017 (index only, inferred). Only encumbrance of note: Capital One/Discover A/J recorded 09/10/2026 vs Clutter Linda M, unreleased, identity partially confirmed. No federal, city, HOA or L/P found.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal TANGLEBRIAR Sec 4 Lot 8 Blk 22 + names CLUTTER LINDA(M), CLUTTER RAYMOND, 2026-11-24)",
+      "retrieved_at": "2026-11-24"
+    },
+    "clerk_search_scope": {
+      "value": "Deep search 2026-11-24: owner name (grantor+grantee, incl. variants/co-owners) and legal fields (desc/lot/block/section/abstract/tract); date-restricted (<=2012) name searches returned no rows, so pre-2008 volume/page instruments are NOT covered by name search; images not read.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24"
     }
   },
   "legal": {
@@ -418,6 +490,16 @@
       "agent": "reviewer",
       "item": "Leer imagen de A/J RP-2026-368055 (Capital One/Discover vs Clutter Linda M) y confirmar si sobrevive la venta",
       "why": "requiere leer imagenes del Clerk / abogado (revision en modo barato, sin busquedas nuevas)"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen de A/J RP-2026-368055 (monto, domicilio del deudor, cause) y confirmar si fueron demandados en cause 202221795",
+      "why": "imagen del Clerk; determina si el A/J sobrevive a la venta"
+    },
+    {
+      "agent": "title",
+      "item": "Opcional: imagen de RP-2017-295538 para pasar la liberacion Quicken a verified",
+      "why": "imagen del Clerk"
     }
   ],
   "valuation": {

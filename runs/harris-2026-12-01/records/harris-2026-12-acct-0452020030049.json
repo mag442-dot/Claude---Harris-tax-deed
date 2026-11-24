@@ -357,6 +357,75 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'FAIRBANKS INDUSTRIAL')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "NOT FOUND. No instrument indexed for WCRR CO Sec 19 Blk 4 Abst 898 Tract 8C-2 or 8F (tract searches returned 0). Every deed to FAIRBANKS INDUSTRIAL LLC (18 grantee rows 2017-2022) is for other legals (Northwest Park, Houston Gardens, Aldine Gardens, North Houston, W L Hill, N Houston Gardens), none mentions Abstract 898 or Hambrick.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal W C R R CO Sec 19 Blk 4 Abst 898 tracts 8C-2/8F + name FAIRBANKS INDUSTRIAL (grantor/grantee, desc), 2026-11-24) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "Record title of FAIRBANKS INDUSTRIAL LLC to 231 Hambrick Rd is unverified; a prior owner/older deed (pre-2008 vol/page) may be the actual vesting. Searches by date <=2017 under the entity returned nothing."
+    },
+    "mortgages": {
+      "value": "None attributable to the Abst 898 tract. Fairbanks Industrial LLC D/Ts exist but all on other legals: RP-2022-59873, RP-2021-500580, RP-2021-443401, RP-2020-620418, RP-2024-24872 (Stellar), RP-2026-196813 (N Houston Lot 15-16 Blk 9), RP-2022-67019 (Frost). RP-2022-506914/15/16 SUBORD (Bank of Texas) cover S Powell One-Third League Abst 622, not Abst 898.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal W C R R CO Sec 19 Blk 4 Abst 898 tracts 8C-2/8F + name FAIRBANKS INDUSTRIAL (grantor/grantee, desc), 2026-11-24) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "An unlisted blanket/cross-collateral D/T could cover this tract; images of the Fairbanks D/Ts needed to rule out. Reviewer-flagged RP-2022-506914 / RP-2022-61067 are Abst 622 (Fairbanks Industrial Park), different abstract from HCAD Abst 898."
+    },
+    "liens_federal": {
+      "value": "none found under FAIRBANKS INDUSTRIAL (no CERT/IRS/A/J rows in 45 name hits)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name FAIRBANKS INDUSTRIAL) (index only, no images)",
+      "retrieved_at": "2026-11-24"
+    },
+    "liens_city_county": {
+      "value": "none found against the entity; Harris County Engineering NOTICE rows found for Abst 898 belong to other tracts/owners",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal WCRR 19/4/898)",
+      "retrieved_at": "2026-11-24"
+    },
+    "liens_hoa_lispendens": {
+      "value": "No HOA/L/P/mechanic's lien on the subject tract. RP-2022-61067 RESTR (02/02/2022) creates Fairbanks Industrial Park Property Owners Association covenants for S Powell One-Third League Abst 622 (40.99 ac comment) - not shown to cover Abst 898.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name + legal) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "Confirm on image whether the POA covers 231 Hambrick."
+    },
+    "child_support_liens": {
+      "value": "none found (entity owner)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name)",
+      "retrieved_at": "2026-11-24"
+    },
+    "restrictions": {
+      "value": "Possible: RP-2022-61067 RESTR Fairbanks Industrial Park POA (Abst 622). No restriction located for WCRR Sec 19 Blk 4 Abst 898 tract.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (RP-2022-61067) (index only, no images)",
+      "retrieved_at": "2026-11-24"
+    },
+    "tdhca_status": {
+      "value": "Not a manufactured-home record: HCAD state class A1, 2,445 sf, 1942, 2.66 ac. mhweb not queried.",
+      "status": "inferred",
+      "source": "HCAD Real_acct_owner",
+      "retrieved_at": "2026-11-24"
+    },
+    "owner_deceased_heirs": {
+      "value": "Entity owner (LLC); no death issue. Note RP-2022-59872/59871: Dhingra R K EST / Khandjua as grantors to Fairbanks for Northwest Park (other property).",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name)",
+      "retrieved_at": "2026-11-24"
+    },
+    "title_summary": {
+      "value": "Could not tie FAIRBANKS INDUSTRIAL LLC to the Abst 898 tract by legal description: zero indexed instruments for tracts 8C-2/8F. No lien, L/P, federal or HOA instrument found attributable to this parcel; the entity has many D/Ts (Allegiance, Stellar, Frost, Post Oak) on OTHER properties. Treat title as UNVERIFIED, not clean: unknown if a blanket lien exists.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal W C R R CO Sec 19 Blk 4 Abst 898 tracts 8C-2/8F + name FAIRBANKS INDUSTRIAL (grantor/grantee, desc), 2026-11-24)",
+      "retrieved_at": "2026-11-24"
+    },
+    "clerk_search_scope": {
+      "value": "Deep search 2026-11-24: owner name (grantor+grantee, incl. variants/co-owners) and legal fields (desc/lot/block/section/abstract/tract); date-restricted (<=2012) name searches returned no rows, so pre-2008 volume/page instruments are NOT covered by name search; images not read.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24"
     }
   },
   "legal": {
@@ -442,6 +511,11 @@
       "agent": "reviewer",
       "item": "Leer imagenes del Clerk y confirmar citacion/titular actual antes de pujar: Leer RP-2022-506914 y RP-2022-61067 (imagenes) y confirmar si afectan el predio ABST 898",
       "why": "el revisor barato solo lee el indice; attorney review recommended"
+    },
+    {
+      "agent": "title",
+      "item": "Pedir cadena de dominio/escritura vigente de 231 Hambrick Rd (Abst 898 Tr 8C-2/8F) a title company o leer imagenes de los D/T de Fairbanks Industrial",
+      "why": "indice no contiene escritura para este tracto; hace falta imagen o title company"
     }
   ],
   "valuation": {

@@ -354,6 +354,83 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RANGEL EVARISTO')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "NOT FOUND for HCAD legal LT 4 BLK 3 GALENA MANOR (zero instruments indexed for Lot 4 Block 3; prefix search only returned Lot 4 Block 13, other owner). Only deed in the taxed owners' names is RP-2019-457896, 10/16/2019, W/D, Top One Investments LLC -> CRUZ REYNA MARIA & RANGEL EVARISTO, but it describes GALENA MANOR Lot 6 Block 4.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal Galena Manor Lot 4 Blk 3 + names RANGEL EVARISTO / CRUZ REYNA, Sale+Sold date ranges, 2026-11-24) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "MISMATCH: HCAD legal says Lot 4 Blk 3; the only recorded vesting deed for these owners says Lot 6 Blk 4. Either HCAD legal/site address is wrong, the deed is for another parcel, or the vesting deed for 2510 5th St is not indexed under these names. Cannot confirm record title = taxed owner. Pre-2008 / volume-page instruments are not name-searchable; searches with date <=2012 returned nothing."
+    },
+    "mortgages": {
+      "value": [
+        "RP-2025-162874 | 05/01/2025 | D/T | CRUZ REYNA MARIA & RANGEL EVARISTO -> SIERRA VISTA REALTY LLC (trustee GARZA ERIK) | GALENA MANOR Lot 6 Block 4 | NO release in index (~19 months old)",
+        "RP-2025-162875 | 05/01/2025 | ASSGN (same parties, Lot 6 Blk 4)",
+        "RP-2019-370295 08/22/2019 W/D Ross heirs -> Top One Investments; RP-2019-320610 07/25/2019 MEMO Top One Investments/Shelton Minnie (Lot 6 Blk 4) - prior chain, not a lien finding"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal Galena Manor Lot 4 Blk 3 + names RANGEL EVARISTO / CRUZ REYNA, Sale+Sold date ranges, 2026-11-24) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "Applies to the parcel only if Lot 6 Blk 4 is the taxed parcel (see vesting mismatch). Recorded after tax suit cause 202562112 judgment years (2019-2025) accrued; survival of a private deed of trust through a tax sale depends on whether the lender was joined as defendant (legal agent / attorney; do not assume extinguished)."
+    },
+    "liens_federal": {
+      "value": "none found in name searches (no CERT / IRS / DOJ / A/J rows under RANGEL EVARISTO or CRUZ REYNA M)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name RANGEL EVARISTO, CRUZ REYNA) (index only, no images)",
+      "retrieved_at": "2026-11-24",
+      "note": "Common-name risk: 'CRUZ REYNA' search returned 24 grantor / 28 grantee rows (below 200 cap) but spellings like REYNA M CRUZ, RANGEL EVARISTO JR, or Rangel Evaristo with other 2nd surname were not exhaustively run; only 'RANGEL E' prefix (other people) and exact names."
+    },
+    "liens_city_county": {
+      "value": "none found (no LIEN rows for city/county/state)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names + legal)",
+      "retrieved_at": "2026-11-24",
+      "note": "Index only; city code-enforcement liens may be filed under address/ other description."
+    },
+    "liens_hoa_lispendens": {
+      "value": "none found for Galena Manor Lot 4 Blk 3; no L/P, HOA, mechanic's lien rows under either owner name",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal + names) (index only, no images)",
+      "retrieved_at": "2026-11-24"
+    },
+    "child_support_liens": {
+      "value": "none found in index (child-support liens are recorded as LIEN/A/J rows; none under owner names)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names)",
+      "retrieved_at": "2026-11-24",
+      "note": "Same-name risk; OAG liens often lack legal description."
+    },
+    "restrictions": {
+      "value": "not located: no RESTR instrument surfaced for Galena Manor in the searches run",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal GALENA MANOR Blk 3)",
+      "retrieved_at": "2026-11-24",
+      "note": "Dedicatory instruments for Galena Manor (Galena Park) not found; check plat/restrictions on image."
+    },
+    "tdhca_status": {
+      "value": "Not a manufactured-home record: HCAD state class A1 (single-family), building 1,267 sf, year 1951. mhweb not queried.",
+      "status": "inferred",
+      "source": "HCAD Real_acct_owner (intake.hcad_state_class=A1)",
+      "retrieved_at": "2026-11-24",
+      "note": "If a mobile home is physically on site, verify mhweb."
+    },
+    "owner_deceased_heirs": {
+      "value": "No heirship affidavit / death indication found under RANGEL EVARISTO or CRUZ REYNA",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (names)",
+      "retrieved_at": "2026-11-24"
+    },
+    "title_summary": {
+      "value": "Record title NOT confirmed: Rangel/Cruz bought GALENA MANOR Lot 6 Blk 4 (2019), not Lot 4 Blk 3 as in HCAD. A private deed of trust to Sierra Vista Realty LLC (RP-2025-162874, 05/01/2025, ~$ unknown) is unreleased on Lot 6 Blk 4. No federal, city, HOA, L/P or child-support liens found. If the taxed parcel is Lot 6 Blk 4, the D/T may survive unless the lender was joined; attorney/image review required before bidding.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal Galena Manor Lot 4 Blk 3 + names RANGEL EVARISTO / CRUZ REYNA, Sale+Sold date ranges, 2026-11-24)",
+      "retrieved_at": "2026-11-24"
+    },
+    "clerk_search_scope": {
+      "value": "Deep search 2026-11-24: owner name (grantor+grantee, incl. variants/co-owners) and legal fields (desc/lot/block/section/abstract/tract); date-restricted (<=2012) name searches returned no rows, so pre-2008 volume/page instruments are NOT covered by name search; images not read.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24"
     }
   },
   "legal": {
@@ -439,6 +516,11 @@
       "agent": "reviewer",
       "item": "Leer imagenes del Clerk y confirmar citacion/titular actual antes de pujar: Medir el lote real (HCAD 4,323 vs GIS 6,028)",
       "why": "el revisor barato solo lee el indice; attorney review recommended"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagenes RP-2019-457896 (deed) y RP-2025-162874 (D/T) y reconciliar Lot 4 Blk 3 (HCAD) vs Lot 6 Blk 4 (deed) para 2510 5th St, Galena Park",
+      "why": "imagenes del Clerk requieren compra/descarga; indice no basta; posible error de legal o de parcela"
     }
   ],
   "valuation": {
