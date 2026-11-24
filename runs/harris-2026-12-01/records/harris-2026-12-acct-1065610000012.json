@@ -348,21 +348,21 @@
       "value": null,
       "status": "blocked",
       "source": "https://www.hcdistrictclerk.com",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "hcdistrictclerk.com requiere login"
     },
     "service_method": {
       "value": null,
       "status": "blocked",
       "source": "https://www.hcdistrictclerk.com",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "hcdistrictclerk.com requiere login"
     },
     "bankruptcy": {
       "value": null,
       "status": "blocked",
       "source": "https://pacer.uscourts.gov",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "PACER requiere cuenta"
     },
     "legal_summary": {
@@ -370,6 +370,13 @@
       "status": "inferred",
       "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
       "retrieved_at": "2026-11-13"
+    },
+    "hoa_or_other_litigation": {
+      "value": "NOTICE de ATASCOCITA COMMUNITY IMPROVEMENT ASSOCIATION (RP-2026-273399, 07/08/2026) en indice del Clerk: posible lien/aviso de cuotas; demanda HOA no verificada",
+      "status": "inferred",
+      "source": "web search publico (2026-11-24) + title.rp_hits (indice County Clerk)",
+      "retrieved_at": "2026-11-24",
+      "note": "Busqueda publica (web, avisos de citacion) sin resultados por cause no./duenos; casos civiles/HOA requieren hcdistrictclerk.com (login). Sin demanda HOA verificada. Flag for attorney review."
     }
   },
   "human_blockers": [

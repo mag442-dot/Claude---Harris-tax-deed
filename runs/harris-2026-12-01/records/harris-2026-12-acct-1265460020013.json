@@ -366,21 +366,21 @@
       "value": null,
       "status": "blocked",
       "source": "https://www.hcdistrictclerk.com",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "hcdistrictclerk.com requiere login"
     },
     "service_method": {
       "value": null,
       "status": "blocked",
       "source": "https://www.hcdistrictclerk.com",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "hcdistrictclerk.com requiere login"
     },
     "bankruptcy": {
       "value": null,
       "status": "blocked",
       "source": "https://pacer.uscourts.gov",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "PACER requiere cuenta"
     },
     "legal_summary": {
@@ -388,6 +388,13 @@
       "status": "inferred",
       "source": "https://www.hctax.net/Property/listings/taxsalelisting (lista oficial del condado)",
       "retrieved_at": "2026-11-13"
+    },
+    "hoa_or_other_litigation": {
+      "value": "No verificado: sin hallazgos en fuentes publicas; revisar en District Clerk",
+      "status": "unknown",
+      "source": "web search publico (2026-11-24); hcdistrictclerk.com requiere login",
+      "retrieved_at": "2026-11-24",
+      "note": "Busqueda publica (web, avisos de citacion) sin resultados por cause no./duenos; casos civiles/HOA requieren hcdistrictclerk.com (login). Sin demanda HOA verificada. Flag for attorney review."
     }
   },
   "human_blockers": [
