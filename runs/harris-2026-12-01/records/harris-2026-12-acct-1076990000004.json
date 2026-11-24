@@ -323,6 +323,84 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BADOIAN ATHANASIA')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2018-226230, W/D, registrada 05/23/2018 (HCAD: 05/22/2018). Grantors: BADOIAN ATHANASIA E, BADOIAN ELAINE M S, 'RADOIAN' RICHARD V (error de indice por BADOIAN). Grantees: BADOIAN ATHANASIA E y MILKOWSKI FORREST W JR. Desc: WOODLAND HILLS VILLAGE Sec 6 Lot 4 Blk 4. Escritura previa: 20120483072, W/D 10/17/2012, Frances Milner Trust / Milner Robert A y Frances M (trustees) -> Badoian Athanasia E y Badoian Elaine M S.",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion WOODLAND HILLS VILLAGE Sec 6 Lot 4 Blk 4; grantor/grantee BADOIAN ATHANASIA, MILKOWSKI FORREST)",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Titular de record = DOS personas (Athanasia Badoian y Forrest W Milkowski Jr); HCAD grava a Badoian 100% / Milkowski 0%. Confirmar que la demanda de impuestos nombra a ambos; si Milkowski no fue citado, su interes sobrevive. Imagen no leida."
+    },
+    "mortgages": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion WOODLAND HILLS VILLAGE Sec 6 Lot 4 Blk 4; grantor/grantee BADOIAN ATHANASIA, MILKOWSKI FORREST)",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Sin D/T sobre Lot 4 Blk 4 Sec 6 (ni de la compra de 2012 ni de 2018) y sin D/T bajo 'BADOIAN ATHANASIA' / 'MILKOWSKI FORREST' como grantor (solo aparece la escritura 2018). Los D/T 20100460096 etc. son Lot 14 (no el lote). Posible compra de contado o D/T indexado con otra descripcion."
+    },
+    "liens_federal": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion WOODLAND HILLS VILLAGE Sec 6 Lot 4 Blk 4; grantor/grantee BADOIAN ATHANASIA, MILKOWSKI FORREST)",
+      "retrieved_at": "2026-11-24",
+      "note": "Sin lien federal visible bajo BADOIAN ATHANASIA ni MILKOWSKI FORREST. Busqueda no exhaustiva (variantes de nombre)."
+    },
+    "liens_city_county": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion WOODLAND HILLS VILLAGE Sec 6 Lot 4 Blk 4; grantor/grantee BADOIAN ATHANASIA, MILKOWSKI FORREST)",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Sin A/J ni liens de ciudad/condado en el lote ni bajo los nombres."
+    },
+    "liens_hoa_lispendens": {
+      "value": [
+        {
+          "instrument": "RP-2017-100948",
+          "tipo": "L/P (lis pendens)",
+          "fecha": "03/09/2017",
+          "acreedor": "SOUTH WOODLAND HILLS VILLAGE COMMUNITY ASSOCIATION",
+          "deudor_como_escrito": "BADOIAN ATHANASIA E; BADOIAN ELAINE M S",
+          "edad": "9 anos 8 meses",
+          "release": "RP-2017-359149, REL, 08/10/2017 (grantors: MCLAIN MELISSA y la asociacion) - visible solo en indice con 'Related Docs'"
+        }
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion WOODLAND HILLS VILLAGE Sec 6 Lot 4 Blk 4; grantor/grantee BADOIAN ATHANASIA, MILKOWSKI FORREST)",
+      "retrieved_at": "2026-11-24",
+      "note": "Descripcion legal coincide con el lote (identidad confirmada por legal). La liberacion esta confirmada solo en el indice, sin imagen -> inferred. Existe HOA activa (South Woodland Hills Village Community Association): su gravamen por cuotas puede reaparecer; pedir estado de cuenta."
+    },
+    "child_support_liens": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion WOODLAND HILLS VILLAGE Sec 6 Lot 4 Blk 4; grantor/grantee BADOIAN ATHANASIA, MILKOWSKI FORREST)",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Sin LIEN de OAG bajo los nombres."
+    },
+    "restrictions": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion WOODLAND HILLS VILLAGE Sec 6 Lot 4 Blk 4; grantor/grantee BADOIAN ATHANASIA, MILKOWSKI FORREST)",
+      "retrieved_at": "2026-11-24",
+      "note": "Filtro RESTR en Woodland Hills Village Sec 6 devolvio 0 (no prueba ausencia). El L/P de 2017 de la asociacion implica restricciones/HOA vigentes: leer declaracion de la seccion 6 antes de planear un dúplex."
+    },
+    "tdhca_status": {
+      "value": "No aplica: HCAD A1 residencial, 1974, casa construida en sitio; sin indicio de casa manufacturada. mhweb no consultado.",
+      "status": "inferred",
+      "source": "https://www.hcad.org (clase A1) / intake.hcad_buildings",
+      "retrieved_at": "2026-11-24"
+    },
+    "owner_deceased_heirs": {
+      "value": "Sin heirship/probate en el indice para Athanasia Badoian ni Milkowski. P/A 2016 y 2025 (RP-2016-106705/106704, RP-2025-327831/327832) muestran a los padres (Richard y Elaine Badoian) otorgando poder a sus hijos, entre ellos Athanasia Eleny Badoian: Athanasia aparece como apoderada, no fallecida.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion WOODLAND HILLS VILLAGE Sec 6 Lot 4 Blk 4; grantor/grantee BADOIAN ATHANASIA, MILKOWSKI FORREST)",
+      "retrieved_at": "2026-11-24",
+      "note": "Identidad de 'Athanasia Eleny' vs 'Athanasia E' (HCAD) no confirmada por imagen. Estado de Milkowski desconocido."
+    },
+    "title_summary": {
+      "value": "Vesting RP-2018-226230 a Badoian Athanasia E + Milkowski Forrest W Jr (co-propietarios; HCAD solo lista a Badoian). Sin D/T, liens federales, de ciudad/condado ni child support en el indice. HOA: L/P 2017 (RP-2017-100948) con REL 08/10/2017 (RP-2017-359149), inferred. Alertas: confirmar que la demanda nombro a Milkowski; HOA activa; imagenes sin leer.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion WOODLAND HILLS VILLAGE Sec 6 Lot 4 Blk 4; grantor/grantee BADOIAN ATHANASIA, MILKOWSKI FORREST)",
+      "retrieved_at": "2026-11-24"
     }
   },
   "legal": {
@@ -408,6 +486,11 @@
       "agent": "reviewer",
       "item": "Visita al sitio (ocupación/estado) y lectura de imágenes del Clerk del lote antes de pujar; attorney review recommended",
       "why": "requiere humano/abogado; la revisión barata no abre imágenes"
+    },
+    {
+      "agent": "title",
+      "item": "Confirmar en hcdistrictclerk (cause 202319785) que FORREST W MILKOWSKI JR fue demandado/citado (co-titular de record RP-2018-226230) y leer imagen del REL RP-2017-359149",
+      "why": "hcdistrictclerk requiere login; imagenes del Clerk requieren cuenta"
     }
   ],
   "valuation": {

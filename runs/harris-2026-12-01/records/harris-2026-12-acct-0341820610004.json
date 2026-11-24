@@ -310,6 +310,74 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'OUTLAND AMPARO')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2018-98456, W/D, registrada 03/08/2018 (HCAD: fecha de escritura 02/12/2018). Grantors: BALDERAZ ANTONIA MUNOZ, BALDERAZ LEO, BALDERAZ LEONEL, BALDERAZ TONI. Grantee: OUTLAND AMPARO BANDA. Desc: SOUTH HOUSTON Lot 4 Block 361.",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion SOUTH HOUSTON Lot 4 Block 361; grantee/grantor 'OUTLAND AMPARO')",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Grantee = dueno HCAD y la descripcion coincide (identidad confirmada por nombre poco comun + legal). Imagen NO leida (no confirma estado civil/clausulas ni si los 4 grantors eran todos los herederos). El indice no muestra escritura hacia la familia Balderaz (solo REL 1963 B772996 y CONT 1972 D518799 en este lote): cadena 1972-2018 NO reconstruida."
+    },
+    "mortgages": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion SOUTH HOUSTON Lot 4 Block 361; grantee/grantor 'OUTLAND AMPARO')",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Sin D/T de OUTLAND en el indice (0 como grantor). Unico D/T en la busqueda legal: D711722 (10/11/1972, Carr Walter A -> Southern State Bank) es Lot 14, NO el lote 4. REL D684201 (1972) tambien Lot 14. Posibles D/T 1972-2018 de dueños anteriores no aparecen: la ausencia no prueba que no existan (indexacion antigua por nombre/legal incompleta)."
+    },
+    "liens_federal": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion SOUTH HOUSTON Lot 4 Block 361; grantee/grantor 'OUTLAND AMPARO')",
+      "retrieved_at": "2026-11-24",
+      "note": "Sin lien federal/IRS/DOJ visible bajo 'OUTLAND AMPARO' ni 'OUTLAND' como grantor; el indice RP no es el registro de FTL de Texas en todos los casos (algunos FTL se archivan en el SOS para personas morales). No se concluye ausencia."
+    },
+    "liens_city_county": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion SOUTH HOUSTON Lot 4 Block 361; grantee/grantor 'OUTLAND AMPARO')",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Sin A/J, LIEN, o lien de ciudad/condado bajo el nombre del dueno ni en la descripcion legal. Liens municipales de South Houston (demolicion/mowing) podrian estar archivados con otra descripcion: pedir certificado a la ciudad."
+    },
+    "liens_hoa_lispendens": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion SOUTH HOUSTON Lot 4 Block 361; grantee/grantor 'OUTLAND AMPARO')",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Sin L/P, HOA ni mechanic's lien en el lote 4 Blk 361."
+    },
+    "child_support_liens": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion SOUTH HOUSTON Lot 4 Block 361; grantee/grantor 'OUTLAND AMPARO')",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Sin LIEN de la Oficina del Fiscal General visible bajo el nombre del dueno."
+    },
+    "restrictions": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion SOUTH HOUSTON Lot 4 Block 361; grantee/grantor 'OUTLAND AMPARO')",
+      "retrieved_at": "2026-11-24",
+      "note": "Filtro por tipo RESTR para South Houston Blk 361 devolvio 0. South Houston es ciudad con zonificacion propia: confirmar uso dúplex con la ciudad. No se encontraron restricciones recordadas."
+    },
+    "tdhca_status": {
+      "value": "No aplica: HCAD A1 residencial, 1939, casa construida en sitio; sin indicio de casa manufacturada. mhweb no consultado.",
+      "status": "inferred",
+      "source": "https://www.hcad.org (clase A1) / intake.hcad_buildings",
+      "retrieved_at": "2026-11-24"
+    },
+    "owner_deceased_heirs": {
+      "value": "Sin afidavit de heredero/probate en el indice bajo el nombre del dueno. Estado vital desconocido.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion SOUTH HOUSTON Lot 4 Block 361; grantee/grantor 'OUTLAND AMPARO')",
+      "retrieved_at": "2026-11-24",
+      "note": "El indice RP no incluye casos de probate; la direccion postal del dueno es 510 Avenue B (contigua)."
+    },
+    "title_summary": {
+      "value": "Titular de record = dueno gravado (OUTLAND AMPARO BANDA, W/D RP-2018-98456). Sin hipotecas, liens federales/ciudad/HOA, ni lis pendens visibles en el indice para el lote ni bajo el nombre. Alertas: cadena 1972-2018 no visible en el indice; D/T antiguos no se descartan; imagenes sin leer. Todo `inferred` salvo la escritura de vesting.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion SOUTH HOUSTON Lot 4 Block 361; grantee/grantor 'OUTLAND AMPARO')",
+      "retrieved_at": "2026-11-24"
     }
   },
   "legal": {
@@ -395,6 +463,11 @@
       "agent": "reviewer",
       "item": "Visita al sitio (ocupación/estado) y lectura de imágenes del Clerk del lote antes de pujar; attorney review recommended",
       "why": "requiere humano/abogado; la revisión barata no abre imágenes"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen de RP-2018-98456 (Clerk) y pedir cadena de titulo 1972-2018 (indice solo muestra REL 1963 y CONT 1972 en lote 4 Blk 361)",
+      "why": "imagenes del Clerk requieren cuenta/pago; abogado o title company"
     }
   ],
   "valuation": {

@@ -327,6 +327,117 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'VU KELLY')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2023-301205, W/D, registrada 08/09/2023. Grantor: VU KELLY KHANH. Grantees: PHAM TUAN ANH y VU KELLY KHANH. Desc: CLEARWOOD CROSSING Sec 3 Lot 13 Blk 2. Cadena: RP-2022-185282 (W/D 04/07/2022, Truong Hanh Thi -> Vu Kelly Khanh); RP-2017-37077 (W/D 01/26/2017, Pham Thuy Thithanh -> Truong Hanh Thi); 20140052375 (W/D 02/10/2014, Deutsche Bank Natl Trust Co trustee / Ocwen -> Pham Thuy Thithanh y Truong Hanh Thi); 20130470236 (TRSALE 09/12/2013, Avila Charles Joseph / sustituto Caridi -> Deutsche Bank / Soundview Home Loan Trust 2006-OPT5).",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion CLEARWOOD CROSSING Sec 3 Lot 13 Blk 2; grantor/grantee PHAM TUAN ANH, VU KELLY KHANH)",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Titulares de record = HCAD (Vu Kelly Khanh y Pham Tuan Anh). Irregularidad en 2013: existe un TRSALE anterior 20130410176 (08/13/2013) con grantee AVILA CHARLES JOSEPH (el deudor original) y luego APPT 20130450133 (09/03/2013) y un 2o TRSALE 20130470236 (09/12/2013): leer imagenes para confirmar que la venta de trustee de 2013 fue valida/rescindida. Imagenes no leidas."
+    },
+    "mortgages": {
+      "value": [
+        {
+          "instrument": "Z197491",
+          "tipo": "D/T",
+          "fecha": "04/03/2006",
+          "acreedor": "OPTION ONE MTG CORP (trustee Vetters Thomas F)",
+          "deudor_como_escrito": "AVILA CHARLES JOSEPH",
+          "release": "No aparece REL; ejecutada via TRSALE 20130470236 (09/12/2013)",
+          "nota": "Cedida Z197490 y 20100064659 a Deutsche Bank/Soundview. Probablemente extinguida por la venta de trustee de 2013 (inferred)."
+        }
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion CLEARWOOD CROSSING Sec 3 Lot 13 Blk 2; grantor/grantee PHAM TUAN ANH, VU KELLY KHANH)",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Sin D/T de Vu/Pham sobre este lote despues de 2022/2023 en el indice (busqueda legal + grantor 'VU KELLY KHANH' y 'PHAM TUAN ANH'): la compra de 2022 y la de 2023 no muestran D/T en esta legal (D/T RP-2023-66571 y otros de PHAM TUAN ANH son de otros inmuebles: Settler's Village, Silverglen, etc.)."
+    },
+    "liens_federal": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion CLEARWOOD CROSSING Sec 3 Lot 13 Blk 2; grantor/grantee PHAM TUAN ANH, VU KELLY KHANH)",
+      "retrieved_at": "2026-11-24",
+      "note": "Sin lien federal visible bajo VU KELLY KHANH ni PHAM TUAN ANH. 'PHAM TUAN ANH' es nombre comun (34 hits grantee / 30 grantor, bajo el tope de 200): varias personas distintas; identidad no confirmada para ningun hit sin descripcion legal."
+    },
+    "liens_city_county": {
+      "value": [
+        {
+          "instrument": "RP-2017-192604",
+          "tipo": "A/J (abstract of judgment)",
+          "fecha": "05/03/2017",
+          "acreedor": "ALDINE INDEPENDENT SCHOOL DISTRICT",
+          "deudor_como_escrito": "CAPTAIN TOM SEAFOOD MARKET & RESTAURANT; NGUYEN TAI VAN; NGUYEN THUY THI THANH; NGUYEN TOAN THANH; PHAM TUAN ANH; TRAN HA NGOC",
+          "edad": "9 anos 6 meses (10 anos de vigencia -> ~05/2027 si no se renueva)",
+          "release": "No se ve REL"
+        },
+        {
+          "instrument": "20070366176",
+          "tipo": "A/J",
+          "fecha": "06/15/2007",
+          "acreedor": "ALDINE ISD",
+          "deudor_como_escrito": "mismo grupo (Captain Tom Seafood, Nguyen, Pham Tuan Anh, Tran Ha Ngoc)",
+          "release": "No se ve REL; probablemente renovado por RP-2017-192604"
+        },
+        {
+          "instrument": "S731290",
+          "tipo": "A/J",
+          "fecha": "11/14/1997",
+          "acreedor": "ALDINE ISD",
+          "release": "No se ve REL"
+        },
+        {
+          "instrument": "T052363 / R794739 / R071282",
+          "tipo": "LIEN (Estado de TX)",
+          "fecha": "06/02/1998, 02/20/1996, 09/26/1994",
+          "acreedor": "STATE OF TX",
+          "deudor_como_escrito": "NGUYEN TAI V, NGUYEN TOAN THANH, PHAM TUAN ANH ETAL",
+          "release": "REL R689112 (12/04/1995) y S496573 (06/16/1997) solo cubren parte; no se ve release de T052363"
+        }
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion CLEARWOOD CROSSING Sec 3 Lot 13 Blk 2; grantor/grantee PHAM TUAN ANH, VU KELLY KHANH)",
+      "retrieved_at": "2026-11-24",
+      "note": "IDENTIDAD NO CONFIRMADA: estos instrumentos no traen descripcion legal, direccion ni segundo nombre; 'PHAM TUAN ANH' es nombre comun. Si el deudor del A/J 2017 es el mismo Pham Tuan Anh, el lien judicial de Aldine ISD se adhiere a bienes inmuebles adquiridos despues (compra 08/2023) mientras el A/J este vigente (~10 anos desde 05/03/2017). NO se concluye 'expirado'. Si Aldine ISD no fue parte de la demanda de impuestos, su lien podria sobrevivir. Revisar con abogado."
+    },
+    "liens_hoa_lispendens": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion CLEARWOOD CROSSING Sec 3 Lot 13 Blk 2; grantor/grantee PHAM TUAN ANH, VU KELLY KHANH)",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Ningun HOA/L/P/mechanic's lien con la descripcion del lote. RP-2023-273121 (LIEN Silverglen North HOA vs Pham Tuan Anh) es Silverglen North Sec 14 Lot 21 Blk 2: OTRO inmueble, no atribuido."
+    },
+    "child_support_liens": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion CLEARWOOD CROSSING Sec 3 Lot 13 Blk 2; grantor/grantee PHAM TUAN ANH, VU KELLY KHANH)",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Sin LIEN de OAG identificable; nombre comun, identidad no confirmable."
+    },
+    "restrictions": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion CLEARWOOD CROSSING Sec 3 Lot 13 Blk 2; grantor/grantee PHAM TUAN ANH, VU KELLY KHANH)",
+      "retrieved_at": "2026-11-24",
+      "note": "Filtro RESTR en Clearwood Crossing Sec 3 devolvio 0 (no prueba ausencia). Leer declaracion de restricciones y confirmar HOA/cuotas."
+    },
+    "tdhca_status": {
+      "value": "No aplica: HCAD A1 residencial, 2006, casa construida en sitio; sin indicio de casa manufacturada. mhweb no consultado.",
+      "status": "inferred",
+      "source": "https://www.hcad.org (clase A1) / intake.hcad_buildings",
+      "retrieved_at": "2026-11-24"
+    },
+    "owner_deceased_heirs": {
+      "value": "Sin heirship/probate en el indice para Vu Kelly Khanh ni Pham Tuan Anh (hits por nombre incluyen un P/A de 2019 de Vu Kelly Khanh como apoderada, RP-2019-373377: viva en 2019).",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion CLEARWOOD CROSSING Sec 3 Lot 13 Blk 2; grantor/grantee PHAM TUAN ANH, VU KELLY KHANH)",
+      "retrieved_at": "2026-11-24",
+      "note": "Nombre comun: sin confirmar identidad."
+    },
+    "title_summary": {
+      "value": "Vesting RP-2023-301205 a Pham Tuan Anh + Vu Kelly Khanh (coincide con HCAD). D/T de 2006 (Option One, Z197491) ejecutado en 2013 (TRSALE 20130470236) sin release; cadena 2013 tiene un TRSALE previo (20130410176) a revisar. Sin D/T de los duenos actuales. Riesgo clave: A/J de Aldine ISD RP-2017-192604 (05/03/2017) contra 'PHAM TUAN ANH' sin release, identidad no confirmada: si es el mismo, podria adherirse al lote hasta ~05/2027. Imagenes sin leer.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion CLEARWOOD CROSSING Sec 3 Lot 13 Blk 2; grantor/grantee PHAM TUAN ANH, VU KELLY KHANH)",
+      "retrieved_at": "2026-11-24"
     }
   },
   "legal": {
@@ -412,6 +523,11 @@
       "agent": "reviewer",
       "item": "Leer imagenes del Clerk y confirmar citacion/titular actual antes de pujar: Confirmar que incluye la apertura (deuda $11,479 vs $27,734)",
       "why": "el revisor barato solo lee el indice; attorney review recommended"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen de A/J RP-2017-192604 (Aldine ISD) para ver direccion/identificadores de PHAM TUAN ANH y confirmar si es el dueno de 9214 Wolcott Park Ln; leer TRSALE 20130410176/20130470236",
+      "why": "imagenes del Clerk requieren cuenta/pago; confirmacion de identidad y survivorship requiere abogado"
     }
   ],
   "valuation": {

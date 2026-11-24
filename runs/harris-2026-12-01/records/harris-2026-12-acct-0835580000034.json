@@ -535,6 +535,74 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RIVERA JORGE')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2016-337679, W/D, registrada 08/02/2016. Grantors: BARNETT EDNA INEZ EST, BARNETT INEZ EST, TEAGUE SANDRA KAY. Grantees: RIVERA JORGE LUIS PERRET y VILLARREAL ELISA I HERNANDEZ. Desc: HUMBLE ROAD PLACE Sec 2 Lot 34-35 Blk 6. Companero RP-2016-337680 (NOTICE, misma fecha).",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion HUMBLE ROAD PLACE Sec 2 Lot 34/35 Blk 6; grantor/grantee VILLARREAL ELISA, RIVERA JORGE LUIS PERRET; file RP-2023-266983)",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Coincide con HCAD (Rivera Jorge L / Villarreal Elisa I). La escritura cubre LOTES 34-35, HCAD lista solo LT 34: verificar si el lote 35 es otra cuenta o si la venta cubre solo el 34. Grantor 'EST' = sucesion de Edna Inez Barnett vendio via Teague Sandra Kay: la autoridad (probate/heirship) NO se ve en el indice; riesgo de cadena. Imagen no leida."
+    },
+    "mortgages": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion HUMBLE ROAD PLACE Sec 2 Lot 34/35 Blk 6; grantor/grantee VILLARREAL ELISA, RIVERA JORGE LUIS PERRET; file RP-2023-266983)",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Sin D/T sobre Humble Road Place Sec 2 Lot 34/35 Blk 6 (solo 2 instrumentos en la legal: la escritura y el NOTICE). Los D/T bajo 'VILLARREAL ELISA' (Glenview, Fairgreen, Dellrose, Sunset Terrace, Glenshire, etc.) son de OTRAS personas/inmuebles y no se atribuyen."
+    },
+    "liens_federal": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion HUMBLE ROAD PLACE Sec 2 Lot 34/35 Blk 6; grantor/grantee VILLARREAL ELISA, RIVERA JORGE LUIS PERRET; file RP-2023-266983)",
+      "retrieved_at": "2026-11-24",
+      "note": "Sin lien federal visible atribuible. Nombres comunes ('Villarreal Elisa': 26 grantee/41 grantor; 'Rivera Jorge'): varias personas distintas; Jorge Luis Perret Rivera y Elisa I Hernandez Villarreal no se confirman en hits sin legal."
+    },
+    "liens_city_county": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion HUMBLE ROAD PLACE Sec 2 Lot 34/35 Blk 6; grantor/grantee VILLARREAL ELISA, RIVERA JORGE LUIS PERRET; file RP-2023-266983)",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). A/J RP-2026-131860 (Westador Civic Association vs Rivera Enni Y / Rivera Jorge E), LIEN RP-2026-193282 (Briarwick Homes Assn vs Rivera Jorge Omar Sifuentes) y FI STM RP-2026-77176 (Newspring vs Rivera Jorge A) son de personas con otro segundo nombre: NO atribuidos. RP-2023-266983 (ASSGN 07/18/2023 de taxing units + 'RIVERA JORGE' a PROPEL TAX) tiene descripcion REEVES A Abstract 60 Tract 2M, NO este lote; identidad no confirmada. Confirmar con Propel/taxes que no hay transferencia de lien sobre esta cuenta."
+    },
+    "liens_hoa_lispendens": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion HUMBLE ROAD PLACE Sec 2 Lot 34/35 Blk 6; grantor/grantee VILLARREAL ELISA, RIVERA JORGE LUIS PERRET; file RP-2023-266983)",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Sin HOA/L/P/mechanic's lien en la legal del lote."
+    },
+    "child_support_liens": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion HUMBLE ROAD PLACE Sec 2 Lot 34/35 Blk 6; grantor/grantee VILLARREAL ELISA, RIVERA JORGE LUIS PERRET; file RP-2023-266983)",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Sin LIEN de OAG atribuible."
+    },
+    "restrictions": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion HUMBLE ROAD PLACE Sec 2 Lot 34/35 Blk 6; grantor/grantee VILLARREAL ELISA, RIVERA JORGE LUIS PERRET; file RP-2023-266983)",
+      "retrieved_at": "2026-11-24",
+      "note": "Filtro RESTR en Humble Road Place Sec 2 devolvio 0 (no prueba ausencia). Leer restricciones de la subdivision."
+    },
+    "tdhca_status": {
+      "value": "No aplica: HCAD A1 residencial, 1975, casa construida en sitio; sin indicio de casa manufacturada. mhweb no consultado.",
+      "status": "inferred",
+      "source": "https://www.hcad.org (clase A1) / intake.hcad_buildings",
+      "retrieved_at": "2026-11-24"
+    },
+    "owner_deceased_heirs": {
+      "value": "Sin heirship/probate de los duenos actuales en el indice. PROB RP-2022-471555 (VILLARREAL ELISA E EST) es de otra persona (Elisa E, con Raul D): no atribuido. La sucesion Barnett aparece como vendedor en 2016 (grantors 'EST').",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion HUMBLE ROAD PLACE Sec 2 Lot 34/35 Blk 6; grantor/grantee VILLARREAL ELISA, RIVERA JORGE LUIS PERRET; file RP-2023-266983)",
+      "retrieved_at": "2026-11-24",
+      "note": "Estado vital de Jorge Luis Perret Rivera y Elisa I Hernandez Villarreal desconocido."
+    },
+    "title_summary": {
+      "value": "Vesting RP-2016-337679 a Rivera Jorge Luis Perret + Villarreal Elisa I Hernandez (coincide con HCAD). Sin D/T ni liens atribuibles sobre el lote en el indice; muchos hits por nombre son de otras personas con nombres comunes. Alertas: escritura cubre Lots 34-35 vs HCAD Lt 34; vendedor fue una sucesion (EST) sin probate visible; PROPEL TAX ASSGN RP-2023-266983 es de otra tract (no atribuido). Imagenes sin leer.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion HUMBLE ROAD PLACE Sec 2 Lot 34/35 Blk 6; grantor/grantee VILLARREAL ELISA, RIVERA JORGE LUIS PERRET; file RP-2023-266983)",
+      "retrieved_at": "2026-11-24"
     }
   },
   "legal": {
@@ -620,6 +688,11 @@
       "agent": "reviewer",
       "item": "Leer imagenes del Clerk y confirmar citacion/titular actual antes de pujar: Pedir payoff/estado de Propel Tax y leer RP-2023-266983 (imagen)",
       "why": "el revisor barato solo lee el indice; attorney review recommended"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen de RP-2016-337679/337680 (Lots 34-35, vendedor 'Barnett EST') y verificar probate/heirship de Edna Inez Barnett y si el lote 35 es cuenta separada",
+      "why": "imagenes del Clerk requieren cuenta/pago; probate requiere Probate Court index/abogado"
     }
   ],
   "valuation": {

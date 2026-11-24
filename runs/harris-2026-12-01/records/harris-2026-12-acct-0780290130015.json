@@ -339,6 +339,84 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'KIRK MARIE')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "J347582, W/D, 01/30/1984 (film 071980780). Grantor: HEIGHTS SAV ASSN. Grantee: KIRK MARIE. Desc: MARY FRANCES (HCAD: MARY FRANCIS) Lot 15 Blk 13.",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion MARY FRANCES (indice) Lot 15 Blk 13; grantor/grantee KIRK MARIE, KIRK MARIE ESTELLE)",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Grantee = dueno HCAD y la descripcion coincide, pero nombre comun (KIRK MARIE sin segundo nombre) y 40+ anos sin otra escritura. HCAD no muestra deed recorded. Imagen no leida. La subdivision esta indexada como 'MARY FRANCES' (HCAD escribe 'MARY FRANCIS')."
+    },
+    "mortgages": {
+      "value": [
+        {
+          "instrument": "K650600",
+          "tipo": "CONT (contrato de mejoras)",
+          "fecha": "07/25/1986",
+          "acreedor": "WEATHERSEAL PROD TX INC, cedido a SCHWARTZ MILTON (ASSGN mismo numero)",
+          "deudor_como_escrito": "KIRK MARIE",
+          "edad": "40 anos",
+          "release": "N090063, REL, 04/12/1991, Schwartz Milton -> Kirk Marie (indice, sin imagen)"
+        }
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion MARY FRANCES (indice) Lot 15 Blk 13; grantor/grantee KIRK MARIE, KIRK MARIE ESTELLE)",
+      "retrieved_at": "2026-11-24",
+      "note": "Es contrato de mejoras de vivienda posiblemente con lien (mechanic's/HIA). Liberacion solo vista en el indice -> inferred. Sin D/T de compra (1984) ni otro D/T sobre el lote en el indice. D/T 1979 (American Mtg G341918) y 1992 (Harbor Finl N882972) y ASSGN 1997 (Long Beach Mtg S520401) son de KIRK FRANK MORRIS / KIRK MARIE BEAVERS sobre FLEETWOOD VILLAGE Sec 1 Lot 13: OTRO inmueble, no atribuidos."
+    },
+    "liens_federal": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion MARY FRANCES (indice) Lot 15 Blk 13; grantor/grantee KIRK MARIE, KIRK MARIE ESTELLE)",
+      "retrieved_at": "2026-11-24",
+      "note": "Sin lien federal visible bajo KIRK MARIE. Nombre comun (21 hits combinados, bajo el tope de 200) con varias Marie Kirk (Beavers, Estelle, Disman): identidad no confirmable sin legal."
+    },
+    "liens_city_county": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion MARY FRANCES (indice) Lot 15 Blk 13; grantor/grantee KIRK MARIE, KIRK MARIE ESTELLE)",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Sin A/J ni liens de ciudad/condado atribuibles. Casa de 708 sf de 1947 en Houston: pedir al City of Houston estado de liens por demolicion/limpieza (no aparecen en el indice)."
+    },
+    "liens_hoa_lispendens": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion MARY FRANCES (indice) Lot 15 Blk 13; grantor/grantee KIRK MARIE, KIRK MARIE ESTELLE)",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Sin HOA/L/P en la legal del lote."
+    },
+    "child_support_liens": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion MARY FRANCES (indice) Lot 15 Blk 13; grantor/grantee KIRK MARIE, KIRK MARIE ESTELLE)",
+      "retrieved_at": "2026-11-24",
+      "note": "Indice RP del County Clerk (solo indice, sin imagenes). Sin LIEN de OAG atribuible."
+    },
+    "restrictions": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion MARY FRANCES (indice) Lot 15 Blk 13; grantor/grantee KIRK MARIE, KIRK MARIE ESTELLE)",
+      "retrieved_at": "2026-11-24",
+      "note": "Filtro RESTR para Mary Frances Blk 13 devolvio 0. Subdivision antigua (Houston, sin zonificacion): restricciones deed-based posibles; no encontradas."
+    },
+    "tdhca_status": {
+      "value": "No aplica: HCAD A1 residencial, 1947, casa construida en sitio; sin indicio de casa manufacturada. mhweb no consultado.",
+      "status": "inferred",
+      "source": "https://www.hcad.org (clase A1) / intake.hcad_buildings",
+      "retrieved_at": "2026-11-24"
+    },
+    "owner_deceased_heirs": {
+      "value": "Estado vital DESCONOCIDO. Sin heirship/probate en el indice. Dueno de record desde 1984 (42 anos): riesgo alto de fallecimiento. Hay otra 'KIRK MARIE ESTELLE' (W/D S649626, 1997, Mary Frances Blk 12) y 'KIRK MARIE DISMAN' (W/D 20090203298, 2009, a Kirk Clifford Eugene): pudieran ser la misma persona o parientes; identidad no confirmada.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion MARY FRANCES (indice) Lot 15 Blk 13; grantor/grantee KIRK MARIE, KIRK MARIE ESTELLE)",
+      "retrieved_at": "2026-11-24",
+      "note": "Verificar obituario/probate (Harris County Probate Courts) y herederos; si fallecio, el titular de record seria su sucesion y los herederos deben estar citados."
+    },
+    "title_summary": {
+      "value": "Vesting J347582 (1984) a KIRK MARIE (coincide con HCAD). Unico gravamen visto: contrato de mejoras K650600 (1986, Weatherseal -> Schwartz Milton) liberado por N090063 (1991) segun indice (inferred). Sin D/T, liens federales, ciudad/condado, HOA ni L/P atribuibles. Alertas: posible fallecimiento/herederos desconocidos (dueno de 1984), nombre comun, imagenes sin leer.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (descripcion MARY FRANCES (indice) Lot 15 Blk 13; grantor/grantee KIRK MARIE, KIRK MARIE ESTELLE)",
+      "retrieved_at": "2026-11-24"
     }
   },
   "legal": {
@@ -424,6 +502,11 @@
       "agent": "reviewer",
       "item": "Leer imagenes del Clerk y confirmar citacion/titular actual antes de pujar: Verificar si KIRK MARIE esta viva (probate/obituario) y herederos",
       "why": "el revisor barato solo lee el indice; attorney review recommended"
+    },
+    {
+      "agent": "title",
+      "item": "Verificar si KIRK MARIE (dueno desde 1984) vive o fallecio y herederos (Harris County Probate Courts, obituario); leer imagenes J347582, K650600 y N090063",
+      "why": "probate/imagenes requieren cuenta; confirmacion de identidad y herederos requiere abogado"
     }
   ],
   "valuation": {
