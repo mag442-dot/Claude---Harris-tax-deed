@@ -154,14 +154,14 @@
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0835580000035",
-      "retrieved_at": "2026-11-16",
-      "note": "statement as of 11/16/2026"
+      "retrieved_at": "2026-11-24",
+      "note": "statement as of 11/24/2026"
     },
     "total_due_all_years": {
       "value": 1431.03,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0835580000035",
-      "retrieved_at": "2026-11-16"
+      "retrieved_at": "2026-11-24"
     },
     "taxes_in_judgment": {
       "value": [
@@ -170,40 +170,40 @@
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0835580000035",
-      "retrieved_at": "2026-11-16",
+      "retrieved_at": "2026-11-24",
       "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
       "value": 544.14,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0835580000035",
-      "retrieved_at": "2026-11-16"
+      "retrieved_at": "2026-11-24"
     },
     "current_year_estimate": {
       "value": 382.56,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0835580000035",
-      "retrieved_at": "2026-11-16",
+      "retrieved_at": "2026-11-24",
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
       "value": 926.7,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0835580000035",
-      "retrieved_at": "2026-11-16",
+      "retrieved_at": "2026-11-24",
       "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
     },
     "assessed_owner_county": {
       "value": "RIVERA JORGE L VILLARREAL ELISA I 13826 COLD SPRING ST HUMBLE TX 77396 COLD SPRING ST LT 35 BLK 6 HUMBLE ROAD PLACE SEC 2",
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0835580000035",
-      "retrieved_at": "2026-11-16"
+      "retrieved_at": "2026-11-24"
     },
     "appraised_value_county": {
       "value": null,
       "status": "unknown",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0835580000035",
-      "retrieved_at": "2026-11-16"
+      "retrieved_at": "2026-11-24"
     }
   },
   "physical": {

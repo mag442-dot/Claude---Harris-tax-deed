@@ -137,18 +137,11 @@
     "delinquent_by_year": {
       "value": [
         {
-          "year": 2018,
-          "tax": 133.95,
-          "penalties_interest": 141.99,
-          "collection_penalty": 55.19,
-          "total": 331.13
-        },
-        {
           "year": 2019,
-          "tax": 617.52,
-          "penalties_interest": 580.47,
-          "collection_penalty": 224.73,
-          "total": 1422.72
+          "tax": 500.81,
+          "penalties_interest": 470.77,
+          "collection_penalty": 182.25,
+          "total": 1153.83
         },
         {
           "year": 2020,
@@ -195,14 +188,14 @@
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
-      "retrieved_at": "2026-11-13",
-      "note": "statement as of 11/13/2026"
+      "retrieved_at": "2026-11-24",
+      "note": "statement as of 11/24/2026"
     },
     "total_due_all_years": {
-      "value": 18967.94,
+      "value": 18367.92,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
-      "retrieved_at": "2026-11-13"
+      "retrieved_at": "2026-11-24"
     },
     "taxes_in_judgment": {
       "value": [
@@ -216,40 +209,40 @@
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
       "value": 6282.43,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
-      "retrieved_at": "2026-11-13"
+      "retrieved_at": "2026-11-24"
     },
     "current_year_estimate": {
       "value": 2167.72,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
       "value": 8450.15,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
     },
     "assessed_owner_county": {
       "value": "GAYTAN CREW CONSTRUCTION CO INC 9505 BEECHNUT ST APT 1213 HOUSTON TX 77036 9113 NOEL ST LT 18 BLK 25 SUNNYSIDE GARDENS",
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
-      "retrieved_at": "2026-11-13"
+      "retrieved_at": "2026-11-24"
     },
     "appraised_value_county": {
       "value": null,
       "status": "unknown",
       "source": "https://www.hctax.net/property/listings/saledetail?account=0751990250018",
-      "retrieved_at": "2026-11-13"
+      "retrieved_at": "2026-11-24"
     }
   },
   "physical": {
@@ -535,42 +528,42 @@
       "value": 102000.0,
       "status": "inferred",
       "source": "HCAD real_acct.txt tot_mkt_val",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "Valor de mercado HCAD 2026 como proxy; NO hay comparables (Texas no publica precios de venta)."
     },
     "value_low": {
       "value": null,
       "status": "unknown",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "sin comparables no se inventa rango"
     },
     "value_high": {
       "value": null,
       "status": "unknown",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "sin comparables no se inventa rango"
     },
     "comps": {
       "value": [],
       "status": "unknown",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "no accesibles desde este entorno"
     },
     "expected_close_from_ratio": {
       "value": 51714.0,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "valor HCAD x 0.507 (mediana cierre/valor de 14 lotes del 04/08/2026)"
     },
     "expected_close_from_premium": {
       "value": 17603.32,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "apertura x 1.088 (benchmark del playbook)"
     },
     "all_in_costs": {
@@ -583,34 +576,34 @@
       },
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "impuestos: buyer_tax_tail_estimate (inferred); quiet title y cierre son SUPUESTOS editables en params.json"
     },
     "all_in_cost_at_expected_close": {
       "value": 65715.57,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13"
+      "retrieved_at": "2026-11-24"
     },
     "bid_ceiling": {
       "value": 67135.78,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "(valor/(1+0.25) - impuestos - quiet title)/(1+cierre); margen = retorno sobre costo; salida REVENTA al valor HCAD"
     },
     "margin_at_expected_close": {
       "value": 0.552,
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13",
+      "retrieved_at": "2026-11-24",
       "note": "retorno sobre costo total si se gana a la puja esperada y se revende al valor HCAD"
     },
     "exit_strategy_used": {
       "value": "resale (duplex NO evaluado: faltan costo de construccion, zonificacion/restricciones y topografia)",
       "status": "inferred",
       "source": "calculo propio (scripts/valuation.py)",
-      "retrieved_at": "2026-11-13"
+      "retrieved_at": "2026-11-24"
     }
   },
   "review": {
