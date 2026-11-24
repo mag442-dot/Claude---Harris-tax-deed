@@ -339,6 +339,93 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'KEITH NELL')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_parcel_rows": {
+      "value": [
+        "RP-2021-443408 | 08/04/2021 | AFFT | Grantor: LYNDS JANICE Grantee: KEITH NELL ROSE EST | Desc: ANDOVER PLACE Sec: III Lot: 30 Block: 10",
+        "RP-2019-429045 | 09/27/2019 | REL | Grantor: CITY OF HOUSTON Grantee: SEE INSTRUMENT | Desc: ANDOVER PLACE Sec: 3 Lot: 30 Block: 10 Related Docs"
+      ],
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'ANDOVER PLACE' Sec 3 Lot 30 Block 10; names KEITH NELL ROSE, LYNDS JANICE; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Las 2 filas coinciden con la descripcion legal exacta (Andover Place Sec 3 Lot 30 Blk 10) y la AFFT nombra 'KEITH NELL ROSE EST'. Solo indice; imagenes no vistas."
+    },
+    "rp_noise_summary": {
+      "value": "RP-2016-289155 (DEED, Harris County/Keith Nell Barbara Hayes -> Land Assemblage Redevelopment Authority, Highland Heights Addition Blk 17): otro inmueble y otra persona (Nell BARBARA Hayes), ruido. Filas bajo 'LYNDS JANICE L' (Maplewood West, Parkway Villages, Woodlake Townhouses, 2024-2025): otra persona/inmuebles, ruido.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'ANDOVER PLACE' Sec 3 Lot 30 Block 10; names KEITH NELL ROSE, LYNDS JANICE; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "vesting_deed": {
+      "value": "No encontrado en el indice. HCAD: ESTATE OF KEITH NELL ROSE, dueno desde 03/22/2001, sin referencia de escritura. La unica fila vinculada al titulo es la AFFT RP-2021-443408 (08/04/2021) de Lynds Janice sobre 'KEITH NELL ROSE EST'.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'ANDOVER PLACE' Sec 3 Lot 30 Block 10; names KEITH NELL ROSE, LYNDS JANICE; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Una AFFT no es escritura ni transfiere titulo; probable affidavit de herederos/fallecimiento (tipo exacto sin imagen)."
+    },
+    "mortgages": {
+      "value": "Ninguna hipoteca ni deed of trust en el indice para Andover Place Sec 3 Lot 30 Blk 10.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'ANDOVER PLACE' Sec 3 Lot 30 Block 10; names KEITH NELL ROSE, LYNDS JANICE; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Solo indice; sin imagenes."
+    },
+    "liens_federal": {
+      "value": "Ninguno hallado (0 filas federales por legal ni por 'KEITH NELL ROSE').",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'ANDOVER PLACE' Sec 3 Lot 30 Block 10; names KEITH NELL ROSE, LYNDS JANICE; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "liens_city_county": {
+      "value": "Un REL de City of Houston RP-2019-429045 (09/27/2019) sobre este lote: libera un lien de ciudad previo; el lien original no se vio en el indice (probablemente anterior o bajo otro nombre). No quedan liens de ciudad sin liberar visibles para el lote.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'ANDOVER PLACE' Sec 3 Lot 30 Block 10; names KEITH NELL ROSE, LYNDS JANICE; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Liberacion vista solo en indice, sin imagen -> inferred."
+    },
+    "liens_hoa_lispendens": {
+      "value": "Ninguno hallado para el lote.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'ANDOVER PLACE' Sec 3 Lot 30 Block 10; names KEITH NELL ROSE, LYNDS JANICE; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "child_support_liens": {
+      "value": "Ninguno hallado (0 filas por nombre).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'ANDOVER PLACE' Sec 3 Lot 30 Block 10; names KEITH NELL ROSE, LYNDS JANICE; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "restrictions": {
+      "value": "No localizadas. Andover Place Sec 3 es una subdivision con restricciones de deed probables; no revisadas en imagen.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'ANDOVER PLACE' Sec 3 Lot 30 Block 10; names KEITH NELL ROSE, LYNDS JANICE; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "tdhca_status": {
+      "value": "n/a terreno vacio (HCAD building sqft 0). No se consulto mhweb.",
+      "status": "inferred",
+      "source": "HCAD intake: building sqft 0",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "owner_deceased_heirs": {
+      "value": "Dueno fallecido (inferido): HCAD lista 'ESTATE OF' y existe AFFT RP-2021-443408 (08/04/2021) a nombre de 'KEITH NELL ROSE EST' por Lynds Janice. No hay affidavit de herederos con nombres ni escritura de herederos en indice.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'ANDOVER PLACE' Sec 3 Lot 30 Block 10; names KEITH NELL ROSE, LYNDS JANICE; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Tipo de AFFT y herederos solo en imagen."
+    },
+    "title_summary": {
+      "value": "Dueno fallecido (estate): AFFT RP-2021-443408 (08/04/2021, Lynds Janice) de herederos/fallecimiento y un REL de City of Houston RP-2019-429045 (09/27/2019) ya liberado; sin hipotecas, liens federales/HOA/L-P ni child support visibles. Riesgo principal: titulo en herederos sin sucesion probada y duda de si estos fueron demandados/citados (agente legal); sentencia 10/21/2024, ventana TRCP 329 de 2 anos habria vencido el 10/21/2026 (calculo por fechas, no verificado). No es asesoria legal.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'ANDOVER PLACE' Sec 3 Lot 30 Block 10; names KEITH NELL ROSE, LYNDS JANICE; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Eleva el riesgo de titulo/legal (herederos), no el de liens."
     }
   },
   "legal": {
@@ -417,6 +504,11 @@
       "agent": "reviewer",
       "item": "Revisar con abogado/titulo antes de pujar: Leer la imagen del AFFT RP-2021-443408 (afidavit de herederos?) y confirmar que la sucesion/herederos fueron demandados",
       "why": "requiere imagen del Clerk, login o criterio de abogado (modo barato: sin busquedas nuevas)"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen de AFFT RP-2021-443408 (herederos/fallecimiento) y REL City RP-2019-429045 para confirmar herederos y que no queda lien de ciudad",
+      "why": "requiere imagen del Clerk (el indice RP publico no muestra el documento sin cuenta/pago)"
     }
   ],
   "valuation": {

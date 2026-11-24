@@ -442,6 +442,90 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BROWN WALKER')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_parcel_rows": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 3 Block 14; name BROWN WALKER / BROWN WALKER JR; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Busqueda Desc 'EAST HOUSTON' Lot 3 Block 14 = 7 filas, todas de EAST HOUSTON GARDENS Sec 2 Lot 13 Block 14 (otra subdivision/lote) o East Houston Lot 31 Blk 148 / Lot 12-13 Blk 149 (otros bloques): ruido. Ninguna fila del predio Lot 3 Block 14 East Houston."
+    },
+    "rp_noise_summary": {
+      "value": "RP-2026-319814/5/6 (PT REL Third Coast/Heritage Bank -> New Light Church), RP-2026-298909 W/D y D/T RP-2026-298910 (Texas Dow EFCU), RP-2024-167698, RP-2020-600233: todas son de East Houston Gardens Sec 2 Lot 13 Blk 14 u otros bloques; NO pertenecen al predio.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 3 Block 14; name BROWN WALKER / BROWN WALKER JR; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "vesting_deed": {
+      "value": "No encontrado en el indice. HCAD: BROWN WALKER JR, dueno desde 01/02/1988, sin referencia de escritura.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 3 Block 14; name BROWN WALKER / BROWN WALKER JR; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Fecha 01/02/1988 es el valor de relleno de HCAD para titulos antiguos; escritura previa a la cobertura digital del indice."
+    },
+    "mortgages": {
+      "value": "Ninguna hipoteca atribuible al predio en el indice (0 filas por nombre BROWN WALKER JR / BROWN WALKER; 0 por legal).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 3 Block 14; name BROWN WALKER / BROWN WALKER JR; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Ausencia en indice, sin imagenes."
+    },
+    "liens_federal": {
+      "value": "Ninguno hallado (0 filas por nombre).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 3 Block 14; name BROWN WALKER / BROWN WALKER JR; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Nombre comun (BROWN WALKER) pero 0 resultados; no se alcanzo el tope."
+    },
+    "liens_city_county": {
+      "value": "Ninguno hallado para el predio (0 filas City of Houston/county con Lot 3 Block 14 East Houston).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 3 Block 14; name BROWN WALKER / BROWN WALKER JR; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "liens_hoa_lispendens": {
+      "value": "Ninguno hallado para el predio.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 3 Block 14; name BROWN WALKER / BROWN WALKER JR; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "child_support_liens": {
+      "value": "Ninguno hallado (0 filas por nombre).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 3 Block 14; name BROWN WALKER / BROWN WALKER JR; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "restrictions": {
+      "value": "No localizadas (East Houston subdivision antigua, 'Res Vacant' ~6,750 sf; restricciones no revisadas en imagen).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 3 Block 14; name BROWN WALKER / BROWN WALKER JR; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "tdhca_status": {
+      "value": "n/a terreno vacio (HCAD building sqft 0). No se consulto mhweb.",
+      "status": "inferred",
+      "source": "HCAD intake: building sqft 0",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "owner_deceased_heirs": {
+      "value": "Sin indicios en el indice. Dueno desde 1988 (probable edad avanzada) pero sin affidavit ni fila alguna.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 3 Block 14; name BROWN WALKER / BROWN WALKER JR; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "No confirmado vivo/fallecido."
+    },
+    "title_summary": {
+      "value": "Indice del Clerk limpio para este predio: 0 filas por nombre (BROWN WALKER JR) y 0 por legal (Lot 3 Blk 14 East Houston; las 7 filas devueltas son East Houston Gardens, otro lote). Sin hipotecas, liens, L/P ni HOA visibles, pero sin escritura vigente indexada (dueno 1988). Ausencia en el indice no equivale a titulo limpio; imagenes no vistas. No es asesoria legal.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 3 Block 14; name BROWN WALKER / BROWN WALKER JR; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "No cambia el riesgo: sin hallazgos negativos; titulo queda sin confirmar."
     }
   },
   "legal": {
@@ -520,6 +604,11 @@
       "agent": "reviewer",
       "item": "Revisar con abogado/titulo antes de pujar: Confirmar con estado de cuenta que la apertura final cubre costos y que el cierre previsto no pasa de $20,317",
       "why": "requiere imagen del Clerk, login o criterio de abogado (modo barato: sin busquedas nuevas)"
+    },
+    {
+      "agent": "title",
+      "item": "Confirmar escritura de Brown Walker Jr (1988) y ausencia de gravamenes con abstractor; indice de nombre/legal vacio",
+      "why": "requiere imagen del Clerk (el indice RP publico no muestra el documento sin cuenta/pago)"
     }
   ],
   "valuation": {

@@ -280,6 +280,90 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'AVILES GUILLERMINO')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_parcel_rows": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'HOUSTON SUBURBAN HEIGHTS' Block 6 / Tract 12; name searches AVILES SEVERO, AVILES GUILLERMINO, AVILES; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Ninguna fila del indice identifica 'Tract 12D Block 6' (busqueda por Tract 12D=0 filas; Block 6 + Tract 12 = 1 fila, de Tract 12C, otro predio). La busqueda Desc+Block 6 llega al tope de 200 filas porque el campo coincide con Block 16 tambien."
+    },
+    "rp_noise_summary": {
+      "value": "Block 6 (otros predios, no este): lotes 1, 2, 7, 8, 6B/6C, Tract 12C (FI STM RP-2025-462028) con D/T a Frost Bank, Prosperity Bank, BBVA/SBA y varios 'City of Houston' sobre Lot 1; todo es de OTRAS parcelas. Nombre: AVILES SEVERO -> W/D RP-2022-492311 (East Houston Addition Blk 104) y FI STM RP-2018-205308 (Fontaine Place, Aqua Finance); 'AVILES GUILLERMO' (distinto de GUILLERMINO) -> D/T en Lamar Townhomes y Southwood Place. Ninguno pertenece al predio ni se atribuye al dueno.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'HOUSTON SUBURBAN HEIGHTS' Block 6 / Tract 12; name searches AVILES SEVERO, AVILES GUILLERMINO, AVILES; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Misma-nombre: sin segundo nombre/direccion/legal que confirme identidad; por eso no se atribuye ningun gravamen."
+    },
+    "vesting_deed": {
+      "value": "No encontrado en el indice. HCAD: AVILES GUILLERMINO (1%) / AVILES SEVERO (0%), dueno desde 01/01/2005, sin referencia de escritura.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'HOUSTON SUBURBAN HEIGHTS' Block 6 / Tract 12; name searches AVILES SEVERO, AVILES GUILLERMINO, AVILES; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "El legal 'TR 12D BLK 6' no esta indexado con Tract 12D; la escritura probablemente esta indexada con otro formato (p. ej. metes y bounds / 'Tract 12-D') o antes de la cobertura. Requiere busqueda en imagenes o abstractor."
+    },
+    "mortgages": {
+      "value": "Ninguna hipoteca/deed of trust atribuible al predio en el indice. Las D/T de Block 6 pertenecen a otros lotes.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'HOUSTON SUBURBAN HEIGHTS' Block 6 / Tract 12; name searches AVILES SEVERO, AVILES GUILLERMINO, AVILES; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Ausencia en indice no prueba ausencia: el predio no es localizable por legal."
+    },
+    "liens_federal": {
+      "value": "Ninguno hallado (sin filas IRS/DOJ/federal bajo AVILES SEVERO / GUILLERMINO / AVILES G, cap 200 no alcanzado).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'HOUSTON SUBURBAN HEIGHTS' Block 6 / Tract 12; name searches AVILES SEVERO, AVILES GUILLERMINO, AVILES; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Busqueda por nombre; solo 1 fila bajo AVILES SEVERO."
+    },
+    "liens_city_county": {
+      "value": "Ninguno atribuible al predio. Sin filas 'CITY OF HOUSTON' / county con legal Tract 12D Block 6 (si hay City liens en Lot 1 Block 6, son de otro lote).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'HOUSTON SUBURBAN HEIGHTS' Block 6 / Tract 12; name searches AVILES SEVERO, AVILES GUILLERMINO, AVILES; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Verificar con abstractor; tope de 200 en busqueda por subdivision."
+    },
+    "liens_hoa_lispendens": {
+      "value": "Ninguno hallado para el predio. Sin L/P ni HOA.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'HOUSTON SUBURBAN HEIGHTS' Block 6 / Tract 12; name searches AVILES SEVERO, AVILES GUILLERMINO, AVILES; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "child_support_liens": {
+      "value": "Ninguno hallado (un 'LIEN' de Attorney General of Texas RP-2016-341191 es contra AVILES GRICEL, otra persona).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'HOUSTON SUBURBAN HEIGHTS' Block 6 / Tract 12; name searches AVILES SEVERO, AVILES GUILLERMINO, AVILES; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Identidad no coincide (GRICEL vs GUILLERMINO/SEVERO)."
+    },
+    "restrictions": {
+      "value": "No localizadas. Predio en condado no incorporado/area E Mount Houston Rd; Houston Suburban Heights es subdivision antigua; restricciones no buscadas en imagen.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'HOUSTON SUBURBAN HEIGHTS' Block 6 / Tract 12; name searches AVILES SEVERO, AVILES GUILLERMINO, AVILES; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Confirmar restricciones de deed y acceso con abstractor."
+    },
+    "tdhca_status": {
+      "value": "n/a terreno vacio (HCAD building sqft 0). No se consulto mhweb.",
+      "status": "inferred",
+      "source": "HCAD intake: building sqft 0",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "owner_deceased_heirs": {
+      "value": "Sin indicios en indice (sin AFFT de herederos hallado). Dos personas en HCAD (Guillermino 1%, Severo 0%): posible copropiedad/titulo irregular.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'HOUSTON SUBURBAN HEIGHTS' Block 6 / Tract 12; name searches AVILES SEVERO, AVILES GUILLERMINO, AVILES; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "No se confirmo vida/muerte; sin affidavit."
+    },
+    "title_summary": {
+      "value": "Predio NO localizable en el indice del Clerk por descripcion legal (Tract 12D Blk 6 Houston Suburban Heights) ni por nombre: 0 escrituras, 0 hipotecas, 0 liens verificables. Sin gravamen visible, pero tampoco cadena de titulo: el vesting es desconocido y el dueno HCAD es una asignacion de 2005 de 2 personas (Guillermino 1%, Severo 0%). Riesgo de titulo no cuantificado; requiere abstractor/lectura de imagenes. No es asesoria legal.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'HOUSTON SUBURBAN HEIGHTS' Block 6 / Tract 12; name searches AVILES SEVERO, AVILES GUILLERMINO, AVILES; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Cambia el riesgo: hallazgo por ausencia (unknown), no limpieza confirmada."
     }
   },
   "physical": {
@@ -423,6 +507,11 @@
       "agent": "reviewer",
       "item": "Revisar con abogado/titulo antes de pujar: Confirmar acceso, agua/septico y restricciones del lote en condado no incorporado (viabilidad dúplex)",
       "why": "requiere imagen del Clerk, login o criterio de abogado (modo barato: sin busquedas nuevas)"
+    },
+    {
+      "agent": "title",
+      "item": "Localizar escritura vigente de TR 12D BLK 6 Houston Suburban Heights (Aviles Guillermino/Severo) por imagen del Clerk o abstractor; no aparece indexada por legal",
+      "why": "requiere imagen del Clerk (el indice RP publico no muestra el documento sin cuenta/pago)"
     }
   ],
   "valuation": {

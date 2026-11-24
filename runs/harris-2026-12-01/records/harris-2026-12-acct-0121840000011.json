@@ -454,6 +454,90 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'TAYLOR BUD')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_parcel_rows": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 11 Block 11; name TAYLOR BUD / TAYLOR BUDDY; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Busqueda Lot 11 Block 11 'EAST HOUSTON' = 3 filas, todas EAST HOUSTON GARDENS Sec 2 Lot 11 Block 11-A (otra subdivision): RP-2025-271555, RP-2019-364287, RP-2019-142874. No son este predio (East Houston, Blk 11)."
+    },
+    "rp_noise_summary": {
+      "value": "Las 4 filas bajo 'TAYLOR BUD(DY)' (RP-2016-324301/2/3, Darling Homes of Texas -> Owen Michelle & Taylor Buddy, D/T a MERS/Taylor Morrison Home Funding) son de ALDEN WOODS Sec 1 Lot 14 Blk 3 / Lot 20 Blk 2, otro inmueble comprado en 2016; identidad con el dueno HCAD (mailing en Carmichael, CA, dueno desde 1988) NO confirmada. Se descartan como ruido.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 11 Block 11; name TAYLOR BUD / TAYLOR BUDDY; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Same-name risk: no hay segundo nombre ni direccion comun; no se atribuye la D/T al predio ni al dueno."
+    },
+    "vesting_deed": {
+      "value": "No encontrado en el indice. HCAD: TAYLOR BUD, dueno desde 01/02/1988, sin referencia de escritura.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 11 Block 11; name TAYLOR BUD / TAYLOR BUDDY; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Escritura anterior a la cobertura/relleno HCAD 1988."
+    },
+    "mortgages": {
+      "value": "Ninguna hipoteca atribuible al predio. La D/T RP-2016-324302 (Alden Woods) no es de este lote.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 11 Block 11; name TAYLOR BUD / TAYLOR BUDDY; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Ausencia en indice, sin imagenes."
+    },
+    "liens_federal": {
+      "value": "Ninguno hallado (solo las 4 filas Alden Woods, sin liens).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 11 Block 11; name TAYLOR BUD / TAYLOR BUDDY; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "liens_city_county": {
+      "value": "Ninguno hallado para el predio.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 11 Block 11; name TAYLOR BUD / TAYLOR BUDDY; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "liens_hoa_lispendens": {
+      "value": "Ninguno hallado para el predio.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 11 Block 11; name TAYLOR BUD / TAYLOR BUDDY; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "child_support_liens": {
+      "value": "Ninguno hallado.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 11 Block 11; name TAYLOR BUD / TAYLOR BUDDY; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "restrictions": {
+      "value": "No localizadas (no revisadas en imagen).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 11 Block 11; name TAYLOR BUD / TAYLOR BUDDY; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "tdhca_status": {
+      "value": "n/a terreno vacio (HCAD building sqft 0). No se consulto mhweb.",
+      "status": "inferred",
+      "source": "HCAD intake: building sqft 0",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "owner_deceased_heirs": {
+      "value": "Sin indicios en indice. Dueno con direccion en California desde 1988; no se hallo affidavit de herederos.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 11 Block 11; name TAYLOR BUD / TAYLOR BUDDY; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Dueno fuera del estado: riesgo de notificacion, tema para el agente legal."
+    },
+    "title_summary": {
+      "value": "Predio sin filas propias en el indice del Clerk (por legal: solo East Houston Gardens, otra subdivision; por nombre: solo Alden Woods 2016, otro inmueble, identidad no confirmada). Sin hipotecas, liens, L/P ni HOA visibles; escritura vigente no indexada (dueno 1988). Ausencia no es limpieza: sin imagenes. No es asesoria legal.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'EAST HOUSTON' Lot 11 Block 11; name TAYLOR BUD / TAYLOR BUDDY; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "No cambia el riesgo; titulo sin confirmar."
     }
   },
   "legal": {
@@ -527,6 +611,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de TAYLOR BUD (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Confirmar escritura vigente (dueno Taylor Bud desde 1988) y ausencia de gravamenes con abstractor",
+      "why": "requiere imagen del Clerk (el indice RP publico no muestra el documento sin cuenta/pago)"
     }
   ],
   "valuation": {

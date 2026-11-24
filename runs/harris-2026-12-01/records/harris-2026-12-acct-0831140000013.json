@@ -347,6 +347,97 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'COLLIERS')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "rp_parcel_rows": {
+      "value": [
+        "RP-2022-606411 | 12/30/2022 | LIEN | Grantor: CITY OF HOUSTON Grantee: CRUNK ROBERT F | Desc: INWOOD TERRACE Sec: 4 Lot: 13 Block: 31",
+        "RP-2022-597800 | 12/22/2022 | REL | Grantor: HOMES DIRECT GP LLC; HOMES DIRECT LP Grantee: CRUNK ROBERT F | Desc: INWOOD TERRACE Sec: 4 Lot: 13 Block: 31",
+        "RP-2022-506442 | 10/13/2022 | ASSGN | Grantor: PINE HILL HOMES GP LLC; PINE HILL HOMES LP Grantee: HOMES DIRECT LP | Desc: INWOOD TERRACE Sec: 4 Lot: 13 Block: 31",
+        "RP-2022-49835 | 01/28/2022 | W/D | Grantor: CRUNK ROBERT F Grantee: COLLIER'S & NICHOLSON'S INVESTMENTS INC | Desc: INWOOD TERRACE Sec: 4 Lot: 13 Block: 31",
+        "RP-2022-27117 | 01/14/2022 | NOTICE | Grantor/Grantee: COLLIER'S & NICHOLSON'S INVESTMENTS INC; CRUNK ROBERT F | Desc: INWOOD TERRACE Sec: 4 Lot: 13 Block: 31",
+        "RP-2022-27116 | 01/14/2022 | W/D | Grantor: CRUNK ROBERT F Grantee: COLLIER'S & NICHOLSONS INVESTMENTS INC | Desc: INWOOD TERRACE Sec: 4 Lot: 13 Block: 31"
+      ],
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'INWOOD TERRACE' Sec 4 Lot 13 Block 31; names COLLIERS & NICHOLSON(S), COLLIER'S & NICHOLSON'S; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Las 6 filas coinciden con la descripcion legal exacta (Inwood Terrace Sec 4 Lot 13 Blk 31). Solo indice; imagenes no vistas."
+    },
+    "rp_noise_summary": {
+      "value": "Las 23 filas de la busqueda por nombre 'COLLIERS' (Colliers International, Colliers Funding, Colliers Property Mgmt: avisos de contratos/FI STM/L AFFT/LIEN de corredores) son de OTRAS empresas e inmuebles; no pertenecen al predio. Filas de COLLIER'S & NICHOLSON'S en Colonia Weisenberger Sec 2 Blk 3 (RP-2021-396085, RP-2023-276569, RP-2025-222153/5) y RP-2023-472197 son otros lotes de la misma entidad (cartera), sin gravamenes.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'INWOOD TERRACE' Sec 4 Lot 13 Block 31; names COLLIERS & NICHOLSON(S), COLLIER'S & NICHOLSON'S; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Busqueda 'COLLIERS' no es la entidad dueña; la entidad se escribe COLLIER'S & NICHOLSON'S / COLLIERS & NICHOLSONS."
+    },
+    "vesting_deed": {
+      "value": "Warranty deed RP-2022-27116 (01/14/2022), Crunk Robert F -> COLLIER'S & NICHOLSONS INVESTMENTS INC; segunda W/D RP-2022-49835 (01/28/2022) mismo grantor al nombre 'COLLIER'S & NICHOLSON'S INVESTMENTS INC' (probable correccion de nombre) y NOTICE RP-2022-27117 (01/14/2022). Coincide con dueno HCAD desde 01/14/2022.",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'INWOOD TERRACE' Sec 4 Lot 13 Block 31; names COLLIERS & NICHOLSON(S), COLLIER'S & NICHOLSON'S; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Lectura de filas del indice; fecha/partes coinciden con HCAD y legal exacto; imagen no vista. Dos grafias del nombre del adquirente en las dos W/D."
+    },
+    "mortgages": {
+      "value": "Ninguna D/T a favor de un prestamista sobre Colliers & Nicholson's para este lote. Hipoteca anterior del vendedor (Pine Hill Homes -> Homes Direct LP, ASSGN RP-2022-506442, 10/13/2022) con REL RP-2022-597800 (12/22/2022) a favor de Crunk: liberada.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'INWOOD TERRACE' Sec 4 Lot 13 Block 31; names COLLIERS & NICHOLSON(S), COLLIER'S & NICHOLSON'S; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Liberacion vista solo en indice, sin imagen -> inferred. REL (12/2022) posterior a la venta de 01/2022."
+    },
+    "liens_federal": {
+      "value": "Ninguno hallado (sin IRS/DOJ contra la entidad ni contra Crunk Robert F en legal del predio).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'INWOOD TERRACE' Sec 4 Lot 13 Block 31; names COLLIERS & NICHOLSON(S), COLLIER'S & NICHOLSON'S; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "liens_city_county": {
+      "value": "LIEN City of Houston RP-2022-606411, filed 12/30/2022, deudor como escrito 'CRUNK ROBERT F' (dueno previo; el lien se asienta contra el lote Inwood Terrace Sec 4 Lot 13 Blk 31 un ano despues de su venta). Sin REL ni refile hallado. Tipo/monto desconocidos (probable lien de limpieza/inmueble peligroso o pasto alto), antiguedad 3 anos 11 meses.",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'INWOOD TERRACE' Sec 4 Lot 13 Block 31; names COLLIERS & NICHOLSON(S), COLLIER'S & NICHOLSON'S; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Fila del indice con legal exacto; tipo, monto y si la City fue parte de la demanda de impuestos solo en imagen/expediente. Posible supervivencia si la City no fue demandada (tema para abogado); no se concluye expirado."
+    },
+    "liens_hoa_lispendens": {
+      "value": "Ninguno hallado para el predio (ni HOA ni L/P).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'INWOOD TERRACE' Sec 4 Lot 13 Block 31; names COLLIERS & NICHOLSON(S), COLLIER'S & NICHOLSON'S; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "child_support_liens": {
+      "value": "Ninguno hallado.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'INWOOD TERRACE' Sec 4 Lot 13 Block 31; names COLLIERS & NICHOLSON(S), COLLIER'S & NICHOLSON'S; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "restrictions": {
+      "value": "No localizadas. Inwood Terrace Sec 4 (Houston, 77033): restricciones/deed restrictions no revisadas en imagen.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'INWOOD TERRACE' Sec 4 Lot 13 Block 31; names COLLIERS & NICHOLSON(S), COLLIER'S & NICHOLSON'S; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "tdhca_status": {
+      "value": "n/a terreno vacio (HCAD building sqft 0). No se consulto mhweb.",
+      "status": "inferred",
+      "source": "HCAD intake: building sqft 0",
+      "retrieved_at": "2026-11-24",
+      "note": ""
+    },
+    "owner_deceased_heirs": {
+      "value": "No aplica: el titular es una corporacion (Colliers & Nicholson's Investments Inc). Registro del titulo coincide con el dueno gravado (misma entidad, dos grafias).",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'INWOOD TERRACE' Sec 4 Lot 13 Block 31; names COLLIERS & NICHOLSON(S), COLLIER'S & NICHOLSON'S; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "No se verifico estatus corporativo (SOS/franchise tax) - posible forfeiture."
+    },
+    "title_summary": {
+      "value": "Cadena corta y consistente: W/D RP-2022-27116 (01/14/2022) y RP-2022-49835 (01/28/2022) de Crunk a Collier's & Nicholson's Investments Inc; hipoteca previa de Homes Direct liberada (REL RP-2022-597800, inferred). Unico gravamen posible que podria sobrevivir: LIEN City of Houston RP-2022-606411 (12/30/2022, contra 'CRUNK ROBERT F', sin liberacion) por monto/tipo desconocidos. Sin federal, HOA, L/P ni child support. No es asesoria legal.",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc 'INWOOD TERRACE' Sec 4 Lot 13 Block 31; names COLLIERS & NICHOLSON(S), COLLIER'S & NICHOLSON'S; 2026-11-24; index only)",
+      "retrieved_at": "2026-11-24",
+      "note": "Cambia el riesgo: agrega un lien de ciudad sin liberar, posiblemente no extinguido."
     }
   },
   "legal": {
@@ -420,6 +511,16 @@
       "agent": "legal",
       "item": "Buscar bancarrota de COLLIERS & NICHOLSON INVESTMENTS INC (0. en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen del LIEN City of Houston RP-2022-606411 (tipo, monto) y confirmar si la City fue demandada en la causa 202440933",
+      "why": "requiere imagen del Clerk (el indice RP publico no muestra el documento sin cuenta/pago)"
+    },
+    {
+      "agent": "title",
+      "item": "Verificar estatus corporativo de Colliers & Nicholson's Investments Inc (SOS/Comptroller) y las dos W/D RP-2022-27116 / 49835",
+      "why": "requiere consulta SOS/Comptroller o abstractor"
     }
   ],
   "valuation": {
