@@ -356,6 +356,106 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'ELL PROPERTIES')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "title_search_method": {
+      "value": "Legal-description searches ONERY / Abstract 613 / Tract 6 (2 rows) and Abstract 613 + ONERY (200-row cap; filtered by Misc/Tract 6.5) + name ELL PROPERTIES (grantee 21, grantor 11) + MATHEWS ANNIE MAE (grantee 44 / grantor 45)",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
+    },
+    "vesting_deed": {
+      "value": "W/D RP-2021-421158, 07/26/2021, MATHEWS ANNIE MAE -> ELL PROPERTIES LLC; ONERY J Abstract 613 Tract 6",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc ONERY Abstract 613 Tract 6)",
+      "retrieved_at": "2026-11-24",
+      "note": "Index row only (2 pages). One of ~24 deeds recorded same day from Mathews to ELL (RP-2021-421142..421159, 'EII' typos on two). Taxed owner = record grantee."
+    },
+    "chain_prior": {
+      "value": [
+        "Y741033 | 09/02/2005 | DEED | Cooper Casaner/Thomas F etal, Walker May Const etal -> City of Houston/Harris County/HCC/HISD etal | ONERY J Misc 6.5 Abstract 613 (film RP010961298) = tax deed to taxing units of a 6.5-acre piece",
+        "(no deed found from taxing units to Mathews, and no deed to Mathews under Abstract 613 Tract 6 in the 44 grantee rows)"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc ONERY Abstract 613 Misc 6.5)",
+      "retrieved_at": "2026-11-24",
+      "note": "CHAIN GAP: 2005 tax deed to taxing units (6.5 ac matches HCAD 6.5000 ac) and no indexed link to Annie Mae Mathews. Possible a resale deed exists under a different spelling, or Mathews' title is defective (inferred, not shown)."
+    },
+    "legal_desc_rows_belonging_to_parcel": {
+      "value": [
+        "RP-2021-421158 (vesting)",
+        "Y741033 (2005 tax deed, Misc 6.5) - probable"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc)",
+      "retrieved_at": "2026-11-24",
+      "note": "Abstract 613 has hundreds of unrelated tracts: 0.0241 ac strip (Bender's Creek Ltd/CIL Holdings -> Phillip Jessica etc., RP-2026-116111, D/T RP-2026-116112 etc., 03/27/2026, 'Tract: 6' typed on 116111 only), 2.0 ac Davalos, 0.811 ac Reed Center, Benchmark Acquisitions tracts etc. These are different parcels (acreage in Comment) = noise, but RP-2026-116111 says 'Tract 6' with 0.0241 ac: a sliver carved out of Tract 6 or a mis-index; confirm by plat/survey."
+    },
+    "mortgages": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc + name ELL PROPERTIES)",
+      "retrieved_at": "2026-11-24",
+      "note": "No D/T under Abstract 613 Tract 6 for ELL. ELL's only D/T (RP-2023-379739, 10/03/2023, Grand Park Lot 4 Block 14, with assignment RP-2023-379740) is a different property."
+    },
+    "liens_federal": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name ELL PROPERTIES)",
+      "retrieved_at": "2026-11-24",
+      "note": "None found for ELL PROPERTIES LLC."
+    },
+    "liens_city_county": {
+      "value": [
+        "RP-2024-459987 | 12/11/2024 | LIEN | City of Houston -> ELL PROPERTIES LLC | BLUE BONNET ESTATES Lot 20 Block 5",
+        "RP-2022-195042 | 04/13/2022 | LIEN | City of Houston -> ELL PROPERTIES LLC | BLUE BONNET ESTATES Lot 20 Block 5"
+      ],
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name ELL PROPERTIES)",
+      "retrieved_at": "2026-11-24",
+      "note": "Attach to OTHER property (Blue Bonnet Lot 20 Blk 5, since sold 11/03/2025 to Invest in Texas Now LLC). Not on this tract. Listed because same debtor; no City lien tied to Abstract 613 Tract 6 found."
+    },
+    "liens_hoa_lispendens": {
+      "value": "none found; also NOTICE RP-2026-463562 (11/18/2026) is for Wilsey's South End, not this tract",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "No LIEN/L-P/A-J row tied to the legal description other than those listed. Index only."
+    },
+    "child_support_liens": {
+      "value": "not found in index search (no child-support/OAG lien types appear in rows read); index does not always label them",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Child-support liens are often filed as LIEN/ABSTRACT without subtype; verify on images if shortlisted. Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
+    },
+    "restrictions": {
+      "value": "not checked: plat restrictions / recorded covenants not located in index search",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Need plat + restriction instruments (images) to evaluate duplex use."
+    },
+    "tdhca_status": {
+      "value": "Vacant land per HCAD (building sqft 0, Res Vacant land table); no manufactured-home title search run (TDHCA mhweb not queried)",
+      "status": "inferred",
+      "source": "https://www.tdhca.state.tx.us/mhweb (not queried); HCAD intake.hcad_building_sqft=0",
+      "retrieved_at": "2026-11-24",
+      "note": "Low relevance for raw land; confirm no mobile home on site visit."
+    },
+    "owner_deceased_heirs": {
+      "value": "Grantor Annie Mae Mathews appears as 'MATHEWS ANNIE MAE EST' (estate) in affidavits RP-2025-435561/435562 (11/03/2025, Blue Bonnet Lot 20) and RP-2026-463560 (11/18/2026, Wilsey); date of death unknown. If she died before 07/26/2021 the 2021 deed to ELL would be void",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name MATHEWS ANNIE MAE)",
+      "retrieved_at": "2026-11-24",
+      "note": "Needs image of affidavits. ELL itself is an entity (status not checked). Larndell Mathews / Porter Clarisse deeds back to ELL (RP-2025-435563) suggest heirship clean-up on other parcels, none on Abstract 613."
+    },
+    "title_summary": {
+      "value": "Record owner ELL Properties LLC via 2021 W/D from Annie Mae Mathews (RP-2021-421158) = taxed owner. No mortgage/federal/HOA/L-P on the tract found. Red flags: (1) 2005 tax deed to taxing units of a 6.5-ac piece with no indexed re-conveyance to Mathews (chain gap); (2) Mathews shown as 'EST' in 2025-26 affidavits (possible deceased grantor in 2021); (3) 0.0241-ac sliver of 'Tract 6' conveyed 03/2026 to others. ELL's City liens belong to other lots. Could survive: unpaid-tax-deed gaps, heirs of Mathews/Cooper if not served.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Chain defects raise title risk: raw land with 6.5 ac but unverified. Title commitment advised."
     }
   },
   "legal": {
@@ -429,6 +529,16 @@
       "agent": "legal",
       "item": "Buscar bancarrota de ELL PROPERTIES LLC (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Ver imagen RP-2021-421158 (descripcion completa Tract 6/6.5 ac) y Y741033 (tax deed 2005); confirmar fecha de fallecimiento de Annie Mae Mathews (affidavits RP-2025-435561/62)",
+      "why": "requiere imagenes del Clerk"
+    },
+    {
+      "agent": "title",
+      "item": "Confirmar si RP-2026-116111 (0.0241 ac 'Tract 6') se superpone con el predio (plano/survey)",
+      "why": "requiere imagen/plat"
     }
   ],
   "valuation": {

@@ -327,6 +327,113 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'BROWN WALKER')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "title_search_method": {
+      "value": "Legal-description searches (EAST HOUSTON / E HOUSTON / EAST HOUSTON ADDITION; Lots 3, 4, 3-4; Block 34; also Block 34 only = 15 rows) plus name search BROWN WALKER, BROWN WALKER JR (grantee and grantor)",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
+    },
+    "vesting_deed": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc EAST HOUSTON Lot 3/4 Block 34)",
+      "retrieved_at": "2026-11-24",
+      "note": "No instrument indexed for Lots 3 & 4, Block 34, East Houston. Block 34 search shows only OTHER lots (7, 8, 12, 15) and untied-lot tax deeds (see excluded rows). Vesting deed for Walker Brown Jr not found in index; likely pre-computer index (before ~1960s-70s) or mis-indexed. Human/title company needed."
+    },
+    "legal_desc_rows_belonging_to_parcel": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc)",
+      "retrieved_at": "2026-11-24",
+      "note": "0 rows confirmed for Lts 3&4 Blk 34."
+    },
+    "legal_desc_rows_excluded_as_noise": {
+      "value": [
+        "20150246814 | 06/08/2015 | MEMO | Martinez -> Ballard Exploration | EAST HOUSTON Lot 133 Block 134 (different lot/block)",
+        "Z521344 08/11/2006, Z267042 05/02/2006, 20060020068 09/05/2006 | DEED | tax deeds to Land Assemblage Redevelopment Authority | EAST HOUSTON Block 34 with NO lot shown; grantors Harper / Collis / Collins (not Brown) - lot unknown, cannot rule in/out Lots 3-4 without images",
+        "Y849411 (L12), 20090135466 (L7), 20070356257 (L8), RP-2016-527611 (L15) | Block 34 other lots"
+      ],
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc Block 34)",
+      "retrieved_at": "2026-11-24",
+      "note": "Block 34 has several tax-deed/LARA transactions; the lot-less ones are a flag, though grantors are not the taxed owner."
+    },
+    "name_search_result": {
+      "value": "BROWN WALKER: 10 grantee rows, 0 grantor rows; BROWN WALKER JR: 7 grantee, 0 grantor. Rows are City of Houston liens/State of TX A/J & releases on OTHER properties (Trinity Gdn, Highland Hts, East Houston Lot 1 Block 174, Bayou Estates Lot 4 Block B) from 1974-2006. None reference Lots 3-4 Block 34.",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name BROWN WALKER / BROWN WALKER JR)",
+      "retrieved_at": "2026-11-24",
+      "note": "Identity NOT confirmed (no address/middle name in index); same-name risk. Not attributed to this parcel."
+    },
+    "mortgages": {
+      "value": [],
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc+name)",
+      "retrieved_at": "2026-11-24",
+      "note": "No deed of trust found for the parcel."
+    },
+    "liens_federal": {
+      "value": [],
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name BROWN WALKER)",
+      "retrieved_at": "2026-11-24",
+      "note": "No IRS/DOJ rows. Absence in a name-only search is not proof."
+    },
+    "liens_city_county": {
+      "value": [
+        "20060135696 | 10/19/2006 | LIEN | City of Houston -> BROWN WALKER | EAST HOUSTON Lot 1 Block 174 (different lot/block) - no release seen",
+        "20060028460 | 09/07/2006 | LIEN | City of Houston -> BROWN WALKER JR | BAYOU ESTATES Lot 4 Block B000A (other property)",
+        "S355932 | 03/11/1997 | LIEN | City of HO -> Brown Barbara L etal / Brown Walker etal | TRINITY GDN Block 5 Tract 183 (other)",
+        "E267857 | 09/30/1974 | LIEN | City of HO -> Brown Walker Jr | HIGHLAND HTS ANX 7 Lot T011B Block 59 (other)"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name BROWN WALKER)",
+      "retrieved_at": "2026-11-24",
+      "note": "These attach to OTHER legal descriptions (same-name; may or may not be this owner). None tied to Lots 3-4 Block 34. Listed for awareness only; do NOT count as encumbrances on this parcel."
+    },
+    "liens_hoa_lispendens": {
+      "value": "none found; also A/J rows G447002 (03/03/1980, Electronic Rlty/Liberty Rlty -> Brown Walker etal) and E158405 (05/20/1974, State of Tex) have no legal description in index and are 40+ years old; not tied to parcel",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "No LIEN/L-P/A-J row tied to the legal description other than those listed. Index only."
+    },
+    "child_support_liens": {
+      "value": "not found in index search (no child-support/OAG lien types appear in rows read); index does not always label them",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Child-support liens are often filed as LIEN/ABSTRACT without subtype; verify on images if shortlisted. Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
+    },
+    "restrictions": {
+      "value": "not checked: plat restrictions / recorded covenants not located in index search",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Need plat + restriction instruments (images) to evaluate duplex use."
+    },
+    "tdhca_status": {
+      "value": "Vacant land per HCAD (building sqft 0, Res Vacant land table); no manufactured-home title search run (TDHCA mhweb not queried)",
+      "status": "inferred",
+      "source": "https://www.tdhca.state.tx.us/mhweb (not queried); HCAD intake.hcad_building_sqft=0",
+      "retrieved_at": "2026-11-24",
+      "note": "Low relevance for raw land; confirm no mobile home on site visit."
+    },
+    "owner_deceased_heirs": {
+      "value": "No heirship affidavit found by name or legal; no EST suffix on 'BROWN WALKER JR' rows",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name search)",
+      "retrieved_at": "2026-11-24",
+      "note": "Owner 'Jr' on 13,500 sf parcel with 40+ year old record trail; deceased status plausible but unconfirmed."
+    },
+    "title_summary": {
+      "value": "Record owner NOT located: no deed indexed for Lts 3&4 Blk 34 East Houston. Name hits are other-property City liens (same-name unconfirmed). Nothing identified that survives, but the chain is unverified; Block 34 shows multiple tax deeds to Land Assemblage Redevelopment Authority without lot numbers.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Title commitment needed before bidding."
     }
   },
   "physical": {
@@ -465,6 +572,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de BROWN WALKER JR (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Pedir cadena de titulo de LTS 3&4 BLK 34 EAST HOUSTON (sin escritura indexada); revisar imagenes de tax deeds a Land Assemblage Redevelopment Authority 2005-2009 en Block 34 sin numero de lote (Z521344, Z267042, 20060020068) para descartar que incluyan lotes 3-4",
+      "why": "requiere imagenes del Clerk / title company"
     }
   ],
   "valuation": {

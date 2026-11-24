@@ -504,6 +504,107 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'RODRIQUEZ R')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "title_search_method": {
+      "value": "Legal-description searches (Subdivision FOREST RIVER ESTATES/ESTS/EST/FOREST RIVER, Lot 21, Block 1; also Block 1 only = 200-row cap) plus name search RODRIQUEZ R (grantee and grantor)",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
+    },
+    "vesting_deed": {
+      "value": null,
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc FOREST RIVER ESTATES Lot 21 Block 1)",
+      "retrieved_at": "2026-11-24",
+      "note": "No instrument indexed under Lot 21 Block 1 of Forest River Estates under any spelling tried. Only Lot 21 BLOCK 10 appears (RP-2025-121292, H656148, H656149: Walter / Cisneros) which is a DIFFERENT lot (noise). Vesting deed for R F Rodriquez not found; likely older/mis-indexed or in volume/page index. Human/title company needed."
+    },
+    "legal_desc_rows_belonging_to_parcel": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc search)",
+      "retrieved_at": "2026-11-24",
+      "note": "0 rows confirmed for LT 21 BLK 1."
+    },
+    "legal_desc_rows_excluded_as_noise": {
+      "value": [
+        "RP-2025-121292 | 04/03/2025 | DEED | Walter Derwood F -> Walter Derwood F Jr | FOREST RIVER ESTATES Lot 21 Block 10 (different block)",
+        "H656148 / H656149 | 10/13/1982 | W/D | Lot 21 Block 10 (different block)"
+      ],
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc)",
+      "retrieved_at": "2026-11-24",
+      "note": "Excluded: Block 10, not Block 1."
+    },
+    "name_search_result": {
+      "value": "'RODRIQUEZ R' capped at 200 rows grantee and 200 grantor (rows reach back only to ~1992-2006); 'RODRIQUEZ R F' / 'RODRIGUEZ R F' = 0 rows. None of the rows read references Forest River Estates. The rp_hits_* lists from title_search.py (53/56 rows, other Rodriquez persons, other subdivisions, incl. 2026 deeds) are NOT this owner: no identity link (middle initials/address/legal)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name RODRIQUEZ R)",
+      "retrieved_at": "2026-11-24",
+      "note": "Common-name search capped at 200 -> inferred. Same-name risk high (Rodriquez/Rodriguez). Do not attribute any of those rows to the taxed owner."
+    },
+    "mortgages": {
+      "value": [],
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc+name)",
+      "retrieved_at": "2026-11-24",
+      "note": "No deed of trust found for the parcel (no vesting deed found either). Cannot say none exist."
+    },
+    "liens_federal": {
+      "value": [],
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name RODRIQUEZ R)",
+      "retrieved_at": "2026-11-24",
+      "note": "Name capped at 200; owner given only as initials 'R F', so IRS/DOJ search impossible without full name."
+    },
+    "liens_city_county": {
+      "value": [],
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc)",
+      "retrieved_at": "2026-11-24",
+      "note": "No city/county/state lien row under Lot 21 Block 1 Forest River Estates."
+    },
+    "liens_hoa_lispendens": {
+      "value": "none found under legal description",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "No LIEN/L-P/A-J row tied to the legal description other than those listed. Index only."
+    },
+    "child_support_liens": {
+      "value": "not found in index search (no child-support/OAG lien types appear in rows read); index does not always label them",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Child-support liens are often filed as LIEN/ABSTRACT without subtype; verify on images if shortlisted. Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
+    },
+    "restrictions": {
+      "value": "not checked: plat restrictions / recorded covenants not located in index search",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Need plat + restriction instruments (images) to evaluate duplex use."
+    },
+    "tdhca_status": {
+      "value": "Vacant land per HCAD (building sqft 0, Res Vacant land table); no manufactured-home title search run (TDHCA mhweb not queried)",
+      "status": "inferred",
+      "source": "https://www.tdhca.state.tx.us/mhweb (not queried); HCAD intake.hcad_building_sqft=0",
+      "retrieved_at": "2026-11-24",
+      "note": "Low relevance for raw land; confirm no mobile home on site visit."
+    },
+    "owner_deceased_heirs": {
+      "value": "unknown: owner name only 'R F' initials; no heirship affidavit identifiable",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Cannot search AFFT without full name."
+    },
+    "title_summary": {
+      "value": "No indexed instrument for LT 21 BLK 1 FOREST RIVER ESTATES; owner of record only known from HCAD as 'RODRIQUEZ R F'. Record title / taxed-owner match NOT verified. Nothing that survives could be identified, but absence is not evidence: needs title report.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Risk: unknown chain. Order title commitment before bidding."
     }
   },
   "legal": {
@@ -582,6 +683,11 @@
       "agent": "reviewer",
       "item": "Revisar con abogado/titulo antes de pujar: Repetir busqueda en el Clerk por descripcion legal (LT 21 BLK 1 FOREST RIVER ESTATES) o pedir titulo",
       "why": "requiere imagen del Clerk, login o criterio de abogado (modo barato: sin busquedas nuevas)"
+    },
+    {
+      "agent": "title",
+      "item": "Obtener cadena de titulo de LT 21 BLK 1 FOREST RIVER ESTATES (vesting deed no aparece en el indice por legal; buscar por vol/pag o con title company; confirmar nombre completo de 'R F Rodriquez')",
+      "why": "indice sin resultados / nombre solo iniciales; requiere imagenes o title company"
     }
   ],
   "valuation": {

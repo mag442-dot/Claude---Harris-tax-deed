@@ -337,6 +337,118 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'HARVEY EURLINE')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "title_search_method": {
+      "value": "Legal-description search MACGREGOR PALMS Lot 12 Block 8 (22 rows, incl. 'MAC GREGOR' variant via name) + name HARVEY EURLINE (grantee 9 / grantor 8) + grantee LEMOND MARVIN (28 rows, 1 on parcel) + desc search post-2015 (0 rows)",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
+    },
+    "vesting_deed": {
+      "value": "W/D file D277750, 03/04/1971 (vol 8332 p 218), Joe L & Joyce M Perry -> HARVEY EURLINE; MACGREGOR PALMS Sec 1 Lot 12 Block 8",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc MACGREGOR PALMS L12 B8)",
+      "retrieved_at": "2026-11-24",
+      "note": "Index row only (no image). Taxed owner = vesting grantee on record. BUT see later QCD."
+    },
+    "post_vesting_conveyances": {
+      "value": [
+        "20140528781 | 11/25/2014 | QCD | Banks Bridgett Harvey etal & Harvey Monroe C III etal (apparently heirs) -> LEMOND MARVIN | MACGREGOR PALMS Sec 1 Lot 12 Block 8 (film RP093350133)",
+        "20140528780 | 11/25/2014 | AFFT | Banks Fred etal / Lee Jazmine etal -> HARVEY EURLINE EST (7 pages; likely heirship affidavit) (film RP093350126)"
+      ],
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc + name HARVEY EURLINE)",
+      "retrieved_at": "2026-11-24",
+      "note": "Same-day instruments. Index only; QCD is a quitclaim from putative heirs, not a warranty chain."
+    },
+    "legal_desc_rows_belonging_to_parcel": {
+      "value": "22 rows 1965-2014 (see detail in title_notes): 1965 Smith purchase + D/T American Mtg; 1968 FNMA/VA chain; 1968 VA D/T; 1971 Perry -> Harvey; 1973/1978/1981 CONT (home-improvement contracts) by Harvey with assignments; 1989 ASSGN; City of Houston LIEN/ORDER/NOTICE 1997-98; 2014 QCD",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc)",
+      "retrieved_at": "2026-11-24",
+      "note": "Zero rows after 11/25/2014 under this legal."
+    },
+    "mortgages": {
+      "value": [
+        "C797736 | 10/18/1968 | D/T (vol 6541 p 297) Perry -> Veterans Affairs; TRE Goforth (Perry's loan, pre-Harvey)",
+        "1971-1981 CONT rows by Harvey: D834833 (03/26/1973, to Adams / Interior Decorators, assigned to Financial Acceptance Corp), F555292 (04/13/1978, All Bldr Corp, assigned to Home Sav Assn then to United States of America H457928 05/21/1982), G983087 (05/22/1981, Major United Steel Sc, assigned to Block, then M126183 04/19/1989 to Major Funding Corp / Sommers TRE)",
+        "N275906 | 08/15/1991 | REL | Major Funding Corp TR / Sommers TRE -> Harvey Eurline | MAC GREGOR PALMS Sec 1 Lot 12 Block 8 (inferred release of the 1981/1989 Major Funding contract chain)"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc + name HARVEY EURLINE)",
+      "retrieved_at": "2026-11-24",
+      "note": "No purpose-money deed of trust by Harvey found. Home-improvement contracts (mechanic's/materialman lien instruments) of 1973 & 1978: no release row seen in index for the 1973 (Financial Acceptance) and 1978 (Home Sav / USA) chains. Releases seen only in index -> inferred. All 43-53 years old (Texas 4-year/10-year limitations on liens very likely run) but cannot call expired as verified."
+    },
+    "liens_federal": {
+      "value": [
+        "F343011 10/21/1977, G255409 09/27/1979, H760329 01/03/1983, J121752 09/02/1983 | T/L | Harvey Eurline -> Internal Revenue Serv (no legal description in index)",
+        "K129176 | 07/29/1985 | REL | Internal Revenue Serv -> Harvey Eurline (one release; cannot tell which of the 4 liens it covers)"
+      ],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name HARVEY EURLINE)",
+      "retrieved_at": "2026-11-24",
+      "note": "Debtor 'HARVEY EURLINE' is an uncommon name, but index gives no address/legal; same-owner identity NOT confirmed. Ages 43-49 years: a civil federal tax lien (26 USC 6322/6502) self-releases ~10 years after assessment absent refiling; no refiling rows seen after 1985. Likely extinguished but NOT concluded as verified. Federal liens would not be cut by a Texas tax sale in any case except via proper notice to the IRS (26 USC 7425) - check."
+    },
+    "liens_city_county": {
+      "value": [
+        "T407353 | 11/30/1998 | LIEN | City of Houston -> HARVEY EURLINE | MACGREGOR PALMS Sec 1 Lot 12 Block 8 (film 522492797)",
+        "S504596 | 06/20/1997 | ORDER | City of Houston -> Harvey Eurline | same legal (6 pages; probably demolition/nuisance abatement order)",
+        "S462859 | 05/23/1997 | NOTICE | City of Houston -> Harvey Eurline | same legal"
+      ],
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc MACGREGOR PALMS L12 B8)",
+      "retrieved_at": "2026-11-24",
+      "note": "On the parcel by legal description (identity solid). NO release seen. Age 28 years. City of Houston nuisance/demolition liens are typically junior to / extinguished by a tax-sale foreclosure when the City is a party to the suit; confirm City of Houston is a plaintiff/defendant in the cause. Not concluded expired."
+    },
+    "liens_hoa_lispendens": {
+      "value": "none found under legal; no L/P and no A/J on parcel",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "No LIEN/L-P/A-J row tied to the legal description other than those listed. Index only."
+    },
+    "child_support_liens": {
+      "value": "not found in index search (no child-support/OAG lien types appear in rows read); index does not always label them",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Child-support liens are often filed as LIEN/ABSTRACT without subtype; verify on images if shortlisted. Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
+    },
+    "restrictions": {
+      "value": "not checked: plat restrictions / recorded covenants not located in index search",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Need plat + restriction instruments (images) to evaluate duplex use."
+    },
+    "tdhca_status": {
+      "value": "Vacant land per HCAD (building sqft 0, Res Vacant land table); no manufactured-home title search run (TDHCA mhweb not queried)",
+      "status": "inferred",
+      "source": "https://www.tdhca.state.tx.us/mhweb (not queried); HCAD intake.hcad_building_sqft=0",
+      "retrieved_at": "2026-11-24",
+      "note": "Low relevance for raw land; confirm no mobile home on site visit."
+    },
+    "owner_deceased_heirs": {
+      "value": "Likely DECEASED: AFFT 20140528780 (11/25/2014) names 'HARVEY EURLINE EST' (index shows estate suffix); same-day QCD 20140528781 from Bridgett Harvey Banks / Monroe C Harvey III etal to Marvin Lemond",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name HARVEY EURLINE)",
+      "retrieved_at": "2026-11-24",
+      "note": "Image not read: the affidavit content (heirship vs other) unconfirmed. If Eurline Harvey died before the tax suit or the suit named only her/him, heirs and QCD grantee Lemond may not have been served -> TRCP 329 / due process risk to the tax deed."
+    },
+    "record_title_vs_taxed_owner": {
+      "value": "MISMATCH: record title appears to have passed (by quitclaim, 11/25/2014) to MARVIN LEMOND; taxed owner HARVEY EURLINE (deceased) is the 1971 grantee. Lemond has no other filings on the parcel since 2014 (no D/T, no deed out).",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor LEMOND MARVIN + desc post-2015)",
+      "retrieved_at": "2026-11-24",
+      "note": "Other 'Lemond Marvin F' rows (Inwood Pines, White R Abstract 84) are different property -> excluded as noise (different legal; possibly different person)."
+    },
+    "title_summary": {
+      "value": "Vesting: 1971 W/D to Eurline Harvey (D277750). Owner deceased per 2014 AFFT 'EST'; QCD to Marvin Lemond 11/25/2014 means record owner differs from taxed owner. City of Houston LIEN/ORDER/NOTICE 1997-98 on the parcel, no release. Old IRS T/L (1977-83) by name only, likely stale. No mortgage of record on current owner; no HOA/L-P. Could survive: unserved heirs / Lemond interest (redemption, TRCP 329 up to 2 yrs from deed), any non-party lien.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Material change: heirs/QCD grantee service question raises risk. Check cause 202221707 defendants (legal agent / human)."
     }
   },
   "legal": {
@@ -410,6 +522,16 @@
       "agent": "legal",
       "item": "Buscar bancarrota de HARVEY EURLINE (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Ver imagenes 20140528780 (AFFT 'Harvey Eurline EST') y 20140528781 (QCD a Marvin Lemond) y confirmar si Lemond/herederos fueron demandados en el cause 202221707",
+      "why": "imagenes del Clerk + hcdistrictclerk requiere login"
+    },
+    {
+      "agent": "title",
+      "item": "Ver imagen City of Houston S504596/T407353 (orden + lien 1997-98): monto y si la ciudad es parte del juicio",
+      "why": "requiere imagen del Clerk"
     }
   ],
   "valuation": {

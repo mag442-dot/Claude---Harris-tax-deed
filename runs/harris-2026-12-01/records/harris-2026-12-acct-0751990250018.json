@@ -344,6 +344,95 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'GAYTAN CREW')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "title_search_method": {
+      "value": "Legal-description search SUNNYSIDE GARDENS Lot 18 Block 25 (8 rows; 0 rows after 03/01/2015) + name GAYTAN CREW (grantee 1 row, grantor 0)",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
+    },
+    "vesting_deed": {
+      "value": "W/D 20150079625, 02/27/2015 (film RP094100302), ORTEGA RAMIRO MENDEZ -> GAYTAN CREW CONSTRUCTION CO INC; SUNNYSIDE GARDENS Lot 18 Block 25",
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc SUNNYSIDE GARDENS L18 B25 + grantee GAYTAN CREW)",
+      "retrieved_at": "2026-11-24",
+      "note": "Index row only. Taxed owner (HCAD 'GAYTAN CREW CONSTRUCTION CO INC') = record grantee. Grantor name appears as 'MENDEZ-ORTEGA RAMIRO' on the prior deed (name order variance, inferred same person)."
+    },
+    "chain_prior": {
+      "value": [
+        "20150010358 | 01/08/2015 | DEED | City of Houston/Harris County/HCC/HISD etal (Sandling heirs, Walker May Const) -> MENDEZ-ORTEGA RAMIRO | same legal (film RP093701387) = tax-resale deed from taxing units",
+        "20140420365 | 09/18/2014 | DEED | Sandling heirs etal / taxing units -> City of Houston etal (struck-off tax deed) | same legal (film RP092752082)"
+      ],
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc)",
+      "retrieved_at": "2026-11-24",
+      "note": "Chain starts with a 2014 constable tax-sale deed to taxing units and a 2015 resale: the pre-2014 Sandling-era liens were cut by that tax deed (inferred)."
+    },
+    "mortgages": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc post-2015 + grantor GAYTAN CREW)",
+      "retrieved_at": "2026-11-24",
+      "note": "No D/T by Gaytan Crew or anyone after 02/27/2015 found under the legal; grantor-side name search = 0 rows. Index only."
+    },
+    "liens_federal": {
+      "value": [],
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee GAYTAN CREW)",
+      "retrieved_at": "2026-11-24",
+      "note": "None found (entity name; name search returns only the 2015 deed). Also check variants 'GAYTAN CREW CONSTRUCTION' (0 rows as grantor)."
+    },
+    "liens_city_county": {
+      "value": [
+        "20110137477 | 04/06/2011 LIEN, 20100522579 | 12/09/2010 LIEN, 20100372132 | 08/31/2010 NOTICE, 20090399521 | 09/02/2009 ORDER, 20090371318 | 08/17/2009 NOTICE | City of Houston -> Sandling heirs (Sandling Ester B EST / Willie L Jr / Dolores Laverne), same legal"
+      ],
+      "status": "verified",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (desc)",
+      "retrieved_at": "2026-11-24",
+      "note": "Pre-date the 2014 tax deed and 2015 resale -> debtors are the former owners (Sandling), not Gaytan Crew. No release seen but likely extinguished by the 2014 tax deed (inferred; weight: City was a grantor on that deed). Not a lien on Gaytan Crew."
+    },
+    "liens_hoa_lispendens": {
+      "value": "none found under legal",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "No LIEN/L-P/A-J row tied to the legal description other than those listed. Index only."
+    },
+    "child_support_liens": {
+      "value": "not found in index search (no child-support/OAG lien types appear in rows read); index does not always label them",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Child-support liens are often filed as LIEN/ABSTRACT without subtype; verify on images if shortlisted. Index only (no images); search by legal description (Subdivision/Lot/Block fields) and by name; the Clerk index shows file number, date, type, parties and desc as typed. Release/expiry conclusions are inferences. No District Clerk/PACER/TDHCA checks here."
+    },
+    "restrictions": {
+      "value": "not checked: plat restrictions / recorded covenants not located in index search",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Need plat + restriction instruments (images) to evaluate duplex use."
+    },
+    "tdhca_status": {
+      "value": "Vacant land per HCAD (building sqft 0, Res Vacant land table); no manufactured-home title search run (TDHCA mhweb not queried)",
+      "status": "inferred",
+      "source": "https://www.tdhca.state.tx.us/mhweb (not queried); HCAD intake.hcad_building_sqft=0",
+      "retrieved_at": "2026-11-24",
+      "note": "Low relevance for raw land; confirm no mobile home on site visit."
+    },
+    "owner_deceased_heirs": {
+      "value": "N/A entity. Entity status (SOS forfeiture/dissolution) not checked",
+      "status": "unknown",
+      "source": "https://mycpa.cpa.state.tx.us / SOS (not queried)",
+      "retrieved_at": "2026-11-24",
+      "note": "Mailing address is an apartment (9505 Beechnut Apt 1213) - consider whether entity is active; a forfeited/dissolved entity affects service in the suit."
+    },
+    "title_summary": {
+      "value": "Clean index chain: 2014 tax deed -> 2015 resale to R. Mendez-Ortega -> 02/27/2015 W/D to Gaytan Crew Construction Co Inc (taxed owner = record owner). No mortgage, federal, HOA or L/P found after 2015. Pre-2014 City liens on prior owners (Sandling) no release but likely extinguished by the 2014 tax deed. Nothing identified that survives; risk is entity status/service and unseen images.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "retrieved_at": "2026-11-24",
+      "note": "Lowest title risk of the five by index. Judgment 06/05/2024 -> TRCP 329 window runs to ~06/2026 (already past by date)."
     }
   },
   "legal": {
@@ -417,6 +506,11 @@
       "agent": "legal",
       "item": "Buscar bancarrota de GAYTAN CREW CONSTRUCTION CO INC (1.0000% en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Confirmar estatus activo de GAYTAN CREW CONSTRUCTION CO INC (SOS/Comptroller) y si fue citada (cause 202163448)",
+      "why": "hcdistrictclerk requiere login; SOS no consultado"
     }
   ],
   "valuation": {
