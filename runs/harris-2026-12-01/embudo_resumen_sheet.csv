@@ -16,8 +16,8 @@ etapa_final,detalle,tipo,cantidad
 "4 Paso filtros, sin revision de agente","casa: no revisada (la revision de agentes se hizo solo en lotes vacios, que es tu estrategia)",CASA/OTRO,1
 5 Revisada por agente,DESCARTADA o no apta: BAJA,LOTE,1
 5 Revisada por agente,DESCARTADA o no apta: SOLO CERCA DE LA APERTURA,LOTE,1
-5 Revisada por agente,EN ESPERA (falta informacion clave),CASA/OTRO,7
+5 Revisada por agente,EN ESPERA (falta informacion clave),CASA/OTRO,9
 5 Revisada por agente,EN ESPERA (falta informacion clave),LOTE,7
-5 Revisada por agente,PASO (condicional a verificar pendientes),CASA/OTRO,16
+5 Revisada por agente,PASO (condicional a verificar pendientes),CASA/OTRO,14
 5 Revisada por agente,PASO (condicional a verificar pendientes),LOTE,12
 TOTAL lista oficial,,,157
