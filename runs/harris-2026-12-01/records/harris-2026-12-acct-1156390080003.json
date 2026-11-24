@@ -382,6 +382,91 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'STEWART AND')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "RP-2023-36921, W/D dated 02/02/2023, grantor KINGDOM BUILDERS CENTER OF HOUSTON TEXAS INC, grantee STEWART AND STEWARTS DEVELOPMENT INC, Desc SOUTHWEST CROSSING Sec 7 Block 8 Reserve A.",
+      "status": "inferred",
+      "source": "RP-2023-36921; https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTHWEST CROSSING' Block=8; entity-name search 'STEWART AND STEWARTS')",
+      "retrieved_at": "2026-11-24",
+      "note": "Index row only (type W/D, legal text read in index). Grantee matches taxed owner (HCAD: STEWART AND STEWARTS DEVELOPMENT INC). DISCREPANCY: index legal says Reserve A; HCAD legal says RES A2 -> deed may cover a larger Reserve A (replat/split) than this account. Image needed to confirm the deed covers the parcel."
+    },
+    "mortgages": {
+      "value": "D/T RP-2024-431762, 11/19/2024, grantor STEWART AND STEWARTS DEVELOPMENT, grantee U S SMALL BUSINESS ADMINISTRATION, trustee ACOCK KELLE, Desc SOUTHWEST CROSSING Sec 7 Block 8 Reserve A. No release found in index. Amount not read.",
+      "status": "inferred",
+      "source": "RP-2024-431762; https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTHWEST CROSSING' Block=8; entity-name search 'STEWART AND STEWARTS')",
+      "retrieved_at": "2026-11-24",
+      "note": "Recorded ~5 months before the tax suit (cause 202510554 filed 2025), so the SBA is a record lienholder. Whether the SBA was joined as a defendant (legal agent, hcdistrictclerk login) decides if the lien is cut off. A federal lienholder not joined keeps a 120-day post-sale redemption right (28 USC 2410(c)) and the lien may survive."
+    },
+    "liens_federal": {
+      "value": "SBA deed of trust RP-2024-431762 (see mortgages) is the only federal-agency interest on the legal description. No IRS/DOJ lien found on the entity. The IRS rows in the name search (T/L RP-2026-283869 07/15/2026; REL RP-2026-263855 07/01/2026) are against STEWART ANDREA M / STEWART PAUL J / STEWART ANDREA = individuals, different persons -> NOT attributed.",
+      "status": "inferred",
+      "source": "RP-2024-431762; https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (name searches)",
+      "retrieved_at": "2026-11-24",
+      "note": "Same-name risk: the first name search used truncated name 'STEWART AND' which pulled hundreds of unrelated Stewart rows; excluded. Rerun with 'STEWART AND STEWARTS' returned only 2 rows (RP-2023-36921, RP-2024-431762)."
+    },
+    "liens_city_county": {
+      "value": "Prior-owner liens: City of Houston LIEN RP-2021-353317 (06/23/2021) against KINGDOM BUILDERS CENTER OF HOUSTON TEXAS INC on Reserve A; REL by City of Houston RP-2023-36920 (02/02/2023, same day as vesting deed) on the same legal description. No city/county lien found against the current owner.",
+      "status": "inferred",
+      "source": "RP-2021-353317; RP-2023-36920; https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTHWEST CROSSING' Block=8; entity-name search 'STEWART AND STEWARTS')",
+      "retrieved_at": "2026-11-24",
+      "note": "Release seen only in the index (no image) -> inferred. Nature of the 2021 lien (nuisance/demolition/paving?) unknown. State of Texas LIEN RP-2022-67709 is against 'STEWART AND 89TH L P' = different entity -> excluded."
+    },
+    "liens_hoa_lispendens": {
+      "value": "No HOA lien, A/J or L/P found on SOUTHWEST CROSSING Sec 7 Blk 8 or under the entity name. A/J RP-2025-70641 (Midland Credit v. STEWART ANDREA) is an individual -> excluded.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTHWEST CROSSING' Block=8; entity-name search 'STEWART AND STEWARTS')",
+      "retrieved_at": "2026-11-24",
+      "note": "Index only (no images; instrument types/amounts not read)."
+    },
+    "child_support_liens": {
+      "value": "None applicable/found (entity owner; no child-support lien on the legal description).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTHWEST CROSSING' Block=8; entity-name search 'STEWART AND STEWARTS')",
+      "retrieved_at": "2026-11-24",
+      "note": null
+    },
+    "restrictions": {
+      "value": "Not found in index. Easement RP-2022-565461 (CenterPoint Energy, 11/28/2022) is under 'STEWART AND STEWART DEVELOPMENT INCORPORATED' with no legal description and pre-dates the 02/2023 deed -> cannot be attributed to this parcel.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTHWEST CROSSING' Block=8; entity-name search 'STEWART AND STEWARTS')",
+      "retrieved_at": "2026-11-24",
+      "note": "Reserve in Southwest Crossing Sec 7 may carry plat restrictions/utility easements; plat not read."
+    },
+    "tdhca_status": {
+      "value": "Not applicable: vacant land (HCAD state class C2). No mhweb search run.",
+      "status": "inferred",
+      "source": "HCAD real_acct (intake.hcad_state_class)",
+      "retrieved_at": "2026-11-24",
+      "note": null
+    },
+    "owner_deceased_heirs": {
+      "value": "Owner is a corporation (STEWART AND STEWARTS DEVELOPMENT INC); heirship not applicable. Entity status (SOS forfeiture/dissolution) not checked.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTHWEST CROSSING' Block=8; entity-name search 'STEWART AND STEWARTS')",
+      "retrieved_at": "2026-11-24",
+      "note": "Check Texas SOS/Comptroller status; a forfeited entity affects who can be served/contest."
+    },
+    "chain_of_title_legal_search": {
+      "value": {
+        "relevant_rows": [
+          "RP-2023-36921 (W/D vesting)",
+          "RP-2024-431762 (D/T SBA)",
+          "RP-2023-36920 (REL City of Houston)",
+          "RP-2021-353317 (LIEN City of Houston vs Kingdom Builders)"
+        ],
+        "noise_excluded": "All IRS, Midland, mortgage, trust and easement rows for individuals named STEWART ANDREA/ANDREW/PAUL, 'STEWART AND 89TH LP', 'STEWART AND MORROW COMPANY LLC' and 'STEWART AND JANE MACCOLL TRUST' (first search used the truncated name 'STEWART AND')."
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTHWEST CROSSING' Block=8; entity-name search 'STEWART AND STEWARTS')",
+      "retrieved_at": "2026-11-24",
+      "note": "Legal-description search returned only 4 rows for Block 8 + the entity-name search returned the same 2."
+    },
+    "title_summary": {
+      "value": "Chimney Rock / Southwest Crossing Sec 7 Blk 8 Res A2. Vesting RP-2023-36921 (02/02/2023) to the taxed entity; one open mortgage to the US SBA (D/T RP-2024-431762, 11/19/2024, no release, amount unknown) - the key risk: federal lienholder, may survive the sale or carry a 120-day redemption if not joined in cause 202510554. City lien against prior owner released the day of the deed (RP-2023-36920, inferred). No IRS/state/HOA/L/P attributable to the entity (the IRS lien/release rows belong to individuals named Stewart Andrea, excluded). Legal mismatch Res A vs A2 to verify. Raises risk (SBA).",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTHWEST CROSSING' Block=8; entity-name search 'STEWART AND STEWARTS')",
+      "retrieved_at": "2026-11-24",
+      "note": "Search run 2026-11-24."
     }
   },
   "legal": {
@@ -455,6 +540,26 @@
       "agent": "legal",
       "item": "Buscar bancarrota de STEWART AND STEWARTS DEVELOPMENT INC (1. en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen de D/T RP-2024-431762 (SBA): monto, tipo (7a/504/EIDL), si cubre este predio",
+      "why": "imagen del Clerk"
+    },
+    {
+      "agent": "title",
+      "item": "Confirmar en el cause 202510554 (hcdistrictclerk) si la SBA/US fue demandada; si no, riesgo 28 USC 2410(c)",
+      "why": "login hcdistrictclerk / criterio de abogado"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen de RP-2023-36921 y del plat: confirmar que Reserve A cubre HCAD Res A2 y la superficie",
+      "why": "imagen del Clerk"
+    },
+    {
+      "agent": "title",
+      "item": "Confirmar nunca fue liberado RP-2021-353317 (liberacion RP-2023-36920 solo vista en el indice)",
+      "why": "imagen del Clerk"
     }
   ],
   "valuation": {

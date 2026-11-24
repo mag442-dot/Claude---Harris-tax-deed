@@ -348,6 +348,97 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'AMEZGUITA DORA')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "Index shows NO deed INTO the taxed owner for Lot 14. Latest instrument on the lot: RP-2026-384119, DEED dated 09/22/2026, grantors = AMEZGUITA DORA ZUNIGA / ZUNIGA DORA AMEZQUITA, PHILLIPS JAMES CONST (constable) and the taxing units; grantees = CITY OF HOUSTON, HARRIS COUNTY, HOUSTON CITY COLLEGE, HOUSTON COMMUNITY COLLEGE, HOUSTON ISD.",
+      "status": "inferred",
+      "source": "RP-2026-384119; https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTH MAIN PLAZA' Lot=14 Block=18; owner-name variants AMEZQUITA/AMEZGUITA/ZUNIGA DORA)",
+      "retrieved_at": "2026-11-24",
+      "note": "Interpretation: this is the post-judgment (constable) deed that struck the lot off to the taxing units after the 01/29/2025 judgment (cause 202211777), which is consistent with the county listing the lot as RESALE. Record title therefore appears to be in the taxing units, not the owner. Not verified: image not read. Deed into Dora Amezquita Zuniga for lot 14 not found in the index (she appears as grantee only for lot 13 (RP-2017-297287, 07/03/2017) and lot 28 (RP-2018-428712, 09/18/2018) of the same block, both different lots)."
+    },
+    "mortgages": {
+      "value": "None found for Lot 14 Block 18 (legal-description search returned only RP-2026-384119 for this lot).",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTH MAIN PLAZA' Lot=14 Block=18; owner-name variants AMEZQUITA/AMEZGUITA/ZUNIGA DORA)",
+      "retrieved_at": "2026-11-24",
+      "note": "Index only (no images; instrument types/amounts not read). Absence in index is not proof; pre-2016 instruments and instruments indexed under a misspelled name or without lot/block may be missed."
+    },
+    "liens_federal": {
+      "value": "None found (no IRS/DOJ/SBA/federal row on Lot 14 Block 18; none under AMEZQUITA/AMEZGUITA/ZUNIGA DORA names in the sampled searches).",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTH MAIN PLAZA' Lot=14 Block=18; owner-name variants AMEZQUITA/AMEZGUITA/ZUNIGA DORA)",
+      "retrieved_at": "2026-11-24",
+      "note": "Common-name risk: 'ZUNIGA DORA' returns unrelated people (Willow Springs POA rows, Heatherloch, '769' subdivision) -> excluded as different persons/legal descriptions."
+    },
+    "liens_city_county": {
+      "value": "None found on Lot 14 Block 18. City of Houston REL RP-2020-10138 (01/08/2020) is on Lot 26 Block 18 = different lot, not ours.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTH MAIN PLAZA' Lot=14 Block=18; owner-name variants AMEZQUITA/AMEZGUITA/ZUNIGA DORA)",
+      "retrieved_at": "2026-11-24",
+      "note": "Index only (no images; instrument types/amounts not read)."
+    },
+    "liens_hoa_lispendens": {
+      "value": "No HOA lien, A/J or L/P found on Lot 14 Block 18. The only A/J seen under ZUNIGA DORA (RP-2016-442184, Property Owners Association of Willow Springs) is Willow Springs Sec 8, a different subdivision -> not attributed to this lot.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTH MAIN PLAZA' Lot=14 Block=18; owner-name variants AMEZQUITA/AMEZGUITA/ZUNIGA DORA)",
+      "retrieved_at": "2026-11-24",
+      "note": "Same-name risk: could not confirm that Dora Zuniga of Willow Springs is the taxed owner (no middle name/address on the row). It does not touch this legal description."
+    },
+    "child_support_liens": {
+      "value": "None found in index (no child-support lien rows under owner name variants or on the lot).",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTH MAIN PLAZA' Lot=14 Block=18; owner-name variants AMEZQUITA/AMEZGUITA/ZUNIGA DORA)",
+      "retrieved_at": "2026-11-24",
+      "note": "Index does not label child-support liens distinctly; would show as LIEN/A-J under the owner name."
+    },
+    "restrictions": {
+      "value": "Not found in index by legal description (no restrictions/declaration row for South Main Plaza Block 18 returned). Houston has no zoning; deed restrictions in this older subdivision cannot be ruled out.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTH MAIN PLAZA' Lot=14 Block=18; owner-name variants AMEZQUITA/AMEZGUITA/ZUNIGA DORA)",
+      "retrieved_at": "2026-11-24",
+      "note": "Plat/restrictions require reading the subdivision plat and a restrictions search; not done."
+    },
+    "tdhca_status": {
+      "value": "Not applicable: vacant lot (HCAD state class C1, land only). No mhweb search run.",
+      "status": "inferred",
+      "source": "HCAD real_acct (intake.hcad_state_class)",
+      "retrieved_at": "2026-11-24",
+      "note": "If a manufactured home is found on site, run TDHCA mhweb and check the real-property election."
+    },
+    "owner_deceased_heirs": {
+      "value": "No heirship affidavit or probate-type instrument found on Lot 14 Block 18 or under the owner name variants.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTH MAIN PLAZA' Lot=14 Block=18; owner-name variants AMEZQUITA/AMEZGUITA/ZUNIGA DORA)",
+      "retrieved_at": "2026-11-24",
+      "note": "Estate-type rows seen in the block (EST, e.g. lots 34, 39-40) belong to other lots."
+    },
+    "chain_of_title_legal_search": {
+      "value": {
+        "relevant_rows": [
+          "RP-2026-384119",
+          "RP-2017-297287 (QCD to AMEZQUITA DORA ZUNIGA, Lot 13 - NOT this lot; shows name variants)",
+          "RP-2018-428712 (QCD to ZUNIGA DORA AMEZQUITA, Lot 28 - NOT this lot)",
+          "RP-2018-175001 (DEED 04/24/2018 Harris County/constable -> CARPENTIER OLGA L, Lot 13 - NOT this lot; precedent: owner's lot 13 was also tax-deeded)"
+        ],
+        "noise_excluded": "~30 other rows of Block 18 (lots 12, 21, 26-30, 33-34, 37-40) and lot 14 rows of other blocks (4, 13, 17, 22, 23, 25-27, 29-33, 35) belong to other parcels.",
+        "searches": [
+          "Desc=SOUTH MAIN PLAZA + Block 18 (34 rows)",
+          "Desc=SOUTH MAIN + Lot=14 + Block 18",
+          "Desc=SOUTH MAIN PLAZA + Lot=14 (all blocks)",
+          "name: AMEZQUITA DORA, ZUNIGA DORA (grantee+grantor)"
+        ]
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTH MAIN PLAZA' Lot=14 Block=18; owner-name variants AMEZQUITA/AMEZGUITA/ZUNIGA DORA)",
+      "retrieved_at": "2026-11-24",
+      "note": "Rows classified by lot/block match only."
+    },
+    "title_summary": {
+      "value": "Lot 14 Blk 18 South Main Plaza (0 Lomalinda). Index shows only one instrument on this lot after the judgment: RP-2026-384119 (09/22/2026), a deed from owner/constable to the taxing units (struck-off), consistent with a RESALE listing. No mortgage, federal, city, HOA, A/J or L/P row found on the lot. Vesting deed into the taxed owner for this lot NOT in the index. Same-block parcels (lot 13, lot 28) were also tax-deeded, so this owner has a history of non-payment. Risks: (1) image of RP-2026-384119 unread -> confirm it is a taxing-unit struck-off deed and who holds title; (2) the adjacent lot 15 is sold in the same sale under the same cause; (3) attorney should confirm any redemption/TRCP 329 exposure for a resale after a struck-off deed. Nothing in the index appears to survive the sale; confidence moderate (index only).",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description search Desc='SOUTH MAIN PLAZA' Lot=14 Block=18; owner-name variants AMEZQUITA/AMEZGUITA/ZUNIGA DORA)",
+      "retrieved_at": "2026-11-24",
+      "note": "Search run 2026-11-24. Does not change risk level materially; it lowers lien-survival risk but adds a title-chain question."
     }
   },
   "legal": {
@@ -421,6 +512,21 @@
       "agent": "legal",
       "item": "Buscar bancarrota de AMEZGUITA DORA Z (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagen del Clerk de RP-2026-384119 (DEED 09/22/2026, Lot 14 Blk 18): confirmar que es escritura de constable/resale a los taxing units y quien es titular registrado hoy",
+      "why": "imagen del Clerk (el indice no muestra el texto de la escritura)"
+    },
+    {
+      "agent": "title",
+      "item": "Pedir a abogado/titulo confirmar plazo de redencion o accion TRCP 329 tras el struck-off de RP-2026-384119",
+      "why": "criterio de abogado"
+    },
+    {
+      "agent": "title",
+      "item": "Buscar escritura hacia Dora Zuniga Amezquita para Lot 14 Blk 18 (pre-2016 o variante de nombre) para completar la cadena",
+      "why": "no aparece en indice online; requiere busqueda de titulo/imagen"
     }
   ],
   "valuation": {

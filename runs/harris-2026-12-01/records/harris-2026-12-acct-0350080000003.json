@@ -437,6 +437,94 @@
       "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (grantee/grantor name search 'NEW FELLOWSHIP')",
       "retrieved_at": "2026-11-13",
       "note": "Name search only; identity not confirmed (same-name risk); index only, no images; other spellings/entities not searched; verify with legal-description search."
+    },
+    "vesting_deed": {
+      "value": "No deed INTO the church found in the index. Latest instruments on the parcel: RP-2026-384118 (DEED 09/22/2026, Desc T STUART'S ADDITION Lots/Tracts 3-8 Block 4) and RP-2026-384117 (DEED 09/22/2026, Desc T STUART'S ADDITION Block 4, no tract). Grantors: NEW FELLOWSHIP MISSONARY BAPTIST CHURCH, HARRISON MELODY D / HARRISON MELODY LAW, SACKVILLE JOSEPHINE CINDA, TROMBATORE (FRANK LUKE, JOHN JOSEPH, JOHNNIE JOSEPH, JOSEPHINE CINDA, SARA, SARAH FRANCES EARMAN), TREVINO SILVIA (constable) and the taxing units; grantees: City of Houston, Harris County, HC Dept of Education, HC Flood Control, HC Hospital District, HCC, HISD, Port of Houston Authority.",
+      "status": "inferred",
+      "source": "RP-2026-384118; RP-2026-384117; https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description searches Desc='T STUART'/'TOM STUART'/'STUARTS' Block=4 and Tract variants; name search 'NEW FELLOWSHIP')",
+      "retrieved_at": "2026-11-24",
+      "note": "Interpretation: constable/struck-off deeds to the taxing units after the 03/04/2026 judgment (cause 202367297), consistent with RESALE listing. Which of the two deeds covers which account (3517 = HCAD tracts 3B 4A 5A 6B 7B 8B; 3525 = tracts 3 4 5) cannot be determined from the index; 384118 (3-8) may cover both. The grantor list includes people other than the church (Trombatore, Sackville, Harrison): record title before the sale may have stood in prior owners/heirs, not in the church. Images unread."
+    },
+    "mortgages": {
+      "value": "None found on T Stuart Block 4 under the church name (name search returned only the two 09/22/2026 deeds). D/Ts on Block 4 under other owners (e.g. RP-2024-20410 JPMorgan/Fuentes; RP-2020-77486 NewFirst/Martinez; RP-2019-491606; RP-2019-426059; RP-2019-306697; RP-2019-213265) belong to other tracts/owners -> excluded, but several lack a tract number.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description searches Desc='T STUART'/'TOM STUART'/'STUARTS' Block=4 and Tract variants; name search 'NEW FELLOWSHIP')",
+      "retrieved_at": "2026-11-24",
+      "note": "Index only (no images; instrument types/amounts not read). Rows without tract cannot be excluded 100% without images."
+    },
+    "liens_federal": {
+      "value": "None found against the church or on the parcel. SBA D/T RP-2018-95505 (Bailar) is Block 5 Lots 3-4 -> different parcel.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description searches Desc='T STUART'/'TOM STUART'/'STUARTS' Block=4 and Tract variants; name search 'NEW FELLOWSHIP')",
+      "retrieved_at": "2026-11-24",
+      "note": null
+    },
+    "liens_city_county": {
+      "value": "City of Houston RELs on Block 4 with no tract: RP-2025-482803 (12/08/2025), RP-2020-16240 (01/13/2020), RP-2019-526535 (11/27/2019) -> releases, owner not shown, could belong to any tract. City LIEN RP-2025-403774 (10/10/2025) vs CITYWIDE INVESTMENT GROUP LP, Tract 6 & 7A Block 4 = neighbor tract (this parcel is 6B/7B in HCAD for 3517); NOT attributed, but image needed to be sure tract 7A vs 7B boundaries do not overlap. No county lien found.",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description searches Desc='T STUART'/'TOM STUART'/'STUARTS' Block=4 and Tract variants; name search 'NEW FELLOWSHIP')",
+      "retrieved_at": "2026-11-24",
+      "note": "Release/lien rows seen only in index -> inferred. Neighbor parcel overlap is the open item."
+    },
+    "liens_hoa_lispendens": {
+      "value": "No HOA lien, A/J or L/P found on the parcel. (Tax suit lis pendens, if any, not distinguishable in the index.)",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description searches Desc='T STUART'/'TOM STUART'/'STUARTS' Block=4 and Tract variants; name search 'NEW FELLOWSHIP')",
+      "retrieved_at": "2026-11-24",
+      "note": "Index only (no images; instrument types/amounts not read)."
+    },
+    "child_support_liens": {
+      "value": "None found.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description searches Desc='T STUART'/'TOM STUART'/'STUARTS' Block=4 and Tract variants; name search 'NEW FELLOWSHIP')",
+      "retrieved_at": "2026-11-24",
+      "note": null
+    },
+    "restrictions": {
+      "value": "Not found in index. Easement RP-2025-335709 (08/26/2025, Citywide Investment Group LP to itself, Block 4, no tract) belongs to a different owner; may burden neighboring tract only.",
+      "status": "unknown",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description searches Desc='T STUART'/'TOM STUART'/'STUARTS' Block=4 and Tract variants; name search 'NEW FELLOWSHIP')",
+      "retrieved_at": "2026-11-24",
+      "note": "Plat/restrictions not read."
+    },
+    "tdhca_status": {
+      "value": "Not applicable: vacant lot (HCAD state class C2). No mhweb search run.",
+      "status": "inferred",
+      "source": "HCAD real_acct (intake.hcad_state_class)",
+      "retrieved_at": "2026-11-24",
+      "note": null
+    },
+    "owner_deceased_heirs": {
+      "value": "Possible. Grantor names TROMBATORE (7 names), SACKVILLE JOSEPHINE CINDA and HARRISON MELODY on the 09/22/2026 deeds suggest prior record owners/heirs were joined as defendants; deceased status NOT confirmed. No heirship affidavit found on Block 4 under these names in the index; AFFT rows RP-2019-306695 and RP-2019-212537 on Block 4 relate to other estates (TOLSTON/TOSTON, REESE).",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description searches Desc='T STUART'/'TOM STUART'/'STUARTS' Block=4 and Tract variants; name search 'NEW FELLOWSHIP')",
+      "retrieved_at": "2026-11-24",
+      "note": "Taxed owner (church, mailing 'ADDRESS UNKNOWN' on 3525) may not match record title; verify with images and Texas SOS (church may be unincorporated/inactive)."
+    },
+    "chain_of_title_legal_search": {
+      "value": {
+        "relevant_rows": [
+          "RP-2026-384118",
+          "RP-2026-384117"
+        ],
+        "possible_but_unattributed": [
+          "RP-2025-403774 (City LIEN vs Citywide, Tract 6 & 7A Blk 4)",
+          "RP-2025-482803 / RP-2020-16240 / RP-2019-526535 (City RELs Blk 4, no tract)",
+          "RP-2025-335709 (EASMT Citywide, Blk 4)"
+        ],
+        "noise_excluded": "~45 rows of T/TOM STUART'S ADDITION Blocks 1, 2, 3 and 5 and Block 4 tracts 8A/9A, 6-7 (Citywide), others' D/Ts and W/Ds."
+      },
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description searches Desc='T STUART'/'TOM STUART'/'STUARTS' Block=4 and Tract variants; name search 'NEW FELLOWSHIP')",
+      "retrieved_at": "2026-11-24",
+      "note": "Index uses several spellings of the subdivision (T STUART, TOM STUART, STUARTS); tract-specific searches returned 0 rows."
+    },
+    "title_summary": {
+      "value": "3525 Market St (T Stuart Add. Blk 4, Tracts 3 4 5). Church is the taxed owner but no deed into the church appears in the index; the only instruments tied to the parcel are two 09/22/2026 deeds (RP-2026-384117/-384118) from the church, prior owners (Trombatore, Sackville, Harrison) and the constable to the taxing units (struck-off, consistent with RESALE). No mortgage, federal, HOA, A/J or L/P found. City RELs on Block 4 (no tract) and a City lien vs Citywide on adjacent Tract 6 & 7A need image check. Open questions: which deed covers which account, heirs/prior owners of record, church status. Neighbor account 3517 Market St (0350080000019) shares the same deeds. Moderate-high uncertainty (index only).",
+      "status": "inferred",
+      "source": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx (legal-description searches Desc='T STUART'/'TOM STUART'/'STUARTS' Block=4 and Tract variants; name search 'NEW FELLOWSHIP')",
+      "retrieved_at": "2026-11-24",
+      "note": "Search run %s. Raises uncertainty (record title not matching taxed owner), no surviving lien identified."
     }
   },
   "legal": {
@@ -510,6 +598,21 @@
       "agent": "legal",
       "item": "Buscar bancarrota de NEW FELLOWSHIP MISS BAPT (1.0000%) en PACER",
       "why": "requiere login/cuenta"
+    },
+    {
+      "agent": "title",
+      "item": "Leer imagenes de RP-2026-384117 y RP-2026-384118 (DEED 09/22/2026): que tractos cubre cada una y a favor de quien",
+      "why": "imagen del Clerk"
+    },
+    {
+      "agent": "title",
+      "item": "Identificar titular registrado previo (Trombatore/Sackville/Harrison) y si hay herederos o fallecidos; pedir title commitment",
+      "why": "requiere imagen/abogado de titulo"
+    },
+    {
+      "agent": "title",
+      "item": "Ver imagen de City LIEN RP-2025-403774 (Citywide, Tract 6 & 7A Blk 4) y RELs sin tracto (RP-2025-482803, RP-2020-16240, RP-2019-526535) para descartar que toquen este predio",
+      "why": "imagen del Clerk"
     }
   ],
   "valuation": {
