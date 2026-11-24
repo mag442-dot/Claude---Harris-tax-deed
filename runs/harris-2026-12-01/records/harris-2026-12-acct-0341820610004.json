@@ -566,7 +566,7 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Casa de 1939 en South Houston (HCAD $146k, 68% terreno); Es una casa: fuera de la estrategia de lotes baldíos para dúplex; se juzga como reventa/rehab. Hecho 1: el índice del Clerk por descripción legal solo muestra la escritura de 2018 (RP-2018-98456) y ningún D/T, lien, A/J ni L/P sobre el lote (inferred, sin imágenes; cadena 1972-2018 sin reconstruir). Hecho 2: el techo teórico $107.8k cae a ~$85k (-20%) o ~$74k (-30%), es decir igual al cierre esperado de $74.2k, y el dueño vive al lado (510 Avenue B), por lo que la ocupación es probable. `legal` sigue bloqueado (demandados, citación, bancarrota), así que COMPRA FUERTE no es posible. Attorney review recommended.",
+    "rationale": "Casa de 1939 en South Houston (HCAD $146k, 68% terreno); Es una casa: fuera de la estrategia de lotes baldíos para dúplex; se juzga como reventa/rehab. Hecho 1: el índice del Clerk por descripción legal solo muestra la escritura de 2018 (RP-2018-98456) y ningún D/T, lien, A/J ni L/P sobre el lote (inferred, sin imágenes; cadena 1972-2018 sin reconstruir). Hecho 2: el techo teórico $107.8k cae a ~$85k (-20%) o ~$74k (-30%), es decir igual al cierre esperado de $74.2k, y el dueño vive al lado (510 Avenue B), por lo que la ocupación es probable. `legal` sigue bloqueado (demandados, citación, bancarrota), así que COMPRA FUERTE no es posible. Attorney review recommended. REFRESH 2026-11-24 (tax): total adeudado bajo de $9,592.07 a $9,392.07 (-$200.00 exactos): el renglon 2023 paso de $3,302.02 a $3,102.02 (impuesto/penalidades recalculados). Es un pago parcial redondo a un ano en sentencia; no desaparecio ningun renglon. Cola del comprador ($2,104.74), bid_ceiling ($107,778.70) y all_in_cost_estimate ($82,554.19, copiados de valuation) no cambian; no cambia la decision. Riesgo: dueño que vive al lado esta pagando (posible plan de pagos/retiro).",
     "bid_ceiling": 107778.7,
     "all_in_cost_estimate": 82554.19,
     "contradictions": [
@@ -575,14 +575,16 @@
       "Años en sentencia 2022-2025 vs. delinquent_by_year 2023-2025: 2022 sin saldo (¿pagado?); apertura $23,112 vs. total adeudado $9,592 sin explicar.",
       "Dueño y correo en 510 Avenue B (contiguo) con sentencia 04/14/2026: posible ocupación por el dueño o familia aunque no haya homestead en el roll.",
       "hcad_building_sqft 2202 vs. hcad_buildings 'Residential 2226sf'.",
-      "Escritura de vesting 2018 con 4 grantors (Balderaz) sin escritura previa visible hacia ellos desde 1972: cadena y capacidad de herederos sin verificar."
+      "Escritura de vesting 2018 con 4 grantors (Balderaz) sin escritura previa visible hacia ellos desde 1972: cadena y capacidad de herederos sin verificar.",
+      "REFRESH 2026-11-24: pago parcial de $200.00 en 2023 (en sentencia); cola del comprador sin cambio. Apertura $23,112.37 (retrieved 2026-11-13) puede estar desactualizada: reconfirmar. Un pago redondo sugiere plan de pagos/dueño activo: riesgo de retiro de la venta, que no se puede descartar sin consultar hctax el dia de la venta."
     ],
     "conditions_to_buy": [
       "Leer demandados y citación del cause 202586772 en hcdistrictclerk.com (login de Miguel) y bancarrota de Outland Amparo Banda en PACER; attorney review recommended",
       "Leer imagen de RP-2018-98456 y pedir cadena de título 1972-2018 a title company/abogado",
       "Pedir a la ciudad de South Houston certificado de liens (demolición/limpieza) y estado de cuenta de impuestos actualizado; confirmar apertura final antes de pujar",
       "Visita al sitio para confirmar ocupación y estado; plan de desocupación y redención (plazo y prima, attorney review recommended)",
-      "Solo pujar si el precio all-in deja >=25% sobre el valor ajustado -30% (~$74k de techo)"
+      "Solo pujar si el precio all-in deja >=25% sobre el valor ajustado -30% (~$74k de techo)",
+      "Dia de la venta/T-1: confirmar que la cuenta sigue en la lista del condado y la apertura final; preguntar al condado/abogado si hay plan de pagos o acuerdo de retiro (attorney review recommended)."
     ]
   }
 }

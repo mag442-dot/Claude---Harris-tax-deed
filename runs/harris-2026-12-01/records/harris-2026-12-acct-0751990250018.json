@@ -608,7 +608,7 @@
   },
   "review": {
     "decision": "CONDICIONAL",
-    "rationale": "Lote vacio de 12,400 sf (GIS 12,352, ~62x199 ft) en City of Houston, FEMA X, HCAD $102,000: el de cadena de titulo mas limpia del grupo. Hechos decisivos: (1) el indice por legal muestra cadena 2014 tax deed a unidades fiscales -> reventa 2015 -> W/D 02/27/2015 a Gaytan Crew Construction (20150079625) = dueno taxed, sin hipoteca, federal, HOA ni L/P posteriores a 2015 (los liens City 2009-2011 son de los Sandling, previos al tax deed); (2) legal bloqueado y la entidad dueña (direccion de apartamento) podria estar inactiva/forfeited, lo que afecta citacion; la ventana TRCP 329 (sentencia 2024-06-05) cerro por fecha el 2026-06-05, aplicable solo si hubo publicacion. COMPRA FUERTE no esta permitido porque legal esta bloqueado. Se mantiene CONDICIONAL con mejor soporte que en la revision barata; attorney review recommended.",
+    "rationale": "Lote vacio de 12,400 sf (GIS 12,352, ~62x199 ft) en City of Houston, FEMA X, HCAD $102,000: el de cadena de titulo mas limpia del grupo. Hechos decisivos: (1) el indice por legal muestra cadena 2014 tax deed a unidades fiscales -> reventa 2015 -> W/D 02/27/2015 a Gaytan Crew Construction (20150079625) = dueno taxed, sin hipoteca, federal, HOA ni L/P posteriores a 2015 (los liens City 2009-2011 son de los Sandling, previos al tax deed); (2) legal bloqueado y la entidad dueña (direccion de apartamento) podria estar inactiva/forfeited, lo que afecta citacion; la ventana TRCP 329 (sentencia 2024-06-05) cerro por fecha el 2026-06-05, aplicable solo si hubo publicacion. COMPRA FUERTE no esta permitido porque legal esta bloqueado. Se mantiene CONDICIONAL con mejor soporte que en la revision barata; attorney review recommended. REFRESH 2026-11-24 (tax): total adeudado bajo de $18,967.94 a $18,367.92 (-$600.02). Diff exacto vs HEAD: desaparecio el renglon 2018 ($331.13) y el 2019 bajo de $1,422.72 a $1,153.83 (-$268.89); 331.13+268.89=600.02 = pago(s) a anos EN sentencia. No es cierto que 2021 desaparecio ni que aparecio 2022 ni que se fue el renglon de $2,167.72: 2021, 2022 y 2025 ($2,167.72) siguen en la lista. Post-sentencia ($6,282.43) y cola del comprador ($8,450.15) no cambian, asi que costo total y decision no cambian; bid_ceiling y all_in_cost_estimate se copian de valuation actual (sin cambio). Senal de riesgo: el dueño (o tercero) esta pagando; si paga todo 2019-2023 (~$12,085) la venta puede retirarse; quedan abiertos 2019-2023 en sentencia, asi que hoy sigue vigente.",
     "bid_ceiling": 67135.78,
     "all_in_cost_estimate": 65715.57,
     "contradictions": [
@@ -617,14 +617,17 @@
       "Liens City of Houston 2009-2011 (20090371318...20110137477) sin liberacion: contra los Sandling, anteriores al tax deed de 2014; extincion es inferida. Si no se extinguieron, el modelo los tiene en $0 (liens_que_sobreviven='NO CUANTIFICADO').",
       "Cola de impuestos $8,450 (post-sentencia $6,282 + estimado 2026 $2,168) es la mayor del grupo; apertura $16,180 < total adeudado $18,968, es decir la apertura excluye los impuestos post-sentencia; el comprador los hereda: consistente con all_in_costs, pero verificar que 2025/2026 esten al dia en el estado de cuenta.",
       "Terreno HCAD en dos segmentos (8,000 + 4,400 sf) para un solo LT 18: confirmar que es un unico lote para duplex; entidad dueña con direccion de apartamento: estatus SOS no verificado.",
-      "Cierre esperado $51,714 (ratio 0.507) vs techo $67,136: el techo es teorico, sin comps."
+      "Cierre esperado $51,714 (ratio 0.507) vs techo $67,136: el techo es teorico, sin comps.",
+      "REFRESH 2026-11-24: pago de $600.02 sobre anos en sentencia (2018 pagado completo, 2019 parcial) segun diff HEAD; la descripcion del encargo (2021 fuera/2022 nuevo/renglon $2,167.72 fuera) no coincide con el registro. taxes_in_judgment sigue listando 2017-2018 (sin saldo) y la apertura ($16,179.52, retrieved 2026-11-13) puede estar desactualizada tras el pago: reconfirmar. La cola del comprador no cambia (solo toco anos en sentencia).",
+      "Pagos parciales en anos en sentencia = dueño activo: mayor riesgo de retiro de la venta o redencion/disputa; no hay accion nueva de legal/title que lo confirme (sin busquedas nuevas)."
     ],
     "conditions_to_buy": [
       "Confirmar estatus de Gaytan Crew Construction Co Inc en Texas SOS/Comptroller y leer en hcdistrictclerk.com (login de Miguel) demandados/citacion de la causa 202163448; attorney review recommended",
       "PACER: bancarrota de la entidad",
       "Ver imagenes 20150079625, 20150010358 y 20140420365 para confirmar que el tax deed 2014 y la reventa 2015 cortan los liens City 2009-2011 contra Sandling",
       "Estado de cuenta de impuestos actualizado (incluye 2026) y apertura final del 2026-12-01",
-      "Confirmar un solo lote (8,000+4,400 sf), zonificacion/restricciones y dimensiones (~62x199 ft) para duplex; visita al sitio"
+      "Confirmar un solo lote (8,000+4,400 sf), zonificacion/restricciones y dimensiones (~62x199 ft) para duplex; visita al sitio",
+      "Dia de la venta/T-1: confirmar en hctax saledetail que la cuenta sigue en la lista (no retirada) y la apertura final tras los pagos de 11/24; si el saldo en sentencia llega a 0, DESCARTAR."
     ]
   }
 }
