@@ -251,14 +251,14 @@
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=1132250000008",
-      "retrieved_at": "2026-11-24",
-      "note": "statement as of 11/24/2026"
+      "retrieved_at": "2026-11-26",
+      "note": "statement as of 11/26/2026"
     },
     "total_due_all_years": {
       "value": 39362.82,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=1132250000008",
-      "retrieved_at": "2026-11-24"
+      "retrieved_at": "2026-11-26"
     },
     "taxes_in_judgment": {
       "value": [
@@ -284,40 +284,40 @@
       ],
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=1132250000008",
-      "retrieved_at": "2026-11-24",
+      "retrieved_at": "2026-11-26",
       "note": "from county sale list ('Tax Years in Judgement'); a range 'a - b' is expanded to every year from a to b"
     },
     "post_judgment_taxes": {
       "value": 2729.12,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=1132250000008",
-      "retrieved_at": "2026-11-24"
+      "retrieved_at": "2026-11-26"
     },
     "current_year_estimate": {
       "value": 1960.87,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=1132250000008",
-      "retrieved_at": "2026-11-24",
+      "retrieved_at": "2026-11-26",
       "note": "base tax of 2025 as proxy for the 2026 bill (due 31 Jan); penalties not included"
     },
     "buyer_tax_tail_estimate": {
       "value": 4689.99,
       "status": "inferred",
       "source": "https://www.hctax.net/property/listings/saledetail?account=1132250000008",
-      "retrieved_at": "2026-11-24",
+      "retrieved_at": "2026-11-26",
       "note": "post-judgment years (statement totals incl. penalties) + current-year proxy; excludes later-year penalties and any account of other jurisdictions"
     },
     "assessed_owner_county": {
       "value": "CALFAT STELLA M 2100 WILCREST DR APT 124 HOUSTON TX 77042 2100 WILCREST DR 124 UNIT 124 BLDG B .004400 INT COMMON LAND & ELE LAKECREST CONDO PH 1",
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=1132250000008",
-      "retrieved_at": "2026-11-24"
+      "retrieved_at": "2026-11-26"
     },
     "appraised_value_county": {
       "value": 76190.0,
       "status": "verified",
       "source": "https://www.hctax.net/property/listings/saledetail?account=1132250000008",
-      "retrieved_at": "2026-11-24"
+      "retrieved_at": "2026-11-26"
     }
   },
   "physical": {
